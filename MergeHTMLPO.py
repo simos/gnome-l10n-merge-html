@@ -83,8 +83,8 @@ msgstr ""
         outputfile.write('\n\n')
 
         for i in range(0, count):
-           print >> outputfile, 'msgid "' + self.removenums(fileold[i].msgid) + '"'
-           print >> outputfile, 'msgstr "' + self.removenums(filenew[i].msgid) + '"'
+           print >> outputfile, 'msgid "' + self.removenums(fileold[i].msgid).replace('"', '\'') + '"'
+           print >> outputfile, 'msgstr "' + self.removenums(filenew[i].msgid).replace('"', '\'') + '"'
            print >> outputfile
 
         outputfile.close()
