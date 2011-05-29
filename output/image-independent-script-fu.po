@@ -31,29 +31,29 @@ msgstr "Διδακτική ενός Script-Fu"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="standalone-script-fu.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="standalone-script-fu.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='standalone-script-fu.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='standalone-script-fu.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-script-fu-tutorial.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-script-fu-tutorial.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-script-fu-tutorial.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-script-fu-tutorial.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="image-independent-script-fu"/>2.6. Image-Dependent Scripts"
-msgstr "<a id="image-independent-script-fu"/>2.6. Εικονοεξαρτώμενα σενάρια"
+msgid "<a id='image-independent-script-fu'/>2.6. Image-Dependent Scripts"
+msgstr "<a id='image-independent-script-fu'/>2.6. Εικονοεξαρτώμενα σενάρια"
 
-msgid "Now, scripts and filters that perform operations on an existing image are accessible directly by the appropriate menu. For example, the script <span class="guimenu">New Brush</span> (script-fu-paste-as-brush) is integrated in the <span class="guimenu">Edit</span> image menu (<span class="guimenu">Edit</span> → <span class="guimenuitem">Paste as...</span> → <span class="guimenuitem">New Brush</span>), that is more logical."
-msgstr "Τώρα, τα σενάρια και τα φίλτρα που εκτελούν ενέργειες σε μια υπάρχουσα εικόνα είναι προσβάσιμα απευθείας από το κατάλληλο μενού. Π.χ., το σενάριο <span class="guimenu">New Brush (νέο πινέλο)</span> (script-fu-paste-as-brush) είναι ενσωματωμένο στο μενού εικόνας <span class="guimenu">Επεξεργασία</span> (<span class="guimenu">Επεξεργασία</span> → <span class="guimenuitem">Αποθήκευση ως...</span> → <span class="guimenuitem">New Brush (νέο πινέλο)</span>), που είναι πιο λογικό."
+msgid "Now, scripts and filters that perform operations on an existing image are accessible directly by the appropriate menu. For example, the script <span class='guimenu'>New Brush</span> (script-fu-paste-as-brush) is integrated in the <span class='guimenu'>Edit</span> image menu (<span class='guimenu'>Edit</span> → <span class='guimenuitem'>Paste as...</span> → <span class='guimenuitem'>New Brush</span>), that is more logical."
+msgstr "Τώρα, τα σενάρια και τα φίλτρα που εκτελούν ενέργειες σε μια υπάρχουσα εικόνα είναι προσβάσιμα απευθείας από το κατάλληλο μενού. Π.χ., το σενάριο <span class='guimenu'>New Brush (νέο πινέλο)</span> (script-fu-paste-as-brush) είναι ενσωματωμένο στο μενού εικόνας <span class='guimenu'>Επεξεργασία</span> (<span class='guimenu'>Επεξεργασία</span> → <span class='guimenuitem'>Αποθήκευση ως...</span> → <span class='guimenuitem'>New Brush (νέο πινέλο)</span>), που είναι πιο λογικό."
 
-msgid "Furthermore, a new <span class="guimenu">Color</span> menu has been created that regroups together all that concern works on colors, the hue or level color adjustment tools, etc..."
-msgstr "Επιπλέον ένα νέο μενού έχει δημιουργηθεί <span class="guimenu">Χρώματα</span> που ξαναομαδοποιεί μαζί ότι αφορά εργασίες με χρώματα, την απόχρωση ή τα εργαλεία ρύθμισης στάθμης χρώματος κλ."
+msgid "Furthermore, a new <span class='guimenu'>Color</span> menu has been created that regroups together all that concern works on colors, the hue or level color adjustment tools, etc..."
+msgstr "Επιπλέον ένα νέο μενού έχει δημιουργηθεί <span class='guimenu'>Χρώματα</span> που ξαναομαδοποιεί μαζί ότι αφορά εργασίες με χρώματα, την απόχρωση ή τα εργαλεία ρύθμισης στάθμης χρώματος κλ."
 
-msgid "<span class="guimenu">Filters</span> menu and <span class="guimenu">Scripts-Fu</span> menu are regrouped in one <span class="guimenu">Filters</span> menu and organised according to new categories. Now if a plugin and a filter works similarly, they are nearby in the menu."
-msgstr "Το μενού <span class="guimenu">Φίλτρα</span> και το μενού <span class="guimenu">Scripts-Fu</span> ξαναομαδοποιήθηκαν σε ένα μενού <span class="guimenu">Φίλτρα</span> και οργανώθηκαν σύμφωνα με τις νέες κατηγορίες. Τώρα εάν ένα πρόσθετο και ένα φίλτρο δουλεύουν παρόμοια, είναι κοντά στο μενού."
+msgid "<span class='guimenu'>Filters</span> menu and <span class='guimenu'>Scripts-Fu</span> menu are regrouped in one <span class='guimenu'>Filters</span> menu and organised according to new categories. Now if a plugin and a filter works similarly, they are nearby in the menu."
+msgstr "Το μενού <span class='guimenu'>Φίλτρα</span> και το μενού <span class='guimenu'>Scripts-Fu</span> ξαναομαδοποιήθηκαν σε ένα μενού <span class='guimenu'>Φίλτρα</span> και οργανώθηκαν σύμφωνα με τις νέες κατηγορίες. Τώρα εάν ένα πρόσθετο και ένα φίλτρο δουλεύουν παρόμοια, είναι κοντά στο μενού."
 
-msgid "The <span class="guimenu">Scripts-Fu</span> menu only appears if you have loaded additional scripts: for example the gimp-resynthesizer pack corresponding to your Linux distribution (<code class="filename">.deb</code>, <code class="filename">.rpm</code>, <code class="filename">.gz</code> ...)."
-msgstr "Το μενού <span class="guimenu">Scripts-Fu</span> εμφανίζεται μόνο, εάν έχετε φορτώσει επιπρόσθετα σενάρια: π.χ. το πακέτο gimp-resynthesizer που αντιστοιχεί στη διανομή Linux (<code class="filename">.deb</code>, <code class="filename">.rpm</code>, <code class="filename">.gz</code> ...)."
+msgid "The <span class='guimenu'>Scripts-Fu</span> menu only appears if you have loaded additional scripts: for example the gimp-resynthesizer pack corresponding to your Linux distribution (<code class='filename'>.deb</code>, <code class='filename'>.rpm</code>, <code class='filename'>.gz</code> ...)."
+msgstr "Το μενού <span class='guimenu'>Scripts-Fu</span> εμφανίζεται μόνο, εάν έχετε φορτώσει επιπρόσθετα σενάρια: π.χ. το πακέτο gimp-resynthesizer που αντιστοιχεί στη διανομή Linux (<code class='filename'>.deb</code>, <code class='filename'>.rpm</code>, <code class='filename'>.gz</code> ...)."
 
 msgid "Up"
 msgstr "Επάνω"

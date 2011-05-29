@@ -28,17 +28,17 @@ msgstr "Αποθήκευση εικόνων με διαφάνεια"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-web.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-web.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-web.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-web.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-web-transparency.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-web-transparency.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-web-transparency.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-web-transparency.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-web-reducing-file-size"/>2.2. Reducing the File Size Even More"
-msgstr "<a id="gimp-using-web-reducing-file-size"/>2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
+msgid "<a id='gimp-using-web-reducing-file-size'/>2.2. Reducing the File Size Even More"
+msgstr "<a id='gimp-using-web-reducing-file-size'/>2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
 
 msgid "If you want to reduce the size of your image a bit more, you could convert your image to Indexed mode. That means that all of the colors will be reduced to only 256 values. Do not convert images with smooth color transitions or gradients to indexed mode, because the original smooth gradients are typically converted into a series of bands. Indexed mode is not recommended for photographs because after the conversion, they typically look coarse and grainy."
 msgstr "Εάν θέλετε να μειώσετε το μέγεθος της εικόνας σας παραπέρα, θα πρέπει να μετατρέψετε την εικόνα σας σε κατάσταση από χρωματολόγιο. Αυτό σημαίνει ότι όλα τα χρώματα θα μειωθούν σε μόνο 256 τιμές. Μη μετατρέπετε εικόνες με ήπια μετάβαση χρωμάτων ή διαβαθμίσεις σε κατάσταση από χρωματολόγιο, επειδή οι αρχικές ήπιες διαβαθμίσεις της αρχικής εικόνας μετατρέπονται σε μια σειρά από λουρίδες. Η κατάσταση από χρωματολόγιο δε συνιστάται για φωτογραφίες, επειδή μετά τη μετατροπή φαίνονται υποβαθμισμένες και κοκκώδης."
@@ -55,14 +55,14 @@ msgstr "Μια εικόνα από χρωματολόγιο μπορεί να φ
 msgid "Step 1"
 msgstr "Βήμα 1"
 
-msgid "Use the command described in <a class="xref" href="gimp-image-mode.html" title="6.3.&#xA0;Mode">Section 6.3, “Mode”</a> to convert an RGB image to indexed mode."
-msgstr "Χρησιμοποιείστε την εντολή που περιγράφεται στο <a class="xref" href="gimp-image-mode.html" title="6.3.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;">Ενότητα 6.3, “Κατάσταση”</a> για να μετατρέψετε μια εικόνα RGB σε κατάσταση από χρωματολόγιο."
+msgid "Use the command described in <a class='xref' href='gimp-image-mode.html' title='6.3.&#xA0;Mode'>Section 6.3, “Mode”</a> to convert an RGB image to indexed mode."
+msgstr "Χρησιμοποιείστε την εντολή που περιγράφεται στο <a class='xref' href='gimp-image-mode.html' title='6.3.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;'>Ενότητα 6.3, “Κατάσταση”</a> για να μετατρέψετε μια εικόνα RGB σε κατάσταση από χρωματολόγιο."
 
 msgid "Step 2"
 msgstr "Βήμα 2"
 
-msgid "After you convert an image to indexed mode, you are once again able to <a class="link" href="gimp-file-save.html" title="2.8.&#xA0;Save">save</a> the image in <a class="link" href="gimp-images-out.html#file-png-save-defaults">PNG format</a>."
-msgstr "Μετά τη μετατροπή σε εικόνα από χρωματολόγιο, μπορείτε πάλι να κάνετε <a class="link" href="gimp-file-save.html" title="2.8.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7;">αποθήκευση</a> της εικόνας σε μορφή <a class="link" href="gimp-images-out.html#file-png-save-defaults">PNG</a>."
+msgid "After you convert an image to indexed mode, you are once again able to <a class='link' href='gimp-file-save.html' title='2.8.&#xA0;Save'>save</a> the image in <a class='link' href='gimp-images-out.html#file-png-save-defaults'>PNG format</a>."
+msgstr "Μετά τη μετατροπή σε εικόνα από χρωματολόγιο, μπορείτε πάλι να κάνετε <a class='link' href='gimp-file-save.html' title='2.8.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7;'>αποθήκευση</a> της εικόνας σε μορφή <a class='link' href='gimp-images-out.html#file-png-save-defaults'>PNG</a>."
 
 msgid "Up"
 msgstr "Επάνω"

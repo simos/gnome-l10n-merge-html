@@ -31,17 +31,17 @@ msgstr "Μεταβλητές και συναρτήσεις"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="image-independent-script-fu.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="image-independent-script-fu.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='image-independent-script-fu.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='image-independent-script-fu.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-script-fu-tutorial-identifier.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-script-fu-tutorial-identifier.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-script-fu-tutorial"/>3. A Script-Fu Tutorial"
-msgstr "<a id="gimp-using-script-fu-tutorial"/>3. Διδακτική ενός Script-Fu"
+msgid "<a id='gimp-using-script-fu-tutorial'/>3. A Script-Fu Tutorial"
+msgstr "<a id='gimp-using-script-fu-tutorial'/>3. Διδακτική ενός Script-Fu"
 
 msgid "In this training course, we'll introduce you to the fundamentals of Scheme necessary to use Script-Fu, and then build a handy script that you can add to your toolbox of scripts. The script prompts the user for some text, then creates a new image sized perfectly to the text. We will then enhance the script to allow for a buffer of space around the text. We will conclude with a few suggestions for ways to ramp up your knowledge of Script-Fu."
 msgstr "Σε αυτή την άσκηση, θα σας εισάγουμε στα βασικά του Scheme που είναι απαραίτητα για τη χρήση του Script-Fu και έπειτα θα σχεδιάσουμε ένα εύχρηστο σενάριο που μπορείτε να προσθέσετε στην εργαλειοθήκη των σεναρίων σας. Το σενάριο προτρέπει το χρήστη για κάποιο κείμενο, έπειτα δημιουργεί μια νέα εικόνα τέλεια προσαρμοσμένη στο κείμενο. Θα βελτιώσουμε έπειτα το σενάριο ώστε να επιτρέψει έναν χώρο γύρω από το κείμενο. Θα καταλήξουμε με λίγες προτάσεις για τρόπους να επεκτείνουμε τη γνώση σας για το Script-Fu."
@@ -52,20 +52,20 @@ msgstr "Σημείωση"
 msgid "[Note]"
 msgstr "[Σημείωση]"
 
-msgid "This section as adapted from a tutorial written for the <span class="application"><acronym class="acronym">GIMP</acronym> 1</span> User Manual by Mike Terry."
+msgid "This section as adapted from a tutorial written for the <span class='application'><acronym class='acronym'>GIMP</acronym> 1</span> User Manual by Mike Terry."
 msgstr "Αυτή η ενότητα προσαρμόστηκε από μια διδαχή γραμμένη για το εγχειρίδιο χρήστη του GIMP 1 από τον Mike Terry."
 
 msgid "Getting Acquainted With Scheme"
 msgstr "Εξοικείωση με το Scheme"
 
-msgid "<a id="gimp-using-script-fu-tutorial-scheme"/>3.1. Getting Acquainted With Scheme"
-msgstr "<a id="gimp-using-script-fu-tutorial-scheme"/>3.1. Εξοικείωση με το Scheme"
+msgid "<a id='gimp-using-script-fu-tutorial-scheme'/>3.1. Getting Acquainted With Scheme"
+msgstr "<a id='gimp-using-script-fu-tutorial-scheme'/>3.1. Εξοικείωση με το Scheme"
 
 msgid "Let's Start Scheme'ing"
 msgstr "Ξεκίνημα με το Scheme"
 
-msgid "<a id="id3234339"/>3.1.1. Let's Start Scheme'ing"
-msgstr "<a id="id3234339"/>3.1.1. Ξεκίνημα με το Scheme"
+msgid "<a id='id3234339'/>3.1.1. Let's Start Scheme'ing"
+msgstr "<a id='id3234339'/>3.1.1. Ξεκίνημα με το Scheme"
 
 msgid "The first thing to learn is that:"
 msgstr "Το πρώτο πράγμα για να μάθετε είναι ότι:"
@@ -94,44 +94,44 @@ msgstr "Αυτό ακολουθεί λογικά από την προθεματ�
 msgid "Examples Of Prefix, Infix, And Postfix Notations"
 msgstr "Παραδείγματα προθεματικής, ενθεματικής και επιθεματικής σημειογραφίας"
 
-msgid "<a id="id3238431"/>3.1.2. Examples Of Prefix, Infix, And Postfix Notations"
-msgstr "<a id="id3238431"/>3.1.2. Παραδείγματα προθεματικής, ενθεματικής και επιθεματικής σημειογραφίας"
+msgid "<a id='id3238431'/>3.1.2. Examples Of Prefix, Infix, And Postfix Notations"
+msgstr "<a id='id3238431'/>3.1.2. Παραδείγματα προθεματικής, ενθεματικής και επιθεματικής σημειογραφίας"
 
-msgid "Here are some quick examples illustrating the differences between <span class="emphasis"><em>prefix</em></span>, <span class="emphasis"><em>infix</em></span>, and <span class="emphasis"><em>postfix</em></span> notations. We'll add a 1 and 23 together:"
-msgstr "Ιδού μερικά γρήγορα επεξηγηματικά παραδείγματα των διαφορών μεταξύ <span class="emphasis"><em>προθεματικής</em></span>, <span class="emphasis"><em>ενθεματικής</em></span> και <span class="emphasis"><em>επιθεματικής</em></span> σημειογραφίας. Θα προσθέσουμε το 1 και το 23 μαζί:"
+msgid "Here are some quick examples illustrating the differences between <span class='emphasis'><em>prefix</em></span>, <span class='emphasis'><em>infix</em></span>, and <span class='emphasis'><em>postfix</em></span> notations. We'll add a 1 and 23 together:"
+msgstr "Ιδού μερικά γρήγορα επεξηγηματικά παραδείγματα των διαφορών μεταξύ <span class='emphasis'><em>προθεματικής</em></span>, <span class='emphasis'><em>ενθεματικής</em></span> και <span class='emphasis'><em>επιθεματικής</em></span> σημειογραφίας. Θα προσθέσουμε το 1 και το 23 μαζί:"
 
-msgid "Prefix notation: <strong class="userinput"><code>+ 1 23</code></strong> (the way Scheme will want it)"
-msgstr "Προθεματική σημειογραφία: <strong class="userinput"><code>+ 1 23</code></strong> ( ο τρόπος του Scheme)"
+msgid "Prefix notation: <strong class='userinput'><code>+ 1 23</code></strong> (the way Scheme will want it)"
+msgstr "Προθεματική σημειογραφία: <strong class='userinput'><code>+ 1 23</code></strong> ( ο τρόπος του Scheme)"
 
-msgid "Infix notation: <strong class="userinput"><code>1 + 23</code></strong> (the way we <span class="quote">“<span class="quote">normally</span>”</span> write it)"
-msgstr "Ενθεματική σημειογραφία: <strong class="userinput"><code>1 + 23</code></strong> (ο τρόπος που <span class="quote">“<span class="quote">κανονικά</span>”</span> γράφουμε)"
+msgid "Infix notation: <strong class='userinput'><code>1 + 23</code></strong> (the way we <span class='quote'>“<span class='quote'>normally</span>”</span> write it)"
+msgstr "Ενθεματική σημειογραφία: <strong class='userinput'><code>1 + 23</code></strong> (ο τρόπος που <span class='quote'>“<span class='quote'>κανονικά</span>”</span> γράφουμε)"
 
-msgid "Postfix notation: <strong class="userinput"><code>1 23 +</code></strong> (the way many <acronym class="acronym">HP</acronym> calculators will want it)"
-msgstr "μεταθεματική σημειογραφία: <strong class="userinput"><code>1 23 +</code></strong> (ο τρόπος που πολλές αριθμομηχανές HP θέλουν)"
+msgid "Postfix notation: <strong class='userinput'><code>1 23 +</code></strong> (the way many <acronym class='acronym'>HP</acronym> calculators will want it)"
+msgstr "μεταθεματική σημειογραφία: <strong class='userinput'><code>1 23 +</code></strong> (ο τρόπος που πολλές αριθμομηχανές HP θέλουν)"
 
 msgid "Practicing In Scheme"
 msgstr "Πρακτική στο Scheme"
 
-msgid "<a id="id3238385"/>3.1.3. Practicing In Scheme"
-msgstr "<a id="id3238385"/>3.1.3. Πρακτική στο Scheme"
+msgid "<a id='id3238385'/>3.1.3. Practicing In Scheme"
+msgstr "<a id='id3238385'/>3.1.3. Πρακτική στο Scheme"
 
-msgid "Now, let's practice what we have just learned. Start up <acronym class="acronym">GIMP</acronym>, if you have not already done so, and choose <span class="guimenu">Filters</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Console</span>. This will start up the Script-Fu Console window, which allows us to work interactively in Scheme. In a matter of moments, the Script-Fu Console will appear:"
-msgstr "Τώρα, ας εξασκήσουμε ότι μόλις μάθαμε. Ξεκινήστε το GIMP, εάν δεν το έχετε ήδη κάνει και επιλέξτε <span class="guimenu">Φίλτρα</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Console (κονσόλα)</span>. Αυτό θα ξεκινήσει το παράθυρο κονσόλας Script-Fu που μας επιτρέπει να εργαστούμε αλληλεπιδραστικά στο Scheme. Σε λίγες στιγμές εμφανίζεται η κονσόλα Script-Fu:"
+msgid "Now, let's practice what we have just learned. Start up <acronym class='acronym'>GIMP</acronym>, if you have not already done so, and choose <span class='guimenu'>Filters</span> → <span class='guisubmenu'>Script-Fu</span> → <span class='guimenuitem'>Console</span>. This will start up the Script-Fu Console window, which allows us to work interactively in Scheme. In a matter of moments, the Script-Fu Console will appear:"
+msgstr "Τώρα, ας εξασκήσουμε ότι μόλις μάθαμε. Ξεκινήστε το GIMP, εάν δεν το έχετε ήδη κάνει και επιλέξτε <span class='guimenu'>Φίλτρα</span> → <span class='guisubmenu'>Script-Fu</span> → <span class='guimenuitem'>Console (κονσόλα)</span>. Αυτό θα ξεκινήσει το παράθυρο κονσόλας Script-Fu που μας επιτρέπει να εργαστούμε αλληλεπιδραστικά στο Scheme. Σε λίγες στιγμές εμφανίζεται η κονσόλα Script-Fu:"
 
 msgid "The Script-Fu Console Window"
 msgstr "Το παράθυρο κονσόλας Script-Fu"
 
-msgid "<a id="gimp-using-script-fu-tutorial-console"/>3.1.4. The Script-Fu Console Window"
-msgstr "<a id="gimp-using-script-fu-tutorial-console"/>3.1.4. Το παράθυρο κονσόλας Script-Fu"
+msgid "<a id='gimp-using-script-fu-tutorial-console'/>3.1.4. The Script-Fu Console Window"
+msgstr "<a id='gimp-using-script-fu-tutorial-console'/>3.1.4. Το παράθυρο κονσόλας Script-Fu"
 
-msgid "At the bottom of this window is an entry-field ought to be entitled <span class="guilabel">Current Command</span>. Here, we can test out simple Scheme commands interactively. Let's start out easy, and add some numbers:"
-msgstr "Στον πάτο αυτού του παραθύρου είναι ένα πεδίο εισόδου που πρέπει να τιτλοφορείται <span class="guilabel">Current Command (τρέχουσα εντολή)</span>. Εδώ, μπορούμε να ελέγξουμε απλές εντολές Scheme αλληλεπιδραστικά. Ας ξεκινήσουμε εύκολα και ας προσθέσουμε μερικούς αριθμούς:"
+msgid "At the bottom of this window is an entry-field ought to be entitled <span class='guilabel'>Current Command</span>. Here, we can test out simple Scheme commands interactively. Let's start out easy, and add some numbers:"
+msgstr "Στον πάτο αυτού του παραθύρου είναι ένα πεδίο εισόδου που πρέπει να τιτλοφορείται <span class='guilabel'>Current Command (τρέχουσα εντολή)</span>. Εδώ, μπορούμε να ελέγξουμε απλές εντολές Scheme αλληλεπιδραστικά. Ας ξεκινήσουμε εύκολα και ας προσθέσουμε μερικούς αριθμούς:"
 
 msgid "(+ 3 5)"
 msgstr "(+ 3 5)"
 
-msgid "Typing this in and hitting <span class="keycap"><strong>Enter</strong></span> yields the expected answer of 8 in the center window."
-msgstr "Γράφοντας αυτό και πατώντας <span class="keycap"><strong>Enter (Εισαγωγή)</strong></span> παράγεται η αναμενόμενη απάντηση 8 στο κεντρικό παράθυρο."
+msgid "Typing this in and hitting <span class='keycap'><strong>Enter</strong></span> yields the expected answer of 8 in the center window."
+msgstr "Γράφοντας αυτό και πατώντας <span class='keycap'><strong>Enter (Εισαγωγή)</strong></span> παράγεται η αναμενόμενη απάντηση 8 στο κεντρικό παράθυρο."
 
 msgid "Figure 12.3. Use Script-Fu Console."
 msgstr "Εικόνα 12.3. Χρήση κονσόλας Script-Fu."
@@ -139,8 +139,8 @@ msgstr "Εικόνα 12.3. Χρήση κονσόλας Script-Fu."
 msgid "Use Script-Fu Console."
 msgstr "Χρήση κονσόλας Script-Fu."
 
-msgid "Now, what if we wanted to add more than one number? The <span class="quote">“<span class="quote">+</span>”</span> function can take two or more arguments, so this is not a problem:"
-msgstr "Τώρα, τι γίνεται αν θέλουμε να προσθέσουμε περισσότερους από έναν αριθμούς; Η συνάρτηση <span class="quote">“<span class="quote">+</span>”</span> μπορεί να δεχθεί δύο ή περισσότερα ορίσματα, άρα αυτό δεν είναι πρόβλημα:"
+msgid "Now, what if we wanted to add more than one number? The <span class='quote'>“<span class='quote'>+</span>”</span> function can take two or more arguments, so this is not a problem:"
+msgstr "Τώρα, τι γίνεται αν θέλουμε να προσθέσουμε περισσότερους από έναν αριθμούς; Η συνάρτηση <span class='quote'>“<span class='quote'>+</span>”</span> μπορεί να δεχθεί δύο ή περισσότερα ορίσματα, άρα αυτό δεν είναι πρόβλημα:"
 
 msgid "(+ 3 5 6)"
 msgstr "(+ 3 5 6)"
@@ -154,8 +154,8 @@ msgstr "Μέχρι εδώ καλά — γράφουμε στο Scheme μια π�
 msgid "Watch Out For Extra Parentheses"
 msgstr "Προσοχή για επιπλέον παρενθέσεις"
 
-msgid "<a id="id3231840"/>3.1.5. Watch Out For Extra Parentheses"
-msgstr "<a id="id3231840"/>3.1.5. Προσοχή για επιπλέον παρενθέσεις"
+msgid "<a id='id3231840'/>3.1.5. Watch Out For Extra Parentheses"
+msgstr "<a id='id3231840'/>3.1.5. Προσοχή για επιπλέον παρενθέσεις"
 
 msgid "If you're like me, you're used to being able to use extra parentheses whenever you want to — like when you're typing a complex mathematical equation and you want to separate the parts by parentheses to make it clearer when you read it. In Scheme, you have to be careful and not insert these extra parentheses incorrectly. For example, say we wanted to add 3 to the result of adding 5 and 6 together:"
 msgstr "Εάν είσθε σαν κι εμένα, έχετε συνηθίσει να μπορείτε να χρησιμοποιείται επιπλέον παρενθέσεις όταν θέλετε - όπως όταν τυπώνετε μια σύνθετη μαθηματική εξίσωση και θέλετε να ξεχωρίσετε τα μέρη με παρενθέσεις για να φαίνεται καθαρότερα όταν διαβάζεται την εξίσωση. Στο Scheme, πρέπει να είσαστε προσεκτικός και να μην εισάγετε αυτές τις επιπλέον παρενθέσεις λανθασμένα. Π.χ., ας πούμε ότι θέλουμε να προσθέσουμε 3 στο αποτέλεσμα της πρόσθεσης 5 και 6 και μετά να προσθέσουμε 7:"
@@ -169,8 +169,8 @@ msgstr "Ξέροντας ότι ο τελεστής + δέχεται μια λί
 msgid "(+ 3 (5 6) 7)"
 msgstr "(+ 3 (5 6) 7)"
 
-msgid "However, this is incorrect — remember, every statement in Scheme starts and ends with parens, so the Scheme interpreter will think that you're trying to call a function named <span class="quote">“<span class="quote">5</span>”</span> in the second group of parens, rather than summing those numbers before adding them to 3."
-msgstr "Όμως, αυτό είναι λάθος, — θυμηθείτε, κάθε πρόταση στο Scheme αρχίζει και τελειώνει με παρενθέσεις, έτσι ο ερμηνευτής του Scheme θα σκεφτεί ότι προσπαθείτε να καλέσετε μια συνάρτηση που ονομάζετε <span class="quote">“<span class="quote">5</span>”</span> στην δεύτερη ομάδα των παρενθέσεων, παρά ότι προσθέτετε αυτούς τους αριθμούς πριν τους προσθέσετε στο 3."
+msgid "However, this is incorrect — remember, every statement in Scheme starts and ends with parens, so the Scheme interpreter will think that you're trying to call a function named <span class='quote'>“<span class='quote'>5</span>”</span> in the second group of parens, rather than summing those numbers before adding them to 3."
+msgstr "Όμως, αυτό είναι λάθος, — θυμηθείτε, κάθε πρόταση στο Scheme αρχίζει και τελειώνει με παρενθέσεις, έτσι ο ερμηνευτής του Scheme θα σκεφτεί ότι προσπαθείτε να καλέσετε μια συνάρτηση που ονομάζετε <span class='quote'>“<span class='quote'>5</span>”</span> στην δεύτερη ομάδα των παρενθέσεων, παρά ότι προσθέτετε αυτούς τους αριθμούς πριν τους προσθέσετε στο 3."
 
 msgid "The correct way to write the above statement would be:"
 msgstr "Ο σωστός τρόπος να γράψετε την παραπάνω πρόταση θα ήταν:"
@@ -181,8 +181,8 @@ msgstr "(+ 3 (+ 5 6) 7)"
 msgid "Make Sure You Have The Proper Spacing, Too"
 msgstr "Βεβαιωθείτε ότι έχετε το κατάλληλο διάκενο, επίσης."
 
-msgid "<a id="id3231787"/>3.1.6. Make Sure You Have The Proper Spacing, Too"
-msgstr "<a id="id3231787"/>3.1.6. Βεβαιωθείτε ότι έχετε το κατάλληλο διάκενο, επίσης."
+msgid "<a id='id3231787'/>3.1.6. Make Sure You Have The Proper Spacing, Too"
+msgstr "<a id='id3231787'/>3.1.6. Βεβαιωθείτε ότι έχετε το κατάλληλο διάκενο, επίσης."
 
 msgid "If you are familiar with other programming languages, like C/C++, Perl or Java, you know that you don't need white space around mathematical operators to properly form an expression:"
 msgstr "Εάν είστε εξοικειωμένος με άλλες προγραμματιστικές γλώσσες, όπως C/C++, Perl ή Java, ξέρετε ότι δεν χρειαζόσαστε λευκά κενά γύρω από τους μαθηματικούς τελεστές για να μορφοποιήσετε κατάλληλα μια έκφραση:"

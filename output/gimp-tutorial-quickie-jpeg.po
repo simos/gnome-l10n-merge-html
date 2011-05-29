@@ -31,17 +31,17 @@ msgstr "Περικοπή μιας εικόνας"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-tutorial-quickie-scale.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-tutorial-quickie-scale.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-tutorial-quickie-scale.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-tutorial-quickie-scale.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-tutorial-quickie-crop.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-tutorial-quickie-crop.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-tutorial-quickie-crop.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-tutorial-quickie-crop.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-tutorial-quickie-jpeg"/>4.3. Make JPEGs Smaller"
-msgstr "<a id="gimp-tutorial-quickie-jpeg"/>4.3. Σμίκρυνση JPEGs"
+msgid "<a id='gimp-tutorial-quickie-jpeg'/>4.3. Make JPEGs Smaller"
+msgstr "<a id='gimp-tutorial-quickie-jpeg'/>4.3. Σμίκρυνση JPEGs"
 
 msgid "Figure 3.20. Example Image for JPEG Saving"
 msgstr "Εικόνα 3.20. Παράδειγμα εικόνας για αποθήκευση JPEG"
@@ -49,8 +49,8 @@ msgstr "Εικόνα 3.20. Παράδειγμα εικόνας για αποθ
 msgid "Example Image for JPEG Saving"
 msgstr "Παράδειγμα εικόνας για αποθήκευση JPEG"
 
-msgid "You can make your jpegs smaller (use less space on disk) without changing the image dimensions. The image for this example is also take from APOD <a class="xref" href="bibliography.html#bibliography-online-apod04" title="Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15)">[<abbr class="abbrev">APOD04</abbr>]</a>. The original image is huge (3000 pixels wide) so first I reduced the width and height for better use on the web (see <a class="xref" href="gimp-tutorial-quickie-scale.html" title="4.2.&#xA0;Change the Size of an Image (Scale)">Section 4.2, “Change the Size of an Image (Scale)”</a>). Use <span class="guimenu">File</span> → <span class="guimenuitem">Save As</span> to open the Save Image dialog."
-msgstr "Μπορείτε να σμικρύνετε τις jpegs εικόνες (χρήση λιγότερου χώρου στο δίσκο) χωρίς αλλαγή των διαστάσεων της εικόνας. Η εικόνα για αυτό το παράδειγμα είναι επίσης από το APOD <a class="xref" href="bibliography.html#bibliography-online-apod04" title="Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15)">[<abbr class="abbrev">APOD04</abbr>]</a>. Η αυθεντική εικόνα είναι τεράστια (3000 εικονοστοιχεία πλατιά), έτσι πρώτα μείωσα το πλάτος και το ύψος για καλύτερη χρήση στον ιστό (δείτε <a class="xref" href="gimp-tutorial-quickie-scale.html" title="4.2.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C4;&#x3BF;&#x3C5; &#x3BC;&#x3B5;&#x3B3;&#x3AD;&#x3B8;&#x3BF;&#x3C5;&#x3C2; &#x3BC;&#x3B9;&#x3B1;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2; (&#x3BA;&#x3BB;&#x3AF;&#x3BC;&#x3B1;&#x3BA;&#x3B1;)">Μέρος  4.2, “Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)”</a>). Ενεργοποιείστε <span class="guimenu">Αρχείο</span> → <span class="guimenuitem">Αποθήκευση ως</span> για να ανοίξετε το διάλογο αποθήκευση εικόνας."
+msgid "You can make your jpegs smaller (use less space on disk) without changing the image dimensions. The image for this example is also take from APOD <a class='xref' href='bibliography.html#bibliography-online-apod04' title='Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15)'>[<abbr class='abbrev'>APOD04</abbr>]</a>. The original image is huge (3000 pixels wide) so first I reduced the width and height for better use on the web (see <a class='xref' href='gimp-tutorial-quickie-scale.html' title='4.2.&#xA0;Change the Size of an Image (Scale)'>Section 4.2, “Change the Size of an Image (Scale)”</a>). Use <span class='guimenu'>File</span> → <span class='guimenuitem'>Save As</span> to open the Save Image dialog."
+msgstr "Μπορείτε να σμικρύνετε τις jpegs εικόνες (χρήση λιγότερου χώρου στο δίσκο) χωρίς αλλαγή των διαστάσεων της εικόνας. Η εικόνα για αυτό το παράδειγμα είναι επίσης από το APOD <a class='xref' href='bibliography.html#bibliography-online-apod04' title='Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15)'>[<abbr class='abbrev'>APOD04</abbr>]</a>. Η αυθεντική εικόνα είναι τεράστια (3000 εικονοστοιχεία πλατιά), έτσι πρώτα μείωσα το πλάτος και το ύψος για καλύτερη χρήση στον ιστό (δείτε <a class='xref' href='gimp-tutorial-quickie-scale.html' title='4.2.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3C4;&#x3BF;&#x3C5; &#x3BC;&#x3B5;&#x3B3;&#x3AD;&#x3B8;&#x3BF;&#x3C5;&#x3C2; &#x3BC;&#x3B9;&#x3B1;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2; (&#x3BA;&#x3BB;&#x3AF;&#x3BC;&#x3B1;&#x3BA;&#x3B1;)'>Μέρος  4.2, “Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)”</a>). Ενεργοποιείστε <span class='guimenu'>Αρχείο</span> → <span class='guimenuitem'>Αποθήκευση ως</span> για να ανοίξετε το διάλογο αποθήκευση εικόνας."
 
 msgid "Figure 3.21. Save Image Dialog"
 msgstr "Εικόνα 3.21. Αποθήκευση διαλόγου εικόνας"
@@ -58,8 +58,8 @@ msgstr "Εικόνα 3.21. Αποθήκευση διαλόγου εικόνα�
 msgid "Save Image Dialog"
 msgstr "Αποθήκευση διαλόγου εικόνας"
 
-msgid "I usually type the full filename with extension into Name text box, and <acronym class="acronym">GIMP</acronym> determines the file type from the file extension; for example, .jpg. Use the file extension list, circled in the figure above, to see the types supported by <acronym class="acronym">GIMP</acronym>. The supported extensions change depending on your installed libraries. If <acronym class="acronym">GIMP</acronym> complains, or if <span class="quote">“<span class="quote">JPEG</span>”</span> is grayed out in the Extensions menu, cancel out of everything and step through the <a class="xref" href="gimp-tutorial-quickie-change-mode.html" title="4.6.&#xA0;Change the Mode">Section 4.6, “Change the Mode”</a>."
-msgstr "Συνήθως τυπώνω το πλήρες όνομα με επέκταση στο πλαίσιο κείμενο ονόματος και το GIMP προσδιορίζει τον τύπο αρχείου από την επέκταση του αρχείου, π.χ. .jpg. Χρησιμοποιείστε το αρχείο κατάλογος επεκτάσεων, που είναι κυκλωμένος στην πιο πάνω εικόνα, για να δείτε τους τύπους που υποστηρίζονται από το GIMP. Η αλλαγή των υποστηριζόμενων επεκτάσεων εξαρτάται από τις εγκατεστημένες βιβλιοθήκες. Εάν το GIMP παραπονεθεί, ή εάν το “<span class="quote">JPEG</span>” γκριζάρει στο μενού επεκτάσεων, ακυρώστε τα πάντα και προχωρήστε στο <a class="xref" href="gimp-tutorial-quickie-change-mode.html" title="4.6.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2;">Μέρος 4.6, “Αλλαγή κατάστασης”</a>."
+msgid "I usually type the full filename with extension into Name text box, and <acronym class='acronym'>GIMP</acronym> determines the file type from the file extension; for example, .jpg. Use the file extension list, circled in the figure above, to see the types supported by <acronym class='acronym'>GIMP</acronym>. The supported extensions change depending on your installed libraries. If <acronym class='acronym'>GIMP</acronym> complains, or if <span class='quote'>“<span class='quote'>JPEG</span>”</span> is grayed out in the Extensions menu, cancel out of everything and step through the <a class='xref' href='gimp-tutorial-quickie-change-mode.html' title='4.6.&#xA0;Change the Mode'>Section 4.6, “Change the Mode”</a>."
+msgstr "Συνήθως τυπώνω το πλήρες όνομα με επέκταση στο πλαίσιο κείμενο ονόματος και το GIMP προσδιορίζει τον τύπο αρχείου από την επέκταση του αρχείου, π.χ. .jpg. Χρησιμοποιείστε το αρχείο κατάλογος επεκτάσεων, που είναι κυκλωμένος στην πιο πάνω εικόνα, για να δείτε τους τύπους που υποστηρίζονται από το GIMP. Η αλλαγή των υποστηριζόμενων επεκτάσεων εξαρτάται από τις εγκατεστημένες βιβλιοθήκες. Εάν το GIMP παραπονεθεί, ή εάν το “<span class='quote'>JPEG</span>” γκριζάρει στο μενού επεκτάσεων, ακυρώστε τα πάντα και προχωρήστε στο <a class='xref' href='gimp-tutorial-quickie-change-mode.html' title='4.6.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2;'>Μέρος 4.6, “Αλλαγή κατάστασης”</a>."
 
 msgid "The Save as JPEG dialog uses default values that reduce size while retaining good visual quality; this is the safest and quickest thing to do."
 msgstr "Ο διάλογος αποθήκευση ως JPEG χρησιμοποιεί προκαθορισμένες τιμές που μειώνουν το μέγεθος ενώ διατηρούν καλή οπτική ποιότητα. Αυτός είναι ο πιο ασφαλής και πιο γρήγορος τρόπος."
@@ -70,8 +70,8 @@ msgstr "Εικόνα 3.22. Ο διάλογος αποθήκευση ως JEPG 
 msgid "Save as JEPG dialog with poor quality."
 msgstr "Ο διάλογος αποθήκευση ως JEPG με χαμηλή ποιότητα."
 
-msgid "Reduce the image Quality to to make the image even smaller. Reduced quality degrades the image, so be certain to check <span class="quote">“<span class="quote">Show preview in image window</span>”</span>. As shown in the figure above, a Quality of 6 produces a very poor quality image that uses very little disk space. The figure below shows a more reasonable image. A quality of 42 produces a reasonable image using much less disk space, which will, in turn, load much faster on a web page. Although the image is degraded, it is acceptable for the intended purpose."
-msgstr "Μείωση της ποιότητας της εικόνας κάνει την εικόνα ακόμα πιο μικρή. Μειωμένη ποιότητα υποβαθμίζει την εικόνα, γι' αυτό σιγουρευτείτε να επιλέξετε “<span class="quote">Εμφάνιση προεπισκόπησης στο παράθυρο εικόνας</span>”. Όπως φαίνεται στην παραπάνω εικόνα, μια ποιότητα του 6 παράγει εικόνα πολύ χαμηλής ποιότητας που χρησιμοποιεί πολύ μικρό χώρο δίσκου. Η παρακάτω εικόνα δείχνει μια πιο λογική εικόνα. Μια ποιότητα του 42 παράγει μια λογική εικόνα χρησιμοποιώντας πολύ λιγότερο χώρο δίσκου, που με τη σειρά του θα φορτωθεί πολύ πιο γρήγορα σε μια ιστοσελίδα. Αν και η εικόνα υποβαθμίζεται, είναι αποδεκτό για την προοριζόμενη χρήση."
+msgid "Reduce the image Quality to to make the image even smaller. Reduced quality degrades the image, so be certain to check <span class='quote'>“<span class='quote'>Show preview in image window</span>”</span>. As shown in the figure above, a Quality of 6 produces a very poor quality image that uses very little disk space. The figure below shows a more reasonable image. A quality of 42 produces a reasonable image using much less disk space, which will, in turn, load much faster on a web page. Although the image is degraded, it is acceptable for the intended purpose."
+msgstr "Μείωση της ποιότητας της εικόνας κάνει την εικόνα ακόμα πιο μικρή. Μειωμένη ποιότητα υποβαθμίζει την εικόνα, γι' αυτό σιγουρευτείτε να επιλέξετε “<span class='quote'>Εμφάνιση προεπισκόπησης στο παράθυρο εικόνας</span>”. Όπως φαίνεται στην παραπάνω εικόνα, μια ποιότητα του 6 παράγει εικόνα πολύ χαμηλής ποιότητας που χρησιμοποιεί πολύ μικρό χώρο δίσκου. Η παρακάτω εικόνα δείχνει μια πιο λογική εικόνα. Μια ποιότητα του 42 παράγει μια λογική εικόνα χρησιμοποιώντας πολύ λιγότερο χώρο δίσκου, που με τη σειρά του θα φορτωθεί πολύ πιο γρήγορα σε μια ιστοσελίδα. Αν και η εικόνα υποβαθμίζεται, είναι αποδεκτό για την προοριζόμενη χρήση."
 
 msgid "Figure 3.23. Dialog for Image Saving as JPEG"
 msgstr "Εικόνα 3.23. Διάλογος για αποθήκευση εικόνας ως JPEG"
@@ -100,7 +100,7 @@ msgstr "Εικόνα 3.25. Παράδειγμα για μέτρια συμπί
 msgid "Example for Moderate JPEG Compression"
 msgstr "Παράδειγμα για μέτρια συμπίεση JPEG"
 
-msgid "Quality: 85 (<acronym class="acronym">GIMP</acronym>s default); Size: 6837 Bytes"
+msgid "Quality: 85 (<acronym class='acronym'>GIMP</acronym>s default); Size: 6837 Bytes"
 msgstr "Ποιότητα: 85. Το προεπιλεγμένο του GIMP, μέγεθος: 6837 Bytes"
 
 msgid "Quality: 100; Size: 20,971 Bytes"

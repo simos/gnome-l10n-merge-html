@@ -31,23 +31,23 @@ msgstr "Αντιγραφή και επικόλληση"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-file-manager.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-file-manager.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-file-manager.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-file-manager.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-open-copy-and-paste.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-open-copy-and-paste.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-open-copy-and-paste.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-open-copy-and-paste.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-drag-and-drop"/>3.6. Drag and Drop"
-msgstr "<a id="gimp-using-drag-and-drop"/>3.6. Σύρσιμο και απόθεση"
+msgid "<a id='gimp-using-drag-and-drop'/>3.6. Drag and Drop"
+msgstr "<a id='gimp-using-drag-and-drop'/>3.6. Σύρσιμο και απόθεση"
 
-msgid "Drag and drop a file onto the <acronym class="acronym">GIMP</acronym> Toolbox to open the file. Drag an image into an open <acronym class="acronym">GIMP</acronym> image to add dropped file as a new layer, or set of layers, to the already open image."
+msgid "Drag and drop a file onto the <acronym class='acronym'>GIMP</acronym> Toolbox to open the file. Drag an image into an open <acronym class='acronym'>GIMP</acronym> image to add dropped file as a new layer, or set of layers, to the already open image."
 msgstr "Σύρτε και αποθέστε ένα αρχείο στην εργαλειοθήκη του GIMP για να ανοίξετε το αρχείο. Σύρτε μια εικόνα σε μια ανοικτή εικόνα του GIMP, για να προσθέσετε το εναποτιθέμενο αρχείο ως μία νέα στρώση ή σύνολο στρώσεων, στην ήδη ανοικτή εικόνα."
 
-msgid "Many applications support dragging and dropping an image into <acronym class="acronym">GIMP</acronym>; for example, drag an image from <span class="application">Firefox</span> and drop it onto <acronym class="acronym">GIMP</acronym>'s toolbox."
-msgstr "Πολλές εφαρμογές υποστηρίζουν σύρσιμο και απόθεση μιας εικόνας στο GIMP, όπως για παράδειγμα, σύρτε μια εικόνα από το <span class="application">Firefox</span> και αποθέστε την στην εργαλειοθήκη του GIMP."
+msgid "Many applications support dragging and dropping an image into <acronym class='acronym'>GIMP</acronym>; for example, drag an image from <span class='application'>Firefox</span> and drop it onto <acronym class='acronym'>GIMP</acronym>'s toolbox."
+msgstr "Πολλές εφαρμογές υποστηρίζουν σύρσιμο και απόθεση μιας εικόνας στο GIMP, όπως για παράδειγμα, σύρτε μια εικόνα από το <span class='application'>Firefox</span> και αποθέστε την στην εργαλειοθήκη του GIMP."
 
 msgid "Up"
 msgstr "Επάνω"

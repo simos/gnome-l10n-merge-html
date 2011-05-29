@@ -31,20 +31,20 @@ msgstr "Χρήση εξωτερικών προγραμμάτων"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-open-location.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-open-location.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-open-location.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-open-location.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-external-programs.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-external-programs.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-external-programs.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-external-programs.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-open-recent"/>3.3. Open Recent"
-msgstr "<a id="gimp-using-open-recent"/>3.3. Άνοιγμα πρόσφατου"
+msgid "<a id='gimp-using-open-recent'/>3.3. Open Recent"
+msgstr "<a id='gimp-using-open-recent'/>3.3. Άνοιγμα πρόσφατου"
 
-msgid "The easiest way to open an image that was recently open in <acronym class="acronym">GIMP</acronym>, may be using <span class="guimenu">File</span> → <span class="guimenuitem">Open Recent</span>. This displays a scrollable list of the mostly recently opened images with icons beside them. Select and open the desired image."
-msgstr "Ο πιο απλός τρόπος για να ανοίξετε μια εικόνα, που ανοίχτηκε πρόσφατα στο GIMP, ίσως είναι <span class="guimenu">Αρχείο</span> → <span class="guimenuitem">Άνοιγμα πρόσφατου</span>. Αυτό εμφανίζει μια κυλιόμενη λίστα των πιο πρόσφατα ανοιγμένων εικόνων με εικονίδιο δίπλα τους. Επιλέξτε και ανοίξτε την επιθυμητή εικόνα."
+msgid "The easiest way to open an image that was recently open in <acronym class='acronym'>GIMP</acronym>, may be using <span class='guimenu'>File</span> → <span class='guimenuitem'>Open Recent</span>. This displays a scrollable list of the mostly recently opened images with icons beside them. Select and open the desired image."
+msgstr "Ο πιο απλός τρόπος για να ανοίξετε μια εικόνα, που ανοίχτηκε πρόσφατα στο GIMP, ίσως είναι <span class='guimenu'>Αρχείο</span> → <span class='guimenuitem'>Άνοιγμα πρόσφατου</span>. Αυτό εμφανίζει μια κυλιόμενη λίστα των πιο πρόσφατα ανοιγμένων εικόνων με εικονίδιο δίπλα τους. Επιλέξτε και ανοίξτε την επιθυμητή εικόνα."
 
 msgid "Up"
 msgstr "Επάνω"

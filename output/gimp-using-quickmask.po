@@ -31,17 +31,17 @@ msgstr " Μονοπάτια"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-image-window-qmask-properties.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-image-window-qmask-properties.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-image-window-qmask-properties.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-image-window-qmask-properties.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-paths.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-paths.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-paths.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-paths.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-quickmask"/>4. Using QuickMask Mode"
-msgstr "<a id="gimp-using-quickmask"/>4. Χρήση της κατάστασης σύντομης μάσκας"
+msgid "<a id='gimp-using-quickmask'/>4. Using QuickMask Mode"
+msgstr "<a id='gimp-using-quickmask'/>4. Χρήση της κατάστασης σύντομης μάσκας"
 
 msgid "Step 1"
 msgstr "Βήμα 1"

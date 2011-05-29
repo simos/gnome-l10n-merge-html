@@ -31,19 +31,19 @@ msgstr "Σύρσιμο και απόθεση"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-external-programs.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-external-programs.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-external-programs.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-external-programs.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-drag-and-drop.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-drag-and-drop.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-drag-and-drop.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-drag-and-drop.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-file-manager"/>3.5. File Manager"
-msgstr "<a id="gimp-using-file-manager"/>3.5. Διαχειριστής αρχείου"
+msgid "<a id='gimp-using-file-manager'/>3.5. File Manager"
+msgstr "<a id='gimp-using-file-manager'/>3.5. Διαχειριστής αρχείου"
 
-msgid "If you have associated an image file type with <acronym class="acronym">GIMP</acronym>, either when you installed <acronym class="acronym">GIMP</acronym> or later, then you can navigate to the file using a file manager (such as Nautilus or Konqueror in Linux, or Windows Explorer in Windows), and once you have found it, double-click on the the. If properly configured, the image will open in <acronym class="acronym">GIMP</acronym>."
+msgid "If you have associated an image file type with <acronym class='acronym'>GIMP</acronym>, either when you installed <acronym class='acronym'>GIMP</acronym> or later, then you can navigate to the file using a file manager (such as Nautilus or Konqueror in Linux, or Windows Explorer in Windows), and once you have found it, double-click on the the. If properly configured, the image will open in <acronym class='acronym'>GIMP</acronym>."
 msgstr "Εάν έχετε συνδέσει ένα τύπο αρχείου εικόνας με το GIMP, είτε όταν εγκαταστήσατε το GIMP είτε αργότερα, τότε μπορείτε να περιηγηθείτε στο αρχείο χρησιμοποιώντας ένα διαχειριστή αρχείου (όπως Nautilus ή Konqueror στο Linux, ή Windows Explorer στα Windows), και όταν το βρείτε, διπλοπατήστε το. Εάν τροποποιήθηκε κατάλληλα, η εικόνα θα ανοίξει στο GIMP."
 
 msgid "Up"

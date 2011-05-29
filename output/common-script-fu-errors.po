@@ -31,17 +31,17 @@ msgstr "Διάφορα είδη Script-Fus"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="install-script-fu.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="install-script-fu.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='install-script-fu.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='install-script-fu.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="kinds-of-script-fu.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="kinds-of-script-fu.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='kinds-of-script-fu.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='kinds-of-script-fu.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="common-script-fu-errors"/>2.3. Do's and Don'ts"
-msgstr "<a id="common-script-fu-errors"/>2.3. Επιτρεπτά και μη"
+msgid "<a id='common-script-fu-errors'/>2.3. Do's and Don'ts"
+msgstr "<a id='common-script-fu-errors'/>2.3. Επιτρεπτά και μη"
 
 msgid "A common error when you are dealing with Script-Fus is that you simply bring them up and press the OK button. When nothing happens, you probably think that the script is broken or buggy, but there is most likely nothing wrong with it."
 msgstr "Ένα συνηθισμένο σφάλμα, όταν ασχολείσθε με Script-Fus είναι ότι απλά τα εμφανίζετε και πατάτε το πλήκτρο OK. Όταν δεν συμβαίνει τίποτα, σκεφτόσαστε προφανώς ότι το σενάριο είναι σπασμένο ή εσφαλμένο, αλλά το πιο πιθανό είναι ότι δεν υπάρχει λάθος σε αυτό."

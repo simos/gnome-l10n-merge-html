@@ -31,17 +31,17 @@ msgstr "GEGL Operation"
 msgid "Prev"
 msgstr "Prev"
 
-msgid "<a accesskey="p" href="gimp-tool-measure.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-tool-measure.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgid "<a accesskey='p' href='gimp-tool-measure.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-tool-measure.html'><img src='images/prev.png' alt='Prev'/></a> "
 
 msgid "Next"
 msgstr "Next"
 
-msgid " <a accesskey="n" href="gimp-tool-gegl.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-tool-gegl.html"><img src="images/next.png" alt="Next"/></a>"
+msgid " <a accesskey='n' href='gimp-tool-gegl.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-tool-gegl.html'><img src='images/next.png' alt='Next'/></a>"
 
-msgid "<a id="gimp-tool-text"/>6.6. Text"
-msgstr "<a id="gimp-tool-text"/>6.6. Text"
+msgid "<a id='gimp-tool-text'/>6.6. Text"
+msgstr "<a id='gimp-tool-text'/>6.6. Text"
 
 msgid "Figure 13.174. The Text tool in Toolbox"
 msgstr "Figure 13.174. The Text tool in Toolbox"
@@ -49,11 +49,11 @@ msgstr "Figure 13.174. The Text tool in Toolbox"
 msgid "The Text tool in Toolbox"
 msgstr "The Text tool in Toolbox"
 
-msgid "The Text tool places text into an image. When you click on an image with this tool the <span class="emphasis"><em>Text Editor dialog</em></span> is opened where you can type your text, and a text layer is added in the Layer Dialog. In the <span class="emphasis"><em>Text Option dialog</em></span>, you can change the font, color and size of your text, and justify it, interactively."
-msgstr "The Text tool places text into an image. When you click on an image with this tool the <span class="emphasis"><em>Text Editor dialog</em></span> is opened where you can type your text, and a text layer is added in the Layer Dialog. In the <span class="emphasis"><em>Text Option dialog</em></span>, you can change the font, color and size of your text, and justify it, interactively."
+msgid "The Text tool places text into an image. When you click on an image with this tool the <span class='emphasis'><em>Text Editor dialog</em></span> is opened where you can type your text, and a text layer is added in the Layer Dialog. In the <span class='emphasis'><em>Text Option dialog</em></span>, you can change the font, color and size of your text, and justify it, interactively."
+msgstr "The Text tool places text into an image. When you click on an image with this tool the <span class='emphasis'><em>Text Editor dialog</em></span> is opened where you can type your text, and a text layer is added in the Layer Dialog. In the <span class='emphasis'><em>Text Option dialog</em></span>, you can change the font, color and size of your text, and justify it, interactively."
 
-msgid "A new possibility appeared with <acronym class="acronym">GIMP</acronym>-2.6: click-dragging the mouse pointer on the canvas draws a rectangular frame that you can enlarge and move as you do with rectangular selections. The text you type in the Text Editor is displayed in this frame and automatically adapted to the frame size. You can adjust this frame whenever you like."
-msgstr "A new possibility appeared with <acronym class="acronym">GIMP</acronym>-2.6: click-dragging the mouse pointer on the canvas draws a rectangular frame that you can enlarge and move as you do with rectangular selections. The text you type in the Text Editor is displayed in this frame and automatically adapted to the frame size. You can adjust this frame whenever you like."
+msgid "A new possibility appeared with <acronym class='acronym'>GIMP</acronym>-2.6: click-dragging the mouse pointer on the canvas draws a rectangular frame that you can enlarge and move as you do with rectangular selections. The text you type in the Text Editor is displayed in this frame and automatically adapted to the frame size. You can adjust this frame whenever you like."
+msgstr "A new possibility appeared with <acronym class='acronym'>GIMP</acronym>-2.6: click-dragging the mouse pointer on the canvas draws a rectangular frame that you can enlarge and move as you do with rectangular selections. The text you type in the Text Editor is displayed in this frame and automatically adapted to the frame size. You can adjust this frame whenever you like."
 
 msgid "Figure 13.175. Text tool bounding box"
 msgstr "Figure 13.175. Text tool bounding box"
@@ -61,32 +61,32 @@ msgstr "Figure 13.175. Text tool bounding box"
 msgid "Text tool bounding box"
 msgstr "Text tool bounding box"
 
-msgid "When the mouse pointer is around the center of the frame, it comes with a small crosshair <span class="guiicon"><img src="images/toolbox/stock-tool-move-16.png"/></span>. Click-and-drag to move the frame and its contents (the text shows up when you release the mouse button). The text remains at the same place in the frame."
-msgstr "When the mouse pointer is around the center of the frame, it comes with a small crosshair <span class="guiicon"><img src="images/toolbox/stock-tool-move-16.png"/></span>. Click-and-drag to move the frame and its contents (the text shows up when you release the mouse button). The text remains at the same place in the frame."
+msgid "When the mouse pointer is around the center of the frame, it comes with a small crosshair <span class='guiicon'><img src='images/toolbox/stock-tool-move-16.png'/></span>. Click-and-drag to move the frame and its contents (the text shows up when you release the mouse button). The text remains at the same place in the frame."
+msgstr "When the mouse pointer is around the center of the frame, it comes with a small crosshair <span class='guiicon'><img src='images/toolbox/stock-tool-move-16.png'/></span>. Click-and-drag to move the frame and its contents (the text shows up when you release the mouse button). The text remains at the same place in the frame."
 
 msgid "Activating the Tool"
 msgstr "Activating the Tool"
 
-msgid "<a id="id3238926"/>6.6.1. Activating the Tool"
-msgstr "<a id="id3238926"/>6.6.1. Activating the Tool"
+msgid "<a id='id3238926'/>6.6.1. Activating the Tool"
+msgstr "<a id='id3238926'/>6.6.1. Activating the Tool"
 
 msgid "You can access this tool in several ways:"
 msgstr "You can access this tool in several ways:"
 
-msgid "In the image menu through <span class="guimenu">Tools</span> → <span class="guisubmenu">Text</span>,"
-msgstr "In the image menu through <span class="guimenu">Tools</span> → <span class="guisubmenu">Text</span>,"
+msgid "In the image menu through <span class='guimenu'>Tools</span> → <span class='guisubmenu'>Text</span>,"
+msgstr "In the image menu through <span class='guimenu'>Tools</span> → <span class='guisubmenu'>Text</span>,"
 
-msgid "by clicking the tool icon <span class="guiicon"><img src="images/toolbox/stock-tool-text-22.png"/></span> in Toolbox,"
-msgstr "by clicking the tool icon <span class="guiicon"><img src="images/toolbox/stock-tool-text-22.png"/></span> in Toolbox,"
+msgid "by clicking the tool icon <span class='guiicon'><img src='images/toolbox/stock-tool-text-22.png'/></span> in Toolbox,"
+msgstr "by clicking the tool icon <span class='guiicon'><img src='images/toolbox/stock-tool-text-22.png'/></span> in Toolbox,"
 
-msgid "or by using the <span class="keycap"><strong>T</strong></span> keyboard shortcut."
-msgstr "or by using the <span class="keycap"><strong>T</strong></span> keyboard shortcut."
+msgid "or by using the <span class='keycap'><strong>T</strong></span> keyboard shortcut."
+msgstr "or by using the <span class='keycap'><strong>T</strong></span> keyboard shortcut."
 
 msgid "Options"
 msgstr "Options"
 
-msgid "<a id="id3235904"/>6.6.2. Options"
-msgstr "<a id="id3235904"/>6.6.2. Options"
+msgid "<a id='id3235904'/>6.6.2. Options"
+msgstr "<a id='id3235904'/>6.6.2. Options"
 
 msgid "Figure 13.176. Text tool options"
 msgstr "Figure 13.176. Text tool options"
@@ -94,14 +94,14 @@ msgstr "Figure 13.176. Text tool options"
 msgid "Text tool options"
 msgstr "Text tool options"
 
-msgid "Normally, tool options are displayed in a window attached under the Toolbox as soon as you activate a tool. If they are not, you can access them from the image menu bar through <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> which opens the option window of the selected tool."
-msgstr "Normally, tool options are displayed in a window attached under the Toolbox as soon as you activate a tool. If they are not, you can access them from the image menu bar through <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> which opens the option window of the selected tool."
+msgid "Normally, tool options are displayed in a window attached under the Toolbox as soon as you activate a tool. If they are not, you can access them from the image menu bar through <span class='guimenu'>Windows</span> → <span class='guisubmenu'>Dockable Windows</span> → <span class='guimenuitem'>Tool Options</span> which opens the option window of the selected tool."
+msgstr "Normally, tool options are displayed in a window attached under the Toolbox as soon as you activate a tool. If they are not, you can access them from the image menu bar through <span class='guimenu'>Windows</span> → <span class='guisubmenu'>Dockable Windows</span> → <span class='guimenuitem'>Tool Options</span> which opens the option window of the selected tool."
 
 msgid "Font"
 msgstr "Font"
 
-msgid "Click on the fonts button <span class="guibutton">Aα</span> to open the font selector of this tool, which offers you a list of installed X fonts."
-msgstr "Click on the fonts button <span class="guibutton">Aα</span> to open the font selector of this tool, which offers you a list of installed X fonts."
+msgid "Click on the fonts button <span class='guibutton'>Aα</span> to open the font selector of this tool, which offers you a list of installed X fonts."
+msgstr "Click on the fonts button <span class='guibutton'>Aα</span> to open the font selector of this tool, which offers you a list of installed X fonts."
 
 msgid "At the bottom of the font selector you find some icons which act as buttoms for:"
 msgstr "At the bottom of the font selector you find some icons which act as buttoms for:"
@@ -109,11 +109,11 @@ msgstr "At the bottom of the font selector you find some icons which act as butt
 msgid "resizing the font previews,"
 msgstr "resizing the font previews,"
 
-msgid "selecting <span class="emphasis"><em>list view</em></span> or <span class="emphasis"><em>grid view</em></span>,"
-msgstr "selecting <span class="emphasis"><em>list view</em></span> or <span class="emphasis"><em>grid view</em></span>,"
+msgid "selecting <span class='emphasis'><em>list view</em></span> or <span class='emphasis'><em>grid view</em></span>,"
+msgstr "selecting <span class='emphasis'><em>list view</em></span> or <span class='emphasis'><em>grid view</em></span>,"
 
-msgid "opening the <a class="link" href="gimp-font-dialog.html" title="3.6.&#xA0;Fonts Dialog">font dialog</a>."
-msgstr "opening the <a class="link" href="gimp-font-dialog.html" title="3.6.&#xA0;Fonts Dialog">font dialog</a>."
+msgid "opening the <a class='link' href='gimp-font-dialog.html' title='3.6.&#xA0;Fonts Dialog'>font dialog</a>."
+msgstr "opening the <a class='link' href='gimp-font-dialog.html' title='3.6.&#xA0;Fonts Dialog'>font dialog</a>."
 
 msgid "Choose a font from the installed fonts. When you select a font it is interactively applied to your text."
 msgstr "Choose a font from the installed fonts. When you select a font it is interactively applied to your text."
@@ -142,8 +142,8 @@ msgstr "Uses the indices of adjustment to modify the characters in order to prod
 msgid "Force Auto-Hinter"
 msgstr "Force Auto-Hinter"
 
-msgid "<span class="guilabel">Auto Hinter</span> tries to automatically compute information for better representation of the character font."
-msgstr "<span class="guilabel">Auto Hinter</span> tries to automatically compute information for better representation of the character font."
+msgid "<span class='guilabel'>Auto Hinter</span> tries to automatically compute information for better representation of the character font."
+msgstr "<span class='guilabel'>Auto Hinter</span> tries to automatically compute information for better representation of the character font."
 
 msgid "Antialiasing"
 msgstr "Antialiasing"
@@ -187,11 +187,11 @@ msgstr "Controls the spacing between letters. Also in this case the number is no
 msgid "Text along Path"
 msgstr "Text along Path"
 
-msgid "This option is enabled only if a <a class="link" href="gimp-using-paths.html" title="5.&#xA0; Paths">path</a> exists. When your text is created, then create or import a path and make it active. If you create your path before the text, the path becomes invisible and you have to make it visible in the Path Dialog."
-msgstr "This option is enabled only if a <a class="link" href="gimp-using-paths.html" title="5.&#xA0; Paths">path</a> exists. When your text is created, then create or import a path and make it active. If you create your path before the text, the path becomes invisible and you have to make it visible in the Path Dialog."
+msgid "This option is enabled only if a <a class='link' href='gimp-using-paths.html' title='5.&#xA0; Paths'>path</a> exists. When your text is created, then create or import a path and make it active. If you create your path before the text, the path becomes invisible and you have to make it visible in the Path Dialog."
+msgstr "This option is enabled only if a <a class='link' href='gimp-using-paths.html' title='5.&#xA0; Paths'>path</a> exists. When your text is created, then create or import a path and make it active. If you create your path before the text, the path becomes invisible and you have to make it visible in the Path Dialog."
 
-msgid "This command is also available from the <span class="quote">“<span class="quote">Layer</span>”</span> menu:"
-msgstr "This command is also available from the <span class="quote">“<span class="quote">Layer</span>”</span> menu:"
+msgid "This command is also available from the <span class='quote'>“<span class='quote'>Layer</span>”</span> menu:"
+msgstr "This command is also available from the <span class='quote'>“<span class='quote'>Layer</span>”</span> menu:"
 
 msgid "Figure 13.177.  The Text to Path command among text commands in the Layer menu"
 msgstr "Figure 13.177.  The Text to Path command among text commands in the Layer menu"
@@ -202,11 +202,11 @@ msgstr "The Text to Path command among text commands in the Layer menu"
 msgid "This group of options appears only if a layer text exists."
 msgstr "This group of options appears only if a layer text exists."
 
-msgid "If you want to use a text which already exists, make it active in the <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1.&#xA0;Layers Dialog">Layer dialog</a>, select the Text tool and click on the text in the image window."
-msgstr "If you want to use a text which already exists, make it active in the <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1.&#xA0;Layers Dialog">Layer dialog</a>, select the Text tool and click on the text in the image window."
+msgid "If you want to use a text which already exists, make it active in the <a class='link' href='gimp-dialogs-structure.html#gimp-layer-dialog' title='2.1.&#xA0;Layers Dialog'>Layer dialog</a>, select the Text tool and click on the text in the image window."
+msgstr "If you want to use a text which already exists, make it active in the <a class='link' href='gimp-dialogs-structure.html#gimp-layer-dialog' title='2.1.&#xA0;Layers Dialog'>Layer dialog</a>, select the Text tool and click on the text in the image window."
 
-msgid "Click on the <span class="guibutton">Text along Path</span> button. The text is bent along the path. Letters are represented with their outline. Each of them is a component of the new path which appears in the <a class="link" href="gimp-path-dialog.html" title="2.3.&#xA0;Paths Dialog">Path dialog</a>. All path options should apply to this new path."
-msgstr "Click on the <span class="guibutton">Text along Path</span> button. The text is bent along the path. Letters are represented with their outline. Each of them is a component of the new path which appears in the <a class="link" href="gimp-path-dialog.html" title="2.3.&#xA0;Paths Dialog">Path dialog</a>. All path options should apply to this new path."
+msgid "Click on the <span class='guibutton'>Text along Path</span> button. The text is bent along the path. Letters are represented with their outline. Each of them is a component of the new path which appears in the <a class='link' href='gimp-path-dialog.html' title='2.3.&#xA0;Paths Dialog'>Path dialog</a>. All path options should apply to this new path."
+msgstr "Click on the <span class='guibutton'>Text along Path</span> button. The text is bent along the path. Letters are represented with their outline. Each of them is a component of the new path which appears in the <a class='link' href='gimp-path-dialog.html' title='2.3.&#xA0;Paths Dialog'>Path dialog</a>. All path options should apply to this new path."
 
 msgid "“<placeholder-1/>”"
 msgstr "“<placeholder-1/>”"
@@ -226,8 +226,8 @@ msgstr "This tool creates a selection path from the selected text. Every letter 
 msgid "Text Editor"
 msgstr "Text Editor"
 
-msgid "<a id="gimp-text-editor-dialog"/>6.6.3. Text Editor"
-msgstr "<a id="gimp-text-editor-dialog"/>6.6.3. Text Editor"
+msgid "<a id='gimp-text-editor-dialog'/>6.6.3. Text Editor"
+msgstr "<a id='gimp-text-editor-dialog'/>6.6.3. Text Editor"
 
 msgid "Figure 13.179. The Text Editor"
 msgstr "Figure 13.179. The Text Editor"
@@ -241,14 +241,14 @@ msgstr "This dialog window is opened when you click on the image with the Text T
 msgid "You can correct the text you are writing and you can change the text font with the Font Editor."
 msgstr "You can correct the text you are writing and you can change the text font with the Font Editor."
 
-msgid "As soon as you start writing, a Text layer is created in the Layer Dialog. On an image with such a layer (the image you are working on, or a <code class="filename">.xcf</code> image), you can resume text editing by activating this text layer then clicking on it (double click). Of course, you can apply to this text layer the same functions you use with other layers."
-msgstr "As soon as you start writing, a Text layer is created in the Layer Dialog. On an image with such a layer (the image you are working on, or a <code class="filename">.xcf</code> image), you can resume text editing by activating this text layer then clicking on it (double click). Of course, you can apply to this text layer the same functions you use with other layers."
+msgid "As soon as you start writing, a Text layer is created in the Layer Dialog. On an image with such a layer (the image you are working on, or a <code class='filename'>.xcf</code> image), you can resume text editing by activating this text layer then clicking on it (double click). Of course, you can apply to this text layer the same functions you use with other layers."
+msgstr "As soon as you start writing, a Text layer is created in the Layer Dialog. On an image with such a layer (the image you are working on, or a <code class='filename'>.xcf</code> image), you can resume text editing by activating this text layer then clicking on it (double click). Of course, you can apply to this text layer the same functions you use with other layers."
 
 msgid "To add another text to your image click on a non-text layer: a new Text Editor will appear and a new text layer will be created. To pass from a text to another one activate the corresponding text layer and click on it to activate the editor."
 msgstr "To add another text to your image click on a non-text layer: a new Text Editor will appear and a new text layer will be created. To pass from a text to another one activate the corresponding text layer and click on it to activate the editor."
 
-msgid "You can get Unicode characters with <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>U</strong></span> plus hexadecimal Unicode code of the desired char, for example:"
-msgstr "You can get Unicode characters with <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>U</strong></span> plus hexadecimal Unicode code of the desired char, for example:"
+msgid "You can get Unicode characters with <span class='keycap'><strong>Ctrl</strong></span>+<span class='keycap'><strong>Shift</strong></span>+<span class='keycap'><strong>U</strong></span> plus hexadecimal Unicode code of the desired char, for example:"
+msgstr "You can get Unicode characters with <span class='keycap'><strong>Ctrl</strong></span>+<span class='keycap'><strong>Shift</strong></span>+<span class='keycap'><strong>U</strong></span> plus hexadecimal Unicode code of the desired char, for example:"
 
 msgid "Figure 13.180. Entering Unicode characters"
 msgstr "Figure 13.180. Entering Unicode characters"
@@ -256,8 +256,8 @@ msgstr "Figure 13.180. Entering Unicode characters"
 msgid "Entering Unicode characters"
 msgstr "Entering Unicode characters"
 
-msgid "<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>U</strong></span>"
-msgstr "<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>U</strong></span>"
+msgid "<span class='keycap'><strong>Ctrl</strong></span>+<span class='keycap'><strong>Shift</strong></span>+<span class='keycap'><strong>U</strong></span>"
+msgstr "<span class='keycap'><strong>Ctrl</strong></span>+<span class='keycap'><strong>Shift</strong></span>+<span class='keycap'><strong>U</strong></span>"
 
 msgid "4"
 msgstr "4"
@@ -271,8 +271,8 @@ msgstr "Enter"
 msgid "Of course this feature is more useful for entering special (even exotic) characters, provided that the required glyphs for these characters are supplied by the selected font — only few fonts support Klingon. ;-)"
 msgstr "Of course this feature is more useful for entering special (even exotic) characters, provided that the required glyphs for these characters are supplied by the selected font — only few fonts support Klingon. ;-)"
 
-msgid "Unicode 0x47 (<span class="quote">“<span class="quote">G</span>”</span>), 0x2665, 0x0271, 0x03C0"
-msgstr "Unicode 0x47 (<span class="quote">“<span class="quote">G</span>”</span>), 0x2665, 0x0271, 0x03C0"
+msgid "Unicode 0x47 (<span class='quote'>“<span class='quote'>G</span>”</span>), 0x2665, 0x0271, 0x03C0"
+msgstr "Unicode 0x47 (<span class='quote'>“<span class='quote'>G</span>”</span>), 0x2665, 0x0271, 0x03C0"
 
 msgid "The Text Editor options"
 msgstr "The Text Editor options"
@@ -313,8 +313,8 @@ msgstr "Note"
 msgid "[Note]"
 msgstr "[Note]"
 
-msgid "See also <a class="xref" href="gimp-using-text.html" title="5.&#xA0;Text">Section 5, “Text”</a>."
-msgstr "See also <a class="xref" href="gimp-using-text.html" title="5.&#xA0;Text">Section 5, “Text”</a>."
+msgid "See also <a class='xref' href='gimp-using-text.html' title='5.&#xA0;Text'>Section 5, “Text”</a>."
+msgstr "See also <a class='xref' href='gimp-using-text.html' title='5.&#xA0;Text'>Section 5, “Text”</a>."
 
 msgid "Up"
 msgstr "Up"

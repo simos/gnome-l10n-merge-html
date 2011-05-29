@@ -28,17 +28,17 @@ msgstr "Σύντομη μάσκα"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-selections.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-selections.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-selections.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-selections.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-image-window-qmask-button.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-image-window-qmask-button.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-image-window-qmask-button.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-image-window-qmask-button.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-selections-add"/>2.2. Adding or subtracting selections"
-msgstr "<a id="gimp-using-selections-add"/>2.2. Προσθήκη ή αφαίρεση επιλογών"
+msgid "<a id='gimp-using-selections-add'/>2.2. Adding or subtracting selections"
+msgstr "<a id='gimp-using-selections-add'/>2.2. Προσθήκη ή αφαίρεση επιλογών"
 
 msgid "Tools have options that you can configure. Each selection tool allows you to set the selection mode. The following selection modes are supported:"
 msgstr "Τα εργαλεία έχουν προτιμήσεις που μπορείτε να τροποποιήσετε. Κάθε εργαλείο επιλογής σας επιτρέπει να ορίσετε την κατάσταση επιλογής. Οι επόμενες καταστάσεις επιλογής υποστηρίζονται:"
@@ -46,14 +46,14 @@ msgstr "Τα εργαλεία έχουν προτιμήσεις που μπορ�
 msgid "Replace is the most used selection mode. In replace mode, a selection replaces any existing selection."
 msgstr "Η αντικατάσταση είναι η πιο χρησιμοποιούμενη κατάσταση επιλογής. Στην κατάσταση αντικατάστασης μία επιλογή αντικαθιστά οποιαδήποτε υπάρχουσα επιλογή."
 
-msgid "Add mode, causes new selections to be added to any existing selection. Press and hold the <span class="keycap"><strong>Shift</strong></span> key while making a selection to temporarily enter add mode."
-msgstr "Η κατάσταση προσθήκης, προσθέτει νέες επιλογές σε οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε πατημένο το πλήκτρο <span class="keycap"><strong>Shift</strong></span>, για προσωρινή εισαγωγή της κατάστασης προσθήκης."
+msgid "Add mode, causes new selections to be added to any existing selection. Press and hold the <span class='keycap'><strong>Shift</strong></span> key while making a selection to temporarily enter add mode."
+msgstr "Η κατάσταση προσθήκης, προσθέτει νέες επιλογές σε οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε πατημένο το πλήκτρο <span class='keycap'><strong>Shift</strong></span>, για προσωρινή εισαγωγή της κατάστασης προσθήκης."
 
-msgid "Subtract mode, causes new selections to be removed from any existing selection. Press and hold the <span class="keycap"><strong>Ctrl</strong></span> key while making a selection to temporarily enter subtract mode."
-msgstr "Η κατάσταση αφαίρεσης, αφαιρεί τις νέες επιλογές από οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε το πλήκτρο <span class="keycap"><strong>Ctrl</strong></span> , ενώ επιλέγετε για να μπείτε προσωρινά στην κατάσταση αφαίρεσης."
+msgid "Subtract mode, causes new selections to be removed from any existing selection. Press and hold the <span class='keycap'><strong>Ctrl</strong></span> key while making a selection to temporarily enter subtract mode."
+msgstr "Η κατάσταση αφαίρεσης, αφαιρεί τις νέες επιλογές από οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε το πλήκτρο <span class='keycap'><strong>Ctrl</strong></span> , ενώ επιλέγετε για να μπείτε προσωρινά στην κατάσταση αφαίρεσης."
 
-msgid "Intersect mode, causes areas in both the new and existing selection to become the new selection. Press and hold both the <span class="keycap"><strong>Shift</strong></span> and <span class="keycap"><strong>Ctrl</strong></span> key while making a selection to temporarily enter intersect mode."
-msgstr "Η κατάσταση τομής, δημιουργεί μια νέα επιλογή από τη νέα και την υπάρχουσα επιλογή. Πατήστε και κρατείστε πατημένα ταυτόχρονα τα πλήκτρα <span class="keycap"><strong>Shift</strong></span> και <span class="keycap"><strong>Ctrl</strong></span> επιλέγοντας προσωρινά την κατάσταση τομής."
+msgid "Intersect mode, causes areas in both the new and existing selection to become the new selection. Press and hold both the <span class='keycap'><strong>Shift</strong></span> and <span class='keycap'><strong>Ctrl</strong></span> key while making a selection to temporarily enter intersect mode."
+msgstr "Η κατάσταση τομής, δημιουργεί μια νέα επιλογή από τη νέα και την υπάρχουσα επιλογή. Πατήστε και κρατείστε πατημένα ταυτόχρονα τα πλήκτρα <span class='keycap'><strong>Shift</strong></span> και <span class='keycap'><strong>Ctrl</strong></span> επιλέγοντας προσωρινά την κατάσταση τομής."
 
 msgid "Figure 7.8. Enlarging a rectangular selection with the Lasso"
 msgstr "Εικόνα 7.8. Μεγένθυση μιας ορθογώνιας επιλογής με το λάσο (εργαλείο ελεύθερης επιλογής)"
@@ -61,8 +61,8 @@ msgstr "Εικόνα 7.8. Μεγένθυση μιας ορθογώνιας ε�
 msgid "Enlarging a rectangular selection with the Lasso"
 msgstr "Μεγένθυση μιας ορθογώνιας επιλογής με το λάσο (εργαλείο ελεύθερης επιλογής)"
 
-msgid "The figure shows an existing rectangular selection. Select the Lasso. While pressing the <span class="keycap"><strong>Shift</strong></span> key, make a free hand selection that includes the existing selection. Release the mouse button and areas are included in the selection."
-msgstr "Η εικόνα δείχνει μια υπάρχουσα ορθογώνια επιλογή. Επιλέξτε το λάσο. Ενώ πατάτε το πλήκτρο <span class="keycap"><strong>Shift</strong></span> επιλέξτε μια ελεύθερη επιλογή που εμπεριέχει την υπάρχουσα επιλογή. Αφήστε το πλήκτρο του ποντικιού και οι περιοχές συμπεριλαμβάνονται στην επιλογή."
+msgid "The figure shows an existing rectangular selection. Select the Lasso. While pressing the <span class='keycap'><strong>Shift</strong></span> key, make a free hand selection that includes the existing selection. Release the mouse button and areas are included in the selection."
+msgstr "Η εικόνα δείχνει μια υπάρχουσα ορθογώνια επιλογή. Επιλέξτε το λάσο. Ενώ πατάτε το πλήκτρο <span class='keycap'><strong>Shift</strong></span> επιλέξτε μια ελεύθερη επιλογή που εμπεριέχει την υπάρχουσα επιλογή. Αφήστε το πλήκτρο του ποντικιού και οι περιοχές συμπεριλαμβάνονται στην επιλογή."
 
 msgid "Note"
 msgstr "Σημείωση"
@@ -70,8 +70,8 @@ msgstr "Σημείωση"
 msgid "[Note]"
 msgstr "[Σημείωση]"
 
-msgid "To correct selection defects precisely, use the <a class="link" href="gimp-using-quickmask.html" title="4.&#xA0;Using QuickMask Mode">Quick Mask</a>."
-msgstr "Για να διορθώσετε επακριβώς ατέλειες επιλογής, χρησιμοποιείστε τη <a class="link" href="gimp-using-quickmask.html" title="4.&#xA0;&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2; &#x3C3;&#x3CD;&#x3BD;&#x3C4;&#x3BF;&#x3BC;&#x3B7;&#x3C2; &#x3BC;&#x3AC;&#x3C3;&#x3BA;&#x3B1;&#x3C2;">Σύντομη μάσκα</a>."
+msgid "To correct selection defects precisely, use the <a class='link' href='gimp-using-quickmask.html' title='4.&#xA0;Using QuickMask Mode'>Quick Mask</a>."
+msgstr "Για να διορθώσετε επακριβώς ατέλειες επιλογής, χρησιμοποιείστε τη <a class='link' href='gimp-using-quickmask.html' title='4.&#xA0;&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2; &#x3C3;&#x3CD;&#x3BD;&#x3C4;&#x3BF;&#x3BC;&#x3B7;&#x3C2; &#x3BC;&#x3AC;&#x3C3;&#x3BA;&#x3B1;&#x3C2;'>Σύντομη μάσκα</a>."
 
 msgid "Up"
 msgstr "Επάνω"

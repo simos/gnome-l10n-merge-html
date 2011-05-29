@@ -31,8 +31,8 @@ msgstr "Μονοπάτια και αρχεία SVG"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-using-paths-stroking.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-using-paths-stroking.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-using-paths-stroking.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-using-paths-stroking.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Paths"
 msgstr "Μονοπάτια"
@@ -43,11 +43,11 @@ msgstr "<placeholder-1/>"
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-paths-and-svg.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-paths-and-svg.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-paths-and-svg.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-paths-and-svg.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-paths-and-text"/>5.6. Paths and Text"
-msgstr "<a id="gimp-using-paths-and-text"/>5.6. Μονοπάτια και κείμενο"
+msgid "<a id='gimp-using-paths-and-text'/>5.6. Paths and Text"
+msgstr "<a id='gimp-using-paths-and-text'/>5.6. Μονοπάτια και κείμενο"
 
 msgid "Figure 7.14. Text converted to a path"
 msgstr "Εικόνα 7.14. Κείμενο που μετατράπηκε σε μονοπάτι"
@@ -58,11 +58,11 @@ msgstr "Κείμενο που μετατράπηκε σε μονοπάτι"
 msgid "Text converted to a path and then transformed using the Perspective tool."
 msgstr "Κείμενο που μετατράπηκε σε μονοπάτι και έπειτα μετασχηματίστηκε χρησιμοποιώντας το εργαλείο προοπτικής."
 
-msgid "The path shown above, stroked with a fuzzy brush and then gradient-mapped using the Gradient Map filter with the <span class="quote">“<span class="quote">Yellow Contrast</span>”</span> gradient."
-msgstr "Το μονοπάτι που βλέπετε πιο πάνω, βάφτηκε με ασαφές (fuzzy) πινέλο κι έπειτα χρησιμοποιώντας το φίλτρο βαθμιδωτού χάρτη (Gradient Map) με διαβάθμιση <span class="quote">“<span class="quote">κίτρινης αντίθεσης</span>”</span>."
+msgid "The path shown above, stroked with a fuzzy brush and then gradient-mapped using the Gradient Map filter with the <span class='quote'>“<span class='quote'>Yellow Contrast</span>”</span> gradient."
+msgstr "Το μονοπάτι που βλέπετε πιο πάνω, βάφτηκε με ασαφές (fuzzy) πινέλο κι έπειτα χρησιμοποιώντας το φίλτρο βαθμιδωτού χάρτη (Gradient Map) με διαβάθμιση <span class='quote'>“<span class='quote'>κίτρινης αντίθεσης</span>”</span>."
 
-msgid "A text item created using the Text tool can be transformed into a path using the <span class="guibutton">Create path from text</span> button in the Tool Options for the Text tool. This can be useful for several purposes, including:"
-msgstr "Ένα αντικείμενο κειμένου που δημιουργήθηκε χρησιμοποιώντας το εργαλείο κειμένου μπορεί να μετασχηματιστεί σε μονοπάτι χρησιμοποιώντας το κουμπί <span class="guibutton">Μονοπάτι από κείμενο</span> στις επιλογές εργαλείων για το εργαλείο κείμενο. Αυτό μπορεί να είναι χρήσιμο για πολλούς σκοπούς συμπεριλαμβανόμενου του"
+msgid "A text item created using the Text tool can be transformed into a path using the <span class='guibutton'>Create path from text</span> button in the Tool Options for the Text tool. This can be useful for several purposes, including:"
+msgstr "Ένα αντικείμενο κειμένου που δημιουργήθηκε χρησιμοποιώντας το εργαλείο κειμένου μπορεί να μετασχηματιστεί σε μονοπάτι χρησιμοποιώντας το κουμπί <span class='guibutton'>Μονοπάτι από κείμενο</span> στις επιλογές εργαλείων για το εργαλείο κείμενο. Αυτό μπορεί να είναι χρήσιμο για πολλούς σκοπούς συμπεριλαμβανόμενου του"
 
 msgid "Stroking the path, which gives you many possibilities for fancy text."
 msgstr "βαψίματος μονοπατιού, που σας δίνει πολλές δυνατότητες για φανταχτερό κείμενο,"

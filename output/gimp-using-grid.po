@@ -31,23 +31,23 @@ msgstr "Ρύθμιση κρυφής μνήμης"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="gimp-concepts-image-guides.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="gimp-concepts-image-guides.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='gimp-concepts-image-guides.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='gimp-concepts-image-guides.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="gimp-using-setup-tile-cache.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="gimp-using-setup-tile-cache.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='gimp-using-setup-tile-cache.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='gimp-using-setup-tile-cache.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="gimp-using-grid"/>3. Rendering a Grid"
-msgstr "<a id="gimp-using-grid"/>3. Ενσωμάτωση πλέγματος"
+msgid "<a id='gimp-using-grid'/>3. Rendering a Grid"
+msgstr "<a id='gimp-using-grid'/>3. Ενσωμάτωση πλέγματος"
 
-msgid "How can you create a grid that is actually part of the image? You can't do this using the image grid: that is only an aid, and is only visible on the monitor or in a screenshot. You can, however, use the <a class="link" href="plug-in-grid.html" title="13.10.&#xA0;Grid">Grid</a> plugin to render a grid very similar to the image grid. (Actually, the plugin has substantially more options.)"
-msgstr "Πώς μπορείτε να δημιουργήσετε ένα πλέγμα που είναι στην πραγματικότητα μέρος της εικόνας; Δεν μπορείτε να το κάνετε, χρησιμοποιώντας το πλέγμα της εικόνας. Αυτό είναι μόνο μια βοήθεια και είναι ορατό μόνο στην οθόνη ή σε στιγμιότυπο. Μπορείτε, όμως, να χρησιμοποιήσετε το πρόσθετο <a class="link" href="plug-in-grid.html" title="13.10.&#xA0;Grid (&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1;)">Grid (Πλέγμα)</a> για να αποδώσετε ένα πλέγμα πολύ όμοιο με το πλέγμα εικόνας. (Στην πραγματικότητα, το πρόσθετο έχει περισσότερες επιλογές.)"
+msgid "How can you create a grid that is actually part of the image? You can't do this using the image grid: that is only an aid, and is only visible on the monitor or in a screenshot. You can, however, use the <a class='link' href='plug-in-grid.html' title='13.10.&#xA0;Grid'>Grid</a> plugin to render a grid very similar to the image grid. (Actually, the plugin has substantially more options.)"
+msgstr "Πώς μπορείτε να δημιουργήσετε ένα πλέγμα που είναι στην πραγματικότητα μέρος της εικόνας; Δεν μπορείτε να το κάνετε, χρησιμοποιώντας το πλέγμα της εικόνας. Αυτό είναι μόνο μια βοήθεια και είναι ορατό μόνο στην οθόνη ή σε στιγμιότυπο. Μπορείτε, όμως, να χρησιμοποιήσετε το πρόσθετο <a class='link' href='plug-in-grid.html' title='13.10.&#xA0;Grid (&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1;)'>Grid (Πλέγμα)</a> για να αποδώσετε ένα πλέγμα πολύ όμοιο με το πλέγμα εικόνας. (Στην πραγματικότητα, το πρόσθετο έχει περισσότερες επιλογές.)"
 
-msgid "See also <a class="link" href="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid" title="2.1.&#xA0;The Image Grid">Grid and Guides</a>."
-msgstr "Δείτε επίσης <a class="link" href="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid" title="2.1.&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;">Πλέγμα και Οδηγοί</a>."
+msgid "See also <a class='link' href='gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid' title='2.1.&#xA0;The Image Grid'>Grid and Guides</a>."
+msgstr "Δείτε επίσης <a class='link' href='gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid' title='2.1.&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;'>Πλέγμα και Οδηγοί</a>."
 
 msgid "Up"
 msgstr "Επάνω"

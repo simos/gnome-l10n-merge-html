@@ -31,17 +31,17 @@ msgstr "Αυτόνομα σενάρια"
 msgid "Prev"
 msgstr "Προηγούμενο"
 
-msgid "<a accesskey="p" href="common-script-fu-errors.html"><img src="images/prev.png" alt="Prev"/></a> "
-msgstr "<a accesskey="p" href="common-script-fu-errors.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+msgid "<a accesskey='p' href='common-script-fu-errors.html'><img src='images/prev.png' alt='Prev'/></a> "
+msgstr "<a accesskey='p' href='common-script-fu-errors.html'><img src='images/prev.png' alt='&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a> "
 
 msgid "Next"
 msgstr "Επόμενο"
 
-msgid " <a accesskey="n" href="standalone-script-fu.html"><img src="images/next.png" alt="Next"/></a>"
-msgstr " <a accesskey="n" href="standalone-script-fu.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+msgid " <a accesskey='n' href='standalone-script-fu.html'><img src='images/next.png' alt='Next'/></a>"
+msgstr " <a accesskey='n' href='standalone-script-fu.html'><img src='images/next.png' alt='&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;'/></a>"
 
-msgid "<a id="kinds-of-script-fu"/>2.4. Different Kinds Of Script-Fus"
-msgstr "<a id="kinds-of-script-fu"/>2.4. Διάφορα είδη Script-Fus"
+msgid "<a id='kinds-of-script-fu'/>2.4. Different Kinds Of Script-Fus"
+msgstr "<a id='kinds-of-script-fu'/>2.4. Διάφορα είδη Script-Fus"
 
 msgid "There are two kinds of Script-Fus:"
 msgstr "Υπάρχουν δύο είδη Script-Fus:"
@@ -49,8 +49,8 @@ msgstr "Υπάρχουν δύο είδη Script-Fus:"
 msgid "Standalone Script-Fus"
 msgstr "Αυτόνομα Script-Fus"
 
-msgid "You will find the standalone variants under <span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Type of Script</span> in the image menubar (see the figure below)."
-msgstr "Παλιότερα οι αυτόνομες παραλλαγές ήταν στη γραμμή μενού εικόνων <span class="guimenu">Αρχείο</span> → <span class="guisubmenu">Δημιουργία</span> → <span class="guisubmenu">Τύπος σεναρίου</span> (δείτε την παρακάτω εικόνα)."
+msgid "You will find the standalone variants under <span class='guimenu'>File</span> → <span class='guisubmenu'>Create</span> → <span class='guisubmenu'>Type of Script</span> in the image menubar (see the figure below)."
+msgstr "Παλιότερα οι αυτόνομες παραλλαγές ήταν στη γραμμή μενού εικόνων <span class='guimenu'>Αρχείο</span> → <span class='guisubmenu'>Δημιουργία</span> → <span class='guisubmenu'>Τύπος σεναρίου</span> (δείτε την παρακάτω εικόνα)."
 
 msgid "Figure 12.1. Script-Fus by category"
 msgstr "Εικόνα 12.1. Script-Fus ανά κατηγορία"
