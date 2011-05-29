@@ -15,9 +15,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 # Copyright (c) 2011, Simos Xenitellis <simos@gnome.org>.
-# For xml2po code, 
-#  Copyright (c) 2004, 2005, 2006 Danilo Šegan <danilo@gnome.org>.
-#  Copyright (c) 2009 Claude Paroz <claude@2xlibre.net>.
 
 PROGNAME='gnome-l10n-merge-html'
 
@@ -35,11 +32,6 @@ class MergeHTMLPO:
       self.files = 'FILES'
       self.basename = ''
     
-      # Default parameters
-      self.default_mode = 'docbook'
-      self.operation = 'pot' # 'pot', 'merge', 'update'
-      self.options = { 'mark_untranslated'   : False, 'expand_entities'     : True, 'expand_all_entities' : False }
-
     def convert(self):
       f = open(self.files)
       filelist = f.readlines()
@@ -50,34 +42,19 @@ class MergeHTMLPO:
       for n in filelist:
         name = n.rstrip('\n')
         print "Working on file", name
-        file1 = self.basename + 'en/' + name + '.html'
         file1out = self.basename + 'en/' + name + '.po'
-        file2 = self.basename + 'el/' + name + '.html'
         file2out = self.basename + 'el/' + name + '.po'
-        file3 = self.basename + 'output/' + name + '.po'
-        #print "Files:", file1, file2
+        file3out = self.basename + 'output/' + name + '.po'
 
-        try:
-            #print 'default_mode:', self.default_mode, 'operation:', self.operation, 'options:', self.options
-            xml2po_file1 = xml2po.Main(self.default_mode, self.operation, file1out, self.options)
-            xml2po_file2 = xml2po.Main(self.default_mode, self.operation, file2out, self.options)
-        except IOError:
-            print >> sys.stderr, "Error: cannot open file %s for writing." % (output)
-            sys.exit(1)
-
-        # Standard POT producing
-        #print 'About to produce PO files for', file1, file2
-        xml2po_file1.to_pot([file1])
-        xml2po_file2.to_pot([file2])
-
-        if self.parse(file1out, file2out):
+        print 'Files:', file1out, file2out
+        if self.parse(file1out, file2out, file3out):
           good = good + 1
         else: 
           bad = bad + 1
-          
+
       print good, "good files and", bad, "bad files."
 
-    def parse(self, filepath1, filepath2):
+    def parse(self, filepath1, filepath2, filepath3):
       """
       Parses two HTML files and extracts the messages.
       """
@@ -89,16 +66,38 @@ class MergeHTMLPO:
         print "    Matching: ", len(fileold), len(filenew)
         count = len(fileold)
 
+        outputfile = open(filepath3, 'w')
+
+        outputfile.write("""
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\\n"
+"Language-Team: LANGUAGE <LL@li.org>\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n" """)
+
+        outputfile.write('\n\n')
+
         for i in range(0, count):
-           pass
-           #print 'msgid "' + fileold[i].msgid + '"'
-           #print 'msgstr "' + filenew[i].msgid + '"'
-           #print 
+           print >> outputfile, 'msgid "' + self.removenums(fileold[i].msgid) + '"'
+           print >> outputfile, 'msgstr "' + self.removenums(filenew[i].msgid) + '"'
+           print >> outputfile
+
+        outputfile.close()
         return True
       else:
         print "    NOT matching:", len(fileold), len(filenew)
         return False
 
+    def removenums(self, message):
+      if re.match('\d+\.', message):
+        return message[message.find(' ')+1:]
+      else:
+        return message
 
 if __name__ == '__main__':
       a = MergeHTMLPO()
