@@ -1,0 +1,341 @@
+This repository contains the partial translation of the GIMP documentation in the Greek language.
+
+About 1/7 of the HTML files have been translated. Normally, the translation takes place
+at http://l10n.gnome.org/languages/el/gnome-gimp/doc/ (using PO files). However, we 
+want to salvage as much as possible from the work that was already done.
+
+This repository helps extract at least half of the work and creates PO files that
+can be used as translation memory to aid the proper translation.
+
+Here's what we do:
+
+1. Install Git
+
+   sudo apt-get install git
+
+2. Clone this repository
+
+   git clone git://github.com/simos/gnome-l10n-merge-html.git
+
+3. The en and el directories contain the HTML files, both original and translated ones.
+In addition, the directories have the images which are not used with this script.
+
+The file FILES contains a file list of the HTML files (found in el/) that have been translated.
+We try to salvage those files.
+
+We run
+
+  cat FILES | awk '{ printf "xml2po -m xhtml -o en/%s.po en/%s.html; xml2po -m xhtml -o el/%s.po el/%s.html\n",$1, $1, $1, $1 }' | sh
+
+That command generates PO files out of the .html files. 
+
+The record from en/gimp-using-layers.po is
+
+msgid "Previous"
+msgstr ""
+
+The record from el/gimp-using-layers.po is
+
+msgid "Προηγούμενο"
+msgstr ""
+
+The script MergeHTMLPO.py iterates through the pairs of HTML files, and joins them together into
+
+msgid "Previous"
+msgid "Προηγούμενο"
+
+4. The resulting script produces final PO files and places them in output/
+
+   ./MergeHTMLPO.py 
+
+is the command to generate the PO files in output/
+In addition, the command shows how many of the translated HTML files are usable
+(the translation adds changes which remove messages; so we have en/gimp-using-paths-properties.po
+with 24 messages and el/gimp-using-paths-properties.po. These are not used; if you can edit
+the HTML file so that it produces 24 messages, then ./MergeHTMLPO.py and you get that file included
+into output/ )
+
+5. Here is the current output for ./MergeHTMLPO.py
+
+Working on file become-a-gimp-wizard
+Files: en/become-a-gimp-wizard.po el/become-a-gimp-wizard.po
+    NOT matching: 140 173
+Working on file bibliography
+Files: en/bibliography.po el/bibliography.po
+    NOT matching: 228 120
+Working on file common-script-fu-errors
+Files: en/common-script-fu-errors.po el/common-script-fu-errors.po
+    Matching:  16 16
+Working on file customize-splashscreen
+Files: en/customize-splashscreen.po el/customize-splashscreen.po
+    NOT matching: 23 21
+Working on file font-problems
+Files: en/font-problems.po el/font-problems.po
+    Matching:  18 18
+Working on file getting-started
+Files: en/getting-started.po el/getting-started.po
+    NOT matching: 52 57
+Working on file gfdl-1
+Files: en/gfdl-1.po el/gfdl-1.po
+    Matching:  24 24
+Working on file gimp-concepts-brushes
+Files: en/gimp-concepts-brushes.po el/gimp-concepts-brushes.po
+    Matching:  42 42
+Working on file gimp-concepts-docks
+Files: en/gimp-concepts-docks.po el/gimp-concepts-docks.po
+    NOT matching: 113 114
+Working on file gimp-concepts-gradients
+Files: en/gimp-concepts-gradients.po el/gimp-concepts-gradients.po
+    Matching:  51 51
+Working on file gimp-concepts-image-grid-and-guides
+Files: en/gimp-concepts-image-grid-and-guides.po el/gimp-concepts-image-grid-and-guides.po
+    NOT matching: 25 26
+Working on file gimp-concepts-image-guides
+Files: en/gimp-concepts-image-guides.po el/gimp-concepts-image-guides.po
+    Matching:  27 27
+Working on file gimp-concepts-layer-modes
+Files: en/gimp-concepts-layer-modes.po el/gimp-concepts-layer-modes.po
+    NOT matching: 163 174
+Working on file gimp-concepts-main-windows
+Files: en/gimp-concepts-main-windows.po el/gimp-concepts-main-windows.po
+    NOT matching: 47 49
+Working on file gimp-concepts-palettes
+Files: en/gimp-concepts-palettes.po el/gimp-concepts-palettes.po
+    Matching:  39 39
+Working on file gimp-concepts-patterns
+Files: en/gimp-concepts-patterns.po el/gimp-concepts-patterns.po
+    NOT matching: 48 49
+Working on file gimp-concepts-script-fu
+Files: en/gimp-concepts-script-fu.po el/gimp-concepts-script-fu.po
+    Matching:  22 22
+Working on file gimp-concepts-setup
+Files: en/gimp-concepts-setup.po el/gimp-concepts-setup.po
+    NOT matching: 18 19
+Working on file gimp-concepts-shortcuts
+Files: en/gimp-concepts-shortcuts.po el/gimp-concepts-shortcuts.po
+    NOT matching: 34 35
+Working on file gimp-concepts-text
+Files: en/gimp-concepts-text.po el/gimp-concepts-text.po
+    Matching:  31 31
+Working on file gimp-concepts-undo
+Files: en/gimp-concepts-undo.po el/gimp-concepts-undo.po
+    NOT matching: 39 40
+Working on file gimp-fire-up
+Files: en/gimp-fire-up.po el/gimp-fire-up.po
+    NOT matching: 108 106
+Working on file gimp-first-steps
+Files: en/gimp-first-steps.po el/gimp-first-steps.po
+    NOT matching: 59 61
+Working on file gimp-getting-unstuck
+Files: en/gimp-getting-unstuck.po el/gimp-getting-unstuck.po
+    NOT matching: 70 68
+Working on file gimp-image-combining
+Files: en/gimp-image-combining.po el/gimp-image-combining.po
+    NOT matching: 96 95
+Working on file gimp-images-in
+Files: en/gimp-images-in.po el/gimp-images-in.po
+    NOT matching: 59 61
+Working on file gimp-images-out
+Files: en/gimp-images-out.po el/gimp-images-out.po
+    NOT matching: 156 157
+Working on file gimp-image-window
+Files: en/gimp-image-window.po el/gimp-image-window.po
+    NOT matching: 40 42
+Working on file gimp-image-window-qmask-button
+Files: en/gimp-image-window-qmask-button.po el/gimp-image-window-qmask-button.po
+    NOT matching: 29 30
+Working on file gimp-imaging-color-management
+Files: en/gimp-imaging-color-management.po el/gimp-imaging-color-management.po
+    NOT matching: 60 59
+Working on file gimp-imaging-photos
+Files: en/gimp-imaging-photos.po el/gimp-imaging-photos.po
+    NOT matching: 154 152
+Working on file gimp-introduction-whats-new
+Files: en/gimp-introduction-whats-new.po el/gimp-introduction-whats-new.po
+    NOT matching: 81 84
+Working on file gimp-painting
+Files: en/gimp-painting.po el/gimp-painting.po
+    NOT matching: 87 86
+Working on file gimp-pimping
+Files: en/gimp-pimping.po el/gimp-pimping.po
+    NOT matching: 442 445
+Working on file gimp-scripting
+Files: en/gimp-scripting.po el/gimp-scripting.po
+    NOT matching: 87 83
+Working on file gimp-tool-text
+Files: en/gimp-tool-text.po el/gimp-tool-text.po
+    Matching:  106 106
+Working on file gimp-tutorial-quickie-change-mode
+Files: en/gimp-tutorial-quickie-change-mode.po el/gimp-tutorial-quickie-change-mode.po
+    NOT matching: 30 29
+Working on file gimp-tutorial-quickie-crop
+Files: en/gimp-tutorial-quickie-crop.po el/gimp-tutorial-quickie-crop.po
+    Matching:  26 26
+Working on file gimp-tutorial-quickie-flip
+Files: en/gimp-tutorial-quickie-flip.po el/gimp-tutorial-quickie-flip.po
+    NOT matching: 28 27
+Working on file gimp-tutorial-quickie-info
+Files: en/gimp-tutorial-quickie-info.po el/gimp-tutorial-quickie-info.po
+    Matching:  31 31
+Working on file gimp-tutorial-quickie-jpeg
+Files: en/gimp-tutorial-quickie-jpeg.po el/gimp-tutorial-quickie-jpeg.po
+    Matching:  36 36
+Working on file gimp-tutorial-quickie-rotate
+Files: en/gimp-tutorial-quickie-rotate.po el/gimp-tutorial-quickie-rotate.po
+    NOT matching: 24 23
+Working on file gimp-tutorial-quickie-scale
+Files: en/gimp-tutorial-quickie-scale.po el/gimp-tutorial-quickie-scale.po
+    Matching:  29 29
+Working on file gimp-tutorial-quickies
+Files: en/gimp-tutorial-quickies.po el/gimp-tutorial-quickies.po
+    NOT matching: 21 23
+Working on file gimp-tutorial-straight-lines-examples
+Files: en/gimp-tutorial-straight-lines-examples.po el/gimp-tutorial-straight-lines-examples.po
+    NOT matching: 25 26
+Working on file gimp-tutorial-straight-lines
+Files: en/gimp-tutorial-straight-lines.po el/gimp-tutorial-straight-lines.po
+    NOT matching: 46 44
+Working on file gimp-using-animated-brushes
+Files: en/gimp-using-animated-brushes.po el/gimp-using-animated-brushes.po
+    NOT matching: 108 109
+Working on file gimp-using-brushes
+Files: en/gimp-using-brushes.po el/gimp-using-brushes.po
+    NOT matching: 30 31
+Working on file gimp-using-drag-and-drop
+Files: en/gimp-using-drag-and-drop.po el/gimp-using-drag-and-drop.po
+    Matching:  17 17
+Working on file gimp-using-external-programs
+Files: en/gimp-using-external-programs.po el/gimp-using-external-programs.po
+    Matching:  26 26
+Working on file gimp-using-fileformats-creating
+Files: en/gimp-using-fileformats-creating.po el/gimp-using-fileformats-creating.po
+    Matching:  15 15
+Working on file gimp-using-fileformats-opening
+Files: en/gimp-using-fileformats-opening.po el/gimp-using-fileformats-opening.po
+    NOT matching: 31 29
+Working on file gimp-using-file-manager
+Files: en/gimp-using-file-manager.po el/gimp-using-file-manager.po
+    Matching:  16 16
+Working on file gimp-using-fonts
+Files: en/gimp-using-fonts.po el/gimp-using-fonts.po
+    Matching:  40 40
+Working on file gimp-using-grid
+Files: en/gimp-using-grid.po el/gimp-using-grid.po
+    Matching:  17 17
+Working on file gimp-using-image-browser
+Files: en/gimp-using-image-browser.po el/gimp-using-image-browser.po
+    Matching:  16 16
+Working on file gimp-using-layers
+Files: en/gimp-using-layers.po el/gimp-using-layers.po
+    Matching:  19 19
+Working on file gimp-using-open-copy-and-paste
+Files: en/gimp-using-open-copy-and-paste.po el/gimp-using-open-copy-and-paste.po
+    Matching:  16 16
+Working on file gimp-using-open-location
+Files: en/gimp-using-open-location.po el/gimp-using-open-location.po
+    Matching:  20 20
+Working on file gimp-using-open-recent
+Files: en/gimp-using-open-recent.po el/gimp-using-open-recent.po
+    Matching:  16 16
+Working on file gimp-using-paths-and-selections
+Files: en/gimp-using-paths-and-selections.po el/gimp-using-paths-and-selections.po
+    Matching:  19 19
+Working on file gimp-using-paths-and-svg
+Files: en/gimp-using-paths-and-svg.po el/gimp-using-paths-and-svg.po
+    NOT matching: 26 24
+Working on file gimp-using-paths-and-text
+Files: en/gimp-using-paths-and-text.po el/gimp-using-paths-and-text.po
+    Matching:  26 26
+Working on file gimp-using-paths
+Files: en/gimp-using-paths.po el/gimp-using-paths.po
+    Matching:  40 40
+Working on file gimp-using-paths-properties
+Files: en/gimp-using-paths-properties.po el/gimp-using-paths-properties.po
+    NOT matching: 24 25
+Working on file gimp-using-paths-stroking
+Files: en/gimp-using-paths-stroking.po el/gimp-using-paths-stroking.po
+    Matching:  26 26
+Working on file gimp-using-paths-transforming
+Files: en/gimp-using-paths-transforming.po el/gimp-using-paths-transforming.po
+    Matching:  19 19
+Working on file gimp-using-quickmask
+Files: en/gimp-using-quickmask.po el/gimp-using-quickmask.po
+    Matching:  26 26
+Working on file gimp-using-rectangular
+Files: en/gimp-using-rectangular.po el/gimp-using-rectangular.po
+    Matching:  26 26
+Working on file gimp-using-script-fu-tutorial-extending-text-box
+Files: en/gimp-using-script-fu-tutorial-extending-text-box.po el/gimp-using-script-fu-tutorial-extending-text-box.po
+    NOT matching: 45 46
+Working on file gimp-using-script-fu-tutorial-first-script
+Files: en/gimp-using-script-fu-tutorial-first-script.po el/gimp-using-script-fu-tutorial-first-script.po
+    NOT matching: 168 173
+Working on file gimp-using-script-fu-tutorial
+Files: en/gimp-using-script-fu-tutorial.po el/gimp-using-script-fu-tutorial.po
+    Matching:  66 66
+Working on file gimp-using-script-fu-tutorial-identifier
+Files: en/gimp-using-script-fu-tutorial-identifier.po el/gimp-using-script-fu-tutorial-identifier.po
+    Matching:  55 55
+Working on file gimp-using-script-fu-tutorial-lists
+Files: en/gimp-using-script-fu-tutorial-lists.po el/gimp-using-script-fu-tutorial-lists.po
+    NOT matching: 91 92
+Working on file gimp-using-script-fu-tutorial-result
+Files: en/gimp-using-script-fu-tutorial-result.po el/gimp-using-script-fu-tutorial-result.po
+    Matching:  23 23
+Working on file gimp-using-script-fu-tutorial-script
+Files: en/gimp-using-script-fu-tutorial-script.po el/gimp-using-script-fu-tutorial-script.po
+    Matching:  57 57
+Working on file gimp-using-selections-add
+Files: en/gimp-using-selections-add.po el/gimp-using-selections-add.po
+    Matching:  25 25
+Working on file gimp-using-selections
+Files: en/gimp-using-selections.po el/gimp-using-selections.po
+    Matching:  41 41
+Working on file gimp-using-setup-tile-cache
+Files: en/gimp-using-setup-tile-cache.po el/gimp-using-setup-tile-cache.po
+    Matching:  40 40
+Working on file gimp-using-simpleobjects
+Files: en/gimp-using-simpleobjects.po el/gimp-using-simpleobjects.po
+    Matching:  40 40
+Working on file gimp-using-text
+Files: en/gimp-using-text.po el/gimp-using-text.po
+    Matching:  21 21
+Working on file gimp-using-variable-size-brush-creating
+Files: en/gimp-using-variable-size-brush-creating.po el/gimp-using-variable-size-brush-creating.po
+    NOT matching: 35 30
+Working on file gimp-using-variable-size-brush
+Files: en/gimp-using-variable-size-brush.po el/gimp-using-variable-size-brush.po
+    NOT matching: 47 54
+Working on file gimp-using-web
+Files: en/gimp-using-web.po el/gimp-using-web.po
+    Matching:  31 31
+Working on file gimp-using-web-reducing-file-size
+Files: en/gimp-using-web-reducing-file-size.po el/gimp-using-web-reducing-file-size.po
+    Matching:  22 22
+Working on file gimp-using-web-transparency
+Files: en/gimp-using-web-transparency.po el/gimp-using-web-transparency.po
+    Matching:  33 33
+Working on file image-independent-script-fu
+Files: en/image-independent-script-fu.po el/image-independent-script-fu.po
+    Matching:  19 19
+Working on file index
+Files: en/index.po el/index.po
+    NOT matching: 717 729
+Working on file install-script-fu
+Files: en/install-script-fu.po el/install-script-fu.po
+    Matching:  19 19
+Working on file introduction
+Files: en/introduction.po el/introduction.po
+    NOT matching: 47 44
+Working on file kinds-of-script-fu
+Files: en/kinds-of-script-fu.po el/kinds-of-script-fu.po
+    Matching:  25 25
+Working on file preface
+Files: en/preface.po el/preface.po
+    NOT matching: 102 103
+Working on file standalone-script-fu
+Files: en/standalone-script-fu.po el/standalone-script-fu.po
+    NOT matching: 42 40
+47 good files and 46 bad files.
+
+Out of the 93 translated HTML files, we currently can add 47 of them into output/
