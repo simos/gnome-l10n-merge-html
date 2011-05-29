@@ -1,0 +1,93 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Guides"
+msgstr "Οδηγοί"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Grids and Guides"
+msgstr "Πλέγματα και οδηγοί"
+
+msgid "Rendering a Grid"
+msgstr "Ενσωμάτωση πλέγματος"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-concepts-image-grid-and-guides.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-concepts-image-grid-and-guides.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-grid.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-grid.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-concepts-image-guides"/>2.2. Guides"
+msgstr "<a id="gimp-concepts-image-guides"/>2.2. Οδηγοί"
+
+msgid "Figure 11.30. Image with four guides"
+msgstr "Εικόνα 11.30. Εικόνα με τέσσερις οδηγούς"
+
+msgid "Image with four guides"
+msgstr "Εικόνα με τέσσερις οδηγούς"
+
+msgid "In addition to the image grid, <acronym class="acronym">GIMP</acronym> also gives you a more flexible type of positioning aid: <span class="emphasis"><em>guides</em></span>. These are horizontal or vertical lines you can temporarily display on an image while you are working on it."
+msgstr "Επιπλέον του πλέγματος εικόνας, το GIMP σας δίνει επίσης έναν πιο ευλύγιστο τύπο τοποθέτησης βοήθειας, τους <span class="emphasis"><em>οδηγούς</em></span>. Αυτοί είναι οριζόντιες ή κάθετες γραμμές που μπορείτε να εμφανίσετε παροδικά σε μια εικόνα, ενώ εργάζεσθε σ' αυτήν."
+
+msgid "To create a guide, simply click on one of the rulers in the image window and pull out a guide, while holding the <span class="mousebutton">mouse button</span> pressed. The guide is then displayed as a blue, dashed line, which follows the pointer. As soon as you create a guide, the <span class="quote">“<span class="quote">Move</span>”</span> tool is activated and the mouse pointer changes to the Move icon."
+msgstr "Για να δημιουργήσετε έναν οδηγό, απλά πατήστε σε έναν από τους κανόνες στο παράθυρο εικόνας και αποσπάστε έναν οδηγό, ενώ κρατάτε πατημένο το <span class="mousebutton">πλήκτρο ποντικιού</span>. Ο οδηγός εμφανίζεται τότε ως γαλάζια, διακεκομμένη γραμμή, που ακολουθεί το δείκτη του ποντικιού. Μόλις δημιουργήσετε έναν οδηγό, το εργαλείο <span class="quote">“<span class="quote">Μετακίνηση</span>”</span> ενεργοποιείται και ο δείκτης του ποντικιού μετατρέπεται σε εικονίδιο μετακίνησης."
+
+msgid "You can also create a guide with the <a class="link" href="script-fu-guide-new.html" title="6.23.&#xA0;New Guide">New Guide</a> command, which allows you to precisely place the guide on the image, the <a class="link" href="script-fu-guide-new-percent.html" title="6.24.&#xA0;New Guide (by Percent)">New Guide (by Percent)</a> command, or the <a class="link" href="script-fu-guides-from-selection.html" title="6.25.&#xA0;New Guides from Selection">New Guides from Selection</a> command."
+msgstr "Μπορείτε επίσης να δημιουργήσετε έναν οδηγό με την εντολή <a class="link" href="script-fu-guide-new.html" title="6.23.&#xA0;New Guide (&#x39D;&#x3AD;&#x3BF;&#x3C2; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3CC;&#x3C2;)">New Guide (Νέος οδηγός)</a> που σας επιτρέπει την ακριβή τοποθέτηση του οδηγού στην εικόνα, την εντολή <a class="link" href="script-fu-guide-new-percent.html" title="6.24.&#xA0;&#x39D;&#x3AD;&#x3BF;&#x3C2; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3CC;&#x3C2; (&#x391;&#x3BD;&#x3B1;&#x3BB;&#x3BF;&#x3B3;&#x3AF;&#x3B1;)">Νέος οδηγός (Αναλογία)</a> ή την εντολή <a class="link" href="script-fu-guides-from-selection.html" title="6.25.&#xA0;&#x39D;&#x3AD;&#x3BF;&#x3B9; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3BF;&#x3AF; &#x3B1;&#x3C0;&#x3CC; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;">Νέοι οδηγοί από επιλογή</a>."
+
+msgid "You can create as many guides as you like, positioned wherever you like. To move a guide after you have created it, activate the Move tool in the Toolbox (or press the <span class="keycap"><strong>M</strong></span> key), you can then click and drag a guide. To delete a guide, simply drag it outside the image. Holding down the <span class="keycap"><strong>Shift</strong></span> key, you can move everything but a guide, using the guides as an effective alignment aid."
+msgstr "Μπορείτε να δημιουργήσετε όσους οδηγούς θέλετε και να τους τοποθετήσετε όπου θέλετε. Για να μετακινήσετε έναν οδηγό μετά τη δημιουργία του, ενεργοποιείστε το εργαλείο μετακίνησης στην εργαλειοθήκη (ή πατήστε το πλήκτρο <span class="keycap"><strong>M</strong></span>), έπειτα μπορείτε να πατήσετε και να σύρετε τον οδηγό. Για διαγραφή ενός οδηγού, σύρτε τον απλά εκτός εικόνας. Πατήστε το πλήκτρο <span class="keycap"><strong>Shift</strong></span>, μπορείτε να μετακινήσετε οτιδήποτε εκτός των οδηγών, χρησιμοποιώντας τους οδηγούς ως αποτελεσματική βοήθεια ευθυγράμμισης."
+
+msgid "The behavior of the guides depends upon the <span class="guilabel">Move</span> (Affect) mode of the <span class="quote">“<span class="quote">Move</span>”</span> tool. When <span class="emphasis"><em>Layer</em></span> mode is selected, the mouse pointer turns into a small hand as soon as it gets close to a guide. Then the guide is activated and it turns red, and you can move the guide or delete it by moving it back into the ruler. If <span class="emphasis"><em>Selection</em></span> mode is selected, you can position a guide, but you cannot move it after that."
+msgstr "Η συμπεριφορά των οδηγών εξαρτάται από την κατάσταση <span class="guilabel">Μετακίνηση</span> του εργαλείου <span class="quote">“<span class="quote">Μετακίνηση</span>”</span>. Όταν επιλέγεται η κατάσταση <span class="emphasis"><em>Στρώση</em></span>, ο δείκτης του ποντικιού μετατρέπεται σε ένα μικρό χέρι μόλις πλησιάσει σε οδηγό. Τότε ο οδηγός ενεργοποιείται και γίνεται κόκκινος και μπορείτε να μετακινήσετε τον οδηγό, ή να το διαγράψετε μετακινώντας τον πίσω στον κανόνα. Εάν η κατάσταση <span class="emphasis"><em>Επιλογή</em></span> επιλεγεί, μπορείτε να τοποθετήσετε έναν οδηγό, αλλά δεν μπορείτε να το μετακινήσετε κατόπιν."
+
+msgid "As with the grid, you can cause the pointer to snap to nearby guides, by toggling <span class="guimenu">View</span> → <span class="guimenuitem">Snap to Guides</span> in the image menu. If you have a number of guides and they are making it difficult for you to judge the image properly, you can hide them by toggling <span class="guimenu">View</span> → <span class="guimenuitem">Show Guides</span>. It is suggested that you only do this momentarily, otherwise you may get confused the next time you try to create a guide and don't see anything happening."
+msgstr "Όσον αφορά το πλέγμα, μπορείτε να προσκολλήσετε το δείκτη στους κοντινούς οδηγούς, εναλλάσσοντας <span class="guimenu">Προβολή</span> → <span class="guimenuitem">Προσκόλληση στους οδηγούς</span> στο μενού εικόνας. Εάν έχετε μερικούς οδηγούς και δυσκολεύεστε στη σωστή εκτίμηση της εικόνας, μπορείτε να τους αποκρύψετε εναλλάσσοντας <span class="guimenu">Προβολή</span> → <span class="guimenuitem">Εμφάνιση οδηγών</span>. Προτείνεται αυτό να γίνεται μόνο στιγμιαία, αλλιώς μπορεί να δημιουργείται σύγχυση την επόμενη φορά που θέλετε να δημιουργήσετε έναν οδηγό και δεν βλέπετε να συμβαίνει τίποτα."
+
+msgid "If it makes things easier for you, you can change the default behavior for guides in the <a class="link" href="gimp-pimping.html#gimp-prefs-image-window-appearance" title="1.11.&#xA0;Image Window Appearance">Image Windows Appearance</a> page of the Preferences dialog. Disabling <span class="guilabel">Show guides</span> is probably a bad idea, though, for the reason just given."
+msgstr "Εάν σας διευκολύνει, μπορείτε να αλλάξετε την προεπιλεγμένη συμπεριφορά των οδηγών στη σελίδα του διαλόγου προτιμήσεων <a class="link" href="gimp-pimping.html#gimp-prefs-image-window-appearance" title="1.11.&#xA0;&#x395;&#x3BC;&#x3C6;&#x3AC;&#x3BD;&#x3B9;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;">Εμφάνιση παραθύρου εικόνας</a> Απενεργοποίηση του στοιχείου <span class="guilabel">Εμφάνιση οδηγών</span> είναι μια κακή ιδέα, αν και γίνεται."
+
+msgid "You can remove the guides with the <span class="guimenu">Image</span> → <span class="guisubmenu">Guides</span> → <span class="guimenuitem">Remove all Guides</span> command."
+msgstr "Μπορείτε να αφαιρέσετε τους οδηγούς με την εντολή <span class="guimenu">Εικόνα</span> → <span class="guisubmenu">Οδηγοί</span> → <span class="guimenuitem">Remove all Guides (Αφαίρεση όλων των οδηγών)</span>"
+
+msgid "Note"
+msgstr "Σημείωση"
+
+msgid "[Note]"
+msgstr "[Σημείωση]"
+
+msgid "Another use for guides: the <a class="link" href="plug-in-guillotine.html" title="6.10.&#xA0;Guillotine">Guillotine</a> plugin can use guides to slice an image into a set of sub-images."
+msgstr "Μια άλλη χρήση των οδηγών είναι με το πρόσθετο <a class="link" href="plug-in-guillotine.html" title="6.10.&#xA0;Guillotine(&#x39B;&#x3B1;&#x3B9;&#x3BC;&#x3B7;&#x3C4;&#x3CC;&#x3BC;&#x3BF;&#x3C2;)">Guillotine (Λαιμητόμος)</a> που μπορεί να χρησιμοποιήσει τους οδηγούς για να τεμαχίσει μια εικόνα σε ένα σύνολο υποεικόνων."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

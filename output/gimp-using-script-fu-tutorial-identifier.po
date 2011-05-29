@@ -1,0 +1,219 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Variables And Functions"
+msgstr "Μεταβλητές και συναρτήσεις"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "A Script-Fu Tutorial"
+msgstr "Διδακτική ενός Script-Fu"
+
+msgid "Lists, Lists And More Lists"
+msgstr "Λίστες, λίστες και πάλι λίστες"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-script-fu-tutorial.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-script-fu-tutorial.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-script-fu-tutorial-identifier"/>3.2. Variables And Functions"
+msgstr "<a id="gimp-using-script-fu-tutorial-identifier"/>3.2.Μεταβλητές και συναρτήσεις"
+
+msgid "Now that we know that every Scheme statement is enclosed in parentheses, and that the function name/operator is listed first, we need to know how to create and use variables, and how to create and use functions. We'll start with the variables."
+msgstr "Τώρα που ξέρουμε ότι κάθε πρόταση του Scheme περιβάλλεται από παρενθέσεις και ότι το όνομα/τελεστής της συνάρτησης καταχωρίζεται πρώτο, χρειάζεται να μάθουμε τη δημιουργία και χρήση μεταβλητών και πώς να δημιουργήσουμε και να χρησιμοποιήσουμε τις συναρτήσεις. Θα ξεκινήσουμε με τις μεταβλητές."
+
+msgid "Declaring Variables"
+msgstr "Declaring Variables"
+
+msgid "<a id="id3231753"/>3.2.1. Declaring Variables"
+msgstr "<a id="id3231753"/>3.2.1. Δήλωση μεταβλητών"
+
+msgid "Although there are a couple of different methods for declaring variables, the preferred method is to use the <span class="command"><strong>let*</strong></span> construct. If you're familiar with other programming languages, this construct is equivalent to defining a list of local variables and a scope in which they're active. As an example, to declare two variables, a and b, initialized to 1 and 2, respectively, you'd write:"
+msgstr "Αν και υπάρχουν περισσότερες μέθοδοι για δήλωση μεταβλητών, η προτιμώμενη μέθοδος είναι η χρήση της δομής <span class="command"><strong>let*</strong></span>. Εάν ξέρετε άλλες γλώσσες προγραμματισμού, αυτή η δομή είναι ισοδύναμη με τον ορισμό μιας λίστας τοπικών μεταβλητών και μια εμβέλεια στην οποία είναι ενεργή. Π.χ., για να δηλώσετε δύο μεταβλητές, a και b, αρχικοποιημένες στο 1 και 2, αντίστοιχα, πρέπει να γράψετε:"
+
+msgid "
+        (let*
+           (
+              (a 1)
+              (b 2)
+           )
+           (+ a b)
+        )
+      "
+msgstr "
+(let*
+(
+(a 1)
+(b 2)
+)
+(+ a b)
+)
+"
+
+msgid "or, as one line:"
+msgstr "ή σε μια γραμμή"
+
+msgid "(let* ( (a 1) (b 2) ) (+ a b) )"
+msgstr "(let* ( (a 1) (b 2) ) (+ a b) )"
+
+msgid "Note"
+msgstr "Σημείωση"
+
+msgid "[Note]"
+msgstr "[Σημείωση]"
+
+msgid "You'll have to put all of this on one line if you're using the console window. In general, however, you'll want to adopt a similar practice of indentation to help make your scripts more readable. We'll talk a bit more about this in the section on White Space."
+msgstr "Πρέπει να γράψετε όλο αυτό σε μια γραμμή εάν χρησιμοποιείται το παράθυρο κονσόλας. Γενικά, όμως, θα θέλετε να υιοθετήσετε μια παρόμοια πρακτική εσοχής για να κάνετε τα σενάρια σας πιο ευανάγνωστα. Θα μιλήσουμε λίγο περισσότερο για αυτό στην ενότητα του κενού διαστήματος."
+
+msgid "This declares two local variables, a and b, initializes them, then prints the sum of the two variables."
+msgstr "Αυτό δηλώνει δύο τοπικές μεταβλητές, a και b, τις αρχικοποιεί, έπειτα τυπώνει το άθροισμα των δύο μεταβλητών."
+
+msgid "What Is A Local Variable?"
+msgstr "Τι είναι τοπική μεταβλητή;"
+
+msgid "<a id="id3231714"/>3.2.2. What Is A Local Variable?"
+msgstr "<a id="id3231714"/>3.2.2. Τι είναι τοπική μεταβλητή;"
+
+msgid "You'll notice that we wrote the summation <code class="code">(+ a b)</code> within the parens of the <code class="code">let*</code> expression, not after it."
+msgstr "Θα παρατηρήσατε ότι γράψαμε την άθροιση <code class="code">(+ a b)</code> μέσα στις παρενθέσεις της έκφρασης <code class="code">let*</code>, και όχι μετά."
+
+msgid "This is because the <code class="code">let*</code> statement defines an area in your script in which the declared variables are usable; if you type the <strong class="userinput"><code>(+ a b)</code></strong> statement after the <strong class="userinput"><code>(let* …)</code></strong> statement, you'll get an error, because the declared variables are only valid within the context of the <code class="code">let*</code> statement; they are what programmers call local variables."
+msgstr "Αυτό γιατί η πρόταση <code class="code">let*</code> ορίζει μια περιοχή στο σενάριο σας στην οποία οι δηλωμένες μεταβλητές είναι χρησιμοποιήσιμες. Εάν γράψετε την πρόταση <strong class="userinput"><code>(+ a b)</code></strong> μετά την πρόταση <strong class="userinput"><code>(let* …)</code></strong>, θα πάρετε σφάλμα, επειδή οι δηλωμένες μεταβλητές ισχύουν μόνο μέσα στο πλαίσιο της πρότασης <code class="code">let*</code>. Είναι αυτό που οι προγραμματιστές αποκαλούν τοπικές μεταβλητές."
+
+msgid "The General Syntax Of let*"
+msgstr "Η γενική σύνταξη του let*"
+
+msgid "let*"
+msgstr "let*"
+
+msgid "<a id="id3216440"/>3.2.3. The General Syntax Of <placeholder-1/>"
+msgstr "<a id="id3216440"/>3.2.3. Η γενική σύνταξη του <placeholder-1/>"
+
+msgid "The general form of a <code class="code">let*</code> statement is:"
+msgstr "Η γενική μορφή της πρότασης <code class="code">let*</code> είναι:"
+
+msgid "
+        (let* ( <em class="replaceable"><code>variables</code></em> )
+          <em class="replaceable"><code>expressions</code></em> )
+      "
+msgstr "
+(let* ( <em class="replaceable"><code>μεταβλητές</code></em> )
+<em class="replaceable"><code>εκφράσεις</code></em> )
+"
+
+msgid "where variables are declared within parens, e.g., <strong class="userinput"><code>(a 2)</code></strong>, and expressions are any valid Scheme expressions. Remember that the variables declared here are only valid within the <code class="code">let*</code> statement — they're local variables."
+msgstr "όπου οι μεταβλητές δηλώνονται μέσα σε παρενθέσεις, π.χ., <strong class="userinput"><code>(a 2)</code></strong> και εκφράσεις είναι κάθε έγκυρη έκφραση του Scheme. Να θυμόσαστε ότι οι δηλωμένες μεταβλητές εδώ είναι έγκυρες μόνο μέσα στην πρόταση <code class="code">let*</code> — είναι τοπικές μεταβλητές."
+
+msgid "White Space"
+msgstr "Κενό διάστημα"
+
+msgid "<a id="id3216411"/>3.2.4. White Space"
+msgstr "<a id="id3216411"/>3.2.4. Κενό διάστημα"
+
+msgid "Previously, we mentioned the fact that you'll probably want to use indentation to help clarify and organize your scripts. This is a good policy to adopt, and is not a problem in Scheme — white space is ignored by the Scheme interpreter, and can thus be liberally applied to help clarify and organize the code within a script. However, if you're working in Script-Fu's Console window, you'll have to enter an entire expression on one line; that is, everything between the opening and closing parens of an expression must come on one line in the Script-Fu Console window."
+msgstr "Πιο μπροστά, αναφέραμε το γεγονός ότι θα θέλετε προφανώς να χρησιμοποιήσετε εσοχές για να ξεκαθαρίσετε και να οργανώσετε τα σενάρια σας. Αυτή είναι μια καλή πολιτική να δεχθείτε και δεν είναι πρόβλημα στο Scheme — κενά διαστήματα αγνοούνται από τον ερμηνευτή του Scheme και μπορείτε έτσι να τα εφαρμόσετε ελεύθερα για ξεκαθάρισμα και οργάνωση του κώδικα στο σενάριο. Όμως, εάν δουλεύετε στο παράθυρο της κονσόλας του Script-Fu, θα πρέπει να εισαγάγετε την συνολική έκφραση σε μια γραμμή, δηλαδή οτιδήποτε μεταξύ της αρχικής και τελικής παρένθεσης μιας έκφρασης, πρέπει να έλθει σε μια γραμμή στο παράθυρο της κονσόλας του Script-Fu."
+
+msgid "Assigning A New Value To A Variable"
+msgstr "Απόδοση μιας νέας τιμής σε μια μεταβλητή"
+
+msgid "<a id="id3139700"/>3.2.5. Assigning A New Value To A Variable"
+msgstr "<a id="id3139700"/>3.2.5. Απόδοση μιας νέας τιμής σε μια μεταβλητή"
+
+msgid "Once you've initialized a variable, you might need to change its value later on in the script. Use the <code class="code">set!</code> statement to change the variable's value:"
+msgstr "Αφού αρχικοποιήσατε μια μεταβλητή, ίσως χρειαστεί να αλλάξετε την τιμή της αργότερα στο σενάριο. Χρησιμοποιήστε την πρόταση <code class="code">set!</code> για να αλλάξετε την τιμή της μεταβλητής:"
+
+msgid "
+        (let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )
+      "
+msgstr "
+(let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )
+"
+
+msgid "Try to guess what the above statement will do, then go ahead and enter it in the Script-Fu Console window."
+msgstr "Προσπαθήστε να μαντέψετε τι θα κάνει η πιο πάνω πρόταση, έπειτα συνεχίστε και εισάγετε το στο παράθυρο κονσόλας του Script-Fu."
+
+msgid "The <span class="quote">“<span class="quote"><code class="code">\</code></span>”</span> indicates that there is no line break. Ignore it (don't type it in your Script-Fu console and don't hit <span class="keycap"><strong>Enter</strong></span>), just continue with the next line."
+msgstr "Το <span class="quote">“<span class="quote"><code class="code">\</code></span>”</span> δείχνει ότι δεν υπάρχει καμία αλλαγή γραμμής. Αγνοήστε το (μην το γράφετε στην κονσόλα Script-Fu και μην πατάτε <span class="keycap"><strong>Enter</strong></span>), απλά συνεχίστε με την επόμενη γραμμή"
+
+msgid "Functions"
+msgstr "Συναρτήσεις"
+
+msgid "<a id="id3150259"/>3.2.6. Functions"
+msgstr "<a id="id3150259"/>3.2.6. Συναρτήσεις"
+
+msgid "Now that you've got the hang of variables, let's get to work with some functions. You declare a function with the following syntax:"
+msgstr "Τώρα που μάθατε για τις μεταβλητές, ας δουλέψουμε με μερικές συναρτήσεις. Δηλώνετε μια συνάρτηση με την ακόλουθη σύνταξη."
+
+msgid "
+        (define
+           (
+              <em class="replaceable"><code>name</code></em>
+              <em class="replaceable"><code>param-list</code></em>
+           )
+           <em class="replaceable"><code>expressions</code></em>
+        )
+      "
+msgstr "
+(define
+(
+<em class="replaceable"><code>name</code></em>
+<em class="replaceable"><code>param-list</code></em>
+)
+<em class="replaceable"><code>expressions</code></em>
+)
+"
+
+msgid "where <em class="replaceable"><code>name</code></em> is the name assigned to this function, <em class="replaceable"><code>param-list</code></em> is a space-delimited list of parameter names, and <em class="replaceable"><code>expressions</code></em> is a series of expressions that the function executes when it's called. For example:"
+msgstr "όπου <em class="replaceable"><code>name</code></em> είναι το αποδοθέν όνομα στη συνάρτηση, <em class="replaceable"><code>param-list</code></em> is a space-delimited list of parameter names, and <em class="replaceable"><code>expressions</code></em> είναι η σειρά των εκφράσεων που η συνάρτηση εκτελεί, όταν καλείται. Π.χ.:"
+
+msgid "(define (AddXY inX inY) (+ inX inY) )"
+msgstr "(define (AddXY inX inY) (+ inX inY) )"
+
+msgid "<code class="varname">AddXY</code> is the function's name and <code class="varname">inX</code> and <code class="varname">inY</code> are the variables. This function takes its two parameters and adds them together."
+msgstr "<code class="varname">AddXY</code> είναι το όνομα της συνάρτησης και <code class="varname">inX</code> καθώς και <code class="varname">inY</code> είναι οι μεταβλητές. Αυτή η συνάρτηση παίρνει τις δύο παραμέτρους της και τις προσθέτει μαζί."
+
+msgid "If you've programmed in other imperative languages (like C/C++, Java, Pascal, etc.), you might notice that a couple of things are absent in this function definition when compared to other programming languages."
+msgstr "Εάν έχετε προγραμματίσει σε άλλες προστακτικές γλώσσες (όπως C/C++, Java, Pascal, κλ.), ίσως να παρατηρήσατε ότι μερικά πράγματα λείπουν στον ορισμό αυτής της συνάρτησης, όταν συγκρίνετε με άλλες προγραμματιστικές γλώσσες."
+
+msgid "First, notice that the parameters don't have any <span class="quote">“<span class="quote">types</span>”</span> (that is, we didn't declare them as strings, or integers, etc.). Scheme is a type-less language. This is handy and allows for quicker script writing."
+msgstr "Πρώτα, σημειώστε ότι οι παράμετροι δεν έχουν κανένα <span class="quote">“<span class="quote">τύπο</span>”</span> (δηλαδή δεν τις δηλώσαμε ως αλφαριθμητικά, ακέραιους κλ.). Το Scheme είναι μια άτυπη γλώσσα. Αυτό είναι εύχρηστο και επιτρέπει τη συγγραφή πιο γρήγορων σεναρίων."
+
+msgid "Second, notice that we don't need to worry about how to <span class="quote">“<span class="quote">return</span>”</span> the result of our function — the last statement is the value <span class="quote">“<span class="quote">returned</span>”</span> when calling this function. Type the function into the console, then try something like:"
+msgstr "Δεύτερο, παρατηρείστε ότι δεν χρειάζεται να ανησυχούμε για την <span class="quote">“<span class="quote">επιστροφή</span>”</span> του αποτελέσματος της συνάρτησης μας — η τελευταία πρόταση είναι η <span class="quote">“<span class="quote">επιστρεφόμενη</span>”</span> τιμή, όταν καλείται αυτή η συνάρτηση. Γράψτε τη συνάρτηση στην κονσόλα, έπειτα προσπαθήστε κάτι όπως:"
+
+msgid "(AddXY (AddXY 5 6) 4)"
+msgstr "(AddXY (AddXY 5 6) 4)"
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

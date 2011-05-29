@@ -1,0 +1,99 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Change the Size of an Image (Scale)"
+msgstr "Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "GIMPLite Quickies"
+msgstr "Γρήγορο ξεκίνημα (GIMPLite Quickies)"
+
+msgid "Make JPEGs Smaller"
+msgstr "Σμίκρυνση JPEGs"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-tutorial-quickies.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-tutorial-quickies.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-tutorial-quickie-jpeg.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-tutorial-quickie-jpeg.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-tutorial-quickie-scale"/>4.2. Change the Size of an Image (Scale)"
+msgstr "<a id="gimp-tutorial-quickie-scale"/>4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)"
+
+msgid "Problem: you have a huge image and you want to resize the is so that it will display nicely on a web page. The example image is this beauty m51_hallas_big.jpg from APOD <a class="xref" href="bibliography.html#bibliography-online-apod03" title="Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)">[<abbr class="abbrev">APOD03</abbr>]</a>."
+msgstr "Πρόβλημα: έχετε μια τεράστια φωτογραφία και θέλετε να αλλάξετε μέγεθος, ώστε να φαίνεται ωραία στον ιστό. Η εικόνα αυτή είναι η m51_hallas_big.jpg from APOD <a class="xref" href="bibliography.html#bibliography-online-apod03" title="Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)">[<abbr class="abbrev">APOD03</abbr>]</a>."
+
+msgid "Figure 3.16. Example Image for Scaling"
+msgstr "Εικόνα 3.16. Παράδειγμα εικόνας για αλλαγή μεγέθους"
+
+msgid "Example Image for Scaling"
+msgstr "Παράδειγμα εικόνας για αλλαγή μεγέθους"
+
+msgid "The first thing that you might notice, is that <acronym class="acronym">GIMP</acronym> opens the image at a logical size for viewing. If your image is really big like the sample image, <acronym class="acronym">GIMP</acronym> will set the zoom so that it will display nicely on the screen. The zoom level is shown in the status area at the bottom of the Image window."
+msgstr "Το πρώτο πράγμα που μπορεί να παρατηρήσατε, είναι ότι το GIMP ανοίγει την εικόνα σε ένα λογικό μέγεθος για παρατήρηση. Εάν η εικόνα σας είναι πραγματικά μεγάλη όπως η εικόνα στο παράδειγμα, τότε το GIMP θα αλλάξει την εστίαση, έτσι ώστε να εμφανίζεται ωραία στην οθόνη. Το επίπεδο εστίασης φαίνεται στην περιοχή κατάστασης στο κάτω μέρος του παραθύρου της εικόνας."
+
+msgid "The other thing to look at in the title-bar is the mode. If the mode shows as RGB in the title bar, you are fine. If the mode says Indexed or grayscale, read the <a class="xref" href="gimp-tutorial-quickie-change-mode.html" title="4.6.&#xA0;Change the Mode">Section 4.6, “Change the Mode”</a>."
+msgstr "Το άλλο πράγμα που μπορεί να παρατηρήσατε είναι η κατάσταση στη γραμμή τίτλου . Εάν η κατάσταση δείχνει ως RGB στη γραμμή τίτλου, είστε θαυμάσια. Εάν η κατάσταση λέει από χρωματολόγιο ή κλίμακα του γκρι, διαβάστε το <a class="xref" href="gimp-tutorial-quickie-change-mode.html" title="4.6.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2;">Μέρος 4.6, “Αλλαγή κατάστασης”</a>."
+
+msgid "Figure 3.17. GIMP Used for Image Scaling"
+msgstr "Εικόνα 3.17. Χρήση του GIMP για αλλαγή μεγέθους της εικόνας"
+
+msgid "GIMP Used for Image Scaling"
+msgstr "Χρήση του GIMP για αλλαγή μεγέθους της εικόνας"
+
+msgid "Use <span class="guimenu">Image</span> → <span class="guimenuitem">Scale Image</span> to open the Scale Image dialog. You can right click on the image to open the menu, or use the menu along the top of the Image window. Notice that the Scale Image menu item contains three dots, which is a hint that a dialog will be opened."
+msgstr "Ενεργοποιείστε <span class="guimenu">Εικόνα</span> → <span class="guimenuitem">Μέγεθος εικόνας</span>, για να ανοίξετε το διάλογο αυξομείωση μεγέθους εικόνας. Μπορείτε να δεξιοπατήσετε στην εικόνα για να ανοίξετε το μενού ή χρησιμοποιείστε το μενού κατά μήκος της κορυφής του παραθύρου εικόνας. Σημειώστε ότι το αντικείμενο μενού αυξομείωσης της εικόνας περιέχει τρείς τελείες που είναι μια υπόδειξη ότι ένας διάλογος θα ανοίξει."
+
+msgid "Figure 3.18. Dialog for Image Scaling in Pixels"
+msgstr "Εικόνα 3.18. Διάλογος για την αλλαγή μεγέθους εικόνας σε εικονοστοιχεία"
+
+msgid "Dialog for Image Scaling in Pixels"
+msgstr "Διάλογος για την αυξομείωση μεγέθους εικόνας σε εικονοστοιχεία"
+
+msgid "If you have a desired width, put it in the dialog at the top where it says <span class="guilabel">Width</span>. If you don't have such a number in mind, you can steal the width of <acronym class="acronym">GIMP</acronym>'s default image size, which is 256 pixels. This is shown in the figure above."
+msgstr "Εάν έχετε ένα επιθυμητό πλάτος, βάλτε το στο διάλογο στην κορυφή, όπου λέει <span class="guilabel">πλάτος</span>. Εάν δεν έχετε ένα τέτοιο αριθμό στο μυαλό, μπορείτε να βάλετε το πλάτος του μεγέθους της προκαθορισμένης εικόνας του <acronym class="acronym">GIMP</acronym> που είναι 256 εικονοστοιχεία. Αυτό φαίνεται στην παραπάνω εικόνα."
+
+msgid "Figure 3.19. Dialog for Image Scaling in Inches"
+msgstr "Εικόνα 3.19. Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά"
+
+msgid "Dialog for Image Scaling in Inches"
+msgstr "Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά"
+
+msgid "Perhaps you want your image to look more like a 4x6 inch photo on most image rendering web browsers. Switch the units to <span class="quote">“<span class="quote">inches</span>”</span> and enter 4 inches in the height box (opting for smaller than 4x6 rather than bigger). You can see this dialog above."
+msgstr "Ίσως θέλετε η εικόνα σας να δείχνει ως μία 140x100 χιλιοστά φωτογραφία. Αλλάξτε τις μονάδες σε “<span class="quote">χιλιοστά</span>” και βάλτε 99,84 χιλιοστά στο πλαίσιο ύψους (καλύτερα πιο μικρό από 140x100 παρά πιο μεγάλο). Μπορείτε να δείτε αυτό το διάλογο πιο πάνω."
+
+msgid "Let <acronym class="acronym">GIMP</acronym> choose the other dimension length for you. Meaning, it requires more image knowledge to change both width and height and have it look correct. So change only one item and let <acronym class="acronym">GIMP</acronym> change the rest. To change the other dimension, see <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4.&#xA0;Crop An Image">Section 4.4, “Crop An Image”</a>."
+msgstr "Αφήστε το GIMP να επιλέξει την άλλη διάσταση μήκους για σας, γιατί χρειάζεται περισσότερη γνώση της εικόνας για ταυτόχρονη αλλαγή πλάτους και ύψους, ενώ παράλληλα να φαίνεται σωστή. Γι' αυτό αλλάξτε μόνο τη μία τιμή και αφήστε το GIMP να αλλάξει τα υπόλοιπα. Για αλλαγή της άλλης διάστασης, δείτε <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4.&#xA0;">Ενότητα 4.4, “Περικοπή εικόνας”</a>."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

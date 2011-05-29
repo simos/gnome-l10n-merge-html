@@ -1,0 +1,90 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Using QuickMask Mode"
+msgstr "Χρήση της κατάστασης σύντομης μάσκας"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Chapter 7. Painting with GIMP"
+msgstr "Κεφάλαιο 7. Βάφοντας με το GIMP"
+
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+msgid " Paths"
+msgstr " Μονοπάτια"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-image-window-qmask-properties.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-image-window-qmask-properties.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-paths.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-paths.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-quickmask"/>4. Using QuickMask Mode"
+msgstr "<a id="gimp-using-quickmask"/>4. Χρήση της κατάστασης σύντομης μάσκας"
+
+msgid "Step 1"
+msgstr "Βήμα 1"
+
+msgid "Open an image or begin a new document."
+msgstr "Ανοίξτε μια εικόνα ή ξεκινήστε ένα νέο έγγραφο."
+
+msgid "Step 2"
+msgstr "Βήμα 2"
+
+msgid "Activate QuickMask mode using the left-bottom button in the image window. If a selection is present the mask is initialized with the content of the selection."
+msgstr "Ενεργοποιείστε την κατάσταση σύντομης μάσκας με το κάτω αριστερά κουμπί στο παράθυρο της εικόνας. Εάν υπάρχει επιλογή η μάσκα αρχικοποιείται με το περιεχόμενο της επιλογής."
+
+msgid "Step 3"
+msgstr "Step 3"
+
+msgid "Choose any drawing tool. Paint on the QuickMask with black to remove selected areas, and paint with white to add selected areas. Use grey colors to partially select areas."
+msgstr "Επιλέξτε οποιοδήποτε εργαλείο ζωγραφικής. Βάψτε στη σύντομη μάσκα με μαύρο για να διώξετε τις επιλεγμένες περιοχές και βάψτε με άσπρο για να προσθέσετε επιλεγμένες περιοχές. Χρησιμοποιείστε αποχρώσεις του γκρι για μερική επιλογή περιοχών."
+
+msgid "You can also use selection tools and fill these selections with the Bucket Fill tool; this does not destroy the QuickMask selections!"
+msgstr "Μπορείτε επίσης να χρησιμοποιήσετε εργαλεία επιλογής και να γεμίσετε αυτές τις επιλογές με το εργαλείο κουβά γεμίσματος. Αυτό δεν καταστρέφει τις επιλογές της σύντομης μάσκας!"
+
+msgid "Step 4"
+msgstr "Step 4"
+
+msgid "Toggle QuickMask mode off using the left-bottom button in the image window: the selection will be displayed with marching ants."
+msgstr "Απενεργοποίηση της κατάστασης σύντομης μάσκας χρησιμοποιώντας το κάτω αριστερό κουμπί στο παράθυρο εικόνας. Η επιλογή θα εμφανιστεί με κινούμενες στιγμές."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid "Paths"
+msgstr "Μονοπάτια"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

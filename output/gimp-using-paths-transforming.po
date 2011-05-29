@@ -1,0 +1,69 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Transforming Paths"
+msgstr "Μετασχηματισμός μονοπατιών"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid " Paths"
+msgstr " Μονοπάτια"
+
+msgid "Paths and Selections"
+msgstr "Μονοπάτια και επιλογές"
+
+msgid "Stroking a Path"
+msgstr "Βάψιμο μονοπατιού"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-paths-and-selections.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-paths-and-selections.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Paths"
+msgstr "Μονοπάτια"
+
+msgid " <placeholder-1/>"
+msgstr "<placeholder-1/>"
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-paths-stroking.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-paths-stroking.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-paths-transforming"/>5.4. Transforming Paths"
+msgstr "<a id="gimp-using-paths-transforming"/>5.4. Μετασχηματισμός μονοπατιών"
+
+msgid "Each of the Transform tools (Rotate, Scale, Perspective, etc) can be set to act on a layer, selection, or path. Select the transform tool in the toolbox, then select layer, selection, or path for the <span class="quote">“<span class="quote">Transform:</span>”</span> option in the tool's Tool Options dialog. This gives you a powerful set of methods for altering the shapes of paths without affecting other elements of the image."
+msgstr "Κάθε εργαλείο μετασχηματισμού (περιστροφή, αυξομείωση μεγέθους, προοπτική κλ.) μπορεί να οριστεί να επιδράσει σε στρώση, επιλογή ή μονοπάτι. Επιλέξτε το αντίστοιχο εργαλείο μετασχηματισμού στην εργαλειοθήκη, έπειτα από το διάλογο επιλογές εργαλείων <span class="quote">“<span class="quote">Μετασχηματισμός</span>”</span> σε στρώση, επιλογή ή μονοπάτι. Αυτό σας δίνει ένα ισχυρό σύνολο μεθόδων για αλλαγή σχημάτων των μονοπατιών χωρίς να επηρεάζετε άλλα στοιχεία της εικόνας."
+
+msgid "By default a Transform tool, when it is set to affect paths, acts on only one path: the <span class="emphasis"><em>active path</em></span> for the image, which is shown highlighted in the Paths dialog. You can make a transformation affect more than one path, and possibly other things as well, using the <span class="quote">“<span class="quote">transform lock</span>”</span> buttons in the Paths dialog. Not only paths, but also layers and channels, can be transform-locked. If you transform one element that is transform-locked, all others will be transformed in the same way. So, for example, if you want to scale a layer and a path by the same amount, click the transform-lock buttons so that <span class="quote">“<span class="quote">chain</span>”</span> symbols appear next to the layer in the Layers dialog, and the path in the Paths dialog; then use the Scale tool on either the layer or the path, and the other will automatically follow."
+msgstr "Από προεπιλογή το εργαλείο μετασχηματισμού, όταν ορίζεται να επιδράσει σε μονοπάτια, ενεργεί σε ένα μόνο μονοπάτι, στο <span class="emphasis"><em>ενεργό μονοπάτι</em></span> για την εικόνα, που φαίνεται τονισμένο στο διάλογο μονοπατιών. Μπορείτε να κάνετε έναν μετασχηματισμό που επηρεάζει περισσότερα από ένα μονοπάτια και ίσως και άλλα πράγματα, χρησιμοποιώντας τα κουμπιά <span class="quote">“<span class="quote">κλείδωμα μετασχηματισμού</span>”</span> στον αγκιστρωμένο διάλογο μονοπατιών. Όχι μόνο μονοπάτια, αλλά και στρώσεις και κανάλια μπορούν να κλειδώσουν το μετασχηματισμό. Εάν μετασχηματίζετε ένα στοιχείο που είναι κλειδωμένο στο μετασχηματισμό, όλα τα άλλα θα μετασχηματιστούν κατά τον ίδιο τρόπο. Π.χ. εάν θέλετε να κλιμακώσετε μια στρώση και ένα μονοπάτι με το ίδιο ποσοστό, πατήστε τα κουμπιά κλειδώματος μετασχηματισμού έτσι ώστε τα σύμβολα <span class="quote">“<span class="quote">αλυσίδας</span>”</span> να εμφανιστούν δίπλα στη στρώση στο διάλογο στρώσεων και το μονοπάτι στο διάλογο μονοπατιών. Έπειτα χρησιμοποιείστε το εργαλείο αυξομείωσης μεγέθους είτε στη στρώση είτε στο μονοπάτι και το άλλο θα ακολουθήσει αυτόματα."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

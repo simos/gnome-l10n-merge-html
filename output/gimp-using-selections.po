@@ -1,0 +1,135 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Creating and Using Selections"
+msgstr "Δημιουργία και χρήση επιλογών"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Chapter 7. Painting with GIMP"
+msgstr "Κεφάλαιο 7. Βάφοντας με το GIMP"
+
+msgid "Adding or subtracting selections"
+msgstr "Προσθήκη ή αφαίρεση επιλογών"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-painting.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-painting.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-selections-add.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-selections-add.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-selections"/>2. Creating and Using Selections"
+msgstr "<a id="gimp-using-selections"/>2. Δημιουργία και χρήση επιλογών"
+
+msgid "Moving a Selection"
+msgstr "Μετακίνηση επιλογής"
+
+msgid "<a id="gimp-using-selections-moving"/>2.1. Moving a Selection"
+msgstr "<a id="gimp-using-selections-moving"/>2.1. Μετακίνηση επιλογής"
+
+msgid "Rectangular and elliptical selections have two modes. The default mode has handles on the selection. If you click the selection or press the <span class="keycap"><strong>Enter</strong></span> key,the handles disappear leaving only the dotted outline (marching ants). The other selection tools have different behaviour."
+msgstr "Οι επιλογές ορθογωνίου και έλλειψης έχουν δύο καταστάσεις. Η προεπιλεγμένη κατάσταση έχει λαβές στην επιλογή. Εάν πατήσετε την επιλογή ή πιέσετε το πλήκτρο <span class="keycap"><strong>Enter</strong></span>, οι λαβές εξαφανίζονται αφήνοντας μόνο το διάστικτο περίγραμμα. Η άλλη επιλογή εργαλείων έχει άλλη συμπεριφορά."
+
+msgid "Moving rectangular and elliptical selections"
+msgstr "Μετακίνηση ορθογώνιων και ελλειπτικών επιλογών"
+
+msgid "<a id="id3163193"/>2.1.1. Moving rectangular and elliptical selections"
+msgstr "<a id="id3163193"/>2.1.1. Μετακίνηση ορθογώνιων και ελλειπτικών επιλογών"
+
+msgid "If you click-and drag a selection with handles, you move the selection outline, and you don't move the contents of rectangular or elliptic selections."
+msgstr "Εάν πατήσετε και σύρετε μια επιλογή με χερούλια, μετακινείτε το περίγραμμα επιλογής και δεν μετακινείτε τα περιεχόμενα των ορθογώνιων ή ελλειπτικών επιλογών."
+
+msgid "Select the <a class="link" href="gimp-tool-move.html" title="4.3.&#xA0;Move">Move </a> tool and set the options to move the selection; the tool supports moving the selection, path, or layer."
+msgstr "Επιλέξτε το εργαλείο <a class="link" href="gimp-tool-move.html" title="4.3.&#xA0;Move">Μετακίνηση</a> και ορίστε τις προτιμήσεις για μετακίνηση της επιλογής. Το εργαλείο υποστηρίζει μετακίνηση της επιλογής, του μονοπατιού ή της στρώσης."
+
+msgid "Figure 7.5. Moving selection outline"
+msgstr "Εικόνα 7.5. Μετακίνηση περιγράμματος επιλογής"
+
+msgid "Moving selection outline"
+msgstr "Μετακίνηση περιγράμματος επιλογής"
+
+msgid "Most systems support moving the selection using the arrow keys. The precise behavior is system dependent. If the arrow keys do not cause the selection to move, try hovering the mouse cursor over the selection first. Press and hold the <span class="keycap"><strong>Alt</strong></span> (or <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span>, <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span>, or <span class="keycap"><strong>Alt</strong></span>). One combination may move the selection by one pixel, and another by 25 pixels each step. Hover the mouse cursor over a side or corner handle, and the arrow keys and combinations can change the size of the selection."
+msgstr "Τα περισσότερα συστήματα υποστηρίζουν τη μετακίνηση επιλογής χρησιμοποιώντας τα πλήκτρα των τόξων. Η ακριβής συμπεριφορά εξαρτάται από το σύστημα. Εάν τα πλήκτρα τόξων δεν προκαλούν μετακίνηση της επιλογής, δοκιμάστε πρώτα, υπέρθεση του δρομέα του ποντικιού πάνω από την επιλογή. Πατήστε και κρατήστε το <span class="keycap"><strong>Alt</strong></span> (ή <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span>, <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span>, ή <span class="keycap"><strong>Alt</strong></span>). Ένας συνδυασμός μπορεί να μετακινήσει την επιλογή κατά ένα εικονοστοιχείο και ένας άλλος κατά 25 εικονοστοιχεία κάθε βήμα. Υπερθέστε το δρομέα ποντικιού πάνω από μια πλευρά της γωνιακής χειρολαβής και τα πλήκτρα τόξων και συνδυασμών μπορούν να αλλάξουν το μέγεθος της επιλογής."
+
+msgid "If you click-and-drag the selection without handles, you create a new selection! To move the selection contents, you have to"
+msgstr "Εάν πατήσετε και σύρετε μια επιλογή χωρίς χερούλια, δημιουργείτε μια νέα επιλογή! Για μετακίνηση των περιεχομένων της επιλογής πρέπει να"
+
+msgid "hold down <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span> keys and click-and-drag the selection. This makes the original place empty. A floating selection is created. The required key commands may differ on your system, look in the status bar to see if another combination is specified; for example, <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span>."
+msgstr "κρατήσετε πατημένα τα πλήκτρα <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span> και πάτημα και σύρσιμο της επιλογής. Αυτό κάνει την αρχική θέση άδεια. Μια επιπλέουσα επιλογή δημιουργείται. Τα απαιτούμενα πλήκτρα εντολών μπορεί να διαφέρουν στο σύστημα σας, κοιτάξτε στη γραμμή κατάστασης για να δείτε εάν κάποιος άλλος συνδυασμός ορίζεται. Για παράδειγμα <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span>."
+
+msgid "Figure 7.6.  Moving a selection and its content, emptying the original place"
+msgstr "Εικόνα 7.6. Μετακίνηση επιλογής και των περιεχομένων της, άδειασμα της αρχικής θέσης"
+
+msgid "Moving a selection and its content, emptying the original place"
+msgstr "Μετακίνηση επιλογής και των περιεχομένων της, άδειασμα της αρχικής θέσης"
+
+msgid "hold down <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span> keys and click-and-drag the selection to move without emptying the original place. A floating selection is created."
+msgstr "Κρατήστε πατημένα τα πλήκτρα <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span> και πατήστε και σύρετε την επιλογή για μετακίνηση χωρίς άδειασμα της αρχικής θέσης. Μια επιπλέουσα επιλογή δημιουργήθηκε."
+
+msgid "Figure 7.7.  Moving a selection and its content without emptying the original place"
+msgstr "Εικόνα 7.7. Μετακίνηση επιλογής και των περιεχομένων της, άδειασμα της αρχικής θέσης"
+
+msgid "Moving a selection and its content without emptying the original place"
+msgstr "Μετακίνηση επιλογής και των περιεχομένων της χωρίς άδειασμα της αρχικής θέσης"
+
+msgid "Note"
+msgstr "Σημείωση"
+
+msgid "[Note]"
+msgstr "[Σημείωση]"
+
+msgid "On some systems, you must push <span class="keycap"><strong>Alt</strong></span> before <span class="keycap"><strong>Shift</strong></span> or <span class="keycap"><strong>Ctrl</strong></span>. On these systems, pressing <span class="keycap"><strong>Shift</strong></span> or <span class="keycap"><strong>Ctrl</strong></span> first, causes GIMP to enter a mode that adds or subtract from the current selection — after that, the <span class="keycap"><strong>Alt</strong></span> key is ineffective!"
+msgstr "Σε μερικά συστήματα, πρέπει να πιέσετε <span class="keycap"><strong>Alt</strong></span> πριν από το <span class="keycap"><strong>Shift</strong></span> ή <span class="keycap"><strong>Ctrl</strong></span>. Σ' αυτά τα συστήματα, πατώντας <span class="keycap"><strong>Shift</strong></span> ή <span class="keycap"><strong>Ctrl</strong></span> πρώτα προκαλεί στο GIMP την εισαγωγή μιας κατάστασης που προσθέτει ή αφαιρεί από την τρέχουσα επιλογή. Μετά από αυτό το πλήκτρο <span class="keycap"><strong>Alt</strong></span> είναι ατελέσφορο!"
+
+msgid "Moving the other selections"
+msgstr "Μετακίνηση των άλλων επιλογών"
+
+msgid "<a id="id3164431"/>2.1.2. Moving the other selections"
+msgstr "<a id="id3164431"/>2.1.2. Μετακίνηση των άλλων επιλογών"
+
+msgid "The other selections (Lasso, Magic wand, By Color) have no handle. Click-and dragging them doesn't move them. To move their contents, as with rectangular and elliptical selections, you have to hold down <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span> keys or <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span> and click-and-drag."
+msgstr "Οι άλλες επιλογές (ελεύθερη, ασαφής, κατά χρώμα) δεν έχουν λαβές. Πάτημα και σύρσιμο δεν τις μετακινεί. Για μετακίνηση των περιεχομένων τους, όπως με τις ορθογώνιες και ελλειπτικές επιλογές, πρέπει να κρατήσετε πατημένα τα πλήκτρα <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span> ή <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Alt</strong></span> και πάτημα και σύρσιμο."
+
+msgid "If you use keyboard arrow keys instead of click-and-drag, you move the outline."
+msgstr "Εάν χρησιμοποιείτε πλήκτρα τόξων του πληκτρολογίου αντί για πάτημα και σύρσιμο, μετακινείται το περίγραμμα."
+
+msgid "Other method"
+msgstr "Άλλη μέθοδος"
+
+msgid "<a id="id3164478"/>2.1.3. Other method"
+msgstr "<a id="id3164478"/>2.1.3. Άλλη μέθοδος"
+
+msgid "You can also use a more roundabout method to move a selection. Make it floating. Then you can move its content, emptying the origin, by click-and-dragging or keyboard arrow keys. To move without emptying, use copy-paste."
+msgstr "Μπορείτε επίσης να χρησιμοποιήσετε μια πιο έμμεση μέθοδο για να μετακινήσετε μία επιλογή. Κάντε την επιπλέουσα. Έπειτα μπορείτε να μετακινήσετε τα περιεχόμενα της, να αδειάσετε την αρχική επιλογή με πάτημα και σύρσιμο ή πλήκτρα τόξων πληκτρολογίου. Για μετακίνηση χωρίς άδειασμα, χρησιμοποιείστε αντιγραφή-επικόλληση."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

@@ -1,0 +1,87 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Different Kinds Of Script-Fus"
+msgstr "Διάφορα είδη Script-Fus"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Using Script-Fu Scripts"
+msgstr "Χρήση σεναρίων Script-Fu"
+
+msgid "Do's and Don'ts"
+msgstr "Επιτρεπτά και μη"
+
+msgid "Standalone Scripts"
+msgstr "Αυτόνομα σενάρια"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="common-script-fu-errors.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="common-script-fu-errors.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="standalone-script-fu.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="standalone-script-fu.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="kinds-of-script-fu"/>2.4. Different Kinds Of Script-Fus"
+msgstr "<a id="kinds-of-script-fu"/>2.4. Διάφορα είδη Script-Fus"
+
+msgid "There are two kinds of Script-Fus:"
+msgstr "Υπάρχουν δύο είδη Script-Fus:"
+
+msgid "Standalone Script-Fus"
+msgstr "Αυτόνομα Script-Fus"
+
+msgid "You will find the standalone variants under <span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Type of Script</span> in the image menubar (see the figure below)."
+msgstr "Παλιότερα οι αυτόνομες παραλλαγές ήταν στη γραμμή μενού εικόνων <span class="guimenu">Αρχείο</span> → <span class="guisubmenu">Δημιουργία</span> → <span class="guisubmenu">Τύπος σεναρίου</span> (δείτε την παρακάτω εικόνα)."
+
+msgid "Figure 12.1. Script-Fus by category"
+msgstr "Εικόνα 12.1. Script-Fus ανά κατηγορία"
+
+msgid "Script-Fus by category"
+msgstr "Script-Fus ανά κατηγορία"
+
+msgid "Image-dependent Script-Fus"
+msgstr "Εικονοεξαρτώμενα Script-Fus"
+
+msgid "Menus have been reorganized. A new Colors-menu appears. It groups together all scripts that work on colors, for example tools that adjust hue, saturation, lightness..., filters...etc. Filters-menu and Script-Fu-menu are merged in one Filters-menu and it is organized according to new categories. Image-dependent Plug-ins and Script-Fus are now disseminated in the image-menus. For example, Color to Alpha filter is in Colors-menu. At the beginning, it's disconcerting, but you finish to get used to this because it's more logical."
+msgstr "Τα μενού έχουν αναδιοργανωθεί. Ένα νέο μενού χρωμάτων εμφανίζεται. Ομαδοποιεί μαζί όλα τα σενάρια που δουλεύουν σε χρώματα, π.χ. εργαλεία που ρυθμίζουν την απόχρωση, τον κορεσμό, τη φωτεινότητα..., φίλτρα...κλ. Το μενού φίλτρων και το μενού Script-Fu συγχωνεύτηκαν σε ένα μενού φίλτρων που οργανώθηκε σύμφωνα με τις νέες κατηγορίες. Τα εικονοεξαρτώμενα πρόσθετα και Script-Fus διασκορπίστηκαν στα μενού της εικόνας. Π.χ., το φίλτρο Color to Alpha (χρώμα στο άλφα) είναι στο μενού χρωμάτων. Στην αρχή είναι αποπροσανατολιστικό, αλλά θα το συνηθίσετε επειδή είναι πιο λογικό."
+
+msgid "The figure below show where you can find them in the image-menu."
+msgstr "Η παρακάτω εικόνα σας δείχνει που μπορείτε να τα βρείτε στο μενού της εικόνας."
+
+msgid "Figure 12.2. Where find Image-dependent scripts"
+msgstr "Εικόνα 12.2. Πού θα βρείτε τα εικονοεξαρτώμενα σενάρια"
+
+msgid "Where find Image-dependent scripts"
+msgstr "Πού θα βρείτε τα εικονοεξαρτώμενα σενάρια"
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

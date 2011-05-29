@@ -1,0 +1,132 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Adding Fonts"
+msgstr "Προσθήκη γραμματοσειρών"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Text"
+msgstr "Κείμενο"
+
+msgid "Font Problems"
+msgstr "Προβλήματα γραμματοσειρών"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-text.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-text.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-fonts"/>5.2. Adding Fonts"
+msgstr "<a id="gimp-using-fonts"/>5.2. Προσθήκη γραμματοσειρών"
+
+msgid "For the most authoritative and up-to-date information on fonts in GIMP, consult the <span class="quote">“<span class="quote">Fonts in GIMP 2.0</span>”</span> page <a class="xref" href="bibliography.html#bibliography-online-gimp-fonts" title="Fonts in GIMP 2.0">[<abbr class="abbrev">GIMP-FONTS</abbr>]</a> at the GIMP web site. This section attempts to give you a helpful overview."
+msgstr "Για τις πιο αυθεντικές και σύγχρονες πληροφορίες για τις γραμματοσειρές στο GIMP, συμβουλευτείτε τη σελίδα <span class="quote">“<span class="quote">Γραμματοσειρές στο GIMP 2.0</span>”</span><a class="xref" href="bibliography.html#bibliography-online-gimp-fonts" title="&#x393;&#x3C1;&#x3B1;&#x3BC;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C3;&#x3B5;&#x3B9;&#x3C1;&#x3AD;&#x3C2; &#x3C3;&#x3C4;&#x3BF; GIMP 2.0">[<abbr class="abbrev">GIMP-FONTS</abbr>]</a> στον ιστότοπο του GIMP. Αυτό το τμήμα προσπαθεί να σας δώσει μια χρήσιμη επισκόπηση."
+
+msgid "GIMP uses the FreeType 2 font engine to render fonts, and a system called Fontconfig to manage them. GIMP will let you use any font in Fontconfig's font path; it will also let you use any font it finds in GIMP's font search path, which is set on the <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19.&#xA0;Data Folders">Font Folders</a> page of the Preferences dialog. By default, the font search path includes a system GIMP-fonts folder (which you should not alter, even though it is actually empty), and a <code class="filename">fonts</code> folder inside your personal GIMP directory. You can add new folders to the font search path if it is more convenient for you."
+msgstr "Το GIMP χρησιμοποιεί τη μηχανή γραμματοσειρών FreeType 2 για να αποδώσει τις γραμματοσειρές και ένα σύστημα που λέγεται Fontconfig για να τις διαχειριστεί. Το GIMP σας επιτρέπει να χρησιμοποιήσετε οποιαδήποτε γραμματοσειρά που βρίσκεται στη διαδρομή γραμματοσειρών Fontconfig. Σας επιτρέπει επίσης να χρησιμοποιήσετε οποιαδήποτε γραμματοσειρά βρίσκει στη διαδρομή αναζήτησης γραμματοσειρών του GIMP που ορίζεται στη σελίδα <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19.&#xA0;&#x3A6;&#x3AC;&#x3BA;&#x3B5;&#x3BB;&#x3BF;&#x3B9;">Γραμματοσειρές</a> του διαλόγου προτιμήσεων. Από προεπιλογή, η διαδρομή αναζήτησης γραμματοσειρών περιλαμβάνει ένα φάκελο του συστήματος fonts (που δεν πρέπει να αλλάξετε, ακόμα κι αν είναι στην πραγματικότητα άδειος) και έναν φάκελο <code class="filename">fonts</code> στον προσωπικό σας κατάλογο GIMP. Μπορείτε να προσθέσετε νέους φακέλους στη διαδρομή αναζήτησης, εάν αυτό σας βολεύει."
+
+msgid "FreeType 2 is a very powerful and flexible system. By default, it supports the following font file formats:"
+msgstr "Το FreeType 2 είναι ένα πολύ ισχυρό και ευέλικτο σύστημα. Από προεπιλογή, υποστηρίζει τις παρακάτω μορφές αρχείων γραμματοσειρών:"
+
+msgid "TrueType fonts (and collections)"
+msgstr "TrueType γραμματοσειρές (και συλλογές)"
+
+msgid "Type 1 fonts"
+msgstr "Type 1 γραμματοσειρές"
+
+msgid "CID-keyed Type 1 fonts"
+msgstr "CID-keyed Type 1 γραμματοσειρές"
+
+msgid "CFF fonts"
+msgstr "CFF γραμματοσειρές"
+
+msgid "OpenType fonts (both TrueType and CFF variants)"
+msgstr "OpenType γραμματοσειρές (και TrueType και παραλλαγές CFF)"
+
+msgid "SFNT-based bitmap fonts"
+msgstr "bitmap γραμματοσειρές βασισμένες σε SFNT"
+
+msgid "X11 PCF fonts"
+msgstr "X11 PCF γραμματοσειρές"
+
+msgid "Windows FNT fonts"
+msgstr "Windows FNT γραμματοσειρές"
+
+msgid "BDF fonts (including anti-aliased ones)"
+msgstr "BDF γραμματοσειρές (συμπεριλαμβάνοντας τις εξομαλυντικές)"
+
+msgid "PFR fonts"
+msgstr "PFR γραμματοσειρές"
+
+msgid "Type42 fonts (limited support)"
+msgstr "Type42 γραμματοσειρές (περιορισμένη υποστήριξη)"
+
+msgid "You can also add modules to support other types of font files. See FREETYPE 2 <a class="xref" href="bibliography.html#bibliography-online-freetype" title="Freetype 2 home page">[<abbr class="abbrev">FREETYPE</abbr>]</a> for more information."
+msgstr "Μπορείτε επίσης να προσθέσετε αρθρώματα για να υποστηρίξετε άλλους τύπους αρχείων γραμματοσειρών. Δείτε FREETYPE 2 <a class="xref" href="bibliography.html#bibliography-online-freetype" title="Freetype 2 &#x3B1;&#x3C1;&#x3C7;&#x3B9;&#x3BA;&#x3AE; &#x3C3;&#x3B5;&#x3BB;&#x3AF;&#x3B4;&#x3B1;">[<abbr class="abbrev">FREETYPE</abbr>]</a> για περισσότερες πληροφορίες."
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "<b>Linux. </b> On a Linux system, if the Fontconfig utility is set up as usual, all you need to do to add a new font is to place the file in the directory <code class="filename">~/.fonts</code>. This will make the font available not only to GIMP, but to any other program that uses Fontconfig. If for some reason you want the font to be available to GIMP only, you can place it in the <code class="filename">fonts</code> sub-directory of your personal GIMP directory, or some other location in your font search path. Doing either will cause the font to show up the next time you start GIMP. If you want to use it in an already running GIMP, press the <span class="emphasis"><em>Refresh</em></span><span class="guiicon"><img src="images/dialogs/stock-reload-16.png"/></span> button in the <a class="link" href="gimp-font-dialog.html" title="3.6.&#xA0;Fonts Dialog">Fonts dialog</a>."
+msgstr "<b>Linux. </b> Σ' ένα σύστημα Linux, εάν η λειτουργία του Fontconfig οριστεί ως συνήθως, για να προσθέσετε μια νέα γραμματοσειρά χρειαζόσαστε απλά να τοποθετήσετε το αρχείο στον κατάλογο <code class="filename">~/.fonts</code>. Αυτό θα κάνει τη γραμματοσειρά διαθέσιμη όχι μόνο στο GIMP, αλλά και σε οποιοδήποτε άλλο πρόγραμμα χρησιμοποιεί το Fontconfig. Εάν για κάποιο λόγο θέλετε η γραμματοσειρά να είναι διαθέσιμη μόνο στο GIMP, μπορείτε να την βάλετε στον υποκατάλογο <code class="filename">fonts</code> του προσωπικού σας καταλόγου GIMP, ή σε κάποια άλλη τοποθεσία στη διαδρομή αναζήτησης γραμματοσειρών. Η γραμματοσειρά θα εμφανιστεί την επόμενη φορά που θα ξεκινήσετε το GIMP. Εάν θέλετε να την χρησιμοποιήσετε στο GIMP που ήδη τρέχει, πατήστε το κουμπί <span class="emphasis"><em>Ανανέωση</em></span><span class="guiicon"><img src="images/dialogs/stock-reload-16.png"/></span> στο <a class="link" href="gimp-font-dialog.html" title="3.6.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3B3;&#x3C1;&#x3B1;&#x3BC;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C3;&#x3B5;&#x3B9;&#x3C1;&#x3CE;&#x3BD;">Διάλογος γραμματοσειρών</a>."
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "<b>Windows. </b> The easiest way to install a font is to drag the file onto the Fonts directory and let the shell do its magic. Unless you've done something creative, it's probably in its default location of <code class="filename">C:\windows\fonts</code> or <code class="filename">C:\winnt\fonts</code>. Sometimes double-clicking on a font will install it as well as display it; sometimes it only displays it. This method will make the font available not only to <acronym class="acronym">GIMP</acronym>, but also to other Windows applications."
+msgstr "<b>Windows. </b> Ο πιο εύκολος τρόπος για εγκατάσταση μιας γραμματοσειράς είναι σέρνοντας το αρχείο σε έναν κατάλογο γραμματοσειρών και αφήστε το κέλυφος να κάνει τα μαγικά του. Η προκαθορισμένη θέση είναι <code class="filename">C:\windows\fonts</code> ή <code class="filename">C:\winnt\fonts</code>. Μερικές φορές, διπλοπατώντας σε μια γραμματοσειρά θα την εγκαταστήσει και θα την εμφανίσει. Μερικές φορές, την εμφανίζει μόνο. Αυτή η μέθοδος θα κάνει τη γραμματοσειρά διαθέσιμη όχι μόνο στο GIMP, αλλά και σε άλλες εφαρμογές των Windows."
+
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+msgid "<b>Mac OS X. </b> There are several ways to install fonts on your system. You can drag-and-drop them to the <span class="quote">“<span class="quote">Fonts</span>”</span> folder in <span class="quote">“<span class="quote">Libraries</span>”</span> folder of your <span class="quote">“<span class="quote">Home Folder</span>”</span>. Or you may use <span class="application">Font Book</span>, invoked by double-clicking the font file icon in the Finder. You can see what the font looks like, and click your favorite fonts so that their files are to be installed on the system. These methods will make the fonts available for all applications, not only <acronym class="acronym">GIMP</acronym>. If you want all users can use the fonts, drag-and-drop the fonts to the <span class="quote">“<span class="quote">Fonts</span>”</span> folder in <span class="quote">“<span class="quote">Libraries</span>”</span> folder of the <span class="productname">Mac OS X</span>™ Disk, or to the <span class="quote">“<span class="quote">Computer</span>”</span> folder in the <span class="guilabel">Collection</span> column of <span class="application">Font Book</span>."
+msgstr "<b>Mac OS X. </b> Υπάρχουν πολλοί τρόποι για να εγκαταστήσετε γραμματοσειρές στο σύστημα σας. Μπορείτε με σύρσιμο και απόθεση στο φάκελο <span class="quote">“<span class="quote">Fonts</span>”</span> του φακέλου <span class="quote">“<span class="quote">Libraries</span>”</span> του <span class="quote">“<span class="quote">Home Folder</span>”</span>. Ή μπορείτε να χρησιμοποιήσετε <span class="application">Font Book</span>, καλούμενο από διπλοπάτημα του εικονιδίου του αρχείου γραμματοσειράς στον εξερευνητή. Μπορείτε να δείτε πώς φαίνονται οι γραμματοσειρές και να πατήσετε τις αγαπημένες σας, έτσι ώστε τα αρχεία τους να εγκατασταθούν στο σύστημα. Αυτές οι μέθοδοι θα κάνουν τις γραμματοσειρές διαθέσιμες σε όλες τις εφαρμογές και όχι μόνο στο GIMP. Εάν θέλετε όλοι οι χρήστες να μπορούν να χρησιμοποιήσουν τις γραμματοσειρές, σύρσιμο και απόθεση των γραμματοσειρών στο φάκελο <span class="quote">“<span class="quote">Fonts</span>”</span> στο φάκελο <span class="quote">“<span class="quote">Libraries</span>”</span> του δίσκου <span class="productname">Mac OS X</span>™, ή στο φάκελο <span class="quote">“<span class="quote">Computer</span>”</span> στη <span class="guilabel">Collection</span> στήλη του <span class="application">Font Book</span>."
+
+msgid "To install a Type 1 file, you need both the <code class="filename">.pfb</code> and <code class="filename">.pfm</code> files. Drag the one that gets an icon into the fonts folder. The other one doesn't strictly need to be in the same directory when you drag the file, since it uses some kind of search algorithm to find it if it's not, but in any case putting it in the same directory does no harm."
+msgstr "Για να εγκαταστήσετε ένα αρχείο Type 1, χρειαζόσαστε τα αρχεία <code class="filename">.pfb</code> και <code class="filename">.pfm</code>. Σύρτε το αρχείο με το εικονίδιο στο φάκελο γραμματοσειρών. Το άλλο δεν χρειάζεται να είναι στο ίδιον κατάλογο, αλλά σε κάθε περίπτωση αν το βάλετε στον ίδιο κατάλογο δεν βλάπτει."
+
+msgid "In principle, GIMP can use any type of font on Windows that FreeType can handle; however, for fonts that Windows can't handle natively, you should install them by placing the font files in the <code class="filename">fonts</code> folder of your personal GIMP directory, or some other location in your font search path. The support Windows has varies by version. All that GIMP runs on support at least TrueType, Windows FON, and Windows FNT. Windows 2000 and later support Type 1 and OpenType. Windows ME supports OpenType and possibly Type 1 (but the most widely used Windows GIMP installer does not officially support Windows ME, although it may work anyway)."
+msgstr "Γενικά το GIMP μπορεί να χρησιμοποιήσει οποιοδήποτε τύπο γραμματοσειράς στα Windows που το FreeType μπορεί να χειριστεί. Όμως, για γραμματοσειρές που τα Windows δεν μπορούν να χειριστούν εγγενώς, μπορείτε να τα εγκαταστήσετε τοποθετώντας τα αρχεία γραμματοσειρών στο φάκελο <code class="filename">fonts</code> του προσωπικού σας καταλόγου GIMP ή σε κάποια άλλη τοποθεσία στη διαδρομή αναζήτησης γραμματοσειρών. Η υποστήριξη των Windows ποικίλλει με την έκδοση. Το GIMP αποδέχεται τουλάχιστον TrueType, Windows FON και Windows FNT. Τα Windows 2000 και μεταγενέστερα υποστηρίζουν Type 1 και OpenType. Windows ME υποστηρίζει OpenType και πιθανόν Type 1."
+
+msgid "Note"
+msgstr "Σημείωση"
+
+msgid "[Note]"
+msgstr "[Σημείωση]"
+
+msgid "GIMP uses Fontconfig to manage fonts on Windows as well as Linux. The instructions above work because Fontconfig by default uses the Windows fonts directory, i. e., the same fonts that Windows uses itself. If for some reason your Fontconfig is set up differently, you will have to figure out where to put fonts so that GIMP can find them: in any case, the <code class="filename">fonts</code> folder of your personal GIMP directory should work."
+msgstr "Το GIMP χρησιμοποιεί το Fontconfig για να διαχειριστεί γραμματοσειρές στα Windows όπως και στο Linux. Οι πιο πάνω οδηγίες δουλεύουν επειδή το Fontconfig από προεπιλογή χρησιμοποιεί τον κατάλογο γραμματοσειρών των Windows δηλ., τις ίδιες γραμματοσειρές που χρησιμοποιούν τα Windows. Εάν για κάποιο λόγο το Fontconfig ορίζεται διαφορετικά, θα πρέπει να βρείτε που να βάλετε τις γραμματοσειρές, έτσι ώστε το GIMP να μπορεί να τις βρει: Σε κάθε περίπτωση ο φάκελος <code class="filename">fonts</code> του προσωπικού σας καταλόγου GIMP θα πρέπει να δουλέψει."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

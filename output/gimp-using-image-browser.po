@@ -1,0 +1,60 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Image Browser"
+msgstr "Περιηγητής εικόνας"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Opening Files"
+msgstr "Άνοιγμα αρχείων"
+
+msgid "Copy and Paste"
+msgstr "Αντιγραφή και επικόλληση"
+
+msgid "Chapter 6. Getting Images out of GIMP"
+msgstr "Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-open-copy-and-paste.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-open-copy-and-paste.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-images-out.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-images-out.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-image-browser"/>3.8. Image Browser"
+msgstr "<a id="gimp-using-image-browser"/>3.8. Περιηγητής εικόνας"
+
+msgid "Linux supports an image-management application named <span class="application">gThumb</span>. Besides being an excellent image browser, you can right click an image, choose <span class="guilabel">Open with</span>, then select <acronym class="acronym">GIMP</acronym> from the list of options. You can also drag an image from <span class="application">gThumb</span> onto the <acronym class="acronym">GIMP</acronym> toolbox. See the gThumb home page <a class="xref" href="bibliography.html#bibliography-online-gthumb" title="gThumb - An Image Viewer and Browser for the GNOME Desktop">[<abbr class="abbrev">GTHUMB</abbr>]</a> for more information. Other similar applications are : GQview <a class="xref" href="bibliography.html#bibliography-online-gqview" title="Homepage of GQview, an image browser">[<abbr class="abbrev">GQVIEW</abbr>]</a>, and XnView <a class="xref" href="bibliography.html#bibliography-online-xnview" title="XnView">[<abbr class="abbrev">XNVIEW</abbr>]</a>."
+msgstr "Το Linux υποστηρίζει μια εφαρμογή διαχείρισης εικόνας που λέγεται <span class="application">gThumb</span>. Πέρα από ένας εξαιρετικός περιηγητής εικόνας, μπορείτε να δεξιοπατήσετε σε μια εικόνα, να επιλέξετε <span class="guilabel">Άνοιγμα με</span>, έπειτα επιλέξτε το GIMP από τη λίστα επιλογών. Μπορείτε επίσης να σύρετε μια εικόνα από το <span class="application">gThumb</span> στην εργαλειοθήκη του GIMP. Δείτε την αρχική σελίδα του gThumb στο <a class="xref" href="bibliography.html#bibliography-online-gthumb" title="gThumb - An Image Viewer and Browser for the GNOME Desktop">[<abbr class="abbrev">GTHUMB</abbr>]</a> για περισσότερες πληροφορίες. Παρόμοιες εφαρμογές είναι: GQview <a class="xref" href="bibliography.html#bibliography-online-gqview" title="Homepage of GQview, an image browser">[<abbr class="abbrev">GQVIEW</abbr>]</a> και XnView <a class="xref" href="bibliography.html#bibliography-online-xnview" title="XnView">[<abbr class="abbrev">XNVIEW</abbr>]</a>."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

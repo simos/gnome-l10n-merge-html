@@ -1,0 +1,81 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Your script and its working"
+msgstr "Το σενάριο σας και η λειτουργία του"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "A Script-Fu Tutorial"
+msgstr "Διδακτική ενός Script-Fu"
+
+msgid "Extending The Text Box Script"
+msgstr "Επέκταση του σεναρίου πλαισίου κειμένου"
+
+msgid "Part III. Function Reference"
+msgstr "Μέρος III. Αναφορά λειτουργιών"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-function-reference.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-function-reference.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-script-fu-tutorial-result"/>3.7. Your script and its working"
+msgstr "<a id="gimp-using-script-fu-tutorial-result"/>3.7. Το σενάριο σας και η λειτουργία του"
+
+msgid "What you write"
+msgstr "Τι γράψατε"
+
+msgid "<a id="id3243143"/>3.7.1. What you write"
+msgstr "<a id="id3243143"/>3.7.1. Τι γράψατε"
+
+msgid "Below the complete script:"
+msgstr "Παρακάτω είναι το πλήρες σενάριο:"
+
+msgid "\n  (script-fu-register\n            "script-fu-text-box"                        ;func name\n            "Text Box"                                  ;menu label\n            "Creates a simple text box, sized to fit\n              around the user's choice of text,\n              font, font size, and color."              ;description\n            "Michael Terry"                             ;author\n            "copyright 1997, Michael Terry;\n              2009, the GIMP Documentation Team"        ;copyright notice\n            "October 27, 1997"                          ;date created\n            ""                     ;image type that the script works on\n            SF-STRING      "Text"          "Text Box"   ;a string variable\n            SF-FONT        "Font"          "Charter"    ;a font variable\n            SF-ADJUSTMENT  "Font size"     '(50 1 1000 1 10 0 1)\n                                                        ;a spin-button\n            SF-COLOR       "Color"         '(0 0 0)     ;color variable\n            SF-ADJUSTMENT  "Buffer amount" '(35 0 100 1 10 1 0)\n                                                        ;a slider\n  )\n  (script-fu-menu-register "script-fu-text-box" "&lt;Image&gt;/File/Create/Text")\n  (define (script-fu-text-box inText inFont inFontSize inTextColor inBufferAmount)\n    (let*\n      (\n        ; define our local variables\n        ; create a new image:\n        (theImageWidth  10)\n        (theImageHeight 10)\n        (theImage)\n        (theImage\n                  (car\n                      (gimp-image-new\n                        theImageWidth\n                        theImageHeight\n                        RGB\n                      )\n                  )\n        )\n        (theText)             ;a declaration for the text\n        (theBuffer)           ;create a new layer for the image\n        (theLayer\n                  (car\n                      (gimp-layer-new\n                        theImage\n                        theImageWidth\n                        theImageHeight\n                        RGB-IMAGE\n                        "layer 1"\n                        100\n                        NORMAL\n                      )\n                  )\n        )\n      ) ;end of our local variables\n      (gimp-image-add-layer theImage theLayer 0)\n      (gimp-context-set-background '(255 255 255) )\n      (gimp-context-set-foreground inTextColor)\n      (gimp-drawable-fill theLayer BACKGROUND-FILL)\n      (set! theText\n                    (car\n                          (gimp-text-fontname\n                          theImage theLayer\n                          0 0\n                          inText\n                          0\n                          TRUE\n                          inFontSize PIXELS\n                          "Sans")\n                      )\n        )\n      (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n      (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n      (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n      (set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n      (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n      (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n      (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n      (gimp-layer-set-offsets theText theBuffer theBuffer)\n      (gimp-display-new theImage)\n      (list theImage theLayer theText)\n    )\n  )\n      "
+msgstr "\n  (script-fu-register\n            "script-fu-text-box"                        ;func name\n            "Text Box"                                  ;menu label\n            "Creates a simple text box, sized to fit\n              around the user's choice of text,\n              font, font size, and color."              ;description\n            "Michael Terry"                             ;author\n            "copyright 1997, Michael Terry;\n              2009, the GIMP Documentation Team"        ;copyright notice\n            "October 27, 1997"                          ;date created\n            ""                     ;image type that the script works on\n            SF-STRING      "Text"          "Text Box"   ;a string variable\n            SF-FONT        "Font"          "Charter"    ;a font variable\n            SF-ADJUSTMENT  "Font size"     '(50 1 1000 1 10 0 1)\n                                                        ;a spin-button\n            SF-COLOR       "Color"         '(0 0 0)     ;color variable\n            SF-ADJUSTMENT  "Buffer amount" '(35 0 100 1 10 1 0)\n                                                        ;a slider\n  )\n  (script-fu-menu-register "script-fu-text-box" "&lt;Image&gt;/File/Create/Text")\n  (define (script-fu-text-box inText inFont inFontSize inTextColor inBufferAmount)\n    (let*\n      (\n        ; define our local variables\n        ; create a new image:\n        (theImageWidth  10)\n        (theImageHeight 10)\n        (theImage)\n        (theImage\n                  (car\n                      (gimp-image-new\n                        theImageWidth\n                        theImageHeight\n                        RGB\n                      )\n                  )\n        )\n        (theText)             ;a declaration for the text\n        (theBuffer)           ;create a new layer for the image\n        (theLayer\n                  (car\n                      (gimp-layer-new\n                        theImage\n                        theImageWidth\n                        theImageHeight\n                        RGB-IMAGE\n                        "layer 1"\n                        100\n                        NORMAL\n                      )\n                  )\n        )\n      ) ;end of our local variables\n      (gimp-image-add-layer theImage theLayer 0)\n      (gimp-context-set-background '(255 255 255) )\n      (gimp-context-set-foreground inTextColor)\n      (gimp-drawable-fill theLayer BACKGROUND-FILL)\n      (set! theText\n                    (car\n                          (gimp-text-fontname\n                          theImage theLayer\n                          0 0\n                          inText\n                          0\n                          TRUE\n                          inFontSize PIXELS\n                          "Sans")\n                      )\n        )\n      (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n      (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n      (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n      (set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n      (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n      (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n      (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n      (gimp-layer-set-offsets theText theBuffer theBuffer)\n      (gimp-display-new theImage)\n      (list theImage theLayer theText)\n    )\n  )\n      "
+
+msgid "What you obtain"
+msgstr "Αυτό που παίρνετε"
+
+msgid "<a id="id3243160"/>3.7.2. What you obtain"
+msgstr "<a id="id3243160"/>3.7.2. Αυτό που παίρνετε"
+
+msgid "Figure 12.5. And the result on the screen."
+msgstr "Εικόνα 12.5. Και το αποτέλεσμα στην οθόνη."
+
+msgid "And the result on the screen."
+msgstr "Και το αποτέλεσμα στην οθόνη."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

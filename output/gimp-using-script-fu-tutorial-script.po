@@ -1,0 +1,313 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Giving Our Script Some Guts"
+msgstr "Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "A Script-Fu Tutorial"
+msgstr "Διδακτική ενός Script-Fu"
+
+msgid "Your First Script-Fu Script"
+msgstr "Το πρώτο σας σενάριο Script-Fu"
+
+msgid "Extending The Text Box Script"
+msgstr "Επέκταση του σεναρίου πλαισίου κειμένου"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-script-fu-tutorial-script"/>3.5. Giving Our Script Some Guts"
+msgstr "<a id="gimp-using-script-fu-tutorial-script"/>3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+
+msgid "Let us continue with our training and add some functionality to our script."
+msgstr "Ας συνεχίσουμε την εκπαίδευση μας και ας προσθέσουμε κάποια λειτουργικότητα στο σενάριό μας."
+
+msgid "Creating A New Image"
+msgstr "Δημιουργία νέας εικόνας"
+
+msgid "<a id="id3236083"/>3.5.1. Creating A New Image"
+msgstr "<a id="id3236083"/>3.5.1. Δημιουργία νέας εικόνας"
+
+msgid "In the previous lesson, we created an empty function and registered it with <acronym class="acronym">GIMP</acronym>. In this lesson, we want to provide functionality to our script — we want to create a new image, add the user's text to it and resize the image to fit the text exactly."
+msgstr "Στο προηγούμενο μάθημα, δημιουργήσαμε μια κενή συνάρτηση και την καταχωρίσαμε με το GIMP. Σε αυτό το μάθημα, θέλουμε να δώσουμε λειτουργικότητα στο σενάριο μας — θέλουμε να δημιουργήσουμε μια νέα εικόνα, να προσθέσουμε το κείμενο του χρήστη σε αυτή και να αλλάξουμε το μέγεθος της εικόνας για να ταιριάξει ακριβώς με το κείμενο."
+
+msgid "Once you know how to set variables, define functions and access list members, the rest is all downhill — all you need to do is familiarize yourself with the functions available in <acronym class="acronym">GIMP</acronym>'s procedural database and call those functions directly. So fire up the <a class="xref" href="plug-in-dbbrowser.html" title="12.7.&#xA0;The Procedure Browser">Section 12.7, “The Procedure Browser”</a> and let's get cookin'!"
+msgstr "Αφού ξέρετε πώς να ορίσετε μεταβλητές, συναρτήσεις και να προσπελάσετε μέλη λίστας, τα υπόλοιπα είναι όλα εύκολα — αυτό που χρειάζεσθε είναι η εξοικείωση με τις διαθέσιμες συναρτήσεις του GIMP στη διαδικασιακή βάση δεδομένων και την άμεση κλήση αυτών των συναρτήσεων. Λοιπόν, ξεκινάμε την <a class="xref" href="plug-in-dbbrowser.html" title="12.7.&#xA0;The Procedure Browser">Ενότητα 12.7, “The Procedure Browser (ο διαδικασιακός περιηγητής)”</a> και φύγαμε!"
+
+msgid "Let's begin by making a new image. We'll create a new variable, <code class="varname">theImage</code>, set to the result of calling <acronym class="acronym">GIMP</acronym>'s built-in function <code class="function">gimp-image-new</code>."
+msgstr "Ας ξεκινήσουμε κάνοντας μια νέα εικόνα. Θα δημιουργήσουμε μια νέα μεταβλητή, <code class="varname">theImage</code>, ρυθμισμένη να καλεί την ενσωματωμένη συνάρτηση GIMP <code class="function">gimp-image-new</code>."
+
+msgid "As you can see from the DB Browser, the function <code class="function">gimp-image-new</code> takes three parameters — the image's width, height and the type of image. Because we'll later resize the image to fit the text, we'll make a 10x10 pixels <acronym class="acronym">RGB</acronym> image. We'll store the image's width and sizes in some variables, too, as we'll refer to and manipulate them later in the script."
+msgstr "Όπως μπορείτε να δείτε από τον διαδικασιακό περιηγητή, η συνάρτηση <code class="function">gimp-image-new</code> παίρνει τρεις παραμέτρους — το πλάτος της εικόνας, το ύψος και τον τύπο της εικόνας. Επειδή αργότερα θα αλλάξουμε το μέγεθος της εικόνας για να ταιριάξει στο κείμενο, θα κάνουμε μια εικόνα RGB 10x10 εικονοστοιχεία. Θα αποθηκεύσουμε το πλάτος της εικόνας και τα μεγέθη σε κάποιες μεταβλητές, καθώς θα αναφερθούμε σε αυτές και θα τις επεξεργαστούμε αργότερα στο σενάριο."
+
+msgid "
+        (define (script-fu-text-box inText inFont inFontSize inTextColor)
+        (let*
+              (
+                 ; define our local variables
+                 ; create a new image:
+                 (theImageWidth  10)
+                 (theImageHeight 10)
+                 (theImage (car
+                                (gimp-image-new
+                                 theImageWidth
+                                 theImageHeight
+                                 RGB
+                                )
+                           )
+                 )
+                 (theText)     ;a declaration for the text
+                               ;we create later
+      "
+msgstr "
+(define (script-fu-text-box inText inFont inFontSize inTextColor)
+(let*
+(
+; define our local variables
+; create a new image:
+(theImageWidth  10)
+(theImageHeight 10)
+(theImage (car
+(gimp-image-new
+theImageWidth
+theImageHeight
+RGB
+)
+)
+)
+(theText)     ;a declaration for the text
+;we create later
+"
+
+msgid "Note: We used the value <code class="code">RGB</code> to specify that the image is an <acronym class="acronym">RGB</acronym> image. We could have also used <code class="code">0</code>, but <acronym class="acronym">RGB</acronym> is more descriptive when we glance at the code."
+msgstr "Παρατήρηση: Χρησιμοποιήσαμε την τιμή <code class="code">RGB</code> για να καθορίσουμε ότι η εικόνα είναι μια RGB εικόνα. Θα μπορούσαμε επίσης να χρησιμοποιήσουμε <code class="code">0</code>, αλλά το RGB είναι πιο περιγραφικό, όταν κοιτάμε τον κώδικα."
+
+msgid "You should also notice that we took the head of the result of the function call. This may seem strange, because the database explicitly tells us that it returns only one value — the ID of the newly created image. However, all <acronym class="acronym">GIMP</acronym> functions return a list, even if there is only one element in the list, so we need to get the head of the list."
+msgstr "Θα πρέπει επίσης να σημειώσετε ότι πήραμε το κεφάλι του αποτελέσματος της κλήσης της συνάρτησης. Αυτό μπορεί να φανεί περίεργο, επειδή η βάση δεδομένων ρητά μας λέει ότι επιστρέφει μόνο μια τιμή — το ID (αναγνωριστικό) της νεοδημιουργηθείσας εικόνας. Όμως, όλες οι συναρτήσεις του GIMP επιστρέφουν μια λίστα, ακόμα κι αν υπάρχει μόνο ένα στοιχείο στη λίστα, έτσι χρειαζόμαστε να πάρουμε το κεφάλι της λίστας."
+
+msgid "Adding A New Layer To The Image"
+msgstr "Προσθήκη μιας νέας στρώσης στην εικόνα"
+
+msgid "<a id="id3186905"/>3.5.2. Adding A New Layer To The Image"
+msgstr "<a id="id3186905"/>3.5.2. Προσθήκη μιας νέας στρώσης στην εικόνα"
+
+msgid "Now that we have an image, we need to add a layer to it. We'll call the <code class="function">gimp-layer-new</code> function to create the layer, passing in the ID of the image we just created. (From now on, instead of listing the complete function, we'll only list the lines we're adding to it. You can see the complete script <a class="link" href="gimp-using-script-fu-tutorial-result.html" title="3.7.&#xA0;Your script and its working">here</a>.) Because we've declared all of the local variables we'll use, we'll also close the parentheses marking the end of our variable declarations:"
+msgstr "Τώρα που έχουμε μια εικόνα, χρειάζεται να προσθέσουμε μια στρώση σ' αυτή. Θα ονομάσουμε τη συνάρτηση <code class="function">gimp-layer-new</code> για να δημιουργήσουμε τη στρώση, μεταφέροντάς την στο ID της εικόνας που μόλις δημιουργήσαμε. (Από δω και πέρα, αντί να καταγράφουμε την πλήρη συνάρτηση, θα καταγράφουμε μόνο τις γραμμές που της προσθέτουμε. Μπορείτε να δείτε το πλήρες σενάριο. <a class="link" href="gimp-using-script-fu-tutorial-result.html" title="3.7.&#xA0;&#x3A4;&#x3BF; &#x3C3;&#x3B5;&#x3BD;&#x3AC;&#x3C1;&#x3B9;&#x3BF; &#x3BA;&#x3B1;&#x3B9; &#x3B7; &#x3BB;&#x3B5;&#x3B9;&#x3C4;&#x3BF;&#x3C5;&#x3C1;&#x3B3;&#x3AF;&#x3B1; &#x3C4;&#x3BF;&#x3C5;">εδώ</a>.) Επειδή δηλώσαμε όλες τις τοπικές μεταβλητές που θα χρησιμοποιήσουμε, θα κλείσουμε επίσης τις παρενθέσεις σημειώνοντας το τέλος των δηλώσεων μας των μεταβλητών:"
+
+msgid "
+        ;create a new layer for the image:
+           (theLayer
+                     (car
+                          (gimp-layer-new
+                           theImage
+                           theImageWidth
+                           theImageHeight
+                           RGB-IMAGE
+                           "layer 1"
+                           100
+                           NORMAL
+                          )
+                      )
+            )
+         ) ;end of our local variables
+      "
+msgstr "
+;create a new layer for the image:
+(theLayer
+(car
+(gimp-layer-new
+theImage
+theImageWidth
+theImageHeight
+RGB-IMAGE
+"layer 1"
+100
+NORMAL
+)
+)
+)
+) ;end of our local variables
+"
+
+msgid "Once we have the new layer, we need to add it to the image:"
+msgstr "Αφού έχουμε τη νέα στρώση, χρειαζόμαστε να την προσθέσουμε στην εικόνα:"
+
+msgid "
+        (gimp-image-add-layer theImage theLayer 0)
+      "
+msgstr "
+(gimp-image-add-layer theImage theLayer 0)
+"
+
+msgid "Now, just for fun, let's see the fruits of our labors up until this point, and add this line to show the new, empty image:"
+msgstr "Τώρα, μόνο για πλάκα, άς δούμε τους καρπούς της εργασίας μέχρι αυτό το σημείο και ας προσθέσουμε αυτή τη γραμμή this για να εμφανιστεί η νέα, κενή εικόνα:"
+
+msgid "(gimp-display-new theImage)"
+msgstr "(gimp-display-new theImage)"
+
+msgid "Save your work, select <span class="guimenu">Filters</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Refresh Scripts</span>, run the script and a new image should pop up. It will probably contain garbage (random colors), because we haven't erased it. We'll get to that in a second."
+msgstr "Αποθηκεύστε την εργασία σας, επιλέξτε <span class="guimenu">Φίλτρα</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Ανανέωση σεναρίων</span>, τρέξτε το σενάριο και μια νέα εικόνα θα εμφανιστεί. Θα περιέχει πιθανόν σκουπίδια (τυχαία χρώματα), επειδή δεν τα έχουμε σβήσει. Θα επανέλθουμε σε αυτό αργότερα."
+
+msgid "Adding The Text"
+msgstr "Προσθήκη κειμένου"
+
+msgid "<a id="id3232628"/>3.5.3. Adding The Text"
+msgstr "<a id="id3232628"/>3.5.3. Προσθήκη κειμένου"
+
+msgid "Go ahead and remove the line to display the image (or comment it out with a (<code class="code">;</code>) as the first character of the line)."
+msgstr "Συνεχίστε και αφαιρέστε την γραμμή εμφάνισης της εικόνας (ή σχολιάστε την με ένα (<code class="code">;</code>) ως τον πρώτο χαρακτήρα της γραμμής)."
+
+msgid "Before we add text to the image, we need to set the background and foreground colors so that the text appears in the color the user specified. We'll use the gimp-context-set-back/foreground functions:"
+msgstr "Πριν να προσθέσουμε κείμενο στην εικόνα, χρειαζόμαστε να ορίσουμε τα χρώματα παρασκηνίου και προσκηνίου, έτσι ώστε το κείμενο να εμφανίζεται στο χρώμα που όρισε ο χρήστης. Θα χρησιμοποιήσουμε τις συναρτήσεις gimp-context-set-back/foreground:"
+
+msgid "
+        (gimp-context-set-background '(255 255 255) )
+        (gimp-context-set-foreground inTextColor)
+      "
+msgstr "
+(gimp-context-set-background '(255 255 255) )
+(gimp-context-set-foreground inTextColor)
+"
+
+msgid "With the colors properly set, let's now clean out the garbage currently in the image by filling the drawable with the background color:"
+msgstr "Με τα χρώματα κατάλληλα ορισμένα, ας καθαρίσουμε τώρα τα τρέχοντα σκουπίδια στην εικόνα συμπληρώνοντας την περιοχή σχεδίασης με το χρώμα παρασκηνίου:"
+
+msgid "
+        (gimp-drawable-fill theLayer BACKGROUND-FILL)
+      "
+msgstr "
+(gimp-drawable-fill theLayer BACKGROUND-FILL)
+"
+
+msgid "With the image cleared, we're ready to add some text:"
+msgstr "Με την εικόνα καθαρισμένη, είμαστε έτοιμοι να προσθέσουμε κάποιο κείμενο:"
+
+msgid "
+        (set! theText
+                      (car
+                           (gimp-text-fontname
+                            theImage theLayer
+                            0 0
+                            inText
+                            0
+                            TRUE
+                            inFontSize PIXELS
+                            "Sans")
+                       )
+        )
+      "
+msgstr "
+(set! theText
+(car
+(gimp-text-fontname
+theImage theLayer
+0 0
+inText
+0
+TRUE
+inFontSize PIXELS
+"Sans")
+)
+)
+"
+
+msgid "Although a long function call, it's fairly straightforward if you go over the parameters while looking at the function's entry in the DB Browser. Basically, we're creating a new text layer and assigning it to the variable <code class="varname">theText</code>."
+msgstr "Αν και μεγάλη η κλίση της συνάρτησης, είναι ολότελα απλή εάν κοιτάξετε προσεκτικά τις παραμέτρους, ενώ κοιτάτε στις εισόδους της συνάρτησης στον διαδικασιασκό περιηγητή. Βασικά, δημιουργούμε μια νέα στρώση κειμένου και την αποδίδουμε στη μεταβλητή <code class="varname">theText</code>."
+
+msgid "Now that we have the text, we can grab its width and height and resize the image and the image's layer to the text's size:"
+msgstr "Τώρα που έχουμε το κείμενο, μπορούμε να ορίσουμε το πλάτος, το ύψος και να αλλάξουμε το μέγεθος της εικόνας και της στρώσης της εικόνας στο μέγεθος του κειμένου:"
+
+msgid "
+        (set! theImageWidth   (car (gimp-drawable-width  theText) ) )
+        (set! theImageHeight  (car (gimp-drawable-height theText) ) )
+
+        (gimp-image-resize theImage theImageWidth theImageHeight 0 0)
+
+        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)
+      "
+msgstr "
+(set! theImageWidth   (car (gimp-drawable-width  theText) ) )
+(set! theImageHeight  (car (gimp-drawable-height theText) ) )
+
+(gimp-image-resize theImage theImageWidth theImageHeight 0 0)
+
+(gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)
+"
+
+msgid "If you're like me, you're probably wondering what a drawable is when compared to a layer. The difference between the two is that a drawable is anything that can be drawn into, including layers but also channels, layer masks, the selection, etc; a layer is a more specific version of a drawable. In most cases, the distinction is not important."
+msgstr "Εάν είσθε όπως εγώ, θα αναρωτιέστε προφανώς τη διαφορά μεταξύ μιας περιοχής σχεδίασης και μιας στρώσης. Η διαφορά έγκειται στο ότι η περιοχή σχεδίασης είναι οτιδήποτε που κάποιος μπορεί να σχεδιάσει, συμπεριλαμβάνοντας στρώσεις αλλά και κανάλια, μάσκες στρώσης, επιλογές κλ. Η στρώση είναι μια πιο εξειδικευμένη έκδοση της περιοχής σχεδίασης. Στις περισσότερες περιπτώσεις, η διαφορά δεν είναι σημαντική."
+
+msgid "With the image ready to go, we can now re-add our display line:"
+msgstr "Με την εικόνα έτοιμη, μπορούμε τώρα να ξαναπροσθέσουμε την γραμμή εμφάνισης της εικόνας:"
+
+msgid "
+        (gimp-display-new theImage)
+      "
+msgstr "
+(gimp-display-new theImage)
+"
+
+msgid "Save your work, refresh the database and give your first script a run!"
+msgstr "Αποθηκεύστε την εργασία σας, ανανεώστε τη βάση δεδομένων και τρέξτε το πρώτο σας σενάριο!"
+
+msgid "Clearing The Dirty Flag"
+msgstr "Καθαρισμός της ακάθαρτης σημαίας"
+
+msgid "<a id="id3228126"/>3.5.4. Clearing The Dirty Flag"
+msgstr "<a id="id3228126"/>3.5.4. Καθαρισμός της ακάθαρτης σημαίας"
+
+msgid "If you try to close the image created without first saving the file, <acronym class="acronym">GIMP</acronym> will ask you if you want to save your work before you close the image. It asks this because the image is marked as dirty, or unsaved. In the case of our script, this is a nuisance for the times when we simply give it a test run and don't add or change anything in the resulting image — that is, our work is easily reproducible in such a simple script, so it makes sense to get rid of this dirty flag."
+msgstr "Εάν προσπαθήσετε να κλείσετε την δημιουργημένη εικόνα, χωρίς προηγουμένως να αποθηκεύσετε το αρχείο, το GIMP θα σας ζητήσει εάν θέλετε να αποθηκεύσετε την εργασία σας πριν το κλείσιμο της εικόνας. Το ρωτά επειδή η εικόνα χαρακτηρίζεται ως ακάθαρτη ή χωρίς αποθήκευση. Στην περίπτωση του σεναρίου μας, αυτή είναι μια ενόχληση επειδή δεν θέλουμε παρά να ελέγξουμε τις τροποποιήσεις, χωρίς να θέλουμε να τροποποιήσουμε οριστικά την ίδια την εικόνα — δηλαδή, σε ένα τόσο απλό σενάριο η δουλειά μας είναι εύκολα αναπαράξιμη, έτσι έχει νόημα η απαλλαγή από αυτή την ακάθαρτη σημαία."
+
+msgid "To do this, we can clear the dirty flag after displaying the image:"
+msgstr "Για να το κάνουμε αυτό, μπορούμε να καθαρίσουμε την ακάθαρτη σημαία μετά την εμφάνιση της εικόνας:"
+
+msgid "
+        (gimp-image-clean-all theImage)
+      "
+msgstr "
+(gimp-image-clean-all theImage)
+"
+
+msgid "This will set dirty count to 0, making it appear to be a <span class="quote">“<span class="quote">clean</span>”</span> image."
+msgstr "Αυτό θα ορίσει το μετρητή ακαθαρσίας στο 0, κάνοντας την να φαίνεται ως <span class="quote">“<span class="quote">καθαρή</span>”</span> εικόνα."
+
+msgid "Whether to add this line or not is a matter of personal taste. I use it in scripts that produce new images, where the results are trivial, as in this case. If your script is very complicated, or if it works on an existing image, you will probably not want to use this function."
+msgstr "Η προσθήκη ή όχι αυτής της γραμμής είναι θέμα προσωπικής επιλογής. Τη χρησιμοποιώ σε σενάρια που παράγουν νέες εικόνες, όπου τα αποτελέσματα είναι ασήμαντα, όπως σε αυτή την περίπτωση. Εάν το σενάριο σας είναι πολύ περίπλοκο, ή εάν τρέχει σε υπάρχουσα εικόνα, δε θα θέλετε προφανώς να χρησιμοποιήσετε αυτήν τη συνάρτηση."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

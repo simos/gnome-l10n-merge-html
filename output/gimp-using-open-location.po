@@ -1,0 +1,72 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Open Location"
+msgstr "Άνοιγμα τοποθεσίας"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Opening Files"
+msgstr "Άνοιγμα αρχείων"
+
+msgid "Open Recent"
+msgstr "Άνοιγμα πρόσφατου"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-fileformats-opening.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-fileformats-opening.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-using-open-recent.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-using-open-recent.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-using-open-location"/>3.2. Open Location"
+msgstr "<a id="gimp-using-open-location"/>3.2. Άνοιγμα τοποθεσίας"
+
+msgid "If instead of a file name, you have a <acronym class="acronym">URI</acronym> (i.e., a web address) for the image, you can open it using the menu, by choosing <span class="guimenu">File</span> → <span class="guimenuitem">Open Location…</span> from an image menu. This brings up a small dialog that allows you to enter (or paste) the <acronym class="acronym">URI</acronym>."
+msgstr "Εάν αντί για όνομα αρχείου, έχετε μια <acronym class="acronym">URI</acronym> (π.χ. διεύθυνση ιστού) για την εικόνα, μπορείτε να την ανοίξετε χρησιμοποιώντας το μενού. Πατήστε <span class="guimenu">Αρχείο</span> → <span class="guimenuitem">Άνοιγμα τοποθεσίας…</span> από το μενού εικόνας. Αυτό σας φέρνει ένα μικρό διάλογο που σας επιτρέπει να εισάγετε ή να επικολλήσετε το <acronym class="acronym">URI</acronym>."
+
+msgid "Open Location"
+msgstr "Άνοιγμα τοποθεσίας"
+
+msgid "“<placeholder-1/>”"
+msgstr "“<placeholder-1/>”"
+
+msgid "Figure 5.5. The <placeholder-1/> dialog"
+msgstr "Εικόνα 5.5. Ο διάλογος <placeholder-1/>"
+
+msgid "The Open Location dialog"
+msgstr "Ο διάλογος άνοιγμα τοποθεσίας"
+
+msgid "The <span class="quote">“<span class="quote">Open Location</span>”</span> dialog."
+msgstr "Ο διάλογος <span class="quote">“<span class="quote">Άνοιγμα τοποθεσίας</span>”</span>."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

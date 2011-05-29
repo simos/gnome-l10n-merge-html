@@ -1,0 +1,105 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Find Info About Your Image"
+msgstr "Εύρεση πληροφοριών για την εικόνα σας"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "GIMPLite Quickies"
+msgstr "Γρήγορο ξεκίνημα (GIMPLite Quickies)"
+
+msgid "Crop An Image"
+msgstr "Περικοπή εικόνας"
+
+msgid "Change the Mode"
+msgstr "Αλλαγή κατάστασης"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-tutorial-quickie-crop.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-tutorial-quickie-crop.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-tutorial-quickie-change-mode.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-tutorial-quickie-change-mode.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-tutorial-quickie-info"/>4.5. Find Info About Your Image"
+msgstr "<a id="gimp-tutorial-quickie-info"/>4.5. Εύρεση πληροφοριών για την εικόνα σας"
+
+msgid "Figure 3.29. Finding Info"
+msgstr "Εικόνα 3.29. Εύρεση πληροφοριών"
+
+msgid "Finding Info"
+msgstr "Εύρεση πληροφοριών"
+
+msgid "This example uses another image image from APOD <a class="xref" href="bibliography.html#bibliography-online-apod06" title="Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000 November 13)">[<abbr class="abbrev">APOD06</abbr>]</a>. Much information is available directly from the Image Window; for example, the image dimensions.Use <span class="guimenu">Image</span> → <span class="guimenuitem">Image Properties</span> to open the Image Properties dialog, which contains even more information."
+msgstr "Αυτό το παράδειγμα χρησιμοποιεί μια άλλη εικόνα από το APOD <a class="xref" href="bibliography.html#bibliography-online-apod06" title="Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000 November 13)">[<abbr class="abbrev">APOD06</abbr>]</a>. Πολλές πληροφορίες είναι διαθέσιμες άμεσα από το παράθυρο εικόνας, π.χ. οι διαστάσεις της εικόνας. Ενεργοποιείστε <span class="guimenu">Εικόνα</span> → <span class="guimenuitem">Ιδιότητες εικόνας</span> για να ανοίξετε το διάλογο ιδιότητες εικόνας, που περιέχει ακόμα περισσότερες πληροφορίες."
+
+msgid "Figure 3.30. Image Properties Dialog"
+msgstr "Εικόνα 3.30. Διάλογος ιδιοτήτων εικόνας"
+
+msgid "Image Properties Dialog"
+msgstr "Διάλογος ιδιοτήτων εικόνας"
+
+msgid "If you are just making a square out of a rectangle, like in the <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4.&#xA0;Crop An Image">Section 4.4, “Crop An Image”</a>, it is fast and easy to find the smallest dimension. you need only to open the dialog and find the lesser length and use that as described. Since this is very little information, and definitely not enough to fill the space between the menu thumbnail and the dialog screenshot in my layout, I thought I would run through some calculator exercises that might help you to meet your image needs."
+msgstr "Εάν κάνετε ένα τετράγωνο από το ορθογώνιο, όπως στο <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4.&#xA0;&#x3A0;&#x3B5;&#x3C1;&#x3B9;&#x3BA;&#x3BF;&#x3C0;&#x3AE; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;">Ενότητα 4.4, “Περικοπή εικόνας”</a>, είναι γρήγορος και εύκολος τρόπος για να βρείτε τη μικρότερη διάσταση. Χρειαζόσαστε μόνο να ανοίξετε το διάλογο και να βρείτε το πιο μικρό μήκος και να το χρησιμοποιήσετε όπως περιγράφηκε. Επειδή αυτό είναι πολύ μικρή πληροφορία και σίγουρα όχι αρκετή για να γεμίσετε το χώρο του εικονιδίου του μενού και του διαλόγου στιγμιότυπου στη διάταξή μου, σκέφτηκα να μερικούς υπολογισμούς που ίσως σας βοηθήσουν να βρείτε τις ανάγκες της εικόνα σας."
+
+msgid "Figure 3.31. Scale Problem"
+msgstr "Εικόνα 3.31. Προβλήματα κλίμακας"
+
+msgid "Scale Problem"
+msgstr "Προβλήματα κλίμακας"
+
+msgid "It is nice to have images appear on a browser window as a photo would. Photos online appear to be 4x6 inches when scaled to 288x432 pixels (72 dpi for many monitors). There is a problem, however, if you try to scale this image. The ratio of width to length of the original does not match the ratio of the photo. So, to make the scaled image the correct size some pixels must be cropped from the height. The final image will <span class="quote">“<span class="quote">appear</span>”</span> as a 6x4 inch photo on many monitors."
+msgstr "Είναι ωραίο να εμφανίζονται εικόνες στο παράθυρο του περιηγητή όπως οι φωτογραφίες. Οι φωτογραφίες εμφανίζονται να είναι 4x6 ίντσες όταν προσαρμόζονται στα 288x432 εικονοστοιχεία (72 dpi για πολλές οθόνες). Υπάρχει, όμως, ένα πρόβλημα, εάν προσπαθήσετε να κλιμακώσετε αυτή την εικόνα. Η αναλογία του πλάτους προς το μήκος της αρχικής εικόνας δεν ταιριάζει την αναλογία της φωτογραφίας. Έτσι για να κάνετε την κλιμακωμένη εικόνα στο σωστό μέγεθος μερικά εικονοστοιχεία πρέπει να περικοπούν από το ύψος. Η τελική εικόνα θα “<span class="quote">εμφανίζεται</span>” ως μία φωτογραφία 6x4 ίντσες σε πολλές οθόνες."
+
+msgid "Figure 3.32. Problem Solved by Cropping"
+msgstr "Εικόνα 3.32. Προβλήματα που επιλύονται με περικοπή"
+
+msgid "Problem Solved by Cropping"
+msgstr "Προβλήματα που επιλύονται με περικοπή"
+
+msgid "There are problems when mixing scanned photos, digital photos, and scanned negatives. Many film developing machines automatically crop portions of the image so that they will match the printing size, or a certain style. If you are preparing an image to be printed on a machine like this; or if you are planning on a gallery where the images are from different sources, some intelligent cropping to fit the best size for the medium you have chosen will be a plus. If this is confusing; please blame the photo printing industry and not <acronym class="acronym">GIMP</acronym>."
+msgstr "Υπάρχουν προβλήματα όταν αναμιγνύονται σαρωμένες εικόνες, ψηφιακές φωτογραφίες και σαρωμένα αρνητικά. Πολλές μηχανές επεξεργασίας φιλμ περικόπτουν τμήματα της εικόνας αυτόματα έτσι ώστε να ταιριάζουν στο εκτυπώσιμο μέγεθος ή σε συγκεκριμένο στιλ. Εάν προετοιμάζετε μια εικόνα για εκτύπωση σε μία μηχανή όπως αυτή, ή εάν προετοιμάζετε μια συλλογή, όπου οι εικόνες είναι από διαφορετικές πηγές, μερική έξυπνη περικοπή για να ταιριάσει στο άριστο μέγεθος για το μέσο που επιλέξατε θα είναι ένα πλεονέκτημα. Εάν αυτό προκαλεί σύγχυση, κατηγορήστε τη βιομηχανία εκτύπωσης φωτογραφιών και όχι το GIMP."
+
+msgid "You can change the Resolution of your image as well, using the same methods we used to Scale the image, although, in my somewhat limited use, the issue is more about how many pixels. Let's say you want to print an image at a photo lab. 300 pixels for every inch is preferred. An image that is 2241x1548 pixels will easily print as a 7 x 5 photo. 2241px/300ppi = 7.47 in. Get your calculator for the short side. 1548/300 = _."
+msgstr "Μπορείτε να αλλάξετε την ανάλυση της εικόνας σας επίσης, χρησιμοποιώντας τις ίδιες μεθόδους που χρησιμοποιήσαμε για κλιμάκωση της εικόνας, αν και στην κάπως περιορισμένη χρήση μου, το θέμα είναι περισσότερο στο πόσα εικονοστοιχεία. Ας πούμε ότι θέλετε να τυπώσετε μια φωτογραφία σε ένα εργαστήριο φωτογραφίας. Προτιμάται το 300 εικονοστοιχεία για κάθε ίντσα. Μια εικόνα που είναι 2241x1548 pixels θα εκτυπωθεί εύκολα ως μια φωτογραφία 7x5 ίντσες. 2241px/300ppi = 7,47 in. Κάντε τους υπολογισμούς για τη μικρή πλευρά. 1548/300 = _."
+
+msgid "There is another brutal fact you should come to terms with if you are new to graphics and computers. Just because it looks good on the screen doesn't mean that it will print nicely. I tried to emulate how this image would appear printed at 300dpi. Sorry. There are some options, for instance my friend printed images and then scanned them back in. Terrible business!"
+msgstr "Υπάρχει επίσης ένα άλλο άσχημο γεγονός που πρέπει να λάβετε υπόψη, εάν είστε νέος στα γραφικά και στους υπολογιστές. Επειδή φαίνεται καλό στην οθόνη, δεν σημαίνει ότι θα τυπωθεί ωραία. Προσπάθησα να προσομοιώσω πώς αυτή η εικόνα θα εμφανίζεται τυπωμένη στα 300dpi. Συγνώμη. Υπάρχουν μερικές επιλογές, για παράδειγμα ένας φίλος μου τύπωσε εικόνες και μετά τις ξανασάρωσε. Απαίσια δουλειά!"
+
+msgid "Figure 3.33. Actual printing result of example image"
+msgstr "Εικόνα 3.33. Το πραγματικό αποτέλεσμα εκτύπωσης της εικόνας του παραδείγματος"
+
+msgid "Actual printing result of example image"
+msgstr "Το πραγματικό αποτέλεσμα εκτύπωσης της εικόνας του παραδείγματος"
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+

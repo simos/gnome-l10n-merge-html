@@ -1,0 +1,165 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n" 
+
+msgid "Gradients"
+msgstr "Διαβαθμίσεις"
+
+msgid "gimp22"
+msgstr "gimp22"
+
+msgid "GNU Image Manipulation Program"
+msgstr "GNU Image Manipulation Program"
+
+msgid "Chapter 7. Painting with GIMP"
+msgstr "Κεφάλαιο 7. Βάφοντας με το GIMP"
+
+msgid "Creating a brush quickly"
+msgstr "Γρήγορη δημιουργία πινέλου"
+
+msgid "Patterns"
+msgstr "Μοτίβα"
+
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+msgid "<a accesskey="p" href="gimp-using-variable-size-brush-creating.html"><img src="images/prev.png" alt="Prev"/></a> "
+msgstr "<a accesskey="p" href="gimp-using-variable-size-brush-creating.html"><img src="images/prev.png" alt="&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a> "
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid " <a accesskey="n" href="gimp-concepts-patterns.html"><img src="images/next.png" alt="Next"/></a>"
+msgstr " <a accesskey="n" href="gimp-concepts-patterns.html"><img src="images/next.png" alt="&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;"/></a>"
+
+msgid "<a id="gimp-concepts-gradients"/>10. Gradients"
+msgstr "<a id="gimp-concepts-gradients"/>10. Διαβαθμίσεις"
+
+msgid "Figure 7.23. Some examples of GIMP gradients."
+msgstr "Εικόνα 7.23. Μερικά παραδείγματα διαβαθμίσεων του GIMP."
+
+msgid "Some examples of GIMP gradients."
+msgstr "Μερικά παραδείγματα διαβαθμίσεων του GIMP."
+
+msgid "Gradients from top to bottom: FG to BG (RGB); Full saturation spectrum; Nauseating headache; Browns; Four bars"
+msgstr "Διαβαθμίσεις από την κορυφή προς τον πάτο: FG σε BG (RGB). Full saturation spectrum (Πλήρης κορεσμός φάσματος). Nauseating headache (πονοκέφαλος ναυτίας), Browns (καφετιά), Four bars (τέσσερις γραμμές)"
+
+msgid "A <span class="emphasis"><em>gradient</em></span> is a set of colors arranged in a linear order. The most basic use of gradients is by the <a class="link" href="gimp-tool-blend.html" title="3.4.&#xA0;Blend">Blend tool</a>, sometimes known as the <span class="quote">“<span class="quote">gradient tool</span>”</span> or <span class="quote">“<span class="quote">gradient fill tool</span>”</span>: it works by filling the selection with colors from a gradient. You have many options to choose from for controlling the way the gradient colors are arranged within the selection. There are also other important ways to use gradients, including:"
+msgstr "Μια <span class="emphasis"><em>διαβάθμιση</em></span> είναι ένα σύνολο χρωμάτων τακτοποιημένα σε γραμμική σειρά. Η πιο βασική χρήση των διαβαθμίσεων είναι στο <a class="link" href="gimp-tool-blend.html" title="3.4.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3BF; &#x3BC;&#x3B5;&#x3AF;&#x3BE;&#x3B7;&#x3C2;">Εργαλείο μείξης</a>, μερικές φορές γνωστό και σαν <span class="quote">“<span class="quote">εργαλείο διαβάθμισης</span>”</span> ή <span class="quote">“<span class="quote">εργαλείο βαθμιδωτού γεμίσματος</span>”</span>. Δουλεύει γεμίζοντας την επιλογή με χρώματα από μια διαβάθμιση. Έχετε πολλές δυνατότητες να επιλέξετε για τον τρόπο που τα χρώματα τακτοποιούνται μες την επιλογή. Υπάρχουν και άλλοι βασικοί τρόποι για να χρησιμοποιήσετε διαβαθμίσεις, συμπεριλαμβανομένων των:"
+
+msgid "Painting with a gradient"
+msgstr "Βαφή με διαβάθμιση"
+
+msgid "Each of <acronym class="acronym">GIMP</acronym>'s basic painting tools allows you the option of using colors from a gradient. This enables you to create brushstrokes that change color from one end to the other."
+msgstr "Καθένα από τα βασικά εργαλεία βαψίματος του GIMP σας επιτρέπει να επιλέξετε την χρήση χρωμάτων από διαβάθμιση. Αυτό σας επιτρέπει να δημιουργήσετε πινελιές που αλλάζουν χρώμα από τη μίαν άκρη έως την άλλη."
+
+msgid "The Gradient Map filter"
+msgstr "Το φίλτρο Gradient Map (βαθιδμωτός χάρτης)"
+
+msgid "This filter is now in the Colors menu, and allows you to <span class="quote">“<span class="quote">colorize</span>”</span> an image, using the color intensity of each point with the corresponding color from the active gradient (the intensity 0, very dark, is replaced by the color at most left end of the gradient, progressively until the intensity is 255, very light, replaced by the most right color of the gradient. See <a class="xref" href="plug-in-gradmap.html" title="8.23.&#xA0;Gradient Map">Section 8.23, “Gradient Map”</a> for more information."
+msgstr "Αυτό το φίλτρο είναι τώρα στο μενού χρωμάτων και σας επιτρέπει, να <span class="quote">“<span class="quote">χρωματίσετε</span>”</span> μια εικόνα, χρησιμοποιώντας την ένταση χρώματος κάθε σημείου με το αντίστοιχο χρώμα από την ενεργή διαβάθμιση (η ένταση 0 -πολύ σκοτεινό- αντικαθίσταται από το χρώμα στο πιο αριστερό άκρο της διαβάθμισης σταδιακά μέχρι την τιμή 255 -πολύ φωτεινό- που αντικαθίσταται από το πιο δεξιό χρώμα της διαβάθμισης. Δείτε <a class="xref" href="plug-in-gradmap.html" title="8.23.&#xA0;Gradient Map (&#x3B2;&#x3B1;&#x3B8;&#x3B9;&#x3B4;&#x3BC;&#x3C9;&#x3C4;&#x3CC;&#x3C2; &#x3C7;&#x3AC;&#x3C1;&#x3C4;&#x3B7;&#x3C2;)">Ενότητα 8.23, “Gradient Map (βαθιδμωτός χάρτης)”</a> για περισσότερες πληροφορίες."
+
+msgid "When you install <acronym class="acronym">GIMP</acronym>, it comes presupplied with a large number of interesting gradients, and you can add new ones that you create or download from other sources. You can access the full set of available gradients using the <a class="link" href="gimp-gradient-dialog.html" title="3.4.&#xA0;Gradients Dialog">Gradients dialog</a>, a dockable dialog that you can either activate when you need it, or keep around as a tab in a dock. The <span class="quote">“<span class="quote">current gradient</span>”</span>, used in most gradient-related operations, is shown in the Brush/Pattern/Gradient area of the Toolbox. Clicking on the gradient symbol in the Toolbox is an alternative way of bringing up the Gradients dialog."
+msgstr "Όταν εγκαθίσταται το GIMP, έρχεται με ένα μεγάλο αριθμό σημαντικών διαβαθμίσεων και μπορείτε να προσθέσετε νέα που δημιουργείτε ή κατεβάζετε από άλλες πηγές. Μπορείτε να δείτε το πλήρες σύνολο των διαθέσιμων διαβαθμίσεων χρησιμοποιώντας το <a class="link" href="gimp-gradient-dialog.html" title="3.4.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3B4;&#x3B9;&#x3B1;&#x3B2;&#x3B1;&#x3B8;&#x3BC;&#x3AF;&#x3C3;&#x3B5;&#x3C9;&#x3BD;">Διάλογος διαβαθμίσεων</a>, έναν αγκιστρωμένο διάλογο που μπορείτε είτε να ενεργοποιήσετε όταν τον χρειαστείτε ή να τον κρατήσετε ως καρτέλα στο αγκίστρι (dock). Η <span class="quote">“<span class="quote">τρέχουσα διαβάθμιση</span>”</span>, που χρησιμοποιείται στις περισσότερες διαβαθμισοεξαρτώμενες λειτουργίες, φαίνεται στην περιοχή πινέλο/μοτίβο/διαβάθμιση της εργαλειοθήκης. Πάτημα του συμβόλου διαβάθμισης στην εργαλειοθήκη είναι ένας άλλος τρόπος εμφάνισης του διαλόγου διαβαθμίσεων."
+
+msgid "Many quickly examples of working with gradient (for more information see <a class="link" href="gimp-tool-blend.html" title="3.4.&#xA0;Blend">Blend Tool</a>):"
+msgstr "Πολλά γρήγορα παραδείγματα εργασίας με διαβαθμίσεις (για περισσότερες πληροφορίες δείτε <a class="link" href="gimp-tool-blend.html" title="3.4.&#xA0;Blend">εργαλείο ανάμειξης</a>)."
+
+msgid "Put a gradient in a selection:"
+msgstr "Βάλτε διαβάθμιση σε επιλογή:"
+
+msgid "Step 1"
+msgstr "Βήμα 1"
+
+msgid "Choose a gradient."
+msgstr "Επιλέξτε μια διαβάθμιση."
+
+msgid "Step 2"
+msgstr "Βήμα 2"
+
+msgid "With the Blend Tool click and drag with the mouse between two points of a selection."
+msgstr "Με το εργαλείο ανάμειξης πατήστε και σύρτε με το ποντίκι μεταξύ δύο σημείων μιας επιλογής."
+
+msgid "Step 3"
+msgstr "Βήμα 3"
+
+msgid "Colors will distributed perpendicularly to the direction of the drag of the mouse and according to the length of it."
+msgstr "Τα χρώματα θα κατανεμηθούν κάθετα στη διεύθυνση του συρσίματος του ποντικιού και σύμφωνα με το μήκος της."
+
+msgid "Figure 7.24. How to use rapidly a gradient in a selection"
+msgstr "Εικόνα 7.24. Γρήγορη χρήση διαβάθμισης σε επιλογή"
+
+msgid "How to use rapidly a gradient in a selection"
+msgstr "Γρήγορη χρήση διαβάθμισης σε επιλογή"
+
+msgid "Use a gradient with a drawing tool:"
+msgstr "Χρησιμοποιείστε μια διαβάθμιση με ένα εργαλείο ζωγραφικής:"
+
+msgid "You can also use a gradient with pencil, brush or airbrush tools if you check <span class="guilabel">Use color from gradient</span> In the example below the option is checked for a pencil tool. You see in the drawing in the right side the succession of the colors of the gradient (to infinity...)."
+msgstr "Μπορείτε επίσης να χρησιμοποιήσετε μια διαβάθμιση με μολύβι, πινέλο ή αερογράφο, εάν επιλέξετε <span class="guilabel">Χρήση χρώματος από διαβάθμιση</span>. Στο παρακάτω παράδειγμα η προτίμηση επισημαίνεται για το μολύβι. Βλέπετε στη σχεδίαση στη δεξιά πλευρά τη διαδοχή των χρωμάτων της διαβάθμισης (στο άπειρο..)."
+
+msgid "Figure 7.25. How to use rapidly a gradient with a drawing tool"
+msgstr "Εικόνα 7.25. Γρήγορη χρήση διαβάθμισης με εργαλείο ζωγραφικής"
+
+msgid "How to use rapidly a gradient with a drawing tool"
+msgstr "Γρήγορη χρήση διαβάθμισης με εργαλείο ζωγραφικής"
+
+msgid "Different productions with the same gradient:"
+msgstr "Διάφορες παραγωγές με την ίδια διαβάθμιση:"
+
+msgid "Figure 7.26. Gradient usage"
+msgstr "Εικόνα 7.26. Χρήση διαβάθμισης"
+
+msgid "Gradient usage"
+msgstr "Χρήση διαβάθμισης"
+
+msgid "Four ways of using the Tropical Colors gradient: a linear gradient fill, a shaped gradient fill, a stroke painted using colors from a gradient, and a stroke painted with a fuzzy brush then colored using the <a class="link" href="plug-in-gradmap.html" title="8.23.&#xA0;Gradient Map">Gradient Map</a> filter."
+msgstr "Τέσσερις τρόποι χρήσης διαβάθμισης τροπικών χρωμάτων: ένα γραμμικό γέμισμα διαβάθμισης, ένα μορφοποιημένο γέμισμα διαβάθμισης, με πινελιά χρωμάτων διαβάθμισης και με πινελιά ασαφούς πινέλου και έπειτα χρωματισμένο με το φίλτρο <a class="link" href="plug-in-gradmap.html" title="8.23.&#xA0;&#x3A7;&#x3AC;&#x3C1;&#x3C4;&#x3B7;&#x3C2; &#x3B4;&#x3B9;&#x3B1;&#x3B2;&#x3AC;&#x3B8;&#x3BC;&#x3B9;&#x3C3;&#x3B7;&#x3C2;">Χάρτης διαβάθμισης</a>."
+
+msgid "A few useful things to know about <acronym class="acronym">GIMP</acronym>'s gradients:"
+msgstr "Μερικά χρήσιμα σημεία για τις διαβαθμίσεις του GIMP."
+
+msgid "The first four gradients in the list are special: they use the Foreground and Background colors from the Toolbox Color Area, instead of being fixed. <span class="guilabel">FG to BG (RGB)</span> is the RGB representation of the gradient from the Foreground color to the Background color in Toolbox. <span class="guilabel">FG to BG (HSV counter-clockwise) </span> represents the hue succession in Color Circle from the selected hue to 360°. <span class="guilabel">FG to BG (HSV clockwise</span> represents the hue succession in Color Circle from the selected hue to 0°. With <span class="guilabel">FG to transparent </span>, the selected hue becomes more and more transparent. You can modify these colors by using the Color Selector. Thus, by altering the foreground and background colors, you can make these gradients transition smoothly between any two colors you want."
+msgstr "Οι τέσσερις πρώτες διαβαθμίσεις στον κατάλογο είναι ειδικές. Χρησιμοποιούν τα χρώματα προσκηνίου και παρασκηνίου από την χρωματική περιοχή της εργαλειοθήκης αντί να είναι καθορισμένες. <span class="guilabel">FG to BG (RGB)</span> είναι η RGB αναπαράσταση της διαβάθμισης από το χρώμα προσκηνίου FG στο χρώμα παρασκηνίου BG στην εργαλειοθήκη. <span class="guilabel">FG to BG (HSV counter-clockwise)(χρώμα προσκηνίου σε χρώμα παρασκηνίου (αριστερόστροφα HSV))</span> αναπαριστάνει τη διαδοχή χροιάς χρωματικού κύκλου από την επιλεγμένη χροιά μέχρι 360°. <span class="guilabel">FG to BG (HSV clockwise hue)(χρώμα προσκηνίου σε χρώμα παρασκηνίου (αριστερόστροφη απόχρωση HSV))</span> αναπαριστάνει τη διαδοχή χροιάς σε χρωματικό κύκλο από την επιλεγμένη χροιά έως 0°. Με το <span class="guilabel">FG to transparent (χρώμα προσκηνίου σε διαφανές)</span>, η επιλεγμένη χροιά γίνεται όλο και πιο διαφανής. Μπορείτε να τροποποιήσετε αυτά τα χρώματα χρησιμοποιώντας τον επιλογέα χρώματος. Έτσι, αλλάζοντας τα χρώματα του προσκηνίου και του παρασκηνίου, μπορείτε να κάνετε αυτές τις μεταβάσεις διαβαθμίσεων ομαλές μεταξύ οποιοδήποτε δυο χρωμάτων επιθυμείτε."
+
+msgid "Gradients can involve not just color changes, but also changes in opacity. Some of the gradients are completely opaque; others include transparent or translucent parts. When you fill or paint with a non-opaque gradient, the existing contents of the layer will show through behind it."
+msgstr "Οι διαβαθμίσεις μπορούν να εμπεριέχουν όχι μόνο αλλαγές χρώματος, αλλά και αλλαγές στην αδιαφάνεια. Μερικές από τις διαβαθμίσεις είναι ολότελα αδιαφανείς. Άλλες περιέχουν τμήματα διαφανή και ημιδιαφανή. Όταν γεμίζετε ή βάφετε με μια μη αδιαφανή διαβάθμιση, τα υπάρχοντα περιεχόμενα της στρώσης θα εμφανιστούν πίσω της."
+
+msgid "You can create new <span class="emphasis"><em>custom</em></span> gradients, using the <a class="link" href="gimp-gradient-dialog.html#gimp-gradient-editor-dialog" title="3.4.3.&#xA0;The Gradient Editor">Gradient Editor</a>. You cannot modify the gradients that are supplied with <acronym class="acronym">GIMP</acronym>, but you can duplicate them or create new ones, and then edit those."
+msgstr "Μπορείτε να δημιουργήσετε νέες <span class="emphasis"><em>προσαρμοσμένες</em></span> διαβαθμίσεις, χρησιμοποιώντας το <a class="link" href="gimp-gradient-dialog.html#gimp-gradient-editor-dialog" title="3.4.3.&#xA0;E&#x3C0;&#x3B5;&#x3BE;&#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3C4;&#x3AE;&#x3C2; &#x3B4;&#x3B9;&#x3B1;&#x3B2;&#x3AC;&#x3B8;&#x3BC;&#x3B9;&#x3C3;&#x3B7;&#x3C2;">Επεξεργαστής διαβάθμισης</a>. Δεν μπορείτε να τροποποιήσετε τις διαβαθμίσεις που έρχονται με το GIMP, αλλά μπορείτε να τις αντιγράψετε ή να δημιουργήσετε νέες και έπειτα να τις επεξεργαστείτε."
+
+msgid "The gradients that are supplied with <acronym class="acronym">GIMP</acronym> are stored in a system <code class="filename">gradients</code> folder. By default, gradients that you create are stored in a folder called <code class="filename">gradients</code> in your personal <acronym class="acronym">GIMP</acronym> directory. Any gradient files (ending with the extension <code class="filename">.ggr</code>) found in one of these folders, will automatically be loaded when you start <acronym class="acronym">GIMP</acronym>. You can add more directories to the gradient search path, if you want to, in the Gradients tab of the <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19.&#xA0;Data Folders">Data Folders</a> pages of the Preferences dialog."
+msgstr "Οι διαβαθμίσεις που έρχονται με το GIMP αποθηκεύονται σε ένα φάκελο του συστήματος <code class="filename">gradients</code>. Από προεπιλογή, οι διαβαθμίσεις που δημιουργείτε αποθηκεύονται σε έναν φάκελο που λέγεται <code class="filename">gradients</code> στον προσωπικό σας κατάλογο του GIMP. Οποιαδήποτε αρχεία διαβαθμίσεων (που τελειώνουν με την επιμήκυνση <code class="filename">.ggr</code>) βρίσκονται σε έναν από αυτούς τους φακέλους, φορτώνονται αυτόματα, όταν ξεκινάτε το GIMP. Μπορείτε να προσθέσετε περισσότερους καταλόγους στη διαδρομή αναζήτησης διαβαθμίσεων, εάν θέλετε, στην καρτέλα του διαλόγου προτιμήσεων <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19.&#xA0;&#x3A6;&#x3AC;&#x3BA;&#x3B5;&#x3BB;&#x3BF;&#x3B9; &#x3B1;&#x3C1;&#x3C7;&#x3B5;&#x3AF;&#x3C9;&#x3BD;">Φάκελοι αρχείων</a>."
+
+msgid "New in <acronym class="acronym">GIMP</acronym> 2.2 is the ability to load gradient files in SVG format, used by many vector graphics programs. To make <acronym class="acronym">GIMP</acronym> load an SVG gradient file, all you need to do is place it in the <code class="filename">gradients</code> folder of your personal <acronym class="acronym">GIMP</acronym> directory, or any other folder in your gradient search path."
+msgstr "Νέα στο GIMP 2.2 είναι η ικανότητα φόρτωσης αρχείων διαβαθμίσεων σε μορφή SVG, που χρησιμοποιείται σε πολλά προγράμματα γραφικών. Για να φορτώσει το GIMP ένα αρχείο SVG διαβάθμισης, πρέπει να το τοποθετήσετε στον κατάλογο <code class="filename">gradients</code> του προσωπικού σας καταλόγου GIMP, ή σε οποιοδήποτε φάκελο της διαδρομής αναζήτησης διαβάθμισης."
+
+msgid "Tip"
+msgstr "Συμβουλή"
+
+msgid "[Tip]"
+msgstr "[Συμβουλή]"
+
+msgid "You can find a large number of interesting SVG gradients on the web, in particular at OpenClipArt Gradients <a class="xref" href="bibliography.html#bibliography-online-openclipart-gradients" title="Open Clipart - Gradients">[<abbr class="abbrev">OPENCLIPART-GRADIENT</abbr>]</a>. You won't be able to see what these gradients look like unless your browser supports SVG, but that won't prevent you from downloading them."
+msgstr "Μπορείτε να βρείτε έναν μεγάλο αριθμό ενδιαφερουσών διαβαθμίσεων SVG στο διαδίκτυο και ειδικά στις διαβαθμίσεις του OpenClipArt <a class="xref" href="bibliography.html#bibliography-online-openclipart-gradients" title="Open Clipart - Gradients">[<abbr class="abbrev">OPENCLIPART-GRADIENT</abbr>]</a>. Δεν θα μπορείτε να δείτε πώς δείχνουν αυτές οι διαβαθμίσεις εκτός και ο περιηγητής σας υποστηρίζει SVG, αλλά αυτό δεν σας εμποδίζει στο κατέβασμα τους."
+
+msgid "Up"
+msgstr "Επάνω"
+
+msgid "<placeholder-1/> "
+msgstr "<placeholder-1/> "
+
+msgid "Home"
+msgstr "Αρχική σελίδα"
+
+msgid " <placeholder-1/>"
+msgstr " <placeholder-1/>"
+
