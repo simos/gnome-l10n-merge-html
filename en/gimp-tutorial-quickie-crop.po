@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-crop.html:6(title) en/gimp-tutorial-quickie-crop.html:21(th) en/gimp-tutorial-quickie-crop.html:31(div:title)
+msgid "4.4. Crop An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:13(link:title) en/gimp-tutorial-quickie-crop.html:25(th)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:14(link:title) en/gimp-tutorial-quickie-crop.html:143(a)
+msgid "4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:15(link:title) en/gimp-tutorial-quickie-crop.html:149(a)
+msgid "4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:24(img:alt) en/gimp-tutorial-quickie-crop.html:134(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:24(td) en/gimp-tutorial-quickie-crop.html:134(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-jpeg.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:26(img:alt) en/gimp-tutorial-quickie-crop.html:140(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:26(td) en/gimp-tutorial-quickie-crop.html:140(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-info.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-crop\"/>4.4. Crop An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:44(b)
+msgid "Figure 3.26. Example Image for Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:48(img:alt) en/gimp-tutorial-quickie-crop.html:54(img:alt)
+msgid "Example Image for Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:50(p)
+msgid "Source image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:56(p)
+msgid "Image after cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:62(p)
+msgid "There are many reasons to crop an image; for example, fitting an image to fill a frame, removing a portion of the background to emphasize the subject, etc. There are two methods to activate the crop tool. Click the <span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/toolbox/stock-tool-crop-22.png\"/></span></span> button in the Toolbox, or use <span class=\"guimenu\">Tools</span> → <span class=\"guisubmenu\">Transform Tools</span> → <span class=\"guimenuitem\">Crop</span> in the image window. This will change the cursor and allow you to click and drag a rectangular shape. The button in the toolbox is the nicest way to get to any of the tools. I have chosen one of the huge and beautiful APOD images <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod05\" title=\"Astronomy Picture of the Day - NGC 6369: The Little Ghost Nebula (2002 November 8)\">[<abbr class=\"abbrev\">APOD05</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:81(b)
+msgid "Figure 3.27. Select a Region to Crop"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:85(img:alt)
+msgid "Select a Region to Crop"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:90(p)
+msgid "I always click on the approximate upper left corner and drag to the lower right corner; the approximate path is shown in red. You don't need to worry about being accurate on this first swipe with the crop tool."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:99(b)
+msgid "Figure 3.28. Dialog for Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:103(img:alt)
+msgid "Dialog for Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:108(p)
+msgid "After completing the click and drag motion, a rectangle with special regions show the selected area. As the cursor is moved over the different areas of the selected crop area, the cursor changes. You can then drag the cursor to change the dimensions of the selected area. As shown in the figure above, as the crop area is resized, the dimensions and ratio are shown in the status bar. See <a class=\"xref\" href=\"gimp-tool-crop.html\" title=\"4.4.&#xA0;Crop\">Section 4.4, “Crop”</a> for more information on cropping in <acronym class=\"acronym\">GIMP</acronym>. If you would like to make this rectangular image square, you should find the width and height from the Get Image Information Quickie (see <a class=\"xref\" href=\"gimp-tutorial-quickie-info.html\" title=\"4.5.&#xA0;Find Info About Your Image\">Section 4.5, “Find Info About Your Image”</a>. Use the smallest of the two lengths to determine the size of the square. In my 300 x 225 pixel image, the largest square I can get is 225 x 225 pixels. Use the image and the squares to get the best part of the image for the area. Use any of the areas to move the edges and change the dimensions to achieve the image that you prefer. Double click in the area to crop the image."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:137(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:143(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:146(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-crop.html:149(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

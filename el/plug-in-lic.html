@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>10.10.  Van Gogh (LIC)</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+    <link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-artistic.html" title="10.  Artistic Filters" />
+    <link rel="prev" href="script-fu-predator.html" title="10.9. Predator" />
+    <link rel="next" href="plug-in-softglow.html" title="10.11. Soft Glow" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">10.10. 
+    <span>Van Gogh (LIC)</span>
+  </th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="script-fu-predator.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">10. 
+    <span>Artistic Filters</span>
+  </th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-softglow.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" lang="en" xml:lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-lic"></a>10.10. 
+    <span>Van Gogh (LIC)</span>
+  </h3>
+          </div>
+        </div>
+      </div>
+      <a id="id654496" class="indexterm"></a>
+      <a id="id605829" class="indexterm"></a>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id439124"></a>10.10.1. 
+      <span>Overview</span>
+    </h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id519194"></a>
+          <p class="title">
+            <b>Figure 16.193. 
+        <span>
+          From left to right: original image, map, resulting image
+        </span>
+      </b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-lic-s.png" alt="From left to right: original image, map, resulting image" />
+              <div class="caption">
+                <p>
+            Map has three stripes: a solid black area, a vertical gradient
+            area, a solid white area. One can see, on the resulting image,
+            that image zones corresponding to solid areas of the map, are not
+            blurred. Only the image zone corresponding to the gradient area of
+            the map is blurred.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>“<span class="quote">LIC</span>” stands for Line Integral Convolution, a
+      mathematical method.
+      The plug-in author uses mathematical terms to name his options...
+      This filter is used to apply a directional blur to an image, or to
+      create textures. It could be called “<span class="quote">Astigmatism</span>” as it
+      blurs certain directions in the image.
+    </p>
+        <p>
+      It uses a blur map. Unlike other maps, this filter doesn't use grey
+      levels of this blur map. <span class="emphasis"><em>Filter takes in account only
+        gradient direction(s)</em></span>. Image pixels corresponding to
+      solid areas of the map are ignored.
+    </p>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id564955"></a>10.10.2. 
+      <span>Activate the filter</span>
+    </h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Artistic</span> → <span class="guimenuitem">Van Gogh (LIC)</span>.
+    </p>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id536196"></a>10.10.3. 
+      <span>Options</span>
+    </h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id447218"></a>
+          <p class="title">
+            <b>Figure 16.194. 
+        <span>“<span class="quote">Van Gogh (LIC)</span>” filter options
+        </span>
+      </b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/options-artistic-vangogh.png" alt="Van Gogh (LIC) filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Tip]" src="images/tip.png" />
+              </td>
+              <th align="left">Tip</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <div class="itemizedlist">
+                  <ul type="disc">
+                    <li>
+                      <p>
+            To create a blur, check <span class="guilabel">With Source Image</span>.
+            Only Filter Length slider and perhaps Integration Steps slider,
+            are useful.
+          </p>
+                    </li>
+                    <li>
+                      <p>
+            To create a texture, check <span class="guilabel">With White Noise</span>.
+            All sliders can be useful.
+          </p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">
+          <span>Convolution</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            You can use two types of convolution. That's the first parameter
+            you have to set:
+          </p>
+              <div class="itemizedlist">
+                <ul type="disc">
+                  <li>
+                    <p><span class="guilabel">With White Noise</span>: White Noise is an
+                acoustics name. It's a noise where all frequencies have
+                the same amplitude. Here, this option is used to create
+                patterns.
+              </p>
+                  </li>
+                  <li>
+                    <p><span class="guilabel">With Source Image</span>: The source
+                image will be blurred.
+              </p>
+                  </li>
+                </ul>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Effect Image</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            That's the map for blur or pattern direction. This map must have
+            the same dimensions as the original image. It must be preferably a
+            grayscale image. It must be present on your screen when you call
+            filter so that you can choose it in the drop-list.
+          </p>
+              <div class="figure">
+                <a id="id659020"></a>
+                <p class="title">
+                  <b>Figure 16.195. 
+              <span>Blurring with vertical gradient map</span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vert-blur.png" alt="Blurring with vertical gradient map" />
+                    <div class="caption">
+                      <p>
+                  With a vertical gradient map, vertical lines are blurred.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="id602247"></a>
+                <p class="title">
+                  <b>Figure 16.196. 
+              <span>Blurring with a square gradient map</span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-sq-blur.png" alt="Blurring with a square gradient map" />
+                    <div class="caption">
+                      <p>
+                  The gradient map is divided into four gradient triangles:
+                  each of them has its own gradient direction. In every area
+                  of the image corresponding to gradient triangles, only lines
+                  with the same direction as gradient are blurred.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="id651789"></a>
+                <p class="title">
+                  <b>Figure 16.197. 
+              <span>Texture example</span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vert-pat.png" alt="Texture example" />
+                    <div class="caption">
+                      <p>
+                  The “<span class="quote">With white noise</span>”
+                  option is checked. Others are default. With a vertical
+                  gradient map, texture “<span class="quote">fibres</span>”
+                  are going horizontally.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Effect Channel</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            By selecting <span class="guilabel">Hue</span>, <span class="guilabel">Saturation
+            </span> or <span class="guilabel">Brightness (=Value)</span>, filter
+            will use this channel to treat image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Effect Operator</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            The “<span class="quote">Derivative</span>” option reverses “<span class="quote">Gradient
+            </span>” direction:
+          </p>
+              <div class="figure">
+                <a id="id567535"></a>
+                <p class="title">
+                  <b>Figure 16.198. 
+              <span>Derivative option example</span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-deriv.png" alt="Derivative option example" />
+                    <div class="caption">
+                      <p>
+                  Using a square gradient map, Effect operator is on
+                  “<span class="quote">Gradient</span>” on the left, on
+                  “<span class="quote">Derivative</span>” on the right: what was sharp is
+                  blurred and conversely.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Filter Length</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            When applying blur, this option controls how important blur is.
+            When creating a texture, it controls how rough texture is: low
+            values result in smooth surface; high values in rough surface.
+          </p>
+              <div class="figure">
+                <a id="id618067"></a>
+                <p class="title">
+                  <b>Figure 16.199. 
+              <span>
+                Action example of Filter Length on blur
+              </span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-blur-lg.png" alt="Action example of Filter Length on blur" />
+                    <div class="caption">
+                      <p>
+                  On the left: a vertical line, one pixel wide (zoom 800%). On
+                  the right: the same line, after applying a vertical blur
+                  with a Filter Length to 3. You can see that blur width is 6
+                  pixels, 3 pixels on both sides.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="id620631"></a>
+                <p class="title">
+                  <b>Figure 16.200. 
+              <span>Filter Length example on texture</span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-text-lg.png" alt="Filter Length example on texture" />
+                    <div class="caption">
+                      <p>
+                  On the left: a texture with Filter Length=3. On the right,
+                  the same texture with Filter Length=24.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Noise Magnitude</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            This options controls the amount and size of White Noise. Low
+            values produce finely grained surfaces. High values produce
+            coarse-grained textures.
+          </p>
+              <div class="figure">
+                <a id="id483172"></a>
+                <p class="title">
+                  <b>Figure 16.201. 
+              <span>
+                Action example of Noise Magnitude on texture
+              </span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vp-nm4.png" alt="Action example of Noise Magnitude on texture" />
+                    <div class="caption">
+                      <p>Noise magnitude = 4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Integration Steps</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            This options controls the influence of gradient map on texture.
+          </p>
+              <div class="figure">
+                <a id="id454092"></a>
+                <p class="title">
+                  <b>Figure 16.202. 
+              <span>
+                Action example of Integration Steps on texture
+              </span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-is.png" alt="Action example of Integration Steps on texture" />
+                    <div class="caption">
+                      <p>
+                  On the left: Integration Steps = 2. On the right:
+                  Integration Steps = 4.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">
+          <span>Minimum/Maximum values</span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            Both values determine a range controlling texture contrast:
+            shrunk range results in high contrast and enlarged range results
+            in low contrast.
+          </p>
+              <div class="figure">
+                <a id="id590649"></a>
+                <p class="title">
+                  <b>Figure 16.203. 
+              <span>
+                Action example of Min/max values on texture
+              </span>
+            </b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-mm.png" alt="Action example of Min/max values on texture" />
+                    <div class="caption">
+                      <p>
+                  Minimum value = -4.0. Maximum value = 5.0.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-predator.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-artistic.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-softglow.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-predator.html">10.9. Predator</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-softglow.html">10.11. Soft Glow</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

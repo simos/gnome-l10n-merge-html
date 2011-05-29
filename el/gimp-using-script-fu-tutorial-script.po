@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-script-fu-tutorial-script.html:6(title) el/gimp-using-script-fu-tutorial-script.html:21(th) el/gimp-using-script-fu-tutorial-script.html:31(div:title)
+msgid "3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:13(link:title) el/gimp-using-script-fu-tutorial-script.html:25(th)
+msgid "3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:14(link:title) el/gimp-using-script-fu-tutorial-script.html:274(a)
+msgid "3.4. Το πρώτο σας σενάριο Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:15(link:title) el/gimp-using-script-fu-tutorial-script.html:280(a)
+msgid "3.6. Επέκταση του σεναρίου πλαισίου κειμένου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:24(img:alt) el/gimp-using-script-fu-tutorial-script.html:265(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:24(td) el/gimp-using-script-fu-tutorial-script.html:265(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-first-script.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:26(img:alt) el/gimp-using-script-fu-tutorial-script.html:271(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:26(td) el/gimp-using-script-fu-tutorial-script.html:271(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-extending-text-box.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-script\"/>3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:39(p)
+msgid "Ας συνεχίσουμε την εκπαίδευση μας και ας προσθέσουμε κάποια λειτουργικότητα στο σενάριό μας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:42(div:title)
+msgid "3.5.1. Δημιουργία νέας εικόνας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:46(h4)
+msgid "<a id=\"id3236083\"/>3.5.1. Δημιουργία νέας εικόνας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:50(p)
+msgid "Στο προηγούμενο μάθημα, δημιουργήσαμε μια κενή συνάρτηση και την καταχωρίσαμε με το GIMP. Σε αυτό το μάθημα, θέλουμε να δώσουμε λειτουργικότητα στο σενάριο μας — θέλουμε να δημιουργήσουμε μια νέα εικόνα, να προσθέσουμε το κείμενο του χρήστη σε αυτή και να αλλάξουμε το μέγεθος της εικόνας για να ταιριάξει ακριβώς με το κείμενο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:55(p)
+msgid "Αφού ξέρετε πώς να ορίσετε μεταβλητές, συναρτήσεις και να προσπελάσετε μέλη λίστας, τα υπόλοιπα είναι όλα εύκολα — αυτό που χρειάζεσθε είναι η εξοικείωση με τις διαθέσιμες συναρτήσεις του GIMP στη διαδικασιακή βάση δεδομένων και την άμεση κλήση αυτών των συναρτήσεων. Λοιπόν, ξεκινάμε την <a class=\"xref\" href=\"plug-in-dbbrowser.html\" title=\"12.7.&#xA0;The Procedure Browser\">Ενότητα 12.7, “The Procedure Browser (ο διαδικασιακός περιηγητής)”</a> και φύγαμε!"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:61(p)
+msgid "Ας ξεκινήσουμε κάνοντας μια νέα εικόνα. Θα δημιουργήσουμε μια νέα μεταβλητή, <code class=\"varname\">theImage</code>, ρυθμισμένη να καλεί την ενσωματωμένη συνάρτηση GIMP <code class=\"function\">gimp-image-new</code>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:65(p)
+msgid "Όπως μπορείτε να δείτε από τον διαδικασιακό περιηγητή, η συνάρτηση <code class=\"function\">gimp-image-new</code> παίρνει τρεις παραμέτρους — το πλάτος της εικόνας, το ύψος και τον τύπο της εικόνας. Επειδή αργότερα θα αλλάξουμε το μέγεθος της εικόνας για να ταιριάξει στο κείμενο, θα κάνουμε μια εικόνα RGB 10x10 εικονοστοιχεία. Θα αποθηκεύσουμε το πλάτος της εικόνας και τα μεγέθη σε κάποιες μεταβλητές, καθώς θα αναφερθούμε σε αυτές και θα τις επεξεργαστούμε αργότερα στο σενάριο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:72(pre)
+#, no-wrap
+msgid "\n(define (script-fu-text-box inText inFont inFontSize inTextColor)\n(let*\n(\n; define our local variables\n; create a new image:\n(theImageWidth  10)\n(theImageHeight 10)\n(theImage (car\n(gimp-image-new\ntheImageWidth\ntheImageHeight\nRGB\n)\n)\n)\n(theText)     ;a declaration for the text\n;we create later\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:91(p)
+msgid "Παρατήρηση: Χρησιμοποιήσαμε την τιμή <code class=\"code\">RGB</code> για να καθορίσουμε ότι η εικόνα είναι μια RGB εικόνα. Θα μπορούσαμε επίσης να χρησιμοποιήσουμε <code class=\"code\">0</code>, αλλά το RGB είναι πιο περιγραφικό, όταν κοιτάμε τον κώδικα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:96(p)
+msgid "Θα πρέπει επίσης να σημειώσετε ότι πήραμε το κεφάλι του αποτελέσματος της κλήσης της συνάρτησης. Αυτό μπορεί να φανεί περίεργο, επειδή η βάση δεδομένων ρητά μας λέει ότι επιστρέφει μόνο μια τιμή — το ID (αναγνωριστικό) της νεοδημιουργηθείσας εικόνας. Όμως, όλες οι συναρτήσεις του GIMP επιστρέφουν μια λίστα, ακόμα κι αν υπάρχει μόνο ένα στοιχείο στη λίστα, έτσι χρειαζόμαστε να πάρουμε το κεφάλι της λίστας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:103(div:title)
+msgid "3.5.2. Προσθήκη μιας νέας στρώσης στην εικόνα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:107(h4)
+msgid "<a id=\"id3186905\"/>3.5.2. Προσθήκη μιας νέας στρώσης στην εικόνα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:111(p)
+msgid "Τώρα που έχουμε μια εικόνα, χρειάζεται να προσθέσουμε μια στρώση σ' αυτή. Θα ονομάσουμε τη συνάρτηση <code class=\"function\">gimp-layer-new</code> για να δημιουργήσουμε τη στρώση, μεταφέροντάς την στο ID της εικόνας που μόλις δημιουργήσαμε. (Από δω και πέρα, αντί να καταγράφουμε την πλήρη συνάρτηση, θα καταγράφουμε μόνο τις γραμμές που της προσθέτουμε. Μπορείτε να δείτε το πλήρες σενάριο. <a class=\"link\" href=\"gimp-using-script-fu-tutorial-result.html\" title=\"3.7.&#xA0;&#x3A4;&#x3BF; &#x3C3;&#x3B5;&#x3BD;&#x3AC;&#x3C1;&#x3B9;&#x3BF; &#x3BA;&#x3B1;&#x3B9; &#x3B7; &#x3BB;&#x3B5;&#x3B9;&#x3C4;&#x3BF;&#x3C5;&#x3C1;&#x3B3;&#x3AF;&#x3B1; &#x3C4;&#x3BF;&#x3C5;\">εδώ</a>.) Επειδή δηλώσαμε όλες τις τοπικές μεταβλητές που θα χρησιμοποιήσουμε, θα κλείσουμε επίσης τις παρενθέσεις σημειώνοντας το τέλος των δηλώσεων μας των μεταβλητών:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:120(pre)
+#, no-wrap
+msgid "\n;create a new layer for the image:\n(theLayer\n(car\n(gimp-layer-new\ntheImage\ntheImageWidth\ntheImageHeight\nRGB-IMAGE\n\"layer 1\"\n100\nNORMAL\n)\n)\n)\n) ;end of our local variables\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:137(p)
+msgid "Αφού έχουμε τη νέα στρώση, χρειαζόμαστε να την προσθέσουμε στην εικόνα:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:138(pre)
+#, no-wrap
+msgid "\n(gimp-image-add-layer theImage theLayer 0)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:141(p)
+msgid "Τώρα, μόνο για πλάκα, άς δούμε τους καρπούς της εργασίας μέχρι αυτό το σημείο και ας προσθέσουμε αυτή τη γραμμή this για να εμφανιστεί η νέα, κενή εικόνα:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:145(pre)
+#, no-wrap
+msgid "(gimp-display-new theImage)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:146(p)
+msgid "Αποθηκεύστε την εργασία σας, επιλέξτε <span class=\"guimenu\">Φίλτρα</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Ανανέωση σεναρίων</span>, τρέξτε το σενάριο και μια νέα εικόνα θα εμφανιστεί. Θα περιέχει πιθανόν σκουπίδια (τυχαία χρώματα), επειδή δεν τα έχουμε σβήσει. Θα επανέλθουμε σε αυτό αργότερα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:153(div:title)
+msgid "3.5.3. Προσθήκη κειμένου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:157(h4)
+msgid "<a id=\"id3232628\"/>3.5.3. Προσθήκη κειμένου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:161(p)
+msgid "Συνεχίστε και αφαιρέστε την γραμμή εμφάνισης της εικόνας (ή σχολιάστε την με ένα (<code class=\"code\">;</code>) ως τον πρώτο χαρακτήρα της γραμμής)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:165(p)
+msgid "Πριν να προσθέσουμε κείμενο στην εικόνα, χρειαζόμαστε να ορίσουμε τα χρώματα παρασκηνίου και προσκηνίου, έτσι ώστε το κείμενο να εμφανίζεται στο χρώμα που όρισε ο χρήστης. Θα χρησιμοποιήσουμε τις συναρτήσεις gimp-context-set-back/foreground:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:170(pre)
+#, no-wrap
+msgid "\n(gimp-context-set-background '(255 255 255) )\n(gimp-context-set-foreground inTextColor)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:174(p)
+msgid "Με τα χρώματα κατάλληλα ορισμένα, ας καθαρίσουμε τώρα τα τρέχοντα σκουπίδια στην εικόνα συμπληρώνοντας την περιοχή σχεδίασης με το χρώμα παρασκηνίου:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:178(pre)
+#, no-wrap
+msgid "\n(gimp-drawable-fill theLayer BACKGROUND-FILL)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:181(p)
+msgid "Με την εικόνα καθαρισμένη, είμαστε έτοιμοι να προσθέσουμε κάποιο κείμενο:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:182(pre)
+#, no-wrap
+msgid "\n(set! theText\n(car\n(gimp-text-fontname\ntheImage theLayer\n0 0\ninText\n0\nTRUE\ninFontSize PIXELS\n\"Sans\")\n)\n)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:196(p)
+msgid "Αν και μεγάλη η κλίση της συνάρτησης, είναι ολότελα απλή εάν κοιτάξετε προσεκτικά τις παραμέτρους, ενώ κοιτάτε στις εισόδους της συνάρτησης στον διαδικασιασκό περιηγητή. Βασικά, δημιουργούμε μια νέα στρώση κειμένου και την αποδίδουμε στη μεταβλητή <code class=\"varname\">theText</code>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:201(p)
+msgid "Τώρα που έχουμε το κείμενο, μπορούμε να ορίσουμε το πλάτος, το ύψος και να αλλάξουμε το μέγεθος της εικόνας και της στρώσης της εικόνας στο μέγεθος του κειμένου:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:205(pre)
+#, no-wrap
+msgid "\n(set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n(set! theImageHeight  (car (gimp-drawable-height theText) ) )\n\n(gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n\n(gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:213(p)
+msgid "Εάν είσθε όπως εγώ, θα αναρωτιέστε προφανώς τη διαφορά μεταξύ μιας περιοχής σχεδίασης και μιας στρώσης. Η διαφορά έγκειται στο ότι η περιοχή σχεδίασης είναι οτιδήποτε που κάποιος μπορεί να σχεδιάσει, συμπεριλαμβάνοντας στρώσεις αλλά και κανάλια, μάσκες στρώσης, επιλογές κλ. Η στρώση είναι μια πιο εξειδικευμένη έκδοση της περιοχής σχεδίασης. Στις περισσότερες περιπτώσεις, η διαφορά δεν είναι σημαντική."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:219(p)
+msgid "Με την εικόνα έτοιμη, μπορούμε τώρα να ξαναπροσθέσουμε την γραμμή εμφάνισης της εικόνας:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:222(pre)
+#, no-wrap
+msgid "\n(gimp-display-new theImage)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:225(p)
+msgid "Αποθηκεύστε την εργασία σας, ανανεώστε τη βάση δεδομένων και τρέξτε το πρώτο σας σενάριο!"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:229(div:title)
+msgid "3.5.4. Καθαρισμός της ακάθαρτης σημαίας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:233(h4)
+msgid "<a id=\"id3228126\"/>3.5.4. Καθαρισμός της ακάθαρτης σημαίας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:237(p)
+msgid "Εάν προσπαθήσετε να κλείσετε την δημιουργημένη εικόνα, χωρίς προηγουμένως να αποθηκεύσετε το αρχείο, το GIMP θα σας ζητήσει εάν θέλετε να αποθηκεύσετε την εργασία σας πριν το κλείσιμο της εικόνας. Το ρωτά επειδή η εικόνα χαρακτηρίζεται ως ακάθαρτη ή χωρίς αποθήκευση. Στην περίπτωση του σεναρίου μας, αυτή είναι μια ενόχληση επειδή δεν θέλουμε παρά να ελέγξουμε τις τροποποιήσεις, χωρίς να θέλουμε να τροποποιήσουμε οριστικά την ίδια την εικόνα — δηλαδή, σε ένα τόσο απλό σενάριο η δουλειά μας είναι εύκολα αναπαράξιμη, έτσι έχει νόημα η απαλλαγή από αυτή την ακάθαρτη σημαία."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:245(p)
+msgid "Για να το κάνουμε αυτό, μπορούμε να καθαρίσουμε την ακάθαρτη σημαία μετά την εμφάνιση της εικόνας:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:248(pre)
+#, no-wrap
+msgid "\n(gimp-image-clean-all theImage)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:251(p)
+msgid "Αυτό θα ορίσει το μετρητή ακαθαρσίας στο 0, κάνοντας την να φαίνεται ως <span class=\"quote\">“<span class=\"quote\">καθαρή</span>”</span> εικόνα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:254(p)
+msgid "Η προσθήκη ή όχι αυτής της γραμμής είναι θέμα προσωπικής επιλογής. Τη χρησιμοποιώ σε σενάρια που παράγουν νέες εικόνες, όπου τα αποτελέσματα είναι ασήμαντα, όπως σε αυτή την περίπτωση. Εάν το σενάριο σας είναι πολύ περίπλοκο, ή εάν τρέχει σε υπάρχουσα εικόνα, δε θα θέλετε προφανώς να χρησιμοποιήσετε αυτήν τη συνάρτηση."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:268(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:274(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:277(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-script.html:280(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

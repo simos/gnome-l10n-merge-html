@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-image-combining.html:6(title) el/gimp-image-combining.html:21(th) el/gimp-image-combining.html:31(div:title)
+msgid "Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-image-combining.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-image-combining.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-image-combining.html:13(link:title)
+msgid "Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-image-combining.html:14(link:title) el/gimp-image-combining.html:504(a)
+msgid "13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/gimp-image-combining.html:15(link:title) el/gimp-image-combining.html:510(a)
+msgid "2. Λειτουργίες στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:24(img:alt) el/gimp-image-combining.html:495(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-image-combining.html:24(td) el/gimp-image-combining.html:495(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-rectangular.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-image-combining.html:25(th)
+msgid "Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-image-combining.html:26(img:alt) el/gimp-image-combining.html:501(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-image-combining.html:26(td) el/gimp-image-combining.html:501(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-layer-modes.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-image-combining.html:35(h2)
+msgid "<a id=\"gimp-image-combining\"/>Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-image-combining.html:41(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-image-combining.html:46(a)
+msgid "1. Εισαγωγή στις στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:53(a)
+msgid "1.1. Ιδιότητες στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:60(a)
+msgid "2. Λειτουργίες στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:65(a)
+msgid "3. Δημιουργία νέων στρώσεων"
+msgstr ""
+
+#: el/gimp-image-combining.html:70(a)
+msgid "4. Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/gimp-image-combining.html:75(a)
+msgid "5. Κείμενο"
+msgstr ""
+
+#: el/gimp-image-combining.html:82(a)
+msgid "5.1. Διακόσμιση κειμένου"
+msgstr ""
+
+#: el/gimp-image-combining.html:87(a)
+msgid "5.2. Προσθήκη γραμματοσειρών"
+msgstr ""
+
+#: el/gimp-image-combining.html:92(a)
+msgid "5.3. Προβλήματα γραμματοσειρών"
+msgstr ""
+
+#: el/gimp-image-combining.html:99(div:title)
+msgid "1. Εισαγωγή στις στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:103(h2)
+msgid "<a id=\"gimp-concepts-layers\"/>1. Εισαγωγή στις στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:108(p)
+msgid "Ένας καλός τρόπος για να οπτικοποιήσετε την εικόνα του GIMP είναι ως στοίβα των διαφανειών: στην ορολογία του GIMP, κάθε ατομική διαφάνεια λέγεται <span class=\"emphasis\"><em>στρώση</em></span>. Δεν υπάρχει όριο, κατ' αρχήν, στον αριθμό των στρώσεων που μια εικόνα μπορεί να έχει, εκτός από το διαθέσιμο ποσοστό μνήμης του συστήματος. Δεν είναι ασυνήθιστο για για προχωρημένους χρήστες να δουλεύουν με εικόνες που περιέχουν πολλές στρώσεις."
+msgstr ""
+
+#: el/gimp-image-combining.html:115(p)
+msgid "Η οργάνωση των στρώσεων σε μια εικόνα εμφανίζεται στο διάλογο των στρώσεων που είναι ο δεύτερος πιο σημαντικός τύπος διαλόγου παραθύρου στο GIMP, μετά την κυρίως εργαλειοθήκη. Η εμφάνιση του διαλόγου στρώσεων φαίνεται στην παρακείμενη εικονογράφηση. Πώς δουλεύει περιγράφεται με λεπτομέρεια στην ενότητα <a class=\"link\" href=\"gimp-dialogs-structure.html#gimp-layer-dialog\" title=\"2.1.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C3;&#x3C4;&#x3C1;&#x3CE;&#x3C3;&#x3B5;&#x3C9;&#x3BD;\">διάλογος στρώσεων</a>, αλλά θα δούμε μερικές πλευρές εδώ, σχετικές με τις ιδιότητες της στρώσης που εμφανίζουν."
+msgstr ""
+
+#: el/gimp-image-combining.html:122(p)
+msgid "<a id=\"id3143908\" class=\"indexterm\"/> Κάθε ανοιχτή εικόνα έχει οποτεδήποτε μια μοναδική <span class=\"emphasis\"><em>ενεργή σχεδίαση</em></span>. Μια <span class=\"quote\">“<span class=\"quote\"> περιοχή σχεδίασης</span>”</span> είναι μια ιδέα του GIMP που περιλαμβάνει στρώσεις αλλά επίσης πολλούς άλλους τύπους πραγμάτων, όπως κανάλια, μάσκες στρώσης και μάσκα επιλογής.(Βασικά μία <span class=\"quote\">“<span class=\"quote\"> περιοχή σχεδίασης</span>”</span> είναι οτιδήποτε μπορεί να σχεδιαστεί με εργαλεία ζωγραφικής). Εάν μια στρώση είναι η τρέχουσα ενεργή, εμφανίζεται έντονη στο διάλογο στρώσεων και το όνομα της εμφανίζεται στην περιοχή κατάστασης του παραθύρου εικόνας. Εάν δεν είναι ενεργή, μπορείτε να την ενεργοποιήσετε πατώντας την με το ποντίκι. Εάν καμία από τις στρώσεις δεν είναι τονισμένη, σημαίνει ότι η ενεργός σχεδίαση είναι κάτι άλλο πέραν της στρώσης."
+msgstr ""
+
+#: el/gimp-image-combining.html:133(p)
+msgid "Στη γραμμή μενού πάνω από το παράθυρο εικόνας, μπορείτε να βρείτε ένα μενού που λέγεται <span class=\"guimenu\">Στρώσεις</span>, περιέχει έναν αριθμό εντολών που επηρεάζουν την ενεργή στρώση της εικόνας. Στο ίδιο μενού έχετε πρόσβαση δεξιοπατώντας στο διάλογο στρώσεων."
+msgstr ""
+
+#: el/gimp-image-combining.html:138(div:title)
+msgid "1.1. Ιδιότητες στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:142(h3)
+msgid "<a id=\"gimp-layer-properties\"/>1.1. Ιδιότητες στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:146(p)
+msgid "Κάθε στρώση σε μια εικόνα έχει έναν αριθμό από σημαντικές ιδιότητες:"
+msgstr ""
+
+#: el/gimp-image-combining.html:152(span)
+msgid "Όνομα"
+msgstr ""
+
+#: el/gimp-image-combining.html:155(p)
+msgid "Κάθε στρώση έχει ένα όνομα. Αυτό αποδίδεται αυτόματα, όταν δημιουργείται η στρώση, αλλά μπορείτε να το αλλάξετε. Μπορείτε να αλλάξετε το όνομα της στρώσης είτε διπλοπατώντας το εικονίδιο στο διάλογο στρώσεων, ή δεξιοπατώντας εκεί και έπειτα επιλέγοντας την κορυφαία εγγραφή στο μενού που εμφανίζεται, <span class=\"guimenuitem\">επεξεργασία ιδιοτήτων στρώσης</span>."
+msgstr ""
+
+#: el/gimp-image-combining.html:162(span)
+msgid "Παρουσία ή απουσία ενός άλφα καναλιού"
+msgstr ""
+
+#: el/gimp-image-combining.html:167(p)
+msgid "Ένα άλφα κανάλι κωδικοποιεί πληροφορίες για τη διαφάνεια της στρώσης σε κάθε εικονοστοιχείο. Είναι ορατό στο διάλογο καναλιών. Λευκό είναι πλήρης αδιαφάνεια, μαύρο είναι πλήρης διαφάνεια και αποχρώσεις του γκρι είναι μερικώς διαφανής."
+msgstr ""
+
+#: el/gimp-image-combining.html:172(p)
+msgid "Η στρώση παρασκηνίου είναι ειδική. Εάν μόλις έχετε δημιουργήσει μια νέα εικόνα, έχει ακόμα μόνο μια στρώση που είναι η στρώση παρασκηνίου. Εάν η εικόνα δημιουργήθηκε με έναν τύπο αδιαφανούς γεμίσματος, αυτή η στρώση δεν έχει άλφα κανάλι. Εάν προσθέσετε μια νέα στρώση, ακόμα και με έναν αδιαφανή τύπο πλήρωσης, ένα κανάλι άλφα, δημιουργείται αυτόματα, που εφαρμόζεται σε όλες τις στρώσεις εκτός από τη στρώση παρασκηνίου. Για να πάρετε μια στρώση παρασκηνίου με διαφάνεια, είτε δημιουργείται τη νέα σας εικόνα με τύπο διαφανούς πλήρωσης, ή χρησιμοποιείτε το <a class=\"link\" href=\"gimp-layer-alpha-add.html\" title=\"7.32.&#xA0;&#x3A0;&#x3C1;&#x3BF;&#x3C3;&#x3B8;&#x3AE;&#x3BA;&#x3B7; &#x3AC;&#x3BB;&#x3C6;&#x3B1; &#x3BA;&#x3B1;&#x3BD;&#x3B1;&#x3BB;&#x3B9;&#x3BF;&#x3CD;\">Προσθήκη άλφα καναλιού</a>."
+msgstr ""
+
+#: el/gimp-image-combining.html:181(p)
+msgid "Κάθε άλλη στρώση μιας εικόνας πέρα από την τελευταία έχει αυτόματα ένα κανάλι άλφα, αλλά δεν μπορείτε να δείτε μια αναπαράσταση της γκρι κλίμακας των τιμών άλφα. Δείτε <a class=\"link\" href=\"glossary.html#glossary-alpha\" title=\"&#x386;&#x3BB;&#x3C6;&#x3B1;\">Άλφα</a> στο γλωσσάρι για περισσότερες πληροφορίες."
+msgstr ""
+
+#: el/gimp-image-combining.html:187(p:title) el/gimp-image-combining.html:206(p:title) el/gimp-image-combining.html:226(p:title) el/gimp-image-combining.html:243(p:title) el/gimp-image-combining.html:261(p:title) el/gimp-image-combining.html:281(p:title)
+msgid "Παράδειγμα για άλφα κανάλι"
+msgstr ""
+
+#: el/gimp-image-combining.html:187(b)
+msgid "Παράδειγμα για άλφα κανάλι. "
+msgstr ""
+
+#: el/gimp-image-combining.html:191(b)
+msgid "Εικόνα 8.1. Παράδειγμα άλφα καναλιού: Βασική εικόνα"
+msgstr ""
+
+#: el/gimp-image-combining.html:194(img:alt)
+msgid "Παράδειγμα άλφα καναλιού: Βασική εικόνα"
+msgstr ""
+
+#: el/gimp-image-combining.html:196(p)
+msgid "Αυτή η εικόνα έχει τρεις στρώσεις βαμμένες με 100% καθαρό αδιαφανές κόκκινο, πράσινο και μπλε. Στο διάλογο καναλιών, μπορείτε να δείτε, ότι ένα άλφα κανάλι έχει προστεθεί. Είναι λευκό επειδή η εικόνα δεν είναι διαφανής αφού υπάρχει τουλάχιστον μια 100% αδιαφανής στρώση. Η τρέχουσα στρώση είναι η κόκκινη. Επειδή είναι βαμμένη με καθαρό κόκκινο, δεν υπάρχει πράσινο και μπλε και αντίστοιχα κανάλια είναι μαύρα."
+msgstr ""
+
+#: el/gimp-image-combining.html:211(b)
+msgid "Εικόνα 8.2. Παράδειγμα άλφα καναλιού: Μια διαφανής στρώση"
+msgstr ""
+
+#: el/gimp-image-combining.html:215(img:alt)
+msgid "Παράδειγμα για άλφα κανάλι: Μια διαφανής στρώση"
+msgstr ""
+
+#: el/gimp-image-combining.html:217(p)
+msgid "Το αριστερό μέρος της πρώτης στρώσης έγινε διαφανές (Ορθογώνια επιλογή, Επεξεργασία/καθαρισμός). Η δεύτερη στρώση πράσινη, είναι ορατή. Το κανάλι άλφα είναι ακόμα λευκό, αφού υπάρχει μια αδιαφανής στρώση σε αυτό το τμήμα της εικόνας."
+msgstr ""
+
+#: el/gimp-image-combining.html:230(b)
+msgid "Εικόνα 8.3. Παράδειγμα άλφα καναλιού: Δύο διαφανείς στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:233(img:alt)
+msgid "Παράδειγμα άλφα καναλιού: Δύο διαφανείς στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:235(p)
+msgid "Το αριστερό μέρος της δεύτερης στρώσης έγινε διαφανές. Η τρίτη στρώση, μπλε, είναι ορατή μέσα από την πρώτη και δεύτερη στρώση. Το άλφα κανάλι είναι ακόμα λευκό, αφού υπάρχει μια αδιαφανής στρώση σε αυτό το μέρος της εικόνας."
+msgstr ""
+
+#: el/gimp-image-combining.html:247(b)
+msgid "Εικόνα 8.4. Παράδειγμα άλφα καναλιού: Τρεις διαφανείς στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:250(img:alt)
+msgid "Παράδειγμα άλφα καναλιού: Τρεις διαφανείς στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:252(p)
+msgid "Το αριστερό μέρος της τρίτης στρώσης έγινε διαφανές. Το κανάλι άλφα είναι ακόμα λευκό και το αριστερό μέρος της στρώσης είναι λευκό, αδιαφανές! Η στρώση παρασκηνίου δεν έχει άλφα κανάλι. Σε αυτήν την περίπτωση, η εντολή καθαρισμός λειτουργεί ως σβήστρα και χρησιμοποιεί το χρώμα παρασκηνίου της εργαλειοθήκης."
+msgstr ""
+
+#: el/gimp-image-combining.html:265(b)
+msgid "Εικόνα 8.5. Παράδειγμα άλφα καναλιού: Προσθήκη άλφα καναλιού στο παρασκήνιο"
+msgstr ""
+
+#: el/gimp-image-combining.html:269(img:alt)
+msgid "Παράδειγμα άλφα καναλιού: Προσθήκη άλφα καναλιού στο παρασκήνιο"
+msgstr ""
+
+#: el/gimp-image-combining.html:271(p)
+msgid "Χρησιμοποιήσαμε την εντολή <span class=\"guimenu\">Στρώση</span> → <span class=\"guimenuitem\">Διαφάνεια</span> → <span class=\"guisubmenu\">Προσθήκη καναλιού Alpha</span> στη στρώση παρασκηνίου. Τώρα το αριστερό μέρος της εικόνας είναι πλήρως διαφανές και έχει το χρώμα της σελίδας που βρίσκεται η εικόνα. Το αριστερό μέρος της μικρογραφίας του άλφα καναλιού είναι μαύρο (διαφανές) στο διάλογο καναλιών."
+msgstr ""
+
+#: el/gimp-image-combining.html:285(span)
+msgid "Τύπος στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:289(p)
+msgid "Ο τύπος στρώσης προσδιορίζεται από τον τύπο της εικόνας (δείτε το προηγούμενο τμήμα) και την παρουσία ή απουσία άλφα καναλιού. Αυτοί είναι οι πιθανοί τύποι στρώσης:"
+msgstr ""
+
+#: el/gimp-image-combining.html:296(p)
+msgid "RGB"
+msgstr ""
+
+#: el/gimp-image-combining.html:299(p)
+msgid "RGBA"
+msgstr ""
+
+#: el/gimp-image-combining.html:302(p)
+msgid "Gray (Γκρι)"
+msgstr ""
+
+#: el/gimp-image-combining.html:305(p)
+msgid "GrayA (Γκρι Α)"
+msgstr ""
+
+#: el/gimp-image-combining.html:308(p)
+msgid "Indexed (Ευρετηριακός)"
+msgstr ""
+
+#: el/gimp-image-combining.html:311(p)
+msgid "IndexedA (Ευρετηριακός Α)"
+msgstr ""
+
+#: el/gimp-image-combining.html:315(p)
+msgid "Ο λόγος που αναφέρονται είναι επειδή στα περισσότερα φίλτρα (στο μενού) <span class=\"guimenu\">Φίλτρα</span> δέχονται μόνο ένα υποσύνολο των τύπων στρώσης και εμφανίζονται αμυδρά στο μενού, εάν η ενεργός στρώση δεν έχει αποδεκτό τύπο. Συχνά μπορείτε να το διορθώσετε είτε αλλάζοντας την κατάσταση της εικόνας είτε προσθέτοντας ή αφαιρώντας ένα άλφα κανάλι."
+msgstr ""
+
+#: el/gimp-image-combining.html:323(span)
+msgid "<span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/dialogs/stock-eye-20.png\"/></span></span> Ορατότητα"
+msgstr ""
+
+#: el/gimp-image-combining.html:332(p)
+msgid "Είναι δυνατή η προσωρινή αφαίρεση μιας στρώσης από μια εικόνα χωρίς να καταστραφεί, πατώντας στο σύμβολο στο διάλογο στρώσεων. Αυτό λέγεται <span class=\"quote\">“<span class=\"quote\">εναλλαγή της ορατότητας</span>”</span> της στρώσης. Οι περισσότερες λειτουργίες σε μια εικόνα συμπεριφέρονται σα να μην υπήρχαν εναλλασσόμενες στρώσεις. Όταν δουλεύετε με εικόνες που περιέχουν πολλές στρώσεις, με διαφορετική αδιαφάνεια, μπορείτε συχνά να πάρετε μια καλύτερη εικόνα των περιεχομένων της στρώσης που θέλετε να δουλέψετε κρύβοντας μερικές από τις άλλες στρώσεις."
+msgstr ""
+
+#: el/gimp-image-combining.html:340(div:title) el/gimp-image-combining.html:346(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-image-combining.html:344(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-image-combining.html:350(p)
+msgid "Εάν κρατώντας πατημένο το <span class=\"emphasis\"><em>Shift</em></span> πατήσετε στο εικονίδιο του ματιού, θα κρυφτούν όλες τις στρώσεις <span class=\"emphasis\"><em>εκτός</em></span> από αυτή που πατάτε."
+msgstr ""
+
+#: el/gimp-image-combining.html:360(span)
+msgid "<span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/dialogs/stock-vchain-24.png\"/></span></span> Σύνδεση με άλλες στρώσεις"
+msgstr ""
+
+#: el/gimp-image-combining.html:370(p)
+msgid "Εάν πατήσετε μεταξύ του εικονιδίου του ματιού και της μικρογραφίας της στρώσης, θα πάρετε ένα εικονίδιο αλυσίδας που σας επιτρέπει να ομαδοποιήσετε στρώσεις για ενέργειες σε πολλαπλές στρώσεις (π.χ. με το εργαλείο μετακίνησης ή το εργαλείο μετασχηματισμού)."
+msgstr ""
+
+#: el/gimp-image-combining.html:377(b)
+msgid "Εικόνα 8.6. Διάλογος στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:380(img:alt)
+msgid "Διάλογος στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:382(p)
+msgid "Κόκκινο: Σύνδεση με άλλες στρώσεις. Πράσινο: Ορατότητα"
+msgstr ""
+
+#: el/gimp-image-combining.html:392(span)
+msgid "Μέγεθος και όρια"
+msgstr ""
+
+#: el/gimp-image-combining.html:397(p)
+msgid "Στο GIMP τα όρια μιας στρώσης δεν ταιριάζουν κατ' ανάγκη με τα όρια της εικόνας που την περιέχει. Όταν δημιουργείτε κείμενο, π.χ., κάθε αντικείμενο κειμένου πηγαίνει στη δικιά του ξεχωριστή στρώση και η στρώση παίρνει ακριβώς το μέγεθος για να περιέχει το κείμενο και τίποτα παραπάνω. Επίσης, όταν δημιουργείτε μια νέα στρώση χρησιμοποιώντας αποκοπή και επικόλληση, η νέα στρώση έχει ακριβώς αρκετό μέγεθος για να περιέχει το επικολλημένο αντικείμενο. Στο παράθυρο εικόνας, τα όρια της τρέχουσας ενεργής στρώσης εμφανίζονται περιγραμμένα με μια μαυροκίτρινη διακεκομμένη γραμμή."
+msgstr ""
+
+#: el/gimp-image-combining.html:405(p)
+msgid "Ο κύριος λόγος που έχει σημασία αυτό είναι ότι δεν μπορείτε να κάνετε τίποτα σε μια στρώση έξω από τα όρια της: Δεν μπορείτε νε ενεργήσετε σε κάτι που δεν υπάρχει. Εάν αυτό σας δημιουργεί προβλήματα, μπορείτε να αλλάξετε τις διαστάσεις της στρώσης χρησιμοποιώντας οποιαδήποτε από τις πολλές εντολές που μπορείτε να βρείτε κοντά στον πάτο του μενού <span class=\"guimenu\">στρώσης</span>."
+msgstr ""
+
+#: el/gimp-image-combining.html:411(div:title) el/gimp-image-combining.html:417(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-image-combining.html:415(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-image-combining.html:421(p)
+msgid "Το ποσό της μνήμης που μια στρώση καταναλώνει προσδιορίζεται από τις διαστάσεις της, όχι από το περιεχόμενό της. Έτσι, εάν δουλεύετε με μεγάλες εικόνες ή εικόνες που περιέχουν πολλές στρώσεις, μπορεί να σας αποζημιώσει η περικοπή των στρώσεων στο ελάχιστο δυνατό μέγεθος."
+msgstr ""
+
+#: el/gimp-image-combining.html:432(span)
+msgid "Αδιαφάνεια"
+msgstr ""
+
+#: el/gimp-image-combining.html:435(p)
+msgid "Η αδιαφάνεια μιας στρώσης προσδιορίζει την έκταση στην οποία αφήνει τα χρώματα από τις από κάτω στρώσεις, να εμφανίζονται στη στοίβα. Η αδιαφάνεια εκτείνεται από 0 έως 100, με το 0 να σημαίνει πλήρη διαφάνεια και το 100 να σημαίνει πλήρη αδιαφάνεια."
+msgstr ""
+
+#: el/gimp-image-combining.html:442(span)
+msgid "Κατάσταση"
+msgstr ""
+
+#: el/gimp-image-combining.html:445(p)
+msgid "Η κατάσταση της στρώσης προσδιορίζει πόσα χρώματα από τη στρώση συνδυάζονται με χρώματα από τις υποκείμενες στρώσεις για να παράξουν ένα ορατό αποτέλεσμα. Αυτό είναι αρκετά σύνθετο αλλά και αρκετά σημαντικό για να αφιερωθεί ένα δικό του κομμάτι που ακολουθεί. Δείτε <a class=\"xref\" href=\"gimp-concepts-layer-modes.html\" title=\"2.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3B1;&#x3C3;&#x3C4;&#x3AC;&#x3C3;&#x3B5;&#x3B9;&#x3C2; &#x3C3;&#x3C4;&#x3C1;&#x3CE;&#x3C3;&#x3B7;&#x3C2;\">Ενότητα 2, “Καταστάσεις στρώσης”</a>."
+msgstr ""
+
+#: el/gimp-image-combining.html:453(span)
+msgid "Μάσκα στρώσης"
+msgstr ""
+
+#: el/gimp-image-combining.html:457(p)
+msgid "Πέρα από το άλφα κανάλι υπάρχει ένας άλλος τρόπος για να ελεγχθεί η διαφάνεια μιας στρώσης: προσθέτοντας μία <span class=\"emphasis\"><em>μάσκα στρώσης</em></span> που είναι μια επιπρόσθετη περιοχή σχεδίασης γκρι κλίμακας συνδεμένη με τη στρώση. Μια στρώση δεν έχει μια μάσκα στρώσης από προεπιλογή. Πρέπει να προστεθεί ειδικά. Οι μάσκες στρώσης και η χρήση τους περιγράφονται πιο αναλυτικά στην ενότητα <a class=\"link\" href=\"gimp-dialogs-structure.html#gimp-layer-mask\" title=\"2.1.3.&#xA0;&#x39C;&#x3AC;&#x3C3;&#x3BA;&#x3B5;&#x3C2; &#x3C3;&#x3C4;&#x3C1;&#x3CE;&#x3C3;&#x3B7;&#x3C2;\">μάσκες στρώσης</a>."
+msgstr ""
+
+#: el/gimp-image-combining.html:466(span)
+msgid "κλειδώματος καναλιού άλφα"
+msgstr ""
+
+#: el/gimp-image-combining.html:466(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-image-combining.html:466(span)
+msgid "Ρυθμίσεις<placeholder-1/>"
+msgstr ""
+
+#: el/gimp-image-combining.html:469(p)
+msgid "Στην πάνω μεριά του διαλόγου στρώσεων εμφανίζεται ένα κουτί επιλογής που ελέγχει τις ρυθμίσεις <span class=\"quote\"> “<span class=\"quote\">κλειδώματος</span>”</span> για τη διαφάνεια της στρώσης (δείτε την παρακάτω εικόνα). Εάν αυτό επιλεγεί, τότε το άλφα κανάλι για τη στρώση κλειδώνεται και κανένας χειρισμός δεν επιδρά σε αυτό. Ειδικά, τίποτα που κάνετε σε ένα διαφανές τμήμα της στρώσης δεν θα έχει κανένα αποτέλεσμα."
+msgstr ""
+
+#: el/gimp-image-combining.html:477(b)
+msgid "Εικόνα 8.7. Κλείδωμα καναλιού άλφα"
+msgstr ""
+
+#: el/gimp-image-combining.html:480(img:alt)
+msgid "Κλείδωμα καναλιού άλφα"
+msgstr ""
+
+#: el/gimp-image-combining.html:498(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-image-combining.html:504(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-image-combining.html:507(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-image-combining.html:510(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

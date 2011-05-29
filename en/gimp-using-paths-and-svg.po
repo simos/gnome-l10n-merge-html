@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-paths-and-svg.html:6(title) en/gimp-using-paths-and-svg.html:34(div:title)
+msgid "5.7. Paths and SVG files"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:13(link:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:14(link:title) en/gimp-using-paths-and-svg.html:110(a)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:15(link:title) en/gimp-using-paths-and-svg.html:116(a)
+msgid "6. Brushes"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:21(acronym) en/gimp-using-paths-and-svg.html:38(acronym)
+msgid "SVG"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:21(th)
+msgid "5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:24(img:alt) en/gimp-using-paths-and-svg.html:101(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:24(td) en/gimp-using-paths-and-svg.html:101(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths-and-text.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:27(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:25(th)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:29(img:alt) en/gimp-using-paths-and-svg.html:107(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:29(td) en/gimp-using-paths-and-svg.html:107(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-brushes.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:38(h3)
+msgid "<a id=\"gimp-using-paths-and-svg\"/>5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:42(p)
+msgid "<acronym class=\"acronym\">SVG</acronym>, standing for <span class=\"quote\">“<span class=\"quote\">Scalable Vector Graphics</span>”</span>, is an increasingly popular file format for <span class=\"emphasis\"><em>vector graphics</em></span>, in which graphical elements are represented in a resolution-independent format, in contrast to <span class=\"emphasis\"><em>raster graphics</em></span>; in which graphical elements are represented as arrays of pixels. GIMP is mainly a raster graphics program, but paths are vector entities."
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:51(p)
+msgid "Fortunately, paths are represented in <acronym class=\"acronym\">SVG</acronym> files in almost exactly the same way they are represented in GIMP. (Actually fortune has nothing to do with it: GIMP's path handling was rewritten for GIMP 2.0 with SVG paths in mind.) This compatibility makes it possible to store GIMP paths as <acronym class=\"acronym\">SVG</acronym> files without losing any information. You can access this capability in the Paths dialog."
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:60(p)
+msgid "It also means that GIMP can create paths from <acronym class=\"acronym\">SVG</acronym> files saved in other programs, such as <span class=\"application\">Inkscape</span> or <span class=\"application\">Sodipodi</span>, two popular open-source vector graphics applications. This is nice because those programs have much more powerful path-manipulation tools than GIMP does. You can import a path from an <acronym class=\"acronym\">SVG</acronym> file using the Paths dialog."
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:70(p)
+msgid "The <acronym class=\"acronym\">SVG</acronym> format handles many other graphical elements than just paths: among other things, it handles figures such as squares, rectangles, circles, ellipses, regular polygons, etc. GIMP cannot do anything with these entities, but it can load them as paths."
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:77(div:title) en/gimp-using-paths-and-svg.html:83(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:81(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:87(p)
+msgid "Creating paths is not the only thing GIMP can do with <acronym class=\"acronym\">SVG</acronym> files. It can also open <acronym class=\"acronym\">SVG</acronym> files as GIMP images, in the usual way."
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:104(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:110(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:113(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-paths-and-svg.html:116(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

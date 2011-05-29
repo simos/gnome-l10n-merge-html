@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3. Σύντομη μάσκα</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-painting.html" title="Κεφάλαιο 7. Βάφοντας με το GIMP" />
+<link rel="prev" href="gimp-using-selections-add.html" title="2.2. Προσθήκη ή αφαίρεση επιλογών" />
+<link rel="next" href="gimp-image-window-qmask-properties.html" title="3.2. Ιδιότητες" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3. Σύντομη μάσκα</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-selections-add.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 7. Βάφοντας με το GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-image-window-qmask-properties.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="3. Σύντομη μάσκα">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-image-window-qmask-button"></a>3. Σύντομη μάσκα</h2>
+</div>
+</div>
+</div>
+<a id="id3117464" class="indexterm"></a>
+<div class="figure">
+<a id="id3144583"></a>
+<p class="title"><b>Εικόνα 7.9. Εικόνα με ενεργοποιημένη τη σύντομη μάσκα</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/dialogs/channel-quickmask.png" alt="Εικόνα με ενεργοποιημένη τη σύντομη μάσκα" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Οι συνηθισμένες <a class="link" href="gimp-tools-selection.html" title="2. Επιλογές εργαλείων">επιλογές εργαλείων</a>
+εμπεριέχουν ιχνηθέτηση ενός περιγράμματος γύρω από μια περιοχή ενδιαφέροντος, που δεν δουλεύει καλά για μερικές
+περίπλοκες επιλογές. Η σύντομη μάσκα, όμως, σας επιτρέπει να βάψετε την επιλογή αντί για απλή ιχνηθέτηση του
+περιγράμματος της.
+</p>
+<div class="sect2" title="3.1. Επισκόπηση">
+<div class="titlepage">
+<div>
+<div><h3 class="title"><a id="gimp-image-window-qmask-overview"></a>3.1. Επισκόπηση</h3></div>
+</div>
+</div>
+<p>
+Κανονικά, μια επιλογή στο GIMP αντιπροσωπεύεται από
+<span class="quote">“<span class="quote">μυρμήγκια που περπατούν (κινούμενες στιγμές)</span>”</span> που ανιχνεύουν το περίγραμμα
+επιλογής, αλλά μπορεί να υπάρχουν περισσότερα σε μια επιλογή από την εμφάνιση κινούμενων στιγμών . Μια
+επιλογή στο GIMP είναι στην πραγματικότητα ένα κανάλι πλήρους γκρι κλίμακας,
+που καλύπτει την εικόνα, με τιμές εικονοστοιχείου (pixel) από 0 (ανεπίλεκτο) έως 255 (πλήρως επιλεγμένο). Οι κινούμενες
+στιγμές χαράσσονται κατά μήκος ενός περιγράμματος μισοεπιλεγμένων εικονοστοιχείων. Έτσι, ότι σας δείχνουν οι
+κινούμενες στιγμές είτε μέσα είτε έξω από τα όρια, στην πραγματικότητα είναι μια μη καθαρή ενδιάμεση ζώνη.
+</p>
+<p>
+Η σύντομη μάσκα είναι ένας τρόπος του GIMP να δείξει την πλήρη δομή της επιλογής.
+Η σύντομη μάσκα επίσης δίνει τη δυνατότητα αλληλεπίδρασης με την επιλογή ξανά και έχει στην πραγματικότητα
+πιο ισχυρούς τρόπους. Πατήστε το μικρό περιγραμμένο κουμπί στα κάτω αριστερά του παραθύρου της εικόνας για
+εναλλαγή της σύντομης μάσκας. Αυτό το κουμπί αλλάζει μεταξύ κατάστασης σύντομης μάσκας και κινούμενων στιγμών.
+Μπορείτε επίσης να χρησιμοποιήσετε <span class="guimenu">Επιλογή</span> → <span class="guimenuitem">Ενεργοποίηση σύντομης μάσκας</span>, ή
+<span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Q</strong></span>,
+για εναλλαγή κατάστασης μεταξύ σύντομης μάσκας και κινούμενων στιγμών.
+</p>
+<p>
+Στην κατάσταση σύντομης μάσκας, η επιλογή φαίνεται ως ημιδιαφανής οθόνη που επικάθεται στη εικόνα. Η διαφάνεια
+της εικόνας σε κάθε εικονοστοιχείο δείχνει το βαθμό επιλογής του εικονοστοιχείου. Από προεπιλογή η μάσκα είναι
+κόκκινη, αλλά μπορείτε να το αλλάξετε, εάν σας βολεύει. Όσο λιγότερο επιλέγεται ένα εικονοστοιχείο, τόσο
+αποκρύβεται από τη μάσκα. Πλήρως επιλεγμένα εικονοστοιχεία φαίνονται πλήρως  διαφανή.
+</p>
+<p>
+Στην κατάσταση σύντομης μάσκας, πολλοί χειρισμοί επιδρούν στο κανάλι επιλογής παρά στην ίδια την εικόνα. Αυτό
+περιλαμβάνει ειδικά, τα εργαλεία ζωγραφικής. Βάφοντας με λευκό επιλέγονται εικονοστοιχεία (pixels) και βάφοντας
+με μαύρο αποεπιλέγονται εικονοστοιχεία. Μπορείτε να χρησιμοποιήσετε οποιοδήποτε από τα εργαλεία ζωγραφικής καθώς
+και τα εργαλεία κουβά γεμίσματος και γεμίσματος διαβάθμισης. Προχωρημένοι χρήστες του GIMP
+μαθαίνουν ότι <span class="quote">“<span class="quote">βάψιμο της επιλογής</span>”</span> είναι ο πιο απλός
+αποτελεσματικός τρόπος χειρισμού με λεπτότητα της εικόνας.
+</p>
+<div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Συμβουλή">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Για να αποθηκεύσετε μια επιλογή της σύντομης μάσκας σε ένα νέο κανάλι, βεβαιωθείτε ότι υπάρχει μία επιλογή και
+ότι η κατάσταση σύντομης μάσκας δεν είναι ενεργή στο παράθυρο εικόνας. Πατήστε
+<span class="guimenu">Επιλογή</span> → <span class="guimenuitem">Αποθήκευση σε κανάλι</span>, για να δημιουργήσετε
+ένα νέο κανάλι στο διάλογο καναλιού που λέγεται
+<span class="quote">“<span class="quote">Μάσκα επιλογής αντίγραφο</span>”</span> (επαναλαμβάνοντας αυτήν την εντολή
+δημιουργείται <span class="quote">“<span class="quote">..αντίγραφο#1</span>”</span>, <span class="quote">“<span class="quote">...αντίγραφο#2</span>”</span> κ.λ.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Συμβουλή">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Στην κατάσταση σύντομης μάσκας, αποκοπή και επικόλληση επιδρά στην επιλογή παρά στην εικόνα. Μπορείτε μερικές
+φορές να το χρησιμοποιήσετε ως τον πιο κατάλληλο τρόπο μεταφοράς μιας επιλογής από μια εικόνα σε μια άλλη.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+Μπορείτε να μάθετε περισσότερα στο
+<a class="link" href="gimp-channel-dialog.html#dialogs-selection-masks" title="2.2.3. Επιλογή μασκών">Επιλογή μασκών</a>
+στο τμήμα που είναι αφιερωμένο στο διάλογο καναλιού.
+</p>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-selections-add.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-painting.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-image-window-qmask-properties.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-selections-add.html">2.2. Προσθήκη ή αφαίρεση επιλογών</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-image-window-qmask-properties.html">3.2. Ιδιότητες</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

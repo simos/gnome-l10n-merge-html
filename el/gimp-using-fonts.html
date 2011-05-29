@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>5.2. Προσθήκη γραμματοσειρών</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-using-text.html" title="5. Κείμενο" />
+<link rel="prev" href="gimp-using-text.html" title="5. Κείμενο" />
+<link rel="next" href="font-problems.html" title="5.3. Προβλήματα γραμματοσειρών" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">5.2. Προσθήκη γραμματοσειρών</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-text.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">5. Κείμενο</th>
+<td width="20%" align="right"> <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="5.2. Προσθήκη γραμματοσειρών">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-fonts"></a>5.2. Προσθήκη γραμματοσειρών</h3>
+</div>
+</div>
+</div>
+<a id="id3208922" class="indexterm"></a>
+<a id="id3208935" class="indexterm"></a>
+<p>
+Για τις πιο αυθεντικές και σύγχρονες πληροφορίες για τις γραμματοσειρές στο GIMP, συμβουλευτείτε τη σελίδα
+<span class="quote">“<span class="quote">Γραμματοσειρές στο GIMP 2.0</span>”</span>
+<a class="xref" href="bibliography.html#bibliography-online-gimp-fonts" title="Γραμματοσειρές στο GIMP 2.0">[<abbr class="abbrev">GIMP-FONTS</abbr>]</a>
+στον ιστότοπο του GIMP. Αυτό το τμήμα προσπαθεί να σας δώσει μια χρήσιμη επισκόπηση.
+</p>
+<p>
+Το GIMP χρησιμοποιεί τη μηχανή γραμματοσειρών FreeType 2 για να αποδώσει τις γραμματοσειρές και ένα σύστημα
+που λέγεται Fontconfig για να τις διαχειριστεί. Το GIMP σας επιτρέπει να χρησιμοποιήσετε οποιαδήποτε
+γραμματοσειρά που βρίσκεται στη διαδρομή γραμματοσειρών Fontconfig. Σας επιτρέπει επίσης να χρησιμοποιήσετε
+οποιαδήποτε γραμματοσειρά βρίσκει στη διαδρομή αναζήτησης γραμματοσειρών του GIMP που ορίζεται στη σελίδα
+<a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Φάκελοι">Γραμματοσειρές</a>
+του διαλόγου προτιμήσεων. Από προεπιλογή, η διαδρομή αναζήτησης γραμματοσειρών περιλαμβάνει ένα φάκελο του
+συστήματος fonts (που δεν πρέπει να αλλάξετε, ακόμα κι αν είναι στην πραγματικότητα άδειος) και έναν φάκελο
+<code class="filename">fonts</code> στον προσωπικό σας κατάλογο GIMP. Μπορείτε να προσθέσετε νέους φακέλους
+στη διαδρομή αναζήτησης, εάν αυτό σας βολεύει.
+</p>
+<p>
+Το FreeType 2 είναι ένα πολύ ισχυρό και ευέλικτο σύστημα. Από προεπιλογή, υποστηρίζει τις παρακάτω μορφές
+αρχείων γραμματοσειρών:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem"><p>TrueType γραμματοσειρές (και συλλογές)</p></li>
+<li class="listitem"><p>Type 1 γραμματοσειρές</p></li>
+<li class="listitem"><p>CID-keyed Type 1 γραμματοσειρές</p></li>
+<li class="listitem"><p>CFF γραμματοσειρές</p></li>
+<li class="listitem"><p>OpenType γραμματοσειρές (και TrueType και παραλλαγές CFF)</p></li>
+<li class="listitem"><p>bitmap γραμματοσειρές βασισμένες σε SFNT</p></li>
+<li class="listitem"><p>X11 PCF γραμματοσειρές</p></li>
+<li class="listitem"><p>Windows FNT γραμματοσειρές</p></li>
+<li class="listitem"><p>BDF γραμματοσειρές (συμπεριλαμβάνοντας τις εξομαλυντικές)</p></li>
+<li class="listitem"><p>PFR γραμματοσειρές</p></li>
+<li class="listitem"><p>Type42 γραμματοσειρές (περιορισμένη υποστήριξη)</p></li>
+</ul>
+</div>
+<p>
+Μπορείτε επίσης να προσθέσετε αρθρώματα για να υποστηρίξετε άλλους τύπους αρχείων γραμματοσειρών. Δείτε
+FREETYPE 2 <a class="xref" href="bibliography.html#bibliography-online-freetype" title="Freetype 2 αρχική σελίδα">[<abbr class="abbrev">FREETYPE</abbr>]</a>
+για περισσότερες πληροφορίες.
+</p>
+<p title="Linux"><b>Linux. </b>
+Σ' ένα σύστημα Linux, εάν η λειτουργία του Fontconfig οριστεί ως συνήθως, για να προσθέσετε μια νέα
+γραμματοσειρά χρειαζόσαστε απλά να τοποθετήσετε το αρχείο στον κατάλογο <code class="filename">~/.fonts</code>.
+Αυτό θα κάνει τη γραμματοσειρά διαθέσιμη όχι μόνο στο GIMP, αλλά και σε οποιοδήποτε άλλο πρόγραμμα χρησιμοποιεί
+το Fontconfig. Εάν για κάποιο λόγο θέλετε η γραμματοσειρά να είναι διαθέσιμη μόνο στο GIMP, μπορείτε να την
+βάλετε στον υποκατάλογο <code class="filename">fonts</code> του προσωπικού σας καταλόγου GIMP, ή σε κάποια άλλη
+τοποθεσία στη διαδρομή αναζήτησης γραμματοσειρών. Η γραμματοσειρά θα εμφανιστεί την επόμενη φορά που θα
+ξεκινήσετε το GIMP. Εάν θέλετε να την χρησιμοποιήσετε στο GIMP που ήδη τρέχει, πατήστε το κουμπί
+<span class="emphasis"><em>Ανανέωση</em></span>
+<span class="guiicon">
+<img src="images/dialogs/stock-reload-16.png" />
+</span>
+στο <a class="link" href="gimp-font-dialog.html" title="3.6. Διάλογος γραμματοσειρών">Διάλογος γραμματοσειρών</a>.
+</p>
+<p title="Windows"><b>Windows. </b>
+Ο πιο εύκολος τρόπος για εγκατάσταση μιας γραμματοσειράς είναι σέρνοντας το αρχείο σε έναν κατάλογο
+γραμματοσειρών και αφήστε το κέλυφος να κάνει τα μαγικά του. Η προκαθορισμένη θέση είναι <code class="filename">C:\windows\fonts</code>
+ή <code class="filename">C:\winnt\fonts</code>. Μερικές φορές, διπλοπατώντας σε μια γραμματοσειρά θα την
+εγκαταστήσει και θα την εμφανίσει. Μερικές φορές, την εμφανίζει μόνο.
+Αυτή η μέθοδος θα κάνει τη γραμματοσειρά διαθέσιμη όχι μόνο στο GIMP, αλλά και σε άλλες εφαρμογές των  Windows.
+</p>
+<p title="Mac OS X"><b>Mac OS X. </b>
+Υπάρχουν πολλοί τρόποι για να εγκαταστήσετε γραμματοσειρές στο σύστημα σας. Μπορείτε με σύρσιμο και απόθεση στο
+φάκελο <span class="quote">“<span class="quote">Fonts</span>”</span> του φακέλου
+<span class="quote">“<span class="quote">Libraries</span>”</span> του <span class="quote">“<span class="quote">Home Folder</span>”</span>.
+Ή μπορείτε να χρησιμοποιήσετε <span class="application">Font Book</span>, καλούμενο από διπλοπάτημα του
+εικονιδίου του αρχείου γραμματοσειράς στον εξερευνητή.  Μπορείτε να δείτε πώς φαίνονται οι γραμματοσειρές και
+να πατήσετε τις αγαπημένες σας, έτσι ώστε τα αρχεία τους να εγκατασταθούν στο σύστημα. Αυτές οι μέθοδοι θα
+κάνουν τις γραμματοσειρές διαθέσιμες σε όλες τις εφαρμογές και όχι μόνο στο GIMP. Εάν θέλετε όλοι οι χρήστες
+να μπορούν να χρησιμοποιήσουν τις γραμματοσειρές, σύρσιμο και απόθεση των γραμματοσειρών στο φάκελο
+<span class="quote">“<span class="quote">Fonts</span>”</span> στο φάκελο <span class="quote">“<span class="quote">Libraries</span>”</span>
+του δίσκου <span class="productname">Mac OS X</span>™, ή στο φάκελο
+<span class="quote">“<span class="quote">Computer</span>”</span> στη <span class="guilabel">Collection</span>
+στήλη του <span class="application">Font Book</span>.
+</p>
+<p>
+Για να εγκαταστήσετε ένα αρχείο Type 1, χρειαζόσαστε τα αρχεία <code class="filename">.pfb</code>
+και <code class="filename">.pfm</code>. Σύρτε το αρχείο με το εικονίδιο στο φάκελο γραμματοσειρών. Το άλλο δεν
+χρειάζεται να είναι στο ίδιον κατάλογο, αλλά σε κάθε περίπτωση αν το βάλετε στον ίδιο κατάλογο δεν βλάπτει.
+</p>
+<p>
+Γενικά το GIMP μπορεί να χρησιμοποιήσει οποιοδήποτε τύπο γραμματοσειράς στα Windows που το FreeType μπορεί
+να χειριστεί. Όμως, για γραμματοσειρές που τα Windows δεν μπορούν να χειριστούν εγγενώς, μπορείτε να τα
+εγκαταστήσετε τοποθετώντας τα αρχεία γραμματοσειρών στο φάκελο <code class="filename">fonts</code> του
+προσωπικού σας καταλόγου GIMP ή σε κάποια άλλη τοποθεσία στη διαδρομή αναζήτησης γραμματοσειρών. Η υποστήριξη
+των Windows ποικίλλει με την έκδοση. Το GIMP αποδέχεται τουλάχιστον TrueType, Windows FON και Windows FNT.
+Τα Windows 2000 και μεταγενέστερα υποστηρίζουν Type 1 και OpenType. Windows ME υποστηρίζει OpenType και
+πιθανόν Type 1.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Το GIMP χρησιμοποιεί το Fontconfig για να διαχειριστεί γραμματοσειρές στα Windows όπως και στο Linux. Οι πιο
+πάνω οδηγίες δουλεύουν επειδή το Fontconfig από προεπιλογή χρησιμοποιεί τον κατάλογο γραμματοσειρών των Windows
+δηλ., τις ίδιες γραμματοσειρές που χρησιμοποιούν τα Windows. Εάν για κάποιο λόγο το Fontconfig ορίζεται
+διαφορετικά, θα πρέπει να βρείτε που να βάλετε τις γραμματοσειρές, έτσι ώστε το GIMP να μπορεί να τις βρει: Σε
+κάθε περίπτωση ο φάκελος <code class="filename">fonts</code> του προσωπικού σας καταλόγου GIMP θα πρέπει να
+δουλέψει.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-text.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-using-text.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-text.html">5. Κείμενο</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="font-problems.html">5.3. Προβλήματα γραμματοσειρών</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

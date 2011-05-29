@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-animated-brushes.html:6(title) el/gimp-using-animated-brushes.html:21(th) el/gimp-using-animated-brushes.html:31(div:title)
+msgid "8. Το πλαίσιο διαλόγου GIH"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:13(link:title) el/gimp-using-animated-brushes.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:14(link:title) el/gimp-using-animated-brushes.html:539(a)
+msgid "7. Προσθήκη νέων πινέλων"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:15(link:title) el/gimp-using-animated-brushes.html:545(a)
+msgid "9. Αλλαγή μεγέθους πινέλου"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:24(img:alt) el/gimp-using-animated-brushes.html:530(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:24(td) el/gimp-using-animated-brushes.html:530(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-brushes.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:26(img:alt) el/gimp-using-animated-brushes.html:536(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:26(td) el/gimp-using-animated-brushes.html:536(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-variable-size-brush.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:35(h2)
+msgid "<a id=\"gimp-using-animated-brushes\"/>8. Το πλαίσιο διαλόγου GIH"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:40(p)
+msgid "Όταν δημιουργήσετε το νέο σας κινούμενο πινέλο, εμφανίζεται στο παράθυρο εικόνας και θα θέλατε να το αποθηκεύσετε σε μορφή gih. Επιλέγετε το μενού <span class=\"guimenu\">Αρχείο</span> → <span class=\"guimenuitem\">Αποθήκευση ως ...</span>, ονομάστε την εργασία σας με την επέκταση gih στο σχετικό πεδίο του νέου παραθύρου και μόλις πατήσετε το κουμπί αποθήκευση, το παρακάτω παράθυρο εμφανίζεται:"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:48(b)
+msgid "Εικόνα 7.18. Ο διάλογος που περιγράφει το κινούμενο πινέλο"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:51(img:alt)
+msgid "Ο διάλογος που περιγράφει το κινούμενο πινέλο"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:53(p)
+msgid "Αυτό το πλαίσιο διαλόγου εμφανίζεται, εάν αποθηκεύσετε μια εικόνα ως GIMP εικόνα-σωλήνας."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:61(p)
+msgid "Αυτό το πλαίσιο διαλόγου έχει πολλές επιλογές όχι εύκολες στην κατανόηση. Σας επιτρέπουν να προσδιορίσετε τον τρόπο κίνησης του πινέλου σας."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:68(span)
+msgid "Spacing (percent) (Διάκενο (ποσοστό))"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:71(p)
+msgid "<span class=\"quote\">“<span class=\"quote\">Διάκενο</span>”</span> είναι η απόσταση μεταξύ διαδοχικών σημαδιών του πινέλου όταν ιχνηλατείτε μια πινελιά με το δείκτη. Πρέπει να θεωρήσετε τη σχεδίαση με πινέλο, ανεξάρτητα από το εργαλείο ζωγραφικής, ως ίχνη. Εάν το διάκενο είναι χαμηλό, τα ίχνη θα είναι πολύ κοντά και η πινελιά θα δείχνει συνεχής. Εάν το διάκενο είναι μεγάλο, τα ίχνη θα είναι ξεχωριστά. Αυτό είναι ενδιαφέρον με τα χρωματιστά πινέλα (όπως <span class=\"quote\">“<span class=\"quote\">η πράσινη πιπεριά </span>”</span> για παράδειγμα). Η τιμή ποικίλλει από 1 έως 200 και αυτό το ποσοστό αναφέρεται στη <span class=\"quote\">“<span class=\"quote\">διάμετρο</span>”</span> του πινέλου. Το 100% είναι μία διάμετρος."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:82(span)
+msgid "Περιγραφή"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:85(p)
+msgid "Το όνομα του πινέλου θα εμφανιστεί στην κορυφή του διαλόγου πινέλου (κατάσταση πλέγματος), όταν επιλεγεί το πινέλο."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:91(span)
+msgid "Cell size (Μέγεθος κελιού)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:94(p)
+msgid "Αυτό είναι το μέγεθος των κελιών που θα αποκοπεί σε στρώσεις. Προκαθορισμένο είναι ένα κελί ανά στρώση και το μέγεθος είναι το μέγεθος της στρώσης. Έπειτα υπάρχει μόνο μία όψη πινέλου ανά στρώση."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:98(p)
+msgid "Θα μπορούσαμε να έχουμε μόνο μια μεγάλη στρώση και να αποκόψουμε τα κελιά που θα χρησιμοποιηθούν για τις διαφορετικές όψεις του κινούμενου πινέλου."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:102(p)
+msgid "Για παράδειγμα, θέλουμε ένα πινέλο 100x100 εικονοστοιχεία με 8 διαφορετικές όψεις. Μπορούμε να πάρουμε αυτές τις 8 όψεις από μία στρώση 400x200 εικονοστοιχεία ή από μία στρώση 300x300 εικονοστοιχεία, αλλά με ένα κελί αχρησιμοποίητο."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:108(span)
+msgid "Number of cells (Αριθμός κελιών)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:111(p)
+msgid "Αυτός είναι ο αριθμός των κελιών (ένα κελί ανά όψη) που θα κοπεί σε κάθε στρώση. Προεπιλεγμένος είναι ο αριθμός των στρώσεων, καθώς υπάρχει μόνο μια στρώση ανά όψη."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:117(span)
+msgid "Display as (Εμφάνιση ως)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:120(p)
+msgid "Αυτό λέει πόσα κελιά έχουν ταξινομηθεί σε στρώσεις. Εάν, για παράδειγμα βάλατε ύψος κελιών στην αναλογία δύο κελιών ανά στρώση και για τέσσερις στρώσεις, το GIMP Θα εμφανίσει: <code class=\"computeroutput\">1 σειρά των 2 στηλών σε κάθε στρώση</code>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:127(span)
+msgid "Διάσταση, Ranks (τάξεις), Selection (επιλογή)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:130(p)
+msgid "Εδώ τα πράγματα μπερδεύονται! Είναι απαραίτητες οι επεξηγήσεις για την τακτοποίηση κελιών και στρώσεων."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:133(p)
+msgid "Το GIMP ξεκινά ανακτώντας τα κελιά από κάθε στρώση και τα στοιβάζει σε μια στρώση FIFO (First In First Out) Το πρώτο είναι στην κορυφή της στοίβας και έτσι μπορεί να είναι πρώτο. Στο παράδειγμά μας 4 στρώσεις με 2 κελιά στην καθεμιά, θα έχουμε από την κορυφή προς τον πάτο: πρώτο κελί της πρώτης στρώσης, δεύτερο κελί της πρώτης στρώσης, πρώτο κελί της δεύτερης στρώσης, δεύτερο κελί της δεύτερης στρώσης..., δεύτερο κελί της τέταρτης στρώσης. Με ένα κελί ανά στρώση ή πολλά κελιά ανά στρώση, το αποτέλεσμα είναι το ίδιο. Μπορείτε να δείτε αυτή τη στοίβα στο διάλογο στρώσεων του τελικού αρχείου εικόνας <code class=\"filename\">.gih</code>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:141(p)
+msgid "Έπειτα το GIMP δημιουργεί ένα πίνακα υπολογιστή από αυτήν τη στρώση με τις <span class=\"guilabel\">Dimensions (Διαστάσεις)</span> που έχετε ορίσει. Μπορείτε να χρησιμοποιήσετε τέσσερις διαστάσεις."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:145(p)
+msgid "Στην επιστήμη των υπολογιστών ένας πίνακας έχει τη μορφή <span class=\"quote\">“<span class=\"quote\">myarray(x,y,z)</span>”</span> για ένα πίνακα 3 διαστάσεων. Είναι εύκολο να φανταστείτε έναν δισδιάστατο πίνακα που σε χαρτί είναι ένας πίνακας με γραμμές και στήλες."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:153(p)
+msgid "Για τρισδιάστατους πίνακες δε μιλάμε για γραμμές και στήλες αλλά για <span class=\"guilabel\">Dimensions (διαστάσεις)</span> και <span class=\"guilabel\">Ranks (τάξεις) </span>. Η πρώτη διάσταση είναι κατά μήκος του άξονα x, η δεύτερη διάσταση κατά μήκος του άξονα y, η τρίτη διάσταση κατά μήκος του άξονα z. Κάθε διάσταση έχει τάξεις κελιών."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:164(p)
+msgid "Για να συμπληρώσετε αυτόν τον πίνακα, το GIMP αρχίζει παίρνει κελιά από την κορυφή τοις στοίβας. Ο τρόπος συμπλήρωσης του πίνακα θυμίζει οδόμετρο. Οι δεξιοί αριθμοί τάξης ξεκινάνε πρώτοι και όταν φτάσουν το μέγιστο τους, οι αριστεροί αριθμοί τάξης ακολουθούν. Εάν έχετε κάποιες μνήμες από βασικό προγραμματισμό, για έναν πίνακα (4,2,2), θα έχετε την εξής διαδοχή: (1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,2),(3,1,1).... (4,2,2). Θα το δούμε αυτό αργότερα σε ένα παράδειγμα."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:171(p)
+msgid "Πέρα από τον αριθμό τάξης που μπορείτε να δώσετε σε κάθε διάσταση, μπορείτε επίσης να τους δώσετε μια κατάσταση <span class=\"guilabel\">Selection (Επιλογή)</span>. Έχετε πολλές καταστάσεις που θα εφαρμοστούν όταν σχεδιάζετε."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:178(span)
+msgid "Incremental (σταδιακός)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:181(p)
+msgid "Το GIMP επιλέγει μια τάξη από την αντίστοιχη διάσταση σύμφωνα με τη σειρά τάξης που έχει σ' αυτή τη διάσταση."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:186(span)
+msgid "Random (τυχαίος)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:189(p)
+msgid "Το GIMP επιλέγει μια τάξη τυχαία από την αντίστοιχη διάσταση."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:192(span)
+msgid "Angular (γωνιακός)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:195(p)
+msgid "Το GIMP επιλέγει μια τάξη στην αντίστοιχη διάταξη σύμφωνα με την κινούμενη γωνία του πινέλου. Η πρώτη τάξη είναι για την κατεύθυνση 0°, προς τα πάνω. Οι άλλες τάξεις επηρεάζονται δεξιόστροφα, κατά μια γωνία που η τιμή της είναι 360/αριθμό των τάξεων. Έτσι με 4 τάξεις στην αντίστοιχη διάσταση, η γωνία θα μετακινηθεί 90° δεξιόστροφα για κάθε αλλαγή κατεύθυνσης. Η δεύτερη τάξη θα επηρεαστεί κατά 90° (προς τα δεξιά), η τρίτη τάξη κατά 180° (προς τα κάτω) και η τέταρτη τάξη κατά 270° (-90°) (προς τα αριστερά).<sup>[<a id=\"id3189752\" href=\"#ftn.id3189752\" class=\"footnote\">2</a>]</sup>"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:203(span)
+msgid "Speed (ταχύτητα), Pressure (πίεση), x tilt (κλίση x), y tilt (κλίση y)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:206(p)
+msgid "Αυτές οι επιλογές είναι για εξελιγμένες σχεδιαστικές ταμπλέτες."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:213(div:title)
+msgid "Examples"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:214(b)
+msgid "Παραδείγματα"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:217(span)
+msgid "Μια μονοδιάστατη εικόνα σωλήνας"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:220(p)
+msgid "Λοιπόν! Σε τι χρησιμεύει όλο αυτό; Θα το δούμε σταδιακά με παραδείγματα. Μπορείτε να βάλετε σε κάθε διάσταση θήκες που θα δώσουν στο πινέλο σας μια ειδική ενέργεια."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:224(p)
+msgid "Ας αρχίσουμε με ένα μονοδιάστατο πινέλο που θα σας επιτρέψει να μελετήσετε την κατάσταση επιλογής. Μπορούμε να το φανταστούμε, ως εξής:"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:231(p)
+msgid "Ακολουθήστε τα βήματα:"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:236(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:237(p)
+msgid "Ανοίξτε μια νέα εικόνα RGB 30x30 εικονοστοιχεία, γέμισμα με: διαφάνεια. Χρησιμοποιώντας το εγαλείο κειμένου δημιουργείστε 4 στρώσεις <span class=\"quote\">“<span class=\"quote\">1</span>”</span>, <span class=\"quote\">“<span class=\"quote\">2</span>”</span>, <span class=\"quote\">“<span class=\"quote\">3</span>”</span>, <span class=\"quote\">“<span class=\"quote\">4</span>”</span>. Διαγράψτε τη στρώση <span class=\"quote\">“<span class=\"quote\">παρασκηνίου</span>”</span>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:244(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:245(p)
+msgid "Αποθηκεύστε αυτήν την εικόνα πρώτα με επέκταση <code class=\"filename\">.xcf</code> για να διατηρήσετε τις ιδιότητες της και έπειτα αποθηκεύστε την ως <code class=\"filename\">.gih</code>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:250(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:251(p)
+msgid "Ο διάλογος αποθήκευση ως ανοίγει. Επιλέξτε έναν προορισμό για την εικόνα σας. Αποθήκευση. Ο διάλογος GIH ανοίγει. Επιλέξτε Spacing (percent) (διάκενο (ποσοστό)) 100, δώστε ένα όνομα στο πλαίσιο περιγραφής, 30x30 for Cell Size (μέγεθος κελιού), 1 dimension (Διάσταση), 4 ranks (τάξεις) και επιλέξτε <span class=\"quote\">“<span class=\"quote\">Incremental (Σταδιακό) </span>”</span> στο πλαίσιο επιλογής. Αποθήκευση."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:258(li:title)
+msgid "Βήμα 4"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:259(p)
+msgid "Μπορεί να έχετε δυσκολίες για άμεση αποθήκευση στον κατάλογο του GIMP Brush. Σ΄ αυτήν την περίπτωση, αποθηκεύστε το αρχείο <code class=\"filename\">.gih</code> χειροκίνητα στον κατάλογο <code class=\"filename\">/usr/share/gimp/gimp/2.0/brushes</code> Έπειτα επιστρέψτε στην εργαλειοθήκη, πατήστε στο εικονίδιο πινέλου για να ανοίξετε το διάλογο πινέλων και πατήστε το κουμπί εικονιδίου <span class=\"guibutton\">Refresh (Ανανέωση)</span><span class=\"guiicon\"><img src=\"images/dialogs/stock-reload-16.png\"/></span> Το νέο σας πινέλο εμφανίζεται στο παράθυρο πινέλων. Επιλέξτε το. Επιλέξτε εργαλείο μολυβιού για παράδειγμα και πατήστε το σε μια νέα εικόνα."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:273(p)
+msgid "Θα δείτε τους αριθμούς 1,2,3,4 να ακολουθεί ο ένας τον άλλον στην σειρά."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:281(li:title) el/gimp-using-animated-brushes.html:446(li:title)
+msgid "Βήμα 5"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:282(p)
+msgid "Πάρτε το αρχείο εικόνας <code class=\"filename\">.xcf</code> πάλι και αποθηκεύστε το ως <code class=\"filename\">.gih</code> ορίζοντας Selection (Επιλογή) στο <span class=\"quote\">“<span class=\"quote\">Random (τυχαίο)</span>”</span>:"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:289(p)
+msgid "Οι αριθμοί θα εμφανιστούν με τυχαία σειρά."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:297(li:title)
+msgid "Βήμα 6"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:298(p)
+msgid "Τώρα επιλέξτε <span class=\"quote\">“<span class=\"quote\">Angular (γωνιακή) </span>”</span> Selection (Επιλογή)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:311(span)
+msgid "Μια τρισδιάστατη εικόνα σωλήνας."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:314(p)
+msgid "Πρόκειται να δημιουργήσουμε ένα τρισδιάστατο κινούμενο πινέλο. Ο προσανατολισμός του θα ποικίλλει ανάλογα με την κατεύθυνση του πινέλου, θα αλλάζει αριστερό/δεξί χέρι κανονικά και το χρώμα του θα ποικίλλει τυχαία μεταξύ μαύρου και μπλε."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:319(p)
+msgid "Η πρώτη ερώτηση που τίθεται είναι ο αριθμός των εικόνων που χρειάζεται. Κρατάμε την πρώτη διάσταση (x) για τη διεύθυνση του πινέλου (4 διευθύνσεις). Η δεύτερη διάσταση (y) είναι για την εναλλαγή αριστερό/δεξιό και η τρίτη διάσταση (z)για τη χρωματική απόκλιση. Ένα τέτοιο πινέλο αντιπροσωπεύεται σε έναν τρισδιάστατο πίνακα. <span class=\"quote\">“<span class=\"quote\">myarray(4,2,2)</span>”</span>:"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:328(p)
+msgid "Υπάρχουν 4 τάξεις στην πρώτη διάσταση (x), 2 τάξεις στην δεύτερη διάσταση (y) και 2 τάξεις στην τρίτη διάσταση (z). Βλέπουμε ότι υπάρχουν 4x2x2 = 16 κελιά. Χρειαζόμαστε 16 εικόνες."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:334(li:title) el/gimp-using-animated-brushes.html:336(b)
+msgid "Δημιουργία εικόνων διάστασης 1 (x)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:338(p)
+msgid "Ανοίξτε μια εικόνα RGB 30x30 εικονοστοιχεία, με γέμισμα διαφανές. Χρησιμοποιώντας τη εστίαση σχεδιάστε ένα αριστερό χέρι με τα δάχτυλα προς τα πάνω.<sup>[<a id=\"id3177550\" href=\"#ftn.id3177550\" class=\"footnote\">3</a>]</sup> Αποθηκεύστε την ως <code class=\"filename\">handL0k.xcf</code> (αριστερό χέρι 0° μαύρο)."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:343(p)
+msgid "Ανοίξτε το διάλογο στρώσεων. Διπλοπατήστε στη στρώση για να ανοίξετε το διάλογο Ιδιότητες στρώσης και ξαναονομάστε το handL0k."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:347(p)
+msgid "Αναπαράγετε τη στρώση. Αφήστε ορατή μόνο την αναπαραγμένη στρώση, επιλέξτε την και εφαρμόστε μια περιστροφή 90° (Στρώση/Μετασχηματισμός/ 90° περιστροφή δεξιόστροφα). Ονομάστε την handL90k."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:351(p)
+msgid "Επαναλάβετε τις ίδιες λειτουργίες για να δημιουργήσετε handL180k και handL-90k (ή handL270k)."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:355(li:title) el/gimp-using-animated-brushes.html:357(b)
+msgid "Δημιουργία εικόνων διάστασης 2 (y)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:359(p)
+msgid "Αυτή η διάσταση στο παράδειγμα μας έχει δύο τάξεις, μία για το αριστερό χέρι και μία για το δεξί χέρι. Η τάξη του αριστερού χεριού υπάρχει ακόμα. Θα δημιουργήσουμε εικόνες του δεξιού χεριού, αναστρέφοντας το οριζόντια."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:363(p)
+msgid "Δημιουργείστε αντίγραφο της στρώσης handL0k. Αφήστε το ως μόνο ορατό και επιλέξτε το. Ονομάστε το handR0K. Εφαρμόστε Νέα στρώση/Μετασχηματισμός/Οριζόντια αναστροφή."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:367(p)
+msgid "Επαναλάβετε την ίδια λειτουργία στις άλλες αριστερόχειρες στρώσεις για να δημιουργήσετε το ισοδύναμο του δεξιού τους χεριού."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:371(p)
+msgid "Αναδιατάξτε τις στρώσεις που έχουν δεξιόστροφη περιστροφή από την κορυφή στον πάτο, εναλλάσσοντας αριστερά και δεξιά: handL0k, handR0k, handL90k, handR90k, ..., handR-90k."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:376(li:title)
+msgid "Creating images of dimension 3 (z)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:378(b)
+msgid "Δημιουργία εικόνων διάστασης 3 (z)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:380(p)
+msgid "<span class=\"emphasis\"><em>Δημιουργία εικόνων διάστασης 3 (z)</em></span>: Η τρίτη διάσταση έχει δύο τάξεις, μία για μαύρο χρώμα και την άλλη για μπλε χρώμα. Η πρώτη τάξη, μαύρη, υπάρχει ήδη. Βλέπουμε καλά ότι οι εικόνες διάστασης 3 θα είναι ένα αντίγραφο, σε μπλε των εικόνων σε διάσταση 2. Έτσι, θα έχουμε τις 16 εικόνες μας. Αλλά μια γραμμή 16 στρώσεων δεν είναι εύκολη στη διαχείριση. Θα χρησιμοποιήσουμε στρώσεις με δύο εικόνες."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:387(p)
+msgid "Επιλέξτε τη στρώση handL0k και αφήστε την μόνη ορατή. Χρησιμοποιώντας Εικόνα/Μέγεθος καμβά αλλάξτε το μέγεθος του καμβά σε 60x30 εικονοστοιχεία."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:391(p)
+msgid "Διπλασιάστε τη στρώση hand0k. Στο αντίγραφο, γεμίστε το χέρι με μπλε χρησιμοποιώντας το εργαλείο κουβά γεμίσματος."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:394(p)
+msgid "Τώρα, επιλέξτε το εργαλείο μετακίνησης. Διπλοπατήστε σ' αυτό για τις ιδιότητες. Επιλέξτε την επιλογή <span class=\"guilabel\">Μετακίνηση της ενεργής στρώσης</span>. Μετακινήστε το μπλε χέρι στο δεξί μέρος της με ακρίβεια με τη βοήθεια του <span class=\"guisubmenu\">Εστίαση</span>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:399(p)
+msgid "Βεβαιωθείτε ότι μόνο το handL0k και το μπλε αντίγραφο είναι ορατά. Δεξιοπατήστε στο διάλογο στρώσης. Εφαρμόστε την εντολή <span class=\"guimenuitem\">Συγχώνευση ορατών στρώσεων</span>με την επιλογή <span class=\"guilabel\">Expand as Necessary (επέκταση όσο χρειάζεται)</span>. Θα πάρετε μία στρώση 60x30 εικονοστοιχεία με το μαύρο χέρι αριστερά και το μπλε χέρι δεξιά. Ξαναονομάστε το σε <span class=\"quote\">“<span class=\"quote\">handsL0</span>”</span>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:405(p)
+msgid "Επανλάβετε τις ίδιες ενέργειες στις άλλες στρώσεις"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:409(li:title) el/gimp-using-animated-brushes.html:411(b)
+msgid "Τοποθέτηση στρώσεων σε σειρά"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:413(p)
+msgid "Οι στρώσεις πρέπει να μπουν σε σειρά, ώστε το GIMP χρησιμοποιώντας το πινέλο να μπορεί να βρει την απαιτούμενη εικόνα σε δοσμένο σημείο, οποτεδήποτε. Οι στρώσεις μας είναι ήδη σε σειρά αλλά πρέπει να καταλάβουμε πιο γενικά πώς τις έχουμε σε σειρά. Υπάρχουν δύο τρόποι να φανταστούμε αυτή τη ρύθμιση σε σειρά. Η πρώτη μέθοδος είναι μαθηματική. Το GIMP διαιρεί τις 16 στρώσης πρώτα με 4. Αυτό δίνει 4 ομάδες των 4 στρώσεων για την πρώτη διάσταση. Κάθε ομάδα αντιπροσωπεύει μια κατεύθυνση του πινέλου. Έπειτα, διαιρεί κάθε ομάδα με 2. Αυτό δίνει 8 ομάδες των 2 στρώσεων για τη δεύτερη διάσταση. Κάθε ομάδα αντιπροσωπεύει μια εναλλαγή Αριστερά/δεξιά. Έπειτα μια άλλη διαίρεση με 2 για την τρίτη διάσταση για να εμφανίσει ένα τυχαίο χρώμα μεταξύ μαύρου και μπλε."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:423(p)
+msgid "Η άλλη μέθοδος είναι οπτική, χρησιμοποιώντας την εμφάνιση του πίνακα. Η συσχέτιση μεταξύ των δύο μεθόδων εμφανίζεται στην επόμενη εικόνα."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:432(p)
+msgid "<span class=\"emphasis\"><em>Πώς θα διαβάσει το GIMP αυτόν τον πίνακα;</em></span>. Το GIMP αρχίζει με την πρώτη διάσταση που είναι προγραμματισμένη για <span class=\"quote\">“<span class=\"quote\">angular (γωνιακή)</span>”</span>, για παράδειγμα 90°. σε αυτήν την τάξη 90°, σε κίτρινο, στη δεύτερη διάσταση, επιλέγει μια εναλλαγή Αριστερά/Δεξιά με έναν <span class=\"quote\">“<span class=\"quote\">incremental (σταδιακό)</span>”</span> τρόπο. Έπειτα στην τρίτη διάσταση, με έναν τυχαίο τρόπο, επιλέγει ένα χρώμα. Τελικά, οι στρώσεις μας πρέπει να είναι με την παρακάτω σειρά."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:447(p)
+msgid "Ιδού. Το πινέλο σας είναι έτοιμο. Αποθηκεύστε το ως <code class=\"filename\">.xcf</code> πρώτα, μετά ως <code class=\"filename\">.gih</code> με τις παρακάτω παραμέτρους."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:454(p)
+msgid "Spacing (διάκενο): 100"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:457(p)
+msgid "Περιγραφή: Χέρια"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:460(p)
+msgid "Cell Size (μέγεθος κελιού): 30x30"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:463(p)
+msgid "Number of cells (Αριθμός κελιών): 16"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:466(p)
+msgid "Dimensions (Διαστάσεις): 3"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:470(p)
+msgid "Διάσταση 1: 4 ranks (τάξεις) Selection (Επιλογή): Angular (γωνιακό)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:473(p)
+msgid "Διάσταση 2: 2 ranks (τάξεις) Selection (Επιλογή): Incremental (Σταδιακό)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:476(p)
+msgid "Διάσταση 3: 2 ranks (τάξεις) Selection (Επιλογή): Random (τυχαίο)"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:483(p)
+msgid "Τοποθετείστε το αρχείο <code class=\"filename\">.gih</code> στον κατάλογο πινέλων του GIMP και ανανεώστε το κουτί. Μπορείτε τώρα να χρησιμοποιήσετε το πινέλο σας."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:489(b)
+msgid "Εικόνα 7.19. Να το αποτέλεσμα βαφής μιας ελλειπτικής επιλογής με το πινέλο."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:492(img:alt)
+msgid "Να το αποτέλεσμα βαφής μιας ελλειπτικής επιλογής με το πινέλο"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:494(p)
+msgid "Αυτό το πινέλο εναλλάσσει δεξί και αριστερό χέρι κανονικά, μαύρο και μπλε χρώμα τυχαία, κατεύθυνση σύμφωνα με τις τέσσερις κατευθύνσεις πινέλου."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:513(p)
+msgid "<sup>[<a id=\"ftn.id3189752\" href=\"#id3189752\" class=\"para\">2</a>] </sup> Για τις προηγούμενες εκδόσεις του <acronym class=\"acronym\">GIMP</acronym> ίσως πρέπει να αντικαταστήσετε το <span class=\"quote\">“<span class=\"quote\">δεξιόστροφα</span>”</span> με <span class=\"quote\">“<span class=\"quote\">αριστερόστροφα</span>”</span>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:520(p)
+msgid "<sup>[<a id=\"ftn.id3177550\" href=\"#id3177550\" class=\"para\">3</a>] </sup> Εντάξει, εδώ κλέβουμε. Το χέρι μάς δανείστηκε από το <a class=\"ulink\" href=\"http://commons.wikimedia.org/wiki/File:Stop_hand.png\" target=\"_top\">http://commons.wikimedia.org/wiki/File:Stop_hand.png</a>."
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:533(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:539(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:542(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-animated-brushes.html:545(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

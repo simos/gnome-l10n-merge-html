@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-grid.html:6(title) en/gimp-using-grid.html:21(th) en/gimp-using-grid.html:31(div:title)
+msgid "3. Rendering a Grid"
+msgstr ""
+
+#: en/gimp-using-grid.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-grid.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-grid.html:13(link:title) en/gimp-using-grid.html:25(th)
+msgid "Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/gimp-using-grid.html:14(link:title) en/gimp-using-grid.html:64(a)
+msgid "2.2. Guides"
+msgstr ""
+
+#: en/gimp-using-grid.html:15(link:title) en/gimp-using-grid.html:70(a)
+msgid "4. How to Set Your Tile Cache"
+msgstr ""
+
+#: en/gimp-using-grid.html:24(img:alt) en/gimp-using-grid.html:55(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-grid.html:24(td) en/gimp-using-grid.html:55(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-image-guides.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-grid.html:26(img:alt) en/gimp-using-grid.html:61(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-grid.html:26(td) en/gimp-using-grid.html:61(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-setup-tile-cache.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-grid.html:35(h2)
+msgid "<a id=\"gimp-using-grid\"/>3. Rendering a Grid"
+msgstr ""
+
+#: en/gimp-using-grid.html:39(p)
+msgid "How can you create a grid that is actually part of the image? You can't do this using the image grid: that is only an aid, and is only visible on the monitor or in a screenshot. You can, however, use the <a class=\"link\" href=\"plug-in-grid.html\" title=\"13.10.&#xA0;Grid\">Grid</a> plugin to render a grid very similar to the image grid. (Actually, the plugin has substantially more options.)"
+msgstr ""
+
+#: en/gimp-using-grid.html:47(p)
+msgid "See also <a class=\"link\" href=\"gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid\" title=\"2.1.&#xA0;The Image Grid\">Grid and Guides</a>."
+msgstr ""
+
+#: en/gimp-using-grid.html:58(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-grid.html:64(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-grid.html:67(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-grid.html:70(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

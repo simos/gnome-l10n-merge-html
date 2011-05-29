@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-web-reducing-file-size.html:6(title) en/gimp-using-web-reducing-file-size.html:21(th) en/gimp-using-web-reducing-file-size.html:31(div:title)
+msgid "2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:13(link:title) en/gimp-using-web-reducing-file-size.html:14(link:title) en/gimp-using-web-reducing-file-size.html:25(th) en/gimp-using-web-reducing-file-size.html:99(a)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:15(link:title) en/gimp-using-web-reducing-file-size.html:105(a)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:24(img:alt) en/gimp-using-web-reducing-file-size.html:90(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:24(td) en/gimp-using-web-reducing-file-size.html:90(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-web.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:26(img:alt) en/gimp-using-web-reducing-file-size.html:96(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:26(td) en/gimp-using-web-reducing-file-size.html:96(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-web-transparency.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:35(h3)
+msgid "<a id=\"gimp-using-web-reducing-file-size\"/>2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:39(p)
+msgid "If you want to reduce the size of your image a bit more, you could convert your image to Indexed mode. That means that all of the colors will be reduced to only 256 values. Do not convert images with smooth color transitions or gradients to indexed mode, because the original smooth gradients are typically converted into a series of bands. Indexed mode is not recommended for photographs because after the conversion, they typically look coarse and grainy."
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:52(b)
+msgid "Figure 6.7. The indexed image"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:56(img:alt)
+msgid "The indexed image"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:58(p)
+msgid "An indexed image can look a bit grainy. The left image is Wilber in its original size, the right image is zoomed in by 300 percent."
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:69(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:70(p)
+msgid "Use the command described in <a class=\"xref\" href=\"gimp-image-mode.html\" title=\"6.3.&#xA0;Mode\">Section 6.3, “Mode”</a> to convert an RGB image to indexed mode."
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:75(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:76(p)
+msgid "After you convert an image to indexed mode, you are once again able to <a class=\"link\" href=\"gimp-file-save.html\" title=\"2.8.&#xA0;Save\">save</a> the image in <a class=\"link\" href=\"gimp-images-out.html#file-png-save-defaults\">PNG format</a>."
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:93(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:99(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:102(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-web-reducing-file-size.html:105(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

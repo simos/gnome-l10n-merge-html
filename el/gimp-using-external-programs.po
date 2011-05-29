@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-external-programs.html:6(title) el/gimp-using-external-programs.html:21(th) el/gimp-using-external-programs.html:31(div:title)
+msgid "3.4. Χρήση εξωτερικών προγραμμάτων"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:13(link:title) el/gimp-using-external-programs.html:25(th)
+msgid "3. Άνοιγμα αρχείων"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:14(link:title) el/gimp-using-external-programs.html:115(a)
+msgid "3.3. Άνοιγμα πρόσφατου"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:15(link:title) el/gimp-using-external-programs.html:121(a)
+msgid "3.5. Διαχειριστής αρχείου"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:24(img:alt) el/gimp-using-external-programs.html:106(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:24(td) el/gimp-using-external-programs.html:106(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-open-recent.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-external-programs.html:26(img:alt) el/gimp-using-external-programs.html:112(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:26(td) el/gimp-using-external-programs.html:112(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-file-manager.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:35(h3)
+msgid "<a id=\"gimp-using-external-programs\"/>3.4. Χρήση εξωτερικών προγραμμάτων"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:39(p)
+msgid "Το GIMP χρησιμοποιεί πρόσθετα για ανάγνωση και γράψιμο όλων των μορφών αρχείων εκτός από XCF. Αυτά τα πρόσθετα μπορεί να χρησιμοποιούν εξωτερικές βιβλιοθήκες ή προγράμματα. Για παράδειγμα, το GIMP δεν υποστηρίζει άμεσα το <a class=\"link\" href=\"glossary.html#glossary-postscript\" title=\"PostScript\">PostScript</a>. Αντί γι' αυτό, για διάβασμα (ή γράψιμο) αρχείων PostScript (επέκταση αρχείου <code class=\"filename\">.ps</code> ή <code class=\"filename\">.eps</code>), το GIMP χρειάζεται ένα ισχυρό ελεύθερο πρόγραμμα λογισμικού που λέγεται <span class=\"application\">Ghostscript</span>."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:48(div:title)
+msgid "Εγκατάσταση Ghostscript"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:52(span)
+msgid "Ghostscript"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:52(h4)
+msgid "<a id=\"id3143389\"/>Εγκατάσταση <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:56(p)
+msgid "Οι διανομές Linux σχεδόν πάντοτε έρχονται με το Ghostscript ήδη εγκατεστημένο (όχι απαραίτητα με την πιο πρόσφατη έκδοση). Για άλλα λειτουργικά συστήματα, ίσως χρειαστεί να το εγκαταστήσετε οι ίδιοι. Να οι οδηγίες για εγκατάστασή του στα Windows:"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:64(p)
+msgid "Πηγαίνετε στη σελίδα σχεδίου του Ghostscript στο Sourceforge <a class=\"xref\" href=\"bibliography.html#bibliography-online-ghostscript\" title=\"Ghostscript project page on Sourceforge.net\">[<abbr class=\"abbrev\">GHOSTSCRIPT</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:70(p)
+msgid "Κοιτάξτε για το πακέτο <span class=\"application\">gnu-gs</span> ή <span class=\"application\">ghostscript</span> (μόνο για μη εμπορική χρήση) και πηγαίνετε στο τμήμα λήψης."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:76(p)
+msgid "Κατεβάστε μία από τις έτοιμες διανομές για Windows, όπως <code class=\"filename\">gs650w32.exe</code> ή <code class=\"filename\">gs700w32.exe</code>."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:82(p)
+msgid "Ξεκινήστε το εκτελέσιμο αρχείο και ακολουθείστε τις οδηγίες για τη διαδικασία εγκατάστασης."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:87(p)
+msgid "Βάλτε στη μεταβλητή περιβάλλοντος <code class=\"envar\">GS_PROG</code> το πλήρες όνομα του δυαδικού αρχείου gswin32c (π.χ. <code class=\"filename\">C:\\gs\\gsX.YY\\bin\\gswin32c.exe</code>)."
+msgstr ""
+
+#: el/gimp-using-external-programs.html:94(p)
+msgid "Τώρα θα πρέπει να μπορείτε να διαβάσετε αρχεία PostScript με το GIMP. Παρακαλώ, σημειώστε ότι δεν πρέπει να μετακινήσετε τους καταλόγους Ghostscript, μετά την ολοκλήρωση της εγκατάστασης. Η εγκατάσταση δημιουργεί εγγραφές μητρώου που επιτρέπουν στο Ghostscript να βρει τις βιβλιοθήκες του. (Αυτές οι οδηγίες είναι προσφορά του http://www.kirchgessner.net.)"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:109(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:115(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-external-programs.html:118(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-external-programs.html:121(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

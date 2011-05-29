@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-variable-size-brush.html:6(title)
+msgid "9.  Varying brush size"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:13(link:title) en/gimp-using-variable-size-brush.html:27(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:14(link:title) en/gimp-using-variable-size-brush.html:236(a)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:15(link:title)
+msgid "9.2.  Creating a brush quickly"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:22(span) en/gimp-using-variable-size-brush.html:38(span)
+msgid "Varying brush size"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:21(th)
+msgid "9.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:26(img:alt) en/gimp-using-variable-size-brush.html:227(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:26(td) en/gimp-using-variable-size-brush.html:227(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-animated-brushes.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:28(img:alt) en/gimp-using-variable-size-brush.html:233(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:28(td) en/gimp-using-variable-size-brush.html:233(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-variable-size-brush-creating.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:37(h2)
+msgid "<a id=\"gimp-using-variable-size-brush\"/>9.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:44(p)
+msgid "From <acronym class=\"acronym\">GIMP</acronym>-2.4, all brushes have a variable size."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:52(span)
+msgid "How to vary the height of a brush"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:51(h3)
+msgid "<a id=\"gimp-using-variable-size-brush-varying\"/>9.1.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:57(p)
+msgid "You can get the brush size varying in three ways:"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:63(p)
+msgid "Using the <span class=\"guilabel\">Scale</span> slider of the tool that uses the brush. Pencil, Paintbrush, Eraser, Airbrush, Clone, Heal, Perspective Clone, Blur/Sharpen and Dodge/Burn tools have a slider to vary brush size."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:73(span) en/gimp-using-variable-size-brush.html:78(img:alt)
+msgid "The Scale slider"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:72(b)
+msgid "Figure 7.20.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:86(p)
+msgid "By programming the mouse wheel:"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:89(p)
+msgid "In the main window of GIMP, click on <span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Preferences</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:95(p)
+msgid "In the left column of the new window, select <span class=\"guimenu\">Input Devices</span> → <span class=\"guimenuitem\">Input Controllers</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:101(p)
+msgid "You can see <span class=\"guibutton\">Additional Input Controllers</span>, with two columns: <span class=\"guibutton\">Available Controllers</span> and <span class=\"guibutton\">Active Controllers</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:108(p)
+msgid "In the column <span class=\"guibutton\">Active Controllers</span>, double-click the <span class=\"guibutton\">Main Mouse Wheel</span> button."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:115(p)
+msgid "Then, you see a new window: <span class=\"guibutton\">Configure Input Controller</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:119(p)
+msgid "In the left column <span class=\"guibutton\">Event</span>, click <span class=\"guibutton\">Scroll Up</span> to get it highlighted."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:125(p)
+msgid "Click the <span class=\"guibutton\">Edit</span> button (at the bottom middle of the list)."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:131(p)
+msgid "You can see the window <span class=\"guibutton\">Select Controller Event Action</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:135(p)
+msgid "Drop-down the <span class=\"guibutton\">Tools</span> item, by clicking the small triangle on its left."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:142(p)
+msgid "In the left column <span class=\"guibutton\">Action</span>, click <span class=\"guibutton\">Increase Brush Scale</span> to highlight it, then click the <span class=\"guibutton\">OK</span> button."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:149(p)
+msgid "Now, in front of <span class=\"guibutton\">Scroll Up</span> is display <span class=\"guibutton\">tools-paint-brush-scale-increase</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:156(p)
+msgid "Close the window."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:161(p)
+msgid "With the same method, program <span class=\"guibutton\">Scroll Down</span> with <span class=\"guibutton\">Decrease Brush Scale</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:168(p)
+msgid "Don't forget to click the <span class=\"guibutton\">OK</span> button of the main window of <span class=\"guibutton\">Preferences</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:176(p)
+msgid "After these somewhat long explanations, you can use your mouse wheel to vary size brush. For example, choose the pencil tool with the “<span class=\"quote\">Circle</span>” brush. Set the pointer in the image window, use the mouse wheel, in the two directions, you can see the “<span class=\"quote\">Circle</span>” shrinking or stretching."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:186(p)
+msgid "You can program the “<span class=\"quote\">Up</span>” and “<span class=\"quote\">Down</span>” arrow keys of the keyboard."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:190(p)
+msgid "The method is similar to that of the mouse wheel. The only differences are:"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:197(p)
+msgid "In the column <span class=\"guibutton\">Active Controllers</span>, double-click <span class=\"guibutton\">Main Keyboard</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:204(p)
+msgid "In the column <span class=\"guibutton\">Event</span>, click <span class=\"guibutton\">Cursor Up</span> for the first key, and <span class=\"guibutton\">Cursor Down</span> for the second key."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:211(p)
+msgid "Then, use the two keys (Up arrow and Down arrow) and the result is the same as you got with the mouse wheel."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:230(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:236(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:239(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:243(span)
+msgid "Creating a brush quickly"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:242(a)
+msgid "9.2.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush.html:242(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

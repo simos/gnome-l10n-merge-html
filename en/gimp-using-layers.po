@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-layers.html:6(title) en/gimp-using-layers.html:21(th) en/gimp-using-layers.html:31(div:title)
+msgid "3. Creating New Layers"
+msgstr ""
+
+#: en/gimp-using-layers.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-layers.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-layers.html:13(link:title) en/gimp-using-layers.html:25(th)
+msgid "Chapter 8. Combining Images"
+msgstr ""
+
+#: en/gimp-using-layers.html:14(link:title) en/gimp-using-layers.html:95(a)
+msgid "2. Layer Modes"
+msgstr ""
+
+#: en/gimp-using-layers.html:15(link:title) en/gimp-using-layers.html:101(a)
+msgid "4. Text and Fonts"
+msgstr ""
+
+#: en/gimp-using-layers.html:24(img:alt) en/gimp-using-layers.html:86(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-layers.html:24(td) en/gimp-using-layers.html:86(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-layer-modes.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-layers.html:26(img:alt) en/gimp-using-layers.html:92(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-layers.html:26(td) en/gimp-using-layers.html:92(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-text.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-layers.html:35(h2)
+msgid "<a id=\"gimp-using-layers\"/>3. Creating New Layers"
+msgstr ""
+
+#: en/gimp-using-layers.html:40(p)
+msgid "There are several ways to create new layers in an image. Here are the most important ones:"
+msgstr ""
+
+#: en/gimp-using-layers.html:47(p)
+msgid "Selecting <span class=\"guimenu\">Layer</span> → <span class=\"guimenuitem\">New Layer</span> in the image menu. This brings up a dialog that allows you to set the basic properties of the new layer; see the <a class=\"link\" href=\"gimp-layer-new.html\" title=\"7.2.&#xA0;New Layer\">New Layer dialog</a> section for help with it."
+msgstr ""
+
+#: en/gimp-using-layers.html:57(p)
+msgid "Selecting <span class=\"guimenu\">Layer</span> → <span class=\"guimenuitem\">Duplicate Layer</span> in the image menu. This creates a new layer, that is a perfect copy of the currently active layer, just above the active layer."
+msgstr ""
+
+#: en/gimp-using-layers.html:65(p)
+msgid "When you <span class=\"quote\">“<span class=\"quote\">cut</span>”</span> or <span class=\"quote\">“<span class=\"quote\">copy</span>”</span> something, and then paste it using <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>V</strong></span> or <span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Paste</span>, the result is a <span class=\"quote\">“<span class=\"quote\">floating selection</span>”</span>, which is a sort of temporary layer. Before you can do anything else, you either have to anchor the floating selection to an existing layer, or convert it into a normal layer. If you do the latter, the new layer will be sized just large enough to contain the pasted material."
+msgstr ""
+
+#: en/gimp-using-layers.html:89(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-layers.html:95(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-layers.html:98(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-layers.html:101(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

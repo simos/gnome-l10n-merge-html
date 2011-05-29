@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-shortcuts.html:6(title) el/gimp-concepts-shortcuts.html:21(th) el/gimp-concepts-shortcuts.html:31(div:title)
+msgid "5. Δημιουργία συντομεύσεων στις λειτουργίες μενού"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:13(link:title) el/gimp-concepts-shortcuts.html:25(th)
+msgid "Κεφάλαιο 11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:14(link:title) el/gimp-concepts-shortcuts.html:161(a)
+msgid "4. Ρύθμιση της κρυφής μνήμης"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:15(link:title) el/gimp-concepts-shortcuts.html:167(a)
+msgid "6. Προσαρμογή αρχικής οθόνης"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:24(img:alt) el/gimp-concepts-shortcuts.html:152(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:24(td) el/gimp-concepts-shortcuts.html:152(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-setup-tile-cache.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:26(img:alt) el/gimp-concepts-shortcuts.html:158(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:26(td) el/gimp-concepts-shortcuts.html:158(td)
+msgid " <a accesskey=\"n\" href=\"customize-splashscreen.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:35(h2)
+msgid "<a id=\"gimp-concepts-shortcuts\"/>5. Δημιουργία συντομεύσεων στις λειτουργίες μενού"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:41(p)
+msgid "Πολλές λειτουργίες που είναι προσπελάσιμες μέσα από το μενού της εικόνας έχουν μια προεπιλεγμένη συντόμευση πληκτρολογίου. Ίσως θέλετε να δημιουργήσετε μια νέα συντόμευση για μια εντολή που χρησιμοποιείται πολύ και δεν έχετε συντόμευση, ή πιο σπάνια, να επεξεργαστείτε μια υπάρχουσα συντόμευση. Υπάρχουν δύο μέθοδοι για αυτό."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:46(div:title)
+msgid "Procedure 11.1. Using dynamic keyboard shortcuts"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:49(b)
+msgid "Διαδικασία 11.1. Χρησιμοποιώντας δυναμικές συντομεύσεις πληκτρολογίου"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:52(li:title) el/gimp-concepts-shortcuts.html:102(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:53(p)
+msgid "Πρώτα, πρέπει να ενεργοποιήσετε αυτή τη δυνατότητα διαλέγοντας την επιλογή <span class=\"guilabel\">Χρήση δυναμικών συντομεύσεων πληκτρολογίου</span> στο στοιχείο <span class=\"guilabel\">Διεπαφή</span> του μενού <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-interface\" title=\"1.3.&#xA0;&#x394;&#x3B9;&#x3B5;&#x3C0;&#x3B1;&#x3C6;&#x3AE;\">Προτιμήσεις</a>. Αυτή η επιλογή δεν είναι συνήθως σημειωμένη, για την αποφυγή τυχαίων πατημάτων πληκτρολογίου που δημιουργούν ανεπιθύμητες συντομεύσεις."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:62(li:title) el/gimp-concepts-shortcuts.html:109(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:63(p)
+msgid "Ενώ κάνετε αυτό. επιλέξτε επίσης την επιλογή <span class=\"guilabel\">Αποθήκευση συντομεύσεων πληκτρολογίου κατά την έξοδο</span>, έτσι η συντόμευση σας να αποθηκευτεί."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:68(li:title) el/gimp-concepts-shortcuts.html:117(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:69(p)
+msgid "Για να δημιουργήσετε μια συντόμευση πληκτρολογίου, απλά τοποθετήστε το δείκτη του ποντικιού σε μια εντολή του μενού: τότε θα επισημανθεί. Προσοχή ο δείκτης ποντικιού να μην κινείται και τυπώστε μια σειρά τριών πλήκτρων κρατώντας τα πλήκτρα πατημένα. Θα δείτε αυτή τη σειρά να εμφανίζεται στα δεξιά της εντολής."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:75(li:title)
+msgid "Βήμα 4"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:76(p)
+msgid "Είναι καλύτερο να χρησιμοποιήσετε τη σειρά <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span>+<span class=\"keycap\"><strong>πλήκτρο</strong></span> για τις προσαρμοσμένες συντομεύσεις."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:87(b)
+msgid "Εικόνα 11.31. Ρύθμιση συντομεύσεων πληκτρολογίου"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:91(img:alt)
+msgid "Ρύθμιση συντομεύσεων πληκτρολογίου"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:96(div:title) el/gimp-concepts-shortcuts.html:99(b)
+msgid "Διαδικασία 11.2. Χρήση του επεξεργαστή συντομεύσεων πληκτρολογίου"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:103(p)
+msgid "Ανοίγετε αυτόν τον επεξεργαστή πατώντας στο <span class=\"guibutton\">Ρύθμιση συντομεύσεων πληκτρολογίου</span> στο στοιχείο <span class=\"quote\">“<span class=\"quote\">Διεπαφή</span>”</span> του μενού <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-interface\" title=\"1.3.&#xA0;&#x394;&#x3B9;&#x3B5;&#x3C0;&#x3B1;&#x3C6;&#x3AE;\">Προτιμήσεις</a>."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:110(p)
+msgid "Όπως φαίνεται σε αυτόν το διάλογο, μπορείτε να διαλέξετε την εντολή για την οποία θέλετε να δημιουργήσετε μια συντόμευση στην περιοχή <span class=\"quote\">“<span class=\"quote\">Ενέργεια</span>”</span>. Έπειτα τυπώνετε τη σειρά των πλήκτρων, όπως πιο πάνω. Το πλήκτρο διαστήματος θα έπρεπε να καθαρίσει μια συντόμευση (αλλά δεν τη διαγράφει.)"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:118(p)
+msgid "Ο επεξεργαστής συντομεύσεων επίσης επιτρέπει τον <span class=\"emphasis\"><em>έλεγχο των ρυθμίσεων των παραμέτρων του εργαλείου</em></span> με το πληκτρολόγιο. Στην κορυφή αυτού του διαλόγου, μπορείτε να βρείτε ένα μενού <span class=\"guilabel\">περιεχομένων</span> που σας οδηγεί στις παραμέτρους του εργαλείου. Για διευκόλυνση της εργασίας σας, οι τύποι εργαλείων σημειώνονται με μικρά εικονίδια."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:127(div:title) el/gimp-concepts-shortcuts.html:133(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:131(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:137(p)
+msgid "Οι προσαρμοσμένες συντομεύσεις πληκτρολογίου αποθηκεύονται σε έναν κρυμμένο κατάλογο του Gimp (<code class=\"filename\">/home/[username]/.gimp-2.6/menurc</code>) στο Linux και <code class=\"filename\">C:\\Documents and Settings\\[Username]\\.gimp-2.6\\menurc</code> στα Windows XP. Είναι ένα απλό αρχείο κειμένου που μπορείτε να μεταφέρετε από έναν υπολογιστή σε έναν άλλο."
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:155(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:161(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:164(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-shortcuts.html:167(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

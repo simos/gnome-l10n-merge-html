@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:6(title) el/gimp-using-script-fu-tutorial-first-script.html:21(th) el/gimp-using-script-fu-tutorial-first-script.html:31(div:title)
+msgid "3.4. Το πρώτο σας σενάριο Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:13(link:title) el/gimp-using-script-fu-tutorial-first-script.html:25(th)
+msgid "3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:14(link:title) el/gimp-using-script-fu-tutorial-first-script.html:691(a)
+msgid "3.3. Λίστες, λίστες και πάλι λίστες"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:15(link:title) el/gimp-using-script-fu-tutorial-first-script.html:697(a)
+msgid "3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:24(img:alt) el/gimp-using-script-fu-tutorial-first-script.html:682(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:24(td) el/gimp-using-script-fu-tutorial-first-script.html:682(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-lists.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:26(img:alt) el/gimp-using-script-fu-tutorial-first-script.html:688(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:26(td) el/gimp-using-script-fu-tutorial-first-script.html:688(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-script.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-first-script\"/>3.4. Το πρώτο σας σενάριο Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:39(p)
+msgid "Ας προχωρήσουμε με το τέταρτο μάθημα, το πρώτο σας σενάριο Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:42(div:title)
+msgid "3.4.1. Δημιουργία ενός πλαισίου κειμένου σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:46(h4)
+msgid "<a id=\"id3201075\"/>3.4.1. Δημιουργία ενός πλαισίου κειμένου σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:50(p)
+msgid "Μία από τις πιο συχνές ενέργειες που εκτελώ στο GIMP είναι η δημιουργία ενός πλαισίου με κάποιο κείμενο σε αυτό για μια ιστοσελίδα, ένα λογότυπο ή οτιδήποτε. Όμως, δεν ξέρετε ποτέ απολύτως το μέγεθος της αρχικής εικόνας, όταν ξεκινάτε. Δεν ξέρετε πόσο χώρο το κείμενο θα γεμίσει με τη γραμματοσειρά και το μέγεθος της γραμματοσειράς."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:55(p)
+msgid "Ο ειδικός στο Script-Fu Master (και ο σπουδαστής) θα καταλάβουν γρήγορα ότι αυτό το πρόβλημα μπορεί εύκολα να λυθεί και να αυτοματοποιηθεί με το Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:59(p)
+msgid "Θα δημιουργήσουμε ένα σενάριο, αποκαλούμενο πλαίσιο κειμένου, που δημιουργεί μια εικόνα σε σωστό μέγεθος για να ταιριάσει άνετα γύρω από μια γραμμή κειμένου που εισάγει ο χρήστης. Επίσης θα αφήσουμε το χρήστη να επιλέξει τη γραμματοσειρά, το μέγεθος της και χρώμα κειμένου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:65(div:title)
+msgid "3.4.2. Editing And Storing Your Scripts"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:69(h4)
+msgid "<a id=\"id3123045\"/>3.4.2. Επεξεργασία και αποθήκευση των σεναρίων σας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:73(p)
+msgid "Μέχρι τώρα, δουλέψαμε στην κονσόλα Script-Fu. Τώρα, θα αλλάξουμε στην επεξεργασία αρχείων κειμένου του σεναρίου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:76(p)
+msgid "Που βάζετε τα σενάρια σας είναι θέμα επιλογής — εάν έχετε πρόσβαση στον προεπιλεγμένο κατάλογο σεναρίων του GIMP, μπορείτε να βάλετε τα σενάρια σας, εκεί. Όμως, προτιμώ να κρατώ τα προσωπικά μου σενάρια στο δικό μου κατάλογο σεναρίων, για να τα κρατώ ξέχωρα από τα εγκατεστημένα σενάρια."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:81(p)
+msgid "Στον κατάλογο <code class=\"filename\">.gimp-2.6</code> που το GIMP δημιούργησε στον προσωπικό σας κατάλογο, θα πρέπει να βρείτε έναν κατάλογο που λέγεται <code class=\"filename\">scripts</code>. Το GIMP θα κοιτάξει αυτόματα στον κατάλογο σας <code class=\"filename\">.gimp-2.6</code> για έναν κατάλογο <code class=\"filename\">scripts</code> και θα προσθέσει τα σενάρια σε αυτόν τον κατάλογο στη βάση δεδομένων του Script-Fu. Θα πρέπει να βάλετε τα προσωπικά σας σενάρια εδώ."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:89(div:title)
+msgid "3.4.3. Τα απολύτως αναγκαία"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:93(h4)
+msgid "<a id=\"id3216345\"/>3.4.3. Τα απολύτως αναγκαία"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:97(p)
+msgid "Κάθε σενάριο Script-Fu ορίζει τουλάχιστον μία συνάρτηση που είναι η κύρια συνάρτηση του σεναρίου. Εκεί πρέπει να δουλέψετε."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:101(p)
+msgid "Κάθε σενάριο πρέπει επίσης να καταχωρείται στη διαδικασιακή βάση δεδομένων, ώστε να μπορείτε να την προσπελάσετε μες το GIMP."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:105(p)
+msgid "Θα ορίσουμε καταρχήν την κύρια συνάρτηση πρώτα:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:106(pre)
+#, no-wrap
+msgid "\n(define (script-fu-text-box inText inFont inFontSize inTextColor))\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:109(p)
+msgid "Εδώ, ορίσαμε μια νέα συνάρτηση που λέγεται <code class=\"function\">script-fu-text-box</code> που δέχεται τέσσερις παραμέτρους που θα αντιστοιχούν αργότερα σε: κάποιο κείμενο, μια γραμματοσειρά, το μέγεθος μιας γραμματοσειράς, και το χρώμα του κειμένου. Η συνάρτηση είναι προς το παρόν άδεια και δεν κάνει τίποτα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:115(div:title)
+msgid "3.4.4. Ονοματικές συμβάσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:119(h4)
+msgid "<a id=\"id3203569\"/>3.4.4. Ονοματικές συμβάσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:123(p)
+msgid "Οι ονοματικές συμβάσεις του Scheme φαίνεται να προτιμούν τα μικρά γράμματα με ενωτικές παύλες, που ακολούθησα στην ονομασία των συναρτήσεων. Όμως, απομακρύνθηκα από τη σύμβαση με τις παραμέτρους. Μ' αρέσουν πιο περιγραφικά ονόματα για τις παραμέτρους και τις μεταβλητές και έτσι προσέθεσα το πρόθεμα \"in\" στις παραμέτρους, για να μπορώ να βλέπω γρήγορα ότι είναι τιμές που πέρασαν στο σενάριο, παρά δημιουργήθηκαν μέσα σ' αυτό. Χρησιμοποίησα το πρόθεμα \"the\" για μεταβλητές οριζόμενες μέσα στο σενάριο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:130(p)
+msgid "Είναι σύμβαση του GIMP να ονομάζει τις συναρτήσεις του σεναρίου σας <code class=\"function\">script-fu-abc</code>, επειδή τότε όταν καταχωρούνται στην διαδικασιακή βάση δεδομένων, θα εμφανίζονται όλες κάτω από το script-fu, όταν καταχωρίζετε τις συναρτήσεις. Επίσης αυτό βοηθά στη διάκριση τους από τα πρόσθετα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:136(div:title)
+msgid "3.4.5. Καταχώρηση της συνάρτησης"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:140(h4)
+msgid "<a id=\"id3239053\"/>3.4.5. Καταχώρηση της συνάρτησης"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:144(p)
+msgid "Τώρα, ας καταχωρίσουμε τη συνάρτηση με το GIMP. Αυτό γίνεται καλώντας τη συνάρτηση.<code class=\"function\">script-fu-register</code>. Όταν το GIMP διαβάζει ένα σενάριο, θα εκτελεί αυτή τη συνάρτηση που καταχωρίζει το σενάριο με την διαδικασιακή βάση δεδομένων. Μπορείτε να καταχωρίσετε αυτήν την συναρτησιακή κλήση όπου επιθυμείτε στο σενάριο, αλλά συνήθως την τοποθετώ στο τέλος, μετά τον υπόλοιπο κώδικα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:150(p)
+msgid "Να μια λίστα για καταχώρηση αυτής της συνάρτησης (θα εξηγήσω όλες τις παραμέτρους σε λίγο):"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:153(pre)
+#, no-wrap
+msgid "\n(script-fu-register\n\"script-fu-text-box\"                        ;func name\n\"Text Box\"                                  ;menu label\n\"Creates a simple text box, sized to fit\\\naround the user's choice of text,\\\nfont, font size, and color.\"              ;description\n\"Michael Terry\"                             ;author\n\"copyright 1997, Michael Terry;\\\n2009, the GIMP Documentation Team\"        ;copyright notice\n\"October 27, 1997\"                          ;date created\n\"\"                     ;image type that the script works on\nSF-STRING      \"Text\"          \"Text Box\"   ;a string variable\nSF-FONT        \"Font\"          \"Charter\"    ;a font variable\nSF-ADJUSTMENT  \"Font size\"     '(50 1 1000 1 10 0 1)\n;a spin-button\nSF-COLOR       \"Color\"         '(0 0 0)     ;color variable\n)\n(script-fu-menu-register \"script-fu-text-box\" \"&lt;Image&gt;/File/Create/Text\")\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:173(p)
+msgid "Εάν αποθηκεύσετε αυτές τις συναρτήσεις σε αρχείο κειμένου με την κατάληξη <code class=\"filename\">.scm</code> στον κατάλογο σεναρίων σας, τότε επιλέξτε <span class=\"guimenu\">Φίλτρα</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Ανανέωση σεναρίων</span>, αυτό το νέο σενάριο θα εμφανιστεί ως <span class=\"guimenu\">Αρχείο</span> → <span class=\"guisubmenu\">Δημιουργία</span> → <span class=\"guisubmenu\">Text</span> → <span class=\"guimenuitem\">Text Box</span>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:180(p)
+msgid "Εάν καλέσετε αυτό το νέο σενάριο, δεν θα κάνει τίποτα, φυσικά, αλλά μπορείτε να δείτε τις προτροπές που δημιουργήσατε καταχωρίζοντας το σενάριο (περισσότερες πληροφορίες πιο κάτω)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:184(p)
+msgid "Τελικά, εάν καλέσετε τον Procedure Browser (περιηγητής διαδικασίας)( <span class=\"guimenu\">Βοήθεια</span> → <span class=\"guimenuitem\">Procedure Browser (περιηγητής διαδικασίας)</span>), θα σημειώσετε ότι το σενάριο μας, εμφανίζεται τώρα στη βάση δεδομένων."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:190(div:title)
+msgid "3.4.6. Βήματα για καταχώριση του σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:194(h4)
+msgid "<a id=\"id3225233\"/>3.4.6. Βήματα για καταχώριση του σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:198(p)
+msgid "Για καταχώριση του σεναρίου μας με το GIMP, καλούμε τη συνάρτηση <code class=\"function\">script-fu-register</code>, συμπληρωμένη στις επτά απαραίτητες παραμέτρους προσθέτοντας τις δικές μας παραμέτρους του σεναρίου μαζί με μια περιγραφή και προεπιλεγμένες τιμές για κάθε παράμετρο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:203(div:title) el/gimp-using-script-fu-tutorial-first-script.html:205(b)
+msgid "Οι απαιτούμενες παράμετροι"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:209(p)
+msgid "Το <span class=\"emphasis\"><em>όνομα</em></span> της συνάρτησης που ορίσαμε. Αυτή είναι η καλούμενη συνάρτηση όταν το σενάριο μας καλείται (το σημείο εισόδου στο σενάριο μας). Αυτό είναι απαραίτητο επειδή μπορεί να ορίσουμε πρόσθετες συναρτήσεις μες το ίδιο αρχείο και το GIMP χρειάζεται να ξέρει ποια από αυτές τις συναρτήσεις καλούμε. Στο παράδειγμα μας, ορίζουμε μόνο μια συνάρτηση, text-box που καταχωρίζεται."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:217(p)
+msgid "Η <span class=\"emphasis\"><em>τοποθεσία</em></span> στο μενού, όπου θα εισαχθεί το σενάριο. Η ακριβής τοποθεσία του σεναρίου ορίζεται ως διαδρομή στο Unix, με τη ρίζα της διαδρομής να είναι μενού εικόνας όπως <code class=\"code\">&lt;Image&gt;</code>.<sup>[<a id=\"id3224820\" href=\"#ftn.id3224820\" class=\"footnote\">5</a>]</sup>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:222(p)
+msgid "Εάν το σενάριο σας δεν λειτουργεί σε μια υπάρχουσα εικόνα (και έτσι δημιουργεί μια νέα εικόνα, όπως το σενάριο του Text Box κάνει), θα θέλετε να το εισαγάγετε στο μενού παραθύρου της εικόνας που μπορείτε να προσπελάσετε μέσα από τη γραμμή μενού της εικόνας, δεξιοπατώντας το παράθυρο εικόνας, πατώντας το εικονίδιο του κουμπιού του μενού στην πάνω αριστερή γωνία του παραθύρου εικόνας, ή πατώντας <span class=\"keycap\"><strong>F10</strong></span>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:228(p)
+msgid "Εάν το σενάριο σας προορίζεται να δουλέψει σε μια επεξεργασμένη εικόνα, θα θέλετε να το εισαγάγετε στο μενού του εικονοπαραθύρου. Το υπόλοιπο της διαδρομής δείχνει στις λίστες μενού, στα μενού και τα υπομενού. Έτσι, καταχωρίσαμε το σενάριο Text Box στο μενού (<span class=\"guimenu\">Αρχείο</span> → <span class=\"guisubmenu\">Δημιουργία</span> → <span class=\"guisubmenu\">Text</span> → <span class=\"guimenuitem\">Text Box</span>)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:234(p)
+msgid "Εάν παρατηρήσατε, το υπομενού κειμένου στο μενού Αρχείο/Δημιουργία δεν υπήρχε όταν ξεκινήσαμε — το GIMP αυτόματα δημιουργεί κάθε μενού που δεν υπάρχει ήδη."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:240(p)
+msgid "Μια <span class=\"emphasis\"><em>περιγραφή</em></span> του σεναρίου που θα εμφανιστεί στο Procedure Browser (περιηγητή διαδικασίας)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:245(p)
+msgid "<span class=\"emphasis\"><em>Το όνομά σας</em></span> (Ο συγγραφέας του σεναρίου)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:250(p)
+msgid "Πληροφορίες για το <span class=\"emphasis\"><em>Copyright</em></span>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:253(p)
+msgid "Η <span class=\"emphasis\"><em>ημερομηνία</em></span> δημιουργίας του σεναρίου, ή η τελευταία αναθεώρηση του σεναρίου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:258(p)
+msgid "Οι <span class=\"emphasis\"><em>τύποι</em></span> των εικόνων που δουλεύει το σενάριο. Αυτό μπορεί να είναι οποιοδήποτε από τα παρακάτω: RGB, RGBA, GRAY, GRAYA, INDEXED, INDEXEDA. Ή μπορεί να μην είναι κανένα — στην περίπτωση μας δημιουργούμε μια εικόνα και έτσι δεν χρειάζεται να ορίσουμε τον τύπο της εικόνας που δουλεύουμε."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:269(b)
+msgid "Εικόνα 12.4. Το μενού του σεναρίου μας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:273(img:alt)
+msgid "Το μενού του σεναρίου μας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:279(div:title)
+msgid "3.4.7. Καταχώριση των παραμέτρων του σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:283(h4)
+msgid "<a id=\"id3226312\"/>3.4.7. Καταχώριση των παραμέτρων του σεναρίου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:287(p)
+msgid "Αφού καταχωρίσαμε τις απαιτούμενες παραμέτρους, χρειαζόμαστε έπειτα να καταχωρίσουμε τις παραμέτρους που αντιστοιχούν στις ανάγκες του σεναρίου μας. Όταν καταχωρίζουμε αυτές τις παραμέτρους, δίνουμε οδηγίες , όπως ποιός είναι ο τύπος τους. Αυτό είναι για το διάλογο που αναδύεται, όταν ο χρήστης επιλέγει το σενάριο μας. Δίνουμε επίσης μια προεπιλεγμένη τιμή."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:293(p)
+msgid "Αυτή η ενότητα της διαδικασίας καταχώρισης έχει την ακόλουθη μορφή:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:306(p) el/gimp-using-script-fu-tutorial-first-script.html:440(p)
+msgid "Παραμετρικός τύπος"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:309(p) el/gimp-using-script-fu-tutorial-first-script.html:443(p) el/gimp-using-script-fu-tutorial-first-script.html:459(th) el/gimp-using-script-fu-tutorial-first-script.html:471(th) el/gimp-using-script-fu-tutorial-first-script.html:498(th)
+msgid "Περιγραφή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:312(p)
+msgid "Παράδειγμα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:319(code)
+msgid "SF-IMAGE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:322(p)
+msgid "Εάν το σενάριο σας ενεργεί σε ανοιχτή εικόνα, αυτό θα πρέπει να είναι η πρώτη παράμετρος μετά τις απαιτούμενες παραμέτρους. Το GIMP θα περάσει μια αναφορά στην εικόνα σε αυτήν την παράμετρο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:328(p)
+msgid "3"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:333(code)
+msgid "SF-DRAWABLE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:336(p)
+msgid "Εάν το σενάριο σας δρα σε μια ανοιχτή εικόνα, αυτό θα πρέπει να είναι η δεύτερη παράμετρος μετά την παράμετρο <code class=\"constant\">SF-IMAGE</code>. Αναφέρεται στην ενεργή στρώση. Το GIMP θα περάσει μια αναφορά στην ενεργή στρώση σε αυτή την παράμετρο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:343(p)
+msgid "17"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:348(code)
+msgid "SF-VALUE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:351(p)
+msgid "Αποδέχεται αριθμούς και αλφαριθμητικά. Σημειώστε ότι εισαγωγικά πρέπει να περιβάλλουν προκαθορισμένο κείμενο, έτσι καλύτερα χρησιμοποιήστε <code class=\"constant\">SF-STRING</code>."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:357(p)
+msgid "42"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:362(code)
+msgid "SF-STRING"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:365(p)
+msgid "Αποδέχεται αλφαριθμητικά."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:368(p)
+msgid "\"Κάποιο κείμενο\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:373(code) el/gimp-using-script-fu-tutorial-first-script.html:464(code)
+msgid "SF-COLOR"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:376(p)
+msgid "Δείχνει ότι απαιτείται χρώμα σε αυτή την παράμετρο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:381(p)
+msgid "'(0 102 255)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:386(code)
+msgid "SF-TOGGLE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:389(p)
+msgid "Εμφανίζεται ένα πλαίσιο επιλογής, για εισαγωγή τιμής Boole."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:394(p)
+msgid "TRUE ή FALSE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:401(div:title)
+msgid "3.4.8.  Η παράμετρος API του Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:406(a)
+msgid "7"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:406(sup)
+msgid "[<placeholder-1/>]"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:405(h4)
+msgid "<a id=\"gimp-using-script-fu-api\"/>3.4.8.  Η παράμετρος API του Script-Fu<placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:411(div:title) el/gimp-using-script-fu-tutorial-first-script.html:417(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:415(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:421(p)
+msgid "Πέρα από τους πιο πάνω τύπους παραμέτρων, υπάρχουν περισσότεροι τύποι για την διαδραστική κατάσταση, καθένας τους θα δημιουργήσει μια ζώνη διαλόγου στο διάλογο ελέγχου. Θα βρείτε μια λίστα αυτών των παραμέτρων με περιγραφές και παραδείγματα στο σενάριο ελέγχου <code class=\"filename\">plug-ins/script-fu/scripts/test-sphere.scm</code> που ήρθαν με τον πηγαίο κώδικα του GIMP."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:450(code)
+msgid "SF-ADJUSTMENT"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:453(p)
+msgid "Δημιουργεί μια ζώνη διαλόγου στο παράθυρο διαλόγου του Script-fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:456(p)
+msgid "SF-ADJUSTMENT \"label\" '(value lower upper step_inc page_inc digits type)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(div:title) el/gimp-using-script-fu-tutorial-first-script.html:471(div:title)
+msgid "Widget arguments list"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(span)
+msgid "Κατάλογος ορισμάτων ζώνης επιλογών"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(th) el/gimp-using-script-fu-tutorial-first-script.html:471(th) el/gimp-using-script-fu-tutorial-first-script.html:498(th)
+msgid "Στοιχείο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td) el/gimp-using-script-fu-tutorial-first-script.html:471(td) el/gimp-using-script-fu-tutorial-first-script.html:498(td)
+msgid "\"label\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Το τυπωμένο κείμενο πριν τη ζώνη επιλογής."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "value"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Εμφανιζόμενη τιμή στην αρχή."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "lower / upper"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Η κατώτερη/ανώτερη τιμή (εμβέλεια επιλογής)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "step_inc"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Τιμή αύξησης/μείωσης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "page_inc"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Τιμή αύξησης/μείωσης χρησιμοποιώντας το πλήκτρο σελίδας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "digits"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Ψηφία μετά την υποδιαστολή (δεκαδικό μέρος)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "type"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:459(td)
+msgid "Ένα από: SF-SLIDER ή 0, SF-SPINNER ή 1"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:467(p)
+msgid "Δημιουργεί ένα χρωματιστό κουμπί στο διάλογο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:468(p)
+msgid "SF-COLOR \"label\" '(red green blue)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:469(p)
+msgid "ή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:470(p)
+msgid "SF-COLOR \"label\" \"color\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:471(span)
+msgid "Κατάλογος ορισμάτων εφαρμογών"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:471(td)
+msgid "Εκτυπωμένο κείμενο πριν την εφαρμογή."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:471(td)
+msgid "'(red green blue)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:471(td)
+msgid "Κατάλογος των τριών τιμών για τα συστατικά κόκκινο, πράσινο και μπλε."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:473(td)
+msgid "\"color\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:473(td)
+msgid "Το όνομα του χρώματος στη σημειογραφία CSS."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:478(code)
+msgid "SF-FONT"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:481(p)
+msgid "Δημιουργεί μια εφαρμογή επιλογής γραμματοσειράς στο διάλογο. Επιστρέφει ένα όνομα γραμματοσειράς ως αλφαριθμητικό. Υπάρχουν δύο νέες διαδικασίες κειμένου gimp για διευκόλυνση της χρήσης αυτής της επιστρεφόμενης παραμέτρου:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:485(p)
+msgid "(gimp-text-fontname image drawable x-pos y-pos text border antialias size unit font)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:489(p)
+msgid "(gimp-text-get-extents-fontname text size unit font)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:492(p)
+msgid "όπου font είναι το όνομα της γραμματοσειράς που παίρνετε. Το οριζόμενο μέγεθος στο fontname αγνοείται σιωπηρά. Χρησιμοποιείται μόνο στον επιλογέα γραμματοσειράς. Σας ζητιέται να ορίσετε μια χρήσιμη τιμή (24 εικονοστοιχεία είναι μια καλή επιλογή)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:497(p)
+msgid "SF-FONT \"label\" \"fontname\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:498(div:title) el/gimp-using-script-fu-tutorial-first-script.html:498(span)
+msgid "Κατάλογος ορισμάτων των κουμπιών"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:498(td)
+msgid "Το τυπωμένο κείμενο πριν την ζώνη διαλόγου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:498(td)
+msgid "\"fontname\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:498(td)
+msgid "Όνομα της προκαθορισμένης γραμματοσειράς."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:503(code)
+msgid "SF-BRUSH"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:506(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής πινέλου. Η ζώνη επιλογής αποτελείται από μια περιοχή προεπισκόπησης (που όταν πατιέται θα παράξει μια αναδυόμενη προεπισκόπηση) και ένα κουμπί με την ετικέτα \"...\". Το κουμπί θα εμφανίσει ένα διάλογο, όπου πινέλα μπορούν να επιλεγούν και καθένα από τα χαρακτηριστικά του πινέλου μπορεί να τροποποιηθεί."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:511(p)
+msgid "SF-BRUSH \"Brush\" '(\"Circle (03)\" 100 44 0)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:512(p)
+msgid "Εδώ ο διάλογος του πινέλου θα αναδυθεί με ένα προκαθορισμένο πινέλο κύκλος (03) αδιαφάνεια 100 διάκενο 44 και κανονική κατάσταση βαφής (τιμή 0)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:515(p)
+msgid "Εάν αυτή η επιλογή δεν αλλάχτηκε η τιμή που περνά στη συνάρτηση ως παράμετρος θα ήταν '(\"κύκλος (03)\" 100 44 0)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:522(code)
+msgid "SF-PATTERN"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:525(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου που αποτελείται από μια περιοχή προεπισκόπησης (που όταν πατηθεί θα παράξει μια αναδυόμενη προεπισκόπηση) και ένα κουμπί με την ετικέτα \"...\". Το κουμπί θα εμφανίσει ένα διάλογο όπου μοτίβα μπορούν να επιλεγούν."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:530(p)
+msgid "SF-PATTERN \"Pattern\" \"Maple Leaves\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:531(p)
+msgid "Η επιστρεφόμενη τιμή, όταν καλείται το σενάριο είναι ένα αλφαριθμητικό που περιέχει το όνομα του προπλάσματος. Εάν η πιο πάνω επιλογή δεν μεταβλήθηκε το αλφαριθμητικό θα περιέχει \"Maple Leaves\"."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:539(code)
+msgid "SF-GRADIENT"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:542(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει μια προεπισκόπηση της επιλεγμένης διαβάθμισης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:546(p)
+msgid "Εάν το κουμπί πιεστεί ένας διάλογος επιλογής διαβάθμισης θα αναδυθεί."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:549(p)
+msgid "SF-GRADIENT \"Gradient\" \"Deep Sea\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:550(p)
+msgid "Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα της διαβάθμισης. Εάν η πιο πάνω επιλογή δεν αλλάχτηκε το αλφαριθμητικό θα περιέχει \"Deep Sea\"."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:558(code)
+msgid "SF-PALETTE"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:561(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει το όνομα της επιλεγμένης παλέτας."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:565(p)
+msgid "Εάν το κουμπί πιεστεί ένας διάλογος επιλογής παλέτας θα αναδυθεί."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:568(p)
+msgid "SF-PALETTE \"Palette\" \"Named Colors\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:569(p)
+msgid "Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα της παλέτας. Εάν η πιο πάνω επιλογή δεν αλλάχτηκε το αλφαριθμητικό θα περιέχει \"Named Colors\"."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:577(code)
+msgid "SF-FILENAME"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:580(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει το όνομα ενός αρχείου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:584(p)
+msgid "Εάν το κουμπί πιεστεί ένας διάλογος επιλογής αρχείου θα αναδυθεί."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:587(p)
+msgid "SF-FILENAME \"label\" (string-append \"\" gimp-data-directory \"/scripts/beavis.jpg\")"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:591(p)
+msgid "Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα του αρχείου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:598(code)
+msgid "SF-DIRNAME"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:601(p)
+msgid "Χρήσιμο μόνο στη διαδραστική κατάσταση. Παρόμοιο με το SF-FILENAME, αλλά η δημιουργούμενη ζώνη επιλογής επιτρέπει να επιλεγεί ένας κατάλογος αντί για αρχείο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:605(p)
+msgid "SF-DIRNAME \"label\" \"/var/tmp/images\""
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:608(p)
+msgid "Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα του φακέλου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:615(code)
+msgid "SF-OPTION"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:618(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής είναι ένα σύνθετο πλαίσιο που δείχνει τις επιλογές που πέρασαν ως λίστα."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:622(p)
+msgid "Η πρώτη επιλογή είναι η προκαθορισμένη επιλογή."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:623(p)
+msgid "SF-OPTION \"label\" '(\"option1\" \"option2\")"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:626(p)
+msgid "Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ο αριθμός των επιλεγμένων επιλογών, όπου η πρώτη επιλογή ξεκινά από 0."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:634(code)
+msgid "SF-ENUM"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:637(p)
+msgid "Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής είναι ένα σύνθετο πλαίσιο που δείχνει όλες τις απαριθμημένες τιμές για το δοσμένο τύπο απαρίθμησης. Αυτός πρέπει να είναι το όνομα της καταχωρισμένης απαρίθμησης χωρίς το πρόθεμα \"Gimp\". Η δεύτερη παράμετρος ορίζει την προκαθορισμένη τιμή, χρησιμοποιώντας το παρατσούκλι της τιμής απαρίθμησης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:643(p)
+msgid "SF-ENUM \"Interpolation\" '(\"InterpolationType\" \"linear\")"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:646(p)
+msgid "Η επιστρεφόμενη τιμή όταν καλείται το σενάριο αντιστοιχεί στη επιλεγμένη τιμή απαρίθμησης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:659(p)
+msgid "<sup>[<a id=\"ftn.id3224820\" href=\"#id3224820\" class=\"para\">5</a>] </sup> Πριν την έκδοση 2.6, <code class=\"code\">&lt;Toolbox&gt;</code> μπορούσαν επίσης να χρησιμοποιηθούν, αλλά τώρα το μενού της εργαλειοθήκης μετακινήθηκε, έτσι μην το χρησιμοποιείται."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:665(p)
+msgid "<sup>[<a id=\"ftn.id3172058\" href=\"#id3172058\" class=\"para\">6</a>] </sup> Το πρωτότυπο, γραμμένο από τον Mike, λέει βάλτε την είσοδο του μενού στο μενού Script-Fu του μενού <span class=\"guimenu\">Xtns</span> στην εργαλειοθήκη, αλλά από την έκδοση 2.6, το μενού της εργαλειοθήκης μετακινήθηκε και συγχωνεύτηκε με τη γραμμή μενού του εικονοπαραθύρου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:672(p)
+msgid "<sup>[<a id=\"ftn.id3237391\" href=\"#id3237391\" class=\"para\">7</a>] </sup> Αυτή η ενότητα δεν είναι μέρος του αυθεντικού μαθήματος."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:685(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:691(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:694(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-first-script.html:697(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

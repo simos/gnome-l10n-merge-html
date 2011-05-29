@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickies.html:6(title) en/gimp-tutorial-quickies.html:21(th) en/gimp-tutorial-quickies.html:31(div:title)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:13(link:title) en/gimp-tutorial-quickies.html:25(th)
+msgid "Chapter 3. First Steps with Wilber"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:14(link:title) en/gimp-tutorial-quickies.html:93(a)
+msgid "3. Undoing"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:15(link:title) en/gimp-tutorial-quickies.html:99(a)
+msgid "4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:24(img:alt) en/gimp-tutorial-quickies.html:84(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:24(td) en/gimp-tutorial-quickies.html:84(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-undo.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:26(img:alt) en/gimp-tutorial-quickies.html:90(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:26(td) en/gimp-tutorial-quickies.html:90(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-scale.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:35(h2)
+msgid "<a id=\"gimp-tutorial-quickies\"/>4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:40(p)
+msgid "This tutorial is based on text and images Copyright © 2004 Carol Spears. The original tutorial can be found in the Internet <a class=\"xref\" href=\"bibliography.html#bibliography-online-tutorial02\" title=\"Tutorial: GIMPLite Quickies\">[<abbr class=\"abbrev\">TUT02</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:45(div:title)
+msgid "4.1. Intention"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:49(h3)
+msgid "<a id=\"id3151566\"/>4.1. Intention"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:53(p)
+msgid "So, <acronym class=\"acronym\">GIMP</acronym> is installed on your computer, you need to make a quick change to an image for some project, but don't want to learn about computer graphics just to change an image; totally understandable. <acronym class=\"acronym\">GIMP</acronym> is a powerful image manipulator with many options and tools. However, it is quick and somewhat intuitive (after a time) for the small jobs as well. Hopefully, these quickies will help you with your quick problem and help you to stay friends with The <acronym class=\"acronym\">GIMP</acronym>; and ready for the more complex tools and methods later, when you have the time and inspiration."
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:66(p)
+msgid "A couple of words about the images used here. The images came from APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod01\" title=\"Astronomy Picture of the Day (today)\">[<abbr class=\"abbrev\">APOD01</abbr>]</a>, Astronomy Picture of the Day. The screenshots were taken on my desktop which is sporting this APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod02\" title=\"Astronomy Picture of the Day - The Hubble Ultra Deep Field (2004 March 9)\">[<abbr class=\"abbrev\">APOD02</abbr>]</a> image."
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:73(p)
+msgid "All you need to know to start this tutorial, is how to find and open your image. (<span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">Open</span> from the Image window)."
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:87(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:93(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:96(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickies.html:99(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

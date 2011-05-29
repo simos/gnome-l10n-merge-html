@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-getting-unstuck.html:6(title) en/gimp-getting-unstuck.html:21(th) en/gimp-getting-unstuck.html:31(div:title)
+msgid "Chapter 4. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:13(link:title) en/gimp-getting-unstuck.html:25(th)
+msgid "Part I. Getting Started"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:14(link:title) en/gimp-getting-unstuck.html:386(a)
+msgid "5.2. Examples"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:15(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:24(img:alt) en/gimp-getting-unstuck.html:377(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:24(td) en/gimp-getting-unstuck.html:377(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-straight-lines-examples.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:26(img:alt) en/gimp-getting-unstuck.html:383(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:26(td) en/gimp-getting-unstuck.html:383(td)
+msgid " <a accesskey=\"n\" href=\"become-a-gimp-wizard.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:35(h2)
+msgid "<a id=\"gimp-getting-unstuck\"/>Chapter 4. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:41(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:46(a)
+msgid "1. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:53(a)
+msgid "1.1. Stuck!"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:58(a)
+msgid "1.2. Common Causes of GIMP Non-Responsiveness"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:65(div:title)
+msgid "1. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:69(h2)
+msgid "<a id=\"gimp-using-getting-unstuck\"/>1. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:74(div:title)
+msgid "1.1. Stuck!"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:78(h3)
+msgid "<a id=\"gimp-using-getting-unstuck-general\"/>1.1. Stuck!"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:82(p)
+msgid "All right, okay: you're stuck. You're trying to use one of the tools on an image, and nothing is happening, and nothing you try makes any difference. Your fists are starting to clench, and your face is starting to feel warm. Are you going to have to kill the program, and lose all your work? This sucks!"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:89(p)
+msgid "Well, hold on a second. This happens pretty frequently, even to people who've used <acronym class=\"acronym\">GIMP</acronym> for a long time, but generally the cause is not so hard to figure out (and fix) if you know where to look. Lets be calm, and go through a checklist that will probably get you GIMPing happily again."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:97(div:title)
+msgid "1.2. Common Causes of GIMP Non-Responsiveness"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:101(h3)
+msgid "<a id=\"gimp-using-getting-unstuck-common-causes\"/>1.2. Common Causes of GIMP Non-Responsiveness"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:105(div:title)
+msgid "1.2.1. There is a floating selection"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:109(h4)
+msgid "<a id=\"id3161290\"/>1.2.1. There is a floating selection"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:116(b)
+msgid "Figure 4.1.  Layers dialog showing a floating selection."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:122(img:alt)
+msgid "Layers dialog showing a floating selection."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:127(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span> If there is a floating selection, many actions are impossible until the floating section is anchored. To check, look at the Layers dialog (making sure it's set to the image you're working on) and see whether the top layer is called <span class=\"quote\">“<span class=\"quote\">Floating Selection</span>”</span>."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:135(p)
+msgid "<span class=\"emphasis\"><em>How to solve:</em></span> Either anchor the floating selection, or convert it into an ordinary (non-floating) layer. If you need help on how to do this, see <a class=\"link\" href=\"glossary.html#glossary-floatingselection\" title=\"Floating Selection\"> Floating Selections </a>."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:144(div:title)
+msgid "1.2.2. The selection is hidden"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:148(h4)
+msgid "<a id=\"id3144252\"/>1.2.2. The selection is hidden"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:155(b)
+msgid "Figure 4.2. Unstuck show selection menu"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:159(img:alt)
+msgid "Unstuck show selection menu"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:161(p)
+msgid "In the View menu, make sure that \"Show Selection\" is checked."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:169(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span> If this is the problem, merely reading this will already have made you realize it, probably, but to explain in any case: sometimes the flickering line that outlines the selection is annoying because it makes it hard to see important details of the image, so <acronym class=\"acronym\">GIMP</acronym> gives you the option of hiding the selection, by unchecking <span class=\"guimenuitem\">Show Selection</span> in the <span class=\"guimenu\">View</span> menu. It is easy to forget that you have done this, though."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:181(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> If this hasn't rung any bells, it isn't the problem, and if it has, you probably know how to fix it, because it doesn't happen unless you explicitly tell it to; but anyway: just go to the <span class=\"guimenu\">View</span> menu for the image and, if <span class=\"guimenuitem\">Show Selection</span> is unchecked, click on it.."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:191(div:title)
+msgid "1.2.3. You are acting outside of the selection"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:195(h4)
+msgid "<a id=\"id3121678\"/>1.2.3. You are acting outside of the selection"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:202(b)
+msgid "Figure 4.3. Unstuck select all"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:206(img:alt)
+msgid "Unstuck select all"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:208(p)
+msgid "Click <span class=\"quote\">“<span class=\"quote\">All</span>”</span> in the Select menu to make sure that everything is selected."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:217(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> If doing this has destroyed a selection that you wanted to keep, hit <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Z</strong></span> (undo) a couple of times to restore it, and then we'll figure out what the problem is. There are a couple of possibilities. If you couldn't see any selection, there may have been a very tiny one, or even one that contained no pixels. If this was the case, it surely is not a selection that you wanted to keep, so why have you gotten this far in the first place? If you can see a selection but thought you were inside it, it might be inverted from what you think. The easiest way to tell is to hit the Quick Mask button: the selected area will be clear and the unselected area will be masked. If this was the problem, then you can solve it by toggling Quick Mask off and choosing Invert in the <span class=\"guimenu\">Select</span> menu."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:234(div:title)
+msgid "1.2.4. The active drawable is not visible"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:238(h4)
+msgid "<a id=\"id3121762\"/>1.2.4. The active drawable is not visible"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:245(b)
+msgid "Figure 4.4. Unstuck layer invisibility"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:249(img:alt)
+msgid "Unstuck layer invisibility"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:251(p)
+msgid "Layers dialog with visibility off for the active layer."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:259(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span> The Layers dialog gives you ability to toggle the visibility of each layer on or off. Look at the Layers dialog, and see if the layer you are trying to act on is active (i.e., darkened) and has an eye symbol to the left of it. If not, this is your problem."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:266(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> If your intended target layer is not active, click on it in the Layers dialog to activate it. (If none of the layers are active, the active drawable might be a channel -- you can look at the Channels tab in the Layers dialog to see. This does not change the solution, though.) If the eye symbol does not appear, click in the Layers dialog at the left edge to toggle it: this should make the layer visible. See the Help section for the <a class=\"link\" href=\"gimp-dialogs-structure.html#gimp-layer-dialog\" title=\"2.1.&#xA0;Layers Dialog\">Layers Dialog</a> if you need more help."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:279(div:title)
+msgid "1.2.5. The active drawable is transparent"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:283(h4)
+msgid "<a id=\"id3131651\"/>1.2.5. The active drawable is transparent"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:290(b)
+msgid "Figure 4.5. Unstuck layer transparency"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:294(img:alt)
+msgid "Unstuck layer transparency"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:296(p)
+msgid "Layers dialog with opacity set to zero for the active layer."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:304(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span> When the opacity is set 0 on the layer, you cannot see anything which you draw on it. Look the <span class=\"guilabel\">Opacity</span> slider, and see which side the slider placed at. If it is at the leftmost side, that is your problem."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:311(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> Move the slider."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:315(div:title)
+msgid "1.2.6. You are trying to act outside the layer"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:319(h4)
+msgid "<a id=\"id3131715\"/>1.2.6. You are trying to act outside the layer"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:323(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span> In <acronym class=\"acronym\">GIMP</acronym>, layers don't need to have the same dimensions as the image: they can be larger or smaller. If you try to paint outside the borders of a layer, nothing happens. To see if this is happening, look for a black-and-yellow dashed rectangle that does not enclose the area you're trying to draw at."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:332(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> You need to enlarge the layer. There are two commands at the bottom of the Layer menu that will let you do this: Layer to Image Size, which sets the layer bounds to match the image borders; and Layer Boundary Size, which brings up a dialog that allows you to set the layer dimensions to whatever you please."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:341(div:title)
+msgid "1.2.7. The image is in indexed color mode."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:345(h4)
+msgid "<a id=\"id3131751\"/>1.2.7. The image is in indexed color mode."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:349(p)
+msgid "<span class=\"emphasis\"><em>How to tell:</em></span><acronym class=\"acronym\">GIMP</acronym> can handle three different color modes: <a class=\"link\" href=\"glossary.html#glossary-colormodel\" title=\"Color model\">RGB(A), Indexed and Grayscale</a>. The indexed colormode uses a colormap, where all used colors on the image are indexed. The <a class=\"link\" href=\"gimp-tool-color-picker.html\" title=\"6.3.&#xA0;Color Picker\">color picker</a> in <acronym class=\"acronym\">GIMP</acronym> however, let you choose RGB colors. That means, if you try to paint with a different color than it is indexed in the colormap, you end up in very undetermined results (e.g. it paints with the wrong color or you can't paint)."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:362(p)
+msgid "<span class=\"emphasis\"><em>How to fix:</em></span> Always use the RGB Color mode to paint on images. You can verify and select another color mode from the <a class=\"link\" href=\"gimp-image-mode.html\" title=\"6.3.&#xA0;Mode\">Mode</a> menuitem in the <span class=\"guimenu\">Image</span> menu."
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:380(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:386(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:389(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:393(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:392(a)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-getting-unstuck.html:392(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-text.html:6(title) el/gimp-using-text.html:21(th) el/gimp-using-text.html:31(div:title)
+msgid "5. Κείμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-text.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-text.html:13(link:title) el/gimp-using-text.html:25(th)
+msgid "Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-using-text.html:14(link:title) el/gimp-using-text.html:96(a)
+msgid "4. Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/gimp-using-text.html:15(link:title) el/gimp-using-text.html:102(a)
+msgid "5.2. Προσθήκη γραμματοσειρών"
+msgstr ""
+
+#: el/gimp-using-text.html:24(img:alt) el/gimp-using-text.html:87(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:24(td) el/gimp-using-text.html:87(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-text.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-text.html:26(img:alt) el/gimp-using-text.html:93(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:26(td) el/gimp-using-text.html:93(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-fonts.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-text.html:35(h2)
+msgid "<a id=\"gimp-using-text\"/>5. Κείμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:40(div:title)
+msgid "5.1. Διακόσμηση κειμένου"
+msgstr ""
+
+#: el/gimp-using-text.html:44(h3)
+msgid "<a id=\"id3185010\"/>5.1. Διακόσμηση κειμένου"
+msgstr ""
+
+#: el/gimp-using-text.html:51(b)
+msgid "Εικόνα 8.36. Φανταχτερό κείμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:54(img:alt)
+msgid "Φανταχτερό κείμενο"
+msgstr ""
+
+#: el/gimp-using-text.html:56(p)
+msgid "Τέσσερα φανταχτερά στοιχεία κειμένου δημιουργήθηκαν χρησιμοποιώντας σενάρια λογότυπου: <span class=\"quote\">“<span class=\"quote\">alien neon (ξένο νέον)</span>”</span>, <span class=\"quote\">“<span class=\"quote\">bovination (κηλίδες αγελάδας)</span>”</span>, <span class=\"quote\">“<span class=\"quote\">frosty (παγωμένος)</span>”</span>, και <span class=\"quote\">“<span class=\"quote\">chalk (κιμωλία)</span>”</span>. Προκαθορισμένες ρυθμίσεις χρησιμοποιήθηκαν για όλα πλην του μεγέθους γραμματοσειράς."
+msgstr ""
+
+#: el/gimp-using-text.html:67(p)
+msgid "Μπορείτε να αλλάξετε την εμφάνιση του κειμένου κατά πολλούς τρόπους πέραν της απλής απόδοσης με διαφορετικές γραμματοσειρές ή χρώματα. Μετατρέποντας ένα στοιχείο κειμένου σε επιλογή ή μονοπάτι, μπορείτε να το γεμίσετε, να βάψετε τα πειγράμματα, να το μετασχηματίσετε ή γενικά να εφαρμόσετε την πλήρη πανοπλία εργαλείων του GIMP για να πάρετε ενδιαφέροντα αποτελέσματα. Ως επίδειξη μερικών δυνατοτήτων, δοκιμάστε τα σενάρια των λογότυπων στο <span class=\"guimenu\">Αρχείο</span> → <span class=\"guisubmenu\">Δημιουργία</span> → <span class=\"guisubmenu\">Λογότυπα</span>. Καθένα από αυτά τα σενάρια σας επιτρέπει να εισαγάγετε κάποιο κείμενο και έπειτα δημιουργεί μια νέα εικόνα που δείχνει το λογότυπο που κατασκευάστηκε από αυτό το κείμενο. Εάν θέλετε να τροποποιήσετε ένα από αυτά τα σενάρια ή να φτιάξετε ένα δικό σας σενάριο λογότυπου οι ενότητες <a class=\"link\" href=\"gimp-concepts-script-fu.html\" title=\"2.&#xA0;&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; Script-Fu Scripts\">Χρήση Script-Fu</a> και το <a class=\"link\" href=\"gimp-using-script-fu-tutorial.html\" title=\"3.&#xA0;&#x39C;&#x3AC;&#x3B8;&#x3B7;&#x3BC;&#x3B1; Script-Fu\">Μάθημα Script-Fu</a> θα σας βοηθούσαν να ξεκινήσετε. Φυσικά, δεν χρειαζόσαστε τα Script-Fu για να δημιουργήσετε αυτά τα είδη εφέ, μόνο για να τα αυτοματοποιήσετε."
+msgstr ""
+
+#: el/gimp-using-text.html:90(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-text.html:96(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-text.html:99(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-text.html:102(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

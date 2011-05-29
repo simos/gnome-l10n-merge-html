@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-tutorial-quickies.html:6(title)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:13(link:title) el/gimp-tutorial-quickies.html:25(th)
+msgid "Κεφάλαιο 3. Πρώτα βήματα με το Wilber"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:14(link:title)
+msgid "3.  Αναίρεση"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:15(link:title) el/gimp-tutorial-quickies.html:94(a)
+msgid "4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:21(th)
+msgid "4. Γρήγορο ξεκίνημα (GIMPLite Quickies)"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:24(img:alt) el/gimp-tutorial-quickies.html:77(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:24(td) el/gimp-tutorial-quickies.html:77(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-undo.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:26(img:alt) el/gimp-tutorial-quickies.html:83(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:26(td) el/gimp-tutorial-quickies.html:83(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-scale.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:35(h2)
+msgid "<a id=\"gimp-tutorial-quickies\"/>4. Γρήγορο ξεκίνημα (GIMPLite Quickies)"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:40(p)
+msgid "Αυτή η παρουσίαση βασίζεται σε κείμενο και εικόνες Copyright © 2004 Carol Spears. Η αυθεντική παρουσίαση μπορεί να βρεθεί στο διαδίκτυο. <a class=\"xref\" href=\"bibliography.html#bibliography-online-tutorial02\" title=\"&#x3A0;&#x3B1;&#x3C1;&#x3BF;&#x3C5;&#x3C3;&#x3AF;&#x3B1;&#x3C3;&#x3B7;: &#x393;&#x3C1;&#x3AE;&#x3B3;&#x3BF;&#x3C1;&#x3BF; &#x3BE;&#x3B5;&#x3BA;&#x3AF;&#x3BD;&#x3B7;&#x3BC;&#x3B1; (GIMPLite Quickies)\">[<abbr class=\"abbrev\">TUT02</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:49(h3)
+msgid "<a id=\"id437520\"/>4.1. Σκοπός"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:53(p)
+msgid "Λοιπόν, το GIMP έχει εγκατασταθεί στον υπολογιστή σας και χρειαζόσαστε να κάνετε μια γρήγορη αλλαγή σε μια εικόνα για κάποιο σχέδιο, αλλά δεν θέλετε να μάθετε για τα γραφικά των υπολογιστών μόνο για να αλλάξετε μια εικόνα. Πλήρως κατανοητό. Το GIMP είναι ένας ισχυρός χειριστής εικόνας με πολλές επιλογές και εργαλεία. Όμως είναι γρήγορο και κάπως διαισθητικό (μετά από κάποιο χρόνο) καθώς και για μικρές εργασίες. Ελπίζουμε ότι αυτά τα μαθήματα θα σας βοηθήσουν με το γρήγορο πρόβλημα και θα σας βοηθήσουν να μείνετε φίλοι με το GIMP και έτοιμοι για πιο σύνθετα εργαλεία και μεθόδους αργότερα, όταν θα έχετε το χρόνο και την έμπνευση."
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:62(p)
+msgid "Δυο λόγια για τις εικόνες που χρησιμοποιούνται εδώ. Οι εικόνες προέρχονται από APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod01\" title=\"Astronomy Picture of the Day (today)\">[<abbr class=\"abbrev\">APOD01</abbr>]</a>, Astronomy Picture of the Day. Τα στιγμιότυπα ελήφθησαν στην επιφάνεια εργασίας με αυτό το φόντο APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod02\" title=\"Astronomy Picture of the Day - The Hubble Ultra Deep Field (2004 March 9)\">[<abbr class=\"abbrev\">APOD02</abbr>]</a> εικόνα."
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:67(p)
+msgid "Αυτό που χρειαζόσαστε νε ξέρετε για να αρχίσετε αυτή την εκπαιδευτική παρουσίαση είναι πώς να βρίσκεται και να ανοίγεται την εικόνα σας από το παράθυρο εικόνας.(<span class=\"guimenu\">Αρχείο</span> → <span class=\"guimenuitem\">Άνοιγμα</span>)."
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:80(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:87(span)
+msgid "Αναίρεση"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:86(a)
+msgid "3.  <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:86(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:91(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-tutorial-quickies.html:94(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

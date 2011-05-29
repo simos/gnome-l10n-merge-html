@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-variable-size-brush-creating.html:6(title)
+msgid "9.2.  Creating a brush quickly"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:13(link:title) en/gimp-using-variable-size-brush-creating.html:14(link:title)
+msgid "9.  Varying brush size"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:15(link:title)
+msgid "10.  Gradients"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:22(span) en/gimp-using-variable-size-brush-creating.html:40(span)
+msgid "Creating a brush quickly"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:21(th)
+msgid "9.2.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:26(img:alt) en/gimp-using-variable-size-brush-creating.html:142(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:26(td) en/gimp-using-variable-size-brush-creating.html:142(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-variable-size-brush.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:28(span) en/gimp-using-variable-size-brush-creating.html:152(span)
+msgid "Varying brush size"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:27(th) en/gimp-using-variable-size-brush-creating.html:151(a)
+msgid "9.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:30(img:alt) en/gimp-using-variable-size-brush-creating.html:148(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:30(td) en/gimp-using-variable-size-brush-creating.html:148(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-gradients.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:39(h3)
+msgid "<a id=\"gimp-using-variable-size-brush-creating\"/>9.2.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:45(p)
+msgid "Two methods to create a new brush easily:"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:51(p)
+msgid "First, the “<span class=\"quote\">superfast</span>” method. You have an image area you want make a brush from it, to be used with a tool like pencil, airbrush... Select it with the rectangular (or elliptical) select tool, then do a <span class=\"guibutton\">Copy</span> of this selection and immediately you can see this copy in the first position of the Brush Dialog, and its name is “<span class=\"quote\">Clipboard</span>”. It is immediately usable."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:64(span) en/gimp-using-variable-size-brush-creating.html:71(img:alt)
+msgid "Selection becomes a brush after copying"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:63(b)
+msgid "Figure 7.21.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:78(p)
+msgid "The second method is more elaborate."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:81(p)
+msgid "Do <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">New</span> with, for example, a width and a length of 35 pixels and in the advanced options a <span class=\"guilabel\">Color Space</span> in <span class=\"guilabel\">Gray Level</span> and <span class=\"guilabel\">Fill with: white</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:89(p)
+msgid "Zoom on this new image to enlarge it and draw on it with a black pencil."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:93(p)
+msgid "Save it with a <span class=\"guilabel\">.gbr</span> extension in the directory <span class=\"guilabel\">/home/name_of_user/.gimp-2.6/brushes/</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:97(p)
+msgid "In the brushes window, click on the button <span class=\"guilabel\">Refresh brushes</span>."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:101(p)
+msgid "And your marvellous brush appears right in the middle of the other brushes. You can use it immediately, without starting GIMP again."
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:109(span) en/gimp-using-variable-size-brush-creating.html:114(img:alt) en/gimp-using-variable-size-brush-creating.html:120(img:alt) en/gimp-using-variable-size-brush-creating.html:126(img:alt)
+msgid "Steps to create a brush"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:108(b)
+msgid "Figure 7.22.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:116(p)
+msgid "Draw image, save as brush"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:122(p)
+msgid "Refresh brushes"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:128(p)
+msgid "Use the brush"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:145(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:151(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:156(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:160(span)
+msgid "Gradients"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:159(a)
+msgid "10.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-variable-size-brush-creating.html:159(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

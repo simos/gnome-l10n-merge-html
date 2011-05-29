@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/customize-splashscreen.html:6(title) en/customize-splashscreen.html:21(th)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/customize-splashscreen.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/customize-splashscreen.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/customize-splashscreen.html:13(link:title) en/customize-splashscreen.html:25(th)
+msgid "Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/customize-splashscreen.html:14(link:title)
+msgid "5.  Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/customize-splashscreen.html:15(link:title) en/customize-splashscreen.html:97(a)
+msgid "Chapter 12. Scripting"
+msgstr ""
+
+#: en/customize-splashscreen.html:24(img:alt) en/customize-splashscreen.html:80(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/customize-splashscreen.html:24(td) en/customize-splashscreen.html:80(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-shortcuts.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/customize-splashscreen.html:26(img:alt) en/customize-splashscreen.html:86(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/customize-splashscreen.html:26(td) en/customize-splashscreen.html:86(td)
+msgid " <a accesskey=\"n\" href=\"gimp-scripting.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/customize-splashscreen.html:35(h2)
+msgid "<a id=\"customize-splashscreen\"/>6. Customize Splash-Screen"
+msgstr ""
+
+#: en/customize-splashscreen.html:41(p)
+msgid "When you start <acronym class=\"acronym\">GIMP</acronym>, you see the <span class=\"emphasis\"><em>splash-screen</em></span> displaying short status messages while the program is loading all its components."
+msgstr ""
+
+#: en/customize-splashscreen.html:46(p)
+msgid "Of course, you can customize the splash-screen: Create a <code class=\"filename\">splashes</code> directory in your in your personal <acronym class=\"acronym\">GIMP</acronym> folder (<code class=\"filename\">/home/user_name/.gimp-2.6</code> on Linux, <code class=\"filename\">C:\\Documents and Settings\\user_name\\.gimp-2.6\\</code> on Windows)."
+msgstr ""
+
+#: en/customize-splashscreen.html:54(p)
+msgid "Copy your image(s) into this <code class=\"filename\">splashes</code> directory. On start, <acronym class=\"acronym\">GIMP</acronym> will read this directory and choose one of the images at random."
+msgstr ""
+
+#: en/customize-splashscreen.html:64(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/customize-splashscreen.html:66(th)
+msgid "Tip"
+msgstr ""
+
+#: en/customize-splashscreen.html:70(p)
+msgid "Make sure that your images aren't too small."
+msgstr ""
+
+#: en/customize-splashscreen.html:83(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/customize-splashscreen.html:90(span)
+msgid "Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/customize-splashscreen.html:89(a)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/customize-splashscreen.html:89(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/customize-splashscreen.html:94(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/customize-splashscreen.html:97(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

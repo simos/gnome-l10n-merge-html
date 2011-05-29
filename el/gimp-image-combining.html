@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 8. Συνδυασμός εικόνων</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="gimp-using-rectangular.html" title="13.2. Δημιουργία βασικού σχήματος" />
+<link rel="next" href="gimp-concepts-layer-modes.html" title="2. Λειτουργίες στρώσης" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 8. Συνδυασμός εικόνων</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-rectangular.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-layer-modes.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" title="Κεφάλαιο 8. Συνδυασμός εικόνων">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-image-combining"></a>Κεφάλαιο 8. Συνδυασμός εικόνων</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1">
+<a href="gimp-image-combining.html#gimp-concepts-layers">1. Εισαγωγή στις στρώσεις</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-image-combining.html#gimp-layer-properties">1.1. Ιδιότητες στρώσης</a>
+</span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1">
+<a href="gimp-concepts-layer-modes.html">2. Λειτουργίες στρώσης</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-using-layers.html">3. Δημιουργία νέων στρώσεων</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-concepts-text.html">4. Κείμενο και γραμματοσειρές</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-using-text.html">5. Κείμενο</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-using-text.html#id3185010">5.1. Διακόσμιση κειμένου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-fonts.html">5.2. Προσθήκη γραμματοσειρών</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="font-problems.html">5.3. Προβλήματα γραμματοσειρών</a>
+</span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="sect1" title="1. Εισαγωγή στις στρώσεις">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-layers"></a>1. Εισαγωγή στις στρώσεις</h2>
+</div>
+</div>
+</div>
+<a id="id3141828" class="indexterm"></a>
+<p>
+Ένας καλός τρόπος για να οπτικοποιήσετε την εικόνα του GIMP είναι ως στοίβα  των διαφανειών: στην ορολογία του
+GIMP, κάθε ατομική διαφάνεια λέγεται
+<span class="emphasis"><em>στρώση</em></span>. Δεν υπάρχει όριο, κατ' αρχήν, στον αριθμό των στρώσεων που μια
+εικόνα μπορεί να έχει, εκτός από το διαθέσιμο ποσοστό μνήμης του συστήματος. Δεν είναι ασυνήθιστο για
+για προχωρημένους χρήστες να δουλεύουν με εικόνες που περιέχουν πολλές στρώσεις.
+</p>
+<p>
+Η οργάνωση των στρώσεων σε μια εικόνα εμφανίζεται στο διάλογο των στρώσεων που είναι ο δεύτερος πιο σημαντικός
+τύπος διαλόγου παραθύρου στο GIMP, μετά την κυρίως εργαλειοθήκη. Η εμφάνιση του διαλόγου στρώσεων φαίνεται στην
+παρακείμενη εικονογράφηση. Πώς δουλεύει περιγράφεται με λεπτομέρεια στην ενότητα
+<a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. Διάλογος στρώσεων">διάλογος στρώσεων</a>,
+αλλά θα δούμε μερικές πλευρές εδώ, σχετικές με τις ιδιότητες της στρώσης που εμφανίζουν.
+</p>
+<p>
+<a id="id3143908" class="indexterm"></a>
+Κάθε ανοιχτή εικόνα έχει οποτεδήποτε μια μοναδική <span class="emphasis"><em>ενεργή σχεδίαση</em></span>.
+Μια <span class="quote">“<span class="quote"> περιοχή σχεδίασης</span>”</span> είναι μια ιδέα του GIMP που περιλαμβάνει
+στρώσεις αλλά επίσης πολλούς άλλους τύπους πραγμάτων, όπως κανάλια, μάσκες στρώσης και μάσκα επιλογής.(Βασικά
+μία <span class="quote">“<span class="quote"> περιοχή σχεδίασης</span>”</span> είναι οτιδήποτε μπορεί να σχεδιαστεί με
+εργαλεία ζωγραφικής). Εάν μια στρώση είναι η τρέχουσα ενεργή, εμφανίζεται έντονη στο διάλογο στρώσεων και το
+όνομα της εμφανίζεται στην περιοχή κατάστασης του παραθύρου εικόνας. Εάν δεν είναι ενεργή, μπορείτε να την
+ενεργοποιήσετε πατώντας την με το ποντίκι. Εάν καμία από τις στρώσεις δεν είναι τονισμένη, σημαίνει ότι η
+ενεργός σχεδίαση είναι κάτι άλλο πέραν της στρώσης.
+</p>
+<p>
+Στη γραμμή μενού πάνω από το παράθυρο εικόνας,  μπορείτε να βρείτε ένα μενού που λέγεται
+<span class="guimenu">Στρώσεις</span>, περιέχει έναν αριθμό εντολών που επηρεάζουν την ενεργή στρώση της
+εικόνας. Στο ίδιο μενού  έχετε πρόσβαση δεξιοπατώντας στο διάλογο στρώσεων.
+</p>
+<div class="sect2" title="1.1. Ιδιότητες στρώσης">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-layer-properties"></a>1.1. Ιδιότητες στρώσης</h3>
+</div>
+</div>
+</div>
+<p>
+Κάθε στρώση σε μια εικόνα έχει έναν αριθμό από σημαντικές ιδιότητες:
+</p>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Όνομα</span>
+</dt>
+<dd>
+<p>
+Κάθε στρώση έχει ένα όνομα. Αυτό αποδίδεται αυτόματα, όταν δημιουργείται η στρώση, αλλά μπορείτε να το αλλάξετε.
+Μπορείτε να αλλάξετε το όνομα της στρώσης είτε διπλοπατώντας το εικονίδιο στο διάλογο στρώσεων, ή δεξιοπατώντας εκεί
+και έπειτα επιλέγοντας την κορυφαία εγγραφή στο μενού που εμφανίζεται, <span class="guimenuitem">επεξεργασία ιδιοτήτων στρώσης</span>.
+</p>
+</dd>
+<dt>
+<span class="term">Παρουσία ή απουσία ενός άλφα καναλιού</span>
+</dt>
+<dd>
+<a id="id3179270" class="indexterm"></a>
+<a id="id3179280" class="indexterm"></a>
+<p>
+Ένα άλφα κανάλι κωδικοποιεί πληροφορίες για τη διαφάνεια της στρώσης σε κάθε εικονοστοιχείο. Είναι ορατό στο
+διάλογο καναλιών. Λευκό είναι πλήρης αδιαφάνεια, μαύρο είναι πλήρης διαφάνεια και αποχρώσεις του γκρι είναι
+μερικώς διαφανής.
+</p>
+<p>
+Η στρώση παρασκηνίου είναι ειδική. Εάν μόλις έχετε δημιουργήσει μια νέα εικόνα, έχει ακόμα μόνο μια στρώση που
+είναι η στρώση παρασκηνίου. Εάν η εικόνα δημιουργήθηκε με έναν τύπο αδιαφανούς γεμίσματος, αυτή η στρώση δεν
+έχει άλφα κανάλι. Εάν προσθέσετε μια νέα στρώση, ακόμα και με έναν αδιαφανή τύπο πλήρωσης, ένα κανάλι άλφα,
+δημιουργείται αυτόματα, που εφαρμόζεται σε όλες τις στρώσεις εκτός από τη στρώση παρασκηνίου. Για να πάρετε
+μια στρώση παρασκηνίου με διαφάνεια, είτε δημιουργείται τη νέα σας εικόνα με τύπο διαφανούς πλήρωσης, ή
+χρησιμοποιείτε το
+<a class="link" href="gimp-layer-alpha-add.html" title="7.32. Προσθήκη άλφα καναλιού">Προσθήκη άλφα καναλιού</a>.
+</p>
+<p>
+Κάθε άλλη στρώση μιας εικόνας πέρα από την τελευταία έχει αυτόματα ένα κανάλι άλφα, αλλά δεν μπορείτε
+να δείτε μια αναπαράσταση της γκρι κλίμακας των τιμών άλφα. Δείτε
+<a class="link" href="glossary.html#glossary-alpha" title="Άλφα">Άλφα</a> στο γλωσσάρι για
+περισσότερες πληροφορίες.
+</p>
+<p title="Παράδειγμα για άλφα κανάλι"><a id="alpha-channel-example"></a><b>Παράδειγμα για άλφα κανάλι. </b><a id="id3179340" class="indexterm"></a>
+</p>
+<div class="figure">
+<a id="id3179351"></a>
+<p class="title"><b>Εικόνα 8.1. Παράδειγμα άλφα καναλιού: Βασική εικόνα</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/alpha-channel-0.png" alt="Παράδειγμα άλφα καναλιού: Βασική εικόνα" />
+<div class="caption">
+<p>
+Αυτή η εικόνα έχει τρεις στρώσεις βαμμένες με 100% καθαρό αδιαφανές κόκκινο, πράσινο και μπλε. Στο διάλογο
+καναλιών, μπορείτε να δείτε, ότι ένα άλφα κανάλι έχει προστεθεί. Είναι λευκό επειδή η εικόνα δεν είναι διαφανής
+αφού υπάρχει τουλάχιστον μια 100% αδιαφανής στρώση. Η τρέχουσα στρώση είναι η κόκκινη. Επειδή είναι βαμμένη
+με καθαρό κόκκινο, δεν υπάρχει πράσινο και μπλε και αντίστοιχα κανάλια είναι μαύρα.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p title="Παράδειγμα για άλφα κανάλι"><br class="figure-break" />
+</p>
+<div class="figure">
+<a id="id3179389"></a>
+<p class="title">
+<b>Εικόνα 8.2. Παράδειγμα άλφα καναλιού: Μια διαφανής στρώση</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/alpha-channel-1.png" alt="Παράδειγμα για άλφα κανάλι: Μια διαφανής στρώση" />
+<div class="caption">
+<p>
+Το αριστερό μέρος της πρώτης στρώσης έγινε διαφανές (Ορθογώνια επιλογή, Επεξεργασία/καθαρισμός). Η δεύτερη
+στρώση πράσινη, είναι ορατή. Το κανάλι άλφα είναι ακόμα λευκό, αφού υπάρχει μια αδιαφανής στρώση σε αυτό το
+τμήμα της εικόνας.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p title="Παράδειγμα για άλφα κανάλι"><br class="figure-break" />
+</p>
+<div class="figure">
+<a id="id3198654"></a>
+<p class="title"><b>Εικόνα 8.3. Παράδειγμα άλφα καναλιού: Δύο διαφανείς στρώσεις</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/alpha-channel-2.png" alt="Παράδειγμα άλφα καναλιού: Δύο διαφανείς στρώσεις" />
+<div class="caption">
+<p>
+Το αριστερό μέρος της δεύτερης στρώσης έγινε διαφανές. Η τρίτη στρώση, μπλε, είναι ορατή μέσα από την πρώτη και
+δεύτερη στρώση. Το άλφα κανάλι είναι ακόμα λευκό, αφού υπάρχει μια αδιαφανής στρώση σε αυτό το μέρος της εικόνας.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p title="Παράδειγμα για άλφα κανάλι"><br class="figure-break" />
+</p>
+<div class="figure">
+<a id="id3198692"></a>
+<p class="title"><b>Εικόνα 8.4. Παράδειγμα άλφα καναλιού: Τρεις διαφανείς στρώσεις</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/alpha-channel-3a.png" alt="Παράδειγμα άλφα καναλιού: Τρεις διαφανείς στρώσεις" />
+<div class="caption">
+<p>
+Το αριστερό μέρος της τρίτης στρώσης έγινε διαφανές. Το κανάλι άλφα είναι ακόμα λευκό και το αριστερό μέρος της
+στρώσης είναι λευκό, αδιαφανές! Η στρώση παρασκηνίου δεν έχει άλφα κανάλι. Σε αυτήν την περίπτωση, η εντολή
+καθαρισμός λειτουργεί ως σβήστρα και χρησιμοποιεί το χρώμα παρασκηνίου της εργαλειοθήκης.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p title="Παράδειγμα για άλφα κανάλι"><br class="figure-break" />
+</p>
+<div class="figure">
+<a id="id3198732"></a>
+<p class="title"><b>Εικόνα 8.5. Παράδειγμα άλφα καναλιού: Προσθήκη άλφα καναλιού στο παρασκήνιο</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/alpha-channel-3b.png" alt="Παράδειγμα άλφα καναλιού: Προσθήκη άλφα καναλιού στο παρασκήνιο" />
+<div class="caption">
+<p>
+Χρησιμοποιήσαμε την εντολή
+<span class="guimenu">Στρώση</span> → <span class="guimenuitem">Διαφάνεια</span> → <span class="guisubmenu">Προσθήκη καναλιού Alpha</span>
+στη στρώση παρασκηνίου. Τώρα το αριστερό μέρος της εικόνας είναι πλήρως διαφανές και έχει το χρώμα της σελίδας
+που βρίσκεται η εικόνα. Το αριστερό μέρος της μικρογραφίας του άλφα καναλιού είναι μαύρο (διαφανές) στο διάλογο καναλιών.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p title="Παράδειγμα για άλφα κανάλι"><br class="figure-break" />
+</p>
+</dd>
+<dt>
+<span class="term">Τύπος στρώσης</span>
+</dt>
+<dd>
+<a id="id3208468" class="indexterm"></a>
+<p>
+Ο τύπος στρώσης προσδιορίζεται από τον τύπο της εικόνας (δείτε το προηγούμενο τμήμα) και την παρουσία ή
+απουσία άλφα καναλιού. Αυτοί είναι οι πιθανοί τύποι στρώσης:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>RGB</p>
+</li>
+<li class="listitem">
+<p>RGBA</p>
+</li>
+<li class="listitem">
+<p>Gray (Γκρι)</p>
+</li>
+<li class="listitem">
+<p>GrayA (Γκρι Α)</p>
+</li>
+<li class="listitem">
+<p>Indexed (Ευρετηριακός)</p>
+</li>
+<li class="listitem">
+<p>IndexedA (Ευρετηριακός Α)</p>
+</li>
+</ul>
+</div>
+<p>
+Ο λόγος που αναφέρονται είναι επειδή στα περισσότερα φίλτρα  (στο μενού) <span class="guimenu">Φίλτρα</span>
+δέχονται μόνο ένα υποσύνολο των τύπων στρώσης και εμφανίζονται αμυδρά στο μενού, εάν η ενεργός στρώση δεν έχει
+αποδεκτό τύπο. Συχνά μπορείτε να το διορθώσετε είτε αλλάζοντας την κατάσταση της εικόνας είτε προσθέτοντας ή
+αφαιρώντας ένα άλφα κανάλι.
+</p>
+</dd>
+<dt>
+<span class="term">
+<span class="guiicon">
+<span class="inlinemediaobject"><img src="images/dialogs/stock-eye-20.png" /></span>
+</span>
+Ορατότητα
+</span>
+</dt>
+<dd>
+<a id="id3208569" class="indexterm"></a>
+<p>
+Είναι δυνατή η προσωρινή αφαίρεση μιας στρώσης από μια εικόνα χωρίς να καταστραφεί, πατώντας στο σύμβολο στο
+διάλογο στρώσεων. Αυτό λέγεται <span class="quote">“<span class="quote">εναλλαγή της ορατότητας</span>”</span>
+της στρώσης. Οι περισσότερες λειτουργίες σε μια εικόνα συμπεριφέρονται σα να μην υπήρχαν εναλλασσόμενες
+στρώσεις. Όταν δουλεύετε με εικόνες που περιέχουν πολλές στρώσεις, με διαφορετική αδιαφάνεια, μπορείτε συχνά να
+πάρετε μια καλύτερη εικόνα των περιεχομένων της στρώσης που θέλετε να δουλέψετε κρύβοντας μερικές από τις άλλες
+στρώσεις.
+</p>
+<div class="tip" title="Συμβουλή" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Tip">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Εάν κρατώντας πατημένο το <span class="emphasis"><em>Shift</em></span> πατήσετε στο εικονίδιο του ματιού, θα
+κρυφτούν όλες τις στρώσεις <span class="emphasis"><em>εκτός</em></span> από αυτή που πατάτε.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+<dt>
+<span class="term">
+<span class="guiicon">
+<span class="inlinemediaobject"><img src="images/dialogs/stock-vchain-24.png" /></span>
+</span>
+Σύνδεση με άλλες στρώσεις
+</span>
+</dt>
+<dd>
+<a id="id3208648" class="indexterm"></a>
+<a id="id3208661" class="indexterm"></a>
+<p>
+Εάν πατήσετε μεταξύ του εικονιδίου του ματιού και της μικρογραφίας της στρώσης, θα πάρετε ένα εικονίδιο
+αλυσίδας που σας επιτρέπει να ομαδοποιήσετε στρώσεις για ενέργειες σε πολλαπλές στρώσεις (π.χ. με το εργαλείο
+μετακίνησης ή το εργαλείο μετασχηματισμού).
+</p>
+<div class="figure">
+<a id="id3208679"></a>
+<p class="title"><b>Εικόνα 8.6. Διάλογος στρώσης</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/dialogs/link-visibility.png" alt="Διάλογος στρώσης" />
+<div class="caption">
+<p>
+Κόκκινο: Σύνδεση με άλλες στρώσεις. Πράσινο: Ορατότητα
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+<dt>
+<span class="term">Μέγεθος και όρια</span>
+</dt>
+<dd>
+<a id="id3180432" class="indexterm"></a>
+<a id="id3180445" class="indexterm"></a>
+<p>
+Στο GIMP τα όρια μιας στρώσης δεν ταιριάζουν κατ' ανάγκη με τα όρια της εικόνας που την περιέχει. Όταν
+δημιουργείτε κείμενο, π.χ., κάθε αντικείμενο κειμένου πηγαίνει στη δικιά του ξεχωριστή στρώση και η στρώση
+παίρνει ακριβώς το μέγεθος για να περιέχει το κείμενο και τίποτα παραπάνω. Επίσης, όταν δημιουργείτε μια νέα
+στρώση χρησιμοποιώντας αποκοπή και επικόλληση, η νέα στρώση έχει ακριβώς αρκετό μέγεθος για να περιέχει το
+επικολλημένο αντικείμενο. Στο παράθυρο εικόνας, τα όρια της τρέχουσας ενεργής στρώσης εμφανίζονται
+περιγραμμένα με μια μαυροκίτρινη διακεκομμένη γραμμή.
+</p>
+<p>
+Ο κύριος λόγος που έχει σημασία αυτό είναι ότι δεν μπορείτε να κάνετε τίποτα σε μια στρώση έξω από τα όρια της:
+Δεν μπορείτε νε ενεργήσετε σε κάτι που δεν υπάρχει. Εάν αυτό σας δημιουργεί προβλήματα, μπορείτε να αλλάξετε
+τις διαστάσεις της στρώσης χρησιμοποιώντας οποιαδήποτε από τις πολλές εντολές που μπορείτε να βρείτε κοντά στον
+πάτο του μενού <span class="guimenu">στρώσης</span>.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Το ποσό της μνήμης που μια στρώση καταναλώνει προσδιορίζεται από τις διαστάσεις της, όχι από το περιεχόμενό της.
+Έτσι, εάν δουλεύετε με μεγάλες εικόνες ή εικόνες που περιέχουν πολλές στρώσεις,  μπορεί να σας αποζημιώσει η
+περικοπή των στρώσεων στο ελάχιστο δυνατό μέγεθος.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+<dt>
+<span class="term">Αδιαφάνεια</span>
+</dt>
+<dd>
+<p>
+Η αδιαφάνεια μιας στρώσης προσδιορίζει την έκταση στην οποία αφήνει τα χρώματα από τις από κάτω στρώσεις, να
+εμφανίζονται στη στοίβα. Η αδιαφάνεια εκτείνεται από 0 έως 100,  με το 0 να σημαίνει πλήρη
+διαφάνεια και το 100 να σημαίνει πλήρη αδιαφάνεια.
+</p>
+</dd>
+<dt>
+<span class="term">Κατάσταση</span>
+</dt>
+<dd>
+<p>
+Η κατάσταση της στρώσης προσδιορίζει πόσα χρώματα από τη στρώση συνδυάζονται με χρώματα από τις υποκείμενες
+στρώσεις για να παράξουν ένα ορατό αποτέλεσμα. Αυτό είναι αρκετά σύνθετο αλλά και αρκετά σημαντικό για να
+αφιερωθεί ένα δικό του κομμάτι που ακολουθεί.
+Δείτε <a class="xref" href="gimp-concepts-layer-modes.html" title="2. Καταστάσεις στρώσης">Ενότητα 2, “Καταστάσεις στρώσης”</a>.
+</p>
+</dd>
+<dt>
+<span class="term">Μάσκα στρώσης</span>
+</dt>
+<dd>
+<a id="id3180560" class="indexterm"></a>
+<p>
+Πέρα από το άλφα κανάλι υπάρχει ένας άλλος τρόπος για να ελεγχθεί η διαφάνεια μιας στρώσης: προσθέτοντας μία
+<span class="emphasis"><em>μάσκα στρώσης</em></span> που είναι μια επιπρόσθετη περιοχή σχεδίασης γκρι κλίμακας
+συνδεμένη με τη στρώση. Μια στρώση δεν έχει μια μάσκα στρώσης από προεπιλογή. Πρέπει να προστεθεί ειδικά.
+Οι μάσκες στρώσης και η χρήση τους περιγράφονται πιο αναλυτικά στην ενότητα
+<a class="link" href="gimp-dialogs-structure.html#gimp-layer-mask" title="2.1.3. Μάσκες στρώσης">μάσκες στρώσης</a>.
+</p>
+</dd>
+<dt>
+<span class="term">Ρυθμίσεις<span class="quote"> “<span class="quote">κλειδώματος καναλιού άλφα</span>”</span></span>
+</dt>
+<dd>
+<p>
+Στην πάνω μεριά του διαλόγου στρώσεων εμφανίζεται ένα κουτί επιλογής που ελέγχει τις ρυθμίσεις
+<span class="quote"> “<span class="quote">κλειδώματος</span>”</span> για τη διαφάνεια της στρώσης (δείτε την
+παρακάτω εικόνα). Εάν αυτό επιλεγεί, τότε το άλφα κανάλι για τη στρώση κλειδώνεται και κανένας χειρισμός δεν
+επιδρά σε αυτό. Ειδικά, τίποτα που κάνετε σε ένα διαφανές τμήμα της στρώσης δεν θα έχει κανένα αποτέλεσμα.
+</p>
+<div class="figure">
+<a id="id3180626"></a>
+<p class="title"><b>Εικόνα 8.7. Κλείδωμα καναλιού άλφα</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/dialogs/lock-alpha.png" alt="Κλείδωμα καναλιού άλφα" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-rectangular.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-layer-modes.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-rectangular.html">13.2. Δημιουργία βασικού σχήματος</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-layer-modes.html">2. Λειτουργίες στρώσης</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

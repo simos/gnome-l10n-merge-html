@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-flip.html:6(title) en/gimp-tutorial-quickie-flip.html:21(th) en/gimp-tutorial-quickie-flip.html:31(div:title)
+msgid "4.7. Flip An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:13(link:title) en/gimp-tutorial-quickie-flip.html:25(th)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:14(link:title) en/gimp-tutorial-quickie-flip.html:128(a)
+msgid "4.6. Change the Mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:15(link:title) en/gimp-tutorial-quickie-flip.html:134(a)
+msgid "4.8. Rotate An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:24(img:alt) en/gimp-tutorial-quickie-flip.html:119(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:24(td) en/gimp-tutorial-quickie-flip.html:119(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-change-mode.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:26(img:alt) en/gimp-tutorial-quickie-flip.html:125(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:26(td) en/gimp-tutorial-quickie-flip.html:125(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-rotate.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-flip\"/>4.7. Flip An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:41(p)
+msgid "When you need the person in the photo looking in the other direction, or you need the top of the image to be the bottom. Mirroring the image (sort of). Use <span class=\"guimenu\">Tools</span> → <span class=\"guisubmenu\">Transform Tools</span> → <span class=\"guimenuitem\">Flip</span>, or use the <span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/toolbox/stock-tool-flip-22.png\"/></span></span> button on the toolbox."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:55(span)
+msgid "Flip an Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:55(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:55(b)
+msgid "Figure 3.37. Dialog <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:59(img:alt)
+msgid "Dialog Flip an Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:64(p)
+msgid "Using another APOD image <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod07\" title=\"Astronomy Picture of the Day - The Sharpest View of the Sun (2002 November 14)\">[<abbr class=\"abbrev\">APOD07</abbr>]</a> I demonstrated all of the flips on this image."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:68(p)
+msgid "The tool used as is (the default) will simply flip the image at its vertical axis. If you double click on the button,the tool options dialog will open, if it is not already displayed in the dock under the toolbox. Use the options dialog to switch between horizontal and vertical. You can also use the <span class=\"keycap\"><strong>Ctrl</strong></span> key to switch between horizontal and vertical. All possible flips are displayed in this page."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:80(b)
+msgid "Figure 3.38. Example Image to Flip"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:85(img:alt) en/gimp-tutorial-quickie-flip.html:91(img:alt) en/gimp-tutorial-quickie-flip.html:99(img:alt) en/gimp-tutorial-quickie-flip.html:105(img:alt)
+msgid "Example Image to Flip"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:87(p)
+msgid "Source image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:93(p)
+msgid "Horizontal flipped image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:101(p)
+msgid "Vertical flipped image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:107(p)
+msgid "Horizontal and vertical flipped image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:122(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:128(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:131(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-flip.html:134(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

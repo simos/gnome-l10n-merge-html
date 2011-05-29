@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>10. Διαβαθμίσεις</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-painting.html" title="Κεφάλαιο 7. Βάφοντας με το GIMP" />
+<link rel="prev" href="gimp-using-variable-size-brush-creating.html" title="9.2. Γρήγορη δημιουργία πινέλου" />
+<link rel="next" href="gimp-concepts-patterns.html" title="11. Μοτίβα" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">10. Διαβαθμίσεις</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-variable-size-brush-creating.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 7. Βάφοντας με το GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-patterns.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="10. Διαβαθμίσεις">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-gradients"></a>10. Διαβαθμίσεις</h2>
+</div>
+</div>
+</div>
+<a id="id3133214" class="indexterm"></a>
+<div class="figure">
+<a id="id3156592"></a>
+<p class="title"><b>Εικόνα 7.23. Μερικά παραδείγματα διαβαθμίσεων του GIMP.</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/gradient-examples.png" alt="Μερικά παραδείγματα διαβαθμίσεων του GIMP." />
+<div class="caption">
+<p>
+Διαβαθμίσεις από την κορυφή προς τον πάτο: FG σε BG (RGB). Full saturation spectrum (Πλήρης κορεσμός φάσματος). Nauseating headache (πονοκέφαλος ναυτίας), Browns (καφετιά), Four bars (τέσσερις γραμμές)
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Μια <span class="emphasis"><em>διαβάθμιση</em></span> είναι ένα σύνολο χρωμάτων τακτοποιημένα σε γραμμική σειρά.
+Η πιο βασική χρήση των διαβαθμίσεων είναι στο <a class="link" href="gimp-tool-blend.html" title="3.4. Εργαλείο μείξης">Εργαλείο μείξης</a>,
+μερικές φορές γνωστό και σαν <span class="quote">“<span class="quote">εργαλείο διαβάθμισης</span>”</span> ή
+<span class="quote">“<span class="quote">εργαλείο βαθμιδωτού γεμίσματος</span>”</span>. Δουλεύει γεμίζοντας
+την επιλογή με χρώματα από μια διαβάθμιση. Έχετε πολλές δυνατότητες να επιλέξετε για τον τρόπο που τα χρώματα
+τακτοποιούνται μες την επιλογή. Υπάρχουν και άλλοι βασικοί τρόποι για να χρησιμοποιήσετε διαβαθμίσεις,
+συμπεριλαμβανομένων των:
+</p>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Βαφή με διαβάθμιση</span>
+</dt>
+<dd>
+<p>
+Καθένα από τα βασικά εργαλεία βαψίματος του GIMP σας επιτρέπει να επιλέξετε
+την χρήση χρωμάτων από διαβάθμιση.  Αυτό σας επιτρέπει να δημιουργήσετε πινελιές που αλλάζουν χρώμα από τη μίαν
+άκρη έως την άλλη.
+</p>
+</dd>
+<dt>
+<span class="term">Το φίλτρο Gradient Map (βαθιδμωτός χάρτης)</span>
+</dt>
+<dd>
+<p>
+Αυτό το φίλτρο είναι τώρα στο μενού χρωμάτων και σας επιτρέπει, να
+<span class="quote">“<span class="quote">χρωματίσετε</span>”</span> μια εικόνα, χρησιμοποιώντας την ένταση
+χρώματος κάθε σημείου με το αντίστοιχο χρώμα από την ενεργή διαβάθμιση (η ένταση 0 -πολύ σκοτεινό- αντικαθίσταται
+από το χρώμα στο πιο αριστερό άκρο της διαβάθμισης σταδιακά μέχρι την τιμή 255 -πολύ φωτεινό- που αντικαθίσταται
+από το πιο δεξιό χρώμα της διαβάθμισης. Δείτε
+<a class="xref" href="plug-in-gradmap.html" title="8.23. Gradient Map (βαθιδμωτός χάρτης)">Ενότητα 8.23, “Gradient Map (βαθιδμωτός χάρτης)”</a> για περισσότερες πληροφορίες.
+</p>
+</dd>
+</dl>
+</div>
+<p>
+Όταν εγκαθίσταται το GIMP, έρχεται με ένα μεγάλο αριθμό σημαντικών
+διαβαθμίσεων και μπορείτε να προσθέσετε νέα που δημιουργείτε ή κατεβάζετε από άλλες πηγές. Μπορείτε να δείτε το
+πλήρες σύνολο των διαθέσιμων διαβαθμίσεων χρησιμοποιώντας το
+<a class="link" href="gimp-gradient-dialog.html" title="3.4. Διάλογος διαβαθμίσεων">Διάλογος διαβαθμίσεων</a>,
+έναν αγκιστρωμένο διάλογο που μπορείτε είτε να ενεργοποιήσετε όταν τον χρειαστείτε ή να τον κρατήσετε ως καρτέλα
+στο αγκίστρι (dock). Η <span class="quote">“<span class="quote">τρέχουσα διαβάθμιση</span>”</span>, που
+χρησιμοποιείται στις περισσότερες διαβαθμισοεξαρτώμενες λειτουργίες, φαίνεται στην περιοχή  πινέλο/μοτίβο/διαβάθμιση
+της εργαλειοθήκης. Πάτημα του συμβόλου διαβάθμισης στην εργαλειοθήκη είναι ένας άλλος τρόπος εμφάνισης του
+διαλόγου διαβαθμίσεων.
+</p>
+<p>
+Πολλά γρήγορα παραδείγματα εργασίας με διαβαθμίσεις (για περισσότερες πληροφορίες δείτε
+<a class="link" href="gimp-tool-blend.html" title="3.4. Blend">εργαλείο ανάμειξης</a>).
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>Βάλτε διαβάθμιση σε επιλογή:</p>
+<div class="procedure">
+<ol class="procedure" type="1">
+<li class="step" title="Βήμα 1">
+<p>Επιλέξτε μια διαβάθμιση.</p>
+</li>
+<li class="step" title="Βήμα 2">
+<p>
+Με το εργαλείο ανάμειξης πατήστε και σύρτε με το ποντίκι μεταξύ δύο σημείων μιας επιλογής.
+</p>
+</li>
+<li class="step" title="Βήμα 3">
+<p>
+Τα χρώματα θα κατανεμηθούν κάθετα στη διεύθυνση του συρσίματος του ποντικιού και σύμφωνα με το μήκος της.
+</p>
+</li>
+</ol>
+</div>
+<div class="figure">
+<a id="id3208078"></a>
+<p class="title"><b>Εικόνα 7.24. Γρήγορη χρήση διαβάθμισης σε επιλογή</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/gradient-draw.png" alt="Γρήγορη χρήση διαβάθμισης σε επιλογή" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</li>
+<li class="listitem">
+<p>Χρησιμοποιείστε μια διαβάθμιση με ένα εργαλείο ζωγραφικής:</p>
+<p>
+Μπορείτε επίσης να χρησιμοποιήσετε μια διαβάθμιση με μολύβι, πινέλο ή αερογράφο, εάν επιλέξετε
+<span class="guilabel">Χρήση χρώματος από διαβάθμιση</span>. Στο παρακάτω παράδειγμα η προτίμηση επισημαίνεται
+για το μολύβι. Βλέπετε στη σχεδίαση στη δεξιά πλευρά τη διαδοχή των χρωμάτων της διαβάθμισης (στο άπειρο..).
+</p>
+<div class="figure">
+<a id="id3208119"></a>
+<p class="title"><b>Εικόνα 7.25. Γρήγορη χρήση διαβάθμισης με εργαλείο ζωγραφικής</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/color-gradient-pencil.png" alt="Γρήγορη χρήση διαβάθμισης με εργαλείο ζωγραφικής" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</li>
+<li class="listitem">
+<p>Διάφορες παραγωγές με την ίδια διαβάθμιση:</p>
+<div class="figure">
+<a id="id3176901"></a>
+<p class="title"><b>Εικόνα 7.26. Χρήση διαβάθμισης</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/gradient-usage.png" alt="Χρήση διαβάθμισης" />
+<div class="caption">
+<p>
+Τέσσερις τρόποι χρήσης διαβάθμισης τροπικών χρωμάτων: ένα γραμμικό γέμισμα διαβάθμισης, ένα μορφοποιημένο
+γέμισμα διαβάθμισης, με πινελιά χρωμάτων διαβάθμισης και με πινελιά ασαφούς πινέλου και έπειτα χρωματισμένο με το φίλτρο
+<a class="link" href="plug-in-gradmap.html" title="8.23. Χάρτης διαβάθμισης">Χάρτης διαβάθμισης</a>.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</li>
+</ul>
+</div>
+<p>Μερικά χρήσιμα σημεία για τις διαβαθμίσεις του GIMP.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Οι τέσσερις πρώτες διαβαθμίσεις στον κατάλογο είναι ειδικές. Χρησιμοποιούν τα χρώματα προσκηνίου και παρασκηνίου
+από την χρωματική περιοχή της εργαλειοθήκης αντί να είναι καθορισμένες. <span class="guilabel">FG to BG (RGB)</span>
+είναι η RGB αναπαράσταση της διαβάθμισης από το χρώμα προσκηνίου FG στο χρώμα παρασκηνίου BG στην εργαλειοθήκη.
+<span class="guilabel">FG to BG (HSV counter-clockwise)(χρώμα προσκηνίου σε χρώμα παρασκηνίου (αριστερόστροφα HSV))</span> αναπαριστάνει τη διαδοχή χροιάς
+χρωματικού κύκλου από την επιλεγμένη χροιά μέχρι 360°. <span class="guilabel">FG to BG
+(HSV clockwise hue)(χρώμα προσκηνίου σε χρώμα παρασκηνίου (αριστερόστροφη απόχρωση HSV))</span> αναπαριστάνει τη διαδοχή χροιάς σε χρωματικό κύκλο από την επιλεγμένη χροιά έως 0°.
+Με το <span class="guilabel">FG to transparent (χρώμα προσκηνίου σε διαφανές)</span>, η επιλεγμένη χροιά γίνεται όλο και πιο διαφανής.
+Μπορείτε να τροποποιήσετε αυτά τα χρώματα χρησιμοποιώντας
+τον επιλογέα χρώματος. Έτσι, αλλάζοντας τα χρώματα του προσκηνίου και του παρασκηνίου, μπορείτε να κάνετε
+αυτές τις μεταβάσεις διαβαθμίσεων ομαλές μεταξύ οποιοδήποτε δυο χρωμάτων επιθυμείτε.
+</p>
+</li>
+<li class="listitem">
+<p>
+Οι διαβαθμίσεις μπορούν να εμπεριέχουν όχι μόνο αλλαγές χρώματος, αλλά και αλλαγές στην αδιαφάνεια. Μερικές
+από τις διαβαθμίσεις είναι ολότελα αδιαφανείς. Άλλες περιέχουν τμήματα διαφανή και ημιδιαφανή. Όταν γεμίζετε
+ή βάφετε με μια μη αδιαφανή διαβάθμιση, τα υπάρχοντα περιεχόμενα της στρώσης θα εμφανιστούν πίσω της.
+</p>
+</li>
+<li class="listitem">
+<p>
+Μπορείτε να δημιουργήσετε νέες <span class="emphasis"><em>προσαρμοσμένες</em></span> διαβαθμίσεις,
+χρησιμοποιώντας το <a class="link" href="gimp-gradient-dialog.html#gimp-gradient-editor-dialog" title="3.4.3. Eπεξεργαστής διαβάθμισης">Επεξεργαστής
+διαβάθμισης</a>. Δεν μπορείτε να τροποποιήσετε τις διαβαθμίσεις που έρχονται με το GIMP,
+αλλά μπορείτε να τις αντιγράψετε ή να δημιουργήσετε νέες και έπειτα να τις επεξεργαστείτε.
+</p>
+</li>
+</ul>
+</div>
+<p>
+Οι διαβαθμίσεις που έρχονται με το GIMP αποθηκεύονται σε ένα φάκελο του
+συστήματος <code class="filename">gradients</code>. Από προεπιλογή, οι διαβαθμίσεις που δημιουργείτε αποθηκεύονται
+σε έναν φάκελο που λέγεται <code class="filename">gradients</code> στον προσωπικό σας κατάλογο του
+GIMP. Οποιαδήποτε αρχεία διαβαθμίσεων (που τελειώνουν με την επιμήκυνση
+<code class="filename">.ggr</code>) βρίσκονται σε έναν από αυτούς τους φακέλους, φορτώνονται αυτόματα, όταν
+ξεκινάτε το GIMP. Μπορείτε να προσθέσετε περισσότερους καταλόγους στη
+διαδρομή αναζήτησης διαβαθμίσεων, εάν θέλετε, στην καρτέλα του διαλόγου προτιμήσεων
+ <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Φάκελοι αρχείων">Φάκελοι αρχείων</a>.
+</p>
+<p>
+Νέα στο GIMP 2.2 είναι η ικανότητα φόρτωσης αρχείων διαβαθμίσεων σε μορφή SVG, που χρησιμοποιείται σε πολλά
+προγράμματα γραφικών. Για να φορτώσει το GIMP ένα αρχείο SVG διαβάθμισης, πρέπει να το τοποθετήσετε στον
+κατάλογο <code class="filename">gradients</code> του προσωπικού σας καταλόγου GIMP, ή σε οποιοδήποτε φάκελο της
+διαδρομής αναζήτησης διαβάθμισης.
+</p>
+<div class="tip" title="Συμβουλή" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Tip">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Μπορείτε να βρείτε έναν μεγάλο αριθμό ενδιαφερουσών διαβαθμίσεων SVG στο διαδίκτυο και ειδικά στις διαβαθμίσεις
+του OpenClipArt <a class="xref" href="bibliography.html#bibliography-online-openclipart-gradients" title="Open Clipart - Gradients">[<abbr class="abbrev">OPENCLIPART-GRADIENT</abbr>]</a>.
+Δεν θα μπορείτε να δείτε πώς δείχνουν αυτές οι διαβαθμίσεις εκτός και ο περιηγητής σας υποστηρίζει SVG, αλλά
+αυτό δεν σας εμποδίζει στο κατέβασμα τους.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-variable-size-brush-creating.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-painting.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-patterns.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-variable-size-brush-creating.html">9.2. Γρήγορη δημιουργία πινέλου</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-patterns.html">11. Μοτίβα</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

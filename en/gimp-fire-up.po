@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-fire-up.html:6(title) en/gimp-fire-up.html:21(th) en/gimp-fire-up.html:31(div:title)
+msgid "Chapter 2. Fire up the GIMP"
+msgstr ""
+
+#: en/gimp-fire-up.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-fire-up.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-fire-up.html:13(link:title) en/gimp-fire-up.html:25(th)
+msgid "Part I. Getting Started"
+msgstr ""
+
+#: en/gimp-fire-up.html:14(link:title) en/gimp-fire-up.html:477(a)
+msgid "2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/gimp-fire-up.html:15(link:title) en/gimp-fire-up.html:483(a)
+msgid "2. Starting GIMP the first time"
+msgstr ""
+
+#: en/gimp-fire-up.html:24(img:alt) en/gimp-fire-up.html:468(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-fire-up.html:24(td) en/gimp-fire-up.html:468(td)
+msgid "<a accesskey=\"p\" href=\"gimp-introduction-whats-new.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-fire-up.html:26(img:alt) en/gimp-fire-up.html:474(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-fire-up.html:26(td) en/gimp-fire-up.html:474(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-setup.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-fire-up.html:35(h2)
+msgid "<a id=\"gimp-fire-up\"/>Chapter 2. Fire up the GIMP"
+msgstr ""
+
+#: en/gimp-fire-up.html:41(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-fire-up.html:46(a)
+msgid "1. Running GIMP"
+msgstr ""
+
+#: en/gimp-fire-up.html:53(a)
+msgid "1.1. Known Platforms"
+msgstr ""
+
+#: en/gimp-fire-up.html:58(a)
+msgid "1.2. Language"
+msgstr ""
+
+#: en/gimp-fire-up.html:63(a)
+msgid "1.3. Command Line Arguments"
+msgstr ""
+
+#: en/gimp-fire-up.html:70(a)
+msgid "2. Starting GIMP the first time"
+msgstr ""
+
+#: en/gimp-fire-up.html:77(a)
+msgid "2.1. Finally . . ."
+msgstr ""
+
+#: en/gimp-fire-up.html:84(div:title)
+msgid "1. Running GIMP"
+msgstr ""
+
+#: en/gimp-fire-up.html:88(h2)
+msgid "<a id=\"gimp-concepts-running\"/>1. Running GIMP"
+msgstr ""
+
+#: en/gimp-fire-up.html:93(p)
+msgid "Most often, you start <acronym class=\"acronym\">GIMP</acronym> either by clicking on an icon (if your system is set up to provide you with one), or by typing <span class=\"command\"><strong>gimp</strong></span> on a command line. If you have multiple versions of <acronym class=\"acronym\">GIMP</acronym> installed, you may need to type <span class=\"command\"><strong>gimp-2.6</strong></span> to get the latest version. You can, if you want, give a list of image files on the command line after the program name, and they will automatically be opened by <acronym class=\"acronym\">GIMP</acronym> as it starts. It is also possible, though, to open files from within <acronym class=\"acronym\">GIMP</acronym> once it is running."
+msgstr ""
+
+#: en/gimp-fire-up.html:106(p)
+msgid "Most operating systems support file associations, which associates a class of files (as determined by their filename extension, such as .jpg) with a corresponding application (such as <acronym class=\"acronym\">GIMP</acronym>). When image files are properly <span class=\"quote\">“<span class=\"quote\">associated</span>”</span> to <acronym class=\"acronym\">GIMP</acronym>, you can double click on an image to open it in <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-fire-up.html:114(div:title)
+msgid "1.1. Known Platforms"
+msgstr ""
+
+#: en/gimp-fire-up.html:118(h3)
+msgid "<a id=\"introduction-platforms\"/>1.1. Known Platforms"
+msgstr ""
+
+#: en/gimp-fire-up.html:122(p)
+msgid "The <acronym class=\"acronym\">GIMP</acronym> is the most widely supported image manipulation available today. The platforms on which <acronym class=\"acronym\">GIMP</acronym> is known to work include:"
+msgstr ""
+
+#: en/gimp-fire-up.html:127(p)
+msgid "<span class=\"productname\"><acronym class=\"acronym\">GNU</acronym>/Linux</span>™, <span class=\"productname\">Apple Mac OS X</span>™, <span class=\"productname\">Microsoft Windows</span>™, <span class=\"productname\">OpenBSD</span>™, <span class=\"productname\">NetBSD</span>™, <span class=\"productname\">FreeBSD</span>™, <span class=\"productname\">Solaris</span>™, <span class=\"productname\">SunOS</span>™, <span class=\"productname\">AIX</span>™, <span class=\"productname\">HP-UX</span>™, <span class=\"productname\">Tru64</span>™, <span class=\"productname\">Digital UNIX</span>™, <span class=\"productname\">OSF/1</span>™, <span class=\"productname\">IRIX</span>™, <span class=\"productname\">OS/2</span>™, and <span class=\"productname\">BeOS</span>™."
+msgstr ""
+
+#: en/gimp-fire-up.html:140(p)
+msgid "The <acronym class=\"acronym\">GIMP</acronym> is easily ported to other operating systems because of its source code availability. For further information visit the <acronym class=\"acronym\">GIMP</acronym> developers homepage. <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-dev\" title=\"GIMP Development\">[<abbr class=\"abbrev\">GIMP-DEV</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-fire-up.html:147(div:title)
+msgid "1.2. Language"
+msgstr ""
+
+#: en/gimp-fire-up.html:151(h3)
+msgid "<a id=\"gimp-concepts-running-language\"/>1.2. Language"
+msgstr ""
+
+#: en/gimp-fire-up.html:156(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> automatically detects and uses the system language. In the unlikely event that language detection fails, or if you just want to use a different language, you may do so:"
+msgstr ""
+
+#: en/gimp-fire-up.html:165(span)
+msgid "Linux"
+msgstr ""
+
+#: en/gimp-fire-up.html:168(p)
+msgid "<span class=\"emphasis\"><em>In LINUX</em></span>: in console mode, type <strong class=\"userinput\"><code>LANGUAGE=en gimp</code></strong> or <strong class=\"userinput\"><code>LANG=en gimp</code></strong> replacing en by fr, de, ... according to the language you want. Background: Using <strong class=\"userinput\"><code>LANGUAGE=en</code></strong> sets an environment variable for the executed program <strong class=\"userinput\"><code>gimp</code></strong>."
+msgstr ""
+
+#: en/gimp-fire-up.html:179(span)
+msgid "Windows XP"
+msgstr ""
+
+#: en/gimp-fire-up.html:182(p)
+msgid "<span class=\"guimenu\">Control Panel</span> → <span class=\"guisubmenu\">System</span> → <span class=\"guisubmenu\">Advanced</span> → <span class=\"guimenuitem\">Environment</span> button in <span class=\"quote\">“<span class=\"quote\">System Variables</span>”</span> area: <span class=\"guibutton\">Add</span> button: Enter LANG for Name and fr or de... for Value. Watch out! You have to click on three successive <span class=\"guibutton\">OK</span> to validate your choice."
+msgstr ""
+
+#: en/gimp-fire-up.html:189(p)
+msgid "If you change languages often, you can create a batch file to change the language. Open NotePad. Type the following commands (for french for instance):"
+msgstr ""
+
+#: en/gimp-fire-up.html:198(code)
+msgid "set lang=fr<br/> start gimp-2.6.exe"
+msgstr ""
+
+#: en/gimp-fire-up.html:203(p)
+msgid "Save this file as <code class=\"filename\">GIMP-FR.BAT</code> (or another name, but always with a <code class=\"filename\">.BAT</code> extension). Create a shortcut and drag it to your desktop."
+msgstr ""
+
+#: en/gimp-fire-up.html:209(p)
+msgid "Another possibility: <span class=\"guimenu\">Start</span> → <span class=\"guisubmenu\">Programs</span> → <span class=\"guimenuitem\">GTK Runtime Environment</span> Then <span class=\"guimenuitem\">Select language</span> and select the language you want in the dropdown list."
+msgstr ""
+
+#: en/gimp-fire-up.html:217(span)
+msgid "Apple Mac OS X"
+msgstr ""
+
+#: en/gimp-fire-up.html:220(p)
+msgid "From System Preferences, click on the International icon. In the Language tab, the desired language should be the first in the list."
+msgstr ""
+
+#: en/gimp-fire-up.html:227(span)
+msgid "Another GIMP instance"
+msgstr ""
+
+#: en/gimp-fire-up.html:230(p)
+msgid "Use <strong class=\"userinput\"><code>-n</code></strong> to run multiple instances GIMP. For example, use <strong class=\"userinput\"><code>gimp-2.6</code></strong> to start GIMP in the default system language, and <strong class=\"userinput\"><code>LANGUAGE=en gimp-2.6 -n</code></strong> to start another instance of <acronym class=\"acronym\">GIMP</acronym> in English; this is very useful for translators."
+msgstr ""
+
+#: en/gimp-fire-up.html:242(div:title)
+msgid "1.3. Command Line Arguments"
+msgstr ""
+
+#: en/gimp-fire-up.html:246(h3)
+msgid "<a id=\"gimp-concepts-running-command-line\"/>1.3. Command Line Arguments"
+msgstr ""
+
+#: en/gimp-fire-up.html:251(p)
+msgid "Although arguments are not required when starting <acronym class=\"acronym\">GIMP</acronym>, the most common arguments are shown below. On a Unix system, you can use <strong class=\"userinput\"><code>man gimp</code></strong>for a complete list."
+msgstr ""
+
+#: en/gimp-fire-up.html:257(p)
+msgid "Command line arguments must be in the command line that you use to start <acronym class=\"acronym\">GIMP</acronym> as <span class=\"command\"><strong>gimp-2.6 [OPTION...] [FILE|URI...]</strong></span>."
+msgstr ""
+
+#: en/gimp-fire-up.html:265(span)
+msgid "-?, --help"
+msgstr ""
+
+#: en/gimp-fire-up.html:268(p)
+msgid "Display a list of all commandline options."
+msgstr ""
+
+#: en/gimp-fire-up.html:271(span)
+msgid "--help-all"
+msgstr ""
+
+#: en/gimp-fire-up.html:274(p)
+msgid "Show all help options."
+msgstr ""
+
+#: en/gimp-fire-up.html:277(span)
+msgid "--help-gtk"
+msgstr ""
+
+#: en/gimp-fire-up.html:280(p)
+msgid "Show GTK+ Options."
+msgstr ""
+
+#: en/gimp-fire-up.html:283(span)
+msgid "-v, --version"
+msgstr ""
+
+#: en/gimp-fire-up.html:286(p)
+msgid "Print the <acronym class=\"acronym\">GIMP</acronym> version and exit."
+msgstr ""
+
+#: en/gimp-fire-up.html:291(span)
+msgid "--license"
+msgstr ""
+
+#: en/gimp-fire-up.html:294(p)
+msgid "Show license information and exit."
+msgstr ""
+
+#: en/gimp-fire-up.html:297(span)
+msgid "--verbose"
+msgstr ""
+
+#: en/gimp-fire-up.html:300(p)
+msgid "Show detailed start-up messages."
+msgstr ""
+
+#: en/gimp-fire-up.html:303(span)
+msgid "-n, --new-instance"
+msgstr ""
+
+#: en/gimp-fire-up.html:306(p)
+msgid "Start a new <acronym class=\"acronym\">GIMP</acronym> instance."
+msgstr ""
+
+#: en/gimp-fire-up.html:309(span)
+msgid "-a, --as-new"
+msgstr ""
+
+#: en/gimp-fire-up.html:312(p)
+msgid "Open images as new."
+msgstr ""
+
+#: en/gimp-fire-up.html:315(span)
+msgid "-i, --no-interface"
+msgstr ""
+
+#: en/gimp-fire-up.html:318(p)
+msgid "Run without a user interface."
+msgstr ""
+
+#: en/gimp-fire-up.html:321(span)
+msgid "-d, --no-data"
+msgstr ""
+
+#: en/gimp-fire-up.html:324(p)
+msgid "Do not load patterns, gradients, palettes, or brushes. Often useful in non-interactive situations where start-up time is to be minimized."
+msgstr ""
+
+#: en/gimp-fire-up.html:331(span)
+msgid "-f, --no-fonts"
+msgstr ""
+
+#: en/gimp-fire-up.html:334(p)
+msgid "Do not load any fonts. This is useful to load <acronym class=\"acronym\">GIMP</acronym> faster for scripts that do not use fonts, or to find problems related to malformed fonts that hang <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-fire-up.html:341(span)
+msgid "-s, --no-splash"
+msgstr ""
+
+#: en/gimp-fire-up.html:344(p)
+msgid "Do not show the splash screen while starting."
+msgstr ""
+
+#: en/gimp-fire-up.html:347(span)
+msgid "--no-shm"
+msgstr ""
+
+#: en/gimp-fire-up.html:350(p)
+msgid "Do not use shared memory between <acronym class=\"acronym\">GIMP</acronym> and plugins."
+msgstr ""
+
+#: en/gimp-fire-up.html:354(span)
+msgid "--no-cpu-accel"
+msgstr ""
+
+#: en/gimp-fire-up.html:357(p)
+msgid "Do not use special CPU acceleration functions. Useful for finding or disabling buggy accelerated hardware or functions."
+msgstr ""
+
+#: en/gimp-fire-up.html:362(code)
+msgid "name"
+msgstr ""
+
+#: en/gimp-fire-up.html:362(span)
+msgid "--session=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:365(p)
+msgid "Use a different <code class=\"filename\">sessionrc</code> for this <acronym class=\"acronym\">GIMP</acronym> session. The given session name is appended to the default <code class=\"filename\">sessionrc</code> filename."
+msgstr ""
+
+#: en/gimp-fire-up.html:373(code) en/gimp-fire-up.html:384(code)
+msgid "filename"
+msgstr ""
+
+#: en/gimp-fire-up.html:373(span)
+msgid "--gimprc=<placeholder-1/>"
+msgstr ""
+
+#: en/gimp-fire-up.html:376(p)
+msgid "Use an alternative <code class=\"filename\">gimprc</code> instead of the default one. The <code class=\"filename\">gimprc</code> file contains a record of your preferences. Useful in cases where plugins paths or machine specs may be different."
+msgstr ""
+
+#: en/gimp-fire-up.html:384(span)
+msgid "--system-gimprc=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:387(p)
+msgid "Use an alternate system gimprc file."
+msgstr ""
+
+#: en/gimp-fire-up.html:391(code)
+msgid "commands"
+msgstr ""
+
+#: en/gimp-fire-up.html:390(span)
+msgid "-b, --batch=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:395(p)
+msgid "Execute the set of commands non-interactively. The set of commands is typically in the form of a script that can be executed by one of the <acronym class=\"acronym\">GIMP</acronym> scripting extensions. When the command is <strong class=\"userinput\"><code>-</code></strong>, commands are read from standard input."
+msgstr ""
+
+#: en/gimp-fire-up.html:404(code)
+msgid "proc"
+msgstr ""
+
+#: en/gimp-fire-up.html:404(span)
+msgid "--batch-interpreter=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:407(p)
+msgid "Specify the procedure to use to process batch commands. The default procedure is Script-Fu."
+msgstr ""
+
+#: en/gimp-fire-up.html:411(span)
+msgid "--console-messages"
+msgstr ""
+
+#: en/gimp-fire-up.html:414(p)
+msgid "Do not popup dialog boxes on errors or warnings. Print the messages on the console instead."
+msgstr ""
+
+#: en/gimp-fire-up.html:420(code) en/gimp-fire-up.html:426(code)
+msgid "mode"
+msgstr ""
+
+#: en/gimp-fire-up.html:420(span)
+msgid "--pdb-compat-mode=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:423(p)
+msgid "PDB compatibility mode (off|on|warn)."
+msgstr ""
+
+#: en/gimp-fire-up.html:426(span)
+msgid "--stack-trace-mode=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:429(p)
+msgid "Debug in case of a crash (never|query|always)."
+msgstr ""
+
+#: en/gimp-fire-up.html:432(span)
+msgid "--debug-handlers"
+msgstr ""
+
+#: en/gimp-fire-up.html:435(p)
+msgid "Enable non-fatal debugging signal handlers. Useful for <acronym class=\"acronym\">GIMP</acronym> debugging."
+msgstr ""
+
+#: en/gimp-fire-up.html:439(span)
+msgid "--g-fatal-warnings"
+msgstr ""
+
+#: en/gimp-fire-up.html:442(p)
+msgid "Make all warnings fatal. Useful for debug."
+msgstr ""
+
+#: en/gimp-fire-up.html:445(span)
+msgid "--dump-gimprc"
+msgstr ""
+
+#: en/gimp-fire-up.html:448(p)
+msgid "Output a gimprc file with default settings. Useful if you messed up the gimprc file."
+msgstr ""
+
+#: en/gimp-fire-up.html:452(code)
+msgid "display"
+msgstr ""
+
+#: en/gimp-fire-up.html:452(span)
+msgid "--display=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: en/gimp-fire-up.html:455(p)
+msgid "Use the designated X display (does not apply to all platforms)."
+msgstr ""
+
+#: en/gimp-fire-up.html:471(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-fire-up.html:477(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-fire-up.html:480(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-fire-up.html:483(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

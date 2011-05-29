@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-paths.html:6(title) en/gimp-using-paths.html:34(div:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-paths.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-paths.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-paths.html:13(link:title) en/gimp-using-paths.html:28(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-paths.html:14(link:title) en/gimp-using-paths.html:210(a)
+msgid "4. Using QuickMask Mode"
+msgstr ""
+
+#: en/gimp-using-paths.html:15(link:title) en/gimp-using-paths.html:216(a)
+msgid "5.2. Path Properties"
+msgstr ""
+
+#: en/gimp-using-paths.html:23(span) en/gimp-using-paths.html:40(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-paths.html:21(th)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths.html:27(img:alt) en/gimp-using-paths.html:201(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-paths.html:27(td) en/gimp-using-paths.html:201(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-quickmask.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-paths.html:29(img:alt) en/gimp-using-paths.html:207(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-paths.html:29(td) en/gimp-using-paths.html:207(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths-properties.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-paths.html:38(h2)
+msgid "<a id=\"gimp-using-paths\"/>5.  <a id=\"gimp-concepts-paths\"/><placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths.html:47(p)
+msgid "Paths are curves (known as Bézier-curves). Paths are easy to learn and use in <acronym class=\"acronym\">GIMP</acronym>. To understand their concepts and mechanism, look at the glossary <a class=\"link\" href=\"glossary.html#glossary-bezier-curve\" title=\"B&#xE9;zier curve\">Bézier-curve</a> or Wikipedia <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-bezier\" title=\"Wikipedia - B&#xE9;zier curve\">[<abbr class=\"abbrev\">WKPD-BEZIER</abbr>]</a>. The Paths tool is very powerful, allowing you to design sophisticated forms. To use the Paths tool in <acronym class=\"acronym\">GIMP</acronym>, you must first create a path, and then stroke the path."
+msgstr ""
+
+#: en/gimp-using-paths.html:57(p)
+msgid "In <acronym class=\"acronym\">GIMP</acronym>, the term <span class=\"quote\">“<span class=\"quote\">Stroke path</span>”</span> means to apply a specific style to the path (color, width, pattern... )."
+msgstr ""
+
+#: en/gimp-using-paths.html:61(p)
+msgid "A Path has two main purposes:"
+msgstr ""
+
+#: en/gimp-using-paths.html:67(p)
+msgid "You can convert a closed path to a selection."
+msgstr ""
+
+#: en/gimp-using-paths.html:70(p)
+msgid "Any path, open or closed, can be <span class=\"emphasis\"><em>stroked</em></span>; that is, painted on the image in a variety of ways."
+msgstr ""
+
+#: en/gimp-using-paths.html:80(b)
+msgid "Figure 7.10. Illustration of four different path creating"
+msgstr ""
+
+#: en/gimp-using-paths.html:84(img:alt)
+msgid "Illustration of four different path creating"
+msgstr ""
+
+#: en/gimp-using-paths.html:86(p)
+msgid "Four examples of GIMP paths: one closed and polygonal; one open and polygonal; one closed and curved; one with a mixture of straight and curved segments."
+msgstr ""
+
+#: en/gimp-using-paths.html:96(div:title)
+msgid "5.1. Path Creation"
+msgstr ""
+
+#: en/gimp-using-paths.html:100(h3)
+msgid "<a id=\"gimp-using-paths-creating\"/>5.1. Path Creation"
+msgstr ""
+
+#: en/gimp-using-paths.html:104(p)
+msgid "Start by drawing the outline for your path; the outline can be modified later (see the <a class=\"link\" href=\"gimp-tool-path.html\" title=\"6.2.&#xA0;Paths\">Paths</a> tool). To start, select the Paths tool using one of the following methods:"
+msgstr ""
+
+#: en/gimp-using-paths.html:113(p)
+msgid "Use <span class=\"guimenu\">Tools</span> → <span class=\"guimenuitem\">Path</span> from the image menu."
+msgstr ""
+
+#: en/gimp-using-paths.html:120(p)
+msgid "Use the relevant icon <span class=\"guiicon\"><img src=\"images/toolbox/stock-tool-path-22.png\"/></span> in toolbox."
+msgstr ""
+
+#: en/gimp-using-paths.html:128(p)
+msgid "Use the hotkey <span class=\"keycap\"><strong>B</strong></span>."
+msgstr ""
+
+#: en/gimp-using-paths.html:132(p)
+msgid "When the Paths tool is selected, the mouse cursor changes into a pointer (arrow) with a curve. Left click in the image to create the first point on the path. Move the mouse to a new point and left click the mouse to create another point linked to the previous point. Although you can create as many points as you desire, you only need two points to learn about Paths. While adding points, the mouse cursor has a little <span class=\"quote\">“<span class=\"quote\">+</span>”</span> next to the curve, which indicates that clicking will add a new point. When the mouse cursor is close to a line segment, the <span class=\"quote\">“<span class=\"quote\">+</span>”</span> changes into a cross with arrows; like the move tool."
+msgstr ""
+
+#: en/gimp-using-paths.html:144(p)
+msgid "Move the mouse cursor close to a line segment, left-click and drag the line segment. Two events occur."
+msgstr ""
+
+#: en/gimp-using-paths.html:151(p)
+msgid "The line segment bends and curves as it is pulled."
+msgstr ""
+
+#: en/gimp-using-paths.html:154(p)
+msgid "Each line segment has a start point and an end point that is clearly labeled. A <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span> now projects from each end point for the line segment that was moved."
+msgstr ""
+
+#: en/gimp-using-paths.html:163(p)
+msgid "The curved line segment leaves an end point in the same direction that the <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span> leaves the end point. The length of the <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span> controls how far the line segment projects along the <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span> before curving toward the other end point. Each <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span> has an empty square box (called a handle) on one end. Click and drag a handle to change the direction and length of a <span class=\"quote\">“<span class=\"quote\">direction line</span>”</span>."
+msgstr ""
+
+#: en/gimp-using-paths.html:175(b)
+msgid "Figure 7.11. Appearance of a path while it is manipulated"
+msgstr ""
+
+#: en/gimp-using-paths.html:179(img:alt)
+msgid "Appearance of a path while it is manipulated"
+msgstr ""
+
+#: en/gimp-using-paths.html:181(p)
+msgid "Appearance of a path while it is manipulated using the Path tool."
+msgstr ""
+
+#: en/gimp-using-paths.html:189(p)
+msgid "The path is comprised of two components with both straight and curved segments. Black squares are anchor points, the open circle indicates the selected anchor, and the two open squares are the handles associated with the selected anchor."
+msgstr ""
+
+#: en/gimp-using-paths.html:204(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-paths.html:210(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-paths.html:213(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-paths.html:216(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-simpleobjects.html:6(title) el/gimp-using-simpleobjects.html:21(th) el/gimp-using-simpleobjects.html:31(div:title)
+msgid "13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:13(link:title) el/gimp-using-simpleobjects.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:14(link:title) el/gimp-using-simpleobjects.html:191(a)
+msgid "12. Παλέτες"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:15(link:title) el/gimp-using-simpleobjects.html:197(a)
+msgid "13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:24(img:alt) el/gimp-using-simpleobjects.html:182(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:24(td) el/gimp-using-simpleobjects.html:182(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-palettes.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:26(img:alt) el/gimp-using-simpleobjects.html:188(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:26(td) el/gimp-using-simpleobjects.html:188(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-rectangular.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:35(h2)
+msgid "<a id=\"gimp-using-simpleobjects\"/>13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:43(p)
+msgid "Σε αυτό το τμήμα, θα μάθετε να δημιουργείτε απλά αντικείμενα στο <acronym class=\"acronym\">GIMP</acronym>. Είναι απλό, μόλις καταλάβετε πώς γίνεται. Το <acronym class=\"acronym\">GIMP</acronym> προμηθεύει ένα τεράστιο σύνολο <a class=\"link\" href=\"gimp-tools.html\" title=\"Chapter&#xA0;13.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3B1;\">εργαλείων</a> και συντομεύσεων στο οποίο οι περισσότεροι νέοι χρήστες χάνονται."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:49(div:title)
+msgid "13.1. Σχεδίαση ευθείας γραμμής"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:53(h3)
+msgid "<a id=\"gimp-using-line\"/>13.1. Σχεδίαση ευθείας γραμμής"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:57(p)
+msgid "Ας ξεκινήσουμε σχεδιάζοντας μια ευθεία γραμμή. Ο πιο απλός τρόπος για δημιουργία μιας ευθείας γραμμής είναι χρησιμοποιώντας το αγαπημένο σας <a class=\"link\" href=\"gimp-tools-brush.html\" title=\"3.2.&#xA0;&#x3A0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3B1; (&#x39C;&#x3BF;&#x3BB;&#x3CD;&#x3B2;&#x3B9;, &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF;, &#x3B1;&#x3B5;&#x3C1;&#x3BF;&#x3B3;&#x3C1;&#x3AC;&#x3C6;&#x3BF;&#x3C2;)\"> πινέλο</a>, το ποντίκι και το πληκτρολόγιο."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:63(div:title) el/gimp-using-simpleobjects.html:66(b)
+msgid "Διαδικασία 7.1. Σχεδίαση ευθείας γραμμής"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:69(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:73(b)
+msgid "Εικόνα 7.35. Νέα εικόνα"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:77(img:alt)
+msgid "Νέα εικόνα"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:79(p)
+msgid "Ο διάλογος εμφανίζει μια νέα εικόνα γεμισμένη με λευκό φόντο."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:87(p)
+msgid "Δημιουργήστε μια <a class=\"link\" href=\"gimp-file-new.html\" title=\"2.2.&#xA0;&#x39D;&#x3AD;&#x3BF;\">νέα εικόνα</a>. Διαλέξτε το αγαπημένο σας <a class=\"link\" href=\"gimp-tools-brush.html\" title=\"3.2.&#xA0;&#x3A0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3B1; (&#x39C;&#x3BF;&#x3BB;&#x3CD;&#x3B2;&#x3B9;, &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF;, &#x3B1;&#x3B5;&#x3C1;&#x3BF;&#x3B3;&#x3C1;&#x3AC;&#x3C6;&#x3BF;&#x3C2;)\">πινέλο</a> ή χρησιμοποιείστε το <a class=\"link\" href=\"gimp-tool-pencil.html\" title=\"3.5.&#xA0;&#x39C;&#x3BF;&#x3BB;&#x3CD;&#x3B2;&#x3B9;\">μολύβι</a>, εάν αμφιβάλλετε. Διαλέξτε <a class=\"link\" href=\"gimp-tools.html#gimp-toolbox-color-area\" title=\"1.3.1.&#xA0;&#x3A7;&#x3C1;&#x3C9;&#x3BC;&#x3B1;&#x3C4;&#x3B9;&#x3BA;&#x3AE; &#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C7;&#x3AE;\">χρώμα προσκηνίου</a>, αλλά σιγουρευτείτε ότι τα χρώματα προσκηνίου και παρασκηνίου είναι διαφορετικά."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:96(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:100(b)
+msgid "Εικόνα 7.36. Η αρχή της ευθείας γραμμής"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:104(img:alt)
+msgid "Η αρχή της ευθείας γραμμής"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:106(p)
+msgid "Ο διάλογος εμφανίζει μια νέα εικόνα, με την πρώτη κουκίδα που δείχνει την αρχή της ευθείας γραμμής. Η κουκίδα έχει μαύρο χρώμα προσκηνίου."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:115(p)
+msgid "Δημιουργείστε ένα αρχικό σημείο πατώντας στην περιοχή <a class=\"link\" href=\"gimp-image-window.html#imagewindow-display\">εμφάνιση εικόνας</a> με το πλήκτρο του αριστερού ποντικιού. Ο καμβάς θα πρέπει να δείχνει παρόμοιος με <a class=\"xref\" href=\"gimp-using-simpleobjects.html#gimp-using-straightline1\" title=\"&#x395;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#xA0;7.35.&#xA0;&#x39D;&#x3AD;&#x3B1; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;\">Εικόνα 7.35. “Νέα εικόνα”</a>."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:122(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:126(b)
+msgid "Εικόνα 7.37. Η γραμμή βοήθειας"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:130(img:alt)
+msgid "Η γραμμή βοήθειας"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:132(p)
+msgid "Το στιγμιότυπο εμφανίζει τη γραμμή βοήθειας που δείχνει πώς θα φαίνεται η τελική γραμμή."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:140(p)
+msgid "Τώρα πατήστε και κρατείστε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> στο πληκτρολόγιο και μετακινήστε το ποντίκι μακριά από το αρχικό σημείο που δημιουργήσατε. Θα δείτε μια λεπτή γραμμή που θα δείχνει πώς θα φαίνεται η γραμμή."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:146(li:title)
+msgid "Βήμα 4"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:150(b)
+msgid "Εικόνα 7.38. Η γραμμή μετά το δεύτερο κλικ"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:154(img:alt)
+msgid "Η γραμμή μετά το δεύτερο κλικ"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:156(p)
+msgid "Η δημιουργηθείσα γραμμή εμφανίζεται στο παράθυρο εικόνας μετά τη σχεδίαση του δεύτερου (ή τελικού) σημείου, ενώ το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> είναι ακόμα πατημένο."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:165(p)
+msgid "Εάν είσθε ικανοποιημένοι με την κατεύθυνση και το μήκος της γραμμής, πατήστε το πλήκτρο του αριστερού ποντικιού ξανά για να τελειώσετε τη γραμμή. Το <acronym class=\"acronym\">GIMP</acronym> εμφανίζει μια ευθεία γραμμή τώρα. Εάν η γραμμή δεν εμφανιστεί, ελέγξτε τα χρώματα προσκηνίου και παρασκηνίου και βεβαιωθείτε ότι κρατάτε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> πατημένο, ενώ σχεδιάζετε. Μπορείτε να συνεχίσετε δημιουργώντας γραμμές κρατώντας το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> πατημένο και δημιουργώντας επιπρόσθετα τελικά σημεία."
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:185(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:191(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:194(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-simpleobjects.html:197(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

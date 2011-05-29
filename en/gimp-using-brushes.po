@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-brushes.html:6(title) en/gimp-using-brushes.html:21(th) en/gimp-using-brushes.html:31(div:title)
+msgid "7. Adding New Brushes"
+msgstr ""
+
+#: en/gimp-using-brushes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-brushes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-brushes.html:13(link:title) en/gimp-using-brushes.html:25(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-brushes.html:14(link:title) en/gimp-using-brushes.html:180(a)
+msgid "6. Brushes"
+msgstr ""
+
+#: en/gimp-using-brushes.html:15(link:title) en/gimp-using-brushes.html:186(a)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/gimp-using-brushes.html:24(img:alt) en/gimp-using-brushes.html:171(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-brushes.html:24(td) en/gimp-using-brushes.html:171(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-brushes.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-brushes.html:26(img:alt) en/gimp-using-brushes.html:177(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-brushes.html:26(td) en/gimp-using-brushes.html:177(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-animated-brushes.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-brushes.html:35(h2)
+msgid "<a id=\"gimp-using-brushes\"/>7. Adding New Brushes"
+msgstr ""
+
+#: en/gimp-using-brushes.html:40(p)
+msgid "To add a new brush, after either creating or downloading it, you need to save it in a format GIMP can use. The brush file needs to be placed in the GIMP's brush search path, so that GIMP is able to index and display it in the Brushes dialog. You can hit the <span class=\"guibutton\">Refresh</span> button, which reindexes the brush directory. GIMP uses three file formats for brushes:"
+msgstr ""
+
+#: en/gimp-using-brushes.html:53(span)
+msgid "GBR"
+msgstr ""
+
+#: en/gimp-using-brushes.html:58(p)
+msgid "The <code class=\"filename\">.gbr</code> (\"<span class=\"emphasis\"><em>g</em></span>imp <span class=\"emphasis\"><em>br</em></span>ush\") format is used for ordinary and color brushes. You can convert many other types of images, including many brushes used by other programs, into GIMP brushes by opening them in GIMP and saving them with file names ending in <code class=\"filename\">.gbr</code>. This brings up a dialog box in which you can set the default Spacing for the brush. A more complete description of the GBR file format can be found in the file <code class=\"filename\">gbr.txt</code> in the <code class=\"filename\">devel-docs</code> directory of the GIMP source distribution."
+msgstr ""
+
+#: en/gimp-using-brushes.html:75(code)
+msgid ".gbr"
+msgstr ""
+
+#: en/gimp-using-brushes.html:74(b)
+msgid "Figure 7.17.  Save a <placeholder-1/> brush"
+msgstr ""
+
+#: en/gimp-using-brushes.html:80(img:alt)
+msgid "Save a .gbr brush"
+msgstr ""
+
+#: en/gimp-using-brushes.html:87(span)
+msgid "GIH"
+msgstr ""
+
+#: en/gimp-using-brushes.html:92(p)
+msgid "The <code class=\"filename\">.gih</code> (\"<span class=\"emphasis\"><em>g</em></span>imp <span class=\"emphasis\"><em>i</em></span>mage <span class=\"emphasis\"><em>h</em></span>ose\") format is used for animated brushes. These brushes are constructed from images containing multiple layers: each layer may contain multiple brush-shapes, arranged in a grid. When you save an image as a <code class=\"filename\">.gih</code> file, a dialog comes up that allows you to describe the format of the brush. Look at <a class=\"link\" href=\"gimp-using-animated-brushes.html\" title=\"8.&#xA0;The GIH Dialog Box\">The GIH dialog box</a> for more information about the dialog. The GIH format is rather complicated: a complete description can be found in the file <code class=\"filename\">gih.txt</code> in the <code class=\"filename\">devel-docs</code> directory of the GIMP source distribution."
+msgstr ""
+
+#: en/gimp-using-brushes.html:109(span)
+msgid "VBR"
+msgstr ""
+
+#: en/gimp-using-brushes.html:114(p)
+msgid "The <code class=\"filename\">.vbr</code> format is used for parametric brushes, i. e., brushes created using the Brush Editor. There is really no other meaningful way of obtaining files in this format."
+msgstr ""
+
+#: en/gimp-using-brushes.html:123(p)
+msgid "To make a brush available, place it in one of the folders in GIMP's brush search path. By default, the brush search path includes two folders, the system <code class=\"filename\">brushes</code> folder, which you should not use or alter, and the <code class=\"filename\">brushes</code> folder inside your personal GIMP directory. You can add new folders to the brush search path using the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;Data Folders\">Brush Folders</a> page of the Preferences dialog. Any GBR, GIH, or VBR file included in a folder in the brush search path will show up in the Brushes dialog the next time you start GIMP, or as soon as you press the <span class=\"guibutton\">Refresh</span> button in the Brushes dialog."
+msgstr ""
+
+#: en/gimp-using-brushes.html:135(div:title) en/gimp-using-brushes.html:141(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-brushes.html:139(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-brushes.html:145(p)
+msgid "When you create a new parametric brush using the Brush Editor, it is automatically saved in your personal <code class=\"filename\">brushes</code> folder."
+msgstr ""
+
+#: en/gimp-using-brushes.html:154(p)
+msgid "There are a number of web sites with downloadable collections of GIMP brushes. Rather than supplying a list of links that will soon be out of date, the best advice is to do a search with your favorite search engine for <span class=\"quote\">“<span class=\"quote\">GIMP brushes</span>”</span>. There are also many collections of brushes for other programs with painting functionality. Some can be converted easily into GIMP brushes, some require special conversion utilities, and some cannot be converted at all. Most fancy procedural brush types fall into the last category. If you need to know, look around on the web, and if you don't find anything, look for an expert to ask."
+msgstr ""
+
+#: en/gimp-using-brushes.html:174(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-brushes.html:180(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-brushes.html:183(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-brushes.html:186(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

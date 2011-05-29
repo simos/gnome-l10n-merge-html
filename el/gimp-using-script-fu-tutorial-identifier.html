@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3.2. Μεταβλητές και συναρτήσεις</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. Διδακτική ενός Script-Fu" />
+<link rel="prev" href="gimp-using-script-fu-tutorial.html" title="3. Διδακτική ενός Script-Fu" />
+<link rel="next" href="gimp-using-script-fu-tutorial-lists.html" title="3.3. Λίστες, λίστες και πάλι λίστες" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3.2. Μεταβλητές και συναρτήσεις</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">3. Διδακτική ενός Script-Fu</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="3.2. Μεταβλητές και συναρτήσεις">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-script-fu-tutorial-identifier"></a>3.2.Μεταβλητές και συναρτήσεις</h3>
+</div>
+</div>
+</div>
+<p>
+Τώρα που ξέρουμε ότι κάθε πρόταση του Scheme περιβάλλεται από παρενθέσεις και ότι το όνομα/τελεστής της
+συνάρτησης καταχωρίζεται πρώτο, χρειάζεται να μάθουμε τη δημιουργία και χρήση μεταβλητών και πώς να
+δημιουργήσουμε και να χρησιμοποιήσουμε τις συναρτήσεις. Θα ξεκινήσουμε με τις μεταβλητές.
+</p>
+<div class="sect3" title="3.2.1. Declaring Variables">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3231753"></a>3.2.1. Δήλωση μεταβλητών</h4>
+</div>
+</div>
+</div>
+<p>
+Αν και υπάρχουν περισσότερες μέθοδοι για δήλωση μεταβλητών, η προτιμώμενη μέθοδος είναι η χρήση της δομής
+<span class="command"><strong>let*</strong></span>. Εάν ξέρετε άλλες γλώσσες προγραμματισμού, αυτή η δομή
+είναι ισοδύναμη με τον ορισμό μιας λίστας τοπικών μεταβλητών και μια εμβέλεια στην οποία είναι ενεργή. Π.χ.,
+για να δηλώσετε δύο μεταβλητές, a και b, αρχικοποιημένες στο 1 και 2, αντίστοιχα, πρέπει να γράψετε:
+</p>
+<pre class="programlisting">
+(let*
+(
+(a 1)
+(b 2)
+)
+(+ a b)
+)
+</pre>
+<p>ή σε μια γραμμή</p>
+<pre class="programlisting">(let* ( (a 1) (b 2) ) (+ a b) )</pre>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Πρέπει να γράψετε όλο αυτό σε μια γραμμή εάν χρησιμοποιείται το παράθυρο κονσόλας. Γενικά, όμως, θα θέλετε να
+υιοθετήσετε μια παρόμοια πρακτική εσοχής για να κάνετε τα σενάρια σας πιο ευανάγνωστα. Θα μιλήσουμε λίγο
+περισσότερο για αυτό στην ενότητα του κενού διαστήματος.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+Αυτό δηλώνει δύο τοπικές μεταβλητές, a και b, τις αρχικοποιεί, έπειτα τυπώνει το άθροισμα των δύο μεταβλητών.
+</p>
+</div>
+<div class="sect3" title="3.2.2. Τι είναι τοπική μεταβλητή;">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3231714"></a>3.2.2. Τι είναι τοπική μεταβλητή;</h4>
+</div>
+</div>
+</div>
+<p>
+Θα παρατηρήσατε ότι γράψαμε την άθροιση <code class="code">(+ a b)</code> μέσα στις παρενθέσεις της έκφρασης
+<code class="code">let*</code>, και όχι μετά.
+</p>
+<p>
+Αυτό γιατί η πρόταση <code class="code">let*</code> ορίζει μια περιοχή στο σενάριο σας στην οποία οι δηλωμένες
+μεταβλητές είναι χρησιμοποιήσιμες. Εάν γράψετε την πρόταση <strong class="userinput"><code>(+ a b)</code></strong>
+μετά την πρόταση <strong class="userinput"><code>(let* …)</code></strong>, θα πάρετε σφάλμα, επειδή οι δηλωμένες
+μεταβλητές ισχύουν μόνο μέσα στο πλαίσιο της πρότασης <code class="code">let*</code>. Είναι αυτό που οι
+προγραμματιστές αποκαλούν τοπικές μεταβλητές.
+</p>
+</div>
+<div class="sect3" title="3.2.3. Η γενική σύνταξη του let*">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3216440"></a>3.2.3. Η γενική σύνταξη του <code class="code">let*</code></h4>
+</div>
+</div>
+</div>
+<p>Η γενική μορφή της πρότασης <code class="code">let*</code> είναι:</p>
+<pre class="programlisting">
+(let* ( <em class="replaceable"><code>μεταβλητές</code></em> )
+<em class="replaceable"><code>εκφράσεις</code></em> )
+</pre>
+<p>
+όπου οι μεταβλητές δηλώνονται μέσα σε παρενθέσεις, π.χ., <strong class="userinput"><code>(a 2)</code></strong>
+και εκφράσεις είναι κάθε έγκυρη έκφραση του Scheme. Να θυμόσαστε ότι οι δηλωμένες μεταβλητές εδώ είναι έγκυρες
+μόνο μέσα στην πρόταση <code class="code">let*</code> — είναι τοπικές μεταβλητές.
+</p>
+</div>
+<div class="sect3" title="3.2.4. Κενό διάστημα">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3216411"></a>3.2.4. Κενό διάστημα</h4>
+</div>
+</div>
+</div>
+<p>
+Πιο μπροστά, αναφέραμε το γεγονός ότι θα θέλετε προφανώς να χρησιμοποιήσετε εσοχές για να ξεκαθαρίσετε και να
+οργανώσετε τα σενάρια σας. Αυτή είναι μια καλή πολιτική να δεχθείτε και δεν είναι πρόβλημα στο Scheme — κενά
+διαστήματα αγνοούνται από τον ερμηνευτή του Scheme και μπορείτε έτσι να τα εφαρμόσετε ελεύθερα για ξεκαθάρισμα
+και οργάνωση του κώδικα στο σενάριο. Όμως, εάν δουλεύετε στο παράθυρο της κονσόλας του Script-Fu, θα πρέπει να
+εισαγάγετε την συνολική έκφραση σε μια γραμμή, δηλαδή οτιδήποτε μεταξύ της αρχικής και τελικής παρένθεσης μιας
+έκφρασης, πρέπει να έλθει σε μια γραμμή στο παράθυρο της κονσόλας του Script-Fu.
+</p>
+</div>
+<div class="sect3" title="3.2.5. Απόδοση μιας νέας τιμής σε μια μεταβλητή">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3139700"></a>3.2.5. Απόδοση μιας νέας τιμής σε μια μεταβλητή</h4>
+</div>
+</div>
+</div>
+<p>
+Αφού αρχικοποιήσατε μια μεταβλητή, ίσως χρειαστεί να αλλάξετε την τιμή της αργότερα στο σενάριο. Χρησιμοποιήστε
+την πρόταση <code class="code">set!</code> για να αλλάξετε την τιμή της μεταβλητής:
+</p>
+<pre class="programlisting">
+(let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )
+</pre>
+<p>
+Προσπαθήστε να μαντέψετε τι θα κάνει η πιο πάνω πρόταση, έπειτα συνεχίστε και εισάγετε το στο παράθυρο
+κονσόλας του Script-Fu.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Το <span class="quote">“<span class="quote"><code class="code">\</code></span>”</span> δείχνει ότι δεν υπάρχει
+καμία αλλαγή γραμμής. Αγνοήστε το (μην το γράφετε στην κονσόλα Script-Fu και μην πατάτε
+<span class="keycap"><strong>Enter</strong></span>), απλά συνεχίστε με την επόμενη γραμμή
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3" title="3.2.6. Συναρτήσεις">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3150259"></a>3.2.6. Συναρτήσεις</h4>
+</div>
+</div>
+</div>
+<p>
+Τώρα που μάθατε για τις μεταβλητές, ας δουλέψουμε με μερικές συναρτήσεις. Δηλώνετε μια συνάρτηση με την
+ακόλουθη σύνταξη.
+</p>
+<pre class="programlisting">
+(define
+(
+<em class="replaceable"><code>name</code></em>
+<em class="replaceable"><code>param-list</code></em>
+)
+<em class="replaceable"><code>expressions</code></em>
+)
+</pre>
+<p>
+όπου <em class="replaceable"><code>name</code></em> είναι το αποδοθέν όνομα στη συνάρτηση,
+<em class="replaceable"><code>param-list</code></em> is a space-delimited
+list of parameter names, and <em class="replaceable"><code>expressions</code></em> είναι η σειρά των εκφράσεων
+που η συνάρτηση εκτελεί, όταν καλείται. Π.χ.:
+</p>
+<pre class="programlisting">(define (AddXY inX inY) (+ inX inY) )</pre>
+<p>
+<code class="varname">AddXY</code> είναι το όνομα της συνάρτησης και
+<code class="varname">inX</code> καθώς και <code class="varname">inY</code> είναι οι μεταβλητές. Αυτή η συνάρτηση
+παίρνει τις δύο παραμέτρους της και τις προσθέτει μαζί.
+</p>
+<p>
+Εάν έχετε προγραμματίσει σε άλλες προστακτικές γλώσσες (όπως C/C++, Java, Pascal, κλ.), ίσως να παρατηρήσατε
+ότι μερικά πράγματα λείπουν στον ορισμό αυτής της συνάρτησης, όταν συγκρίνετε με άλλες προγραμματιστικές
+γλώσσες.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Πρώτα, σημειώστε ότι οι παράμετροι δεν έχουν κανένα <span class="quote">“<span class="quote">τύπο</span>”</span>
+(δηλαδή δεν τις δηλώσαμε ως αλφαριθμητικά, ακέραιους κλ.). Το Scheme είναι μια άτυπη γλώσσα. Αυτό είναι
+εύχρηστο και επιτρέπει τη συγγραφή πιο γρήγορων σεναρίων.
+</p>
+</li>
+<li class="listitem">
+<p>
+Δεύτερο, παρατηρείστε ότι δεν χρειάζεται να ανησυχούμε για την
+<span class="quote">“<span class="quote">επιστροφή</span>”</span> του αποτελέσματος της συνάρτησης μας —
+η τελευταία πρόταση είναι η <span class="quote">“<span class="quote">επιστρεφόμενη</span>”</span> τιμή,
+όταν καλείται αυτή η συνάρτηση. Γράψτε τη συνάρτηση στην κονσόλα, έπειτα προσπαθήστε κάτι όπως:
+</p>
+<pre class="programlisting">(AddXY (AddXY 5 6) 4)</pre>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial.html">3. Διδακτική ενός Script-Fu</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html">3.3. Λίστες, λίστες και πάλι λίστες</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

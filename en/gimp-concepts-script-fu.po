@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-script-fu.html:6(title) en/gimp-concepts-script-fu.html:21(th) en/gimp-concepts-script-fu.html:31(div:title)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:13(link:title) en/gimp-concepts-script-fu.html:14(link:title) en/gimp-concepts-script-fu.html:25(th) en/gimp-concepts-script-fu.html:105(a)
+msgid "Chapter 12. Scripting"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:15(link:title) en/gimp-concepts-script-fu.html:111(a)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:24(img:alt) en/gimp-concepts-script-fu.html:96(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:24(td) en/gimp-concepts-script-fu.html:96(td)
+msgid "<a accesskey=\"p\" href=\"gimp-scripting.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:26(img:alt) en/gimp-concepts-script-fu.html:102(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:26(td) en/gimp-concepts-script-fu.html:102(td)
+msgid " <a accesskey=\"n\" href=\"install-script-fu.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:35(h2)
+msgid "<a id=\"gimp-concepts-script-fu\"/>2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:40(div:title)
+msgid "2.1. Script-Fu?"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:44(h3)
+msgid "<a id=\"id3116609\"/>2.1. Script-Fu?"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:48(p)
+msgid "Script-Fu is what the Windows world would call \"macros\" But Script-Fu is more powerful than that. Script-Fu is based on an interpreting language called Scheme, and works by using querying functions to the <acronym class=\"acronym\">GIMP</acronym> database. You can do all kinds of things with Script-Fu, but an ordinary <acronym class=\"acronym\">GIMP</acronym> user will probably use it for automating things that:"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:60(p)
+msgid "You want to do frequently."
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:63(p)
+msgid "Are really complicated to do, and hard to remember."
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:67(p)
+msgid "Remember that you can do a whole lot with Script-Fu. The scripts that come with <acronym class=\"acronym\">GIMP</acronym> can be quite useful, but they can also serve as models for learning Script-Fu, or at least as a framework and source of modification when you make your own script. Read the Script-Fu Tutorial in the next section if you want to learn more about how to make scripts."
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:75(p)
+msgid "We will describe some of the most useful scripts in this chapter, but we won't cover them all. There are simply too many scripts. Some of the scripts are also very simple and you will probably not need any documentation to be able to use them."
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:81(p)
+msgid "Script-Fu (a dialect of Scheme) isn't the only scripting language available for <acronym class=\"acronym\">GIMP</acronym>. But Script-Fu is the only scripting language that is installed by default. Other available scripting extensions are Perl and Tcl. You can download and install both extensions at the <acronym class=\"acronym\">GIMP</acronym> Plugin Registry <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-plugin-registry\" title=\"GIMP-Plugin Registry\">[<abbr class=\"abbrev\">GIMP-REGISTRY</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:99(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:105(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:108(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-script-fu.html:111(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

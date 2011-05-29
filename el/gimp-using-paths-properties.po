@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-paths-properties.html:6(title) el/gimp-using-paths-properties.html:21(th) el/gimp-using-paths-properties.html:31(div:title)
+msgid "5.2. Ιδιότητες μονοπατιού"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:13(link:title) el/gimp-using-paths-properties.html:14(link:title)
+msgid "5.  Μονοπάτια"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:15(link:title) el/gimp-using-paths-properties.html:117(a)
+msgid "5.3. Μονοπάτια και επιλογές"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:24(img:alt) el/gimp-using-paths-properties.html:100(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:24(td) el/gimp-using-paths-properties.html:100(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:25(span) el/gimp-using-paths-properties.html:110(span)
+msgid "Μονοπάτια"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:25(th)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:26(img:alt) el/gimp-using-paths-properties.html:106(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:26(td) el/gimp-using-paths-properties.html:106(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths-and-selections.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:35(h3)
+msgid "<a id=\"gimp-using-paths-properties\"/>5.2. Ιδιότητες μονοπατιού"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:39(p)
+msgid "Τα μονοπάτια, όπως οι στρώσεις και τα κανάλια, είναι συστατικά μιας εικόνας. Όταν μια εικόνα αποθηκεύεται στην εγγενή μορφή αρχείου του GIMP XCF, οποιοδήποτε μονοπάτι αποθηκεύεται μαζί του. Ο κατάλογος των μονοπατιών σε μια εικόνα μπορεί να παρατηρηθεί και να επεξεργαστεί χρησιμοποιώντας το <a class=\"link\" href=\"gimp-path-dialog.html\" title=\"2.3.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3BC;&#x3BF;&#x3BD;&#x3BF;&#x3C0;&#x3B1;&#x3C4;&#x3B9;&#x3CE;&#x3BD;\">Διάλογος μονοπατιών</a>. Μπορείτε να μετακινήσετε ένα μονοπάτι από μια εικόνα σε μια άλλη με αντιγραφή και επικόλληση χρησιμοποιώντας το αναδυόμενο μενού στο διάλογο μονοπατιών ή σύροντας ένα εικονίδιο από το διάλογο μονοπατιών στο προοριζόμενο παράθυρο εικόνας."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:48(p)
+msgid "Τα μονοπάτια του GIMP ανήκουν σε ένα μαθηματικό τύπο που λέγεται <span class=\"quote\">“<span class=\"quote\"> Μονοπάτια Bezier </span>”</span>. Αυτό σημαίνει πρακτικά ότι ορίζονται από <span class=\"emphasis\"><em>άγκυρες</em></span> και <span class=\"emphasis\"><em>λαβές</em></span>. Οι <span class=\"quote\">“<span class=\"quote\">άγκυρες</span>”</span> είναι τα σημεία από όπου περνά το μονοπάτι. Οι <span class=\"quote\">“<span class=\"quote\">λαβές</span>”</span> ορίζουν την κατεύθυνση του μονοπατιού όταν μπαίνει ή βγαίνει από ένα σημείο αγκύρωσης. Κάθε σημείο αγκύρωσης έχει δύο λαβές προσκολλημένες σε αυτό."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:56(p)
+msgid "Τα μονοπάτια μπορεί να είναι πολύ σύνθετα. Εάν τα δημιουργείτε με το χέρι και το εργαλείο μονοπατιών δεν θα περιέχει πάνω από μερικές δεκάδες σημεία αγκύρωσης. Εάν, όμως, τα δημιουργείτε μετασχηματίζοντας μία επιλογή σε μονοπάτι, ή μετασχηματίζοντας κείμενο σε μονοπάτι, το αποτέλεσμα μπορεί να περιέχει εκατοντάδες ή χιλιάδες σημεία αγκύρωσης."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:62(p)
+msgid "Ένα μονοπάτι μπορεί να περιέχει πολλαπλά <span class=\"emphasis\"><em>συστατικά</em></span>. Ένα <span class=\"quote\">“<span class=\"quote\">συστατικό</span>”</span> είναι τμήμα ενός μονοπατιού, του οποίου τα σημεία αγκύρωσης είναι όλα συνδεμένα μεταξύ τους με τμήματα μονοπατιού. Τα πολλά συστατικά στα μονοπάτια, σας επιτρέπουν να τα μετατρέπετε σε επιλογές με πολλαπλά αποσυνδεμένα τμήματα."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:68(p)
+msgid "Κάθε συστατικό ενός μονοπατιού μπορεί να είναι είτε <span class=\"emphasis\"><em>ανοιχτό</em></span> είτε <span class=\"emphasis\"><em>κλειστό</em></span>. <span class=\"quote\">“<span class=\"quote\">Κλειστό</span>”</span> σημαίνει ότι το τελευταίο σημείο αγκύρωσης συνδέεται με το πρώτο σημείο αγκύρωσης. Εάν μετασχηματίσετε ένα μονοπάτι σε επιλογή, οποιαδήποτε ανοιχτά συστατικά μετατρέπονται αυτόματα σε κλειστά, συνδέοντας το τελευταίο σημείο αγκύρωσης στο πρώτο σημείο αγκύρωσης με ευθεία γραμμή."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:75(p)
+msgid "Τα τμήματα των μονοπατιών μπορεί να είναι ή ευθεία ή καμπύλα. Ένα μονοπάτι λέγεται <span class=\"quote\">“<span class=\"quote\">πολυγωνικό</span>”</span> εάν όλα τα τμήματα του είναι ευθεία. Ένα νέο τμήμα μονοπατιού δημιουργείται πάντοτε ευθύ. Οι λαβές για τα σημεία αγκύρωσης είναι ακριβώς στην κορυφή των σημείων αγκύρωσης, παράγοντας λαβές μηδενικού μήκους, που δημιουργεί τμήματα ευθείας. Σύρτε μια λαβή μακριά από το σημείο αγκύρωσης για να καμπυλωθεί ένα τμήμα."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:82(p)
+msgid "Το καλό με τα μονοπάτια είναι ότι χρησιμοποιούν πολύ λίγους πόρους, ειδικά συγκρίνοντας τα με τις εικόνες. Η αντιπροσώπευση ενός μονοπατιού στη RAM απαιτεί αποθήκευση μόνο των συντεταγμένων των αγκυρών και λαβών. 1K μνήμης είναι αρκετό για ένα σύνθετο μονοπάτι, αλλά ανεπαρκές για μια στρώση RGB 20x20 εικονοστοιχείων. Άρα είναι δυνατό να έχουμε κυριολεκτικά εκατοντάδες μονοπάτια σε μια εικόνα χωρίς να δημιουργούνται προβλήματα στο σύστημα. Ο αριθμός των προβλημάτων που μπορεί να <span class=\"emphasis\"><em>σας</em></span> προκαλέσουν εκατοντάδες μονοπάτια , όμως, είναι άλλο θέμα. Ακόμα και ένα μονοπάτι με χιλιάδες τμήματα καταναλώνει ελάχιστους πόρους σε σύγκριση με μια τυπική στρώση ή κανάλι."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:91(p)
+msgid "Τα μονοπάτια μπορούν να δημιουργηθούν και να επεξεργαστούν με το <a class=\"link\" href=\"gimp-tool-path.html\" title=\"6.2.&#xA0;Paths\">εργαλείο μονοπατιών</a>."
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:103(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:109(a)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:109(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:114(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-paths-properties.html:117(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

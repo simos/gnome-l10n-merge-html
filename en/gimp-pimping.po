@@ -1,0 +1,1779 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-pimping.html:6(title) en/gimp-pimping.html:21(th) en/gimp-pimping.html:33(div:title)
+msgid "Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/gimp-pimping.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-pimping.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-pimping.html:13(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-pimping.html:14(link:title) en/gimp-pimping.html:2554(a)
+msgid "Chapter 10. Color Management with GIMP"
+msgstr ""
+
+#: en/gimp-pimping.html:15(link:title) en/gimp-pimping.html:2560(a)
+msgid "2. Grids and Guides"
+msgstr ""
+
+#: en/gimp-pimping.html:24(img:alt) en/gimp-pimping.html:2545(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-pimping.html:24(td) en/gimp-pimping.html:2545(td)
+msgid "<a accesskey=\"p\" href=\"gimp-imaging-color-management.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-pimping.html:26(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-pimping.html:25(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-pimping.html:28(img:alt) en/gimp-pimping.html:2551(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-pimping.html:28(td) en/gimp-pimping.html:2551(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-image-grid-and-guides.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-pimping.html:37(h2)
+msgid "<a id=\"gimp-pimping\"/>Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/gimp-pimping.html:43(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-pimping.html:48(a)
+msgid "1. Preferences Dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:55(a)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/gimp-pimping.html:60(a)
+msgid "1.2. Environment"
+msgstr ""
+
+#: en/gimp-pimping.html:65(a)
+msgid "1.3. Interface"
+msgstr ""
+
+#: en/gimp-pimping.html:70(a)
+msgid "1.4. Theme"
+msgstr ""
+
+#: en/gimp-pimping.html:75(a)
+msgid "1.5. Help System"
+msgstr ""
+
+#: en/gimp-pimping.html:80(a)
+msgid "1.6. Tool Options"
+msgstr ""
+
+#: en/gimp-pimping.html:85(a)
+msgid "1.7. Toolbox"
+msgstr ""
+
+#: en/gimp-pimping.html:90(a)
+msgid "1.8. Default Image Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:95(a)
+msgid "1.9. Default Image Grid"
+msgstr ""
+
+#: en/gimp-pimping.html:100(a)
+msgid "1.10. Image Windows"
+msgstr ""
+
+#: en/gimp-pimping.html:105(a)
+msgid "1.11. Image Window Appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:110(a)
+msgid "1.12. Image Window Title and Statusbar"
+msgstr ""
+
+#: en/gimp-pimping.html:115(a)
+msgid "1.13. Display"
+msgstr ""
+
+#: en/gimp-pimping.html:120(a)
+msgid "1.14. Color Management"
+msgstr ""
+
+#: en/gimp-pimping.html:125(a)
+msgid "1.15. Input Devices"
+msgstr ""
+
+#: en/gimp-pimping.html:130(a)
+msgid "1.16. Input Controllers"
+msgstr ""
+
+#: en/gimp-pimping.html:135(a)
+msgid "1.17. Window Management"
+msgstr ""
+
+#: en/gimp-pimping.html:140(a)
+msgid "1.18. Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:145(a)
+msgid "1.19. Data Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:152(a)
+msgid "2. Grids and Guides"
+msgstr ""
+
+#: en/gimp-pimping.html:159(a)
+msgid "2.1. The Image Grid"
+msgstr ""
+
+#: en/gimp-pimping.html:164(a)
+msgid "2.2. Guides"
+msgstr ""
+
+#: en/gimp-pimping.html:171(a)
+msgid "3. Rendering a Grid"
+msgstr ""
+
+#: en/gimp-pimping.html:176(a)
+msgid "4. How to Set Your Tile Cache"
+msgstr ""
+
+#: en/gimp-pimping.html:181(a)
+msgid "5. Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/gimp-pimping.html:186(a)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/gimp-pimping.html:191(div:title)
+msgid "1. Preferences Dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:195(h2)
+msgid "<a id=\"gimp-prefs-dialog\"/>1. Preferences Dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:201(div:title)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/gimp-pimping.html:205(h3)
+msgid "<a id=\"id3206452\"/>1.1. Introduction"
+msgstr ""
+
+#: en/gimp-pimping.html:212(b)
+msgid "Figure 11.1. List of preference pages"
+msgstr ""
+
+#: en/gimp-pimping.html:216(img:alt)
+msgid "List of preference pages"
+msgstr ""
+
+#: en/gimp-pimping.html:221(p)
+msgid "The preferences dialog can be accessed from the image menu-bar, through <span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Preferences</span>. It lets you customize many aspects of the way GIMP works. The following sections detail the settings that you can customize, and what they affect."
+msgstr ""
+
+#: en/gimp-pimping.html:228(p)
+msgid "All of the Preferences information is stored in a file called <code class=\"filename\">gimprc</code> in your personal GIMP directory, so if you are a <span class=\"quote\">“<span class=\"quote\">power user</span>”</span> who would rather work with a text editor than a graphical interface, you can alter preferences by editing that file. If you do, and you are on a Linux system, then <span class=\"command\"><strong>man gimprc</strong></span> will give you a lot of technical information about the contents of the file and what they are used for."
+msgstr ""
+
+#: en/gimp-pimping.html:239(div:title)
+msgid "1.2. Environment"
+msgstr ""
+
+#: en/gimp-pimping.html:243(h3)
+msgid "<a id=\"gimp-prefs-environment\"/>1.2. Environment"
+msgstr ""
+
+#: en/gimp-pimping.html:252(b)
+msgid "Figure 11.2. Environment Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:256(img:alt)
+msgid "Environment Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:258(p)
+msgid "This page lets you customize the amount of system memory allocated for various purposes. It also allows you to disable the confirmation dialogs that appear when you close unsaved images, and to set the size of thumbnail files that GIMP produces."
+msgstr ""
+
+#: en/gimp-pimping.html:269(div:title)
+msgid "1.2.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:273(h4)
+msgid "<a id=\"id3194680\"/>1.2.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:277(div:title) en/gimp-pimping.html:279(b)
+msgid "Resource Consumption"
+msgstr ""
+
+#: en/gimp-pimping.html:283(span)
+msgid "Minimal number of undo levels"
+msgstr ""
+
+#: en/gimp-pimping.html:286(p)
+msgid "GIMP allows you to undo most actions by maintaining an <span class=\"quote\">“<span class=\"quote\">Undo History</span>”</span> for each image, for which a certain amount of memory is allocated. Regardless of memory usage, however, GIMP always permits some minimal number of the most recent actions to be undone: this is the number specified here. See <a class=\"xref\" href=\"gimp-concepts-undo.html\" title=\"3.&#xA0;Undoing\">Section 3, “Undoing”</a> for more information about GIMP's Undo mechanism."
+msgstr ""
+
+#: en/gimp-pimping.html:298(span)
+msgid "Maximum undo memory"
+msgstr ""
+
+#: en/gimp-pimping.html:301(p)
+msgid "This is the amount of undo memory allocated for each image. If the Undo History size exceeds this, the oldest points are deleted, unless this would result in fewer points being present than the minimal number specified above."
+msgstr ""
+
+#: en/gimp-pimping.html:309(span)
+msgid "Tile cache size"
+msgstr ""
+
+#: en/gimp-pimping.html:312(p)
+msgid "This is the amount of system RAM allocated for GIMP image data. If GIMP requires more memory than this, it begins to swap to disk, which may in some circumstances cause a dramatic slowdown. You are given an opportunity to set this number when you install GIMP, but you can alter it here. See <a class=\"link\" href=\"gimp-using-setup-tile-cache.html\" title=\"4.&#xA0;How to Set Your Tile Cache\">How to Set Your Tile Cache</a> for more information."
+msgstr ""
+
+#: en/gimp-pimping.html:323(span)
+msgid "Maximum new image size"
+msgstr ""
+
+#: en/gimp-pimping.html:326(p)
+msgid "This is not a hard constraint: if you try to create a new image larger than the specified size, you are asked to confirm that you really want to do it. This is to prevent you from accidentally creating images much larger than you intend, which can either crash GIMP or cause it to respond verrrrrrrry slowwwwwwwwly."
+msgstr ""
+
+#: en/gimp-pimping.html:335(span)
+msgid "Number of processors to use"
+msgstr ""
+
+#: en/gimp-pimping.html:338(p)
+msgid "Default is one. Your computer may have more than one processor."
+msgstr ""
+
+#: en/gimp-pimping.html:344(div:title) en/gimp-pimping.html:346(b)
+msgid "Image Thumbnails"
+msgstr ""
+
+#: en/gimp-pimping.html:350(span)
+msgid "Size of thumbnails"
+msgstr ""
+
+#: en/gimp-pimping.html:353(p)
+msgid "This options allows you to set the size of the thumbnails shown in the File Open dialog (and also saved for possible use by other programs). The options are <span class=\"quote\">“<span class=\"quote\">None</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Normal (128x128)</span>”</span>, and <span class=\"quote\">“<span class=\"quote\">Large (256x256)</span>”</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:362(span)
+msgid "Maximum filesize for thumbnailing"
+msgstr ""
+
+#: en/gimp-pimping.html:365(p)
+msgid "If an image file is larger than the specified maximum size, GIMP will not generate a thumbnail for it. This options allows you to prevent thumbnailing of extremely large image files from slowing GIMP to a crawl."
+msgstr ""
+
+#: en/gimp-pimping.html:374(div:title) en/gimp-pimping.html:376(b)
+msgid "Saving Images"
+msgstr ""
+
+#: en/gimp-pimping.html:380(span)
+msgid "Confirm closing of unsaved images"
+msgstr ""
+
+#: en/gimp-pimping.html:383(p)
+msgid "Closing an image is not undoable, so by default GIMP asks you to confirm that you really want to do it, whenever it would lead to a loss of unsaved changes. You can disable this if you find it annoying; but then of course you are responsible for remembering what you have and have not saved."
+msgstr ""
+
+#: en/gimp-pimping.html:393(div:title) en/gimp-pimping.html:395(b)
+msgid "Document history"
+msgstr ""
+
+#: en/gimp-pimping.html:399(span)
+msgid "Keep record of used files in the Recent Documents list"
+msgstr ""
+
+#: en/gimp-pimping.html:402(p)
+msgid "When checked, files you have opened will be saved in the Document history. You can access the list of files with the <a class=\"link\" href=\"gimp-document-dialog.html\" title=\"4.3.&#xA0;Document History Dialog\">Document history dialog</a> from the image menu-bar : <span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Open Recent</span> → <span class=\"guimenuitem\">Document History</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:414(div:title)
+msgid "1.3. Interface"
+msgstr ""
+
+#: en/gimp-pimping.html:418(h3)
+msgid "<a id=\"gimp-prefs-interface\"/>1.3. Interface"
+msgstr ""
+
+#: en/gimp-pimping.html:429(b)
+msgid "Figure 11.3. Assorted Interface Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:433(img:alt)
+msgid "Assorted Interface Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:435(p)
+msgid "This page lets you customize layer/channel previews and keyboard shortcuts."
+msgstr ""
+
+#: en/gimp-pimping.html:444(div:title) en/gimp-pimping.html:446(b) en/gimp-pimping.html:2481(div:title) en/gimp-pimping.html:2483(b)
+msgid "Options"
+msgstr ""
+
+#: en/gimp-pimping.html:452(span)
+msgid "Previews"
+msgstr ""
+
+#: en/gimp-pimping.html:455(p)
+msgid "By default, GIMP shows miniature previews of the contents of layers and channels in several places, including the Layers dialog. If for some reason you would prefer to disable these, you can do it by unchecking <span class=\"guilabel\">Enable layer and channel previews</span>. If you do want previews to be shown, you can customize their sizes using the menus for <span class=\"guilabel\">Default layer and channel preview size</span> and <span class=\"guilabel\">Navigation preview size</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:468(span)
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: en/gimp-pimping.html:471(p)
+msgid "Any menu item can be activated by holding down <span class=\"keycap\"><strong>Alt</strong></span> and pressing a sequence of keys. Normally, the key associated with each menu entry is shown as an underlined letter in the text, called <span class=\"emphasis\"><em> accelerator</em></span>. If for some reason you would prefer the underlines to go away (maybe because you think they're ugly and you don't use them anyway), then you can make this happen by unchecking <span class=\"guilabel\">Show menu mnemonics</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:482(p)
+msgid "GIMP can give you the ability to create keyboard shortcuts (key combinations that activate a menu entry) dynamically, by pressing the keys while the pointer hovers over the desired menu entry. However, this capability is disabled by default, because it might lead novice users to accidentally overwrite the standard keyboard shortcuts. If you want to enable it, check <span class=\"guilabel\">Use dynamics keyboard shortcuts</span> here."
+msgstr ""
+
+#: en/gimp-pimping.html:492(p)
+msgid "Pressing the button for <span class=\"guilabel\">Configure Keyboard Shortcuts</span> brings up the Shortcut Editor, which gives you a graphical interface to select menu items and assign shortcuts to them."
+msgstr ""
+
+#: en/gimp-pimping.html:498(p)
+msgid "If you change shortcuts, you will probably want your changes to continue to apply in future GIMP sessions. If not, uncheck <span class=\"guilabel\">Save keyboard shortcuts on exit</span>. But remember that you have done this, or you may be frustrated later. If you don't want to save shortcuts on exit every session, you can save the current settings at any time using the <span class=\"guilabel\">Save Keyboard Shortcuts Now</span> button, and they will be applied to future sessions. If you decide that you have made some bad decisions concerning shortcuts, you can reset them to their original state by pressing <span class=\"guilabel\">Reset Saved Keyboard Shortcuts to Default Values</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:515(div:title)
+msgid "1.4. Theme"
+msgstr ""
+
+#: en/gimp-pimping.html:519(h3)
+msgid "<a id=\"gimp-prefs-theme\"/>1.4. Theme"
+msgstr ""
+
+#: en/gimp-pimping.html:528(b)
+msgid "Figure 11.4. Theme Preference"
+msgstr ""
+
+#: en/gimp-pimping.html:532(img:alt)
+msgid "Theme Preference"
+msgstr ""
+
+#: en/gimp-pimping.html:537(p)
+msgid "This page lets you select a theme, which determines many aspects of the appearance of the GIMP user interface, including the set of icons used, their sizes, fonts, spacing allowed in dialogs, etc. Two themes are supplied with GIMP: <span class=\"guilabel\">Default</span>, which is probably best for most people, and <span class=\"guilabel\">Small</span>, which may be preferable for those with small or low-resolution monitors. Clicking on a theme in the list causes it to be applied immediately, so it is easy to see the result and change your mind if you don't like it."
+msgstr ""
+
+#: en/gimp-pimping.html:548(p)
+msgid "You can also use custom themes, either by downloading them from the net, or by copying one of the supplied themes and modifying it. Custom themes should be places in the <code class=\"filename\">themes</code> subdirectory of your personal GIMP directory: if they are, they will appear in the list here. Each theme is actually a directory containing ASCII files that you can edit. They are pretty complicated, and the meaning of the contents goes beyond the scope of this documentation, but you should feel free to experiment: in the worst case, if you mess things up completely, you can always revert back to one of the supplied themes."
+msgstr ""
+
+#: en/gimp-pimping.html:560(p)
+msgid "You cannot edit the supplied themes unless you have administrator permissions, and even if you do, you shouldn't: if you want to customize a theme, make a copy in your personal directory and work on it. If you make a change and would like to see the result <span class=\"quote\">“<span class=\"quote\">on the fly</span>”</span>, you can do so by saving the edited theme file and then pressing <span class=\"guilabel\">Reload Current Theme</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:569(div:title)
+msgid "1.5. Help System"
+msgstr ""
+
+#: en/gimp-pimping.html:573(h3)
+msgid "<a id=\"gimp-prefs-help\"/>1.5. Help System"
+msgstr ""
+
+#: en/gimp-pimping.html:582(b)
+msgid "Figure 11.5. Help System Preferences (Linux Screenshot)"
+msgstr ""
+
+#: en/gimp-pimping.html:586(img:alt)
+msgid "Help System Preferences (Linux Screenshot)"
+msgstr ""
+
+#: en/gimp-pimping.html:588(p)
+msgid "This page lets you customize the behaviour of the <acronym class=\"acronym\">GIMP</acronym> help system."
+msgstr ""
+
+#: en/gimp-pimping.html:597(div:title)
+msgid "1.5.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:601(h4)
+msgid "<a id=\"id3165111\"/>1.5.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:605(div:title) en/gimp-pimping.html:607(b) en/gimp-pimping.html:746(div:title) en/gimp-pimping.html:748(b) en/gimp-pimping.html:1083(div:title) en/gimp-pimping.html:1085(b) en/gimp-pimping.html:2054(span)
+msgid "General"
+msgstr ""
+
+#: en/gimp-pimping.html:611(span)
+msgid "Show tool tips"
+msgstr ""
+
+#: en/gimp-pimping.html:614(p)
+msgid "Tool tips are small help pop-ups that appear when the pointer hovers for a moment over some element of the interface, such as a button or icon. Sometimes they explain what the element does; sometimes they give you hints about non-obvious ways to use it. If you find them too distracting, you can disable them here by unchecking this option. We recommend that you leave them enabled unless you are a very advanced user."
+msgstr ""
+
+#: en/gimp-pimping.html:625(span)
+msgid "Show help buttons"
+msgstr ""
+
+#: en/gimp-pimping.html:628(p)
+msgid "This option controls whether the help buttons are shown on every tool dialog, which may be used alternatively to invoke the help system."
+msgstr ""
+
+#: en/gimp-pimping.html:635(span)
+msgid "User manual"
+msgstr ""
+
+#: en/gimp-pimping.html:638(p)
+msgid "This drop-down list lets you select between <span class=\"guilabel\">Use a locally installed copy</span> and <span class=\"guilabel\">Use the online version</span>. See <a class=\"xref\" href=\"gimp-help.html\" title=\"12.2.&#xA0;Help\">Section 12.2, “Help”</a>."
+msgstr ""
+
+#: en/gimp-pimping.html:647(div:title) en/gimp-pimping.html:649(b)
+msgid "Help Browser"
+msgstr ""
+
+#: en/gimp-pimping.html:653(span)
+msgid "Help browser to use"
+msgstr ""
+
+#: en/gimp-pimping.html:656(p)
+msgid "GIMP Help is supplied in the form of HTML files, i. e., web pages. You can view them using either a special help browser that comes with GIMP, or a web browser of your choice. Here you choose which option to use. Because the help pages were carefully checked to make sure they work well with GIMP's browser, whereas other web browsers are somewhat variable in their support of features, the safer option is to use the internal browser; but really any modern web browser should be okay."
+msgstr ""
+
+#: en/gimp-pimping.html:666(div:title) en/gimp-pimping.html:672(th) en/gimp-pimping.html:1666(div:title) en/gimp-pimping.html:1672(th) en/gimp-pimping.html:1850(div:title) en/gimp-pimping.html:1856(th) en/gimp-pimping.html:2158(div:title) en/gimp-pimping.html:2164(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-pimping.html:670(img:alt) en/gimp-pimping.html:1670(img:alt) en/gimp-pimping.html:1854(img:alt) en/gimp-pimping.html:2162(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-pimping.html:676(p)
+msgid "Note that the help browser is not available on all platforms. If it is missing, the web-browser will be used to allow access to the help pages."
+msgstr ""
+
+#: en/gimp-pimping.html:688(div:title) en/gimp-pimping.html:690(b)
+msgid "Web Browser"
+msgstr ""
+
+#: en/gimp-pimping.html:695(span)
+msgid "Web browser to use"
+msgstr ""
+
+#: en/gimp-pimping.html:698(p)
+msgid "If you selected <span class=\"quote\">“<span class=\"quote\">GIMP help browser</span>”</span> for the Help browser, this option has no effect. If you selected <span class=\"quote\">“<span class=\"quote\">Web browser</span>”</span>, you must decide here which browser to use, and how to invoke it, by entering the command that will be used to run the browser."
+msgstr ""
+
+#: en/gimp-pimping.html:710(div:title)
+msgid "1.6. Tool Options"
+msgstr ""
+
+#: en/gimp-pimping.html:714(h3)
+msgid "<a id=\"gimp-prefs-tool-options\"/>1.6. Tool Options"
+msgstr ""
+
+#: en/gimp-pimping.html:723(b)
+msgid "Figure 11.6. Tool Options Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:727(img:alt)
+msgid "Tool Options Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:729(p)
+msgid "This page lets you customize several aspects of the behavior of tools."
+msgstr ""
+
+#: en/gimp-pimping.html:738(div:title)
+msgid "1.6.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:742(h4)
+msgid "<a id=\"id3218652\"/>1.6.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:752(span)
+msgid "Save Tool Options On Exit"
+msgstr ""
+
+#: en/gimp-pimping.html:755(p) en/gimp-pimping.html:761(p) en/gimp-pimping.html:767(p)
+msgid "Self explanatory"
+msgstr ""
+
+#: en/gimp-pimping.html:758(span)
+msgid "Save Tool Options Now"
+msgstr ""
+
+#: en/gimp-pimping.html:764(span)
+msgid "Reset Saved Tool Options To Default Values"
+msgstr ""
+
+#: en/gimp-pimping.html:771(div:title) en/gimp-pimping.html:773(b)
+msgid "Guide and Grid Snapping"
+msgstr ""
+
+#: en/gimp-pimping.html:777(span)
+msgid "Snap distance"
+msgstr ""
+
+#: en/gimp-pimping.html:780(p)
+msgid "<span class=\"quote\">“<span class=\"quote\">Snapping</span>”</span> to guides, or to an image grid, means that when a tool is applied by clicking somewhere on the image display, if the clicked point is near enough to a guide or grid, it is shifted exactly onto the guide or grid. Snapping to guides can be toggled using <span class=\"guimenu\">View</span> → <span class=\"guimenuitem\">Snap to Guides</span> in the image menu; and if the grid is switched on, snapping to it can be toggled using <span class=\"guimenu\">View</span> → <span class=\"guimenuitem\">Snap to Grid</span>. This preference option determines how close a clicked point must be to a guide or grid in order to be snapped onto it, in pixels."
+msgstr ""
+
+#: en/gimp-pimping.html:796(div:title) en/gimp-pimping.html:798(b)
+msgid "Scaling"
+msgstr ""
+
+#: en/gimp-pimping.html:802(span)
+msgid "Default interpolation"
+msgstr ""
+
+#: en/gimp-pimping.html:805(p)
+msgid "When you scale something, each pixel in the result is calculated by <a class=\"link\" href=\"glossary.html#glossary-interpolation\" title=\"Interpolation\">interpolating</a> several pixels in the source. This option determines the default interpolation method: it can always be changed, though, in the Tool Options dialog."
+msgstr ""
+
+#: en/gimp-pimping.html:813(p)
+msgid "There are four choices:"
+msgstr ""
+
+#: en/gimp-pimping.html:816(span)
+msgid "None"
+msgstr ""
+
+#: en/gimp-pimping.html:819(p)
+msgid "This is the fastest method, but it's quite crude: you should only consider using it if your machine is very seriously speed-impaired."
+msgstr ""
+
+#: en/gimp-pimping.html:826(span)
+msgid "Linear"
+msgstr ""
+
+#: en/gimp-pimping.html:829(p)
+msgid "This used to be the default, and is good enough for most purposes."
+msgstr ""
+
+#: en/gimp-pimping.html:835(span)
+msgid "Cubic"
+msgstr ""
+
+#: en/gimp-pimping.html:838(p)
+msgid "This is the best choice (although it can actually look worse than Linear for some types of images), but also the slowest. Since <acronym class=\"acronym\">GIMP</acronym> 2.6, this method is the default."
+msgstr ""
+
+#: en/gimp-pimping.html:846(span)
+msgid "Sinc (Lanczos3)"
+msgstr ""
+
+#: en/gimp-pimping.html:849(p)
+msgid "This method performs a high quality interpolation."
+msgstr ""
+
+#: en/gimp-pimping.html:858(div:title) en/gimp-pimping.html:860(b)
+msgid "Paint Options Shared Between Tools"
+msgstr ""
+
+#: en/gimp-pimping.html:864(span)
+msgid "Brush, Pattern, Gradient"
+msgstr ""
+
+#: en/gimp-pimping.html:867(p)
+msgid "You can decide here whether changing the brush etc for one tool should cause the new item to be used for all tools, or whether each individual tool (pencil, paintbrush, airbrush, etc) should remember the item that was last used for it specifically."
+msgstr ""
+
+#: en/gimp-pimping.html:876(div:title) en/gimp-pimping.html:878(b)
+msgid "Move tool"
+msgstr ""
+
+#: en/gimp-pimping.html:882(span)
+msgid "Set layer or path as active"
+msgstr ""
+
+#: en/gimp-pimping.html:885(p)
+msgid "You can decide here whether changing the current layer or path when using the move tool and without pressing any key."
+msgstr ""
+
+#: en/gimp-pimping.html:894(div:title)
+msgid "1.7. Toolbox"
+msgstr ""
+
+#: en/gimp-pimping.html:898(h3)
+msgid "<a id=\"gimp-prefs-toolbox\"/>1.7. Toolbox"
+msgstr ""
+
+#: en/gimp-pimping.html:907(b)
+msgid "Figure 11.7. Toolbox Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:911(img:alt)
+msgid "Toolbox Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:916(div:title)
+msgid "1.7.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:920(h4)
+msgid "<a id=\"id3239002\"/>1.7.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:927(b)
+msgid "Figure 11.8. Default Toolbox appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:931(img:alt)
+msgid "Default Toolbox appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:936(p)
+msgid "This page lets you customize the appearance of the Toolbox, by deciding whether the three <span class=\"quote\">“<span class=\"quote\">context information</span>”</span> areas should be shown at the bottom."
+msgstr ""
+
+#: en/gimp-pimping.html:941(div:title) en/gimp-pimping.html:943(b)
+msgid "Appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:950(span)
+msgid "Show foreground and background color"
+msgstr ""
+
+#: en/gimp-pimping.html:953(p)
+msgid "Controls whether the color area on the left (2) appears in the Toolbox."
+msgstr ""
+
+#: en/gimp-pimping.html:959(span)
+msgid "Show active brush, pattern, and gradient"
+msgstr ""
+
+#: en/gimp-pimping.html:962(p)
+msgid "Controls whether the area in the center (3), with the brush, pattern, and gradient icons, appears in the Toolbox."
+msgstr ""
+
+#: en/gimp-pimping.html:969(span)
+msgid "Show active image"
+msgstr ""
+
+#: en/gimp-pimping.html:972(p)
+msgid "Controls whether a preview of the currently active image appears on the right (4)."
+msgstr ""
+
+#: en/gimp-pimping.html:981(div:title)
+msgid "1.8. Default Image Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:985(h3)
+msgid "<a id=\"gimp-prefs-new-image\"/>1.8. Default Image Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:995(b)
+msgid "Figure 11.9. Default New Image Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:999(img:alt)
+msgid "Default New Image Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1004(p)
+msgid "This tab lets you customize the default settings for the New Image dialog. See the <a class=\"link\" href=\"gimp-file-new.html\" title=\"2.2.&#xA0;New\">New Image Dialog</a> section for an explanation of what each of the values means."
+msgstr ""
+
+#: en/gimp-pimping.html:1011(div:title)
+msgid "1.9. Default Image Grid"
+msgstr ""
+
+#: en/gimp-pimping.html:1015(h3)
+msgid "<a id=\"gimp-prefs-default-grid\"/>1.9. Default Image Grid"
+msgstr ""
+
+#: en/gimp-pimping.html:1024(b)
+msgid "Figure 11.10. Default Grid Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1028(img:alt)
+msgid "Default Grid Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1033(p)
+msgid "This page lets you customize the default properties of GIMP's grid, which can be toggled on or off using <span class=\"guimenu\">View</span> → <span class=\"guimenuitem\">Show Grid</span> from the image menu. The settings here match those in the Configure Image Grid dialog, which can be used to reconfigure the grid for an existing image, by choosing <span class=\"guimenu\">Image</span> → <span class=\"guimenuitem\">Configure Grid</span> from the image menu. See the <a class=\"link\" href=\"gimp-image-configure-grid.html#gimp-configure-grid-dialog\">Configure Grid dialog</a> section for information on the meaning of each of the settings."
+msgstr ""
+
+#: en/gimp-pimping.html:1047(div:title)
+msgid "1.10. Image Windows"
+msgstr ""
+
+#: en/gimp-pimping.html:1051(h3)
+msgid "<a id=\"gimp-prefs-image-window\"/>1.10. Image Windows"
+msgstr ""
+
+#: en/gimp-pimping.html:1060(b)
+msgid "Figure 11.11. General Image Window Preference"
+msgstr ""
+
+#: en/gimp-pimping.html:1064(img:alt)
+msgid "General Image Window Preference"
+msgstr ""
+
+#: en/gimp-pimping.html:1066(p)
+msgid "This page lets you customize several aspects of the behaviour of image windows."
+msgstr ""
+
+#: en/gimp-pimping.html:1075(div:title)
+msgid "1.10.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1079(h4)
+msgid "<a id=\"id3225788\"/>1.10.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1093(span)
+msgid "Dot for dot"
+msgstr ""
+
+#: en/gimp-pimping.html:1093(span) en/gimp-pimping.html:1356(span) en/gimp-pimping.html:1360(span) en/gimp-pimping.html:1446(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-pimping.html:1093(span)
+msgid "Use <placeholder-1/> by default"
+msgstr ""
+
+#: en/gimp-pimping.html:1096(p)
+msgid "Using <span class=\"quote\">“<span class=\"quote\">Dot for dot</span>”</span> means that at 1:1 zoom, each pixel is the image is scaled to one pixel on the display. If <span class=\"quote\">“<span class=\"quote\">Dot for dot</span>”</span> is not used, then the displayed image size is determined by the X and Y resolution of the image. See the <a class=\"link\" href=\"gimp-image-scale.html\" title=\"6.15.&#xA0;Scale Image\">Scale Image</a> section for more information."
+msgstr ""
+
+#: en/gimp-pimping.html:1106(span)
+msgid "Marching ants speed"
+msgstr ""
+
+#: en/gimp-pimping.html:1109(p)
+msgid "When you create a selection, the edge of it is shown as a dashed line with dashes that appear to move, marching slowly along the boundary: they are jokingly called <span class=\"quote\">“<span class=\"quote\">marching ants</span>”</span>. The smaller the value entered here, the faster the ants march (and consequently the more distracting they are!)."
+msgstr ""
+
+#: en/gimp-pimping.html:1119(div:title) en/gimp-pimping.html:1121(b)
+msgid "Zoom and Resize Behavior"
+msgstr ""
+
+#: en/gimp-pimping.html:1126(span)
+msgid "Resize window on zoom"
+msgstr ""
+
+#: en/gimp-pimping.html:1129(p)
+msgid "If this option is checked, then each time you zoom the image, the image window will automatically resize to follow it. Otherwise, the image window will maintain the same size when you zoom the image."
+msgstr ""
+
+#: en/gimp-pimping.html:1137(span)
+msgid "Resize window on image size change"
+msgstr ""
+
+#: en/gimp-pimping.html:1140(p)
+msgid "If this option is checked, then each time change the size of the image, by cropping or resizing it, the image window will automatically resize to follow. Otherwise, the image window will maintain the same size."
+msgstr ""
+
+#: en/gimp-pimping.html:1148(span)
+msgid "Initial zoom ratio"
+msgstr ""
+
+#: en/gimp-pimping.html:1151(p)
+msgid "You can choose either to have images, when they are first opened, scaled so that the whole image fits comfortably on your display, or else shown at 1:1 zoom. If you choose the second option, and the image is too large to fit on your display, then the image window will show only part of it (but you will be able to scroll to other parts)."
+msgstr ""
+
+#: en/gimp-pimping.html:1162(div:title) en/gimp-pimping.html:1164(b)
+msgid "Space bar"
+msgstr ""
+
+#: en/gimp-pimping.html:1169(span)
+msgid "While space bar is pressed"
+msgstr ""
+
+#: en/gimp-pimping.html:1175(p)
+msgid "<span class=\"guilabel\">Pan view</span> (default) or"
+msgstr ""
+
+#: en/gimp-pimping.html:1179(span)
+msgid "Toogle to Move Tool"
+msgstr ""
+
+#: en/gimp-pimping.html:1184(span)
+msgid "No action"
+msgstr ""
+
+#: en/gimp-pimping.html:1192(div:title) en/gimp-pimping.html:1194(b)
+msgid "Mouse Cursors"
+msgstr ""
+
+#: en/gimp-pimping.html:1199(span)
+msgid "Show brush outline"
+msgstr ""
+
+#: en/gimp-pimping.html:1202(p)
+msgid "If this option is checked, then when you use a paint tool, the outline of the brush will be shown on the image as you move the pointer around. On slow systems, if the brush is very large, this could occasionally cause some lag in GIMP's ability to follow your movements: if so, switching this off might help. Otherwise, you will probably find it quite useful."
+msgstr ""
+
+#: en/gimp-pimping.html:1212(span)
+msgid "Show paint tool cursor"
+msgstr ""
+
+#: en/gimp-pimping.html:1215(p)
+msgid "If this is checked, a cursor will be shown. This is in addition to the brush outline, if the brush outline is being shown. The type of cursor is determined by the next option."
+msgstr ""
+
+#: en/gimp-pimping.html:1222(span)
+msgid "Cursor mode"
+msgstr ""
+
+#: en/gimp-pimping.html:1225(p)
+msgid "This option has no effect unless <span class=\"guilabel\">Show paint tool cursor</span> is checked. If it is, you have three choices: <span class=\"guilabel\">Tool icon</span>, which causes a small iconic representation of the currently active tool to be shown beside the cursor; <span class=\"guilabel\">Tool icon with crosshair</span>, which shows the icon as well as a crosshair indicating the center of the cursor; or <span class=\"guilabel\">Crosshair only</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:1236(span)
+msgid "Cursor rendering"
+msgstr ""
+
+#: en/gimp-pimping.html:1239(p)
+msgid "If you choose <span class=\"quote\">“<span class=\"quote\">Fancy</span>”</span> here, the cursor is drawn in grayscale. If you choose <span class=\"quote\">“<span class=\"quote\">Black and White</span>”</span>, it is drawn in a simpler way that may speed things up a little bit if you have speed issues."
+msgstr ""
+
+#: en/gimp-pimping.html:1250(div:title)
+msgid "1.11. Image Window Appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:1254(h3)
+msgid "<a id=\"gimp-prefs-image-window-appearance\"/>1.11. Image Window Appearance"
+msgstr ""
+
+#: en/gimp-pimping.html:1263(b)
+msgid "Figure 11.12. Image Window Appearance Defaults"
+msgstr ""
+
+#: en/gimp-pimping.html:1267(img:alt)
+msgid "Image Window Appearance Defaults"
+msgstr ""
+
+#: en/gimp-pimping.html:1269(p)
+msgid "This page lets you customize the default appearance of image windows, for normal mode and for fullscreen mode. All of the settings here can be altered on an image-specific basis using entries in the View menu. See the <a class=\"link\" href=\"gimp-image-window.html\" title=\"2.2.&#xA0;Image Window\">Image Window</a> section for information on the meaning of the entries."
+msgstr ""
+
+#: en/gimp-pimping.html:1282(p)
+msgid "The only parts that may need further explanation are the ones related to padding. <span class=\"quote\">“<span class=\"quote\">Padding</span>”</span> is the color shown around the edges of the image, if it does not occupy all of the display area (shown in light gray in all the figures here). You can choose among four colors for the padding color: to use the color specified by the current theme; to use the light or dark colors specified for checks, such as represent transparent parts of the image; or to use a custom color, which can be set using the color button for <span class=\"quote\">“<span class=\"quote\">Custom padding color</span>”</span>."
+msgstr ""
+
+#: en/gimp-pimping.html:1294(div:title)
+msgid "1.12. Image Window Title and Statusbar"
+msgstr ""
+
+#: en/gimp-pimping.html:1298(h3)
+msgid "<a id=\"gimp-prefs-image-window-title\"/>1.12. Image Window Title and Statusbar"
+msgstr ""
+
+#: en/gimp-pimping.html:1308(b)
+msgid "Figure 11.13. Image Window Title and Statusbar formats"
+msgstr ""
+
+#: en/gimp-pimping.html:1312(img:alt)
+msgid "Image Window Title and Statusbar formats"
+msgstr ""
+
+#: en/gimp-pimping.html:1314(p)
+msgid "This page lets you customize the text that appears in two places: the title bar of an image, and the status bar. The title bar should appear above the image; however this depends on cooperation from the window manager, so it is not guaranteed to work in all cases. The statusbar appears underneath the image, on the right side. See the <a class=\"link\" href=\"gimp-image-window.html\" title=\"2.2.&#xA0;Image Window\">Image Window</a> section for more information."
+msgstr ""
+
+#: en/gimp-pimping.html:1328(div:title)
+msgid "1.12.1. Choosing a Format"
+msgstr ""
+
+#: en/gimp-pimping.html:1332(h4)
+msgid "<a id=\"id3227216\"/>1.12.1. Choosing a Format"
+msgstr ""
+
+#: en/gimp-pimping.html:1336(p)
+msgid "You can choose among several predesigned formats, or you can create one of your own, by writing a <span class=\"emphasis\"><em>format string</em></span> in the entry area. Here is how to understand a format string: anything you type is shown exactly as you type it, with the exception of <span class=\"emphasis\"><em>variables</em></span>, whose names all begin with <span class=\"quote\">“<span class=\"quote\">%</span>”</span>. Here is a list of the variables you can use:"
+msgstr ""
+
+#: en/gimp-pimping.html:1349(th)
+msgid "Variable"
+msgstr ""
+
+#: en/gimp-pimping.html:1350(th)
+msgid "Meaning"
+msgstr ""
+
+#: en/gimp-pimping.html:1355(td)
+msgid "%f"
+msgstr ""
+
+#: en/gimp-pimping.html:1356(span) en/gimp-pimping.html:1360(span)
+msgid "Untitled"
+msgstr ""
+
+#: en/gimp-pimping.html:1356(td)
+msgid "Bare filename of the image, or <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-pimping.html:1359(td)
+msgid "%F"
+msgstr ""
+
+#: en/gimp-pimping.html:1360(td)
+msgid "Full path to file, or <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-pimping.html:1363(td)
+msgid "%p"
+msgstr ""
+
+#: en/gimp-pimping.html:1364(td)
+msgid "Image id number (this is unique)"
+msgstr ""
+
+#: en/gimp-pimping.html:1367(td)
+msgid "%i"
+msgstr ""
+
+#: en/gimp-pimping.html:1368(td)
+msgid "View number, if an image has more than one display"
+msgstr ""
+
+#: en/gimp-pimping.html:1373(td)
+msgid "%t"
+msgstr ""
+
+#: en/gimp-pimping.html:1374(td)
+msgid "Image type (RGB, grayscale, indexed)"
+msgstr ""
+
+#: en/gimp-pimping.html:1377(td)
+msgid "%z"
+msgstr ""
+
+#: en/gimp-pimping.html:1378(td)
+msgid "Zoom factor as a percentage"
+msgstr ""
+
+#: en/gimp-pimping.html:1381(td)
+msgid "%s"
+msgstr ""
+
+#: en/gimp-pimping.html:1382(td)
+msgid "Source scale factor (zoom level = %d/%s)"
+msgstr ""
+
+#: en/gimp-pimping.html:1385(td)
+msgid "%d"
+msgstr ""
+
+#: en/gimp-pimping.html:1386(td)
+msgid "Destination scale factor (zoom level = %d/%s)"
+msgstr ""
+
+#: en/gimp-pimping.html:1389(td)
+msgid "%Dx"
+msgstr ""
+
+#: en/gimp-pimping.html:1390(td)
+msgid "Expands to x if the image is dirty, nothing otherwise"
+msgstr ""
+
+#: en/gimp-pimping.html:1395(td)
+msgid "%Cx"
+msgstr ""
+
+#: en/gimp-pimping.html:1396(td)
+msgid "Expands to x if the image is clean, nothing otherwise"
+msgstr ""
+
+#: en/gimp-pimping.html:1401(td)
+msgid "%l"
+msgstr ""
+
+#: en/gimp-pimping.html:1402(td)
+msgid "The number of layers"
+msgstr ""
+
+#: en/gimp-pimping.html:1405(td)
+msgid "%L"
+msgstr ""
+
+#: en/gimp-pimping.html:1406(td)
+msgid "Number of layers (long form)"
+msgstr ""
+
+#: en/gimp-pimping.html:1409(td)
+msgid "%m"
+msgstr ""
+
+#: en/gimp-pimping.html:1410(td)
+msgid "Memory used by the image"
+msgstr ""
+
+#: en/gimp-pimping.html:1413(td)
+msgid "%n"
+msgstr ""
+
+#: en/gimp-pimping.html:1414(td)
+msgid "Name of the active layer/channel"
+msgstr ""
+
+#: en/gimp-pimping.html:1417(td)
+msgid "%P"
+msgstr ""
+
+#: en/gimp-pimping.html:1418(td)
+msgid "id of the active layer/channel"
+msgstr ""
+
+#: en/gimp-pimping.html:1421(td)
+msgid "%w"
+msgstr ""
+
+#: en/gimp-pimping.html:1422(td)
+msgid "Image width in pixels"
+msgstr ""
+
+#: en/gimp-pimping.html:1425(td)
+msgid "%W"
+msgstr ""
+
+#: en/gimp-pimping.html:1426(td)
+msgid "Image width in real-world units"
+msgstr ""
+
+#: en/gimp-pimping.html:1429(td)
+msgid "%h"
+msgstr ""
+
+#: en/gimp-pimping.html:1430(td)
+msgid "Image height in pixels"
+msgstr ""
+
+#: en/gimp-pimping.html:1433(td)
+msgid "%H"
+msgstr ""
+
+#: en/gimp-pimping.html:1434(td)
+msgid "Image height in real-world units"
+msgstr ""
+
+#: en/gimp-pimping.html:1437(td)
+msgid "%u"
+msgstr ""
+
+#: en/gimp-pimping.html:1438(td)
+msgid "Unit symbol (eg. px for Pixel)"
+msgstr ""
+
+#: en/gimp-pimping.html:1441(td)
+msgid "%U"
+msgstr ""
+
+#: en/gimp-pimping.html:1442(td)
+msgid "Unit abbreviation"
+msgstr ""
+
+#: en/gimp-pimping.html:1445(td)
+msgid "%%"
+msgstr ""
+
+#: en/gimp-pimping.html:1446(span)
+msgid "%"
+msgstr ""
+
+#: en/gimp-pimping.html:1446(td)
+msgid "A literal <placeholder-1/> symbol"
+msgstr ""
+
+#: en/gimp-pimping.html:1453(div:title)
+msgid "1.13. Display"
+msgstr ""
+
+#: en/gimp-pimping.html:1457(h3)
+msgid "<a id=\"gimp-prefs-display\"/>1.13. Display"
+msgstr ""
+
+#: en/gimp-pimping.html:1468(b)
+msgid "Figure 11.14. Display Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1472(img:alt)
+msgid "Display Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1474(p)
+msgid "This page lets you customize the way transparent parts of an image are represented, and lets you recalibrate the resolution of your monitor."
+msgstr ""
+
+#: en/gimp-pimping.html:1484(div:title)
+msgid "1.13.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1488(h4)
+msgid "<a id=\"gimp-prefs-display-options\"/>1.13.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1492(div:title) en/gimp-pimping.html:1494(b)
+msgid "Transparency"
+msgstr ""
+
+#: en/gimp-pimping.html:1498(span)
+msgid "Transparency type"
+msgstr ""
+
+#: en/gimp-pimping.html:1501(p)
+msgid "By default, GIMP indicates transparency using a checkerboard pattern with mid-tone checks, but you can change this if you want, either to a different type of checkerboard, or to solid black, white, or gray."
+msgstr ""
+
+#: en/gimp-pimping.html:1509(span)
+msgid "Check size"
+msgstr ""
+
+#: en/gimp-pimping.html:1512(p)
+msgid "Here you can alter the size of the squares in the checkerboard pattern used to indicate transparency."
+msgstr ""
+
+#: en/gimp-pimping.html:1522(b)
+msgid "Figure 11.15. The Calibration dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:1526(img:alt)
+msgid "The Calibration dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:1535(span)
+msgid "Monitor Resolution"
+msgstr ""
+
+#: en/gimp-pimping.html:1538(p)
+msgid "Monitor Resolution is the ratio of pixels, horizontally and vertically, to inches. You have three ways to proceed here:"
+msgstr ""
+
+#: en/gimp-pimping.html:1545(p)
+msgid "Get Resolution from windowing system. (easiest, probably inaccurate)."
+msgstr ""
+
+#: en/gimp-pimping.html:1551(p)
+msgid "Set Manually"
+msgstr ""
+
+#: en/gimp-pimping.html:1554(p)
+msgid "Push the Calibrate Button."
+msgstr ""
+
+#: en/gimp-pimping.html:1560(span)
+msgid "The Calibrate Dialog"
+msgstr ""
+
+#: en/gimp-pimping.html:1563(p)
+msgid "My monitor was impressively off when I tried the Calibrate Dialog. The <span class=\"quote\">“<span class=\"quote\">Calibrate Game</span>”</span> is fun to play. You will need a soft ruler."
+msgstr ""
+
+#: en/gimp-pimping.html:1573(div:title)
+msgid "1.14. Color Management"
+msgstr ""
+
+#: en/gimp-pimping.html:1577(h3)
+msgid "<a id=\"gimp-prefs-color-management\"/>1.14. Color Management"
+msgstr ""
+
+#: en/gimp-pimping.html:1587(b)
+msgid "Figure 11.16. Color Management Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1591(img:alt)
+msgid "Color Management Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1596(div:title)
+msgid "1.14.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1600(h4)
+msgid "<a id=\"id3176078\"/>1.14.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:1604(p)
+msgid "This page lets you customize the GIMP color management."
+msgstr ""
+
+#: en/gimp-pimping.html:1607(p)
+msgid "Some of the options let you choose a color profile from a menu. If the desired profile is not in the menu yet, you can add it by clicking on the <span class=\"guimenuitem\">Select color profile from disk...</span> item."
+msgstr ""
+
+#: en/gimp-pimping.html:1612(div:title) en/gimp-pimping.html:1618(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-pimping.html:1616(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-pimping.html:1622(p)
+msgid "Files containing color profiles are easily recognizable by their <code class=\"filename\">.icc</code> suffix. In addition to that they are usually stored all together in only a few places. If you are running GIMP on Mac OS X, you should try <code class=\"filename\">/Library/ColorSync/Profiles/</code> and <code class=\"filename\">Library/Printers/[manufacturer]/Profiles</code>."
+msgstr ""
+
+#: en/gimp-pimping.html:1638(span)
+msgid "Mode of operation"
+msgstr ""
+
+#: en/gimp-pimping.html:1641(p)
+msgid "Using this option you can decide how the GIMP color management operates. There are three modes you can choose from:"
+msgstr ""
+
+#: en/gimp-pimping.html:1648(p)
+msgid "<span class=\"guimenuitem\">No color management</span>: choosing this selection shuts down the color management in GIMP completely."
+msgstr ""
+
+#: en/gimp-pimping.html:1653(p)
+msgid "<span class=\"guimenuitem\">Color managed display</span>: with this selection you can enable the GIMP color management to provide a fully corrected display of the images according to the given color profile for the display."
+msgstr ""
+
+#: en/gimp-pimping.html:1660(p)
+msgid "<span class=\"guimenuitem\">Print simulation</span>: when choosing this selection, you enable the GIMP color management not only to apply the profile for the display, but also the selected printer simulation profile. Doing so, you can preview the color results of a print with that printer."
+msgstr ""
+
+#: en/gimp-pimping.html:1676(p)
+msgid "Please note, that the GIMP color management is used to enhance the display of images and the embedding of profiles to image files only. Especially are the options you choose in this dialog in no way used for printing from within GIMP. This is because the printing is a special task done by a more specialized printing engine that is no part of GIMP."
+msgstr ""
+
+#: en/gimp-pimping.html:1693(span)
+msgid "RGB profile"
+msgstr ""
+
+#: en/gimp-pimping.html:1700(span)
+msgid "CMYK profile"
+msgstr ""
+
+#: en/gimp-pimping.html:1707(span)
+msgid "Monitor profile"
+msgstr ""
+
+#: en/gimp-pimping.html:1710(p)
+msgid "This option gives you two elements for interaction:"
+msgstr ""
+
+#: en/gimp-pimping.html:1716(p)
+msgid "You should select a display profile for this option. The selected color profile is used to display GIMP on the screen."
+msgstr ""
+
+#: en/gimp-pimping.html:1722(p)
+msgid "If you activate the <span class=\"guilabel\">Try to use the system monitor profile</span> option, GIMP will use the color profile provided for the displays by the operating systems color management system."
+msgstr ""
+
+#: en/gimp-pimping.html:1733(span)
+msgid "Display rendering intent"
+msgstr ""
+
+#: en/gimp-pimping.html:1736(p)
+msgid "Rendering intents, as the one you can configure with this option, are ways of dealing with colors that are out-of-<a class=\"xref\" href=\"glossary.html#glossary-gamut\" title=\"Gamut\"><span>Gamut</span></a> colors present in the source space that the destination space is incapable of producing. There are four method rendering intents to choose from:"
+msgstr ""
+
+#: en/gimp-pimping.html:1750(span)
+msgid "Perceptual"
+msgstr ""
+
+#: en/gimp-pimping.html:1755(span)
+msgid "Relative colorimetric"
+msgstr ""
+
+#: en/gimp-pimping.html:1760(span)
+msgid "Saturation"
+msgstr ""
+
+#: en/gimp-pimping.html:1765(span)
+msgid "Absolute colorimetric"
+msgstr ""
+
+#: en/gimp-pimping.html:1770(p)
+msgid "A description of the individual methods can be found at <a class=\"xref\" href=\"glossary.html#glossary-rendering-intent\" title=\"Rendering Intent\"><span>Rendering Intent</span></a>."
+msgstr ""
+
+#: en/gimp-pimping.html:1778(span)
+msgid "Print simulation mode"
+msgstr ""
+
+#: en/gimp-pimping.html:1781(p)
+msgid "You should select a printer profile for this option. The selected color profile is used for the print simulation mode."
+msgstr ""
+
+#: en/gimp-pimping.html:1787(span)
+msgid "Softproof rendering intent"
+msgstr ""
+
+#: en/gimp-pimping.html:1790(p)
+msgid "This option again provides two different elements for interaction:"
+msgstr ""
+
+#: en/gimp-pimping.html:1796(p)
+msgid "You can use the menu to select the rendering intent for the soft proof. They are the same as already described for the display rendering intent."
+msgstr ""
+
+#: en/gimp-pimping.html:1803(p)
+msgid "If you enable the <span class=\"guilabel\">Mark out of gamut colors</span> option, all pixels that have a color that is not printable are marked by a special color. Which color is used for this can also be chosen by you. You can do this simply by clicking on the color icon on the right besides the checkbox."
+msgstr ""
+
+#: en/gimp-pimping.html:1816(span)
+msgid "File Open behaviour"
+msgstr ""
+
+#: en/gimp-pimping.html:1819(p)
+msgid "Using this menu you can determine how GIMP behaves when opening a file that contains an embedded color profile that is not matches the workspace sRGB. You can choose from the following entries:"
+msgstr ""
+
+#: en/gimp-pimping.html:1827(p)
+msgid "<span class=\"guimenuitem\">Ask what to do</span>: if selected, GIMP will ask every time what to do."
+msgstr ""
+
+#: en/gimp-pimping.html:1832(p)
+msgid "<span class=\"guimenuitem\">Keep embedded profile</span>: if you choose this, GIMP will keep the attached profile and not convert the image to the workspace. The image is displayed correctly anyways, because the attached profile will be applied for display."
+msgstr ""
+
+#: en/gimp-pimping.html:1840(p)
+msgid "<span class=\"guimenuitem\">Convert to RGB workspace</span>: by choosing this entry GIMP will automatically use the attached color profile to convert the image to the workspace."
+msgstr ""
+
+#: en/gimp-pimping.html:1860(p)
+msgid "For more explanations:"
+msgstr ""
+
+#: en/gimp-pimping.html:1864(p)
+msgid "ICC Profiles are explained in Wikipedia <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-icc\" title=\"Wikipedia - ICC Profile\">[<abbr class=\"abbrev\">WKPD-ICC</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-pimping.html:1870(p)
+msgid "See OpenICC project (<a class=\"xref\" href=\"bibliography.html#bibliography-online-openicc\" title=\"The OpenICC project\">[<abbr class=\"abbrev\">OPENICC</abbr>]</a>) where GIMP and others great names of free infography contribute to."
+msgstr ""
+
+#: en/gimp-pimping.html:1878(p)
+msgid "Many profiles to load from the web:"
+msgstr ""
+
+#: en/gimp-pimping.html:1882(p)
+msgid "ICC sRGB Workspace: <span class=\"productname\">ICCsRGB</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-iccsrgb\" title=\"ICC sRGB PROFILES\">[<abbr class=\"abbrev\">ICCsRGB</abbr>]</a>"
+msgstr ""
+
+#: en/gimp-pimping.html:1889(p)
+msgid "Microsoft sRGB Workspace: <span class=\"productname\">MsRGB</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-microsoft-srgb\" title=\"Microsoft sRVB Workspace\">[<abbr class=\"abbrev\">MsRGB</abbr>]</a>"
+msgstr ""
+
+#: en/gimp-pimping.html:1896(p)
+msgid "Adobe RGB98 Workspace : <span class=\"productname\">Adobe RGB (1998)</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-adobrgb\" title=\"Adobe RGB (1998) ICC Profile\">[<abbr class=\"abbrev\">AdobeRGB</abbr>]</a>"
+msgstr ""
+
+#: en/gimp-pimping.html:1903(p)
+msgid "ECI (European Color Initiative) Profiles: <span class=\"productname\">ECI</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-eci\" title=\"ECI (European Color Initiative) Profiles\">[<abbr class=\"abbrev\">ECI</abbr>]</a>"
+msgstr ""
+
+#: en/gimp-pimping.html:1917(div:title)
+msgid "1.15. Input Devices"
+msgstr ""
+
+#: en/gimp-pimping.html:1921(h3)
+msgid "<a id=\"gimp-prefs-input-devices\"/>1.15. Input Devices"
+msgstr ""
+
+#: en/gimp-pimping.html:1930(b)
+msgid "Figure 11.17. Input devices preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1934(img:alt)
+msgid "Input devices preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:1939(div:title) en/gimp-pimping.html:1941(b)
+msgid "Extended Input Devices"
+msgstr ""
+
+#: en/gimp-pimping.html:1945(span)
+msgid "Configure Extended Input Devices"
+msgstr ""
+
+#: en/gimp-pimping.html:1948(p)
+msgid "This large button allows you to set the devices associated with your computer: tablet, MIDI keyboard... If you have a tablet, you will see a dialog like this:"
+msgstr ""
+
+#: en/gimp-pimping.html:1956(b)
+msgid "Figure 11.18. Preferences for a tablet"
+msgstr ""
+
+#: en/gimp-pimping.html:1960(img:alt)
+msgid "Preferences for a tablet"
+msgstr ""
+
+#: en/gimp-pimping.html:1967(span)
+msgid "Save input device settings on exit"
+msgstr ""
+
+#: en/gimp-pimping.html:1970(p)
+msgid "When you check this box, GIMP remembers the tool, color, pattern and brush you were using the last time you quitted."
+msgstr ""
+
+#: en/gimp-pimping.html:1976(span)
+msgid "Save Input Device Settings Now"
+msgstr ""
+
+#: en/gimp-pimping.html:1979(p)
+msgid "Self explanatory."
+msgstr ""
+
+#: en/gimp-pimping.html:1982(span)
+msgid "Reset Saved Input Device Settings to Default Values"
+msgstr ""
+
+#: en/gimp-pimping.html:1987(p)
+msgid "Delete your settings and restore default settings."
+msgstr ""
+
+#: en/gimp-pimping.html:1994(div:title)
+msgid "1.16. Input Controllers"
+msgstr ""
+
+#: en/gimp-pimping.html:1998(h3)
+msgid "<a id=\"gimp-prefs-input-controllers\"/>1.16. Input Controllers"
+msgstr ""
+
+#: en/gimp-pimping.html:2007(b)
+msgid "Figure 11.19. Input controllers preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2011(img:alt)
+msgid "Input controllers preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2016(p)
+msgid "This dialog has two lists of additional input controllers: <span class=\"guilabel\">Available Controllers</span> on the left, <span class=\"guilabel\">Active Controllers</span> on the right."
+msgstr ""
+
+#: en/gimp-pimping.html:2021(p)
+msgid "A click on an item will highlight it and you can move the controller from one list to the other by clicking on the respective arrow key. When you try to move a controller from the list of active controllers to the available controllers, a dialog pops up and you will have the choice of removing the controller or just disabling it."
+msgstr ""
+
+#: en/gimp-pimping.html:2028(p)
+msgid "When you double click on a (typically active) controller or alternatively click on the Edit button at the bottom of the list, you can configure this controller in a dialog window:"
+msgstr ""
+
+#: en/gimp-pimping.html:2033(div:title) en/gimp-pimping.html:2035(b) en/gimp-pimping.html:2046(img:alt)
+msgid "Main Mouse Wheel"
+msgstr ""
+
+#: en/gimp-pimping.html:2042(b)
+msgid "Figure 11.20. Main Mouse Wheel"
+msgstr ""
+
+#: en/gimp-pimping.html:2060(span)
+msgid "Dump events from this controller"
+msgstr ""
+
+#: en/gimp-pimping.html:2063(p)
+msgid "This option must be checked if you want a print on the stdout of the events generated by the enabled controllers. If you want to see those event you should start <acronym class=\"acronym\">GIMP</acronym> from a terminal or making it to print the stdout to file by the shell redirection. The main use of this option is for debug."
+msgstr ""
+
+#: en/gimp-pimping.html:2073(span)
+msgid "Enable this controller"
+msgstr ""
+
+#: en/gimp-pimping.html:2076(p)
+msgid "This option must be checked if you want to add a new actions to the mouse wheel."
+msgstr ""
+
+#: en/gimp-pimping.html:2085(span)
+msgid "Mouse Wheel Events"
+msgstr ""
+
+#: en/gimp-pimping.html:2088(p)
+msgid "In this window with scroll bars you have: on the left, the possible events concerning the mouse wheel, more or less associated with control keys; on the right, the action assigned to the event when it will happen. You have also two buttons, one to <span class=\"guibutton\">Edit</span> the selected event, the other to <span class=\"guibutton\">Cancel</span> the action of the selected event."
+msgstr ""
+
+#: en/gimp-pimping.html:2096(p)
+msgid "Some actions are assigned to events yet. They seem to be examples, as they are not functional."
+msgstr ""
+
+#: en/gimp-pimping.html:2102(span)
+msgid "Select the action allocated to the event"
+msgstr ""
+
+#: en/gimp-pimping.html:2105(p)
+msgid "After selecting an event, if you click on the <span class=\"guibutton\">Edit</span> button, you open the following dialog:"
+msgstr ""
+
+#: en/gimp-pimping.html:2112(b)
+msgid "Figure 11.21. Select Controller Event Action"
+msgstr ""
+
+#: en/gimp-pimping.html:2116(img:alt)
+msgid "Select Controller Event Action"
+msgstr ""
+
+#: en/gimp-pimping.html:2121(p)
+msgid "If an action exists yet for this event, the window will open on this action. Else, the window will display the sections that order actions. Click on an action to select it."
+msgstr ""
+
+#: en/gimp-pimping.html:2129(div:title) en/gimp-pimping.html:2131(b) en/gimp-pimping.html:2150(img:alt)
+msgid "Main Keyboard"
+msgstr ""
+
+#: en/gimp-pimping.html:2138(p)
+msgid "You can use this dialog in the same way as that of the mouse wheel. Events are related to the arrow keys of the keyboard, combined or not with control keys."
+msgstr ""
+
+#: en/gimp-pimping.html:2146(b)
+msgid "Figure 11.22. Main Keyboard"
+msgstr ""
+
+#: en/gimp-pimping.html:2168(p)
+msgid "You will find an example of these notions in <a class=\"link\" href=\"gimp-using-variable-size-brush.html\" title=\"9.&#xA0;Varying brush size\"> Creating a variable size brush </a>."
+msgstr ""
+
+#: en/gimp-pimping.html:2179(div:title)
+msgid "1.17. Window Management"
+msgstr ""
+
+#: en/gimp-pimping.html:2183(h3)
+msgid "<a id=\"gimp-prefs-window-management\"/>1.17. Window Management"
+msgstr ""
+
+#: en/gimp-pimping.html:2192(b)
+msgid "Figure 11.23. Window Management Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2196(img:alt)
+msgid "Window Management Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2201(p)
+msgid "This page lets you customize the way windows are handled in GIMP. You should note that GIMP does not manipulate windows directly, instead it sends requests to the window manager (i. e., to Windows if you are running in Windows; to Metacity if you are running in a standard Gnome setup in Linux; etc). Because there are many window managers, and not all of them are well behaved, it cannot be guaranteed that the functions described here will actually work as described. However, if you are using a modern, standards-compliant window manager, they ought to."
+msgstr ""
+
+#: en/gimp-pimping.html:2211(div:title)
+msgid "1.17.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:2215(h4)
+msgid "<a id=\"id3173192\"/>1.17.1. Options"
+msgstr ""
+
+#: en/gimp-pimping.html:2219(div:title) en/gimp-pimping.html:2221(b)
+msgid "Window Manager Hints"
+msgstr ""
+
+#: en/gimp-pimping.html:2225(span)
+msgid "Window type hints for the toolbox and the docks"
+msgstr ""
+
+#: en/gimp-pimping.html:2228(p)
+msgid "The choices you make here determine how the Toolbox, and the docks that hold dialogs, will be treated. You have three possibilities for them:"
+msgstr ""
+
+#: en/gimp-pimping.html:2236(p)
+msgid "If you choose <span class=\"guilabel\">Normal Window</span>, they will be treated like any other windows."
+msgstr ""
+
+#: en/gimp-pimping.html:2242(p)
+msgid "If you choose <span class=\"guilabel\">Utility Window</span>, the reduce button in the title bar is absent and the docks will remain permanently on your screen."
+msgstr ""
+
+#: en/gimp-pimping.html:2250(b)
+msgid "Figure 11.24. Utility window title bar"
+msgstr ""
+
+#: en/gimp-pimping.html:2254(img:alt) en/gimp-pimping.html:2262(img:alt)
+msgid "Utility window title bar"
+msgstr ""
+
+#: en/gimp-pimping.html:2256(p)
+msgid "Normal title bar"
+msgstr ""
+
+#: en/gimp-pimping.html:2264(p)
+msgid "The title bar in a utility window"
+msgstr ""
+
+#: en/gimp-pimping.html:2274(p)
+msgid "If you choose <span class=\"guilabel\">Keep above</span>, they will be kept in front of every other window at all times."
+msgstr ""
+
+#: en/gimp-pimping.html:2281(p)
+msgid "Note that changes you make here will not take effect until the next time you start <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-pimping.html:2288(div:title) en/gimp-pimping.html:2290(b)
+msgid "Focus"
+msgstr ""
+
+#: en/gimp-pimping.html:2294(span)
+msgid "Activate the focused image"
+msgstr ""
+
+#: en/gimp-pimping.html:2297(p)
+msgid "Normally, when you focus an image window (usually indicated by a change in the color of the frame), it becomes the <span class=\"quote\">“<span class=\"quote\">active image</span>”</span> for GIMP, and therefore the target for any image-related actions you perform. Some people, though, prefer to set up their window managers such that any window entered by the pointer is automatically focused. If you do this, you may find that it is inconvenient for focused images to automatically become active, and may be happier if you uncheck this option."
+msgstr ""
+
+#: en/gimp-pimping.html:2311(div:title) en/gimp-pimping.html:2313(b)
+msgid "Window Positions"
+msgstr ""
+
+#: en/gimp-pimping.html:2317(span)
+msgid "Save window positions on exit"
+msgstr ""
+
+#: en/gimp-pimping.html:2320(p)
+msgid "If this option is checked, the next time you start GIMP, you will see the same set of dialog windows, in the same positions they occupied when you last exited."
+msgstr ""
+
+#: en/gimp-pimping.html:2327(span)
+msgid "Save Window Positions Now"
+msgstr ""
+
+#: en/gimp-pimping.html:2330(p)
+msgid "This button is only useful if \"Save window positions on exit\" is unchecked. It allows you to set up your windows they way you like, click the button, and then have them come up in that arrangement each time you start GIMP."
+msgstr ""
+
+#: en/gimp-pimping.html:2338(span)
+msgid "Reset Saved Window Positions to Default Values"
+msgstr ""
+
+#: en/gimp-pimping.html:2341(p)
+msgid "If you decide that you are unhappy with the arrangement of windows you have saved, and would rather go back to the default arrangement than spend time moving them around, you can do so by pressing this button."
+msgstr ""
+
+#: en/gimp-pimping.html:2352(div:title)
+msgid "1.18. Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2356(h3)
+msgid "<a id=\"gimp-prefs-folders\"/>1.18. Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2364(b)
+msgid "Figure 11.25. Basic Folder Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2368(img:alt)
+msgid "Basic Folder Preferences"
+msgstr ""
+
+#: en/gimp-pimping.html:2373(p)
+msgid "This page allows you to set the locations for two important folders used by GIMP for temporary files. The pages below it allow you to customize the locations searched for resources such as brushes etc.; see <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;Data Folders\">Data Folders</a> for a description that applies to them. You can change the folders here by editing the entries, or by pressing the buttons on the right to bring up a file chooser window."
+msgstr ""
+
+#: en/gimp-pimping.html:2382(div:title) en/gimp-pimping.html:2384(b)
+msgid "Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2390(span)
+msgid "Temp folder"
+msgstr ""
+
+#: en/gimp-pimping.html:2393(p)
+msgid "This folder is used for temporary files: files created for temporary storage of working data, and then deleted within the same GIMP session. It does not require a lot of space or high performance. By default, a subdirectory called <code class=\"filename\">tmp</code> in your personal GIMP directory is used, but if that disk is very cramped for space, or has serious performance issues, you can change it to a different directory. The directory must exist and be writable by you, or bad things will happen."
+msgstr ""
+
+#: en/gimp-pimping.html:2405(span)
+msgid "Swap folder"
+msgstr ""
+
+#: en/gimp-pimping.html:2408(p)
+msgid "This is the folder used as a <span class=\"quote\">“<span class=\"quote\">memory bank</span>”</span> when the total size of images and data open in GIMP exceeds the available RAM. If you work with very large images, or images with many layers, or have many images open at once, GIMP can potentially require hundreds of megabytes of swap space, so available disk space and performance are definitely things to think about for this folder. By default, it is set to your personal GIMP directory, but if you have another disk with more free space, or substantially better performance, you may see a significant benefit from moving your swap folder there. The directory must exist and be writable by you."
+msgstr ""
+
+#: en/gimp-pimping.html:2425(div:title)
+msgid "1.19. Data Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2429(h3)
+msgid "<a id=\"gimp-prefs-folders-data\"/>1.19. Data Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2448(b)
+msgid "Figure 11.26. Preferences: Brush Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2452(img:alt)
+msgid "Preferences: Brush Folders"
+msgstr ""
+
+#: en/gimp-pimping.html:2457(p)
+msgid "GIMP uses several types of resources – such as brushes, patterns, gradients, etc. – for which a basic set are supplied by GIMP when it is installed, and others can be created or downloaded by the user. For each such resource type, there is a Preference page that allows you to specify the <span class=\"emphasis\"><em>search path</em></span>: the set of directories from which items of the type in question are automatically loaded when GIMP starts. These pages all look very much the same: the page for brushes is shown to the right as an example."
+msgstr ""
+
+#: en/gimp-pimping.html:2467(p)
+msgid "By default, the search path includes two folders: a <span class=\"emphasis\"><em>system</em></span> folder, where items installed along with GIMP are placed, and a <span class=\"emphasis\"><em>personal</em></span> folder, inside your personal GIMP directory, where items added by you should be placed. The system folder should not be marked as writable, and you should not try to alter its contents. The personal folder must be marked as writable or it is useless, because there is nothing inside it except what you put there."
+msgstr ""
+
+#: en/gimp-pimping.html:2477(p)
+msgid "You can customize the search path with the buttons at the top of the dialog."
+msgstr ""
+
+#: en/gimp-pimping.html:2487(span)
+msgid "Select a Folder"
+msgstr ""
+
+#: en/gimp-pimping.html:2490(p)
+msgid "If you click on one of the folders in the list, it is selected for whatever action comes next."
+msgstr ""
+
+#: en/gimp-pimping.html:2496(span)
+msgid "Add/Replace Folder"
+msgstr ""
+
+#: en/gimp-pimping.html:2499(p)
+msgid "If you type the name of a folder in the entry space, or navigate to it using the file chooser button <span class=\"guiicon\"><img src=\"images/dialogs/stock-fileopen-16.png\"/></span> on the right, and then click the left button, this will replace the selected folder with the one you have specified. If nothing in the list is selected, the folder you specify will be added to the list. If the light-symbol to the left of the text entry area is red instead of green, it means that the folder you have specified does not exist. GIMP will not create it for you, so you should do this immediately."
+msgstr ""
+
+#: en/gimp-pimping.html:2515(span)
+msgid "Move Up/Down"
+msgstr ""
+
+#: en/gimp-pimping.html:2518(p)
+msgid "If you click on the up-arrow or down-arrow buttons, the selected folder will be changed to the following or preceding one in the list. Since the folders are read in order, using those buttons change the loading precedence of the items located in those folders."
+msgstr ""
+
+#: en/gimp-pimping.html:2526(span)
+msgid "Delete Folder"
+msgstr ""
+
+#: en/gimp-pimping.html:2529(p)
+msgid "If you click the trash-can button, the selected folder will be deleted from the list. (The folder itself is not affected; it is merely removed from the search path.) Deleting the system folder is probably a bad idea, but nothing prevents you from doing it."
+msgstr ""
+
+#: en/gimp-pimping.html:2548(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-pimping.html:2554(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-pimping.html:2557(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-pimping.html:2560(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

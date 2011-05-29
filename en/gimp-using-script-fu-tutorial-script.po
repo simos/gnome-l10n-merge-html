@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-script.html:6(title) en/gimp-using-script-fu-tutorial-script.html:21(th) en/gimp-using-script-fu-tutorial-script.html:31(div:title)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:13(link:title) en/gimp-using-script-fu-tutorial-script.html:25(th)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:14(link:title) en/gimp-using-script-fu-tutorial-script.html:300(a)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:15(link:title) en/gimp-using-script-fu-tutorial-script.html:306(a)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:24(img:alt) en/gimp-using-script-fu-tutorial-script.html:291(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:24(td) en/gimp-using-script-fu-tutorial-script.html:291(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-first-script.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:26(img:alt) en/gimp-using-script-fu-tutorial-script.html:297(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:26(td) en/gimp-using-script-fu-tutorial-script.html:297(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-extending-text-box.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-script\"/>3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:39(p)
+msgid "Let us continue with our training and add some functionality to our script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:43(div:title)
+msgid "3.5.1. Creating A New Image"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:47(h4)
+msgid "<a id=\"id3236083\"/>3.5.1. Creating A New Image"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:51(p)
+msgid "In the previous lesson, we created an empty function and registered it with <acronym class=\"acronym\">GIMP</acronym>. In this lesson, we want to provide functionality to our script — we want to create a new image, add the user's text to it and resize the image to fit the text exactly."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:57(p)
+msgid "Once you know how to set variables, define functions and access list members, the rest is all downhill — all you need to do is familiarize yourself with the functions available in <acronym class=\"acronym\">GIMP</acronym>'s procedural database and call those functions directly. So fire up the <a class=\"xref\" href=\"plug-in-dbbrowser.html\" title=\"12.7.&#xA0;The Procedure Browser\">Section 12.7, “The Procedure Browser”</a> and let's get cookin'!"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:65(p)
+msgid "Let's begin by making a new image. We'll create a new variable, <code class=\"varname\">theImage</code>, set to the result of calling <acronym class=\"acronym\">GIMP</acronym>'s built-in function <code class=\"function\">gimp-image-new</code>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:71(p)
+msgid "As you can see from the DB Browser, the function <code class=\"function\">gimp-image-new</code> takes three parameters — the image's width, height and the type of image. Because we'll later resize the image to fit the text, we'll make a 10x10 pixels <acronym class=\"acronym\">RGB</acronym> image. We'll store the image's width and sizes in some variables, too, as we'll refer to and manipulate them later in the script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:81(pre)
+#, no-wrap
+msgid "\n        (define (script-fu-text-box inText inFont inFontSize inTextColor)\n        (let*\n              (\n                 ; define our local variables\n                 ; create a new image:\n                 (theImageWidth  10)\n                 (theImageHeight 10)\n                 (theImage (car\n                                (gimp-image-new\n                                 theImageWidth\n                                 theImageHeight\n                                 RGB\n                                )\n                           )\n                 )\n                 (theText)     ;a declaration for the text\n                               ;we create later\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:100(p)
+msgid "Note: We used the value <code class=\"code\">RGB</code> to specify that the image is an <acronym class=\"acronym\">RGB</acronym> image. We could have also used <code class=\"code\">0</code>, but <acronym class=\"acronym\">RGB</acronym> is more descriptive when we glance at the code."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:106(p)
+msgid "You should also notice that we took the head of the result of the function call. This may seem strange, because the database explicitly tells us that it returns only one value — the ID of the newly created image. However, all <acronym class=\"acronym\">GIMP</acronym> functions return a list, even if there is only one element in the list, so we need to get the head of the list."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:115(div:title)
+msgid "3.5.2. Adding A New Layer To The Image"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:119(h4)
+msgid "<a id=\"id3186905\"/>3.5.2. Adding A New Layer To The Image"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:123(p)
+msgid "Now that we have an image, we need to add a layer to it. We'll call the <code class=\"function\">gimp-layer-new</code> function to create the layer, passing in the ID of the image we just created. (From now on, instead of listing the complete function, we'll only list the lines we're adding to it. You can see the complete script <a class=\"link\" href=\"gimp-using-script-fu-tutorial-result.html\" title=\"3.7.&#xA0;Your script and its working\">here</a>.) Because we've declared all of the local variables we'll use, we'll also close the parentheses marking the end of our variable declarations:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:135(pre)
+#, no-wrap
+msgid "\n        ;create a new layer for the image:\n           (theLayer\n                     (car\n                          (gimp-layer-new\n                           theImage\n                           theImageWidth\n                           theImageHeight\n                           RGB-IMAGE\n                           \"layer 1\"\n                           100\n                           NORMAL\n                          )\n                      )\n            )\n         ) ;end of our local variables\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:152(p)
+msgid "Once we have the new layer, we need to add it to the image:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:153(pre)
+#, no-wrap
+msgid "\n        (gimp-image-add-layer theImage theLayer 0)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:156(p)
+msgid "Now, just for fun, let's see the fruits of our labors up until this point, and add this line to show the new, empty image:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:160(pre)
+#, no-wrap
+msgid "(gimp-display-new theImage)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:161(p)
+msgid "Save your work, select <span class=\"guimenu\">Filters</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Refresh Scripts</span>, run the script and a new image should pop up. It will probably contain garbage (random colors), because we haven't erased it. We'll get to that in a second."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:169(div:title)
+msgid "3.5.3. Adding The Text"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:173(h4)
+msgid "<a id=\"id3232628\"/>3.5.3. Adding The Text"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:177(p)
+msgid "Go ahead and remove the line to display the image (or comment it out with a (<code class=\"code\">;</code>) as the first character of the line)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:181(p)
+msgid "Before we add text to the image, we need to set the background and foreground colors so that the text appears in the color the user specified. We'll use the gimp-context-set-back/foreground functions:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:187(pre)
+#, no-wrap
+msgid "\n        (gimp-context-set-background '(255 255 255) )\n        (gimp-context-set-foreground inTextColor)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:191(p)
+msgid "With the colors properly set, let's now clean out the garbage currently in the image by filling the drawable with the background color:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:196(pre)
+#, no-wrap
+msgid "\n        (gimp-drawable-fill theLayer BACKGROUND-FILL)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:199(p)
+msgid "With the image cleared, we're ready to add some text:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:200(pre)
+#, no-wrap
+msgid "\n        (set! theText\n                      (car\n                           (gimp-text-fontname\n                            theImage theLayer\n                            0 0\n                            inText\n                            0\n                            TRUE\n                            inFontSize PIXELS\n                            \"Sans\")\n                       )\n        )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:214(p)
+msgid "Although a long function call, it's fairly straightforward if you go over the parameters while looking at the function's entry in the DB Browser. Basically, we're creating a new text layer and assigning it to the variable <code class=\"varname\">theText</code>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:221(p)
+msgid "Now that we have the text, we can grab its width and height and resize the image and the image's layer to the text's size:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:225(pre)
+#, no-wrap
+msgid "\n        (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n        (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n\n        (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n\n        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:233(p)
+msgid "If you're like me, you're probably wondering what a drawable is when compared to a layer. The difference between the two is that a drawable is anything that can be drawn into, including layers but also channels, layer masks, the selection, etc; a layer is a more specific version of a drawable. In most cases, the distinction is not important."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:241(p)
+msgid "With the image ready to go, we can now re-add our display line:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:244(pre)
+#, no-wrap
+msgid "\n        (gimp-display-new theImage)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:247(p)
+msgid "Save your work, refresh the database and give your first script a run!"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:251(div:title)
+msgid "3.5.4. Clearing The Dirty Flag"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:255(h4)
+msgid "<a id=\"id3228126\"/>3.5.4. Clearing The Dirty Flag"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:259(p)
+msgid "If you try to close the image created without first saving the file, <acronym class=\"acronym\">GIMP</acronym> will ask you if you want to save your work before you close the image. It asks this because the image is marked as dirty, or unsaved. In the case of our script, this is a nuisance for the times when we simply give it a test run and don't add or change anything in the resulting image — that is, our work is easily reproducible in such a simple script, so it makes sense to get rid of this dirty flag."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:269(p)
+msgid "To do this, we can clear the dirty flag after displaying the image:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:272(pre)
+#, no-wrap
+msgid "\n        (gimp-image-clean-all theImage)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:275(p)
+msgid "This will set dirty count to 0, making it appear to be a <span class=\"quote\">“<span class=\"quote\">clean</span>”</span> image."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:279(p)
+msgid "Whether to add this line or not is a matter of personal taste. I use it in scripts that produce new images, where the results are trivial, as in this case. If your script is very complicated, or if it works on an existing image, you will probably not want to use this function."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:294(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:300(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:303(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-script.html:306(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

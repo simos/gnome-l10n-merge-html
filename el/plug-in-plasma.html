@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.2. Plasma</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+    <link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-render.html" title="13.  Rendering Filters" />
+    <link rel="prev" href="filters-render.html" title="13.  Rendering Filters" />
+    <link rel="next" href="plug-in-solid-noise.html" title="13.3. Solid Noise" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.2. Plasma</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="filters-render.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">13. 
+    <span>Rendering Filters</span>
+  </th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-solid-noise.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" lang="en" xml:lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-plasma"></a>13.2. Plasma</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id454962" class="indexterm"></a>
+      <a id="id470170" class="indexterm"></a>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id616689"></a>13.2.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id484963"></a>
+          <p class="title">
+            <b>Figure 16.271. Example of a rendered plasma</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-plasma.jpg" alt="Example of a rendered plasma" />
+              <div class="caption">
+                <p>Filter “<span class="quote">Plasma</span>” applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      All of the colors produced by Plasma are completely saturated.
+      Sometimes the strong colors may be distracting, and a more
+      interesting surface will appear when you desaturate the image
+      using
+      <span class="guimenuitem">Layer/Colors/Desaturate</span>.
+    </p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="images/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        An enhanced version of the Plasma plug-in, called
+        <span class="emphasis"><em>Plasma2</em></span>, with many more options and
+        parameters, is available from the GIMP Plugin Registry
+        <a class="xref" href="bibliography.html#bibliography-online-gimp-plugin-plasma2" title="GIMP-Plugin Plasma2 at the Registry">[<abbr class="abbrev">PLUGIN-PLASMA2</abbr>]</a>.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id493626"></a>13.2.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Clouds</span> → <span class="guimenuitem">Plasma</span>.
+    </p>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id507581"></a>13.2.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id693032"></a>
+          <p class="title">
+            <b>Figure 16.272. “<span class="quote">Plasma</span>” filter options</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/filters-render-plasma.png" alt="Plasma filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Random Seed</span>
+            </dt>
+            <dd>
+              <p>
+            <span class="guilabel">Random Seed</span> controls the randomization
+            element. The <span class="guibutton">Randomize</span> check-button will
+            set the seed using the hardware clock of the computer.
+            There is no reason to use anything else unless you want to
+            be able to repeat the exact same pattern of randomization
+            on a later occasion.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Turbulence</span>
+            </dt>
+            <dd>
+              <p>
+            This parameter controls the complexity of the plasma.
+            High values give a hard feeling to the cloud (like an
+            abstract oil painting or mineral grains), low values
+            produce a softer cloud (like steam, mist or smoke).  The
+            range is 0.1 to 7.0.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-render.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-solid-noise.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-render.html">13. 
+    <span>Rendering Filters</span>
+  </a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-solid-noise.html">13.3. Solid Noise</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

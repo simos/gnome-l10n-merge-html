@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 11. Προσαρμογή του GIMP</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="gimp-imaging-color-management.html" title="Κεφάλαιο 10. Διαχείριση χρώματος του GIMP" />
+<link rel="next" href="gimp-concepts-image-grid-and-guides.html" title="2. Πλέγματα και οδηγοί" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 11. Προσαρμογή του GIMP</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-imaging-color-management.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;
+</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" title="Κεφάλαιο 11. Προσαρμογή του GIMP">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-pimping"></a>Κεφάλαιο 11. Προσαρμογή του GIMP</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1">
+<a href="gimp-pimping.html#gimp-prefs-dialog">1. Διάλογος προτιμήσεων</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#id3206452">1.1. Εισαγωγή</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-environment">1.2. Περιβάλλον</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-interface">1.3. Διεπαφή</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-theme">1.4. Θέμα</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-help">1.5. Σύστημα βοήθειας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-tool-options">1.6. Επιλογές εργαλείων</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-toolbox">1.7. Εργαλειοθήκη</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-new-image">1.8. Προεπιλεγμένες προτιμήσεις εικόνας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-default-grid">1.9. Προεπιλεγμένο πλέγμα εικόνας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-image-window">1.10. Παράθυρα εικόνων</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-image-window-appearance">1.11. Εμφάνιση παραθύρου εικόνας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-image-window-title">1.12. Τίτλος παραθύρου εικόνας και γραμμής κατάστασης</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-display">1.13. Εμφάνιση</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-color-management">1.14. Διαχείριση χρώματος</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-input-devices">1.15. Συσκευές εισαγωγής</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-input-controllers">1.16. Ελεγκτές εισόδου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-window-management">1.17. Διαχείριση παραθύρου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-folders">1.18. Φάκελοι</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-pimping.html#gimp-prefs-folders-data">1.19. Δεδομένα φακέλων</a>
+</span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1">
+<a href="gimp-concepts-image-grid-and-guides.html">2. Πλέγματα και οδηγοί</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid">2.1. Πλέγμα εικόνας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-concepts-image-guides.html">2.2. Οδηγοί</a>
+</span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1">
+<a href="gimp-using-grid.html">3. Ενσωμάτωση πλέγματος</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-using-setup-tile-cache.html">4. Ρύθμιση της παράθεσης προσωρινής αποθήκευσης</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-concepts-shortcuts.html">5. Δημιουργία συντομεύσεων στο μενού λειτουργιών</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="customize-splashscreen.html">6. Προσαρμογή αρχικής οθόνης</a>
+</span>
+</dt>
+</dl>
+</div>
+<div class="sect1" title="1. Διάλογος προτιμήσεων">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-prefs-dialog"></a>1. Διάλογος προτιμήσεων</h2>
+</div>
+</div>
+</div>
+<a id="id3206477" class="indexterm"></a>
+<a id="id3230809" class="indexterm"></a>
+<div class="sect2" title="1.1. Εισαγωγή">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="id3206452"></a>1.1. Εισαγωγή</h3>
+</div>
+</div>
+</div>
+<div class="figure">
+<a id="id3230818"></a>
+<p class="title">
+<b>Εικόνα 11.1. Κατάλογος των σελίδων προτίμησης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-list.png" alt="Κατάλογος των σελίδων προτίμησης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ο διάλογος προτιμήσεων είναι προσβάσιμος από τη γραμμή μενού εικόνας, μέσα από
+<span class="guimenu">Επεξεργασία</span> → <span class="guimenuitem">Προτιμήσεις</span>. Σας επιτρέπει να
+προσαρμόσετε πολλές πτυχές του τρόπου εργασίας του GIMP. Οι παρακάτω παράγραφοι επιλαμβάνονται λεπτομερώς
+των ρυθμίσεων που μπορείτε να προσαρμόσετε και των συνεπειών τους.
+</p>
+<p>
+Όλες οι πληροφορίες προτιμήσεων αποθηκεύονται σε ένα αρχείο που λέγεται <code class="filename">gimprc</code>
+στον προσωπικό σας κατάλογο GIMP, έτσι εάν είσθε ένας <span class="quote">“<span class="quote">δυναμικός χρήστης</span>”</span>
+που θα προτιμούσε να δουλέψει με τον επεξεργαστή κειμένου παρά με γραφική διεπαφή, μπορείτε να μεταβάλλετε τις
+προτιμήσεις επεξεργαζόμενοι αυτό το αρχείο. Εάν το κάνετε, και είσαστε σε σύστημα Linux, τότε το
+<span class="command"><strong>man gimprc</strong></span> θα σας δώσει πολλές τεχνικές πληροφορίες για τα
+περιεχόμενα του αρχείου και που χρησιμοποιούνται.
+</p>
+</div>
+<div class="sect2" title="1.2. Περιβάλλον">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-environment"></a>1.2. Περιβάλλον</h3>
+</div>
+</div>
+</div>
+<a id="id3232172" class="indexterm"></a>
+<a id="id3232161" class="indexterm"></a>
+<div class="figure">
+<a id="id3230727"></a>
+<p class="title">
+<b>Εικόνα 11.2. Προτιμήσεις περιβάλλοντος</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-environment.png" alt="Προτιμήσεις περιβάλλοντος" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε το ποσό της μνήμης του συστήματος που καταμερίζεται για ποικίλους
+σκοπούς. Σας επιτρέπει επίσης να απενεργοποιήσετε τους διαλόγους επιβεβαίωσης που εμφανίζονται όταν κλείσετε
+αναποθηκευμένες εικόνες και να ρυθμίσετε το μέγεθος των αρχείων μικρογραφιών που παράγει το GIMP.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.2.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3194680"></a>1.2.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Resource Consumption">
+<p class="title">
+<b>Κατανάλωση πόρων</b>
+</p>
+<dl>
+<dt>
+<span class="term">Minimal number of undo levels (ελάχιστος αριθμός σταθμών αναίρεσης)</span>
+</dt>
+<dd>
+<p>
+Το GIMP σας επιτρέπει να αναιρέσετε τις περισσότερες ενέργειες διατηρώντας ένα
+<span class="quote">“<span class="quote">ιστορικό αναιρέσεων</span>”</span> για κάθε εικόνα, για το οποίο ένα
+συγκεκριμένο ποσό μνήμης καταμερίζεται. Ανεξάρτητα από τη χρήση της μνήμης, όμως, το GIMP επιτρέπει πάντοτε
+ένας ελάχιστος αριθμός των πιο πρόσφατων ενεργειών να αναιρεθούν. Αυτός είναι ο αριθμός που καθορίζεται εδώ.
+Δείτε <a class="xref" href="gimp-concepts-undo.html" title="3. Αναίρεση">Ενότητα 3, “Αναίρεση”</a> για
+περισσότερες πληροφορίες για το μηχανισμό αναίρεσης του GIMP.
+</p>
+</dd>
+<dt>
+<span class="term">Μέγιστη μνήμη αναιρέσεων</span>
+</dt>
+<dd>
+<p>
+Αυτό είναι το ποσό της μνήμης αναίρεσης που καταμερίζεται για κάθε εικόνα. Εάν το μέγεθος του ιστορικού
+αναιρέσεων το ξεπερνά, τα πιο παλιά σημεία διαγράφονται, εκτός και αυτό οδηγεί σε λιγότερα σημεία να είναι
+παρόντα από τον ελάχιστο αριθμό που ορίζεται πιο πάνω.
+</p>
+</dd>
+<dt>
+<span class="term">Tile cache size (Μέγεθος κρυφής μνήμης)</span>
+</dt>
+<dd>
+<p>
+Αυτό είναι το ποσό της μνήμης RAM που καταμερίζεται για τα δεδομένα εικόνας του GIMP. Εάν το GIMP απαιτεί πιο
+πολλή μνήμη από αυτή αρχίζει να εναλλάσσει με τη μνήμη του δίσκου που σε κάποιες περιπτώσεις μπορεί να
+προκαλέσει δραματική επιβράδυνση. Σας δίνεται η ευκαιρία  να ορίσετε αυτό τον αριθμό, όταν εγκαθίσταται το
+GIMP, αλλά μπορείτε να το αλλάξετε εδώ. Δείτε
+<a class="link" href="gimp-using-setup-tile-cache.html" title="4. Ρύθμιση κρυφής μνήμης">Ρύθμιση κρυφής μνήμης</a>
+για περισσότερες πληροφορίες.
+</p>
+</dd>
+<dt>
+<span class="term">Μέγιστο μέγεθος νέας εικόνας</span>
+</dt>
+<dd>
+<p>
+Αυτός δεν είναι δύσκολος περιορισμός. Εάν προσπαθείτε να δημιουργήσετε μια νέα εικόνα μεγαλύτερη από το
+προκαθορισμένο μέγεθος, σας ζητιέται να επιβεβαιώσετε ότι πραγματικά το θέλετε. Αυτό γίνεται για να αποφύγετε
+τυχαία δημιουργία εικόνων πολύ μεγαλύτερων από την πρόθεση σας, που μπορεί είτε να κρεμάσει το GIMP ή να
+ανταποκρίνεται πολύ αργά.
+</p>
+</dd>
+<dt>
+<span class="term">Αριθμός επεξεργαστών για χρήση</span>
+</dt>
+<dd>
+<p>
+Ο προκαθορισμένος είναι ένας. Ο υπολογιστής σας μπορεί να έχει περισσότερους από έναν επεξεργαστή.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Μικρογραφίες εικόνων">
+<p class="title">
+<b>Μικρογραφίες εικόνων</b>
+</p>
+<dl>
+<dt>
+<span class="term">Μέγεθος των μικρογραφιών</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή σας επιτρέπει να ορίσετε το μέγεθος των εμφανιζόμενων μικρογραφιών στο διάλογο ανοίγματος
+αρχείο (και επίσης αποθήκευσης για ενδεχόμενη χρήση από άλλα προγράμματα). Οι επιλογές είναι
+<span class="quote">“<span class="quote"> Χωρίς μικρογραφίες</span>”</span>,
+<span class="quote">“<span class="quote">Κανονικό (128x128)</span>”</span> και
+<span class="quote">“<span class="quote">Μεγάλο (256x256)</span>”</span>.
+</p>
+</dd>
+<dt>
+<span class="term">Μέγιστο μέγεθος αρχείου για μικρογραφίες</span>
+</dt>
+<dd>
+<p>
+Εάν ένα αρχείο εικόνας είναι μεγαλύτερο από το ορισμένο μέγιστο μέγεθος, το GIMP δεν θα δημιουργήσει μικρογραφία.
+Αυτές οι επιλογές σας επιτρέπουν να αποφύγετε αρχεία με μικρογραφίες υπερβολικά μεγάλων εικόνων που οδηγούν από
+επιβράδυνση μέχρι κατάρρευση του GIMP.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Αποθήκευση εικόνων">
+<p class="title">
+<b>Αποθήκευση εικόνων</b>
+</p>
+<dl>
+<dt>
+<span class="term">Επιβεβαίωση κλεισίματος μη αποθηκευμένων εικόνων</span>
+</dt>
+<dd>
+<p>
+Το κλείσιμο μιας εικόνας δεν αναιρείται, έτσι από προεπιλογή το GIMP σας ζητά να επιβεβαιώσετε ότι όντως το
+θέλετε,  οποτεδήποτε θα μπορούσε να οδηγήσει σε απώλεια μη αποθηκευμένων αλλαγών.
+Μπορείτε να το απενεργοποιήσετε, εάν το βρίσκετε ενοχλητικό, αλλά τότε θα πρέπει να θυμόσαστε εσείς, εάν το
+αποθηκεύσατε ή όχι.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Ιστορικό εγγράφου">
+<p class="title">
+<b>Ιστορικό εγγράφου</b>
+</p>
+<dl>
+<dt>
+<span class="term">Διατήρηση ιστορικού από χρησιμοποιημένα αρχεία στη λίστα πρόσφατων εγγράφων</span>
+</dt>
+<dd>
+<p>
+Εάν επιλεγεί, τα αρχεία που ανοίξατε θα αποθηκευτούν στο ιστορικό εγγράφου. Μπορείτε να προσπελάσετε τη λίστα
+των αρχείων
+<a class="link" href="gimp-document-dialog.html" title="4.3. Διάλογος ιστορικού εγγράφου">Διάλογος ιστορικού εγγράφου</a>
+από τη γραμμή μενού της εικόνας:
+<span class="guimenu">Αρχείο</span> → <span class="guisubmenu">Άνοιγμα πρόσφατου</span> → <span class="guimenuitem">Ιστορικό εγγράφου</span>.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.3. Διεπαφή">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-interface"></a>1.3. Διεπαφή</h3>
+</div>
+</div>
+</div>
+<a id="id3232254" class="indexterm"></a>
+<a id="id3218104" class="indexterm"></a>
+<a id="id3231272" class="indexterm"></a>
+<a id="id3223544" class="indexterm"></a>
+<div class="figure">
+<a id="id3222740"></a>
+<p class="title">
+<b>Εικόνα 11.3. Οι προτιμήσεις της διεπαφής χρήστη</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-interface.png" alt="Οι προτιμήσεις της διεπαφής χρήστη" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τις προεπισκοπήσεις στρώσης/καναλιού και τις συντομεύσεις του
+πληκτρολογίου.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="variablelist" title="Επιλογές">
+<p class="title">
+<b>Επιλογές</b>
+</p>
+<a id="id3212737" class="indexterm"></a>
+<a id="id3206224" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Προεπισκοπήσεις</span>
+</dt>
+<dd>
+<p>
+Από προεπιλογή, το GIMP δείχνει μικροσκοπικές προεπισκοπήσεις των περιεχομένων των στρώσεων και των καναλιών σε
+πολλές θέσεις, συμπεριλαμβανομένου του διαλόγου στρώσεων. Εάν για κάποιο λόγο θα θέλατε να το απενεργοποιήσετε
+μπορείτε να το κάνετε αποεπιλέγοντας <span class="guilabel">Ενεργοποίηση προεπισκοπήσεων στρώσεων και καναλιών</span>.
+Εάν θέλετε να εμφανίζονται οι προεπισκοπήσεις, μπορείτε να προσαρμόσατε τα μεγέθη τους χρησιμοποιώντας τα μενού
+για  <span class="guilabel">Προεπιλεγμένο μέγεθος προεπισκοπήσεων στρώσεων και καναλιών</span> και
+<span class="guilabel">Μέγεθος προεπισκόπησης περιήγησης</span>.
+</p>
+</dd>
+<dt>
+<a id="prefs-kbd-shortcuts"></a>
+<span class="term">Συντομεύσεις πληκτρολογίου</span>
+</dt>
+<dd>
+<p>
+Οποιοδήποτε στοιχείο του μενού μπορεί να ενεργοποιηθεί κρατώντας πατημένο  <span class="keycap"><strong>Alt</strong></span>
+και πατώντας μια ακολουθία πλήκτρων. Κανονικά, το πλήκτρο που συνδέεται με κάθε εγγραφή του μενού εμφανίζεται
+με ένα υπογραμμισμένο γράμμα στο κείμενο, αποκαλούμενο <span class="emphasis"><em>επιταχυντής</em></span>.
+Εάν για κάποιο λόγο θα επιθυμούσατε οι υπογραμμίσεις να απομακρυνθούν (ίσως επειδή είναι άσχημες και δεν τις
+χρησιμοποιείτε), μπορείτε να το κάνετε αποεπιλέγοντας <span class="guilabel">Εμφάνιση μνημονικών στα μενού (πλήκτρα γρήγορης πρόσβασης)</span>.
+</p>
+<p>
+Το GIMP σας δίνει τη δυνατότητα δημιουργίας συντομεύσεων πληκτρολογίου (συνδυασμοί πλήκτρων που ενεργοποιούν
+μια εγγραφή μενού) δυναμικά, πατώντας τα πλήκτρα, ενώ ο δείκτης είναι πάνω από την επιθυμητή εγγραφή μενού.
+Όμως, αυτή η δυνατότητα είναι απενεργοποιημένη από επιλογή, επειδή μπορεί να οδηγήσει αρχάριους χρήστες σε
+τυχαία αντικατάσταση των πρότυπων συντομεύσεων πληκτρολογίου. Εάν θέλετε να το ενεργοποιήσετε, επιλέξτε
+<span class="guilabel">Χρήση δυναμικών συντομεύσεων πληκτρολογίου</span> εδώ.
+</p>
+<p>
+Πατώντας το κουμπί για <span class="guilabel">Ρύθμιση συντομεύσεων πληκτρολογίου</span> εμφανίζει τον
+επεξεργαστή συντομεύσεων, που σας δίνει μια γραφική διεπαφή για επιλογή στοιχείων μενού και απόδοση
+συντομεύσεων σε αυτά.
+</p>
+<p>
+Εάν αλλάξετε τις συντομεύσεις, θα θέλετε πιθανόν οι αλλαγές να συνεχίσουν να εφαρμόζονται σε επόμενες συνόδους
+του GIMP. Εάν όχι, αποεπιλέξτε <span class="guilabel">Αποθήκευση συντομεύσεων πληκτρολογίου κατά την έξοδο</span>.
+Αλλά να θυμόσαστε ότι το κάνατε, ή ίσως απογοητευτείτε αργότερα. Εάν δεν θέλετε να αποθηκεύετε τις συντομεύσεις
+στην έξοδο κάθε συνόδου, μπορείτε να αποθηκεύσετε τις τρέχουσες ρυθμίσεις οποτεδήποτε χρησιμοποιώντας το κουμπί
+<span class="guilabel">Αποθήκευση συντομεύσεων πληκτρολογίου τώρα</span> και θα εφαρμοστούν στις μελλοντικές
+συνόδους. Εάν αποφασίσετε ότι έχετε κάνει μερικές κακές επιλογές με τις συντομεύσεις, μπορείτε να τις
+επαναφέρετε στην αρχική τους κατάσταση πατώντας
+<span class="guilabel">Επαναφορά των συντομεύσεων πληκτρολογίου στις προκαθορισμένες ρυθμίσεις</span>.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2" title="1.4. Θέμα">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-theme"></a>1.4. Θέμα</h3>
+</div>
+</div>
+</div>
+<a id="id3165744" class="indexterm"></a>
+<a id="id3228535" class="indexterm"></a>
+<div class="figure">
+<a id="id3191121"></a>
+<p class="title">
+<b>Εικόνα 11.4. Επιλογή θέματος</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-theme.png" alt="Επιλογή θέματος" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η σελίδα σας αφήνει να διαλέξετε ένα θέμα που προσδιορίζει πολλές πλευρές της εμφάνισης της διεπαφής χρήστη
+του GIMP, περιλαμβάνει ένα σύνολο των χρησιμοποιούμενων εικόνων, τα μεγέθη τους, γραμματοσειρές, επιτρεπόμενα
+διάκενα στους διαλόγους κλ. Δύο θέματα έρχονται με το GIMP: <span class="guilabel">Προκαθορισμένο</span> που
+είναι προφανώς το καλύτερο για τους περισσότερους ανθρώπους και <span class="guilabel">μικρό</span> που ίσως
+είναι προτιμότερο για αυτούς με χαμηλή ανάλυση οθόνης. Πατώντας σε ένα θέμα στη λίστα προκαλεί την άμεση
+εφαρμογή του, έτσι είναι εύκολο να δείτε το αποτέλεσμα και να αλλάξετε γνώμη, αν δεν σας αρέσει.
+</p>
+<p>
+Μπορείτε επίσης να χρησιμοποιήσετε προσαρμοσμένα θέματα, είτε κατεβάζοντας τα από το διαδίκτυο, είτε
+αντιγράφοντας ένα από τα αρχικά θέματα και τροποποιώντας το. Τα προσαρμοσμένα θέματα πρέπει να τοποθετηθούν
+στον υποκατάλογο <code class="filename">themes</code> του προσωπικού σας καταλόγου GIMP, εάν υπάρχουν θα
+εμφανιστούν στη λίστα εδώ, μετά την επόμενη εκκίνηση. Κάθε θέμα στην πραγματικότητα είναι ένας κατάλογος
+που περιέχει αρχεία ASCII που μπορείτε να τα επεξεργαστείτε. Είναι αρκετά σύνθετο και το νόημα των
+περιεχομένων πέρα από το σκοπό της τεκμηρίωσης, αλλά είσθε ελεύθεροι να πειραματιστείτε. Στην χειρότερη
+περίπτωση, εάν μπερδευτείτε ολότελα, μπορείτε πάντοτε να επιστρέψετε σε ένα από τα προμηθευμένα θέματα.
+</p>
+<p>
+Δεν μπορείτε να επεξεργαστείτε τα προμηθευμένα θέματα, εκτός και έχετε άδειες διαχειριστή, αλλά και σε αυτήν
+την περίπτωση δε θα έπρεπε. Εάν θέλετε να τροποποιήσετε ένα θέμα, αντιγράψτε το στον προσωπικό σας κατάλογο.
+και επεξεργαστείτε το. Εάν κάνετε αλλαγές και θέλετε να δείτε το αποτέλεσμα
+<span class="quote">“<span class="quote">στη κίνηση</span>”</span>, μπορείτε να το κάνετε αποθηκεύοντας το
+αρχείο του επεξεργασμένου θέματος και έπειτα πατώντας <span class="guilabel">Επαναφόρτωση τρέχοντος θέματος</span>.
+</p>
+</div>
+<div class="sect2" title="1.5. Σύστημα βοήθειας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-help"></a>1.5. Σύστημα βοήθειας</h3>
+</div>
+</div>
+</div>
+<a id="id3219574" class="indexterm"></a>
+<a id="id3234852" class="indexterm"></a>
+<div class="figure">
+<a id="id3226233"></a>
+<p class="title">
+<b>Εικόνα 11.5. Προτιμήσεις συστήματος βοήθειας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-help.png" alt="Προτιμήσεις συστήματος βοήθειας (στιγμιότυπο Linux)" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τη συμπεριφορά του συστήματος βοήθειας του GIMP.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.5.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3165111"></a>1.5.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Γενικά">
+<p class="title">
+<b>Γενικά</b>
+</p>
+<dl>
+<dt>
+<span class="term">Εμφάνιση συμβουλών εργαλείων</span>
+</dt>
+<dd>
+<p>
+Οι συμβουλές εργαλείων είναι μικρές αναδυόμενες βοήθειες που εμφανίζονται όταν ο δείκτης αιωρείται για μια στιγμή
+πάνω από κάποιο στοιχείο της διεπαφής, όπως ένα κουμπί ή εικόνα. Μερικές φορές εξηγούν τι κάνει το στοιχείο.
+Μερικές φορές δίνουν υποδείξεις για μη προφανείς τρόπους χρήσης. Εάν τις βρίσκεται υπερβολικά ενοχλητικές,
+μπορείτε να τις απενεργοποιήσετε εδώ αποεπιλέγοντας αυτή την επιλογή. Σας συνιστούμε να τις αφήσετε
+ενεργοποιημένες, εκτός και είσαστε ένας πολύ προχωρημένος χρήστης.
+</p>
+</dd>
+<dt>
+<span class="term">Εμφάνιση κουμπιών βοήθειας</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή ελέγχει εάν τα κουμπιά βοήθειας εμφανίζονται στο διάλογο κάθε εργαλείου, που μπορεί να
+χρησιμοποιηθεί εναλλακτικά για να καλέσει το σύστημα της βοήθειας.
+</p>
+</dd>
+<dt>
+<span class="term">Εγχειρίδιο χρήστη</span>
+</dt>
+<dd>
+<p>
+Αυτή η αναδυόμενη λίστα σας επιτρέπει να επιλέξετε μεταξύ
+<span class="guilabel">χρήση του εγκατεστημένου αντιγράφου</span> και
+<span class="guilabel">χρήση της διαδικτυακής έκδοσης</span>. Δείτε
+<a class="xref" href="gimp-help.html" title="12.2. Βοήθεια">Παράγραφος 12.2, “Βοήθεια”</a>.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Περιηγητής βοήθειας">
+<p class="title">
+<b>Περιηγητής βοήθειας</b>
+</p>
+<dl>
+<dt>
+<span class="term">Περιηγητής βοήθειας για χρήση</span>
+</dt>
+<dd>
+<p>
+Η βοήθεια του GIMP έρχεται σε μορφή αρχείων HTML, δηλαδή, ιστοσελίδων. Μπορείτε να τα δείτε χρησιμοποιώντας
+είτε τον περιηγητή βοήθειας του GIMP, ή με περιηγητή ιστοσελίδας της επιλογής σας. Εδώ επιλέγετε ποια επιλογή να
+επιλογή να χρησιμοποιήσετε. Επειδή οι σελίδες βοήθειας ελέγχθηκαν προσεκτικά για να είναι βέβαιο ότι δουλεύουν
+σωστά με τον περιηγητή του GIMP,  επειδή άλλοι περιηγητές είναι κάπως μεταβλητοί στην υποστήριξη
+χαρακτηριστικών, η πιο ασφαλής επιλογή είναι να χρησιμοποιήσετε τον εσωτερικό περιηγητή. Όμως, οποιοσδήποτε
+σύγχρονος περιηγητής ιστού θα πρέπει να είναι εντάξει.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Σημειώστε ότι ο περιηγητής βοήθειας δεν είναι διαθέσιμος σε όλες τις πλατφόρμες. Εάν λείπει, ο περιηγητής ιστοσελίδων
+θα χρησιμοποιηθεί για να επιτρέψει πρόσβαση στις σελίδες βοήθειας.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Περιηγητής ιστοσελίδων">
+<p class="title">
+<b>Περιηγητής ιστοσελίδων</b>
+</p>
+<a id="id3227064" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Περιηγητής ιστοσελίδων</span>
+</dt>
+<dd>
+<p>
+Εάν επιλέξατε <span class="quote">“<span class="quote">Περιηγητής βοήθειας του GIMP</span>”</span> για περιηγητή
+βοήθειας, αυτή η επιλογή δεν έχει αποτέλεσμα. Εάν επιλέξατε <span class="quote">“<span class="quote">περιηγητής
+ιστοσελίδων</span>”</span>, πρέπει να αποφασίσετε εδώ ποιον περιηγητή να χρησιμοποιήσετε και πώς να τον καλέσετε,
+εισάγοντας την εντολή που θα χρησιμοποιηθεί για να τρέξει ο περιηγητής.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.6. Επιλογές εργαλείων">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-tool-options"></a>1.6. Επιλογές εργαλείων</h3>
+</div>
+</div>
+</div>
+<a id="id3194995" class="indexterm"></a>
+<a id="id3173780" class="indexterm"></a>
+<div class="figure">
+<a id="id3168153"></a>
+<p class="title">
+<b>Εικόνα 11.6. Προτιμήσεις επιλογών εργαλείων</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-tool-options.png" alt="Προτιμήσεις επιλογών εργαλείων" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε μερικές όψεις της συμπεριφοράς των εργαλείων.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.6.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3218652"></a>1.6.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Γενικά">
+<p class="title">
+<b>Γενικά</b>
+</p>
+<dl>
+<dt>
+<span class="term">Αποθήκευση ρυθμίσεων εργαλείων κατά την έξοδο</span>
+</dt>
+<dd>
+<p>Αυτονόητο</p>
+</dd>
+<dt>
+<span class="term">Αποθήκευση ρυθμίσεων εργαλείων τώρα</span>
+</dt>
+<dd>
+<p>Αυτονόητο</p>
+</dd>
+<dt>
+<span class="term">Επαναφορά των εργαλείων στις προεπιλεγμένες ρυθμίσεις</span>
+</dt>
+<dd>
+<p>Αυτονόητο</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Guide and Grid Snapping">
+<p class="title">
+<b>Προσκόλληση σε οδηγό και πλέγμα</b>
+</p>
+<dl>
+<dt>
+<span class="term">Απόσταση προσκόλλησης</span>
+</dt>
+<dd>
+<p><span class="quote">“<span class="quote">Προσκόλληση</span>”</span> σε οδηγούς ή στο πλέγμα μιας εικόνας,
+σημαίνει ότι εάν ένα εργαλείο εφαρμόζεται πατώντας κάπου στην εμφάνιση της εικόνας, εάν το πατημένο σημείο
+είναι αρκετά κοντά σε έναν οδηγό ή πλέγμα, μετακινείται ακριβώς στον οδηγό ή το πλέγμα. Η προσκόλληση σε οδηγούς
+μπορεί να εναλλαγεί χρησιμοποιώντας,
+<span class="guimenu">Προβολή</span> → <span class="guimenuitem">Προσκόλληση στους οδηγούς</span> στο μενού
+εικόνας και εάν το πλέγμα είναι επιλεγμένο, προσκόλληση σε αυτό μπορεί να εναλλαχτεί χρησιμοποιώντας
+<span class="guimenu">Προβολή</span> → <span class="guimenuitem">Προσκόλληση στο πλέγμα</span>.
+Αυτή η επιλογή προτίμησης προσδιορίζει πόσο κοντά ένα πατημένο σημείο πρέπει να είναι σε οδηγό ή πλέγμα για να
+προσκολληθεί σε αυτό, σε εικονοστοιχεία.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Αλλαγή μεγέθους">
+<p class="title">
+<b>Αλλαγή μεγέθους</b>
+</p>
+<dl>
+<dt>
+<span class="term">Προεπιλεγμένη παρεμβολή</span>
+</dt>
+<dd>
+<p>
+Όταν κλιμακώνεται κάτι, κάθε εικονοστοιχείο στο αποτέλεσμα μετριέται με
+<a class="link" href="glossary.html#glossary-interpolation" title="Interpolation">παρεμβολή</a> αρκετών
+εικονοστοιχείων στην πηγή. Αυτή η επιλογή προσδιορίζει την προκαθορισμένη μέθοδο παρεμβολής. Μπορεί πάντοτε να
+αλλαχτεί, όμως, στο διάλογο επιλογών εργαλείου.
+</p>
+<div class="variablelist">
+<p>Υπάρχουν τέσσερεις επιλογές</p>
+<dl>
+<dt>
+<span class="term">παρεμβολή|Καμία</span>
+</dt>
+<dd>
+<p>
+Είναι η πιο γρήγορη μέθοδος, αλλά είναι αρκετά υποβαθμισμένη. Θα πρέπει να σκεφτείτε να τη χρησιμοποιήσετε μόνο
+εάν ο υπολογιστής σας είναι πολύ ασθενικός από πλευράς ταχύτητας.
+</p>
+</dd>
+<dt>
+<span class="term">παρεμβολή|Γραμμική</span>
+</dt>
+<dd>
+<p>
+Αυτή ήταν κάποτε η προεπιλεγμένη και είναι αρκετά καλή για τις περισσότερες περιπτώσεις.
+</p>
+</dd>
+<dt>
+<span class="term">Κυβικό</span>
+</dt>
+<dd>
+<p>
+Αυτή είναι η άριστη επιλογή (αν και μπορεί στην πραγματικότητα να δείχνει χειρότερη από τη γραμμική σε μερικούς
+τύπους εικόνας), αλλά επίσης και η πιο αργή. Από το GIMP 2.6, αυτή η μέθοδος είναι η προεπιλεγμένη.
+</p>
+</dd>
+<dt>
+<span class="term">Sinc (Lanczos3)</span>
+</dt>
+<dd>
+<p>
+Αυτή η μέθοδος εκτελεί μια υψηλής ποιότητας παρεμβολή.
+</p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Ρυθμίσεις ζωγραφίσματος που θα είναι κοινές στα εργαλεία">
+<p class="title">
+<b>Ρυθμίσεις ζωγραφίσματος που θα είναι κοινές στα εργαλεία</b>
+</p>
+<dl>
+<dt>
+<span class="term">Πινέλο, Μοτίβο, Διαβάθμιση.</span>
+</dt>
+<dd>
+<p>
+Μπορείτε να αποφασίσετε εδώ, εάν αλλάζοντας κάτι στο πινέλο κλ., η αλλαγή θα αντανακλάται σε όλα τα εργαλεία,
+ή κάθε ξεχωριστό εργαλείο (μολύβι, πινέλο βαφής, αερογράφος κλ.) θα θυμάται το στοιχείο που χρησιμοποιήθηκε
+για αυτό ειδικά.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Εργαλείο μετακίνησης">
+<p class="title">
+<b>Εργαλείο μετακίνησης</b>
+</p>
+<dl>
+<dt>
+<span class="term">Ενεργοποιεί τη στρώση ή το μονοπάτι</span>
+</dt>
+<dd>
+<p>
+Επιλέγοντας το πλαίσιο, το εργαλείο μετακίνησης αλλάζει την ενεργή στρώση ή μονοπάτι, όταν μια στρώση ή
+μονοπάτι πατηθεί.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.7. Εργαλειοθήκη">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-toolbox"></a>1.7. Εργαλειοθήκη</h3>
+</div>
+</div>
+</div>
+<a id="id3226763" class="indexterm"></a>
+<a id="id3235832" class="indexterm"></a>
+<div class="figure">
+<a id="id3217005"></a>
+<p class="title">
+<b>Εικόνα 11.7. Προτιμήσεις εργαλειοθήκης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-toolbox.png" alt="Προτιμήσεις εργαλειοθήκης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.7.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3239002"></a>1.7.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="figure">
+<a id="id3168956"></a>
+<p class="title">
+<b>Εικόνα 11.8. Προκαθορισμένη εμφάνιση εργαλειοθήκης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/toolbox-description.png" alt="Προκαθορισμένη εμφάνιση εργαλειοθήκης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε την εμφάνιση της εργαλειοθήκης, αποφασίζοντας εάν οι τρεις περιοχές
+<span class="quote">“<span class="quote">πληροφορίας περιεχομένου</span>”</span> θα πρέπει να εμφανίζονται
+στον πάτο.
+</p>
+<div class="variablelist" title="Εμφάνιση">
+<p class="title">
+<b>Εμφάνιση</b>
+</p>
+<a id="id3229904" class="indexterm"></a>
+<a id="id3187428" class="indexterm"></a>
+<a id="id3221421" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Εμφάνιση χρώματος προσκηνίου και παρασκηνίου</span>
+</dt>
+<dd>
+<p>
+Ελέγχει εάν η χρωματική περιοχή στα αριστερά (2) εμφανίζεται στην εργαλειοθήκη.
+</p>
+</dd>
+<dt>
+<span class="term">Εμφάνιση ενεργού πινέλου, μοτίβου και διαβάθμισης</span>
+</dt>
+<dd>
+<p>
+Ελέγχει εάν η περιοχή στο κέντρο (3), με τα εικονίδια πινέλου, μοτίβου και διαβάθμισης, εμφανίζεται στην εργαλειοθήκη.
+</p>
+</dd>
+<dt>
+<span class="term">Εμφάνιση ενεργής εικόνας</span>
+</dt>
+<dd>
+<p>
+Ελέγχει εάν η προεπισκόπηση της τρέχουσας ενεργής εικόνας εμφανίζεται στα δεξιά (4).
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.8. Προτιμήσεις προεπιλεγμένης εικόνας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-new-image"></a>1.8. Προτιμήσεις προεπιλεγμένης εικόνας</h3>
+</div>
+</div>
+</div>
+<a id="id3223836" class="indexterm"></a>
+<a id="id3206222" class="indexterm"></a>
+<a id="gimp-prefs-default-image"></a>
+<div class="figure">
+<a id="id3232046"></a>
+<p class="title">
+<b>Εικόνα 11.9. Προτιμήσεις προεπιλεγμένης νέας εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-new-image.png" alt="Προτιμήσεις προεπιλεγμένης νέας εικόνας" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η καρτέλα επιτρέπει την προσαρμογή των προεπιλεγμένων ρυθμίσεων του διαλόγου της νέας εικόνας. Δείτε
+την παράγραφο <a class="link" href="gimp-file-new.html" title="2.2. Νέο">Διάλογος νέας εικόνας</a> για
+επεξήγηση σημασίας κάθε τιμής.
+</p>
+</div>
+<div class="sect2" title="1.9. Προεπιλεγμένο πλέγμα εικόνας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-default-grid"></a>1.9. Προεπιλεγμένο πλέγμα εικόνας</h3>
+</div>
+</div>
+</div>
+<a id="id3242908" class="indexterm"></a>
+<a id="id3192730" class="indexterm"></a>
+<div class="figure">
+<a id="id3187524"></a>
+<p class="title">
+<b>Εικόνα 11.10. Προτιμήσεις προεπιλεγμένου πλέγματος</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-default-grid.png" alt="Προτιμήσεις προεπιλεγμένου πλέγματος" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η σελίδα επιτρέπει προσαρμογή των προεπιλεγμένων ιδιοτήτων πλέγματος του GIMP που μπορούν να εναλλαγούν
+ναι/όχι χρησιμοποιώντας από το μενού εικόνας <span class="guimenu">Προβολή</span> → <span class="guimenuitem">Εμφάνιση πλέγματος</span>
+Οι ρυθμίσεις εδώ ταιριάζουν με αυτές του διαλόγου ρύθμιση πλέγματος εικόνας που μπορεί να χρησιμοποιηθεί για
+ξαναρρύθμιση του πλέγματος για την υπάρχουσα εικόνα, επιλέγοντας από το μενού εικόνας
+<span class="guimenu">Εικόνα</span> → <span class="guimenuitem">Διαμόρφωση πλέγματος</span>. Δείτε την παράγραφο
+<a class="link" href="gimp-image-configure-grid.html#gimp-configure-grid-dialog">Διάλογος διαμόρφωσης πλέγματος</a>
+για πληροφορίες για τη σημασία κάθε ρύθμισης.
+</p>
+</div>
+<div class="sect2" title="1.10. Παράθυρα εικόνας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-image-window"></a>1.10. Παράθυρα εικόνας</h3>
+</div>
+</div>
+</div>
+<a id="id3172807" class="indexterm"></a>
+<a id="id3191577" class="indexterm"></a>
+<div class="figure">
+<a id="id3165871"></a>
+<p class="title">
+<b>Εικόνα 11.11. Προτιμήσεις γενικού παραθύρου εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-image-window.png" alt="Προτιμήσεις γενικού παραθύρου εικόνας" />
+<div class="caption">
+<p>
+Αυτή η σελίδα επιτρέπει την προσαρμογή πολλών όψεων της συμπεριφοράς των παραθύρων εικόνας.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.10.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3225788"></a>1.10.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Γενικά">
+<p class="title">
+<b>Γενικά</b>
+</p>
+<a id="id3233750" class="indexterm"></a>
+<a id="id3168078" class="indexterm"></a>
+<a id="id3234696" class="indexterm"></a>
+<a id="id3206499" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Χρήση <span class="quote">“<span class="quote">Κουκκίδα για κουκκίδα</span>”</span> ως προεπιλογή</span>
+</dt>
+<dd>
+<p>
+Χρήση του <span class="quote">“<span class="quote">Κουκκίδα για κουκκίδα</span>”</span> σημαίνει ότι σε εστίαση 1:1
+ότι κάθε εικονοστοιχείο στην εικόνα κλιμακώνεται σε ένα εικονοστοιχείο στην εμφάνιση. Εάν το
+<span class="quote">“<span class="quote">Κουκκίδα για κουκκίδα</span>”</span> δεν χρησιμοποιείται, τότε το
+εμφανιζόμενο μέγεθος της εικόνας προσδιορίζεται από την X και Y ανάλυση της εικόνας. Δείτε την παράγραφο
+<a class="link" href="gimp-image-scale.html" title="6.15. Κλιμάκωση εικόνας">Κλιμάκωση εικόνας</a> για
+περισσότερες πληροφορίες.
+</p>
+</dd>
+<dt>
+<span class="term">Ταχύτητα διακεκομμένων γραμμών</span>
+</dt>
+<dd>
+<p>
+Όταν δημιουργείτε μια επιλογή, η άκρη της φαίνεται ως μια διακεκομμένη γραμμή με παύλες που φαίνονται να
+κινούνται, προχωρώντας αργά κατά μήκος του ορίου. Αποκαλούνται αστεία
+<span class="quote">“<span class="quote">μυρμήγκια που περπατούν(διακεκομμένες γραμμές)</span>”</span>. Όσο πιο
+μικρή εισάγεται εδώ, τόσο πιο γρήγορα κινούνται οι διακεκομμένες γραμμές (και άρα πιο πολύ ενοχλούν!).
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Συμπεριφορά εστίασης και αλλαγής μεγέθους">
+<p class="title">
+<b>Συμπεριφορά εστίασης και αλλαγής μεγέθους</b>
+</p>
+<a id="id3181845" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Αλλαγή μεγέθους παραθύρου κατά την εστίαση</span>
+</dt>
+<dd>
+<p>
+Εάν αυτή η επιλογή σημειωθεί, τότε κάθε φορά εστιάζεται την εικόνα, το παράθυρο της εικόνας θα προσαρμόζεται
+αυτόματα για να το παρακολουθήσει. Αλλιώς, το παράθυρο εικόνας θα διατηρήσει το ίδιο μέγεθος, όταν εστιάζετε
+στην εικόνα.
+</p>
+</dd>
+<dt>
+<span class="term">Αλλαγή μεγέθους παραθύρου με την αλλαγή μεγέθους εικόνας</span>
+</dt>
+<dd>
+<p>
+Εάν σημειωθεί αυτή η επιλογή, τότε κάθε φορά που αλλάζετε το μέγεθος της εικόνας, περικόπτοντας ή
+κλιμακώνοντας την, το παράθυρο της εικόνας θα την κλιμακώνει αυτόματα για να ακολουθήσει. Αλλιώς το παράθυρο
+της εικόνας θα διατηρεί το ίδιο μέγεθος.
+</p>
+</dd>
+<dt>
+<span class="term">Αρχική εστίαση</span>
+</dt>
+<dd>
+<p>
+Μπορείτε να επιλέξετε οι εικόνες όταν πρωτοανοίγουν, να κλιμακώνονται έτσι ώστε η συνολική εικόνα να ταιριάζει
+άνετα στην οθόνη, ή να εμφανίζονται σε εστίαση 1:1. Εάν επιλέξετε τη δεύτερη επιλογή και η εικόνα είναι πολύ
+μεγάλη για να χωρέσει στη οθόνη, τότε το παράθυρο της εικόνας θα δείχνει μόνο ένα τμήμα της (αλλά θα μπορείτε
+να κυλίσετε σε άλλα μέρη).
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Πλήκτρο κενού">
+<p class="title">
+<b>Πλήκτρο κενού</b>
+</p>
+<a id="id3226294" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Ενώ το πλήκτρο κενού είναι πατημένο</span>
+</dt>
+<dd>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p><span class="guilabel">Pan view (πανοραμική επισκόπηση)</span> (προεπιλογή) ή</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">Αλλαγή στο εργαλείο μετακίνησης</span>
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">Καμία ενέργεια</span>
+</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Δείκτες ποντικιού">
+<p class="title">
+<b>Δείκτες ποντικιού</b>
+</p>
+<a id="id3230781" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Εμφάνιση περιγράμματος πινέλου</span>
+</dt>
+<dd>
+<p>
+Εάν αυτή η επιλογή σημειωθεί, τότε όταν χρησιμοποιείτε ένα εργαλείο ζωγραφικής, το περίγραμμα του πινέλου θα
+εμφανίζεται στην εικόνα καθώς μετακινείτε το δείκτη. Σε αργά συστήματα, εάν το πινέλο είναι πολύ μεγάλο, αυτό
+θα μπορούσε να προκαλέσει κάποιες φορές κάποια καθυστέρηση στην ικανότητα του GIMP να παρακολουθεί τις
+κινήσεις σας. Εάν συμβεί αυτό, η απενεργοποίηση του ίσως βοηθήσει. Αλλιώς, θα το βρείτε χρήσιμο.
+</p>
+</dd>
+<dt>
+<span class="term">Εμφάνιση δείκτη στα εργαλεία ζωγραφικής</span>
+</dt>
+<dd>
+<p>
+Εάν αυτό επιλεγεί, ο δείκτης θα εμφανίζεται. Αυτό είναι επιπλέον του περιγράμματος του πινέλου, εάν αυτό
+φαίνεται. Ο τύπος του δείκτη προσδιορίζεται από την επόμενη επιλογή.
+</p>
+</dd>
+<dt>
+<span class="term">Κατάσταση δείκτη</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή δεν έχει συνέπεια, εκτός και επιλεγεί <span class="guilabel">Εμφάνιση δείκτη στα εργαλεία ζωγραφικής</span>.
+Εάν συμβαίνει αυτό έχετε τρεις επιλογές: <span class="guilabel">Εικονίδιο εργαλείου</span>, που προκαλεί μια
+μικρή παρουσίαση εικονιδίου του τρέχοντος ενεργού εργαλείου να εμφανίζεται πέρα από το δείκτη. Το
+<span class="guilabel">Εικονίδιο εργαλείου με σταυρόνημα</span> που δείχνει το εικονίδιο και το σταυρόνημα
+που δείχνει το κέντρο του δείκτη ή <span class="guilabel">Σταυρόνημα μόνο</span>.
+</p>
+</dd>
+<dt>
+<span class="term">Σχεδίαση δείκτη</span>
+</dt>
+<dd>
+<p>
+Εάν επιλέξετε <span class="quote">“<span class="quote">Fancy (φανταχτερή)</span>”</span> εδώ, ο δείκτης
+σχεδιάζεται σε γκρι κλίμακα. Εάν επιλέξετε <span class="quote">“<span class="quote">Μαύρο και άσπρο</span>”</span>,
+σχεδιάζεται σε πιο απλό τρόπο που μπορεί να επιταχύνει κάπως, εάν έχετε προβλήματα με την ταχύτητα.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.11. Εμφάνιση παράθυρου εικόνας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-image-window-appearance"></a>1.11. Εμφάνιση παράθυρου εικόνας</h3>
+</div>
+</div>
+</div>
+<a id="id3203249" class="indexterm"></a>
+<a id="id3203990" class="indexterm"></a>
+<div class="figure">
+<a id="id3243517"></a>
+<p class="title">
+<b>Εικόνα 11.12. Προεπιλογές εμφάνισης παράθυρου εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-image-window-appearance.png" alt="Προεπιλογές εμφάνισης παράθυρου εικόνας" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τις προεπιλογές εμφάνισης παραθύρων εικόνας, στην κανονική
+κατάσταση και στην κατάσταση πλήρους οθόνης. Όλες οι ρυθμίσεις εδώ μπορούν να μεταβληθούν σε μια ειδική βάση
+εικόνας χρησιμοποιώντας τις εγγραφές στο μενού προβολή. Δείτε την παράγραφο
+<a class="link" href="gimp-image-window.html" title="2.2. Παράθυρο εικόνας">Παράθυρο εικόνας</a> για
+πληροφορίες στη σημασία των εγγραφών.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Τα μόνα τμήματα που ίσως χρειάζονται παραπέρα εξηγήσεις είναι τα σχετικά με το χρώμα φόντου παραθύρου.
+<span class="quote">“<span class="quote">Χρώμα φόντου παραθύρου</span>”</span> είναι το χρώμα που εμφανίζεται
+γύρω από τις άκρες της εικόνας, εάν δεν καταλαμβάνει όλη την περιοχή της οθόνης (που φαίνεται με ανοιχτό γκρι
+σε όλες τις εικόνες εδώ). Μπορείτε να επιλέξετε μεταξύ τεσσάρων χρωμάτων για το χρώμα φόντου παραθύρου: Χρήση
+του οριζόμενου χρώματος από το τρέχον θέμα. Χρήση των ανοιχτών ή σκοτεινών χρωμάτων που ορίζονται για επιλογές,
+όπως αναπαράσταση των διαφανών μερών της εικόνας, ή χρήση ενός προσαρμοσμένου χρώματος που μπορεί να οριστεί
+χρησιμοποιώντας το κουμπί χρώματος για
+<span class="quote">“<span class="quote">προσαρμοσμένο χρώμα φόντου παραθύρου</span>”</span>.
+</p>
+</div>
+<div class="sect2" title="1.12. Τίτλος παραθύρου και γραμμή κατάσταση εικόνας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-image-window-title"></a>1.12. Τίτλος παραθύρου και γραμμή κατάσταση εικόνας</h3>
+</div>
+</div>
+</div>
+<a id="id3168400" class="indexterm"></a>
+<a id="id3206040" class="indexterm"></a>
+<a id="id3200635" class="indexterm"></a>
+<div class="figure">
+<a id="id3168774"></a>
+<p class="title">
+<b>Εικόνα 11.13. Μορφή τίτλου και γραμμής κατάστασης εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-image-window-title.png" alt="Μορφή τίτλου και γραμμής κατάστασης εικόνας" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει την προσαρμογή του κειμένου που εμφανίζεται σε δύο μέρη: τη γραμμή τίτλου μιας
+εικόνας και τη γραμμή κατάστασης. Η γραμμή τίτλου θα πρέπει να εμφανίζεται πάνω από την εικόνα. Όμως, αυτό
+εξαρτάται από τη συνεργασία από το διαχειριστή παραθύρου, έτσι δεν είναι εγγυημένο ότι θα δουλέψει σε όλες τις
+περιπτώσεις. Η γραμμή κατάστασης εμφανίζεται κάτω από την εικόνα, στη δεξιά πλευρά. Δείτε την παράγραφο
+<a class="link" href="gimp-image-window.html" title="2.2. Παράθυρο εικόνας">Παράθυρο εικόνας</a> για
+περισσότερες πληροφορίες.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.12.1. Επιλογή μορφής">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3227216"></a>1.12.1. Επιλογή μορφής</h4>
+</div>
+</div>
+</div>
+<p>
+Μπορείτε να επιλέξετε μεταξύ αρκετών προσχεδιασμένων μορφών ή μπορείτε να δημιουργήσετε μία δικιά σας,
+γράφοντας <span class="emphasis"><em>μορφή αλφαριθμητικού</em></span> στην περιοχή εισόδου.
+Μορφή αλφαριθμητικού: οτιδήποτε τυπώνετε εμφανίζεται ακριβώς όπως το τυπώνετε, με εξαίρεση τις
+<span class="emphasis"><em>μεταβλητές</em></span>, των οποίων όλων το όνομα αρχίζει με
+<span class="quote">“<span class="quote">%</span>”</span>. Εδώ είναι ο κατάλογος των μεταβλητών που μπορείτε να
+χρησιμοποιήσετε.
+</p>
+<div class="segmentedlist">
+<table border="0">
+<thead>
+<tr class="segtitle">
+<th>Μεταβλητή</th>
+<th>Σημασία</th>
+</tr>
+</thead>
+<tbody>
+<tr class="seglistitem">
+<td class="seg">%f</td>
+<td class="seg">Όνομα του αρχείου ή της εικόνας (χωρίς διαδρομή) ή <span class="quote">“<span class="quote">Χωρίς τίτλο</span>”</span></td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%F</td>
+<td class="seg">Πλήρης διαδρομή του αρχείου ή <span class="quote">“<span class="quote">Χωρίς τίτλο</span>”</span></td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%p</td>
+<td class="seg">Αριθμός id της εικόνας (αυτός είναι μοναδικός)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%i</td>
+<td class="seg">
+Αριθμός προβολής, εάν η εικόνα έχει περισσότερες από μία εμφανίσεις.
+</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%t</td>
+<td class="seg">Τύπος εικόνας (RGB, γκρι κλίμακα, από ευρετήριο)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%z</td>
+<td class="seg">Συντελεστής εστίασης ως ποσοστό</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%s</td>
+<td class="seg">Συντελεστής κλιμάκωσης της πηγής (στάθμη εστίασης = %d/%s)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%d</td>
+<td class="seg">Συντελεστής κλιμάκωσης του προορισμού (στάθμη εστίασης = %d/%s)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%Dx</td>
+<td class="seg">
+Επέκταση στο x εάν η εικόνα έχει αλλάξει, αλλιώς τίποτα
+</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%Cx</td>
+<td class="seg">
+Επέκταση στο x εάν η εικόνα δεν έχει αλλάξει, αλλιώς τίποτα
+</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%l</td>
+<td class="seg">Ο αριθμός των στρώσεων</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%L</td>
+<td class="seg">Ο αριθμός των στρώσεων (πλήρης μορφή)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%m</td>
+<td class="seg">Χρησιμοποιούμενη μνήμη από την εικόνα</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%n</td>
+<td class="seg">Όνομα της ενεργής στρώσης/ενεργού καναλιού</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%P</td>
+<td class="seg">id της ενεργής στρώσης/ενεργού καναλιού</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%w</td>
+<td class="seg">Πλάτος εικόνας σε εικονοστοιχεία</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%W</td>
+<td class="seg">Πλάτος εικόνας σε πραγματικές μονάδες</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%h</td>
+<td class="seg">Ύψος εικόνας σε εικονοστοιχεία</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%H</td>
+<td class="seg">Ύψος εικόνας σε πραγματικές μονάδες</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%u</td>
+<td class="seg">Σύμβολο μονάδας (π.χ. px για εικονοστοιχεία)</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%U</td>
+<td class="seg">Σύντμηση μονάδας</td>
+</tr>
+<tr class="seglistitem">
+<td class="seg">%%</td>
+<td class="seg">Το κυριολεκτικό <span class="quote">“<span class="quote">%</span>”</span> σύμβολο</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.13. Οθόνη">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-display"></a>1.13. Οθόνη</h3>
+</div>
+</div>
+</div>
+<a id="id3228541" class="indexterm"></a>
+<a id="id3169256" class="indexterm"></a>
+<a id="id3193389" class="indexterm"></a>
+<a id="id3213027" class="indexterm"></a>
+<div class="figure">
+<a id="id3186974"></a>
+<p class="title">
+<b>Εικόνα 11.14. Προτιμήσεις οθόνης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-display.png" alt="Προτιμήσεις οθόνης" />
+<div class="caption">
+<p>
+Αυτή η σελίδα σας επιτρέπει την προσαρμογή του τρόπου αναπαράστασης των διαφανών μερών μιας εικόνας και της
+επαναρρύθμισης της ανάλυσης της οθόνης.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.13.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="gimp-prefs-display-options"></a>1.13.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Διαφάνεια">
+<p class="title">
+<b>Διαφάνεια</b>
+</p>
+<dl>
+<dt>
+<span class="term">Στυλ σκακιέρας (Τύποι διαφάνειας)</span>
+</dt>
+<dd>
+<p>
+Από προεπιλογή το GIMP δείχνει τη διαφάνεια χρησιμοποιώντας ένα μοτίβο σκακιέρας με μεσαίους τόνους, αλλά
+μπορείτε να το αλλάξετε σε διαφορετικό τύπο σκακιέρες ή σε μαύρο, άσπρο ή γκρι.
+</p>
+</dd>
+<dt>
+<span class="term">Μέγεθος σκακιέρας</span>
+</dt>
+<dd>
+<p>
+Εδώ μπορείτε να μεταβάλλετε το μέγεθος των τετραγώνων στο χρησιμοποιούμενο μοτίβο της σκακιέρας που δείχνει
+διαφάνεια.
+</p>
+</dd>
+</dl>
+</div>
+<div class="figure">
+<a id="figure-gimp-prefs-monitor"></a>
+<p class="title">
+<b>Εικόνα 11.15. Ο διάλογος ανάλυση οθόνης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/ui-calibrate.png" alt="Ο διάλογος ανάλυση οθόνης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="variablelist">
+<a id="gimp-prefs-monitor"></a>
+<dl>
+<dt>
+<span class="term">Ανάλυση οθόνης</span>
+</dt>
+<dd>
+<p>
+Η ανάλυση οθόνης είναι ο αριθμός των εικονοστοιχείων οριζόντια και κάθετα ανά ίντσα. Εδώ υπάρχουν τρεις τρόποι:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Αυτόματη ανίχνευση. (ο ευκολότερος, προφανώς ανακριβής).
+</p>
+</li>
+<li class="listitem">
+<p>Χειροκίνητη εισαγωγή</p>
+</li>
+<li class="listitem">
+<p>Πάτημα του κουμπιού βαθμονόμησης.</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Ο διάλογος βαθμονόμησης</span>
+</dt>
+<dd>
+<p>
+Η ανάλυση της οθόνης μου ήταν εντυπωσιακά εκτός, όταν δοκίμασα το διάλογο βαθμονόμησης.
+Το <span class="quote">“<span class="quote">Παιχνίδι βαθμονόμησης</span>”</span> έχει πλάκα. Θα χρειαστείτε
+ένα μαλακό χάρακα.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.14. Διαχείριση χρώματος">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-color-management"></a>1.14. Διαχείριση χρώματος</h3>
+</div>
+</div>
+</div>
+<a id="id3224653" class="indexterm"></a>
+<a id="id3234704" class="indexterm"></a>
+<a id="id3217075" class="indexterm"></a>
+<div class="figure">
+<a id="id3228442"></a>
+<p class="title">
+<b>Εικόνα 11.16. Προτιμήσεις διαχείρισης χρώματος</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-color-management.png" alt="Προτιμήσεις διαχείρισης χρώματος" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect3" title="1.14.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3176078"></a>1.14.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<p>
+Αυτή η σελίδα σας επιτρέπει την προσαρμογή της διαχείρισης χρώματος του GIMP.
+</p>
+<p>
+Μερικές από τις επιλογές σας επιτρέπουν να διαλέξετε μια χρωματική κατατομή (προφίλ) από ένα μενού. Εάν η επιθυμητή
+κατατομή δεν είναι ακόμα στο μενού, μπορείτε να την προσθέσετε πατώντας στο στοιχείο
+<span class="guimenuitem">Επιλέξτε κατατομή χρώματος από το δίσκο...</span>.
+</p>
+<div class="tip" title="Συμβουλή" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Tip">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Αρχεία που περιέχουν χρωματικές κατατομές (προφίλ) είναι εύκολα αναγνωρίσιμα από το επίθημα <code class="filename">.icc</code>.
+Επιπλέον αποθηκεύονται όλα μαζί σε λίγες μόνο θέσεις. Εάν εκτελείτε το GIMP σε Mac OS X, πρέπει να δοκιμάσετε
+<code class="filename">/Library/ColorSync/Profiles/</code> και <code class="filename">Library/Printers/[manufacturer]/Profiles</code>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="variablelist">
+<a id="id3191525" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Κατάσταση λειτουργίας</span>
+</dt>
+<dd>
+<p>
+Χρησιμοποιώντας αυτήν την επιλογή μπορείτε να αποφασίσετε τη λειτουργία της χρωματικής διαχείρισης του GIMP.
+Υπάρχουν τρεις καταστάσεις για επιλογή:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p><span class="guimenuitem">Καμία διαχείριση χρώματος</span>: Επιλέγοντας το, κλείνει η χρωματική διαχείριση
+στο GIMP ολότελα.
+</p>
+</li>
+<li class="listitem">
+<p><span class="guimenuitem">Οθόνη διαχείρισης χρώματος</span>: Με αυτήν την επιλογή μπορείτε να ενεργοποιήσετε
+τη χρωματική διαχείριση του GIMP για να έχετε μια πλήρως διορθωμένη εμφάνιση των εικόνων σύμφωνα με το
+δοσμένο χρωματικό προφίλ για την οθόνη.
+</p>
+</li>
+<li class="listitem">
+<p><span class="guimenuitem">Εξομοίωση εκτύπωσης</span>: διαλέγοντας αυτήν την επιλογή, ενεργοποιείται τη
+χρωματική διαχείριση του GIMP όχι μόνο για την εφαρμογή του προφίλ στην οθόνη, αλλά επίσης την κατατομή
+της επιλεγμένης εξομοίωσης εκτύπωσης. Έτσι, μπορείτε να προεπισκοπήσετε τα χρωματικά αποτελέσματα μιας
+εκτύπωσης με αυτόν τον εκτυπωτή.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Παρακαλώ σημειώστε, ότι η χρωματική διαχείριση του GIMP χρησιμοποιείται για βελτιστοποίηση της εμφάνισης των
+εικόνων και την ενσωμάτωση των κατατομών των αρχείων εικόνας μόνο. Ειδικά οι χρησιμοποιούμενες επιλογές σε αυτό
+το διάλογο δεν χρησιμοποιούνται κατά κανέναν τρόπο για εκτύπωση από το GIMP. Αυτό οφείλεται στο ότι η εκτύπωση
+είναι ένα ειδικό καθήκον που γίνεται από μια πιο ειδικευμένη εκτυπωτική μηχανή που δεν είναι μέρος του GIMP.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Προφίλ RGB</span>
+</dt>
+<dd>
+<p>
+</p>
+</dd>
+<dt>
+<span class="term">Προφίλ CMYK</span>
+</dt>
+<dd>
+<p>
+</p>
+</dd>
+<dt>
+<span class="term">Προφίλ οθόνης</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή σας δίνει δύο στοιχεία για αλληλεπίδραση:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Πρέπει να επιλέξετε ένα προφίλ εμφάνισης για αυτή την επιλογή.  Το επιλεγμένο χρωματικό προφίλ χρησιμοποιεί το
+GIMP για την εμφάνιση στην οθόνη.
+</p>
+</li>
+<li class="listitem">
+<p>
+Εάν ενεργοποιήσετε την επιλογή <span class="guilabel">Προσπάθεια χρήσης του προφίλ οθόνης συστήματος</span>,
+το GIMP θα χρησιμοποιήσει τη χρωματική κατατομή που δίνεται για τις εμφανίσεις από το σύστημα χρωματικής
+διαχείρισης των λειτουργικών συστημάτων.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Επιδίωξη αποτύπωσης οθόνης</span>
+</dt>
+<dd>
+<p>
+Επιδίωξη αποτύπωσης, όπως αυτή που μπορείτε να τροποποιήσετε με αυτήν την επιλογή, είναι τρόποι απόδοσης με
+χρώματα που είναι εκτός χρωμάτων<a class="xref" href="glossary.html#glossary-gamut" title="Gamut (φάσμα)"><span>Gamut (φάσματος)</span></a>
+που παρουσιάζονται στον πηγαίο χώρο και που ο χώρος προορισμού είναι ανίκανος να παράξει.
+Υπάρχουν τέσσερις μέθοδοι επιδίωξης αποτύπωσης για να επιλέξετε:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+<span class="guimenuitem">Συγκεκριμένο</span>
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guimenuitem">Σχετική μέτρηση χρώματος</span>
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guimenuitem">στόχος|Κορεσμός</span>
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guimenuitem">Απόλυτη μέτρηση χρώματος</span>
+</p>
+</li>
+</ul>
+</div>
+<p>
+Μια περιγραφή των ατομικών μεθόδων βρίσκεται στο
+<a class="xref" href="glossary.html#glossary-rendering-intent" title="Επιδίωξη αποτύπωσης">
+<span>Επιδίωξη αποτύπωσης</span>
+</a>.
+</p>
+</dd>
+<dt>
+<span class="term">Προφίλ προσομοίωσης εκτύπωσης</span>
+</dt>
+<dd>
+<p>
+Θα πρέπει να διαλέξετε ένα προφίλ εκτυπωτή για αυτή την επιλογή. Το επιλεγμένο χρωματικό προφίλ χρησιμοποιείται
+για την κατάσταση προσομοίωσης εκτύπωσης.
+</p>
+</dd>
+<dt>
+<span class="term">Επιδίωξη αποτύπωσης Softproof</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή πάλι παρέχει δύο διαφορετικά στοιχεία για αλληλεπίδραση:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Μπορείτε να χρησιμοποιήσετε το μενού για να επιλέξετε την απόδοση στόχου. Είναι οι ίδιοι όπως ήδη περιγράφηκαν
+για την επιδίωξη αποτύπωσης της οθόνης.
+</p>
+</li>
+<li class="listitem">
+<p>
+Εάν ενεργοποιήσετε την επιλογή <span class="guilabel">Σήμανση χρωμάτων εκτός φάσματος</span>, όλα τα
+εικονοστοιχεία που έχουν ένα χρώμα δεν είναι εκτυπώσιμο σημειώνονται με ένα ειδικό χρώμα. Ποιο χρώμα
+χρησιμοποιείται για αυτό μπορεί επίσης να επιλεγεί από εσάς. Μπορείτε να το κάνετε απλά πατώντας στο
+εικονίδιο χρώματος στα δεξιά, δίπλα στο πλαίσιο ελέγχου.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Συμπεριφορά κατά το άνοιγμα αρχείου</span>
+</dt>
+<dd>
+<p>
+Χρησιμοποιώντας αυτό το μενού μπορείτε να προσδιορίσετε πώς συμπεριφέρεται το GIMP, όταν ανοίγει ένα αρχείο
+που περιέχει ένα ενσωματωμένο χρωματικό προφίλ, που δεν ταιριάζει το χώρο εργασίας sRGB. Μπορείτε να διαλέξετε
+από τις πιο κάτω εισόδους:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p><span class="guimenuitem">Ερώτηση για το τι θα γίνει</span>: Εάν επιλεγεί, το GIMP θα σας ρωτά τι να κάνει.
+</p>
+</li>
+<li class="listitem">
+<p><span class="guimenuitem">Διατήρηση ενσωματωμένου προφίλ</span>: Εάν επιλεγεί, το GIMP
+θα κρατήσει το ενσωματωμένο προφίλ και δεν θα μετατρέψει την εικόνα στο χώρο εργασίας. Η εικόνα απεικονίζεται
+σωστά πάντα, γιατί το ενσωματωμένο προφίλ θα εφαρμοστεί για την εμφάνιση.
+</p>
+</li>
+<li class="listitem">
+<p><span class="guimenuitem">Convert to RGB workspace (Μετατροπή στο χώρο εργασίας RGB)</span>:
+Με αυτήν την επιλογή το GIMP θα χρησιμοποιήσει αυτόματα το ενσωματωμένο χρωματικό προφίλ για να μετατρέψει
+την εικόνα στο χώρο εργασίας.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>Για περισσότερες εξηγήσεις:</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Τα προφίλ ICC εξηγούνται στη Wikipedia
+<a class="xref" href="bibliography.html#bibliography-online-wkpd-icc" title="Wikipedia - ICC Profile">[<abbr class="abbrev">WKPD-ICC</abbr>]</a>.
+</p>
+</li>
+<li class="listitem">
+<p>
+Δείτε το σχέδιο OpenICC
+(<a class="xref" href="bibliography.html#bibliography-online-openicc" title="The OpenICC project">[<abbr class="abbrev">OPENICC</abbr>]</a>) όπου συμβάλλουν
+το GIMP και άλλα μεγάλα ονόματα της ελεύθερης πληροφόρησης.
+</p>
+</li>
+</ul>
+</div>
+<p>Πολλά προφίλ για φόρτωση από τον ιστό:</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Χώρος εργασίας ICC sRGB:
+<span class="productname">ICCsRGB</span>™
+<a class="xref" href="bibliography.html#bibliography-online-iccsrgb" title="ICC sRGB PROFILES">[<abbr class="abbrev">ICCsRGB</abbr>]</a>
+</p>
+</li>
+<li class="listitem">
+<p>
+Χώρος εργασίας Microsoft sRGB:
+<span class="productname">MsRGB</span>™
+<a class="xref" href="bibliography.html#bibliography-online-microsoft-srgb" title="Microsoft sRVB Workspace">[<abbr class="abbrev">MsRGB</abbr>]</a>
+</p>
+</li>
+<li class="listitem">
+<p>
+Χώρος εργασίας Adobe RGB98:
+<span class="productname">Adobe RGB (1998)</span>™
+<a class="xref" href="bibliography.html#bibliography-online-adobrgb" title="Adobe RGB (1998) ICC Profile">[<abbr class="abbrev">AdobeRGB</abbr>]</a>
+</p>
+</li>
+<li class="listitem">
+<p>
+Προφίλ ECI (European Color Initiative) (Ευρωπαϊκή χρωματική πρωτοβουλία):
+<span class="productname">ECI</span>™
+<a class="xref" href="bibliography.html#bibliography-online-eci" title="ECI (European Color Initiative) Profiles">[<abbr class="abbrev">ECI</abbr>]</a>
+</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.15. Συσκευές εισόδου">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-input-devices"></a>1.15. Συσκευές εισόδου</h3>
+</div>
+</div>
+</div>
+<a id="id3203441" class="indexterm"></a>
+<a id="id3206365" class="indexterm"></a>
+<div class="figure">
+<a id="id3206864"></a>
+<p class="title">
+<b>Εικόνα 11.17. Προτιμήσεις συσκευών εισόδου</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-devices.png" alt="Προτιμήσεις συσκευών εισόδου" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="variablelist" title="Εκτεταμένες συσκευές εισόδου">
+<p class="title">
+<b>Εκτεταμένες συσκευές εισόδου</b>
+</p>
+<dl>
+<dt>
+<span class="term">Ρύθμιση εκτεταμένων συσκευών εισόδου</span>
+</dt>
+<dd>
+<p>
+Αυτό το μεγάλο κουμπί σας επιτρέπει να ορίσετε τις συνδεμένες συσκευές με τον υπολογιστή σας: ταμπλέτες,
+πληκτρολόγια MIDI... Εάν έχετε μια ταμπλέτα, θα δείτε ένα διάλογο όπως αυτόν:
+</p>
+<div class="figure">
+<a id="id3170858"></a>
+<p class="title">
+<b>Εικόνα 11.18. Προτιμήσεις για ταμπλέτα</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-devices-tablet.png" alt="Προτιμήσεις για ταμπλέτα" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+<dt>
+<span class="term">Αποθήκευση ρυθμίσεων συσκευών εισόδου κατά την έξοδο</span>
+</dt>
+<dd>
+<p>
+Εάν σημειώσετε αυτό το πλαίσιο, το GIMP θυμάται το εργαλείο, χρώμα, μοτίβο και πινέλο που χρησιμοποιούσατε
+την τελευταία φορά που φύγατε.
+</p>
+</dd>
+<dt>
+<span class="term">Αποθήκευση ρυθμίσεων συσκευών εισόδου τώρα</span>
+</dt>
+<dd>
+<p>Αυτονόητο.</p>
+</dd>
+<dt>
+<span class="term">
+Επαναφορά προεπιλεγμένων ρυθμίσεων συσκευών εισόδου
+</span>
+</dt>
+<dd>
+<p>
+Διαγραφή των ρυθμίσεων σας και επαναφορά των προεπιλεγμένων ρυθμίσεων.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2" title="1.16. Ελεγκτές εισόδου">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-input-controllers"></a>1.16. Ελεγκτές εισόδου</h3>
+</div>
+</div>
+</div>
+<a id="id3165605" class="indexterm"></a>
+<a id="id3194656" class="indexterm"></a>
+<div class="figure">
+<a id="id3118141"></a>
+<p class="title">
+<b>Εικόνα 11.19. Προτιμήσεις ελεγκτών εισόδου</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-controllers.png" alt="Προτιμήσεις ελεγκτών εισόδου" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτός ο διάλογος έχει δύο καταλόγους επιπρόσθετων ελεγκτών εισόδου:
+<span class="guilabel">Διαθέσιμοι ελεγκτές</span> στα αριστερά,
+<span class="guilabel">Ενεργοί ελεγκτές</span> στα δεξιά.
+</p>
+<p>
+Πατώντας ένα στοιχείο, θα επισημανθεί και μπορείτε να μετακινήσετε τον ελεγκτή από τη μία λίστα στην άλλη
+πατώντας το αντίστοιχο πλήκτρο τόξου. Όταν προσπαθείτε να μετακινήσετε έναν ελεγκτή από τη λίστα των ενεργών
+ελεγκτών στους διαθέσιμους ελεγκτές, ένας διάλογος αναδύεται και θα έχετε την επιλογή της απομάκρυνσης του
+ελεγκτή ή απλά της απενεργοποίησης του.
+</p>
+<p>
+Όταν διπλοπατάτε σε έναν (τυπικά ενεργό) ελεγκτή ή εναλλακτικά πατάτε στο κουμπί ρύθμιση του επιλεγμένου
+ελεγκτή, μπορείτε να ρυθμίσετε αυτόν τον ελεγκτή σε ένα παράθυρο διαλόγου:
+</p>
+<div class="variablelist" title="Main Mouse Wheel">
+<p class="title">
+<b>Main Mouse Wheel (Τροχός κύριου ποντικιού)</b>
+</p>
+<p>
+</p>
+<div class="figure">
+<a id="id3220597"></a>
+<p class="title">
+<b>Εικόνα 11.20. Τροχός κύριου ποντικιού</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-controllers-wheel.png" alt="Τροχός κύριου ποντικιού" />
+</div>
+</div>
+</div>
+<p><br class="figure-break" />
+</p>
+<dl>
+<dt>
+<span class="term">Γενικά</span>
+</dt>
+<dd>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Dump events from this controller (Αποτύπωση συμβάντων από αυτόν τον ελεγκτή)</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή πρέπει να σημειωθεί, εάν θέλετε την εμφάνιση των ροών στην έξοδο (stdout) των παραγόμενων
+συμβάντων από τους ενεργοποιημένους ελεγκτές. Εάν θέλετε να δείτε αυτά τα συμβάντα πρέπει να ξεκινήσετε
+το GIMP από ένα τερματικό ή να το κάνετε να εμφανίσει τις ροές στην έξοδο σε αρχείο ανακατευθύνοντας το κέλυφος.
+Η κύρια χρήση αυτής της επιλογής είναι για αποσφαλμάτωση.
+</p>
+</dd>
+<dt>
+<span class="term">Ενεργοποίηση αυτού του ελεγκτή</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή πρέπει να σημειωθεί εάν θέλετε να προσθέσετε νέες ενέργειες στο τροχό του ποντικιού.
+</p>
+</dd>
+</dl>
+</div>
+</dd>
+<dt>
+<span class="term">Τροχός ποντικιού </span>
+</dt>
+<dd>
+<p>
+Σε αυτό το παράθυρο με γραμμές κύλισης έχετε: στα αριστερά, τα πιθανά συμβάντα που αφορούν τον τροχό του
+ποντικιού, περισσότερο ή λιγότερο συνδεμένα με τα πλήκτρα ελέγχου. Στα δεξιά, η ενέργεια που αντιστοιχεί στο
+συμβάν όταν θα συμβεί. Έχετε επίσης δύο κουμπιά, ένα για  <span class="guibutton">Επεξεργασία</span> του
+επιλεγμένου συμβάντος, το άλλο για <span class="guibutton">Ακύρωση</span> της ενέργειας του επιλεγμένου συμβάντος.
+</p>
+<p>
+Μερικές ενέργειες έχουν ήδη συσχετιστεί σε συμβάντα. Πρέπει να είναι παραδείγματα, μη λειτουργικά.
+</p>
+</dd>
+<dt>
+<span class="term">Επιλογή της ενέργειας που καταμερίστηκε στο συμβάν.</span>
+</dt>
+<dd>
+<p>
+Μετά την επιλογή ενός συμβάντος, εάν πατήσετε στο κουμπί <span class="guibutton">Επεξεργασία</span>, ανοίγετε
+τον παρακάτω διάλογο:
+</p>
+<div class="figure">
+<a id="id3219640"></a>
+<p class="title">
+<b>Εικόνα 11.21. Select Controller Event Action (Επιλογή ενέργειας ελεγκτή συμβάντων)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-controllers-action.png" alt="Select Controller Event Action (Επιλογή ενέργειας ελεγκτή συμβάντων)" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Εάν μια ενέργεια υπάρχει ήδη για αυτό το συμβάν, το παράθυρο θα ανοίξει σε αυτήν την ενέργεια. Αλλιώς, το
+παράθυρο θα εμφανίσει τα τμήματα που δίνουν εντολές ενέργειας. Πατήστε σε μια ενέργεια για να την επιλέξετε.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Main Keyboard (Κύριο πληκτρολόγιο)">
+<p class="title">
+<b>(Κύριο πληκτρολόγιο)</b>
+</p>
+<dl>
+<dt>
+<span class="term"></span>
+</dt>
+<dd>
+<p>
+Μπορείτε να χρησιμοποιήσετε αυτό το διάλογο όπως και τον τροχό του ποντικιού. Τα συμβάντα σχετίζονται με τα
+πλήκτρα τόξων του πληκτρολογίου, συνδυασμένα ή όχι με τα πλήκτρα ελέγχου.
+</p>
+<div class="figure">
+<a id="id3193908"></a>
+<p class="title">
+<b>Εικόνα 11.22.Κύριο πληκτρολόγιο</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/input-controllers-keyboard.png" alt="Κύριο πληκτρολόγιο" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+</dl>
+</div>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Θα βρείτε ένα παράδειγμα αυτών των ιδεών στο
+<a class="link" href="gimp-using-variable-size-brush.html" title="9. Αλλαγή μεγέθους πινέλου">
+Δημιουργία ενός μεταβλητού μεγέθους πινέλου
+</a>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2" title="1.17. Διαχείριση παραθύρων">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-window-management"></a>1.17. Διαχείριση παραθύρων</h3>
+</div>
+</div>
+</div>
+<a id="id3222171" class="indexterm"></a>
+<a id="id3234156" class="indexterm"></a>
+<div class="figure">
+<a id="id3224921"></a>
+<p class="title">
+<b>Εικόνα 11.23. Επιλογές διαχείρισης παραθύρων</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-window-management.png" alt="Επιλογές διαχείρισης παραθύρων" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η σελίδα επιτρέπει την προσαρμογή του τρόπου χειρισμού των παραθύρων στο GIMP. Θα πρέπει να σημειώσετε
+ότι το GIMP επεξεργάζεται τα παράθυρα άμεσα,  αλλά στέλνει αιτήσεις στο διαχειριστή παραθύρου (π.χ., στα
+Windows εάν τρέχετε τα Windows, στο Metacity εάν τρέχετε μια τυπική εγκατάσταση του Gnome στα Linux, κλ.).
+Επειδή υπάρχουν πολλοί διαχειριστές παραθύρων και δεν συμπεριφέρονται όλοι καλά, δεν υπάρχει εγγύηση ότι οι
+λειτουργίες  που περιγράφονται εδώ, θα δουλέψουν όπως περιγράφεται. Όμως, εάν χρησιμοποιείται ένα σύγχρονο
+διαχειριστή παραθύρου σύμφωνο με τα πρότυπα, θα πρέπει να δουλέψουν άψογα.
+</p>
+<div class="sect3" title="1.17.1. Επιλογές">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3173192"></a>1.17.1. Επιλογές</h4>
+</div>
+</div>
+</div>
+<div class="variablelist" title="Οδηγίες στο διαχειριστή παραθύρων">
+<p class="title">
+<b>Οδηγίες στο διαχειριστή παραθύρων</b>
+</p>
+<dl>
+<dt>
+<span class="term">Οδηγίες για το κουτί εργαλείων και για άλλα παράθυρα</span>
+</dt>
+<dd>
+<p>
+Οι επιλογές που κάνετε εδώ προσδιορίζουν την αντιμετώπιση της εργαλειοθήκης και των αγκιστριών (docks) που
+κρατούν διαλόγους. Έχετε τρεις επιλογές:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Εάν επιλέξετε <span class="guilabel">Κανονικό παράθυρο</span>, θα αντιμετωπίζονται όπως κάθε άλλο παράθυρο.
+</p>
+</li>
+<li class="listitem">
+<p>
+Εάν επιλέξετε <span class="guilabel">Βοηθητικό παράθυρο</span>, το κουμπί μείωσης στη γραμμή τίτλου λείπει
+και τα αγκίστρια θα παραμείνουν μόνιμα στην οθόνη σας.
+</p>
+<div class="figure">
+<a id="id3195382"></a>
+<p class="title">
+<b>Εικόνα 11.24. Γραμμή τίτλου βοηθητικού παραθύρου</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/normal-title-bar.png" alt="Γραμμή τίτλου βοηθητικού παραθύρου" />
+<div class="caption">
+<p>
+Κανονική γραμμή τίτλου.
+</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/preferences/utility-title-bar.png" alt="Γραμμή τίτλου βοηθητικού παραθύρου" />
+<div class="caption">
+<p>
+Η γραμμή τίτλου σε ένα βοηθητικό παράθυρο.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</li>
+<li class="listitem">
+<p>
+Εάν διαλέξετε <span class="guilabel">Keep above (Διατήρηση υπεράνω)</span>, θα διατηρούνται μπροστά από κάθε
+άλλο παράθυρο πάντοτε.
+</p>
+</li>
+</ul>
+</div>
+<p>
+Σημειώστε ότι αλλαγές που κάνετε εδώ, δεν λαμβάνουν χώρα πριν την επόμενη εκκίνηση του GIMP.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Εστίαση">
+<p class="title">
+<b>Εστίαση</b>
+</p>
+<dl>
+<dt>
+<span class="term">Ενεργοποίηση της εστιασμένης εικόνας</span>
+</dt>
+<dd>
+<p>
+Κανονικά, όταν εστιάζετε ένα παράθυρο εικόνας (συνήθως δείχνεται από μια αλλαγή στο χρώμα του πλαισίου),
+γίνεται <span class="quote">“<span class="quote">η ενεργή εικόνα </span>”</span> για το GIMP, και άρα ο στόχος
+για κάθε ενέργεια που εκτελείτε σχετιζόμενη με την εικόνα. Κάποιοι όμως, προτιμούν να εγκαταστήσουν τους
+διαχειριστές παραθύρων έτσι ώστε κάθε παράθυρο που εισέρχεται από το δείκτη του ποντικιού να εστιάζεται
+αυτόματα. Εάν κάνετε αυτό, ίσως βρείτε άβολο για εστιασμένες εικόνες να γίνονται αυτόματα ενεργές και είναι
+πιο καλά, εάν αποεπιλέξετε αυτή την επιλογή.
+</p>
+</dd>
+</dl>
+</div>
+<div class="variablelist" title="Θέσεις παραθύρων">
+<p class="title">
+<b>Θέσεις παραθύρων</b>
+</p>
+<dl>
+<dt>
+<span class="term">Αποθήκευση θέσεων παραθύρων κατά την έξοδο</span>
+</dt>
+<dd>
+<p>
+Εάν διαλέξετε αυτήν την επιλογή, την επόμενη φορά που θα ξεκινήσετε το GIMP, θα δείτε το ίδιο σύνολο παραθύρων
+διαλόγου, στις ίδιες θέσεις που καταλάμβαναν, όταν φύγατε για τελευταία φορά.
+</p>
+</dd>
+<dt>
+<span class="term">Αποθήκευση θέσεων παραθύρων τώρα</span>
+</dt>
+<dd>
+<p>
+Αυτό το κουμπί είναι χρήσιμο εάν το "Αποθήκευση θέσεων παραθύρων κατά την έξοδο" είναι αποεπιλεγμένο. Επιτρέπει
+την ρύθμιση των παραθύρων όπως θέλετε, πατώντας το κουμπί και έπειτα να εμφανίζονται τα παράθυρα με αυτή τη
+ρύθμιση κάθε φορά που ξεκινάτε το GIMP.
+</p>
+</dd>
+<dt>
+<span class="term">Επαναφορά των παραθύρων στις προεπιλεγμένες θέσεις</span>
+</dt>
+<dd>
+<p>
+Εάν αποφασίσετε ότι δεν επιθυμείτε τη ρύθμιση των παραθύρων που αποθηκεύσατε και θέλετε να γυρίσετε στην
+προκαθορισμένη ρύθμιση, μπορείτε να πατήσετε αυτό το κουμπί.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2" title="1.18. Φάκελοι">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-folders"></a>1.18. Φάκελοι</h3>
+</div>
+</div>
+</div>
+<a id="id3172624" class="indexterm"></a>
+<div class="figure">
+<a id="id3234717"></a>
+<p class="title">
+<b>Εικόνα 11.25. Βασικές προτιμήσεις φακέλων</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-folders.png" alt="Βασικές προτιμήσεις φακέλων" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Αυτή η σελίδα σας επιτρέπει να ορίσετε τις τοποθεσίες για δύο σημαντικούς φακέλους που χρησιμοποιούνται από το
+GIMP για προσωρινά αρχεία. Οι πιο κάτω σελίδες σας επιτρέπουν την προσαρμογή των τοποθεσιών που αναζητούνται
+για πηγές όπως τα πινέλα κλ., δείτε
+<a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Φάκελοι δεδομένων">Φάκελοι δεδομένων</a>
+για μια περιγραφή που αντιστοιχεί σε αυτούς. Μπορείτε να αλλάξετε τους φακέλους εδώ, επεξεργαζόμενοι τις
+εισόδους, ή πατώντας τα κουμπιά στα δεξιά για να εμφανιστεί ένα παράθυρο επιλογέα αρχείου.
+</p>
+<div class="variablelist" title="Φάκελοι">
+<p class="title">
+<b>Φάκελοι</b>
+</p>
+<a id="id3200443" class="indexterm"></a>
+<a id="id3200452" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">Προσωρινός φάκελος</span>
+</dt>
+<dd>
+<p>
+Αυτός ο φάκελος χρησιμοποιείται για προσωρινά αρχεία: αρχεία που δημιουργήθηκαν για προσωρινή αποθήκευση των
+δεδομένων εργασίας και έπειτα διαγράφηκαν στην ίδια σύνοδο του GIMP. Δεν χρειάζονται πολύ χώρο ή υψηλή επίδοση. 
+Από προεπιλογή, ένας υποκατάλογος που λέγεται <code class="filename">tmp</code> χρησιμοποιείται στον προσωπικό
+σας κατάλογο, αλλά εάν ο δίσκος είναι στριμωγμένος από χώρο ή έχετε προβλήματα απόδοσης, μπορείτε να τον
+αλλάξετε σε έναν διαφορετικό κατάλογο. Ο κατάλογος πρέπει να υπάρχει και να είναι εγγράψιμος από εσάς, ή 
+θα συμβούν ανεπιθύμητα πράγματα.
+</p>
+</dd>
+<dt>
+<span class="term">Φάκελος Swap (εναλλαγής)</span>
+</dt>
+<dd>
+<p>
+Αυτός είναι ο φάκελος που χρησιμεύει ως <span class="quote">“<span class="quote">τράπεζα μνήμης</span>”</span>
+όταν το συνολικό μέγεθος των ανοιχτών εικόνων και δεδομένων στο GIMP ξεπερνά το διαθέσιμο RAM. Εάν δουλεύετε
+με πολύ μεγάλες εικόνες, ή εικόνες με πολλές στρώσεις ή έχετε πολλές ανοιχτές εικόνες ταυτόχρονα, το GIMP 
+μπορεί να απαιτεί εκατοντάδες megabytes εναλλακτικού χώρου, έτσι ο διαθέσιμος χώρος δίσκου και η επίδοση είναι
+σίγουρα πράγματα προς σκέψη για αυτό το φάκελο. Από προεπιλογή, ορίζεται στον προσωπικό κατάλογο GIMP, αλλά 
+εάν έχετε έναν άλλο δίσκο με περισσότερο ελεύθερο χώρο, ή ουσιαστικά καλύτερη επίδοση, μπορείτε να δείτε ένα
+σημαντικό πλεονέκτημα μετακινώντας τον εναλλακτικό σας φάκελο εκεί. Ο κατάλογος πρέπει να υπάρχει και να είναι 
+εγγράψιμος από εσάς.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2" title="1.19. Φάκελοι">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-prefs-folders-data"></a>1.19. Φάκελοι</h3>
+</div>
+</div>
+</div>
+<a id="gimp-prefs-folders-brushes"></a>
+<a id="gimp-prefs-folders-patterns"></a>
+<a id="gimp-prefs-folders-palettes"></a>
+<a id="gimp-prefs-folders-gradients"></a>
+<a id="gimp-prefs-folders-fonts"></a>
+<a id="gimp-prefs-folders-plug-ins"></a>
+<a id="gimp-prefs-folders-scripts"></a>
+<a id="gimp-prefs-folders-modules"></a>
+<a id="gimp-prefs-folders-environment"></a>
+<a id="gimp-prefs-folders-themes"></a>
+<a id="id3218219" class="indexterm"></a>
+<a id="id3231586" class="indexterm"></a>
+<div class="figure">
+<a id="id3172531"></a>
+<p class="title">
+<b>Εικόνα 11.26. Προτιμήσεις: Φάκελοι πινέλων</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/preferences/prefs-folders-brush.png" alt="Προτιμήσεις: Φάκελοι πινέλων" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το GIMP χρησιμοποιεί πολλούς τύπους πηγών - όπως πινέλα, προπλάσματα, διαβαθμίσεις. κλ. -για τα οποία ένα
+βασικό σύνολο έρχεται με το GIMP όταν εγκαθίσταται και άλλοι μπορούν να δημιουργηθούν ή να φορτωθούν από το
+χρήστη. Για κάθε τέτοιο τύπο πηγής, υπάρχει μια σελίδα προτιμήσεων που σας επιτρέπει να ορίσετε τη  
+<span class="emphasis"><em>διαδρομή αναζήτησης</em></span>. Το σύνολο των καταλόγων που περιέχουν στοιχεία
+των εν λόγω τύπων φορτώνονται αυτόματα, όταν ξεκινά το GIMP. Αυτές οι σελίδες μοιάζουν πολύ μεταξύ τους. Η
+σελίδα για τα πινέλα φαίνεται στα δεξιά ως παράδειγμα.
+</p>
+<p>
+Από προεπιλογή, η διαδρομή αναζήτησης περιλαμβάνει δύο φακέλους: έναν φάκελο
+<span class="emphasis"><em>συστήματος</em></span>, όπου τα εγκατεστημένα στοιχεία μαζί με το GIMP
+τοποθετούνται και έναν <span class="emphasis"><em>προσωπικό</em></span> φάκελο, στον προσωπικό σας κατάλογο
+GIMP, όπου τα προστιθέμενα από εσάς στοιχεία τοποθετούνται. Ο φάκελος του συστήματος δεν πρέπει να σημειωθεί
+ως εγγράψιμος και δεν θα πρέπει να προσπαθήσετε να αλλάξετε τα περιεχόμενα του. Οι προσωπικοί φάκελοι πρέπει
+να σημειωθούν ως εγγράψιμοι γιατί αλλιώς είναι άχρηστοι, επειδή δεν υπάρχει τίποτα εκεί, εκτός από όσα βάζετε.
+</p>
+<p>
+Μπορείτε να προσαρμόσετε τη διαδρομή αναζήτησης με τα κουμπιά στην κορυφή του διαλόγου.
+</p>
+<div class="variablelist" title="Επιλογές">
+<p class="title">
+<b>Επιλογές</b>
+</p>
+<dl>
+<dt>
+<span class="term">Επιλογή φακέλου</span>
+</dt>
+<dd>
+<p>
+Εάν πατήσετε σε έναν από τους φακέλους στη λίστα, επιλέγεται για την ενέργεια που ακολουθεί.
+</p>
+</dd>
+<dt>
+<span class="term">Προσθήκη/Αφαίρεση φακέλου</span>
+</dt>
+<dd>
+<p>
+Εάν γράψετε το όνομα ενός φακέλου στο χώρο εισόδου, ή περιηγηθείτε σε αυτόν, χρησιμοποιώντας το κουμπί
+επιλογής αρχείου <span class="guiicon"><img src="images/dialogs/stock-fileopen-16.png" /></span> στα δεξιά και
+έπειτα πατήσετε στο αριστερό κουμπί, αυτό θα αντικαταστήσει τον επιλεγμένο φάκελο με το φάκελο που ορίσατε.
+Εάν δεν επιλεγεί τίποτα στη λίστα, ο φάκελος που ορίσατε θα προστεθεί στη λίστα. Εάν το εικονίδιο φωτός στα
+αριστερά της περιοχής εισόδου κειμένου είναι κόκκινο αντί για πράσινο, σημαίνει ότι ο φάκελος που ορίσατε δεν
+υπάρχει. Το GIMP δεν θα τον δημιουργήσει για σας, έτσι πρέπει να το κάνετε εσείς αμέσως.
+</p>
+</dd>
+<dt>
+<span class="term">Μετακίνηση επάνω/κάτω</span>
+</dt>
+<dd>
+<p>
+Εάν πατήσετε στα κουμπιά επάνω ή κάτω τόξου, ο επιλεγμένος φάκελος θα αλλάξει στον επόμενο ή προηγούμενο
+στη λίστα. Επειδή οι φάκελοι διαβάζονται σε σειρά, χρησιμοποιώντας αυτά τα κουμπιά, αλλάζετε την προτεραιότητα 
+φόρτωσης των στοιχείων σε αυτούς τους φακέλους.
+</p>
+</dd>
+<dt>
+<span class="term">Διαγραφή φακέλου</span>
+</dt>
+<dd>
+<p>
+Αν πατήσετε το κουμπί με τον σκουπιδοτενεκέ, ο επιλεγμένος φάκελος θα διαγραφεί από τη λίστα. (Ο ίδιος ο
+φάκελος δεν επηρεάζεται. Απλά μετακινείται από τη διαδρομή αναζήτησης.) Διαγραφή του φακέλου του συστήματος
+είναι προφανώς κακή ιδέα, αλλά τίποτα δεν σας εμποδίζει από το να το κάνετε.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-imaging-color-management.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-imaging-color-management.html">Κεφάλαιο 10. Διαχείριση χρώματος του GIMP</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html">2. Πλέγματα και οδηγοί</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-change-mode.html:6(title) en/gimp-tutorial-quickie-change-mode.html:21(th) en/gimp-tutorial-quickie-change-mode.html:31(div:title)
+msgid "4.6. Change the Mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:13(link:title) en/gimp-tutorial-quickie-change-mode.html:25(th)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:14(link:title) en/gimp-tutorial-quickie-change-mode.html:153(a)
+msgid "4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:15(link:title) en/gimp-tutorial-quickie-change-mode.html:159(a)
+msgid "4.7. Flip An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:24(img:alt) en/gimp-tutorial-quickie-change-mode.html:144(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:24(td) en/gimp-tutorial-quickie-change-mode.html:144(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-info.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:26(img:alt) en/gimp-tutorial-quickie-change-mode.html:150(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:26(td) en/gimp-tutorial-quickie-change-mode.html:150(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-flip.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-change-mode\"/>4.6. Change the Mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:41(p)
+msgid "As with anything else, images come in different kinds and serve different purposes. Sometimes, a small size is important (for web sites) and at other times, retaining a high color depth in all its glory (a family portrait) is what you want. <acronym class=\"acronym\">GIMP</acronym> can handle all of this, and more, primarily by converting between three fundamental modes, as seen in this menu. In order to switch your image to one of these modes, you open it and follow that menu and click the mode you want."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:54(b)
+msgid "Figure 3.34. Dialog for changing the mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:58(img:alt)
+msgid "Dialog for changing the mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:63(p)
+msgid "<span class=\"emphasis\"><em>RGB</em></span> - This is the default mode, used for high quality rich color images. This is also the mode for most of your image work including scaling, cropping, and even flipping, as it gives the computer more information to work with. The extra information also makes RGB Mode the largest to store as a result."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:71(p)
+msgid "A little bit of detail if you are interested. Each pixel or point when in this mode consists of three different components. R-&gt;Red, G-&gt;Green, B-&gt;Blue. Each of these in turn can have an intensity value of 0-255. So, at every pixel, what you see is an additive combination of these three components. All these combinations result in a way to represent millions of colors."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:79(p)
+msgid "<span class=\"emphasis\"><em>Indexed</em></span> - This is the mode usually used when file size is of concern, or when you are working with images with few colors. It involves using a fixed number of colors, 256 or less, at each point to represent the color at that point. The defaults to attempting to figure out an \"optimum palette\" to best represent your image. Try it, you can undo it if you don't like the results, or use a custom palette or more colors."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:91(span)
+msgid "Change to Indexed Colors"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:91(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:91(b)
+msgid "Figure 3.35. Dialog <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:95(img:alt)
+msgid "Dialog Change to Indexed Colors"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:100(p)
+msgid "As you might expect, since the information needed to represent the color at each pixel is less, the file size is smaller. However, sometimes, there are options in the various menus that are \"greyed\" out for no apparent reason. This usually means that the filter or option cannot be applied when your image is in its current mode. Changing the mode to RGB, as outlined above, should solve this issue. If RGB mode doesn't work either, perhaps the option you're trying requires your layer to have the ability to be transparent. This can be done just as easily via <span class=\"guimenu\">Layer</span> → <span class=\"guimenuitem\">Transparency</span> → <span class=\"guimenuitem\">Add Alpha Channel</span>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:116(b)
+msgid "Figure 3.36. Add Alpha Channel"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:120(img:alt)
+msgid "Add Alpha Channel"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:125(p)
+msgid "<span class=\"emphasis\"><em>Grayscale</em></span> - In case you want to convert your brilliant color image to something that's black and white (with a lot of shades of grey), this is one of the easiest ways in which to do it. Some photos do look a lot fancier when displayed in grayscale. Again, if you're interested in some detail, this is achieved by taking the RGB values at the pixels in your image, and suitably weighted averaging them to get an intensity at that point."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:134(p)
+msgid "There is no need to convert an image to a specific mode before saving it in your favourite format, as <acronym class=\"acronym\">GIMP</acronym> is smart enough to properly export the image."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:147(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:153(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:156(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-change-mode.html:159(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

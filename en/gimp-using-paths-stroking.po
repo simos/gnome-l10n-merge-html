@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-paths-stroking.html:6(title) en/gimp-using-paths-stroking.html:21(th) en/gimp-using-paths-stroking.html:34(div:title)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:13(link:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:14(link:title) en/gimp-using-paths-stroking.html:107(a)
+msgid "5.4. Transforming Paths"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:15(link:title) en/gimp-using-paths-stroking.html:113(a)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:24(img:alt) en/gimp-using-paths-stroking.html:98(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:24(td) en/gimp-using-paths-stroking.html:98(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths-transforming.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:27(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:25(th)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:29(img:alt) en/gimp-using-paths-stroking.html:104(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:29(td) en/gimp-using-paths-stroking.html:104(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths-and-text.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:38(h3)
+msgid "<a id=\"gimp-using-paths-stroking\"/>5.5. Stroking a Path"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:45(b)
+msgid "Figure 7.12. Stroking paths"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:49(img:alt)
+msgid "Stroking paths"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:51(p)
+msgid "The four paths from the top illustration, each stroked in a different way."
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:60(p)
+msgid "Paths do not alter the appearance of the image pixel data unless they are <span class=\"emphasis\"><em>stroked</em></span>, using <span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Stroke Path</span> from the image menu or the Paths dialog right-click menu, or the <span class=\"quote\">“<span class=\"quote\">Stroke Path</span>”</span> button in the Tool Options dialog for the Path tool."
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:68(p)
+msgid "Choosing <span class=\"quote\">“<span class=\"quote\">Stroke Path</span>”</span> by any of these means brings up a dialog that allows you to control the way the stroking is done. You can choose from a wide variety of line styles, or you can stroke with any of the Paint tools, including unusual ones such as the Clone tool, Smudge tool, Eraser, etc."
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:78(span)
+msgid "Stroke Path"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:78(b)
+msgid "Figure 7.13. The <placeholder-1/> dialog"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:82(img:alt)
+msgid "The Stroke Path dialog"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:87(p)
+msgid "You can further increase the range of stroking effects by stroking a path multiple times, or by using lines or brushes of different widths. The possibilities for getting interesting effects in this way are almost unlimited."
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:101(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:107(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:110(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-paths-stroking.html:113(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

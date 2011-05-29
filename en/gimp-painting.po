@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-painting.html:6(title) en/gimp-painting.html:21(th) en/gimp-painting.html:33(div:title)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-painting.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-painting.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-painting.html:13(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-painting.html:14(link:title) en/gimp-painting.html:501(a)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/gimp-painting.html:15(link:title) en/gimp-painting.html:507(a)
+msgid "2. Creating and Using Selections"
+msgstr ""
+
+#: en/gimp-painting.html:24(img:alt) en/gimp-painting.html:492(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-painting.html:24(td) en/gimp-painting.html:492(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-web-transparency.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-painting.html:26(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-painting.html:25(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-painting.html:28(img:alt) en/gimp-painting.html:498(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-painting.html:28(td) en/gimp-painting.html:498(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-selections.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-painting.html:37(h2)
+msgid "<a id=\"gimp-painting\"/>Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-painting.html:43(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-painting.html:48(a)
+msgid "1. The Selection"
+msgstr ""
+
+#: en/gimp-painting.html:55(a)
+msgid "1.1. Feathering"
+msgstr ""
+
+#: en/gimp-painting.html:60(a)
+msgid "1.2. Making a Selection Partially Transparent"
+msgstr ""
+
+#: en/gimp-painting.html:67(a)
+msgid "2. Creating and Using Selections"
+msgstr ""
+
+#: en/gimp-painting.html:74(a)
+msgid "2.1. Moving a Selection"
+msgstr ""
+
+#: en/gimp-painting.html:79(a)
+msgid "2.2. Adding or subtracting selections"
+msgstr ""
+
+#: en/gimp-painting.html:86(a)
+msgid "3. The QuickMask"
+msgstr ""
+
+#: en/gimp-painting.html:93(a)
+msgid "3.1. Overview"
+msgstr ""
+
+#: en/gimp-painting.html:98(a)
+msgid "3.2. Properties"
+msgstr ""
+
+#: en/gimp-painting.html:105(a)
+msgid "4. Using QuickMask Mode"
+msgstr ""
+
+#: en/gimp-painting.html:112(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-painting.html:110(a)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-painting.html:120(a)
+msgid "5.1. Path Creation"
+msgstr ""
+
+#: en/gimp-painting.html:125(a)
+msgid "5.2. Path Properties"
+msgstr ""
+
+#: en/gimp-painting.html:130(a)
+msgid "5.3. Paths and Selections"
+msgstr ""
+
+#: en/gimp-painting.html:135(a)
+msgid "5.4. Transforming Paths"
+msgstr ""
+
+#: en/gimp-painting.html:140(a)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/gimp-painting.html:145(a)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/gimp-painting.html:150(acronym)
+msgid "SVG"
+msgstr ""
+
+#: en/gimp-painting.html:150(a)
+msgid "5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/gimp-painting.html:157(a)
+msgid "6. Brushes"
+msgstr ""
+
+#: en/gimp-painting.html:162(a)
+msgid "7. Adding New Brushes"
+msgstr ""
+
+#: en/gimp-painting.html:167(a)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/gimp-painting.html:172(a)
+msgid "9. Varying brush size"
+msgstr ""
+
+#: en/gimp-painting.html:179(a)
+msgid "9.1. How to vary the height of a brush"
+msgstr ""
+
+#: en/gimp-painting.html:184(a)
+msgid "9.2. Creating a brush quickly"
+msgstr ""
+
+#: en/gimp-painting.html:191(a)
+msgid "10. Gradients"
+msgstr ""
+
+#: en/gimp-painting.html:196(a)
+msgid "11. Patterns"
+msgstr ""
+
+#: en/gimp-painting.html:201(a)
+msgid "12. Palettes"
+msgstr ""
+
+#: en/gimp-painting.html:208(a)
+msgid "12.1. Colormap"
+msgstr ""
+
+#: en/gimp-painting.html:215(a)
+msgid "13. Drawing Simple Objects"
+msgstr ""
+
+#: en/gimp-painting.html:222(a)
+msgid "13.1. Drawing a Straight Line"
+msgstr ""
+
+#: en/gimp-painting.html:227(a)
+msgid "13.2. Creating a Basic Shape"
+msgstr ""
+
+#: en/gimp-painting.html:234(div:title)
+msgid "1. The Selection"
+msgstr ""
+
+#: en/gimp-painting.html:238(h2)
+msgid "<a id=\"gimp-concepts-selection\"/>1. The Selection"
+msgstr ""
+
+#: en/gimp-painting.html:243(p)
+msgid "Often when you operate on an image, you only want part of it to be affected. In <acronym class=\"acronym\">GIMP</acronym>, you make this happen by <span class=\"emphasis\"><em>selecting</em></span> that part. Each image has a <span class=\"emphasis\"><em>selection</em></span> associated with it. Most, but not all, <acronym class=\"acronym\">GIMP</acronym> operations act only on the selected portions of the image."
+msgstr ""
+
+#: en/gimp-painting.html:254(b)
+msgid "Figure 7.1. How would you isolate the tree?"
+msgstr ""
+
+#: en/gimp-painting.html:258(img:alt)
+msgid "How would you isolate the tree?"
+msgstr ""
+
+#: en/gimp-painting.html:263(p)
+msgid "There are many, many situations where creating just the right selection is the key to getting the result you want, and often it is not easy to do. For example, in the above image, suppose I want to cut the tree out from its background, and paste it into a different image. To do this, I need to create a selection that contains the tree and nothing but the tree. It is difficult because the tree has a complex shape, and in several spots is hard to distinguish from the objects behind it."
+msgstr ""
+
+#: en/gimp-painting.html:275(b)
+msgid "Figure 7.2. Selection shown as usual with dashed line."
+msgstr ""
+
+#: en/gimp-painting.html:279(img:alt)
+msgid "Selection shown as usual with dashed line."
+msgstr ""
+
+#: en/gimp-painting.html:284(p)
+msgid "Now here is a very important point, and it is crucial to understand this. Ordinarily when you create a selection, you see it as a dashed line enclosing a portion of the image. The common, not entirely accurate, idea you could get from this, is that the selection is a sort of container, with the selected parts of the image inside, and the unselected parts outside. Although this concept of selection is okay for many purposes, it is not entirely correct."
+msgstr ""
+
+#: en/gimp-painting.html:293(p)
+msgid "Actually the selection is implemented as a <span class=\"emphasis\"><em>channel</em></span>. In terms of its internal structure, it is identical to the red, green, blue, and alpha channels of an image. Thus, the selection has a value defined at each pixel of the image, ranging between 0 (unselected) and 255 (fully selected). The advantage of this approach is that it allows some pixels to be <span class=\"emphasis\"><em>partially selected</em></span>, by giving them intermediate values between 0 and 255. As you will see, there are many situations where it is desirable to have smooth transitions between selected and unselected regions."
+msgstr ""
+
+#: en/gimp-painting.html:304(p)
+msgid "What, then, is the dashed line that appears when you create a selection?"
+msgstr ""
+
+#: en/gimp-painting.html:307(p)
+msgid "The dashed line is a <span class=\"emphasis\"><em>contour line</em></span>, dividing areas that are more than half selected from areas that are less than half selected."
+msgstr ""
+
+#: en/gimp-painting.html:315(b)
+msgid "Figure 7.3. Same selection in QuickMask mode."
+msgstr ""
+
+#: en/gimp-painting.html:319(img:alt)
+msgid "Same selection in QuickMask mode."
+msgstr ""
+
+#: en/gimp-painting.html:324(p)
+msgid "While looking at the dashed line that represents the selection, always remember that the line tells only part of the story. If you want to see the selection in complete detail, the easiest way is to click the QuickMask button in the lower left corner of the image window. This causes the selection to be shown as a translucent overlay atop the image. Selected areas are unaffected; unselected areas are reddened. The more completely selected an area is, the less red it appears."
+msgstr ""
+
+#: en/gimp-painting.html:333(p)
+msgid "Many operations work differently in QuickMask mode, as mentioned in the <a class=\"link\" href=\"gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview\" title=\"3.1.&#xA0;Overview\">QuickMask overview</a>. Use the QuickMask button in the lower left corner of the image window to toggle QuickMask mode on and off."
+msgstr ""
+
+#: en/gimp-painting.html:342(b)
+msgid "Figure 7.4. Same selection in QuickMask mode after feathering."
+msgstr ""
+
+#: en/gimp-painting.html:346(img:alt)
+msgid "Same selection in QuickMask mode after feathering."
+msgstr ""
+
+#: en/gimp-painting.html:351(div:title)
+msgid "1.1. Feathering"
+msgstr ""
+
+#: en/gimp-painting.html:355(h3)
+msgid "<a id=\"id3215185\"/>1.1. Feathering"
+msgstr ""
+
+#: en/gimp-painting.html:359(p)
+msgid "With the default settings, the basic selection tools, such as the Rectangle Select tool, create sharp selections. Pixels inside the dashed line are fully selected, and pixels outside completely unselected. You can verify this by toggling QuickMask: you see a clear rectangle with sharp edges, surrounded by uniform red. Use the <span class=\"quote\">“<span class=\"quote\">Feather edges</span>”</span> checkbox in the Tool Options to toggle between graduated selections and sharp selections. The feather radius, which you can adjust, determines the distance over which the transition occurs."
+msgstr ""
+
+#: en/gimp-painting.html:371(p)
+msgid "If you are following along, try this with the Rectangle Select tool, and then toggle QuickMask. You will see that the clear rectangle has a fuzzy edge."
+msgstr ""
+
+#: en/gimp-painting.html:376(p)
+msgid "Feathering is particularly useful when you are cutting and pasting, so that the pasted object blends smoothly and unobtrusively with its surroundings."
+msgstr ""
+
+#: en/gimp-painting.html:381(p)
+msgid "It is possible to feather a selection at any time, even if it was originally created as a sharp selection. Use <span class=\"guimenu\">Select</span> → <span class=\"guimenuitem\">Feather</span> from the image menu to open the Feather Selection dialog. Set the feather radius and click OK. This brings up a dialog that allows you to set the feather radius. Use <span class=\"guimenu\">Select</span> → <span class=\"guimenuitem\">Sharpen</span>. do the opposite—sharpen a graduated selection into an all-or-nothing selection—."
+msgstr ""
+
+#: en/gimp-painting.html:391(div:title) en/gimp-painting.html:397(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-painting.html:395(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-painting.html:401(p)
+msgid "For technically oriented readers: feathering works by applying a Gaussian blur to the selection channel, with the specified blurring radius."
+msgstr ""
+
+#: en/gimp-painting.html:411(div:title)
+msgid "1.2. Making a Selection Partially Transparent"
+msgstr ""
+
+#: en/gimp-painting.html:415(h3)
+msgid "<a id=\"id3215279\"/>1.2. Making a Selection Partially Transparent"
+msgstr ""
+
+#: en/gimp-painting.html:419(p)
+msgid "You can set layer opacity, but you cannot do that directly for a selection. It is quite useful to make the image of a glass transparent. Use the following methods to set the layer opacity:"
+msgstr ""
+
+#: en/gimp-painting.html:427(p)
+msgid "For simple selections, use the Eraser tool with the desired opacity."
+msgstr ""
+
+#: en/gimp-painting.html:432(p)
+msgid "For complex selections: use <span class=\"guimenu\">Selection</span> → <span class=\"guimenuitem\">Floating</span> to create a floating selection. This creates a new layer with the selection called <span class=\"quote\">“<span class=\"quote\">Floating Selection</span>”</span>. Set the opacity slider in the Layer Dialog to the desired opacity. Then anchor the selection: outside the selection, the mouse pointer includes an anchor. When you click while the mouse pointer includes the anchor, the floating selection disappears from the Layer Dialog and the selection is at the right place and partially transparent (anchoring works this way only if a selection tool is activated : you can also use the Anchor Layer command in the context menu by right clicking on the selected layer in the layer dialog)."
+msgstr ""
+
+#: en/gimp-painting.html:448(p)
+msgid "And, if you use this function frequently: <span class=\"keycap\"><strong>Ctrl</strong></span>-<span class=\"keycap\"><strong>C</strong></span> to copy the selection, <span class=\"keycap\"><strong>Ctrl</strong></span>-<span class=\"keycap\"><strong>V</strong></span> to paste the clipboard as a floating selection, and <span class=\"guimenu\">Layer</span> → <span class=\"guimenuitem\">New Layer</span> to turn the selection into a new layer. You can adjust the opacity before, or after creating the new layer."
+msgstr ""
+
+#: en/gimp-painting.html:457(p)
+msgid "Another way: use <span class=\"guimenu\">Layer</span> → <span class=\"guisubmenu\">Mask</span> → <span class=\"guimenuitem\">Add Layer Mask</span> to add a layer mask to the layer with the selection, initializing it with the selection. Then use a brush with the desired opacity to paint the selection with black, i-e paint it with transparency. Then Layer/Mask/Apply Layer Mask. See <a class=\"xref\" href=\"gimp-dialogs-structure.html#gimp-layer-mask\" title=\"2.1.3.&#xA0;Layer masks\">Section 2.1.3, “Layer masks”</a>."
+msgstr ""
+
+#: en/gimp-painting.html:468(p)
+msgid "To <span class=\"emphasis\"><em>make the solid background of an image transparent</em></span>, add an Alpha channel, and use the Magic Wand to select the background. Then, use the Color Picker tool to select the background color, which becomes the foreground color in Toolbox. Use the Bucket Fill tool with the selected color. Set the Bucket Fill mode to <span class=\"quote\">“<span class=\"quote\">Color Erase</span>”</span>, which erases pixels with the selected color; other pixels are partially erased and their color is changed."
+msgstr ""
+
+#: en/gimp-painting.html:478(p)
+msgid "The simplest method is to use <span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Clear</span>, which gives complete transparency to a selection."
+msgstr ""
+
+#: en/gimp-painting.html:495(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-painting.html:501(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-painting.html:504(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-painting.html:507(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

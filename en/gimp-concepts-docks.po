@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-docks.html:6(title) en/gimp-concepts-docks.html:21(th) en/gimp-concepts-docks.html:31(div:title)
+msgid "2.3. Dialogs and Docking"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:13(link:title) en/gimp-concepts-docks.html:25(th)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:14(link:title) en/gimp-concepts-docks.html:682(a)
+msgid "2.2. Image Window"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:15(link:title) en/gimp-concepts-docks.html:688(a)
+msgid "3. Undoing"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:24(img:alt) en/gimp-concepts-docks.html:673(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:24(td) en/gimp-concepts-docks.html:673(td)
+msgid "<a accesskey=\"p\" href=\"gimp-image-window.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-docks.html:26(img:alt) en/gimp-concepts-docks.html:679(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:26(td) en/gimp-concepts-docks.html:679(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-undo.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:35(h3)
+msgid "<a id=\"gimp-concepts-docks\"/>2.3. Dialogs and Docking"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:41(div:title)
+msgid "2.3.1. Docking Areas"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:45(h4)
+msgid "<a id=\"gimp-dock-separator\"/>2.3.1. Docking Areas"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:50(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> has great flexibility for arranging dialog windows on your screen. Instead of placing each dialog in its own window, you can group dialogs using docks. A \"dock\" is a container window that can hold a collection of persistent dialogs, such as the Tool Options dialog, Brushes dialog, Palette dialog, etc. Docks cannot, however, hold non-persistent dialogs such as the Preferences dialog or an Image window."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:59(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> has two default docks:"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:65(p)
+msgid "The Layers, Channels and Paths dock."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:70(p)
+msgid "The Brushes, Patterns and Gradients dock."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:76(p)
+msgid "In these docks, each window is in its own tab."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:79(p)
+msgid "The Toolbox is a <span class=\"emphasis\"><em>utility window</em></span>. The Tool Options window is normally attached under the Toolbox and displays the options of the selected tool."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:84(p)
+msgid "Use <span class=\"guimenu\">Windows</span> → <span class=\"guisubmenu\">Dockable Dialogs</span>. view a list of dockable dialogs. Choose a dockable dialog from the list to view the dialog. If the dialog is available in a dock, then it is made visible. If the dialog is not in a dock, then it is displayed in its own window. Note that the Windows command is only available while an image is open for editing."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:93(p)
+msgid "Every dockable dialog has two types of docking areas: the docking bars and the docking-tab area. In a dock, the docking-tab area covers the entire window."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:101(b)
+msgid "Figure 3.5. The two docking types"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:105(img:alt) en/gimp-concepts-docks.html:111(img:alt)
+msgid "The two docking types"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:107(p)
+msgid "The dockable window is docked onto a dock bar."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:113(p)
+msgid "The dockable window is docked onto the docking-tab area. A new tab has been created."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:123(div:title)
+msgid "2.3.2. Docking Bars"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:127(h4)
+msgid "<a id=\"gimp-dockable-dock-bars\"/>2.3.2. Docking Bars"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:132(p)
+msgid "Each dockable window has two <span class=\"emphasis\"><em>docking bars</em></span>. These bars are thin gray bars, very unobtrusive and easy to not notice: most people don't realize that they exist until they are specifically pointed out."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:141(b)
+msgid "Figure 3.6. Docking bars"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:145(img:alt)
+msgid "Docking bars"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:147(p)
+msgid "A window with <span class=\"emphasis\"><em>docking bars</em></span> highlighted."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:156(div:title)
+msgid "2.3.3. Docking Drag Handles"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:160(h4)
+msgid "<a id=\"gimp-dockable-drag-area\"/>2.3.3. Docking Drag Handles"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:165(p)
+msgid "Each dockable window has a <span class=\"emphasis\"><em>drag handle area</em></span>, as highlighted in the figure below. The cursor changes to a hand shape when it is over a drag handle area. To dock a dialog, click in the drag handle area, and drag it:"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:174(p)
+msgid "onto a docking bar so that the dialog is attached below the docking bar in the window,"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:180(p)
+msgid "or into the docking-tab area so that the dialog is added as a tab."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:192(b)
+msgid "Figure 3.7. A dockable window, with the drag handle area highlighted"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:196(img:alt)
+msgid "A dockable window, with the drag handle area highlighted"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:198(p)
+msgid "This screenshot shows the area that can be used to drag a dialog window onto a dock. It can also be used to take a dialog off the dock."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:208(p)
+msgid "You can drag more than one dialog onto the same docking bar. If you do, the dialogs are displayed as tabs, represented by iconic symbols at the top. Click on the iconic symbol to bring the tab to the front."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:213(div:title) en/gimp-concepts-docks.html:219(th) en/gimp-concepts-docks.html:594(div:title) en/gimp-concepts-docks.html:600(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:217(img:alt) en/gimp-concepts-docks.html:598(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:223(p)
+msgid "You can also add, detach, or delete a tab window using the Tab menu (see below)."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:231(div:title) en/gimp-concepts-docks.html:237(th) en/gimp-concepts-docks.html:548(div:title) en/gimp-concepts-docks.html:554(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:235(img:alt) en/gimp-concepts-docks.html:552(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:241(p)
+msgid "Press <span class=\"keycap\"><strong>TAB</strong></span> in an Image window to toggle the visibility of the docks. This is useful if the docks hide a portion of the image Window. You can quickly hide all the docks, do your work, then display all the docs again. Pressing <span class=\"keycap\"><strong>TAB</strong></span> inside a dock to navigate through the dock."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:254(div:title)
+msgid "2.3.4. Image Selection"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:258(h4)
+msgid "<a id=\"gimp-dock-image-menu\"/>2.3.4. Image Selection"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:264(p)
+msgid "Some docks contain an <span class=\"emphasis\"><em>Image Selection Menu</em></span>: a menu listing all of the images open in <acronym class=\"acronym\">GIMP</acronym>. The Image Menu displays the name of the image whose information is shown in the dock. Use the <span class=\"guilabel\">Auto</span> button to toggle the value of <span class=\"guilabel\">Auto Follow Active Image</span>. Suppose you are using the Layers dialog and you want to see the layers for a different image. Select the desired image from the Image Selection Menu. Although this is convenient, do not forget that you changed the working image for the dock. Setting <span class=\"guilabel\">Auto Follow Active Image</span> from the Tab menu helps to avoid this problem."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:281(b)
+msgid "Figure 3.8. A dock with an Image Menu highlighted."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:285(img:alt)
+msgid "A dock with an Image Menu highlighted."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:290(p)
+msgid "By default, a <span class=\"quote\">“<span class=\"quote\">Layers, Channels, and Paths</span>”</span> dock shows an Image Menu at the top, and other types of docks do not. You can always add or remove an Image Menu, however, using the <span class=\"quote\">“<span class=\"quote\">Show Image Menu</span>”</span> toggle in the Tab menu, as described below. (Exception: you cannot add an Image Menu to the dock that contains the Toolbox.)"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:299(div:title)
+msgid "2.3.5. Tab Menu"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:303(h4)
+msgid "<a id=\"gimp-dockable-menu\"/>2.3.5. Tab Menu"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:311(b)
+msgid "Figure 3.9. A dialog in a dock, with the Tab menu button highlighted."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:315(img:alt)
+msgid "A dialog in a dock, with the Tab menu button highlighted."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:320(p)
+msgid "In each dialog, you can access a special menu of tab-related operations by pressing the Tab Menu button, as highlighted in the figure above. Exactly which commands are shown in the menu varies a bit from dialog to dialog, but they always include operations for creating new tabs, or closing or detaching tabs."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:330(b)
+msgid "Figure 3.10. Tab menu from the Layers dialog."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:334(img:alt)
+msgid "Tab menu from the Layers dialog."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:339(p)
+msgid "The Tab menu gives you access to the following commands:"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:345(span)
+msgid "Context Menu"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:349(p)
+msgid "At the top of each Tab menu is an entry that opens into the dialog's context menu, which contains operations specific to that particular type of dialog. For example, the context menu for the Layers tab is <span class=\"guilabel\">Layers Menu</span>, which contains a set of operations for manipulating layers."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:359(span)
+msgid "Add Tab"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:363(p)
+msgid "<span class=\"guilabel\">Add Tab</span> opens into a submenu allowing you to add a large variety of dockable dialogs as new tabs."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:370(span)
+msgid "Add tab"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:370(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:370(b)
+msgid "Figure 3.11. <placeholder-1/> sub-menu"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:374(img:alt)
+msgid "Add tab sub-menu"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:382(span)
+msgid "Close Tab"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:386(p)
+msgid "Close the dialog. Closing the last dialog in a dock causes the dock itself to close."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:393(span)
+msgid "Detach Tab"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:397(p)
+msgid "Detach the dialog from the dock, creating a new dock with the detached dialog as its only member. It has the same effect as dragging the tab out of the dock and releasing it at a location where it cannot be docked."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:403(p)
+msgid "If the tab is <a class=\"link\" href=\"gimp-concepts-docks.html#gimp-dock-tab-lock\">locked</a>, this menu item is insensitive and grayed out."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:410(span)
+msgid "Lock Tab to Dock"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:414(p)
+msgid "Prevent the dialog from being moved or detached. When activated, <span class=\"guimenuitem\">Detach Tab</span> is insensitive and grayed out."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:422(span)
+msgid "Preview Size"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:430(b)
+msgid "Figure 3.12. Preview Size submenu of a Tab menu."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:434(img:alt)
+msgid "Preview Size submenu of a Tab menu."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:440(p)
+msgid "Many, but not all, dialogs have Tab menus containing a <span class=\"guilabel\">Preview Size</span> option, which opens into a submenu giving a list of sizes for the items in the dialog (see the figure above). For example, the Brushes dialog shows pictures of all available brushes: the Preview Size determines how large the pictures are. The default is <span class=\"guilabel\">Medium</span>."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:452(span)
+msgid "Tab Style"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:458(b)
+msgid "Figure 3.13. Tab Style submenu of a Tab menu."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:462(img:alt)
+msgid "Tab Style submenu of a Tab menu."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:468(p)
+msgid "Available only when multiple dialogs are in the same dock, <span class=\"guilabel\">Tab Style</span> opens a submenu allowing you to choose the appearance of the tabs at the top (see the figure above). There are five choices, not all are available for every dialog:"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:480(span)
+msgid "Icon"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:483(p)
+msgid "Use an icon to represent the dialog type."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:488(span)
+msgid "Current Status"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:491(p)
+msgid "Is only available for dialogs that allows you to select something, such as a brush, pattern, gradient, etc. <span class=\"guilabel\">Current Status</span> shows a representation of the currently selected item in the tab top."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:500(span)
+msgid "Text"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:503(p)
+msgid "Use text to display the dialog type."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:508(span)
+msgid "Icon and Text"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:511(p)
+msgid "Using both an icon and text results in wider tabs."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:516(span)
+msgid "Status and Text"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:519(p)
+msgid "Show the currently selected item and text with the dialog type."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:531(span)
+msgid "View as List; View as Grid"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:537(p)
+msgid "These entries are shown in dialogs that allow you to select an item from a set: brushes, patterns, fonts, etc. You can choose to view the items as a vertical list, with the name of each beside it, or as a grid, with representations of the items but no names. Each has its advantages: viewing as a list gives you more information, but viewing as a grid allows you to see more possibilities at once. The default for this varies across dialogs: for brushes and patterns, the default is a grid; for most other things, the default is a list."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:558(p)
+msgid "When the treeview is <span class=\"guilabel\">View as List</span>, pressing <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>F</strong></span> (or <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>S</strong></span>, it depends on your GTK+ keybindings), opens a text box, a search field, where you can enter the first letter(s) of the name of the item you want. The search field will not open with <span class=\"guilabel\">View as Grid</span>."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:574(b)
+msgid "Figure 3.14. The list search field."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:578(img:alt)
+msgid "The list search field."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:580(p)
+msgid "Use <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>F</strong></span> to open the list search field."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:590(p)
+msgid "The list search field automatically closes after five seconds if you do nothing."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:604(p)
+msgid "The search field shortcut is also available for the treeview you get in the <span class=\"quote\">“<span class=\"quote\">Brush</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Font</span>”</span> or <span class=\"quote\">“<span class=\"quote\">Pattern</span>”</span> option of several tools."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:616(span)
+msgid "Show Button Bar"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:619(p)
+msgid "Some dialogs display a button bar on the bottom of the dialog; for example, the Patterns, Brushes, Gradients, and Images dialogs. This is a toggle. If it is checked, then the Button Bar is displayed."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:628(b)
+msgid "Figure 3.15. Button Bar on the Brushes dialog."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:632(img:alt)
+msgid "Button Bar on the Brushes dialog."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:639(span)
+msgid "Show Image Selection"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:642(p)
+msgid "This is a toggle. If it is checked, then an Image Menu is shown at the top of the dock (see <a class=\"xref\" href=\"gimp-concepts-docks.html#figure-highlight-imagemenu\" title=\"Figure&#xA0;3.8.&#xA0;A dock with an Image Menu highlighted.\">Figure 3.8, “A dock with an Image Menu highlighted.”</a>). It is not available for dialogs docked below the Toolbox. This option is interesting only if you have several open images on your screen."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:652(span)
+msgid "Auto Follow Active Image"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:655(p)
+msgid "This option is also interesting only if you have several images open on your screen. Then, the information displayed in a dock is always that of the selected image in the Image Selection drop-down list. If the <span class=\"guilabel\">Auto Follow Active Image </span> is disabled, the image can be selected only in the Image Selection. If enabled, you can also select it by activating the image directly (clicking on its title bar)."
+msgstr ""
+
+#: en/gimp-concepts-docks.html:676(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:682(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-docks.html:685(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-docks.html:688(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

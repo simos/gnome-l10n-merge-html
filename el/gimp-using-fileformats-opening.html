@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3. Άνοιγμα αρχείων</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+<link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-images-in.html" title="Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP" />
+<link rel="prev" href="gimp-using-fileformats-creating.html" title="2. Δημιουργία νέων αρχείων" />
+<link rel="next" href="gimp-using-open-location.html" title="3.2. Άνοιγμα τοποθεσίας" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3. Άνοιγμα αρχείων</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-fileformats-creating.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-open-location.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" lang="en" xml:lang="en">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-using-fileformats-opening"></a>3. Άνοιγμα αρχείων</h2>
+</div>
+</div>
+</div>
+<a id="id450229" class="indexterm"></a>
+<p>
+Υπάρχουν πολλοί τρόποι ανοίγματος μιας υπάρχουσας εικόνας στο GIMP:
+</p>
+<div class="sect2" lang="el" xml:lang="el">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-open-file"></a>3.1. Άνοιγμα αρχείου</h3>
+</div>
+</div>
+</div>
+<p>
+Ο πιο προφανής τρόπος να ανοιχθεί μια υπάρχουσα εικόνα είναι το μενού. Πατήστε
+<span class="guimenu">Αρχείο</span> → <span class="guimenuitem">Άνοιγμα</span>
+για να ανοίξετε το διάλογο <span class="guilabel">Άνοιγμα εικόνας</span>, που σας επιτρέπει να περιηγηθείτε
+στο αρχείο και πατήστε στο όνομα του. Αυτή η μέθοδος δουλεύει καλά, εάν ξέρετε το όνομα και την τοποθεσία του
+αρχείου που θέλετε να ανοίξετε. Αν και ο διάλογος <span class="guilabel">Άνοιγμα εικόνας</span> έχει ένα
+τμήμα προεπισκόπησης, δεν είναι εύκολο να βρείτε μια εικόνα με βάση μια μικρογραφία.
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Όταν ανοίγετε ένα αρχείο, το GIMP πρέπει να προσδιορίσει τον τύπο του αρχείου.
+Δυστυχώς, η επέκταση αρχείου, όπως <code class="filename">.jpg</code>, δεν είναι αξιόπιστη: οι επεκτάσεις αρχείων
+ποικίλλουν από σύστημα σε σύστημα. Οποιοδήποτε αρχείο μπορεί να ξαναονομαστεί έχοντας οποιαδήποτε επέκταση και
+υπάρχουν πολλοί λόγοι γιατί το όνομα ενός αρχείου μπορεί να μην έχει επέκταση. Το GIMP
+αρχικά προσπαθεί να αναγνωρίσει ένα αρχείο εξετάζοντας τα περιεχόμενά του - οι περισσότερες από τις συνήθως
+χρησιμοποιούμενες μορφές αρχείων έχουν “<span class="quote">μαγικές επικεφαλίδες</span>” που επιτρέπουν να
+αναγνωριστούν. Μόνο εάν το μαγικό δεν αποφέρει αποτελέσματα καταφεύγει το GIMP στη χρήση επέκτασης.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="figure">
+<a id="id442358"></a>
+<p class="title">
+<b>Εικόνα 5.4. Ο διάλογος “<span class="quote">άνοιγμα εικόνας</span>” </b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/file-open-dialog.png" alt="Ο διάλογος άνοιγμα εικόνας" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το GIMP 2.2 εισήγαγε έναν νέο διάλογο <span class="guilabel">άνοιγμα εικόνας</span> που δίνει πολλές δυνατότητες
+βοήθειας για γρήγορη περιήγηση σ' ένα αρχείο.
+Ίσως η πιο σημαντική είναι η ικανότητα δημιουργίας “<span class="quote">σελιδοδεικτών</span>”, ή
+<span class="guilabel">τοποθεσιών</span>, για φακέλους που χρησιμοποιείτε συχνά. Ο κατάλογος των σελιδοδεικτών
+εμφανίζεται στην αριστερή πλευρά του διαλόγου. Οι σελιδοδείκτες στην κορυφή, όπως “<span class="quote">επιφάνεια εργασίας</span>”,
+εμφανίζονται αυτόματα. Χρησιμοποιείστε το κουμπί <span class="guilabel">Προσθήκη</span> για να προσθέσετε τον
+τρέχοντα κατάλογο στη λίστα. Χρησιμοποιείστε το κουμπί <span class="guilabel">Αφαίρεση</span> για να διώξετε
+τον επιλεγμένο σελιδοδείκτη. Διπλοπατήστε σε ένα σελιδοδείκτη για να περιηγηθείτε αμέσως σε αυτό τον κατάλογο.
+</p>
+<p>
+Το κέντρο του διαλόγου περιέχει μια λίστα των περιεχομένων του επιλεγμένου καταλόγου. Υποκατάλογοι εμφανίζονται
+στην κορυφή της λίστας και τα αρχεία από κάτω. Από προεπιλογή, όλα τα αρχεία στον κατάλογο αναφέρονται, αλλά
+μπορείτε να περιορίσετε τη λίστα σε αρχεία εικόνας συγκεκριμένου τύπου, χρησιμοποιώντας το μενού επιλογή τύπου
+αρχείου που εμφανίζεται κάτω από τη λίστα καταλόγων.
+</p>
+<p>
+Όταν επιλέγετε μια εγγραφή αρχείου εικόνας στη λίστα, μια προεπισκόπηση εμφανίζεται στη δεξιά πλευρά του
+διαλόγου, μαζί με μερικές βασικές πληροφορίες για την εικόνα. Σημειώστε ότι οι προεπισκοπήσεις είναι
+λανθάνουσες, όταν δημιουργούνται και υπάρχουν μερικά πράγματα, που μπορείτε να κάνετε, μπορούν να προκαλέσουν
+μια επισκόπηση όχι σωστή. Εάν υποπτεύεστε ότι αυτό συμβαίνει, μπορείτε να εξαναγκάσετε μια νέα προεπισκόπηση να
+δημιουργηθεί κρατώντας πατημένο το πλήκτρο <span class="keycap"><strong>Ctrl</strong></span> και πατώντας στην
+περιοχή προεπισκόπησης.
+</p>
+<p>
+Από προεπιλογή, ένα πλαίσιο κειμένου <span class="guilabel">τοποθεσία</span> εμφανίζεται στο διάλογο άνοιγμα
+αρχείου. Εάν λείπει, τότε ο συνδυασμός πλήκτρων
+<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>L</strong></span> εναλλάσσει
+αυτό το πλαίσιο κειμένου. Εναλλακτικά, μπορείτε να πατήσετε στο εικονίδιο του χαρτιού και του μολυβιού στην
+επάνω αριστερή γωνία για εναλλαγή του πλαισίου κειμένου.
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Εάν επιλέξετε ένα όνομα αρχείου από τη λίστα και πατήσετε το κουμπί “<span class="quote">Άνοιγμα</span>” στην
+κάτω δεξιά γωνία του διαλόγου, σχεδόν πάντα το GIMP θα προσδιορίσει
+αυτόματα τον τύπο του αρχείου για σας. Στις σπάνιες περιπτώσεις -κυρίως εάν ο τύπος αρχείου είναι ασυνήθιστος
+και λείπει στο όνομα μια κατανοητή επέκταση, το  GIMP ίσως αποτύχει στο
+σωστό προσδιορισμό του τύπου αρχείου. Πατήστε <span class="guilabel">Επιλογή τύπου αρχείου</span> στον πάτο
+του διαλόγου για να ορίσετε τον τύπο του αρχείου χειροκίνητα, εάν αυτό απαιτείται. Συνήθως, όμως, όταν το
+GIMP αποτυγχάνει να ανοίξει ένα αρχείο εικόνας, είναι κατεστραμμένο ή δεν υποστηρίζεται η μορφή του.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-fileformats-creating.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-images-in.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-open-location.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-fileformats-creating.html">2. Δημιουργία νέων αρχείων</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-open-location.html">3.2. Άνοιγμα τοποθεσίας</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

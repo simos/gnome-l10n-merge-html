@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-selections-add.html:6(title) el/gimp-using-selections-add.html:21(th) el/gimp-using-selections-add.html:31(div:title)
+msgid "2.2. Προσθήκη ή αφαίρεση επιλογών"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:13(link:title) el/gimp-using-selections-add.html:14(link:title) el/gimp-using-selections-add.html:25(th) el/gimp-using-selections-add.html:124(a)
+msgid "2. Δημιουργία και χρήση επιλογών"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:15(link:title) el/gimp-using-selections-add.html:130(a)
+msgid "3. Σύντομη μάσκα"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:24(img:alt) el/gimp-using-selections-add.html:115(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:24(td) el/gimp-using-selections-add.html:115(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-selections.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-selections-add.html:26(img:alt) el/gimp-using-selections-add.html:121(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:26(td) el/gimp-using-selections-add.html:121(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-window-qmask-button.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:35(h3)
+msgid "<a id=\"gimp-using-selections-add\"/>2.2. Προσθήκη ή αφαίρεση επιλογών"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:40(p)
+msgid "Τα εργαλεία έχουν προτιμήσεις που μπορείτε να τροποποιήσετε. Κάθε εργαλείο επιλογής σας επιτρέπει να ορίσετε την κατάσταση επιλογής. Οι επόμενες καταστάσεις επιλογής υποστηρίζονται:"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:47(p)
+msgid "Η αντικατάσταση είναι η πιο χρησιμοποιούμενη κατάσταση επιλογής. Στην κατάσταση αντικατάστασης μία επιλογή αντικαθιστά οποιαδήποτε υπάρχουσα επιλογή."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:53(p)
+msgid "Η κατάσταση προσθήκης, προσθέτει νέες επιλογές σε οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε πατημένο το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span>, για προσωρινή εισαγωγή της κατάστασης προσθήκης."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:60(p)
+msgid "Η κατάσταση αφαίρεσης, αφαιρεί τις νέες επιλογές από οποιαδήποτε υπάρχουσα επιλογή. Πατήστε και κρατήστε το πλήκτρο <span class=\"keycap\"><strong>Ctrl</strong></span> , ενώ επιλέγετε για να μπείτε προσωρινά στην κατάσταση αφαίρεσης."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:67(p)
+msgid "Η κατάσταση τομής, δημιουργεί μια νέα επιλογή από τη νέα και την υπάρχουσα επιλογή. Πατήστε και κρατείστε πατημένα ταυτόχρονα τα πλήκτρα <span class=\"keycap\"><strong>Shift</strong></span> και <span class=\"keycap\"><strong>Ctrl</strong></span> επιλέγοντας προσωρινά την κατάσταση τομής."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:79(b)
+msgid "Εικόνα 7.8. Μεγένθυση μιας ορθογώνιας επιλογής με το λάσο (εργαλείο ελεύθερης επιλογής)"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:82(img:alt)
+msgid "Μεγένθυση μιας ορθογώνιας επιλογής με το λάσο (εργαλείο ελεύθερης επιλογής)"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:87(p)
+msgid "Η εικόνα δείχνει μια υπάρχουσα ορθογώνια επιλογή. Επιλέξτε το λάσο. Ενώ πατάτε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> επιλέξτε μια ελεύθερη επιλογή που εμπεριέχει την υπάρχουσα επιλογή. Αφήστε το πλήκτρο του ποντικιού και οι περιοχές συμπεριλαμβάνονται στην επιλογή."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:92(div:title) el/gimp-using-selections-add.html:98(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:96(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:102(p)
+msgid "Για να διορθώσετε επακριβώς ατέλειες επιλογής, χρησιμοποιείστε τη <a class=\"link\" href=\"gimp-using-quickmask.html\" title=\"4.&#xA0;&#x3A7;&#x3C1;&#x3AE;&#x3C3;&#x3B7; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2; &#x3C3;&#x3CD;&#x3BD;&#x3C4;&#x3BF;&#x3BC;&#x3B7;&#x3C2; &#x3BC;&#x3AC;&#x3C3;&#x3BA;&#x3B1;&#x3C2;\">Σύντομη μάσκα</a>."
+msgstr ""
+
+#: el/gimp-using-selections-add.html:118(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:124(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-selections-add.html:127(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-selections-add.html:130(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

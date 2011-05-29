@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-scale.html:6(title) en/gimp-tutorial-quickie-scale.html:21(th) en/gimp-tutorial-quickie-scale.html:31(div:title)
+msgid "4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:13(link:title) en/gimp-tutorial-quickie-scale.html:14(link:title) en/gimp-tutorial-quickie-scale.html:25(th) en/gimp-tutorial-quickie-scale.html:152(a)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:15(link:title) en/gimp-tutorial-quickie-scale.html:158(a)
+msgid "4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:24(img:alt) en/gimp-tutorial-quickie-scale.html:143(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:24(td) en/gimp-tutorial-quickie-scale.html:143(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickies.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:26(img:alt) en/gimp-tutorial-quickie-scale.html:149(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:26(td) en/gimp-tutorial-quickie-scale.html:149(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-jpeg.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-scale\"/>4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:41(p)
+msgid "Problem: you have a huge image and you want to resize the is so that it will display nicely on a web page. The example image is this beauty m51_hallas_big.jpg from APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod03\" title=\"Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)\">[<abbr class=\"abbrev\">APOD03</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:50(b)
+msgid "Figure 3.16. Example Image for Scaling"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:54(img:alt)
+msgid "Example Image for Scaling"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:59(p)
+msgid "The first thing that you might notice, is that <acronym class=\"acronym\">GIMP</acronym> opens the image at a logical size for viewing. If your image is really big like the sample image, <acronym class=\"acronym\">GIMP</acronym> will set the zoom so that it will display nicely on the screen. The zoom level is shown in the status area at the bottom of the Image window."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:67(p)
+msgid "The other thing to look at in the title-bar is the mode. If the mode shows as RGB in the title bar, you are fine. If the mode says Indexed or grayscale, read the <a class=\"xref\" href=\"gimp-tutorial-quickie-change-mode.html\" title=\"4.6.&#xA0;Change the Mode\">Section 4.6, “Change the Mode”</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:76(b)
+msgid "Figure 3.17. GIMP Used for Image Scaling"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:80(img:alt)
+msgid "GIMP Used for Image Scaling"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:85(p)
+msgid "Use <span class=\"guimenu\">Image</span> → <span class=\"guimenuitem\">Scale Image</span> to open the Scale Image dialog. You can right click on the image to open the menu, or use the menu along the top of the Image window. Notice that the Scale Image menu item contains three dots, which is a hint that a dialog will be opened."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:96(b)
+msgid "Figure 3.18. Dialog for Image Scaling in Pixels"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:100(img:alt)
+msgid "Dialog for Image Scaling in Pixels"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:105(p)
+msgid "If you have a desired width, put it in the dialog at the top where it says <span class=\"guilabel\">Width</span>. If you don't have such a number in mind, you can steal the width of <acronym class=\"acronym\">GIMP</acronym>'s default image size, which is 256 pixels. This is shown in the figure above."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:115(b)
+msgid "Figure 3.19. Dialog for Image Scaling in Inches"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:119(img:alt)
+msgid "Dialog for Image Scaling in Inches"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:124(p)
+msgid "Perhaps you want your image to look more like a 4x6 inch photo on most image rendering web browsers. Switch the units to <span class=\"quote\">“<span class=\"quote\">inches</span>”</span> and enter 4 inches in the height box (opting for smaller than 4x6 rather than bigger). You can see this dialog above."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:130(p)
+msgid "Let <acronym class=\"acronym\">GIMP</acronym> choose the other dimension length for you. Meaning, it requires more image knowledge to change both width and height and have it look correct. So change only one item and let <acronym class=\"acronym\">GIMP</acronym> change the rest. To change the other dimension, see <a class=\"xref\" href=\"gimp-tutorial-quickie-crop.html\" title=\"4.4.&#xA0;Crop An Image\">Section 4.4, “Crop An Image”</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:146(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:152(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:155(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-scale.html:158(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

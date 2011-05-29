@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-main-windows.html:6(title) en/gimp-concepts-main-windows.html:21(th) en/gimp-concepts-main-windows.html:31(div:title)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:13(link:title) en/gimp-concepts-main-windows.html:14(link:title) en/gimp-concepts-main-windows.html:25(th) en/gimp-concepts-main-windows.html:399(a)
+msgid "Chapter 3. First Steps with Wilber"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:15(link:title) en/gimp-concepts-main-windows.html:405(a)
+msgid "2.2. Image Window"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:24(img:alt) en/gimp-concepts-main-windows.html:390(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:24(td) en/gimp-concepts-main-windows.html:390(td)
+msgid "<a accesskey=\"p\" href=\"gimp-first-steps.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:26(img:alt) en/gimp-concepts-main-windows.html:396(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:26(td) en/gimp-concepts-main-windows.html:396(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-window.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:35(h2)
+msgid "<a id=\"gimp-concepts-main-windows\"/>2. Main Windows"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:44(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:44(b)
+msgid "Figure 3.2. The standard windows of <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:48(img:alt)
+msgid "The standard windows of GIMP"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:50(p)
+msgid "The screenshot illustrates the standard windows of <acronym class=\"acronym\">GIMP</acronym>"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:60(p)
+msgid "The screenshot above shows the most basic arrangement of <acronym class=\"acronym\">GIMP</acronym> windows that can be used effectively."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:66(p)
+msgid "<span class=\"emphasis\"><em>The Main Toolbox:</em></span> Contains a set of icon buttons used to select tools. May also contain the foreground and background colors; brush, pattern, and Gradient; and an icon of the active image. Use <span class=\"guimenu\">Edit</span> → <span class=\"guisubmenu\">Preferences</span> → <span class=\"guisubmenu\">Toolbox</span> to enable, or disable the extra items."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:77(p)
+msgid "<span class=\"emphasis\"><em>Tool options:</em></span> Docked below the main Toolbox is a Tool Options dialog, showing options for the currently selected tool (in this case, the Smudge tool)."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:85(p)
+msgid "<span class=\"emphasis\"><em>An image window:</em></span> Each image open in <acronym class=\"acronym\">GIMP</acronym> is displayed in a separate window. Many images can be open at the same time, limited by only the system resources. Before you can do anything useful in <acronym class=\"acronym\">GIMP</acronym>, you need to have at least one image window open. The image window holds the Menu of the main commands of <acronym class=\"acronym\">GIMP</acronym> (File, Edit, Select...), which you can also get by right-clicking on the window."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:98(p)
+msgid "The <span class=\"emphasis\"><em>Layers, Channels, Paths</em></span> dock with the Layers Dialog open; note that the <span class=\"quote\">“<span class=\"quote\">dialogs</span>”</span> in the <span class=\"quote\">“<span class=\"quote\">dock</span>”</span> are tabs. This dialog window shows the layer structure of the currently active image, and allows it to be manipulated in a variety of ways. It is possible to do a few very basic things without using the Layers dialog, but even moderately sophisticated <acronym class=\"acronym\">GIMP</acronym> users find it indispensable to have the Layers dialog available at all times."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:111(p)
+msgid "<span class=\"emphasis\"><em>Brushes/Patterns/Gradients:</em></span> The docked dialog below the layer dialog shows the dialogs (tabs) for managing brushes, patterns and gradients."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:119(p)
+msgid "This is a minimal setup. There are over a dozen other types of dialogs used by <acronym class=\"acronym\">GIMP</acronym> for various purposes, but users typically open them when they need them and close them when they are done. Knowledgeable users generally keep the Toolbox (with Tool Options) and Layers dialog open at all times. The Toolbox is essential to many <acronym class=\"acronym\">GIMP</acronym> operations; in fact, if you close it, <acronym class=\"acronym\">GIMP</acronym> will exit after confirming that that is actually what you want to do. The Tool Options section is actually a separate dialog, shown docked to the Main Toolbox in the screenshot. Knowledgeable users almost always have it set up this way: it is very difficult to use tools effectively without being able to see how their options are set. The Layers dialog comes into play when you work with an image with multiple layers: after you advance beyond the most basic stages of <acronym class=\"acronym\">GIMP</acronym> expertise, this means <span class=\"emphasis\"><em>almost always</em></span>. And of course it helps to display the images you're editing on the screen; if you close the image window before saving your work, <acronym class=\"acronym\">GIMP</acronym> will ask you whether you want to close the file."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:140(div:title) en/gimp-concepts-main-windows.html:146(th) en/gimp-concepts-main-windows.html:294(div:title) en/gimp-concepts-main-windows.html:300(th) en/gimp-concepts-main-windows.html:316(div:title) en/gimp-concepts-main-windows.html:322(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:144(img:alt) en/gimp-concepts-main-windows.html:298(img:alt) en/gimp-concepts-main-windows.html:320(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:150(p)
+msgid "If your <acronym class=\"acronym\">GIMP</acronym> layout is lost, your arrangement is easy to recover using <span class=\"guimenu\">Windows</span> → <span class=\"guisubmenu\">Recently Closed Docks</span> ; the Windows menu command is only available while an image is open. To add, close, or detach a tab from a dock, click <span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/using/tab-icon.png\"/></span></span> in the upper right corner of a dialog. This opens the Tab menu. Select <span class=\"guimenuitem\">Add Tab</span>,<span class=\"guimenuitem\"> Close Tab </span>, or <span class=\"guimenuitem\">Detach Tab</span>."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:167(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> does not support placing all controls and images into a single comprehensive window. The consensus in the <acronym class=\"acronym\">GIMP</acronym> community, is that multiple windows offers a better user experience—and a single window is difficult to do in a way that works correctly across all of the operating systems on which <acronym class=\"acronym\">GIMP</acronym> runs."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:176(p)
+msgid "Earlier versions of <acronym class=\"acronym\">GIMP</acronym> (up to <acronym class=\"acronym\">GIMP</acronym> 1.2.5) used many dialogs: advanced users often had half a dozen or more dialogs open at once, scattered all over the screen and very difficult to track. <acronym class=\"acronym\">GIMP</acronym> 2.0 is much better in this respect, because it allows dialogs to be docked together in a flexible way. (The Layers dialog in the screenshot actually contains four dialogs, represented by tabs: Layers, Channels, Paths, and Undo.) The system takes a little while to learn, but once you learn it, we hope that you will like it."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:188(p)
+msgid "The following sections walk you through the components of each of the windows shown in the screenshot, explaining what they are and how they work. Once you have read them, plus the section describing the basic structure of <acronym class=\"acronym\">GIMP</acronym> images, you should have learned enough to use <acronym class=\"acronym\">GIMP</acronym> for a wide variety of basic image manipulations. You can then look through the rest of the manual at your leisure (or just experiment) to learn the almost limitless number of more subtle and specialized things that are possible. Have fun!"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:199(div:title)
+msgid "2.1. The Toolbox"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:203(h3)
+msgid "<a id=\"gimp-concepts-toolbox\"/>2.1. The Toolbox"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:211(b)
+msgid "Figure 3.3. Screenshot of the Toolbox"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:215(img:alt)
+msgid "Screenshot of the Toolbox"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:220(p)
+msgid "The Toolbox is the heart of <acronym class=\"acronym\">GIMP</acronym>. If you close it, you quit <acronym class=\"acronym\">GIMP</acronym>. Here is a quick tour of what you will find there."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:225(div:title) en/gimp-concepts-main-windows.html:231(th) en/gimp-concepts-main-windows.html:340(div:title) en/gimp-concepts-main-windows.html:346(th) en/gimp-concepts-main-windows.html:363(div:title) en/gimp-concepts-main-windows.html:369(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:229(img:alt) en/gimp-concepts-main-windows.html:344(img:alt) en/gimp-concepts-main-windows.html:367(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:235(p)
+msgid "In the Toolbox, as in most parts of <acronym class=\"acronym\">GIMP</acronym>, moving the mouse over something and letting it rest for a moment, usually displays a <span class=\"quote\">“<span class=\"quote\">tooltip</span>”</span> that describes the thing. Short cut keys are also frequently shown in the tooltip. In many cases, you can hover the mouse over an item and press the <span class=\"keycap\"><strong>F1</strong></span> key to get help about the thing that is underneath the mouse."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:250(p)
+msgid "<span class=\"emphasis\"><em>Tool icons:</em></span> These icons are buttons which activate tools for a wide variety of purposes: selecting parts of images, painting an image, transforming an image, etc. <a class=\"xref\" href=\"gimp-tools.html#gimp-toolbox\" title=\"1.&#xA0;The Toolbox\">Section 1, “The Toolbox”</a> gives an overview of how to work with tools, and each tool is described systematically in the <a class=\"link\" href=\"gimp-tools.html\" title=\"Chapter&#xA0;13.&#xA0;Tools\">Tools</a> chapter."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:260(p)
+msgid "<span class=\"emphasis\"><em>Foreground/Background colors:</em></span> The color areas here show you <acronym class=\"acronym\">GIMP</acronym>'s current foreground and background colors, which come into play in many operations. Clicking on either one of them brings up a color selector dialog that allows you to change to a different color. Clicking on the double-headed arrow swaps the two colors, and clicking on the small symbol in the lower left corner resets them to black and white."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:272(p)
+msgid "<span class=\"emphasis\"><em>Brush/Pattern/Gradient:</em></span> The symbols here show you <acronym class=\"acronym\">GIMP's</acronym> current selections for: the Paintbrush, used by all tools that allow you to paint on the image (<span class=\"quote\">“<span class=\"quote\">painting</span>”</span> includes operations like erasing and smudging, by the way); for the Pattern, which is used in filling selected areas of an image; and for the Gradient, which comes into play whenever an operation requires a smoothly varying range of colors. Clicking on any of these symbols brings up a dialog window that allows you to change it."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:285(p)
+msgid "<span class=\"emphasis\"><em>Active Image:</em></span> In <acronym class=\"acronym\">GIMP</acronym>, you can work with many images at once, but at any given moment, only one image is the <span class=\"quote\">“<span class=\"quote\">active image</span>”</span>. Here you find a small iconic representation of the active image. Click the icon to display a dialog with a list of the currently open images, click an image in the dialog to make it active. You can also click an image window to make it the active image."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:304(p)
+msgid "The <span class=\"quote\">“<span class=\"quote\">Active Image</span>”</span> preview is disabled by default. If you want it, you can enable it in the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-toolbox\" title=\"1.7.&#xA0;Toolbox\">Toolbox Preferences</a> tab."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:326(p)
+msgid "At every start, <acronym class=\"acronym\">GIMP</acronym> selects a tool (the brush), a color, a brush and a pattern by default, always the same. If you want <acronym class=\"acronym\">GIMP</acronym> to select the last tool, color, brush and pattern you used when quitting your previous session, check the <span class=\"guilabel\">Save input device settings on exit</span> in <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-input-devices\" title=\"1.15.&#xA0;Input Devices\">Preferences/Input Devices</a>."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:350(p)
+msgid "The Toolbox window displays <span class=\"quote\">“<span class=\"quote\">Wilber's eyes</span>”</span> along the top of the dialog. You can get rid of the <span class=\"quote\">“<span class=\"quote\">Wilber's eyes</span>”</span> by adding the following line to your <code class=\"filename\">gimprc</code> file: <code class=\"code\">(toolbox-wilber no)</code>. It only affects the toolbox. The eyes in the Image window are only visible when you do not have an open image."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:373(p)
+msgid "Drag and drop an image into the Toolbox window to open the image in its own Image window. This is very different than dragging an image into an existing Image window, which adds it to the currently open image in a new layer—usually not what you want."
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:393(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:399(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:402(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-main-windows.html:405(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

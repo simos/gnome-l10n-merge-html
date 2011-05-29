@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:6(title) en/gimp-using-script-fu-tutorial-first-script.html:21(th) en/gimp-using-script-fu-tutorial-first-script.html:31(div:title)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:13(link:title) en/gimp-using-script-fu-tutorial-first-script.html:25(th)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:14(link:title) en/gimp-using-script-fu-tutorial-first-script.html:762(a)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:15(link:title) en/gimp-using-script-fu-tutorial-first-script.html:768(a)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:24(img:alt) en/gimp-using-script-fu-tutorial-first-script.html:753(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:24(td) en/gimp-using-script-fu-tutorial-first-script.html:753(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-lists.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:26(img:alt) en/gimp-using-script-fu-tutorial-first-script.html:759(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:26(td) en/gimp-using-script-fu-tutorial-first-script.html:759(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-script.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-first-script\"/>3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:39(p)
+msgid "Do you not need to stop and catch your breath? No? Well then, let's proceed with your fourth lesson — your first Script-Fu Script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:44(div:title)
+msgid "3.4.1. Creating A Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:48(h4)
+msgid "<a id=\"id3201075\"/>3.4.1. Creating A Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:52(p)
+msgid "One of the most common operations I perform in <acronym class=\"acronym\">GIMP</acronym> is creating a box with some text in it for a web page, a logo or whatever. However, you never quite know how big to make the initial image when you start out. You don't know how much space the text will fill with the font and font size you want."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:60(p)
+msgid "The Script-Fu Master (and student) will quickly realize that this problem can easily be solved and automated with Script-Fu."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:65(p)
+msgid "We will, therefore, create a script, called Text Box, which creates an image correctly sized to fit snugly around a line of text the user inputs. We'll also let the user choose the font, font size and text color."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:72(div:title)
+msgid "3.4.2. Editing And Storing Your Scripts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:76(h4)
+msgid "<a id=\"id3123045\"/>3.4.2. Editing And Storing Your Scripts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:80(p)
+msgid "Up until now, we've been working in the Script-Fu Console. Now, however, we're going to switch to editing script text files."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:84(p)
+msgid "Where you place your scripts is a matter of preference — if you have access to <acronym class=\"acronym\">GIMP</acronym>'s default script directory, you can place your scripts there. However, I prefer keeping my personal scripts in my own script directory, to keep them separate from the factory-installed scripts."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:91(p)
+msgid "In the <code class=\"filename\">.gimp-2.6</code> directory that <acronym class=\"acronym\">GIMP</acronym> made off of your home directory, you should find a directory called <code class=\"filename\">scripts</code>. <acronym class=\"acronym\">GIMP</acronym> will automatically look in your <code class=\"filename\">.gimp-2.6</code> directory for a <code class=\"filename\">scripts</code> directory, and add the scripts in this directory to the Script-Fu database. You should place your personal scripts here."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:102(div:title)
+msgid "3.4.3. The Bare Essentials"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:106(h4)
+msgid "<a id=\"id3216345\"/>3.4.3. The Bare Essentials"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:110(p)
+msgid "Every Script-Fu script defines at least one function, which is the script's main function. This is where you do the work."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:114(p)
+msgid "Every script must also register with the procedural database, so you can access it within <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:118(p)
+msgid "We'll define the main function first:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:119(pre)
+#, no-wrap
+msgid "\n        (define (script-fu-text-box inText inFont inFontSize inTextColor))\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:122(p)
+msgid "Here, we've defined a new function called <code class=\"function\">script-fu-text-box</code> that takes four parameters, which will later correspond to some text, a font, the font size, and the text's color. The function is currently empty and thus does nothing. So far, so good — nothing new, nothing fancy."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:131(div:title)
+msgid "3.4.4. Naming Conventions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:135(h4)
+msgid "<a id=\"id3203569\"/>3.4.4. Naming Conventions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:139(p)
+msgid "Scheme's naming conventions seem to prefer lowercase letters with hyphens, which I've followed in the naming of the function. However, I've departed from the convention with the parameters. I like more descriptive names for my parameters and variables, and thus add the \"in\" prefix to the parameters so I can quickly see that they're values passed into the script, rather than created within it. I use the prefix \"the\" for variables defined within the script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:148(p)
+msgid "It's <acronym class=\"acronym\">GIMP</acronym> convention to name your script functions <code class=\"function\">script-fu-abc</code>, because then when they're listed in the procedural database, they'll all show up under script-fu when you're listing the functions. This also helps distinguish them from plug-ins."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:156(div:title)
+msgid "3.4.5. Registering The Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:160(h4)
+msgid "<a id=\"id3239053\"/>3.4.5. Registering The Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:164(p)
+msgid "Now, let's register the function with <acronym class=\"acronym\">GIMP</acronym>. This is done by calling the function <code class=\"function\">script-fu-register</code>. When <acronym class=\"acronym\">GIMP</acronym> reads in a script, it will execute this function, which registers the script with the procedural database. You can place this function call wherever you wish in your script, but I usually place it at the end, after all my other code."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:173(p)
+msgid "Here's the listing for registering this function (I will explain all its parameters in a minute):"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:177(pre)
+#, no-wrap
+msgid "\n  (script-fu-register\n    \"script-fu-text-box\"                        ;func name\n    \"Text Box\"                                  ;menu label\n    \"Creates a simple text box, sized to fit\\\n      around the user's choice of text,\\\n      font, font size, and color.\"              ;description\n    \"Michael Terry\"                             ;author\n    \"copyright 1997, Michael Terry;\\\n      2009, the GIMP Documentation Team\"        ;copyright notice\n    \"October 27, 1997\"                          ;date created\n    \"\"                     ;image type that the script works on\n    SF-STRING      \"Text\"          \"Text Box\"   ;a string variable\n    SF-FONT        \"Font\"          \"Charter\"    ;a font variable\n    SF-ADJUSTMENT  \"Font size\"     '(50 1 1000 1 10 0 1)\n                                                ;a spin-button\n    SF-COLOR       \"Color\"         '(0 0 0)     ;color variable\n  )\n  (script-fu-menu-register \"script-fu-text-box\" \"&lt;Image&gt;/File/Create/Text\")\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:197(p)
+msgid "If you save these functions in a text file with a <code class=\"filename\">.scm</code> suffix in your script directory, then choose <span class=\"guimenu\">Filters</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Refresh Scripts</span>, this new script will appear as <span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Create</span> → <span class=\"guisubmenu\">Text</span> → <span class=\"guimenuitem\">Text Box</span>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:205(p)
+msgid "If you invoke this new script, it won't do anything, of course, but you can view the prompts you created when registering the script (more information about what we did is covered next)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:210(p)
+msgid "Finally, if you invoke the Procedure Browser ( <span class=\"guimenu\">Help</span> → <span class=\"guimenuitem\">Procedure Browser</span>), you'll notice that our script now appears in the database."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:216(div:title)
+msgid "3.4.6. Steps For Registering The Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:220(h4)
+msgid "<a id=\"id3225233\"/>3.4.6. Steps For Registering The Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:224(p)
+msgid "To register our script with <acronym class=\"acronym\">GIMP</acronym>, we call the function <code class=\"function\">script-fu-register</code>, fill in the seven required parameters and add our script's own parameters, along with a description and default value for each parameter."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:230(div:title) en/gimp-using-script-fu-tutorial-first-script.html:232(b)
+msgid "The Required Parameters"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:236(p)
+msgid "The <span class=\"emphasis\"><em>name</em></span> of the function we defined. This is the function called when our script is invoked (the entry-point into our script). This is necessary because we may define additional functions within the same file, and <acronym class=\"acronym\">GIMP</acronym> needs to know which of these functions to call. In our example, we only defined one function, text-box, which we registered."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:247(p)
+msgid "The <span class=\"emphasis\"><em>location</em></span> in the menu where the script will be inserted. The exact location of the script is specified like a path in Unix, with the root of the path being image menu as <code class=\"code\">&lt;Image&gt;</code>.<sup>[<a id=\"id3224820\" href=\"#ftn.id3224820\" class=\"footnote\">5</a>]</sup>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:253(p)
+msgid "If your script does not operate on an existing image (and thus creates a new image, like our Text Box script will), you'll want to insert it in the image window menu, which you can access through the image menu bar, by right-clicking the image window, by clicking the menu button icon at the left-top corner of the image window, or by pressing <span class=\"keycap\"><strong>F10</strong></span>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:261(p)
+msgid "If your script is intended to work on an image being edited, you'll want to insert it in the image window menu. The rest of the path points to the menu lists, menus and sub-menus. Thus, we registered our Text Box script in the <span class=\"guisubmenu\">Text</span> menu of the <span class=\"guisubmenu\">Create</span> menu of the <span class=\"guimenu\">File</span> menu.<sup>[<a id=\"id3172058\" href=\"#ftn.id3172058\" class=\"footnote\">6</a>]</sup> (<span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Create</span> → <span class=\"guisubmenu\">Text</span> → <span class=\"guimenuitem\">Text Box</span>)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:271(p)
+msgid "If you notice, the Text sub-menu in the File/Create menu wasn't there when we began — <acronym class=\"acronym\">GIMP</acronym> automatically creates any menus not already existing."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:278(p)
+msgid "A <span class=\"emphasis\"><em>description</em></span> of your script, to be displayed in the Procedure Browser."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:284(p)
+msgid "<span class=\"emphasis\"><em>Your name</em></span> (the author of the script)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:289(p)
+msgid "<span class=\"emphasis\"><em>Copyright</em></span> information."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:292(p)
+msgid "The <span class=\"emphasis\"><em>date</em></span> the script was made, or the last revision of the script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:298(p)
+msgid "The <span class=\"emphasis\"><em>types</em></span> of images the script works on. This may be any of the following: RGB, RGBA, GRAY, GRAYA, INDEXED, INDEXEDA. Or it may be none at all — in our case, we're creating an image, and thus don't need to define the type of image on which we work."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:312(b)
+msgid "Figure 12.4. The menu of our script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:316(img:alt)
+msgid "The menu of our script."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:322(div:title)
+msgid "3.4.7. Registering The Script's Parameters"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:326(h4)
+msgid "<a id=\"id3226312\"/>3.4.7. Registering The Script's Parameters"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:330(p)
+msgid "Once we have listed the required parameters, we then need to list the parameters that correspond to the parameters our script needs. When we list these params, we give hints as to what their types are. This is for the dialog which pops up when the user selects our script. We also provide a default value."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:337(p)
+msgid "This section of the registration process has the following format:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:350(p) en/gimp-using-script-fu-tutorial-first-script.html:491(p)
+msgid "Param Type"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:353(p) en/gimp-using-script-fu-tutorial-first-script.html:494(p) en/gimp-using-script-fu-tutorial-first-script.html:511(th) en/gimp-using-script-fu-tutorial-first-script.html:523(th) en/gimp-using-script-fu-tutorial-first-script.html:552(th)
+msgid "Description"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:356(p)
+msgid "Example"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:363(code)
+msgid "SF-IMAGE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:366(p)
+msgid "If your script operates on an open image, this should be the first parameter after the required parameters. <acronym class=\"acronym\">GIMP</acronym> will pass in a reference to the image in this parameter."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:374(p)
+msgid "3"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:379(code)
+msgid "SF-DRAWABLE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:382(p)
+msgid "If your script operates on an open image, this should be the second parameter after the <code class=\"constant\">SF-IMAGE</code> param. It refers to the active layer. <acronym class=\"acronym\">GIMP</acronym> will pass in a reference to the active layer in this parameter."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:391(p)
+msgid "17"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:396(code)
+msgid "SF-VALUE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:399(p)
+msgid "Accepts numbers and strings. Note that quotes must be escaped for default text, so better use <code class=\"constant\">SF-STRING</code>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:406(p)
+msgid "42"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:411(code)
+msgid "SF-STRING"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:414(p)
+msgid "Accepts strings."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:417(p)
+msgid "\"Some text\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:422(code) en/gimp-using-script-fu-tutorial-first-script.html:516(code)
+msgid "SF-COLOR"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:425(p)
+msgid "Indicates that a color is requested in this parameter."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:430(p)
+msgid "'(0 102 255)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:435(code)
+msgid "SF-TOGGLE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:438(p)
+msgid "A checkbox is displayed, to get a Boolean value."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:443(p)
+msgid "TRUE or FALSE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:450(div:title)
+msgid "3.4.8.  The Script-Fu parameter API"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:455(a)
+msgid "7"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:455(sup)
+msgid "[<placeholder-1/>]"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:454(h4)
+msgid "<a id=\"gimp-using-script-fu-api\"/>3.4.8.  The Script-Fu parameter API<placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:460(div:title) en/gimp-using-script-fu-tutorial-first-script.html:466(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:464(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:470(p)
+msgid "Beside the above parameter types there are more types for the interactive mode, each of them will create a widget in the control dialog. You will find a list of these parameters with descriptions and examples in the test script <code class=\"filename\">plug-ins/script-fu/scripts/test-sphere.scm</code> shipped with the <acronym class=\"acronym\">GIMP</acronym> source code."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:501(code)
+msgid "SF-ADJUSTMENT"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:504(p)
+msgid "Creates an adjustment widget in the dialog."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:507(p)
+msgid "SF-ADJUSTMENT \"label\" '(value lower upper step_inc page_inc digits type)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(div:title) en/gimp-using-script-fu-tutorial-first-script.html:511(span) en/gimp-using-script-fu-tutorial-first-script.html:523(div:title) en/gimp-using-script-fu-tutorial-first-script.html:523(span) en/gimp-using-script-fu-tutorial-first-script.html:552(div:title) en/gimp-using-script-fu-tutorial-first-script.html:552(span)
+msgid "Widget arguments list"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(th) en/gimp-using-script-fu-tutorial-first-script.html:523(th) en/gimp-using-script-fu-tutorial-first-script.html:552(th)
+msgid "Element"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td) en/gimp-using-script-fu-tutorial-first-script.html:523(td) en/gimp-using-script-fu-tutorial-first-script.html:552(td)
+msgid "\"label\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td) en/gimp-using-script-fu-tutorial-first-script.html:523(td) en/gimp-using-script-fu-tutorial-first-script.html:552(td)
+msgid "Text printed before the widget."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "value"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "Value print at the start."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "lower / upper"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "The lower / upper values (range of choice)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "step_inc"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "Increment/decrement value."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "page_inc"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "Increment/decrement value using page key."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "digits"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "Digits after the point (decimal part)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "type"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:511(td)
+msgid "One of: SF-SLIDER or 0, SF-SPINNER or 1"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:519(p)
+msgid "Creates a color button in the dialog."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:520(p)
+msgid "SF-COLOR \"label\" '(red green blue)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:521(p)
+msgid "or"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:522(p)
+msgid "SF-COLOR \"label\" \"color\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:523(td)
+msgid "'(red green blue)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:523(td)
+msgid "List of three values for the red, green and blue components."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:525(td)
+msgid "\"color\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:525(td)
+msgid "Color name in CSS notatation."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:530(code)
+msgid "SF-FONT"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:533(p)
+msgid "Creates a font-selection widget in the dialog. It returns a fontname as a string. There are two new gimp-text procedures to ease the use of this return parameter:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:538(p)
+msgid "(gimp-text-fontname image drawable x-pos y-pos text border antialias size unit font)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:542(p)
+msgid "(gimp-text-get-extents-fontname text size unit font)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:545(p)
+msgid "where font is the fontname you get. The size specified in the fontname is silently ignored. It is only used in the font-selector. So you are asked to set it to a useful value (24 pixels is a good choice)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:551(p)
+msgid "SF-FONT \"label\" \"fontname\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:552(td)
+msgid "\"fontname\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:552(td)
+msgid "Name of the default font."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:557(code)
+msgid "SF-BRUSH"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:560(p)
+msgid "It will create a widget in the control dialog. The widget consists of a preview area (which when pressed will produce a popup preview ) and a button with the \"...\" label. The button will popup a dialog where brushes can be selected and each of the characteristics of the brush can be modified."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:567(p)
+msgid "SF-BRUSH \"Brush\" '(\"Circle (03)\" 100 44 0)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:568(p)
+msgid "Here the brush dialog will be popped up with a default brush of Circle (03) opacity 100 spacing 44 and paint mode of Normal (value 0)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:573(p)
+msgid "If this selection was unchanged the value passed to the function as a parameter would be '(\"Circle (03)\" 100 44 0)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:581(code)
+msgid "SF-PATTERN"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:584(p)
+msgid "It will create a widget in the control dialog. The widget consists of a preview area (which when pressed will produce a popup preview ) and a button with the \"...\" label. The button will popup a dialog where patterns can be selected."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:590(p)
+msgid "SF-PATTERN \"Pattern\" \"Maple Leaves\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:591(p)
+msgid "The value returned when the script is invoked is a string containing the pattern name. If the above selection was not altered the string would contain \"Maple Leaves\"."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:600(code)
+msgid "SF-GRADIENT"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:603(p)
+msgid "It will create a widget in the control dialog. The widget consists of a button containing a preview of the selected gradient."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:608(p)
+msgid "If the button is pressed a gradient selection dialog will popup."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:611(p)
+msgid "SF-GRADIENT \"Gradient\" \"Deep Sea\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:612(p)
+msgid "The value returned when the script is invoked is a string containing the gradient name. If the above selection was not altered the string would contain \"Deep Sea\"."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:621(code)
+msgid "SF-PALETTE"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:624(p)
+msgid "It will create a widget in the control dialog. The widget consists of a button containing the name of the selected palette."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:629(p)
+msgid "If the button is pressed a palette selection dialog will popup."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:632(p)
+msgid "SF-PALETTE \"Palette\" \"Named Colors\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:633(p)
+msgid "The value returned when the script is invoked is a string containing the palette name. If the above selection was not altered the string would contain \"Named Colors\"."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:642(code)
+msgid "SF-FILENAME"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:645(p)
+msgid "It will create a widget in the control dialog. The widget consists of a button containing the name of a file."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:649(p)
+msgid "If the button is pressed a file selection dialog will popup."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:652(p)
+msgid "SF-FILENAME \"label\" (string-append \"\" gimp-data-directory \"/scripts/beavis.jpg\")"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:656(p)
+msgid "The value returned when the script is invoked is a string containing the filename."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:664(code)
+msgid "SF-DIRNAME"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:667(p)
+msgid "Only useful in interactive mode. Very similar to SF-FILENAME, but the created widget allows to choose a directory instead of a file."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:672(p)
+msgid "SF-DIRNAME \"label\" \"/var/tmp/images\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:675(p)
+msgid "The value returned when the script is invoked is a string containing the dirname."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:683(code)
+msgid "SF-OPTION"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:686(p)
+msgid "It will create a widget in the control dialog. The widget is a combo-box showing the options that are passed as a list."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:690(p)
+msgid "The first option is the default choice."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:691(p)
+msgid "SF-OPTION \"label\" '(\"option1\" \"option2\")"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:694(p)
+msgid "The value returned when the script is invoked is the number of the chosen option, where the option first is counted as 0."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:702(code)
+msgid "SF-ENUM"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:705(p)
+msgid "It will create a widget in the control dialog. The widget is a combo-box showing all enum values for the given enum type. This has to be the name of a registered enum, without the \"Gimp\" prefix. The second parameter speficies the default value, using the enum value's nick."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:712(p)
+msgid "SF-ENUM \"Interpolation\" '(\"InterpolationType\" \"linear\")"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:715(p)
+msgid "The value returned when the script is invoked corresponds to chosen enum value."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:729(p)
+msgid "<sup>[<a id=\"ftn.id3224820\" href=\"#id3224820\" class=\"para\">5</a>] </sup> Before version 2.6, <code class=\"code\">&lt;Toolbox&gt;</code> could be also used, but now the toolbox menu is removed, so don't use it."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:735(p)
+msgid "<sup>[<a id=\"ftn.id3172058\" href=\"#id3172058\" class=\"para\">6</a>] </sup> The original, written by Mike, says put the menu entry in the Script-Fu menu of the <span class=\"guimenu\">Xtns</span> menu at the Toolbox, but since version 2.6, the Toolbox menu had been removed and merged with the image window menubar."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:743(p)
+msgid "<sup>[<a id=\"ftn.id3237391\" href=\"#id3237391\" class=\"para\">7</a>] </sup> This section is not part of the original tutorial."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:756(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:762(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:765(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-first-script.html:768(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

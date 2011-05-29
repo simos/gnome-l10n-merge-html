@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-script-fu-tutorial.html:6(title) el/gimp-using-script-fu-tutorial.html:21(th) el/gimp-using-script-fu-tutorial.html:31(div:title)
+msgid "3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:13(link:title) el/gimp-using-script-fu-tutorial.html:25(th)
+msgid "Κεφάλαιο 12. Σενάρια"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:14(link:title) el/gimp-using-script-fu-tutorial.html:280(a)
+msgid "2.6. Εικονοεξαρτώμενα σενάρια"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:15(link:title) el/gimp-using-script-fu-tutorial.html:286(a)
+msgid "3.2. Μεταβλητές και συναρτήσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:24(img:alt) el/gimp-using-script-fu-tutorial.html:271(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:24(td) el/gimp-using-script-fu-tutorial.html:271(td)
+msgid "<a accesskey=\"p\" href=\"image-independent-script-fu.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:26(img:alt) el/gimp-using-script-fu-tutorial.html:277(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:26(td) el/gimp-using-script-fu-tutorial.html:277(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-identifier.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:35(h2)
+msgid "<a id=\"gimp-using-script-fu-tutorial\"/>3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:40(p)
+msgid "Σε αυτή την άσκηση, θα σας εισάγουμε στα βασικά του Scheme που είναι απαραίτητα για τη χρήση του Script-Fu και έπειτα θα σχεδιάσουμε ένα εύχρηστο σενάριο που μπορείτε να προσθέσετε στην εργαλειοθήκη των σεναρίων σας. Το σενάριο προτρέπει το χρήστη για κάποιο κείμενο, έπειτα δημιουργεί μια νέα εικόνα τέλεια προσαρμοσμένη στο κείμενο. Θα βελτιώσουμε έπειτα το σενάριο ώστε να επιτρέψει έναν χώρο γύρω από το κείμενο. Θα καταλήξουμε με λίγες προτάσεις για τρόπους να επεκτείνουμε τη γνώση σας για το Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:47(div:title) el/gimp-using-script-fu-tutorial.html:53(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:51(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:57(p)
+msgid "Αυτή η ενότητα προσαρμόστηκε από μια διδαχή γραμμένη για το εγχειρίδιο χρήστη του GIMP 1 από τον Mike Terry."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:64(div:title)
+msgid "3.1. Εξοικείωση με το Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:68(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-scheme\"/>3.1. Εξοικείωση με το Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:72(div:title)
+msgid "3.1.1. Ξεκίνημα με το Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:76(h4)
+msgid "<a id=\"id3234339\"/>3.1.1. Ξεκίνημα με το Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:80(p)
+msgid "Το πρώτο πράγμα για να μάθετε είναι ότι:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:83(p)
+msgid "Κάθε πρόταση στο Scheme Περιβάλλεται από παρενθέσεις ()."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:88(p)
+msgid "Το δεύτερο που χρειάζεται να ξέρετε είναι ότι:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:91(p)
+msgid "Η συνάρτηση όνομα/χειριστής (name/operator) είναι πάντοτε το πρώτο στοιχείο στις παρενθέσεις και τα υπόλοιπα στοιχεία είναι παράμετροι στη συνάρτηση."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:97(p)
+msgid "Όμως, οτιδήποτε εμπεριέχεται σε παρενθέσεις δεν είναι συνάρτηση — μπορεί να είναι στοιχεία σε λίστα — αλλά θα το δούμε αργότερα. Αυτή η σημειογραφία αναφέρεται ως προθεματική σημειογραφία, επειδή η συνάρτηση προτάσσει οτιδήποτε άλλο. Εάν είστε εξοικειωμένος με τη επιθεματική σημειογραφία ή έχετε μια αριθμομηχανή που χρησιμοποιεί αντίστροφη πολωνική σημειογραφία (όπως οι περισσότερες αριθμομηχανές HP), δεν θα έχετε κανένα πρόβλημα προσαρμογής σε τυποποιημένες εκφράσεις στο Scheme."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:104(p)
+msgid "Το τρίτο που πρέπει να καταλάβετε είναι ότι:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:107(p)
+msgid "Οι μαθηματικοί τελεστές θεωρούνται επίσης συναρτήσεις και έτσι καταλογοποιούνται πρώτοι όταν γράφετε μαθηματικές εκφράσεις."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:113(p)
+msgid "Αυτό ακολουθεί λογικά από την προθεματική σημειογραφία που μόλις αναφέραμε."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:117(div:title)
+msgid "3.1.2. Παραδείγματα προθεματικής, ενθεματικής και επιθεματικής σημειογραφίας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:121(h4)
+msgid "<a id=\"id3238431\"/>3.1.2. Παραδείγματα προθεματικής, ενθεματικής και επιθεματικής σημειογραφίας"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:125(p)
+msgid "Ιδού μερικά γρήγορα επεξηγηματικά παραδείγματα των διαφορών μεταξύ <span class=\"emphasis\"><em>προθεματικής</em></span>, <span class=\"emphasis\"><em>ενθεματικής</em></span> και <span class=\"emphasis\"><em>επιθεματικής</em></span> σημειογραφίας. Θα προσθέσουμε το 1 και το 23 μαζί:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:133(p)
+msgid "Προθεματική σημειογραφία: <strong class=\"userinput\"><code>+ 1 23</code></strong> ( ο τρόπος του Scheme)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:138(p)
+msgid "Ενθεματική σημειογραφία: <strong class=\"userinput\"><code>1 + 23</code></strong> (ο τρόπος που <span class=\"quote\">“<span class=\"quote\">κανονικά</span>”</span> γράφουμε)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:144(p)
+msgid "μεταθεματική σημειογραφία: <strong class=\"userinput\"><code>1 23 +</code></strong> (ο τρόπος που πολλές αριθμομηχανές HP θέλουν)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:152(div:title)
+msgid "3.1.3. Πρακτική στο Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:156(h4)
+msgid "<a id=\"id3238385\"/>3.1.3. Πρακτική στο Scheme"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:160(p)
+msgid "Τώρα, ας εξασκήσουμε ότι μόλις μάθαμε. Ξεκινήστε το GIMP, εάν δεν το έχετε ήδη κάνει και επιλέξτε <span class=\"guimenu\">Φίλτρα</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Console (κονσόλα)</span>. Αυτό θα ξεκινήσει το παράθυρο κονσόλας Script-Fu που μας επιτρέπει να εργαστούμε αλληλεπιδραστικά στο Scheme. Σε λίγες στιγμές εμφανίζεται η κονσόλα Script-Fu:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:167(div:title)
+msgid "3.1.4. Το παράθυρο κονσόλας Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:171(h4)
+msgid "<a id=\"gimp-using-script-fu-tutorial-console\"/>3.1.4. Το παράθυρο κονσόλας Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:175(p)
+msgid "Στον πάτο αυτού του παραθύρου είναι ένα πεδίο εισόδου που πρέπει να τιτλοφορείται <span class=\"guilabel\">Current Command (τρέχουσα εντολή)</span>. Εδώ, μπορούμε να ελέγξουμε απλές εντολές Scheme αλληλεπιδραστικά. Ας ξεκινήσουμε εύκολα και ας προσθέσουμε μερικούς αριθμούς:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:181(pre)
+#, no-wrap
+msgid "(+ 3 5)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:182(p)
+msgid "Γράφοντας αυτό και πατώντας <span class=\"keycap\"><strong>Enter (Εισαγωγή)</strong></span> παράγεται η αναμενόμενη απάντηση 8 στο κεντρικό παράθυρο."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:189(b)
+msgid "Εικόνα 12.3. Χρήση κονσόλας Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:193(img:alt)
+msgid "Χρήση κονσόλας Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:198(p)
+msgid "Τώρα, τι γίνεται αν θέλουμε να προσθέσουμε περισσότερους από έναν αριθμούς; Η συνάρτηση <span class=\"quote\">“<span class=\"quote\">+</span>”</span> μπορεί να δεχθεί δύο ή περισσότερα ορίσματα, άρα αυτό δεν είναι πρόβλημα:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:203(pre)
+#, no-wrap
+msgid "(+ 3 5 6)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:204(p)
+msgid "Αυτό επίσης παράγει την αναμενόμενη απάντηση 14."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:205(p)
+msgid "Μέχρι εδώ καλά — γράφουμε στο Scheme μια πρόταση και εκτελείται αμέσως στο παράθυρο κονσόλας Script-Fu. Τώρα προσοχή..."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:210(div:title)
+msgid "3.1.5. Προσοχή για επιπλέον παρενθέσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:214(h4)
+msgid "<a id=\"id3231840\"/>3.1.5. Προσοχή για επιπλέον παρενθέσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:218(p)
+msgid "Εάν είσθε σαν κι εμένα, έχετε συνηθίσει να μπορείτε να χρησιμοποιείται επιπλέον παρενθέσεις όταν θέλετε - όπως όταν τυπώνετε μια σύνθετη μαθηματική εξίσωση και θέλετε να ξεχωρίσετε τα μέρη με παρενθέσεις για να φαίνεται καθαρότερα όταν διαβάζεται την εξίσωση. Στο Scheme, πρέπει να είσαστε προσεκτικός και να μην εισάγετε αυτές τις επιπλέον παρενθέσεις λανθασμένα. Π.χ., ας πούμε ότι θέλουμε να προσθέσουμε 3 στο αποτέλεσμα της πρόσθεσης 5 και 6 και μετά να προσθέσουμε 7:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:225(pre)
+#, no-wrap
+msgid "3 + (5 + 6) + 7 = ?"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:226(p)
+msgid "Ξέροντας ότι ο τελεστής + δέχεται μια λίστα αριθμών για πρόσθεση, ίσως προσπαθήσετε να μετατρέψετε το πιο πάνω στο εξής:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:230(pre)
+#, no-wrap
+msgid "(+ 3 (5 6) 7)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:231(p)
+msgid "Όμως, αυτό είναι λάθος, — θυμηθείτε, κάθε πρόταση στο Scheme αρχίζει και τελειώνει με παρενθέσεις, έτσι ο ερμηνευτής του Scheme θα σκεφτεί ότι προσπαθείτε να καλέσετε μια συνάρτηση που ονομάζετε <span class=\"quote\">“<span class=\"quote\">5</span>”</span> στην δεύτερη ομάδα των παρενθέσεων, παρά ότι προσθέτετε αυτούς τους αριθμούς πριν τους προσθέσετε στο 3."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:237(p)
+msgid "Ο σωστός τρόπος να γράψετε την παραπάνω πρόταση θα ήταν:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:238(pre)
+#, no-wrap
+msgid "(+ 3 (+ 5 6) 7)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:240(div:title)
+msgid "3.1.6. Βεβαιωθείτε ότι έχετε το κατάλληλο διάκενο, επίσης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:244(h4)
+msgid "<a id=\"id3231787\"/>3.1.6. Βεβαιωθείτε ότι έχετε το κατάλληλο διάκενο, επίσης."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:248(p)
+msgid "Εάν είστε εξοικειωμένος με άλλες προγραμματιστικές γλώσσες, όπως C/C++, Perl ή Java, ξέρετε ότι δεν χρειαζόσαστε λευκά κενά γύρω από τους μαθηματικούς τελεστές για να μορφοποιήσετε κατάλληλα μια έκφραση:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:253(code)
+msgid "3+5, 3 +5, 3+ 5"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:255(p)
+msgid "Όλα αυτά είναι αποδεκτά από τους μεταγλωττιστές C/C++, Perl and Java. Όμως, αυτό δεν ισχύει για το Scheme. Πρέπει να έχετε ένα κενό μετά από ένα μαθηματικό τελεστή (ή οποιοδήποτε άλλο όνομα συνάρτησης ή τελεστή) στο Scheme για να είναι σωστά ερμηνεύσιμο από τον ερμηνευτή του Scheme."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:260(p)
+msgid "Εξασκηθείτε λίγο με απλές μαθηματικές εξισώσεις στην κονσόλα Script-Fu μέχρι να είστε ολότελα άνετος με αυτές τις αρχικές σκέψεις."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:274(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:280(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:283(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial.html:286(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

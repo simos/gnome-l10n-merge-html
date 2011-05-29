@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-image-guides.html:6(title) el/gimp-concepts-image-guides.html:21(th) el/gimp-concepts-image-guides.html:31(div:title)
+msgid "2.2. Οδηγοί"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:13(link:title) el/gimp-concepts-image-guides.html:14(link:title) el/gimp-concepts-image-guides.html:25(th) el/gimp-concepts-image-guides.html:136(a)
+msgid "2. Πλέγματα και οδηγοί"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:15(link:title) el/gimp-concepts-image-guides.html:142(a)
+msgid "3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:24(img:alt) el/gimp-concepts-image-guides.html:127(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:24(td) el/gimp-concepts-image-guides.html:127(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-image-grid-and-guides.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:26(img:alt) el/gimp-concepts-image-guides.html:133(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:26(td) el/gimp-concepts-image-guides.html:133(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-grid.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:35(h3)
+msgid "<a id=\"gimp-concepts-image-guides\"/>2.2. Οδηγοί"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:42(b)
+msgid "Εικόνα 11.30. Εικόνα με τέσσερις οδηγούς"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:46(img:alt)
+msgid "Εικόνα με τέσσερις οδηγούς"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:51(p)
+msgid "Επιπλέον του πλέγματος εικόνας, το GIMP σας δίνει επίσης έναν πιο ευλύγιστο τύπο τοποθέτησης βοήθειας, τους <span class=\"emphasis\"><em>οδηγούς</em></span>. Αυτοί είναι οριζόντιες ή κάθετες γραμμές που μπορείτε να εμφανίσετε παροδικά σε μια εικόνα, ενώ εργάζεσθε σ' αυτήν."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:56(p)
+msgid "Για να δημιουργήσετε έναν οδηγό, απλά πατήστε σε έναν από τους κανόνες στο παράθυρο εικόνας και αποσπάστε έναν οδηγό, ενώ κρατάτε πατημένο το <span class=\"mousebutton\">πλήκτρο ποντικιού</span>. Ο οδηγός εμφανίζεται τότε ως γαλάζια, διακεκομμένη γραμμή, που ακολουθεί το δείκτη του ποντικιού. Μόλις δημιουργήσετε έναν οδηγό, το εργαλείο <span class=\"quote\">“<span class=\"quote\">Μετακίνηση</span>”</span> ενεργοποιείται και ο δείκτης του ποντικιού μετατρέπεται σε εικονίδιο μετακίνησης."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:63(p)
+msgid "Μπορείτε επίσης να δημιουργήσετε έναν οδηγό με την εντολή <a class=\"link\" href=\"script-fu-guide-new.html\" title=\"6.23.&#xA0;New Guide (&#x39D;&#x3AD;&#x3BF;&#x3C2; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3CC;&#x3C2;)\">New Guide (Νέος οδηγός)</a> που σας επιτρέπει την ακριβή τοποθέτηση του οδηγού στην εικόνα, την εντολή <a class=\"link\" href=\"script-fu-guide-new-percent.html\" title=\"6.24.&#xA0;&#x39D;&#x3AD;&#x3BF;&#x3C2; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3CC;&#x3C2; (&#x391;&#x3BD;&#x3B1;&#x3BB;&#x3BF;&#x3B3;&#x3AF;&#x3B1;)\">Νέος οδηγός (Αναλογία)</a> ή την εντολή <a class=\"link\" href=\"script-fu-guides-from-selection.html\" title=\"6.25.&#xA0;&#x39D;&#x3AD;&#x3BF;&#x3B9; &#x3BF;&#x3B4;&#x3B7;&#x3B3;&#x3BF;&#x3AF; &#x3B1;&#x3C0;&#x3CC; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;\">Νέοι οδηγοί από επιλογή</a>."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:71(p)
+msgid "Μπορείτε να δημιουργήσετε όσους οδηγούς θέλετε και να τους τοποθετήσετε όπου θέλετε. Για να μετακινήσετε έναν οδηγό μετά τη δημιουργία του, ενεργοποιείστε το εργαλείο μετακίνησης στην εργαλειοθήκη (ή πατήστε το πλήκτρο <span class=\"keycap\"><strong>M</strong></span>), έπειτα μπορείτε να πατήσετε και να σύρετε τον οδηγό. Για διαγραφή ενός οδηγού, σύρτε τον απλά εκτός εικόνας. Πατήστε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span>, μπορείτε να μετακινήσετε οτιδήποτε εκτός των οδηγών, χρησιμοποιώντας τους οδηγούς ως αποτελεσματική βοήθεια ευθυγράμμισης."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:78(p)
+msgid "Η συμπεριφορά των οδηγών εξαρτάται από την κατάσταση <span class=\"guilabel\">Μετακίνηση</span> του εργαλείου <span class=\"quote\">“<span class=\"quote\">Μετακίνηση</span>”</span>. Όταν επιλέγεται η κατάσταση <span class=\"emphasis\"><em>Στρώση</em></span>, ο δείκτης του ποντικιού μετατρέπεται σε ένα μικρό χέρι μόλις πλησιάσει σε οδηγό. Τότε ο οδηγός ενεργοποιείται και γίνεται κόκκινος και μπορείτε να μετακινήσετε τον οδηγό, ή να το διαγράψετε μετακινώντας τον πίσω στον κανόνα. Εάν η κατάσταση <span class=\"emphasis\"><em>Επιλογή</em></span> επιλεγεί, μπορείτε να τοποθετήσετε έναν οδηγό, αλλά δεν μπορείτε να το μετακινήσετε κατόπιν."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:86(p)
+msgid "Όσον αφορά το πλέγμα, μπορείτε να προσκολλήσετε το δείκτη στους κοντινούς οδηγούς, εναλλάσσοντας <span class=\"guimenu\">Προβολή</span> → <span class=\"guimenuitem\">Προσκόλληση στους οδηγούς</span> στο μενού εικόνας. Εάν έχετε μερικούς οδηγούς και δυσκολεύεστε στη σωστή εκτίμηση της εικόνας, μπορείτε να τους αποκρύψετε εναλλάσσοντας <span class=\"guimenu\">Προβολή</span> → <span class=\"guimenuitem\">Εμφάνιση οδηγών</span>. Προτείνεται αυτό να γίνεται μόνο στιγμιαία, αλλιώς μπορεί να δημιουργείται σύγχυση την επόμενη φορά που θέλετε να δημιουργήσετε έναν οδηγό και δεν βλέπετε να συμβαίνει τίποτα."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:94(p)
+msgid "Εάν σας διευκολύνει, μπορείτε να αλλάξετε την προεπιλεγμένη συμπεριφορά των οδηγών στη σελίδα του διαλόγου προτιμήσεων <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-image-window-appearance\" title=\"1.11.&#xA0;&#x395;&#x3BC;&#x3C6;&#x3AC;&#x3BD;&#x3B9;&#x3C3;&#x3B7; &#x3C0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3CD;&#x3C1;&#x3BF;&#x3C5; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Εμφάνιση παραθύρου εικόνας</a> Απενεργοποίηση του στοιχείου <span class=\"guilabel\">Εμφάνιση οδηγών</span> είναι μια κακή ιδέα, αν και γίνεται."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:99(p)
+msgid "Μπορείτε να αφαιρέσετε τους οδηγούς με την εντολή <span class=\"guimenu\">Εικόνα</span> → <span class=\"guisubmenu\">Οδηγοί</span> → <span class=\"guimenuitem\">Remove all Guides (Αφαίρεση όλων των οδηγών)</span>"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:103(div:title) el/gimp-concepts-image-guides.html:109(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:107(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:113(p)
+msgid "Μια άλλη χρήση των οδηγών είναι με το πρόσθετο <a class=\"link\" href=\"plug-in-guillotine.html\" title=\"6.10.&#xA0;Guillotine(&#x39B;&#x3B1;&#x3B9;&#x3BC;&#x3B7;&#x3C4;&#x3CC;&#x3BC;&#x3BF;&#x3C2;)\">Guillotine (Λαιμητόμος)</a> που μπορεί να χρησιμοποιήσει τους οδηγούς για να τεμαχίσει μια εικόνα σε ένα σύνολο υποεικόνων."
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:130(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:136(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:139(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-image-guides.html:142(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

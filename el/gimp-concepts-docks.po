@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-docks.html:6(title) el/gimp-concepts-docks.html:21(th) el/gimp-concepts-docks.html:31(div:title)
+msgid "2.3 Διάλογοι και αγκίστρια (Docking)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:13(link:title) el/gimp-concepts-docks.html:25(th)
+msgid "2. Κύρια παράθυρα"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:14(link:title) el/gimp-concepts-docks.html:636(a)
+msgid "2.2. Παράθυρο εικόνας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:15(link:title) el/gimp-concepts-docks.html:642(a)
+msgid "3. Αναίρεση"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:24(img:alt) el/gimp-concepts-docks.html:627(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:24(td) el/gimp-concepts-docks.html:627(td)
+msgid "<a accesskey=\"p\" href=\"gimp-image-window.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-docks.html:26(img:alt)
+msgid "Next"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:26(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-undo.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:35(h3)
+msgid "<a id=\"gimp-concepts-docks\"/>2.3 Διάλογοι και αγκίστρια (Docking)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:41(div:title)
+msgid "2.3.1 Περιοχές αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:45(h4)
+msgid "<a id=\"gimp-dock-separator\"/>2.3.1 Περιοχές αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:50(p)
+msgid "Το GIMP έχει μεγάλη ευελιξία στην τακτοποίηση παραθύρων εικόνας στην οθόνη σας. Αντί για τοποθέτηση κάθε διαλόγου στο παράθυρο του, μπορείτε να ομαδοποιήσετε διαλόγους χρησιμοποιώντας αγκίστρια. Ένα αγκίστρι (dock) είναι ένα παράθυρο περιέκτη που μπορεί να κρατήσει μια συλλογή μονίμων διαλόγων, όπως ο διάλογος επιλογών εργαλείου, ο διάλογος πινέλων, ο διάλογος παλέτας κλ.. Τα αγκίστρια δεν μπορούν, όμως, να έχουν μη μόνιμους διαλόγους όπως ο διάλογος προτιμήσεων ή ένα παράθυρο εικόνας."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:57(p)
+msgid "Το GIMP έχει δύο προκαθορισμένα αγκίστρια."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:63(p)
+msgid "Το αγκίστρι στρώσεων, καναλιών και μονοπατιών."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:68(p)
+msgid "Το αγκίστρι πινέλων, μοτίβων και διαβαθμίσεων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:74(p)
+msgid "Σε αυτά τα αγκίστρια (docks), κάθε παράθυρο έχει τη δικιά του καρτέλα."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:77(p)
+msgid "Η εργαλειοθήκη είναι ένα <span class=\"emphasis\"><em>λειτουργικό παράθυρο</em></span>. Το παράθυρο επιλογών είναι συνήθως αγκιστρωμένο κάτω από την εργαλειοθήκη και εμφανίζει τις επιλογές του επιλεγμένου εργαλείου."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:81(p)
+msgid "Επιλέξτε <span class=\"guimenu\">παράθυρα</span> → <span class=\"guisubmenu\">Dockable Dialogs (αγκιστρωμένοι διάλογοι)</span>, για να δείτε έναν κατάλογο αγκιστρωμένων διαλόγων. Επιλέξτε έναν αγκιστρωμένο διάλογο από τον κατάλογο για να δείτε το διάλογο. Εάν ο διάλογος είναι διαθέσιμος σε ένα αγκίστρι, τότε είναι ορατός. Εάν ο διάλογος δεν είναι σε ένα αγκίστρι, τότε εμφανίζεται στο παράθυρο του. Σημειώστε ότι η εντολή των παραθύρων είναι διαθέσιμη μόνο όσο η εικόνα είναι ανοιχτή για επεξεργασία."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:88(p)
+msgid "Κάθε αγκιστρώσιμος διάλογος έχει δύο τύπους αγκιστρωμένων περιοχών: τις γραμμές αγκίστρωσης και την περιοχή καρτελών αγκίστρωσης. Σε ένα αγκίστρι, η περιοχή καρτελών αγκίστρωσης καλύπτει όλο το παράθυρο."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:95(b)
+msgid "Εικόνα  3.5. Οι δύο τύποι αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:99(img:alt) el/gimp-concepts-docks.html:105(img:alt)
+msgid "Οι δύο τύποι αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:101(p)
+msgid "Το αγκιστρώσιμο παράθυρο αγκιστρώνεται σε μια γραμμή αγκίστρωσης."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:107(p)
+msgid "Το αγκιστρώσιμο παράθυρο αγκιστρώνεται στην περιοχή καρτέλας αγκίστρωσης. Μια νέα καρτέλα δημιουργήθηκε."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:116(div:title)
+msgid "2.3.2. Γραμμές αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:120(h4)
+msgid "<a id=\"gimp-dockable-dock-bars\"/>2.3.2. Γραμμές αγκίστρωσης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:125(p)
+msgid "Κάθε αγκιστρώσιμο παράθυρο έχει δύο <span class=\"emphasis\"><em>γραμμές αγκίστρωσης</em></span>. Αυτές οι γραμμές είναι λεπτές γκρι γραμμές, πολύ ανεπαίσθητες και εύκολα απαρατήρητες: Οι περισσότεροι άνθρωποι δεν συνειδητοποιούν ότι υπάρχουν μέχρι να επισημανθούν ειδικά."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:133(b)
+msgid "Εικόνα 3.6. Γραμμές αγκίστρωσης (Docking bars)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:137(img:alt)
+msgid "Γραμμές αγκίστρωσης (Docking bars)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:139(p)
+msgid "Ένα παράθυρο με τονισμένες <span class=\"emphasis\"><em>γραμμές αγκίστρωσης</em></span>."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:148(div:title)
+msgid "2.3.3. Λαβές συρσίματος αγκιστριών"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:152(h4)
+msgid "<a id=\"gimp-dockable-drag-area\"/>2.3.3. Λαβές συρσίματος αγκιστριών"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:157(p)
+msgid "Κάθε αγκιστρώσιμο παράθυρο έχει μια <span class=\"emphasis\"><em>περιοχή λαβής συρσίματος</em></span>, όπως τονίζεται στην παρακάτω εικόνα. Ο δρομέας αλλάζει σε ένα χέρι όταν είναι πάνω από μια περιοχή λαβής συρσίματος. Για να αγκιστρωθεί ένας διάλογος, πατήστε στην περιοχή λαβής συρσίματος, και σύρτε την:"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:165(p)
+msgid "σε μια γραμμή αγκίστρωσης , έτσι ώστε ο διάλογος να προσδεθεί κάτω από την γραμμή αγκίστρωσης στο παράθυρο,"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:170(p)
+msgid "ή στην περιοχή αγκίστρωσης καρτέλας, έτσι ώστε ο διάλογος να προστεθεί ως καρτέλα."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:181(b)
+msgid "Εικόνα 3.7. Ένα αγκιστρώσιμο παράθυρο, με την περιοχή λαβής συρσίματος τονισμένη"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:185(img:alt)
+msgid "Ένα αγκιστρώσιμο παράθυρο, με την περιοχή χειριστηρίου συρσίματος τονισμένη"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:187(p)
+msgid "Αυτό το στιγμιότυπο δείχνει την περιοχή που μπορεί να χρησιμοποιηθεί για σύρσιμο ενός παραθύρου διαλόγου στο αγκίστρι. Μπορεί επίσης να χρησιμοποιηθεί για την εξαγωγή ενός διαλόγου από το αγκίστρι."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:196(p)
+msgid "Μπορείτε να σύρετε περισσότερους από έναν διαλόγους στην ίδια γραμμή αγκίστρωσης. Εάν το κάνετε, οι διάλογοι εμφανίζονται ως καρτέλες, αντιπροσωπευόμενοι με εικονικά σύμβολα στην κορυφή. Πατήστε στο εικονικό σύμβολο για να μεταφέρετε την καρτέλα μπροστά."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:201(div:title) el/gimp-concepts-docks.html:207(th) el/gimp-concepts-docks.html:554(div:title) el/gimp-concepts-docks.html:560(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:205(img:alt) el/gimp-concepts-docks.html:558(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:211(p)
+msgid "Μπορείτε επίσης να προσθέσετε, αποσυνδέσετε ή καταργήσετε ένα παράθυρο καρτέλας χρησιμοποιώντας το μενού καρτέλας. (Δείτε παρακάτω)."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:219(div:title) el/gimp-concepts-docks.html:225(th) el/gimp-concepts-docks.html:511(div:title) el/gimp-concepts-docks.html:517(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:223(img:alt) el/gimp-concepts-docks.html:515(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:229(p)
+msgid "Πιέστε <span class=\"keycap\"><strong>TAB</strong></span> σε ένα παράθυρο εικόνας για εναλλαγή ορατότητας των αγκιστριών. Αυτό είναι χρήσιμο εάν τα αγκίστρια (docks) κρύβουν ένα τμήμα του παραθύρου της εικόνας. Μπορείτε εύκολα να κρύψετε όλα τα αγκίστρια, να κάνετε τη δουλειά σας, και έπειτα να εμφανίσετε όλα τα άγκιστρα ξανά. Πιέστε <span class=\"keycap\"><strong>TAB</strong></span> μέσα σε ένα αγκίστρι για περιήγηση μέσα από το αγκίστρι."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:240(div:title)
+msgid "2.3.4. Επιλογή εικόνας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:244(h4)
+msgid "<a id=\"gimp-dock-image-menu\"/>2.3.4. Επιλογή εικόνας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:250(p)
+msgid "Μερικά αγκίστρια (docks) περιέχουν ένα <span class=\"emphasis\"><em>Μενού επιλογής εικόνας</em></span> που αναφέρει όλες τις ανοιχτές εικόνες στο GIMP. Το μενού εικόνας εμφανίζει το όνομα της εικόνας της οποίας πληροφορίες φαίνονται στο αγκίστρι. Χρησιμοποιείστε το <span class=\"guilabel\">Αυτόματο</span> κουμπί για εναλλαγή της τιμής του <span class=\"guilabel\">Αυτόματη παρακολούθηση ενεργού εικόνας (Auto Follow Active Image)</span>. Υποθέστε ότι χρησιμοποιείτε το διάλογο στρώσεων και θέλετε να δείτε τις στρώσεις για μια διαφορετική εικόνα. Επιλέξτε την επιθυμητή εικόνα από το μενού επιλογής εικόνας. Αν κι αυτό είναι βολικό, μην ξεχνάτε ότι αλλάξατε την εικόνα εργασίας για το αγκίστρι. Θέτοντας <span class=\"guilabel\">Αυτόματη παρακολούθηση ενεργού εικόνας (Auto Follow Active Image)</span> από το μενού καρτελών βοηθά να αποφύγετε αυτό το πρόβλημα."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:263(b)
+msgid "Εικόνα 3.8. Ένα αγκίστρι (dock) με ένα τονισμένο μενού εικόνας."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:267(img:alt)
+msgid "Ένα αγκίστρι (dock) με ένα τονισμένο μενού εικόνας."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:272(p)
+msgid "Από προεπιλογή ένα αγκίστρι <span class=\"quote\">“<span class=\"quote\">Στρώσεις, κανάλια και μονοπάτια</span>”</span> δείχνει το μενού της εικόνας στην κορυφή και άλλοι τύποι αγκίστρων όχι. Μπορείτε πάντα να προσθέσετε ή να μετακινήσετε ένα μενού εικόνας, χρησιμοποιώντας την εναλλαγή <span class=\"quote\">“<span class=\"quote\">Εμφάνιση μενού εικόνας</span>”</span> στο μενού καρτέλας, όπως περιγράφεται πιο κάτω.(Εξαίρεση: δεν μπορείτε να προσθέσετε ένα μενού εικόνας στο αγκίστρι που περιέχει την εργαλειοθήκη.)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:279(div:title)
+msgid "2.3.5. Μενού καρτελών"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:283(h4)
+msgid "<a id=\"gimp-dockable-menu\"/>2.3.5. Μενού καρτελών"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:291(b)
+msgid "Εικόνα 3.9. Διάλογος σε αγκίστρι, με το κουμπί επιλογής μενού τονισμένο."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:295(img:alt)
+msgid "Διάλογος σε αγκίστρι, με το κουμπί επιλογής μενού τονισμένο."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:300(p)
+msgid "Σε κάθε διάλογο, έχετε πρόσβαση σε ένα ειδικό μενού λειτουργιών σχετικών με την καρτέλα πατώντας το κουμπί μενού καρτέλας, όπως επισημαίνετε στην παραπάνω εικόνα. Ποιες ακριβώς εντολές φαίνονται στο μενού ποικίλλει από διάλογο σε διάλογο, αλλά εμπεριέχουν πάντοτε λειτουργίες για δημιουργία νέων καρτελών, ή κλείσιμο ή απόσπαση."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:308(b)
+msgid "Εικόνα 3.10. Μενού καρτελών από το διάλογο στρώσεων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:312(img:alt)
+msgid "Μενού καρτελών από το διάλογο στρώσεων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:317(p)
+msgid "Το μενού καρτελών σας δίνει πρόσβαση στις παρακάτω εντολές:"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:323(span)
+msgid "Μενού συνάφειας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:327(p)
+msgid "Στην κορυφή κάθε μενού καρτέλας υπάρχει μία είσοδος που ανοίγει στο μενού συμφραζομένων του διαλόγου, που περιέχει ειδικές λειτουργίες για τον ειδικό τύπο του διαλόγου. Για παράδειγμα, το μενού συμφραζομένων για την καρτέλα στρώσεων είναι το <span class=\"guilabel\">Μενού στρώσεων</span>, που περιέχει ένα σύνολο λειτουργιών για χειρισμό στρώσεων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:335(span) el/gimp-concepts-docks.html:346(span)
+msgid "Προσθήκη Καρτέλας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:339(p)
+msgid "Η <span class=\"guilabel\">Προσθήκη Καρτέλας</span> ανοίγει σε ένα υπομενού που σας επιτρέπει να προσθέσετε μια μεγάλη ποικιλία αγκιστρώσιμων διαλόγων με νέες καρτέλες."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:346(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:346(b)
+msgid "Εικόνα 3.11. Υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:350(img:alt)
+msgid "Υπομενού προσθήκη Καρτέλας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:358(span)
+msgid "Κλείσιμο καρτέλας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:362(p)
+msgid "Κλείσιμο του διαλόγου. Κλείνοντας τον τελευταίο διάλογο σε ένα αγκίστρι προκαλεί το ίδιο το αγκίστρι να κλείσει."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:368(span)
+msgid "Απόσπαση καρτέλας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:372(p)
+msgid "Αποσπάστε το διάλογο από το αγκίστρι, δημιουργώντας ένα νέο αγκίστρι με τον αποσπασμένο διάλογο ως μοναδικό μέλος του. Έχει το ίδιο αποτέλεσμα, όπως σύροντας την καρτέλα έξω από το αγκίστρι και αφήνοντας το στην τοποθεσία όπου δεν μπορεί να αγκιστρωθεί."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:377(p)
+msgid "Εάν η καρτέλα είναι <a class=\"link\" href=\"gimp-concepts-docks.html#gimp-dock-tab-lock\">κλειδωμένη</a>, αυτό το αντικείμενο του μενού είναι ανενεργό και αποχρωματισμένο."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:384(span)
+msgid "Lock Tab to Dock (Κλείδωμα της καρτέλας στο αγκίστρι)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:388(p)
+msgid "Αποφυγή της μετακίνησης ή αποκόλλησης του διαλόγου. Όταν ενεργοποιείται, η <span class=\"guimenuitem\">Απόσπαση Καρτέλας </span> είναι ανενεργή και αποχρωματισμένη."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:395(span)
+msgid "Μέγεθος προεπισκόπησης"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:403(b)
+msgid "Εικόνα 3.12. Υπομενού του μεγέθους προεπισκόπησης του αγκιστριού."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:407(img:alt)
+msgid "Υπομενού του μεγέθους προεπισκόπησης του αγκιστριού."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:413(p)
+msgid "Πολλοί, αλλά όχι όλοι, οι διάλογοι έχουν μενού καρτελών που περιέχουν μία επιλογή, <span class=\"guilabel\">Προεπισκόπηση μεγέθους</span>, που ανοίγει σε ένα υπομενού δίνοντας έναν κατάλογο των μεγεθών των αντικειμένων στο διάλογο (δείτε την πιο πάνω εικόνα). Για παράδειγμα, ο διάλογος πινέλων δείχνει εικόνες όλων των διαθέσιμων πινέλων: το μέγεθος προεπισκόπησης προσδιορίζει πόσο μεγάλες είναι οι εικόνες. Το προκαθορισμένο είναι <span class=\"guilabel\">Μεσαίο</span>."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:423(span)
+msgid "Στιλ καρτέλας"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:429(b)
+msgid "Εικόνα 3.13. Το υπομενού στιλ του αγκιστριού."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:433(img:alt)
+msgid "Το υπομενού στιλ του αγκιστριού"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:439(p)
+msgid "Διαθέσιμο μόνο όταν πολλαπλοί διάλογοι είναι στο ίδιο αγκίστρι (dock). Το <span class=\"guilabel\">Καρτέλα </span> ανοίγει ένα υπομενού που επιτρέπει την επιλογή εμφάνισης της καρτέλας στην κορυφή (δείτε την παραπάνω εικόνα). Υπάρχουν πέντε επιλογές που δεν είναι όλες διαθέσιμες για κάθε διάλογο."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:449(span)
+msgid "Εικονίδιο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:452(p)
+msgid "Χρησιμοποιείστε ένα εικονίδιο για να αντιπροσωπεύει τον τύπο του διαλόγου."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:457(span)
+msgid "Τρέχουσα κατάσταση"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:460(p)
+msgid "Είναι διαθέσιμη μόνο για διαλόγους που σας επιτρέπουν να επιλέξετε κάτι, όπως πινέλο, μοτίβο, διαβάθμιση κλ. Το <span class=\"guilabel\">Τρέχουσα κατάσταση</span> δείχνει μια αναπαράσταση του τρέχοντος επιλεγμένου αντικειμένου στην κορυφή της καρτέλας."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:467(span)
+msgid "Κείμενο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:470(p)
+msgid "Χρησιμοποιείστε το κείμενο για να εμφανίσετε τον τύπο του διαλόγου."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:475(span)
+msgid "Εικονίδιο και κείμενο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:478(p)
+msgid "Χρησιμοποιώντας μαζί εικονίδιο και κείμενο επιφέρει πλατύτερες καρτέλες."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:483(span)
+msgid "Κατάσταση και κείμενο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:486(p)
+msgid "Εμφάνιση τού τρέχοντος επιλεγμένου αντικειμένου και κειμένου με τον τύπο διαλόγου."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:497(span)
+msgid "Προβολή ως λίστα, προβολή ως πλέγμα"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:503(p)
+msgid "Αυτές οι είσοδοι εμφανίζονται σε διαλόγους που σας επιτρέπουν να επιλέξετε ένα αντικείμενο από ένα σύνολο: πινέλα, μοτίβα, γραμματοσειρές κλ. Μπορείτε να επιλέξετε να δείτε τα αντικείμενα ως κάθετο κατάλογο, με το όνομα κάθε αντικειμένου δίπλα του, ή ως πλέγμα, με αναπαραστάσεις των αντικειμένων αλλά όχι ονόματα. Καθένα έχει τα πλεονεκτήματά του: ο κατάλογος σας δίνει περισσότερες πληροφορίες, ενώ το πλέγμα σας επιτρέπει να δείτε περισσότερες δυνατότητες ταυτόχρονα. Γι' αυτό το προκαθορισμένο στους διαλόγους ποικίλλει. Για πινέλα και μοτίβα το προκαθορισμένο είναι πλέγμα. Για τα περισσότερα από τα υπόλοιπα το προκαθορισμένο είναι κατάλογος."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:521(p)
+msgid "Όταν η δενδροειδής επισκόπηση είναι <span class=\"guilabel\">Προβολή ως λίστα</span>, πατώντας <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>F</strong></span> (ή <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>S</strong></span>, εξαρτάται από τις δεσμεύσεις πληκτρολογίου του GTK+), ανοίγει ένα πλαίσιο κειμένου, ένα πεδίο αναζήτησης, όπου μπορείτε να εισάγετε το πρώτο γράμμα ή γράμματα του ονόματος του αντικειμένου που θέλετε. Το πεδίο αναζήτησης δεν ανοίγει με <span class=\"guilabel\">Προβολή ως πλέγμα</span>."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:536(b)
+msgid "Εικόνα 3.14. Ο κατάλογος πεδίου αναζήτησης."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:540(img:alt)
+msgid "Ο κατάλογος πεδίου αναζήτησης."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:542(p)
+msgid "Χρησιμοποιείστε <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>F</strong></span> για να ανοίξετε τον κατάλογο πεδίου αναζήτησης."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:551(p)
+msgid "Ο κατάλογος πεδίου αναζήτησης κλείνει αυτόματα μετά από πέντε δευτερόλεπτα εάν δεν κάνετε τίποτα."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:564(p)
+msgid "Η συντόμευση του πεδίου αναζήτησης είναι επίσης διαθέσιμη για την δενδροειδή επισκόπηση επιλογή που παίρνετε στις επιλογές πολλών εργαλείων, όπως: <span class=\"quote\">“<span class=\"quote\">Πινέλο</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Γραμματοσειρά</span>”</span> ή <span class=\"quote\">“<span class=\"quote\">Μοτίβο</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:576(span)
+msgid "Εμφάνιση γραμμής κουμπιών (Show Button Bar)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:579(p)
+msgid "Μερικοί διάλογοι εμφανίζουν μια γραμμή κουμπιών στον πάτο του διαλόγου. Για παράδειγμα, τα μοτίβα, τα πινέλα, οι διαβαθμίσεις και διάλογοι εικόνων. Αυτός είναι ένας διακόπτης. Εάν επιλεγεί, τότε η γραμμή κουμπιών εμφανίζεται."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:586(b)
+msgid "Εικόνα 3.15. Γραμμή κουμπιών στο διάλογο πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:590(img:alt)
+msgid "Γραμμή κουμπιών στο διάλογο πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:597(span)
+msgid "Εμφάνιση επιλογής εικόνας (Show Image Selection)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:600(p)
+msgid "Αυτός είναι ένας διακόπτης. Εάν επιλεγεί, τότε το μενού εικόνας εμφανίζεται στην κορυφή του αγκιστριού. (Δείτε <a class=\"xref\" href=\"gimp-concepts-docks.html#figure-highlight-imagemenu\" title=\"&#x395;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#xA0;3.8.&#xA0;&#x391;&#x3B3;&#x3BA;&#x3AF;&#x3C3;&#x3C4;&#x3C1;&#x3B9; &#x3BC;&#x3B5; &#x3C4;&#x3BF;&#x3BD;&#x3B9;&#x3C3;&#x3BC;&#x3AD;&#x3BD;&#x3BF; &#x3BC;&#x3B5;&#x3BD;&#x3BF;&#x3CD; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;.\">Figure 3.8, “Αγκίστρι με τονισμένο μενού εικόνας.”</a>). Δεν είναι διαθέσιμο για διαλόγους αγκιστρωμένους κάτω από την εργαλειοθήκη. Αυτή η επιλογή είναι ενδιαφέρουσα μόνο εάν έχετε πολλές ανοιχτές εικόνες στην οθόνη."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:608(span)
+msgid "Αυτόματη παρακολούθηση ενεργού εικόνας (Auto Follow Active Image)"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:611(p)
+msgid "Αυτή η επιλογή είναι επίσης ενδιαφέρουσα μόνο εάν έχετε πολλές ανοιχτές εικόνες στην οθόνη. Τότε, οι πληροφορίες που εμφανίζονται σε ένα αγκίστρι είναι πάντοτε αυτές της επιλεγμένης εικόνας στον αναδυόμενο κατάλογο επιλογής της εικόνας. Εάν η <span class=\"guilabel\">Αυτόματη παρακολούθηση ενεργού εικόνας (Auto Follow Active Image)</span> είναι απενεργοποιημένη, η εικόνα μπορεί να επιλεγεί μόνο στην επιλογή εικόνας. Εάν είναι ενεργοποιημένη, τότε μπορείτε επίσης νε την επιλέξετε ενεργοποιώντας άμεσα την εικόνα (πατώντας στη γραμμή εργαλείων)."
+msgstr ""
+
+#: el/gimp-concepts-docks.html:630(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:633(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:633(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-undo.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:636(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-docks.html:639(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-docks.html:642(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

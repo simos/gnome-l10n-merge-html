@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/font-problems.html:6(title) en/font-problems.html:21(th) en/font-problems.html:31(div:title)
+msgid "5.3. Font Problems"
+msgstr ""
+
+#: en/font-problems.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/font-problems.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/font-problems.html:13(link:title) en/font-problems.html:25(th)
+msgid "5. Text"
+msgstr ""
+
+#: en/font-problems.html:14(link:title) en/font-problems.html:87(a)
+msgid "5.2. Adding Fonts"
+msgstr ""
+
+#: en/font-problems.html:15(link:title) en/font-problems.html:93(a)
+msgid "Chapter 9. Enhancing Photographs"
+msgstr ""
+
+#: en/font-problems.html:24(img:alt) en/font-problems.html:78(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/font-problems.html:24(td) en/font-problems.html:78(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-fonts.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/font-problems.html:26(img:alt) en/font-problems.html:84(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/font-problems.html:26(td) en/font-problems.html:84(td)
+msgid " <a accesskey=\"n\" href=\"gimp-imaging-photos.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/font-problems.html:35(h3)
+msgid "<a id=\"font-problems\"/>5.3. Font Problems"
+msgstr ""
+
+#: en/font-problems.html:40(p)
+msgid "Problems with fonts have probably been responsible for more GIMP 2 bug reports than any other single cause, although they have become much less frequent in the most recent releases in the 2.0 series. In most cases they have been caused by malformed font files giving trouble to Fontconfig. If you experience crashes at start-up when GIMP scans your font directories, the best solution is to upgrade to a version of Fontconfig newer than 2.2.0. As a quick workaround you can start gimp with the <code class=\"filename\">--no-fonts</code> command-line option, but then you will not be able to use the text tool."
+msgstr ""
+
+#: en/font-problems.html:51(p)
+msgid "Another known problem is that Pango 1.2 cannot load fonts that don't provide an Unicode character mapping. (Pango is the text layout library used by GIMP.) A lot of symbol fonts fall into this category. On some systems, using such a font can cause GIMP to crash. Updating to Pango 1.4 will fix this problem and makes symbol fonts available in GIMP."
+msgstr ""
+
+#: en/font-problems.html:58(p)
+msgid "A frequent source of confusion occurs on Windows systems, when GIMP encounters a malformed font file and generates an error message: this causes a console window to pop up so that you can see the message. <span class=\"emphasis\"><em> Do not close that console window. It is harmless, and closing it will shut down GIMP. </em></span> When this happens, it often seems to users that GIMP has crashed. It hasn't: closing the console window causes Windows to shut GIMP down. Unfortunately, this annoying situation is caused by an interaction between Windows and the libraries that GIMP links to: it cannot be fixed within GIMP. All you need to do, though, if this happens, is minimize the console window and ignore it."
+msgstr ""
+
+#: en/font-problems.html:81(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/font-problems.html:87(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/font-problems.html:90(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/font-problems.html:93(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

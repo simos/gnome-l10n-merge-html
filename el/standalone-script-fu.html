@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>2.5. Αυτόνομα σενάρια</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-concepts-script-fu.html" title="2. Χρήση σεναρίων Script-Fu" />
+<link rel="prev" href="kinds-of-script-fu.html" title="2.4. Διάφορα είδη Script-Fus" />
+<link rel="next" href="image-independent-script-fu.html" title="2.6. Εικονοεξαρτώμενα σενάρια" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">2.5. Αυτόνομα σενάρια</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="kinds-of-script-fu.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">2. Χρήση σεναρίων Script-Fu</th>
+<td width="20%" align="right"> <a accesskey="n" href="image-independent-script-fu.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="2.5. Αυτόνομα σενάρια">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="standalone-script-fu"></a>2.5. Αυτόνομα σενάρια</h3>
+</div>
+</div>
+</div>
+<a id="id3125228" class="indexterm"></a>
+<a id="id3230490" class="indexterm"></a>
+<p>
+Δεν θα προσπαθήσουμε να περιγράψουμε κάθε σενάριο σε βάθος. Τα περισσότερα Script-Fus είναι κατανοητά και
+εύχρηστα. Αυτά βρίσκονται στη σειρά, π.χ. για τα λογότυπα, (<span class="guimenu">Αρχείο</span>→<span class="guisubmenu">Δημιουργία</span>→<span class="guimenuitem">Λογότυπα</span>):  Τη στιγμή αυτής της συγγραφής, οι πιο κάτω τύποι έχουν εγκατασταθεί από προεπιλογή: 
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>Patterns (Μοτίβα)</p>
+</li>
+<li class="listitem">
+<p>Θέματα ιστοσελίδων</p>
+</li>
+<li class="listitem">
+<p>Λογότυπα</p>
+</li>
+<li class="listitem">
+<p>Κουμπιά</p>
+</li>
+<li class="listitem">
+<p>Misc. (Ποικίλα)</p>
+</li>
+</ul>
+</div>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Patterns (Μοτίβα)</span>
+</dt>
+<dd>
+<p>
+Θα βρείτε όλα τα είδη των σεναρίων που δημιουργούν μοτίβα εδώ. Γενικά, είναι πολύ χρήσιμα, επειδή μπορείτε να
+προσθέσετε πολλά ορίσματα στα δικά σας μοτίβα.
+</p>
+<p>
+Θα ρίξουμε μια ματιά, στο σενάριο Land (γη). Σε αυτό το σενάριο πρέπει να ρυθμίσετε το μέγεθος της εικόνας/μοτίβου και
+να ορίσετε ποιές στάθμες τύχης να χρησιμοποιήσετε για τη δημιουργία της γης σας. Τα χρώματα για τη δημιουργία  
+του χάρτη γης πάρθηκαν από την τρέχουσα επιλεγμένη διαβάθμιση στο επεξεργαστή διαβαθμίσεων. Πρέπει επίσης να 
+δώσετε τιμές για τη στάθμη λεπτομέρειας (Detail level), ύψος/βάθος (height/width) της γης και της θάλασσας και την κλίμακα (Scale). Η κλίμακα 
+αναφέρεται στην κλίμακα του χάρτη σας, όπως σε ένα συνηθισμένο οδικό χάρτη, 1:10 θα τυπωθεί ως 10. 
+</p>
+</dd>
+<dt>
+<span class="term">Θέματα ιστοσελίδων</span>
+</dt>
+<dd>
+<p>
+Εδώ είναι καθαρά μια πρακτική χρήση των σεναρίων, δημιουργώντας ένα σενάριο για να κάνετε ένα προσαρμοσμένο
+κείμενο, λογότυπα, τόξα κουμπιών, κλ., για τον ιστότοπο σας, θα τους δώσετε σε όλα την ίδια μορφή και σχήμα.  
+Θα εξοικονομήσετε επίσης, πολύ χρόνο, επειδή δεν πρέπει να δημιουργήσετε κάθε λογότυπο, κείμενο ή κουμπί με
+το χέρι.
+</p>
+<p>
+Θα βρείτε το θέμα GIMP.org κάτω από υπομενού των ιστοσελίδων. Εάν θέλετε να δημιουργήσετε το δικό σας θέμα,
+αυτό το σενάριο θα χρησιμεύσει ως ένα εξαίρετο πρότυπο που μπορείτε να τροποποιήσετε για να δημιουργήσετε ένα
+θέμα για τον ιστότοπό σας.
+</p>
+<p>
+Τα περισσότερα σενάρια είναι σχεδόν αυτονόητα, αλλά να μερικές συμβουλές. 
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Αφήστε όλους τους περιέργους χαρακτήρες όπως ' και " άθικτους.
+</p>
+</li>
+<li class="listitem">
+<p>
+Σιγουρευτείτε ότι το καθορισμένο μοτίβο στο σενάριο υπάρχει.
+</p>
+</li>
+<li class="listitem">
+<p>
+Η εσωαπόσταση (Padding) αναφέρεται στο ποσό του χώρου γύρω από το κείμενο.
+</p>
+</li>
+<li class="listitem">
+<p>
+Μια υψηλή τιμή πλάτους λοξοτομής (bevel) δίνει την ψευδαίσθηση ενός ψηλότερου κουμπιού. 
+</p>
+</li>
+<li class="listitem">
+<p>
+Εάν δώσετε TRUE για το "Press (πάτημα)", το κουμπί θα φαίνεται πατημένο.
+</p>
+</li>
+<li class="listitem">
+<p>
+Επιλέξτε διαφάνεια ,εάν δεν θέλετε ένα συμπαγές φόντο. Εάν διαλέξετε ένα συμπαγές φόντο, σιγουρευτείτε ότι
+είναι το ίδιο χρώμα με το φόντο της ιστοσελίδας.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Λογότυπα</span>
+</dt>
+<dd>
+<a id="id3159538" class="indexterm"></a>
+<a id="id3233848" class="indexterm"></a>
+<p>
+Εδώ θα βρείτε όλα τα είδη των σεναρίων που δημιουργούν λογότυπα.  Αυτό είναι ωραίο, αλλά προσέξτε, επειδή οι
+άλλοι ίσως αναγνωρίσουν ότι το λογότυπο σας δημιουργήθηκε από ένα γνωστό σενάριο του GIMP. Θα πρέπει να το
+θεωρήσετε ως βάση που μπορείτε να τροποποιήσετε για να ταιριάσει στις ανάγκες σας. Ο διάλογος για τη δημιουργία
+ενός λογότυπου είναι περισσότερο ή λιγότερο ο ίδιος για όλα αυτά τα σενάρια:
+</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>
+Στο πεδίο κειμένου γράψτε το όνομα του λογότυπου.
+</p>
+</li>
+<li class="listitem">
+<p>
+Στο πεδίο Font Size (pixels) (μέγεθος γραμματοσειράς σε εικονοστοιχεία), γράψτε το μέγεθος του λογότυπου.
+</p>
+</li>
+<li class="listitem">
+<p>
+Στο πεδίο γραμματοσειρά, γράψτε το όνομα της επιθυμητής γραμματοσειράς.
+</p>
+</li>
+<li class="listitem">
+<p>
+Για να διαλέξετε το χρώμα του λογότυπου, πατήστε στο χρωματιστό κουμπί. Αυτό εμφανίζει έναν χρωματικό διάλογο. 
+</p>
+</li>
+<li class="listitem">
+<p>
+Εάν κοιτάξετε το πεδίο τρέχουσας εντολής, μπορείτε να παρατηρήσετε το σενάριο να τρέχει.
+</p>
+</li>
+</ol>
+</div>
+</dd>
+<dt>
+<span class="term">Κουμπιά</span>
+</dt>
+<dd>
+<a id="id3128828" class="indexterm"></a>
+<a id="id3129589" class="indexterm"></a>
+<p>
+Κάτω από την επικεφαλίδα, θα βρείτε δύο σενάρια που κάνουν ορθογώνια λοξοτμημένα κουμπιά, με ή χωρίς στρογγυλές
+γωνίες (Round Button ή απλό λοξοτμημένο κουμπί) Έχουν μερικές παραμέτρους και οι περισσότερες τους είναι
+παρόμοιες με τα σενάρια λογότυπων. Μπορείτε να πειραματιστείτε για να βρείτε το επιθυμητό κουμπί. 
+</p>
+</dd>
+<dt>
+<span class="term">Misc. (Ποικίλα)</span>
+</dt>
+<dd>
+<p>
+Στο Misc. υπήρχαν σενάρια που είναι πολύ χρήσιμα, αλλά δεν είναι κατάλληλα για άλλα υπομενού. Π.χ., το σενάριο
+σφαίρα. Πρέπει να ορίσετε την ακτίνα σε εικονοστοιχεία για να προσδιορίσετε το μέγεθος της σφαίρας. Η γωνία
+φωτισμού είναι εκεί που κατευθύνετε ο προβολέας στη σφαίρα. Αυτή η τιμή επιδρά επίσης στη σκιά της σφαίρας.
+Εάν δεν θέλετε σκιά , πρέπει να προεπιλέξετε το πλαίσιο ελέγχου "shadow (σκιά)". Τελευταία πρέπει να διαλέξετε
+το χρώμα παρασκηνίου και το χρώμα της σφαίρας.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="kinds-of-script-fu.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-concepts-script-fu.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="image-independent-script-fu.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="kinds-of-script-fu.html">2.4. Διάφορα είδη Script-Fus</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="image-independent-script-fu.html">2.6. Εικονοεξαρτώμενα σενάρια</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

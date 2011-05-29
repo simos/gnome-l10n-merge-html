@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/standalone-script-fu.html:6(title) el/standalone-script-fu.html:21(th) el/standalone-script-fu.html:31(div:title)
+msgid "2.5. Αυτόνομα σενάρια"
+msgstr ""
+
+#: el/standalone-script-fu.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/standalone-script-fu.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/standalone-script-fu.html:13(link:title) el/standalone-script-fu.html:25(th)
+msgid "2. Χρήση σεναρίων Script-Fu"
+msgstr ""
+
+#: el/standalone-script-fu.html:14(link:title) el/standalone-script-fu.html:218(a)
+msgid "2.4. Διάφορα είδη Script-Fus"
+msgstr ""
+
+#: el/standalone-script-fu.html:15(link:title) el/standalone-script-fu.html:224(a)
+msgid "2.6. Εικονοεξαρτώμενα σενάρια"
+msgstr ""
+
+#: el/standalone-script-fu.html:24(img:alt) el/standalone-script-fu.html:209(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/standalone-script-fu.html:24(td) el/standalone-script-fu.html:209(td)
+msgid "<a accesskey=\"p\" href=\"kinds-of-script-fu.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/standalone-script-fu.html:26(img:alt) el/standalone-script-fu.html:215(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/standalone-script-fu.html:26(td) el/standalone-script-fu.html:215(td)
+msgid " <a accesskey=\"n\" href=\"image-independent-script-fu.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/standalone-script-fu.html:35(h3)
+msgid "<a id=\"standalone-script-fu\"/>2.5. Αυτόνομα σενάρια"
+msgstr ""
+
+#: el/standalone-script-fu.html:41(p)
+msgid "Δεν θα προσπαθήσουμε να περιγράψουμε κάθε σενάριο σε βάθος. Τα περισσότερα Script-Fus είναι κατανοητά και εύχρηστα. Αυτά βρίσκονται στη σειρά, π.χ. για τα λογότυπα, (<span class=\"guimenu\">Αρχείο</span>→<span class=\"guisubmenu\">Δημιουργία</span>→<span class=\"guimenuitem\">Λογότυπα</span>): Τη στιγμή αυτής της συγγραφής, οι πιο κάτω τύποι έχουν εγκατασταθεί από προεπιλογή:"
+msgstr ""
+
+#: el/standalone-script-fu.html:48(p) el/standalone-script-fu.html:67(span)
+msgid "Patterns (Μοτίβα)"
+msgstr ""
+
+#: el/standalone-script-fu.html:51(p) el/standalone-script-fu.html:83(span)
+msgid "Θέματα ιστοσελίδων"
+msgstr ""
+
+#: el/standalone-script-fu.html:54(p) el/standalone-script-fu.html:137(span)
+msgid "Λογότυπα"
+msgstr ""
+
+#: el/standalone-script-fu.html:57(p) el/standalone-script-fu.html:179(span)
+msgid "Κουμπιά"
+msgstr ""
+
+#: el/standalone-script-fu.html:60(p) el/standalone-script-fu.html:191(span)
+msgid "Misc. (Ποικίλα)"
+msgstr ""
+
+#: el/standalone-script-fu.html:70(p)
+msgid "Θα βρείτε όλα τα είδη των σεναρίων που δημιουργούν μοτίβα εδώ. Γενικά, είναι πολύ χρήσιμα, επειδή μπορείτε να προσθέσετε πολλά ορίσματα στα δικά σας μοτίβα."
+msgstr ""
+
+#: el/standalone-script-fu.html:74(p)
+msgid "Θα ρίξουμε μια ματιά, στο σενάριο Land (γη). Σε αυτό το σενάριο πρέπει να ρυθμίσετε το μέγεθος της εικόνας/μοτίβου και να ορίσετε ποιές στάθμες τύχης να χρησιμοποιήσετε για τη δημιουργία της γης σας. Τα χρώματα για τη δημιουργία του χάρτη γης πάρθηκαν από την τρέχουσα επιλεγμένη διαβάθμιση στο επεξεργαστή διαβαθμίσεων. Πρέπει επίσης να δώσετε τιμές για τη στάθμη λεπτομέρειας (Detail level), ύψος/βάθος (height/width) της γης και της θάλασσας και την κλίμακα (Scale). Η κλίμακα αναφέρεται στην κλίμακα του χάρτη σας, όπως σε ένα συνηθισμένο οδικό χάρτη, 1:10 θα τυπωθεί ως 10."
+msgstr ""
+
+#: el/standalone-script-fu.html:86(p)
+msgid "Εδώ είναι καθαρά μια πρακτική χρήση των σεναρίων, δημιουργώντας ένα σενάριο για να κάνετε ένα προσαρμοσμένο κείμενο, λογότυπα, τόξα κουμπιών, κλ., για τον ιστότοπο σας, θα τους δώσετε σε όλα την ίδια μορφή και σχήμα. Θα εξοικονομήσετε επίσης, πολύ χρόνο, επειδή δεν πρέπει να δημιουργήσετε κάθε λογότυπο, κείμενο ή κουμπί με το χέρι."
+msgstr ""
+
+#: el/standalone-script-fu.html:92(p)
+msgid "Θα βρείτε το θέμα GIMP.org κάτω από υπομενού των ιστοσελίδων. Εάν θέλετε να δημιουργήσετε το δικό σας θέμα, αυτό το σενάριο θα χρησιμεύσει ως ένα εξαίρετο πρότυπο που μπορείτε να τροποποιήσετε για να δημιουργήσετε ένα θέμα για τον ιστότοπό σας."
+msgstr ""
+
+#: el/standalone-script-fu.html:97(p)
+msgid "Τα περισσότερα σενάρια είναι σχεδόν αυτονόητα, αλλά να μερικές συμβουλές."
+msgstr ""
+
+#: el/standalone-script-fu.html:103(p)
+msgid "Αφήστε όλους τους περιέργους χαρακτήρες όπως ' και \" άθικτους."
+msgstr ""
+
+#: el/standalone-script-fu.html:108(p)
+msgid "Σιγουρευτείτε ότι το καθορισμένο μοτίβο στο σενάριο υπάρχει."
+msgstr ""
+
+#: el/standalone-script-fu.html:113(p)
+msgid "Η εσωαπόσταση (Padding) αναφέρεται στο ποσό του χώρου γύρω από το κείμενο."
+msgstr ""
+
+#: el/standalone-script-fu.html:118(p)
+msgid "Μια υψηλή τιμή πλάτους λοξοτομής (bevel) δίνει την ψευδαίσθηση ενός ψηλότερου κουμπιού."
+msgstr ""
+
+#: el/standalone-script-fu.html:123(p)
+msgid "Εάν δώσετε TRUE για το \"Press (πάτημα)\", το κουμπί θα φαίνεται πατημένο."
+msgstr ""
+
+#: el/standalone-script-fu.html:128(p)
+msgid "Επιλέξτε διαφάνεια ,εάν δεν θέλετε ένα συμπαγές φόντο. Εάν διαλέξετε ένα συμπαγές φόντο, σιγουρευτείτε ότι είναι το ίδιο χρώμα με το φόντο της ιστοσελίδας."
+msgstr ""
+
+#: el/standalone-script-fu.html:142(p)
+msgid "Εδώ θα βρείτε όλα τα είδη των σεναρίων που δημιουργούν λογότυπα. Αυτό είναι ωραίο, αλλά προσέξτε, επειδή οι άλλοι ίσως αναγνωρίσουν ότι το λογότυπο σας δημιουργήθηκε από ένα γνωστό σενάριο του GIMP. Θα πρέπει να το θεωρήσετε ως βάση που μπορείτε να τροποποιήσετε για να ταιριάσει στις ανάγκες σας. Ο διάλογος για τη δημιουργία ενός λογότυπου είναι περισσότερο ή λιγότερο ο ίδιος για όλα αυτά τα σενάρια:"
+msgstr ""
+
+#: el/standalone-script-fu.html:151(p)
+msgid "Στο πεδίο κειμένου γράψτε το όνομα του λογότυπου."
+msgstr ""
+
+#: el/standalone-script-fu.html:156(p)
+msgid "Στο πεδίο Font Size (pixels) (μέγεθος γραμματοσειράς σε εικονοστοιχεία), γράψτε το μέγεθος του λογότυπου."
+msgstr ""
+
+#: el/standalone-script-fu.html:161(p)
+msgid "Στο πεδίο γραμματοσειρά, γράψτε το όνομα της επιθυμητής γραμματοσειράς."
+msgstr ""
+
+#: el/standalone-script-fu.html:166(p)
+msgid "Για να διαλέξετε το χρώμα του λογότυπου, πατήστε στο χρωματιστό κουμπί. Αυτό εμφανίζει έναν χρωματικό διάλογο."
+msgstr ""
+
+#: el/standalone-script-fu.html:171(p)
+msgid "Εάν κοιτάξετε το πεδίο τρέχουσας εντολής, μπορείτε να παρατηρήσετε το σενάριο να τρέχει."
+msgstr ""
+
+#: el/standalone-script-fu.html:184(p)
+msgid "Κάτω από την επικεφαλίδα, θα βρείτε δύο σενάρια που κάνουν ορθογώνια λοξοτμημένα κουμπιά, με ή χωρίς στρογγυλές γωνίες (Round Button ή απλό λοξοτμημένο κουμπί) Έχουν μερικές παραμέτρους και οι περισσότερες τους είναι παρόμοιες με τα σενάρια λογότυπων. Μπορείτε να πειραματιστείτε για να βρείτε το επιθυμητό κουμπί."
+msgstr ""
+
+#: el/standalone-script-fu.html:194(p)
+msgid "Στο Misc. υπήρχαν σενάρια που είναι πολύ χρήσιμα, αλλά δεν είναι κατάλληλα για άλλα υπομενού. Π.χ., το σενάριο σφαίρα. Πρέπει να ορίσετε την ακτίνα σε εικονοστοιχεία για να προσδιορίσετε το μέγεθος της σφαίρας. Η γωνία φωτισμού είναι εκεί που κατευθύνετε ο προβολέας στη σφαίρα. Αυτή η τιμή επιδρά επίσης στη σκιά της σφαίρας. Εάν δεν θέλετε σκιά , πρέπει να προεπιλέξετε το πλαίσιο ελέγχου \"shadow (σκιά)\". Τελευταία πρέπει να διαλέξετε το χρώμα παρασκηνίου και το χρώμα της σφαίρας."
+msgstr ""
+
+#: el/standalone-script-fu.html:212(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/standalone-script-fu.html:218(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/standalone-script-fu.html:221(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/standalone-script-fu.html:224(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

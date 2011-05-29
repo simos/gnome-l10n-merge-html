@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-variable-size-brush.html:6(title) el/gimp-using-variable-size-brush.html:21(th) el/gimp-using-variable-size-brush.html:31(div:title)
+msgid "9. Αλλαγή μεγέθους πινέλου"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:13(link:title) el/gimp-using-variable-size-brush.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:14(link:title) el/gimp-using-variable-size-brush.html:204(a)
+msgid "8. Το πλαίσιο διαλόγου GIH"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:15(link:title) el/gimp-using-variable-size-brush.html:210(a)
+msgid "9.2. Γρήγορη δημιουργία πινέλου"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:24(img:alt) el/gimp-using-variable-size-brush.html:195(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:24(td) el/gimp-using-variable-size-brush.html:195(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-animated-brushes.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:26(img:alt) el/gimp-using-variable-size-brush.html:201(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:26(td) el/gimp-using-variable-size-brush.html:201(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-variable-size-brush-creating.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:35(h2)
+msgid "<a id=\"gimp-using-variable-size-brush\"/>9. Αλλαγή μεγέθους πινέλου"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:40(p)
+msgid "Από το GIMP-2.4, όλα τα πινέλα έχουν μεταβλητό μέγεθος."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:43(div:title)
+msgid "9.1. Αυξομείωση ύψους πινέλου"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:47(h3)
+msgid "<a id=\"gimp-using-variable-size-brush-varying\"/>9.1. Αυξομείωση ύψους πινέλου"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:51(p)
+msgid "Μπορείτε να αυξομειώσετε το μέγεθος του πινέλου με τρεις τρόπους."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:57(p)
+msgid "Χρησιμοποιώντας τον ολισθητή <span class=\"guilabel\">Κλίμακας</span> του εργαλείου που χρησιμοποιεί το πινέλο. Μολύβι, πινέλο, σβήστρα, αερογράφος, κλωνοποίηση, επούλωση, προοπτική κλωνοποίησης, θόλωση/όξυνση και κάλυψη/κάψιμο έχουν ολισθητή για αλλαγή μεγέθους πινέλου."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:64(b)
+msgid "Εικόνα 7.20. Ο ολισθητής κλίμακας"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:67(img:alt)
+msgid "Ο ολισθητής κλίμακας"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:75(p)
+msgid "Προγραμματίζοντας τον τροχό του ποντικιού."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:77(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:78(p)
+msgid "Στο κυρίως παράθυρο του GIMP, πατήστε <span class=\"guimenu\">Επεξεργασία</span> → <span class=\"guimenuitem\">Προτιμήσεις</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:82(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:83(p)
+msgid "Στην αριστερή στήλη του νέου παραθύρου, επιλέξτε <span class=\"guimenu\">Συσκευές εισόδου</span> → <span class=\"guimenuitem\">Ελεγκτές εισόδου</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:88(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:89(p)
+msgid "Μπορείτε να δείτε <span class=\"guibutton\">Πρόσθετοι ελεγκτές εισόδου</span>, σε δύο στήλες: <span class=\"guibutton\">Διαθέσιμοι ελεγκτές</span> και <span class=\"guibutton\">Ενεργοί ελεγκτές</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:93(p)
+msgid "Στην στήλη <span class=\"guibutton\">Ενεργοί ελεγκτές</span>, διπλοπατήστε το κουμπί <span class=\"guibutton\">Main Mouse Wheel (τροχός κυρίως ποντικιού)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:98(li:title)
+msgid "Βήμα 4"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:99(p)
+msgid "Έπειτα, θα δείτε ένα νέο παράθυρο. <span class=\"guibutton\">Configure Input Controller (Τροποποίηση ελεγκτή εισόδου)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:102(p)
+msgid "Στην αριστερή στήλη <span class=\"guibutton\">Συμβάν</span>, πατήστε <span class=\"guibutton\">Scroll Up (κύλιση επάνω) </span> για να τονιστεί."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:107(li:title)
+msgid "Βήμα 5"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:108(p)
+msgid "Πατήστε το κουμπί <span class=\"guibutton\">Επεξεργασία</span> (στην κάτω μέση του καταλόγου)."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:112(li:title)
+msgid "Βήμα 6"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:113(p)
+msgid "Μπορείτε να δείτε το παράθυρο <span class=\"guibutton\">Select Controller Event Action (Επιλογή ενέργειας ελεγκτή συμβάντος)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:116(p)
+msgid "Ανοίξτε το αντικείμενο <span class=\"guibutton\">Εργαλεία</span>, πατώντας το + στα αριστερά του."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:120(li:title)
+msgid "Βήμα 7"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:121(p)
+msgid "Στην αριστερή στήλη <span class=\"guibutton\">Ενέργεια</span>, πατήστε το <span class=\"guibutton\">Increase Brush Scale (αύξηση κλίμακας πινέλου)</span> για να το τονίσετε, έπειτα πατήστε το κουμπί <span class=\"guibutton\">Εντάξει</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:127(li:title)
+msgid "Βήμα 8"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:128(p)
+msgid "Τώρα μπροστά από το <span class=\"guibutton\">Scroll Up (κύλιση επάνω)</span> εμφανίζεται <span class=\"guibutton\">tools-paint-brush-scale-increase (εργαλεία - αύξηση κλίμακας πινέλου)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:133(li:title)
+msgid "Βήμα 9"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:134(p)
+msgid "Κλείστε το παράθυρο."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:136(li:title)
+msgid "Βήμα 10"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:137(p)
+msgid "Με την ίδια μέθοδο προγραμματίστε <span class=\"guibutton\">Scroll Down (κύλιση κάτω)</span> με το <span class=\"guibutton\">Decrease Brush Scale (Μείωση κλίμακας πινέλου)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:142(li:title)
+msgid "Βήμα 11"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:143(p)
+msgid "Μην ξεχάσετε να πατήσετε το κουμπί <span class=\"guibutton\">Εντάξει</span> του κύριου παράθυρου των <span class=\"guibutton\">Προτιμήσεων</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:150(p)
+msgid "Μετά από αυτές τις κάπως μεγάλες εξηγήσεις, μπορείτε να χρησιμοποιήσετε το τροχό του ποντικιού σας για αυξομείωση μεγέθους πινέλου. Για παράδειγμα, επιλέξτε το εργαλείο μολυβιού με το πινέλο <span class=\"quote\">“<span class=\"quote\">Circle (Κύκλος)</span>”</span>. Ορίστε το δείκτη στο παράθυρο εικόνας. Χρησιμοποιείστε το τροχό του ποντικιού, στις δύο κατευθύνσεις, μπορείτε να δείτε τον <span class=\"quote\">“<span class=\"quote\">Circle (Κύκλο)</span>”</span> να μειώνεται ή να αυξάνεται."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:158(p)
+msgid "Μπορείτε να προγραμματίσετε τα <span class=\"quote\">“<span class=\"quote\">Επάνω</span>”</span> και <span class=\"quote\">“<span class=\"quote\">Κάτω</span>”</span> πλήκτρα τόξων του πληκτρολογίου."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:162(p)
+msgid "Η μέθοδος είναι παρεμφερής με αυτή της ρόδας του ποντικιού. Οι μόνες διαφορές είναι:"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:168(p)
+msgid "Στη στήλη <span class=\"guibutton\">Ενεργοί ελεγκτές</span>, διπλοπατήστε <span class=\"guibutton\">Main Keyboard (Κύριο πληκτρολόγιο)</span>."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:173(p)
+msgid "Στη στήλη <span class=\"guibutton\">Συμβάν</span>, πληκτρολογήστε <span class=\"guibutton\">Cursor Up (Δρομέας επάνω)</span> για το πρώτο πλήκτρο και <span class=\"guibutton\">Cursor Down (Δρομέας κάτω)</span> για το δεύτερο πλήκτρο."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:179(p)
+msgid "Έπειτα, χρησιμοποιείστε τα δύο πλήκτρα (Επάνω βέλος και κάτω βέλος) και το αποτέλεσμα είναι το ίδιο, όπως με το τροχό του ποντικιού."
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:198(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:204(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:207(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-variable-size-brush.html:210(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

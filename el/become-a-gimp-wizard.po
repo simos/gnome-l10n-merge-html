@@ -1,0 +1,703 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/become-a-gimp-wizard.html:6(title)
+msgid "Μέρος II.  Πώς θα γίνω μάγος του GIMP ;"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:12(link:title) el/become-a-gimp-wizard.html:13(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:14(link:title) el/become-a-gimp-wizard.html:685(a)
+msgid "Κεφάλαιο 4. Ξεκόλλημα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:15(link:title)
+msgid "Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:21(th)
+msgid "Μέρος II. Πώς θα γίνω μάγος του GIMP;"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:24(img:alt) el/become-a-gimp-wizard.html:680(img:alt)
+msgid "Προηγούμενη"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:24(td) el/become-a-gimp-wizard.html:680(td)
+msgid "<a accesskey=\"p\" href=\"gimp-getting-unstuck.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3B7;\"/></a> "
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:25(th) el/become-a-gimp-wizard.html:681(td)
+msgid " "
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:26(img:alt) el/become-a-gimp-wizard.html:682(img:alt)
+msgid "Επόμενη"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:26(td) el/become-a-gimp-wizard.html:682(td)
+msgid " <a accesskey=\"n\" href=\"gimp-images-in.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3B7;\"/></a>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:35(h1)
+msgid "<a id=\"become-a-gimp-wizard\"/>Μέρος II. Πώς θα γίνω μάγος του GIMP;"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:42(b)
+msgid "Περιεχόμενα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:46(a)
+msgid "5. Εισαγωγή εικόνων στο GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:52(span)
+msgid "Τύποι εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:52(a)
+msgid "1.<placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:57(a)
+msgid "2. Δημιουργία νέων αρχείων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:62(a)
+msgid "3. Άνοιγμα αρχείων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:69(a)
+msgid "3.1. Άνοιγμα αρχείου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:74(a)
+msgid "3.2. Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:79(a)
+msgid "3.3. Άνοιγμα πρόσφατου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:84(a)
+msgid "3.4. Χρήση εξωτερικών προγραμμάτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:89(a)
+msgid "3.5. Διαχειριστής αρχείου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:94(a)
+msgid "3.6. Σύρσιμο και απόθεση"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:99(a)
+msgid "3.7. Αντιγραφή και επικόλληση"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:104(a)
+msgid "3.8. Περιηγητής εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:113(a)
+msgid "6. Εξαγωγή εικόνων από το GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:120(a)
+msgid "1. Αρχεία"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:127(a)
+msgid "1.1. Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:132(a)
+msgid "1.2. Αποθήκευση αρχείων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:139(a)
+msgid "2. Προετιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:146(a)
+msgid "2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:151(a)
+msgid "2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:156(a)
+msgid "2.3. Αποθήκευση εικόνων με διαφάνεια"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:165(a)
+msgid "7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:172(a)
+msgid "1. Επιλογή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:179(a)
+msgid "1.1. Απάλυνση"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:184(a)
+msgid "1.2. Κάνοντας μια επιλογή μερικώς διαφανή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:191(a)
+msgid "2. Δημιουργία και χρήση επιλογών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:198(a)
+msgid "2.1. Μετακίνηση επιλογής"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:203(a)
+msgid "2.2. Πρόσθεση ή αφαίρεση επιλογών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:210(a)
+msgid "3. Γρήγορη μάσκα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:217(a)
+msgid "3.1. Προεπισκόπηση"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:222(a)
+msgid "3.2. Ιδιότητες"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:229(span)
+msgid "Χρήση της κατάστασης σύντομης μάσκας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:229(a) el/become-a-gimp-wizard.html:389(a) el/become-a-gimp-wizard.html:582(a)
+msgid "4. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:235(span)
+msgid "Μονοπάτια"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:235(a) el/become-a-gimp-wizard.html:394(a)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:242(a)
+msgid "5.1. Δημιουργία μονοπατιού"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:247(a)
+msgid "5.2. Ιδιότητες μονοπατιού"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:252(a)
+msgid "5.3. Μονοπάτια και επιλογές"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:257(a)
+msgid "5.4. Μετασχηματισμός μονοπατιών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:262(a)
+msgid "5.5. Βάψιμο μονοπατιού"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:267(a)
+msgid "5.6. Μονοπάτια και κείμενο"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:272(acronym)
+msgid "SVG"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:272(a)
+msgid "5.7. Μονοπάτια και αρχεία<placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:279(a)
+msgid "6. Πινέλα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:284(span)
+msgid "Προσθήκη νέων πινέλων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:284(a)
+msgid "7. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:289(a)
+msgid "8. Το πλαίσιο διαλόγου GIH"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:294(span)
+msgid "Αλλαγή μεγέθους πινέλου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:294(a)
+msgid "9. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:301(span)
+msgid "Αυξομείωση ύψους πινέλου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:301(a)
+msgid "9.1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:306(span)
+msgid "Γρήγορη δημιουργία πινέλου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:306(a)
+msgid "9.2.<placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:313(span)
+msgid "Διαβαθμίσεις"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:313(a)
+msgid "10. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:318(a)
+msgid "11. Μοτίβα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:323(span)
+msgid "Παλέτες"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:323(a)
+msgid "12. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:330(span)
+msgid "Χρωματολόγιο"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:330(a)
+msgid "12.1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:337(a)
+msgid "13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:344(a)
+msgid "13.1. Σχεδίαση ευθείας γραμμής"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:349(a)
+msgid "13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:358(a)
+msgid "8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:365(a)
+msgid "1. Εισαγωγή στις στρώσεις"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:372(a)
+msgid "1.1. Ιδιότητες στρώσης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:379(a)
+msgid "2. Λειτουργίες στρώσης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:384(span)
+msgid "Δημιουργία νέων στρώσεων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:384(a) el/become-a-gimp-wizard.html:644(a)
+msgid "3. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:389(span)
+msgid "Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:394(span)
+msgid "Κείμενο"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:401(span)
+msgid "Διακόσμηση κειμένου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:401(a)
+msgid "5.1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:406(span)
+msgid "Προσθήκη γραμματοσειρών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:406(a)
+msgid "5.2. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:411(span)
+msgid "Προβλήματα γραμματοσειρών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:411(a)
+msgid "5.3. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:420(a)
+msgid "9. Βελτιστοποίηση φωτογραφιών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:427(span)
+msgid "Εργασία με φωτογραφίες ψηφιακής κάμερας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:427(a) el/become-a-gimp-wizard.html:600(a)
+msgid "1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:434(span) el/become-a-gimp-wizard.html:605(span)
+msgid "Εισαγωγή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:434(a) el/become-a-gimp-wizard.html:605(a)
+msgid "1.1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:439(span)
+msgid "Βελτίωση της σύνθεσης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:439(a) el/become-a-gimp-wizard.html:608(a)
+msgid "1.2. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:444(span)
+msgid "Βελτίωση χρωμάτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:444(a) el/become-a-gimp-wizard.html:611(a)
+msgid "1.3. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:449(span)
+msgid "Ρύθμιση οξύτητας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:449(a) el/become-a-gimp-wizard.html:614(a)
+msgid "1.4. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:454(span)
+msgid "Αφαίρεση ανεπιθύμητων αντικειμένων από εικόνα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:454(a)
+msgid "1.5. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:459(span)
+msgid "Αποθήκευση αποτελεσμάτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:459(a)
+msgid "1.6. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:468(a)
+msgid "10. Διαχείριση χρώματος με το GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:475(a)
+msgid "1. Διαχείριση χρώματος στο GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:482(a)
+msgid "1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:487(a)
+msgid "1.2. Παραγωγή με διαχείριση χρώματος"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:495(a)
+msgid "11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:501(a)
+msgid "1. Διάλογος προτιμήσεων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:506(a)
+msgid "1.1. Εισαγωγή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:509(a)
+msgid "1.2. Περιβάλλον"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:512(a)
+msgid "1.3. Διεπαφή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:515(a)
+msgid "1.4. Θέμα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:518(a)
+msgid "1.5.Σύστημα βοήθειας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:521(a)
+msgid "1.6. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:524(a)
+msgid "1.7. Εργαλειοθήκη"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:527(a)
+msgid "1.8. Προεπιλεγμένες προτιμήσεις εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:530(span)
+msgid "Προεπιλεγμένο πλέγμα εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:530(a)
+msgid "1.9. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:533(a)
+msgid "1.10. Παράθυρα εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:536(span)
+msgid "Εμφάνιση παραθύρου εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:536(a)
+msgid "1.11. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:539(a)
+msgid "1.12. Τίτλος παραθύρου εικόνας και Γραμμή Κατάστασης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:542(a)
+msgid "1.13. Εμφάνιση"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:545(a)
+msgid "1.14. Διαχείριση χρώματος"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:548(a)
+msgid "1.15. Συσκευές εισαγωγής"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:551(a)
+msgid "1.16. Ελεγκτές εισαγωγής"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:554(a)
+msgid "1.17. Διαχείριση παραθύρου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:557(span)
+msgid "Φάκελοι"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:557(a)
+msgid "1.18. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:560(span)
+msgid "Δεδομένα φακέλων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:560(a)
+msgid "1.19. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:566(a)
+msgid "2. Πλέγματα και οδηγοί"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:571(a)
+msgid "2.1. Πλέγμα εικόνας"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:574(a)
+msgid "2.2. Οδηγοί"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:579(a)
+msgid "3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:582(span)
+msgid "Ρύθμιση της παράθεσης προσωρινής αποθήκευσης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:586(span)
+msgid "Δημιουργία συντομεύσεων στο μενού λειτουργιών"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:586(a)
+msgid "5.<placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:590(a)
+msgid "6. Προσαρμογή αρχικής οθόνης"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:595(a)
+msgid "12. Σενάρια"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:600(span)
+msgid "Πρόσθετα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:608(span)
+msgid "Χρήση προσθέτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:611(span)
+msgid "Εγκατάσταση νέων προσθέτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:614(span)
+msgid "Εγγραφή προσθέτων"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:619(a)
+msgid "2. Χρήση σεναρίων Script-Fu"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:624(a)
+msgid "2.1. Script-Fu;"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:627(a)
+msgid "2.2. Εγκατάσταση Script-Fus"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:630(a)
+msgid "2.3. Επιτρεπτά και μη"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:633(a)
+msgid "2.4. Διάφορα είδη Script-Fus"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:636(a)
+msgid "2.5. Αυτόνομα σενάρια"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:639(a)
+msgid "2.6. Εικονοεξαρτώμενα σενάρια"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:644(span)
+msgid "Παρουσίαση ενός Script-Fu"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:649(span)
+msgid "Εξοικείωση με σχήματα"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:649(a)
+msgid "3.1. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:652(span)
+msgid "Μεταβλητές και συναρτήσεις"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:652(a)
+msgid "3.2. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:655(span)
+msgid "Λίστες, λίστες και πάλι λίστες"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:655(a)
+msgid "3.3. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:658(span)
+msgid "Το Πρώτο σας σενάριο Script-Fu"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:658(a)
+msgid "3.4. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:661(span)
+msgid "Δίνοντας στο σενάριό σας περισσότερη ψυχή"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:661(a)
+msgid "3.5. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:664(span)
+msgid "Επέκταση του σεναρίου πλαισίου κειμένου"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:664(a)
+msgid "3.6. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:667(span)
+msgid "Το σενάριο και η λειτουργία του"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:667(a)
+msgid "3.7. <placeholder-1/>"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:685(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:688(img:alt)
+msgid "Home"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:691(a)
+msgid "Κεφάλαιο 5. Εισαγωγή Εικόνων στο GIMP"
+msgstr ""
+
+#: el/become-a-gimp-wizard.html:691(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

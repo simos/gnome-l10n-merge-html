@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>4.6. Αλλαγή κατάστασης</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+<link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-tutorial-quickies.html" title="4. Γρήγορο ξεκίνημα (GIMPLite Quickies)" />
+<link rel="prev" href="gimp-tutorial-quickie-info.html" title="4.5. Εύρεση πληροφοριών για την εικόνα σας" />
+<link rel="next" href="gimp-tutorial-quickie-flip.html" title="4.7. Αναστροφή εικόνας" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">4.6. Αλλαγή κατάστασης</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-tutorial-quickie-info.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">4. Γρήγορο ξεκίνημα (GIMPLite Quickies)</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-flip.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" lang="el" xml:lang="el">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-tutorial-quickie-change-mode"></a>4.6. Αλλαγή κατάστασης</h3>
+</div>
+</div>
+</div>
+<a id="id507064" class="indexterm"></a>
+<a id="id507073" class="indexterm"></a>
+<p>
+Όπως και οτιδήποτε άλλο, οι εικόνες έρχονται σε διαφορετικά είδη και εξυπηρετούν διαφορετικούς σκοπούς. Μερικές
+φορές, ένα μικρό μέγεθος είναι σημαντικό (για διαδικτυακούς τόπους) και άλλες φορές, η διατήρηση ενός υψηλού
+βάθους χρώματος σε όλο του το μεγαλείο (ένα οικογενειακό πορτρέτο) είναι αυτό που χρειαζόσαστε. Το GIMP
+μπορεί να χειριστεί όλα αυτά και περισσότερα, κυρίως μετατρέποντας μεταξύ τριών βασικών καταστάσεων, όπως φαίνεται
+σ' αυτό το μενού. Για να αλλάξετε την εικόνα σας σε μία από αυτές τις καταστάσεις, την ανοίγετε και ακολουθείτε
+το μενού πατώντας την κατάσταση που θέλετε.
+</p>
+<div class="figure">
+<a id="id507098"></a>
+<p class="title">
+<b>Εικόνα 3.34. Διάλογος για αλλαγή κατάστασης</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-mode-menu.png" alt="Διάλογος για αλλαγή κατάστασης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+<span class="emphasis"><em>RGB</em></span>
+- Αυτή είναι η προκαθορισμένη κατάσταση, χρησιμοποιούμενη για χρωματιστές φωτογραφίες πολύ υψηλής ποιότητας.
+Αυτή είναι επίσης η κατάσταση για το μεγαλύτερο μέρος εργασίας της εικόνας σας, συμπεριλαμβάνοντας κλιμάκωση,
+περικοπή, και ακόμα αναστροφή, καθώς δίνει στον υπολογιστή περισσότερες πληροφορίες για επεξεργασία. Οι
+επιπλέον πληροφορίες επίσης κάνουν την κατάσταση RGB τη πιο μεγάλη για αποθήκευση, ως συνέπεια.
+</p>
+<p>
+Λίγες λεπτομέρειες εάν σας ενδιαφέρει. Κάθε εικονοστοιχείο ή σημείο, όταν βρίσκεται σ' αυτή την κατάσταση
+αποτελείται από τρία διαφορετικά συστατικά. R-&gt; κόκκινο, G-&gt; πράσινο, B-&gt; μπλε. Καθένα από αυτά με τη
+σειρά του μπορεί να έχει τιμές έντασης 0-255. Έτσι, σε κάθε εικονοστοιχείο, που βλέπετε είναι ένας προσθετικός
+συνδυασμός αυτών των τριών συστατικών. Όλοι αυτοί οι συνδυασμοί καταλήγουν στην αντιπροσώπευση εκατομμυρίων χρωμάτων.
+</p>
+<p>
+<span class="emphasis"><em>Από χρωματολόγιο</em></span>
+- Αυτή η κατάσταση συνήθως χρησιμοποιείται όταν ενδιαφέρει το μέγεθος του αρχείου ή όταν εργάζεσθε  με εικόνες με
+λίγα χρώματα. Εμπεριέχει ένα καθορισμένο αριθμό χρωμάτων, 256 ή λιγότερα, σε κάθε σημείο για απεικόνιση τού χρώματος
+σε αυτό το σημείο. Το καλύτερο είναι να επεξεργαστείτε μια "άριστη" παλέτα για καλύτερη απεικόνιση της εικόνας σας.
+Προσπαθήστε το, μπορείτε να το αναιρέσετε εάν δεν σας αρέσει το αποτέλεσμα, ή χρησιμοποιείστε μια προσαρμοσμένη
+παλέτα ή πιο πολλά χρώματα.
+</p>
+<div class="figure">
+<a id="id507156"></a>
+<p class="title">
+<b>Εικόνα 3.35. Διάλογος  “<span class="quote">Αλλαγή χρωμάτων του χρωματολογίου</span>”</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-mode-indexed.png" alt="Διάλογος αλλαγής χρωμάτων του χρωματολογίου" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Όπως θα περιμένατε, αφού η απαιτούμενη πληροφορία για απεικόνιση του χρώματος σε κάθε εικονοστοιχείο είναι πιο
+μικρή, το μέγεθος του αρχείου είναι πιο μικρό. Όμως μερικές φορές, υπάρχουν επιλογές στα ποικίλα μενού που είναι
+απενεργοποιημένες χωρίς κανένα προφανή λόγο. Αυτό συνήθως σημαίνει ότι το φίλτρο ή η επιλογή δεν μπορεί να εφαρμοστεί
+όταν η εικόνα σας είναι στην τρέχουσα κατάσταση. Αλλαγή της κατάστασης σε RGB, όπως περιγράφηκε πιο πάνω, θα πρέπει
+να επιλύσει το πρόβλημα. Εάν ούτε η κατάσταση RGB δεν δουλεύει, ίσως η επιλογή που δοκιμάζετε απαιτεί στρώση που
+μπορεί να είναι διαφανής. Αυτό μπορεί να αναιρεθεί εύκολα με
+<span class="guimenu">Στρώση</span> → <span class="guimenuitem">Διαφάνεια</span> → <span class="guimenuitem">Προσθήκη καναλιού Alpha</span>.
+</p>
+<div class="figure">
+<a id="id507215"></a>
+<p class="title">
+<b>Εικόνα 3.36. Προσθήκη καναλιού Alpha</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-mode-alpha.png" alt="Προσθήκη καναλιού Alpha" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+<span class="emphasis"><em>Κλίμακα του γκρι</em></span>
+- Σε περίπτωση που θέλετε να μετατρέψετε την λαμπρή χρωματιστή εικόνα σας κάτι ασπρόμαυρο με πολλές αποχρώσεις του
+γκρι, αυτός είναι από τους πιο εύκολους τρόπους για να το κάνετε. Μερικές φωτογραφίες δείχνουν πιο φανταχτερές
+όταν εμφανίζονται στην κλίμακα του γκρι. Πιο λεπτομερειακά, αυτό πετυχαίνεται λαμβάνοντας τις τιμές RGB στα
+εικονοστοιχεία της εικόνας σας και παίρνοντας τους κατάλληλους μέσους όρους  για την ένταση σε αυτό το σημείο.
+</p>
+<p>
+Δεν χρειάζεται να μετατρέψετε μια εικόνα σε μια ειδική μορφή πριν την αποθηκεύσετε στην προτιμώμενη σας μορφή
+καθώς το GIMP είναι αρκετά έξυπνο ώστε να εξαγάγει κατάλληλα την εικόνα.
+</p>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-tutorial-quickie-info.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-tutorial-quickies.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-flip.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tutorial-quickie-info.html">4.5. Εύρεση πληροφοριών για την εικόνα σας</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tutorial-quickie-flip.html">4.7. Αναστροφή εικόνας</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

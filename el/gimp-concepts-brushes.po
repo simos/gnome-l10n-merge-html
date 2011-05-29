@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-brushes.html:6(title) el/gimp-concepts-brushes.html:21(th) el/gimp-concepts-brushes.html:31(div:title)
+msgid "6. Πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:13(link:title) el/gimp-concepts-brushes.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:14(link:title)
+msgid "5.7. Μονοπάτια και αρχεία SVG"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:15(link:title) el/gimp-concepts-brushes.html:219(a)
+msgid "7. Προσθήκη νέων πινέλων"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:24(img:alt) el/gimp-concepts-brushes.html:204(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:24(td) el/gimp-concepts-brushes.html:204(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths-and-svg.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:26(img:alt) el/gimp-concepts-brushes.html:210(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:26(td) el/gimp-concepts-brushes.html:210(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-brushes.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:35(h2)
+msgid "<a id=\"gimp-concepts-brushes\"/>6. Πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:42(b)
+msgid "Εικόνα 7.15. Παράδειγμα γραμμών πινέλων"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:45(img:alt)
+msgid "Παράδειγμα γραμμών πινέλων"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:47(p)
+msgid "Ένας αριθμός παραδειγμάτων γραμμών πινέλων που χαράχτηκε χρησιμοποιώντας διαφορετικά πινέλα, από το σύνολο που προμηθεύει το GIMP. Όλα βάφτηκαν χρησιμοποιώντας το εργαλείο πινέλου."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:56(p)
+msgid "Ένα <span class=\"emphasis\"><em>πινέλο</em></span> είναι ένας χάρτης εικονοστοιχείων ή ένα σύνολο χαρτών εικονοστοιχείων που χρησιμεύουν για χρώση. Το GIMP περιλαμβάνει ένα σύνολο 10 <span class=\"quote\">“<span class=\"quote\">εργαλείων ζωγραφικής </span>”</span>, που όχι μόνο εκτελούν λειτουργίες που θα θεωρούσατε φυσιολογικά ως βάψιμο, αλλά επίσης λειτουργίες όπως σβήσιμο, αντιγραφή, μουτζούρωμα, φωτισμός, σκοτείνιασμα κλ. Όλα τα εργαλεία ζωγραφικής, εκτός από το εργαλείο μελάνης, χρησιμοποιούν το ίδιο σύνολο πινέλων. Οι χάρτες εικονοστοιχείων των πινέλων παριστάνουν τα σημάδια που γίνονται από απλές <span class=\"quote\">“<span class=\"quote\">επαφές</span>”</span> του πινέλου στην εικόνα. Μια γραμμή πινέλου γίνεται συνήθως μετακινώντας το δείκτη κατά μήκος της εικόνας με το πλήκτρο του ποντικιού πατημένο και παράγει μια σειρά από σημεία τοποθετημένα κατά μήκος της τροχιάς, με τρόπο που ορίζεται από τα χαρακτηριστικά του πινέλου και το εργαλείο ζωγραφικής που χρησιμοποιείται."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:68(p)
+msgid "Τα πινέλα μπορούν να επιλεγούν πατώντας σε ένα εικονίδιο στο <a class=\"link\" href=\"gimp-brush-dialog.html\" title=\"3.2.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3C9;&#x3BD;\">Διάλογος πινέλων</a>. Το <span class=\"emphasis\"><em>τρέχον πινέλο</em></span> του GIMP φαίνεται στην περιοχή της εργαλειοθήκης Πινέλα/Μοτίβα/Διαβαθμίσεις. Πατώντας στο σύμβολο πινέλου, είναι ένας τρόπος για ενεργοποίηση του διαλόγου πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:75(p)
+msgid "Όταν εγκαθιστάται το GIMP, έρχεται με έναν αριθμό βασικών πινέλων και μερικά παράξενα που σας δίνουν παραδείγματα για το τι είναι δυνατό (π.χ., το πινέλο της \"πράσινης πιπεριάς\" στη εικόνα). Μπορείτε επίσης να δημιουργήσετε νέα πινέλα, ή να τα κατεβάσετε και να τα εγκαταστήσετε έτσι ώστε το GIMP να τα αναγνωρίσει."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:80(p)
+msgid "Το GIMP μπορεί να χρησιμοποιήσει πολλούς διαφορετικούς τύπους πινέλων . Όλοι τους, όμως, χρησιμοποιούνται όμοια και για τους περισσότερους σκοπούς δεν χρειάζεται να ανησυχείτε για τις διαφορές, όταν βάφετε με πινέλα. Ιδού οι διαθέσιμοι τύποι πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:88(span)
+msgid "Συνηθισμένα πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:92(p)
+msgid "Τα περισσότερα από τα πινέλα που έρχονται με το GIMP ανήκουν σ΄ αυτή την κατηγορία. Εμφανίζονται στο διάλογο πινέλων με χάρτες εικονοστοιχείων γκρι κλίμακας. Όταν βάφετε με τα πινέλα το τρέχον χρώμα παρασκηνίου (όπως φαίνεται στην περιοχή χρώματος της εργαλειοθήκης) αντικαθιστά το μαύρο και ο εμφανιζόμενος χάρτης εικονοστοιχείων αντιπροσωπεύει το σημάδι που κάνει το πινέλο στην εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:98(p)
+msgid "Για να δημιουργήσετε ένα τέτοιο πινέλο. Δημιουργήστε μια μικρή εικόνα σε κλίμακα του γκρι χρησιμοποιώντας εστίαση. Αποθηκεύστε την με την επέκταση .gbr. Πατήστε το κουμπί της ανανέωσης στο διάλογο πινέλων για να την δείτε σε προεπισκόπηση χωρίς να χρειάζεται να επανεκκινήσετε το GIMP."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:105(span)
+msgid "Χρωματικά πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:109(p)
+msgid "Πινέλα σ' αυτή την κατηγορία αντιπροσωπεύονται από χρωματιστές εικόνες στο διάλογο πινέλων. Μπορεί να είναι εικόνες ή κείμενο. Όταν βάφετε μ' αυτά, τα χρώματα χρησιμοποιούνται όπως έχει ρυθμιστεί. Το τρέχον χρώμα προσκηνίου δεν παίζει ρόλο. Κατά τα άλλα δουλεύουν, όπως τα συνηθισμένα πινέλα."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:114(p)
+msgid "Για να δημιουργήσετε ένα τέτοιο πινέλο. Πρώτα, δημιουργείστε μια μικρή εικόνα RGBA. Γι' αυτό ανοίξτε νέα εικόνα, επιλέξτε ως τύπο εικόνας RGB και διαφάνεια για τον τύπο πλήρωσης. Σχεδιάστε την εικόνα σας και αρχικά αποθηκεύστε την ως .xcf αρχείο για να διατηρήσετε τις ιδιότητες της. Έπειτα, αποθηκεύστε την σε μορφή <span class=\"emphasis\"><em>.gbr</em></span>. Πατήστε στο κουμπί ανανέωση <span class=\"emphasis\"><em>Refresh</em></span> στο διάλογο πινέλων για να έχετε το πινέλο σας, χωρίς να χρειάζεται επανεκκίνηση του GIMP."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:122(div:title) el/gimp-concepts-brushes.html:128(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:126(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:132(p)
+msgid "Όταν αντιγράφετε ή αποκόβετε μια επιλογή, βλέπετε τα περιεχόμενα του πρόχειρου (που είναι η επιλογή) στην πρώτη θέση στο διάλογο πινέλων και μπορείτε να το χρησιμοποιήσετε για βάψιμο."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:142(b)
+msgid "Εικόνα 7.16. Επιλογή ως πινέλου μετά από αντιγραφή ή αποκοπή"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:145(img:alt)
+msgid "Επιλογή ως πινέλου μετά από αντιγραφή ή αποκοπή"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:152(span)
+msgid "Κινούμενα πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:157(p)
+msgid "Πινέλα σε αυτήν την κατηγορία μπορούν να κάνουν περισσότερα από ένα είδος σημαδιού στην εικόνα. Εμφανίζονται με μικρά κόκκινα τρίγωνα στην κάτω δεξιά γωνία του συμβόλου του πινέλου στο διάλογο πινέλων. Μερικές φορές αποκαλούνται \"κινούμενα πινέλα\" από τα σημάδια καθώς ιχνηλατείτε την πινελιά. Γενικά τα κινούμενα πινέλα μπορεί να είναι πολύ σύνθετα, ειδικά αν χρησιμοποιείτε μια ταμπλέτα, αλλάζοντας σχήμα ως συνάρτηση της πίεσης της γωνίας κλ. Αυτές οι δυνατότητες, όμως, δεν έχουν ποτέ πραγματικά εξερευνηθεί και οι δυνατότητες που έχει το GIMP είναι σχετικά απλές (αλλά παρόλα αυτά χρήσιμες)."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:165(p)
+msgid "Θα βρείτε ένα παράδειγμα δημιουργίας τέτοιων πινέλων στο <a class=\"link\" href=\"gimp-using-brushes.html\" title=\"7.&#xA0;&#x3A0;&#x3C1;&#x3BF;&#x3C3;&#x3B8;&#x3AE;&#x3BA;&#x3B7; &#x3BD;&#x3AD;&#x3C9;&#x3BD; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3C9;&#x3BD;\">Κινούμενα πινέλα</a>"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:171(span)
+msgid "Παραμετρικά πινέλα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:175(p)
+msgid "Αυτά τα πινέλα δημιουργήθηκαν με το: <a class=\"link\" href=\"gimp-brush-dialog.html#gimp-brush-editor-dialog\" title=\"3.2.3.&#xA0;&#x395;&#x3C0;&#x3B5;&#x3BE;&#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3C4;&#x3AE;&#x3C2; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3C9;&#x3BD;\">Επεξεργαστής πινέλων</a> που σας επιτρέπει να παράξετε μια μεγάλη ποικιλία σχημάτων πινέλων χρησιμοποιώντας μια απλή γραφική διεπαφή. Ένα όμορφο χαρακτηριστικό των παραμετρικών πινέλων είναι ότι <span class=\"emphasis\"><em>αλλάζουν μέγεθος</em></span>. Είναι δυνατόν, χρησιμοποιώντας το διάλογο <span class=\"guimenu\">Προτιμήσεις</span>, να κάνετε τις πιέσεις των πλήκτρων ή τις περιστροφές της ροδέλας του ποντικιού να προκαλούν στο τρέχον πινέλο αύξηση ή μείωση, εάν είναι παραμετρικά πινέλα."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:187(p)
+msgid "Τώρα, όλα τα πινέλα έχουν μεταβλητό μέγεθος. Στην πραγματικότητα, στο κουτί επιλογής όλων των εργαλείων ζωγραφικής υπάρχει ένας ολισθητής για να μεγαλώσει ή να μικρύνει το μέγεθος του ενεργού πινέλου. Μπορείτε να το κάνετε αυτό απευθείας στο παράθυρο εικόνας, εάν έχετε ορίσει σωστά τη ροδέλα του ποντικιού. Δείτε: <a class=\"link\" href=\"gimp-using-variable-size-brush.html\" title=\"9.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BC;&#x3B5;&#x3B3;&#x3AD;&#x3B8;&#x3BF;&#x3C5;&#x3C2; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF;&#x3C5;\">Αλλαγή μεγέθους πινέλου</a>."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:193(p)
+msgid "Πέρα από τον πίνακα εικονοστοιχείων του πινέλου κάθε πινέλο του GIMP έχει μια άλλη σημαντική ιδιότητα: <span class=\"emphasis\"><em>Το διάκενο</em></span> του πινέλου. Αυτό αντιπροσωπεύει την απόσταση μεταξύ διαδοχικών σημαδιών του πινέλου όταν μια συνεχής πινελιά χαράσσεται. Κάθε πινέλο έχει μια προκαθορισμένη αντιστοίχηση τιμής γι' αυτό, που μπορεί να τροποποιηθεί από το διάλογο πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:207(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:213(acronym)
+msgid "SVG"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:213(a)
+msgid "5.7. Μονοπάτια και αρχεία <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:213(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:216(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-brushes.html:219(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

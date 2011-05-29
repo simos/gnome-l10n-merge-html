@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-straight-lines.html:6(title) en/gimp-tutorial-straight-lines.html:21(th) en/gimp-tutorial-straight-lines.html:31(div:title)
+msgid "5. How to Draw Straight Lines"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:13(link:title) en/gimp-tutorial-straight-lines.html:25(th)
+msgid "Chapter 3. First Steps with Wilber"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:14(link:title) en/gimp-tutorial-straight-lines.html:241(a)
+msgid "4.8. Rotate An Image"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:15(link:title) en/gimp-tutorial-straight-lines.html:247(a)
+msgid "5.2. Examples"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:24(img:alt) en/gimp-tutorial-straight-lines.html:232(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:24(td) en/gimp-tutorial-straight-lines.html:232(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-rotate.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:26(img:alt) en/gimp-tutorial-straight-lines.html:238(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:26(td) en/gimp-tutorial-straight-lines.html:238(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-straight-lines-examples.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:35(h2)
+msgid "<a id=\"gimp-tutorial-straight-lines\"/>5. How to Draw Straight Lines"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:41(p)
+msgid "This tutorial is based on Text and images Copyright © 2002 Seth Burgess. The original tutorial can be found in the Internet <a class=\"xref\" href=\"bibliography.html#bibliography-online-tutorial01\" title=\"Tutorial: How to draw straight lines\">[<abbr class=\"abbrev\">TUT01</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:46(div:title)
+msgid "5.1. Intention"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:50(h3)
+msgid "<a id=\"gimp-tutorial-straight-lines-intention\"/>5.1. Intention"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:57(b)
+msgid "Figure 3.41. Example of straight lines"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:61(img:alt)
+msgid "Example of straight lines"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:66(p)
+msgid "This tutorial shows you how to draw straight lines with <acronym class=\"acronym\">GIMP</acronym>. Forcing a line to be straight is a convenient way to deal with the imprecision of a mouse or tablet, and to take advantage of the power of a computer to make things look neat and orderly. This tutorial doesn't use Straight Lines for complex tasks; its intended to show how you can use it to create quick and easy straight lines."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:77(li:title) en/gimp-tutorial-straight-lines.html:79(b)
+msgid "Preparations"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:84(span)
+msgid "Shift"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:84(b)
+msgid "Figure 3.42. Introducing the <placeholder-1/>-key"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:88(img:alt) en/gimp-tutorial-straight-lines.html:91(img:alt)
+msgid "Introducing the Shift-key"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:96(p)
+msgid "The invention called the typewriter introduced the <span class=\"keycap\"><strong>Shift</strong></span> Key. You generally have 2 of them on your keyboard. They look something like the figure above. The keys are located on the left and right sides of your keyboard. The mouse was invented by Douglas C. Engelbart in 1970. These come in different varieties, but always have at least one button."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:106(li:title) en/gimp-tutorial-straight-lines.html:108(b)
+msgid "Creating a Blank Drawable"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:113(b)
+msgid "Figure 3.43. New image"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:117(img:alt)
+msgid "New image"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:122(p)
+msgid "First, create a new image. Any size will do. Use <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">New</span> to create a new image."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:128(li:title) en/gimp-tutorial-straight-lines.html:130(b)
+msgid "Choose a Tool"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:135(b)
+msgid "Figure 3.44. Paint tools in the toolbox"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:139(img:alt)
+msgid "Paint tools in the toolbox"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:144(p)
+msgid "Any of the red-highlighted tools on the above toolbox can do lines."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:148(li:title) en/gimp-tutorial-straight-lines.html:150(b)
+msgid "Create a Starting Point"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:155(b)
+msgid "Figure 3.45. Starting point"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:159(img:alt)
+msgid "Starting point"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:164(p)
+msgid "Click on the paintbrush in the toolbox. Click in the image where you want a line to start or end. A single dot will appear on the screen. The size of this dot represents the current brush size, which you can change in the Brush Dialog (see <a class=\"xref\" href=\"gimp-brush-dialog.html\" title=\"3.2.&#xA0;Brushes Dialog\">Section 3.2, “Brushes Dialog”</a>).Now, lets start drawing a line. Hold down the <span class=\"keycap\"><strong>Shift</strong></span> key, and keep it down."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:174(li:title) en/gimp-tutorial-straight-lines.html:176(b)
+msgid "Drawing the Line"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:181(b)
+msgid "Figure 3.46. Drawing the line"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:185(img:alt)
+msgid "Drawing the line"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:190(p)
+msgid "After you have a starting point and while pressing the <span class=\"keycap\"><strong>Shift</strong></span>, you will see a straight line that follows the cursor. Press the first button on the Mouse (the leftmost one usually) and let it go. During that whole <span class=\"quote\">“<span class=\"quote\">click</span>”</span> of the <span class=\"mousebutton\">Mouse button</span>, you need to keep the <span class=\"keycap\"><strong>Shift</strong></span> Key held down."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:200(li:title) en/gimp-tutorial-straight-lines.html:202(b)
+msgid "Final"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:207(b)
+msgid "Figure 3.47. Final Image"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:211(img:alt)
+msgid "Final Image"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:216(p)
+msgid "This is a powerful feature. You can draw straight lines with any of the draw tools. You can even draw more lines at the end of this one. Our last step is to let go of the <span class=\"keycap\"><strong>Shift</strong></span> key. And there you have it. Some more examples are shown below. Happy <acronym class=\"acronym\">GIMP</acronym>ing!"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:235(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:241(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:244(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines.html:247(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

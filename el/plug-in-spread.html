@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>6.7. Spread</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+    <link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-noise.html" title="6.  Noise Filters" />
+    <link rel="prev" href="plug-in-randomize-slur.html" title="6.6. Slur" />
+    <link rel="next" href="filters-edge.html" title="7. Edge-Detect Filters" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">6.7. Spread</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="plug-in-randomize-slur.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">6. 
+    <span>Noise Filters</span>
+  </th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-edge.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" lang="en" xml:lang="en">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-spread"></a>6.7. Spread</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id528638" class="indexterm"></a>
+      <a id="id478392" class="indexterm"></a>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id455806"></a>6.7.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id634820"></a>
+          <p class="title">
+            <b>Figure 16.134. Example of applying the Spread filter</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example of applying the Spread filter" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/noise-taj-spread.jpg" alt="Example of applying the Spread filter" />
+              <div class="caption">
+                <p>Filter “<span class="quote">Spread</span>” applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      The Spread filter swaps each pixel in the active layer or selection with
+      another randomly chosen pixel by a user specified amount. It works on
+      color transitions, not on plain color areas. No new color is introduced.
+    </p>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id590490"></a>6.7.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Noise</span> → <span class="guimenuitem">Spread</span>.
+    </p>
+      </div>
+      <div class="sect3" lang="en" xml:lang="en">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id619901"></a>6.7.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id654291"></a>
+          <p class="title">
+            <b>Figure 16.135. “<span class="quote">Spread</span>” filter options</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/options-noise-spread.png" alt="Spread filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Preview</span>
+            </dt>
+            <dd>
+              <p>
+            This preview displays interactively changes before they are
+            applied to the image.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Spread amount</span>
+            </dt>
+            <dd>
+              <p>
+            You can set the distance that pixels will be moved along
+            <span class="guilabel">Horizontal</span> and
+            <span class="guilabel">Vertical</span> axis. The axis can be locked by
+            clicking the Chain icon. You can also define the Unit to be
+            used.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-randomize-slur.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-noise.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-edge.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-randomize-slur.html">6.6. Slur</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-edge.html">7. Edge-Detect Filters</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

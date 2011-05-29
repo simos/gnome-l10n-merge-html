@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-jpeg.html:6(title) en/gimp-tutorial-quickie-jpeg.html:21(th) en/gimp-tutorial-quickie-jpeg.html:31(div:title)
+msgid "4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:13(link:title) en/gimp-tutorial-quickie-jpeg.html:25(th)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:14(link:title) en/gimp-tutorial-quickie-jpeg.html:190(a)
+msgid "4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:15(link:title) en/gimp-tutorial-quickie-jpeg.html:196(a)
+msgid "4.4. Crop An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:24(img:alt) en/gimp-tutorial-quickie-jpeg.html:181(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:24(td) en/gimp-tutorial-quickie-jpeg.html:181(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-scale.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:26(img:alt) en/gimp-tutorial-quickie-jpeg.html:187(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:26(td) en/gimp-tutorial-quickie-jpeg.html:187(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-crop.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-jpeg\"/>4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:44(b)
+msgid "Figure 3.20. Example Image for JPEG Saving"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:48(img:alt)
+msgid "Example Image for JPEG Saving"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:53(p)
+msgid "You can make your jpegs smaller (use less space on disk) without changing the image dimensions. The image for this example is also take from APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod04\" title=\"Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15)\">[<abbr class=\"abbrev\">APOD04</abbr>]</a>. The original image is huge (3000 pixels wide) so first I reduced the width and height for better use on the web (see <a class=\"xref\" href=\"gimp-tutorial-quickie-scale.html\" title=\"4.2.&#xA0;Change the Size of an Image (Scale)\">Section 4.2, “Change the Size of an Image (Scale)”</a>). Use <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">Save As</span> to open the Save Image dialog."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:67(b)
+msgid "Figure 3.21. Save Image Dialog"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:71(img:alt)
+msgid "Save Image Dialog"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:76(p)
+msgid "I usually type the full filename with extension into Name text box, and <acronym class=\"acronym\">GIMP</acronym> determines the file type from the file extension; for example, .jpg. Use the file extension list, circled in the figure above, to see the types supported by <acronym class=\"acronym\">GIMP</acronym>. The supported extensions change depending on your installed libraries. If <acronym class=\"acronym\">GIMP</acronym> complains, or if <span class=\"quote\">“<span class=\"quote\">JPEG</span>”</span> is grayed out in the Extensions menu, cancel out of everything and step through the <a class=\"xref\" href=\"gimp-tutorial-quickie-change-mode.html\" title=\"4.6.&#xA0;Change the Mode\">Section 4.6, “Change the Mode”</a>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:88(p)
+msgid "The Save as JPEG dialog uses default values that reduce size while retaining good visual quality; this is the safest and quickest thing to do."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:96(b)
+msgid "Figure 3.22. Save as JEPG dialog with poor quality."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:100(img:alt)
+msgid "Save as JEPG dialog with poor quality."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:105(p)
+msgid "Reduce the image Quality to to make the image even smaller. Reduced quality degrades the image, so be certain to check <span class=\"quote\">“<span class=\"quote\">Show preview in image window</span>”</span>. As shown in the figure above, a Quality of 6 produces a very poor quality image that uses very little disk space. The figure below shows a more reasonable image. A quality of 42 produces a reasonable image using much less disk space, which will, in turn, load much faster on a web page. Although the image is degraded, it is acceptable for the intended purpose."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:119(b)
+msgid "Figure 3.23. Dialog for Image Saving as JPEG"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:123(img:alt)
+msgid "Dialog for Image Saving as JPEG"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:128(p)
+msgid "I have not been showing the actual jpegs I created so that we could end this quickie with a race."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:135(b)
+msgid "Figure 3.24. Example for High JPEG Compression"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:139(img:alt) en/gimp-tutorial-quickie-jpeg.html:145(img:alt)
+msgid "Example for High JPEG Compression"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:141(p)
+msgid "Quality: 6; Size: 1361 Bytes"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:147(p)
+msgid "Quality: 42; Size: 3549 Bytes"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:156(b)
+msgid "Figure 3.25. Example for Moderate JPEG Compression"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:160(img:alt) en/gimp-tutorial-quickie-jpeg.html:168(img:alt)
+msgid "Example for Moderate JPEG Compression"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:162(p)
+msgid "Quality: 85 (<acronym class=\"acronym\">GIMP</acronym>s default); Size: 6837 Bytes"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:170(p)
+msgid "Quality: 100; Size: 20,971 Bytes"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:184(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:190(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:193(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-jpeg.html:196(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

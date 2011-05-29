@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial.html:6(title) en/gimp-using-script-fu-tutorial.html:21(th) en/gimp-using-script-fu-tutorial.html:31(div:title)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:13(link:title) en/gimp-using-script-fu-tutorial.html:25(th)
+msgid "Chapter 12. Scripting"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:14(link:title) en/gimp-using-script-fu-tutorial.html:297(a)
+msgid "2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:15(link:title) en/gimp-using-script-fu-tutorial.html:303(a)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:24(img:alt) en/gimp-using-script-fu-tutorial.html:288(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:24(td) en/gimp-using-script-fu-tutorial.html:288(td)
+msgid "<a accesskey=\"p\" href=\"image-independent-script-fu.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:26(img:alt) en/gimp-using-script-fu-tutorial.html:294(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:26(td) en/gimp-using-script-fu-tutorial.html:294(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-identifier.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:35(h2)
+msgid "<a id=\"gimp-using-script-fu-tutorial\"/>3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:40(p)
+msgid "In this training course, we'll introduce you to the fundamentals of Scheme necessary to use Script-Fu, and then build a handy script that you can add to your toolbox of scripts. The script prompts the user for some text, then creates a new image sized perfectly to the text. We will then enhance the script to allow for a buffer of space around the text. We will conclude with a few suggestions for ways to ramp up your knowledge of Script-Fu."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:49(div:title) en/gimp-using-script-fu-tutorial.html:55(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:53(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:59(p)
+msgid "This section as adapted from a tutorial written for the <span class=\"application\"><acronym class=\"acronym\">GIMP</acronym> 1</span> User Manual by Mike Terry."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:68(div:title)
+msgid "3.1. Getting Acquainted With Scheme"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:72(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-scheme\"/>3.1. Getting Acquainted With Scheme"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:76(div:title)
+msgid "3.1.1. Let's Start Scheme'ing"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:80(h4)
+msgid "<a id=\"id3234339\"/>3.1.1. Let's Start Scheme'ing"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:84(p)
+msgid "The first thing to learn is that:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:87(p)
+msgid "Every statement in Scheme is surrounded by parentheses ()."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:92(p)
+msgid "The second thing you need to know is that:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:95(p)
+msgid "The function name/operator is always the first item in the parentheses, and the rest of the items are parameters to the function."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:102(p)
+msgid "However, not everything enclosed in parentheses is a function — they can also be items in a list — but we'll get to that later. This notation is referred to as prefix notation, because the function prefixes everything else. If you're familiar with postfix notation, or own a calculator that uses Reverse Polish Notation (such as most HP calculators), you should have no problem adapting to formulating expressions in Scheme."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:111(p)
+msgid "The third thing to understand is that:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:114(p)
+msgid "Mathematical operators are also considered functions, and thus are listed first when writing mathematical expressions."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:120(p)
+msgid "This follows logically from the prefix notation that we just mentioned."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:125(div:title)
+msgid "3.1.2. Examples Of Prefix, Infix, And Postfix Notations"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:129(h4)
+msgid "<a id=\"id3238431\"/>3.1.2. Examples Of Prefix, Infix, And Postfix Notations"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:133(p)
+msgid "Here are some quick examples illustrating the differences between <span class=\"emphasis\"><em>prefix</em></span>, <span class=\"emphasis\"><em>infix</em></span>, and <span class=\"emphasis\"><em>postfix</em></span> notations. We'll add a 1 and 23 together:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:141(p)
+msgid "Prefix notation: <strong class=\"userinput\"><code>+ 1 23</code></strong> (the way Scheme will want it)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:147(p)
+msgid "Infix notation: <strong class=\"userinput\"><code>1 + 23</code></strong> (the way we <span class=\"quote\">“<span class=\"quote\">normally</span>”</span> write it)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:153(p)
+msgid "Postfix notation: <strong class=\"userinput\"><code>1 23 +</code></strong> (the way many <acronym class=\"acronym\">HP</acronym> calculators will want it)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:161(div:title)
+msgid "3.1.3. Practicing In Scheme"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:165(h4)
+msgid "<a id=\"id3238385\"/>3.1.3. Practicing In Scheme"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:169(p)
+msgid "Now, let's practice what we have just learned. Start up <acronym class=\"acronym\">GIMP</acronym>, if you have not already done so, and choose <span class=\"guimenu\">Filters</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Console</span>. This will start up the Script-Fu Console window, which allows us to work interactively in Scheme. In a matter of moments, the Script-Fu Console will appear:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:178(div:title)
+msgid "3.1.4. The Script-Fu Console Window"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:182(h4)
+msgid "<a id=\"gimp-using-script-fu-tutorial-console\"/>3.1.4. The Script-Fu Console Window"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:186(p)
+msgid "At the bottom of this window is an entry-field ought to be entitled <span class=\"guilabel\">Current Command</span>. Here, we can test out simple Scheme commands interactively. Let's start out easy, and add some numbers:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:192(pre)
+#, no-wrap
+msgid "(+ 3 5)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:193(p)
+msgid "Typing this in and hitting <span class=\"keycap\"><strong>Enter</strong></span> yields the expected answer of 8 in the center window."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:200(b)
+msgid "Figure 12.3. Use Script-Fu Console."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:204(img:alt)
+msgid "Use Script-Fu Console."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:209(p)
+msgid "Now, what if we wanted to add more than one number? The <span class=\"quote\">“<span class=\"quote\">+</span>”</span> function can take two or more arguments, so this is not a problem:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:214(pre)
+#, no-wrap
+msgid "(+ 3 5 6)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:215(p)
+msgid "This also yields the expected answer of 14."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:216(p)
+msgid "So far, so good — we type in a Scheme statement and it's executed immediately in the Script-Fu Console window. Now for a word of caution…"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:222(div:title)
+msgid "3.1.5. Watch Out For Extra Parentheses"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:226(h4)
+msgid "<a id=\"id3231840\"/>3.1.5. Watch Out For Extra Parentheses"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:230(p)
+msgid "If you're like me, you're used to being able to use extra parentheses whenever you want to — like when you're typing a complex mathematical equation and you want to separate the parts by parentheses to make it clearer when you read it. In Scheme, you have to be careful and not insert these extra parentheses incorrectly. For example, say we wanted to add 3 to the result of adding 5 and 6 together:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:239(pre)
+#, no-wrap
+msgid "3 + (5 + 6) + 7 = ?"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:240(p)
+msgid "Knowing that the + operator can take a list of numbers to add, you might be tempted to convert the above to the following:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:244(pre)
+#, no-wrap
+msgid "(+ 3 (5 6) 7)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:245(p)
+msgid "However, this is incorrect — remember, every statement in Scheme starts and ends with parens, so the Scheme interpreter will think that you're trying to call a function named <span class=\"quote\">“<span class=\"quote\">5</span>”</span> in the second group of parens, rather than summing those numbers before adding them to 3."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:252(p)
+msgid "The correct way to write the above statement would be:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:253(pre)
+#, no-wrap
+msgid "(+ 3 (+ 5 6) 7)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:255(div:title)
+msgid "3.1.6. Make Sure You Have The Proper Spacing, Too"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:259(h4)
+msgid "<a id=\"id3231787\"/>3.1.6. Make Sure You Have The Proper Spacing, Too"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:263(p)
+msgid "If you are familiar with other programming languages, like C/C++, Perl or Java, you know that you don't need white space around mathematical operators to properly form an expression:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:269(code)
+msgid "3+5, 3 +5, 3+ 5"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:271(p)
+msgid "These are all accepted by C/C++, Perl and Java compilers. However, the same is not true for Scheme. You must have a space after a mathematical operator (or any other function name or operator) in Scheme for it to be correctly interpreted by the Scheme interpreter."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:277(p)
+msgid "Practice a bit with simple mathematical equations in the Script-Fu Console until you're totally comfortable with these initial concepts."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:291(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:297(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:300(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial.html:303(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

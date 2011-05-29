@@ -1,0 +1,1791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-pimping.html:6(title) el/gimp-pimping.html:21(th) el/gimp-pimping.html:32(div:title)
+msgid "Κεφάλαιο 11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/gimp-pimping.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-pimping.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-pimping.html:13(link:title) el/gimp-pimping.html:25(th)
+msgid "Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-pimping.html:14(link:title) el/gimp-pimping.html:2412(a)
+msgid "Κεφάλαιο 10. Διαχείριση χρώματος του GIMP"
+msgstr ""
+
+#: el/gimp-pimping.html:15(link:title) el/gimp-pimping.html:2418(a)
+msgid "2. Πλέγματα και οδηγοί"
+msgstr ""
+
+#: el/gimp-pimping.html:24(img:alt) el/gimp-pimping.html:2403(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-pimping.html:24(td) el/gimp-pimping.html:2403(td)
+msgid "<a accesskey=\"p\" href=\"gimp-imaging-color-management.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-pimping.html:27(img:alt) el/gimp-pimping.html:2409(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-pimping.html:27(td) el/gimp-pimping.html:2409(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-image-grid-and-guides.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-pimping.html:36(h2)
+msgid "<a id=\"gimp-pimping\"/>Κεφάλαιο 11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/gimp-pimping.html:42(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-pimping.html:47(a)
+msgid "1. Διάλογος προτιμήσεων"
+msgstr ""
+
+#: el/gimp-pimping.html:54(a)
+msgid "1.1. Εισαγωγή"
+msgstr ""
+
+#: el/gimp-pimping.html:59(a)
+msgid "1.2. Περιβάλλον"
+msgstr ""
+
+#: el/gimp-pimping.html:64(a)
+msgid "1.3. Διεπαφή"
+msgstr ""
+
+#: el/gimp-pimping.html:69(a)
+msgid "1.4. Θέμα"
+msgstr ""
+
+#: el/gimp-pimping.html:74(a)
+msgid "1.5. Σύστημα βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:79(a)
+msgid "1.6. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:84(a)
+msgid "1.7. Εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-pimping.html:89(a)
+msgid "1.8. Προεπιλεγμένες προτιμήσεις εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:94(a)
+msgid "1.9. Προεπιλεγμένο πλέγμα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:99(a)
+msgid "1.10. Παράθυρα εικόνων"
+msgstr ""
+
+#: el/gimp-pimping.html:104(a)
+msgid "1.11. Εμφάνιση παραθύρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:109(a)
+msgid "1.12. Τίτλος παραθύρου εικόνας και γραμμής κατάστασης"
+msgstr ""
+
+#: el/gimp-pimping.html:114(a)
+msgid "1.13. Εμφάνιση"
+msgstr ""
+
+#: el/gimp-pimping.html:119(a)
+msgid "1.14. Διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:124(a)
+msgid "1.15. Συσκευές εισαγωγής"
+msgstr ""
+
+#: el/gimp-pimping.html:129(a)
+msgid "1.16. Ελεγκτές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:134(a)
+msgid "1.17. Διαχείριση παραθύρου"
+msgstr ""
+
+#: el/gimp-pimping.html:139(a)
+msgid "1.18. Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:144(a)
+msgid "1.19. Δεδομένα φακέλων"
+msgstr ""
+
+#: el/gimp-pimping.html:151(a)
+msgid "2. Πλέγματα και οδηγοί"
+msgstr ""
+
+#: el/gimp-pimping.html:158(a)
+msgid "2.1. Πλέγμα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:163(a)
+msgid "2.2. Οδηγοί"
+msgstr ""
+
+#: el/gimp-pimping.html:170(a)
+msgid "3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/gimp-pimping.html:175(a)
+msgid "4. Ρύθμιση της παράθεσης προσωρινής αποθήκευσης"
+msgstr ""
+
+#: el/gimp-pimping.html:180(a)
+msgid "5. Δημιουργία συντομεύσεων στο μενού λειτουργιών"
+msgstr ""
+
+#: el/gimp-pimping.html:185(a)
+msgid "6. Προσαρμογή αρχικής οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:190(div:title)
+msgid "1. Διάλογος προτιμήσεων"
+msgstr ""
+
+#: el/gimp-pimping.html:194(h2)
+msgid "<a id=\"gimp-prefs-dialog\"/>1. Διάλογος προτιμήσεων"
+msgstr ""
+
+#: el/gimp-pimping.html:200(div:title)
+msgid "1.1. Εισαγωγή"
+msgstr ""
+
+#: el/gimp-pimping.html:204(h3)
+msgid "<a id=\"id3206452\"/>1.1. Εισαγωγή"
+msgstr ""
+
+#: el/gimp-pimping.html:211(b)
+msgid "Εικόνα 11.1. Κατάλογος των σελίδων προτίμησης"
+msgstr ""
+
+#: el/gimp-pimping.html:215(img:alt)
+msgid "Κατάλογος των σελίδων προτίμησης"
+msgstr ""
+
+#: el/gimp-pimping.html:220(p)
+msgid "Ο διάλογος προτιμήσεων είναι προσβάσιμος από τη γραμμή μενού εικόνας, μέσα από <span class=\"guimenu\">Επεξεργασία</span> → <span class=\"guimenuitem\">Προτιμήσεις</span>. Σας επιτρέπει να προσαρμόσετε πολλές πτυχές του τρόπου εργασίας του GIMP. Οι παρακάτω παράγραφοι επιλαμβάνονται λεπτομερώς των ρυθμίσεων που μπορείτε να προσαρμόσετε και των συνεπειών τους."
+msgstr ""
+
+#: el/gimp-pimping.html:226(p)
+msgid "Όλες οι πληροφορίες προτιμήσεων αποθηκεύονται σε ένα αρχείο που λέγεται <code class=\"filename\">gimprc</code> στον προσωπικό σας κατάλογο GIMP, έτσι εάν είσθε ένας <span class=\"quote\">“<span class=\"quote\">δυναμικός χρήστης</span>”</span> που θα προτιμούσε να δουλέψει με τον επεξεργαστή κειμένου παρά με γραφική διεπαφή, μπορείτε να μεταβάλλετε τις προτιμήσεις επεξεργαζόμενοι αυτό το αρχείο. Εάν το κάνετε, και είσαστε σε σύστημα Linux, τότε το <span class=\"command\"><strong>man gimprc</strong></span> θα σας δώσει πολλές τεχνικές πληροφορίες για τα περιεχόμενα του αρχείου και που χρησιμοποιούνται."
+msgstr ""
+
+#: el/gimp-pimping.html:235(div:title)
+msgid "1.2. Περιβάλλον"
+msgstr ""
+
+#: el/gimp-pimping.html:239(h3)
+msgid "<a id=\"gimp-prefs-environment\"/>1.2. Περιβάλλον"
+msgstr ""
+
+#: el/gimp-pimping.html:248(b)
+msgid "Εικόνα 11.2. Προτιμήσεις περιβάλλοντος"
+msgstr ""
+
+#: el/gimp-pimping.html:252(img:alt)
+msgid "Προτιμήσεις περιβάλλοντος"
+msgstr ""
+
+#: el/gimp-pimping.html:254(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε το ποσό της μνήμης του συστήματος που καταμερίζεται για ποικίλους σκοπούς. Σας επιτρέπει επίσης να απενεργοποιήσετε τους διαλόγους επιβεβαίωσης που εμφανίζονται όταν κλείσετε αναποθηκευμένες εικόνες και να ρυθμίσετε το μέγεθος των αρχείων μικρογραφιών που παράγει το GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:264(div:title)
+msgid "1.2.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:268(h4)
+msgid "<a id=\"id3194680\"/>1.2.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:272(div:title)
+msgid "Resource Consumption"
+msgstr ""
+
+#: el/gimp-pimping.html:274(b)
+msgid "Κατανάλωση πόρων"
+msgstr ""
+
+#: el/gimp-pimping.html:278(span)
+msgid "Minimal number of undo levels (ελάχιστος αριθμός σταθμών αναίρεσης)"
+msgstr ""
+
+#: el/gimp-pimping.html:281(p)
+msgid "Το GIMP σας επιτρέπει να αναιρέσετε τις περισσότερες ενέργειες διατηρώντας ένα <span class=\"quote\">“<span class=\"quote\">ιστορικό αναιρέσεων</span>”</span> για κάθε εικόνα, για το οποίο ένα συγκεκριμένο ποσό μνήμης καταμερίζεται. Ανεξάρτητα από τη χρήση της μνήμης, όμως, το GIMP επιτρέπει πάντοτε ένας ελάχιστος αριθμός των πιο πρόσφατων ενεργειών να αναιρεθούν. Αυτός είναι ο αριθμός που καθορίζεται εδώ. Δείτε <a class=\"xref\" href=\"gimp-concepts-undo.html\" title=\"3.&#xA0;&#x391;&#x3BD;&#x3B1;&#x3AF;&#x3C1;&#x3B5;&#x3C3;&#x3B7;\">Ενότητα 3, “Αναίρεση”</a> για περισσότερες πληροφορίες για το μηχανισμό αναίρεσης του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:291(span)
+msgid "Μέγιστη μνήμη αναιρέσεων"
+msgstr ""
+
+#: el/gimp-pimping.html:294(p)
+msgid "Αυτό είναι το ποσό της μνήμης αναίρεσης που καταμερίζεται για κάθε εικόνα. Εάν το μέγεθος του ιστορικού αναιρέσεων το ξεπερνά, τα πιο παλιά σημεία διαγράφονται, εκτός και αυτό οδηγεί σε λιγότερα σημεία να είναι παρόντα από τον ελάχιστο αριθμό που ορίζεται πιο πάνω."
+msgstr ""
+
+#: el/gimp-pimping.html:301(span)
+msgid "Tile cache size (Μέγεθος κρυφής μνήμης)"
+msgstr ""
+
+#: el/gimp-pimping.html:304(p)
+msgid "Αυτό είναι το ποσό της μνήμης RAM που καταμερίζεται για τα δεδομένα εικόνας του GIMP. Εάν το GIMP απαιτεί πιο πολλή μνήμη από αυτή αρχίζει να εναλλάσσει με τη μνήμη του δίσκου που σε κάποιες περιπτώσεις μπορεί να προκαλέσει δραματική επιβράδυνση. Σας δίνεται η ευκαιρία να ορίσετε αυτό τον αριθμό, όταν εγκαθίσταται το GIMP, αλλά μπορείτε να το αλλάξετε εδώ. Δείτε <a class=\"link\" href=\"gimp-using-setup-tile-cache.html\" title=\"4.&#xA0;&#x3A1;&#x3CD;&#x3B8;&#x3BC;&#x3B9;&#x3C3;&#x3B7; &#x3BA;&#x3C1;&#x3C5;&#x3C6;&#x3AE;&#x3C2; &#x3BC;&#x3BD;&#x3AE;&#x3BC;&#x3B7;&#x3C2;\">Ρύθμιση κρυφής μνήμης</a> για περισσότερες πληροφορίες."
+msgstr ""
+
+#: el/gimp-pimping.html:314(span)
+msgid "Μέγιστο μέγεθος νέας εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:317(p)
+msgid "Αυτός δεν είναι δύσκολος περιορισμός. Εάν προσπαθείτε να δημιουργήσετε μια νέα εικόνα μεγαλύτερη από το προκαθορισμένο μέγεθος, σας ζητιέται να επιβεβαιώσετε ότι πραγματικά το θέλετε. Αυτό γίνεται για να αποφύγετε τυχαία δημιουργία εικόνων πολύ μεγαλύτερων από την πρόθεση σας, που μπορεί είτε να κρεμάσει το GIMP ή να ανταποκρίνεται πολύ αργά."
+msgstr ""
+
+#: el/gimp-pimping.html:325(span)
+msgid "Αριθμός επεξεργαστών για χρήση"
+msgstr ""
+
+#: el/gimp-pimping.html:328(p)
+msgid "Ο προκαθορισμένος είναι ένας. Ο υπολογιστής σας μπορεί να έχει περισσότερους από έναν επεξεργαστή."
+msgstr ""
+
+#: el/gimp-pimping.html:334(div:title) el/gimp-pimping.html:336(b)
+msgid "Μικρογραφίες εικόνων"
+msgstr ""
+
+#: el/gimp-pimping.html:340(span)
+msgid "Μέγεθος των μικρογραφιών"
+msgstr ""
+
+#: el/gimp-pimping.html:343(p)
+msgid "Αυτή η επιλογή σας επιτρέπει να ορίσετε το μέγεθος των εμφανιζόμενων μικρογραφιών στο διάλογο ανοίγματος αρχείο (και επίσης αποθήκευσης για ενδεχόμενη χρήση από άλλα προγράμματα). Οι επιλογές είναι <span class=\"quote\">“<span class=\"quote\"> Χωρίς μικρογραφίες</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Κανονικό (128x128)</span>”</span> και <span class=\"quote\">“<span class=\"quote\">Μεγάλο (256x256)</span>”</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:352(span)
+msgid "Μέγιστο μέγεθος αρχείου για μικρογραφίες"
+msgstr ""
+
+#: el/gimp-pimping.html:355(p)
+msgid "Εάν ένα αρχείο εικόνας είναι μεγαλύτερο από το ορισμένο μέγιστο μέγεθος, το GIMP δεν θα δημιουργήσει μικρογραφία. Αυτές οι επιλογές σας επιτρέπουν να αποφύγετε αρχεία με μικρογραφίες υπερβολικά μεγάλων εικόνων που οδηγούν από επιβράδυνση μέχρι κατάρρευση του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:363(div:title) el/gimp-pimping.html:365(b)
+msgid "Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/gimp-pimping.html:369(span)
+msgid "Επιβεβαίωση κλεισίματος μη αποθηκευμένων εικόνων"
+msgstr ""
+
+#: el/gimp-pimping.html:372(p)
+msgid "Το κλείσιμο μιας εικόνας δεν αναιρείται, έτσι από προεπιλογή το GIMP σας ζητά να επιβεβαιώσετε ότι όντως το θέλετε, οποτεδήποτε θα μπορούσε να οδηγήσει σε απώλεια μη αποθηκευμένων αλλαγών. Μπορείτε να το απενεργοποιήσετε, εάν το βρίσκετε ενοχλητικό, αλλά τότε θα πρέπει να θυμόσαστε εσείς, εάν το αποθηκεύσατε ή όχι."
+msgstr ""
+
+#: el/gimp-pimping.html:381(div:title) el/gimp-pimping.html:383(b)
+msgid "Ιστορικό εγγράφου"
+msgstr ""
+
+#: el/gimp-pimping.html:387(span)
+msgid "Διατήρηση ιστορικού από χρησιμοποιημένα αρχεία στη λίστα πρόσφατων εγγράφων"
+msgstr ""
+
+#: el/gimp-pimping.html:390(p)
+msgid "Εάν επιλεγεί, τα αρχεία που ανοίξατε θα αποθηκευτούν στο ιστορικό εγγράφου. Μπορείτε να προσπελάσετε τη λίστα των αρχείων <a class=\"link\" href=\"gimp-document-dialog.html\" title=\"4.3.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3B9;&#x3C3;&#x3C4;&#x3BF;&#x3C1;&#x3B9;&#x3BA;&#x3BF;&#x3CD; &#x3B5;&#x3B3;&#x3B3;&#x3C1;&#x3AC;&#x3C6;&#x3BF;&#x3C5;\">Διάλογος ιστορικού εγγράφου</a> από τη γραμμή μενού της εικόνας: <span class=\"guimenu\">Αρχείο</span> → <span class=\"guisubmenu\">Άνοιγμα πρόσφατου</span> → <span class=\"guimenuitem\">Ιστορικό εγγράφου</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:402(div:title)
+msgid "1.3. Διεπαφή"
+msgstr ""
+
+#: el/gimp-pimping.html:406(h3)
+msgid "<a id=\"gimp-prefs-interface\"/>1.3. Διεπαφή"
+msgstr ""
+
+#: el/gimp-pimping.html:417(b)
+msgid "Εικόνα 11.3. Οι προτιμήσεις της διεπαφής χρήστη"
+msgstr ""
+
+#: el/gimp-pimping.html:421(img:alt)
+msgid "Οι προτιμήσεις της διεπαφής χρήστη"
+msgstr ""
+
+#: el/gimp-pimping.html:423(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τις προεπισκοπήσεις στρώσης/καναλιού και τις συντομεύσεις του πληκτρολογίου."
+msgstr ""
+
+#: el/gimp-pimping.html:432(div:title) el/gimp-pimping.html:434(b) el/gimp-pimping.html:2348(div:title) el/gimp-pimping.html:2350(b)
+msgid "Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:440(span)
+msgid "Προεπισκοπήσεις"
+msgstr ""
+
+#: el/gimp-pimping.html:443(p)
+msgid "Από προεπιλογή, το GIMP δείχνει μικροσκοπικές προεπισκοπήσεις των περιεχομένων των στρώσεων και των καναλιών σε πολλές θέσεις, συμπεριλαμβανομένου του διαλόγου στρώσεων. Εάν για κάποιο λόγο θα θέλατε να το απενεργοποιήσετε μπορείτε να το κάνετε αποεπιλέγοντας <span class=\"guilabel\">Ενεργοποίηση προεπισκοπήσεων στρώσεων και καναλιών</span>. Εάν θέλετε να εμφανίζονται οι προεπισκοπήσεις, μπορείτε να προσαρμόσατε τα μεγέθη τους χρησιμοποιώντας τα μενού για <span class=\"guilabel\">Προεπιλεγμένο μέγεθος προεπισκοπήσεων στρώσεων και καναλιών</span> και <span class=\"guilabel\">Μέγεθος προεπισκόπησης περιήγησης</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:454(span)
+msgid "Συντομεύσεις πληκτρολογίου"
+msgstr ""
+
+#: el/gimp-pimping.html:457(p)
+msgid "Οποιοδήποτε στοιχείο του μενού μπορεί να ενεργοποιηθεί κρατώντας πατημένο <span class=\"keycap\"><strong>Alt</strong></span> και πατώντας μια ακολουθία πλήκτρων. Κανονικά, το πλήκτρο που συνδέεται με κάθε εγγραφή του μενού εμφανίζεται με ένα υπογραμμισμένο γράμμα στο κείμενο, αποκαλούμενο <span class=\"emphasis\"><em>επιταχυντής</em></span>. Εάν για κάποιο λόγο θα επιθυμούσατε οι υπογραμμίσεις να απομακρυνθούν (ίσως επειδή είναι άσχημες και δεν τις χρησιμοποιείτε), μπορείτε να το κάνετε αποεπιλέγοντας <span class=\"guilabel\">Εμφάνιση μνημονικών στα μενού (πλήκτρα γρήγορης πρόσβασης)</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:464(p)
+msgid "Το GIMP σας δίνει τη δυνατότητα δημιουργίας συντομεύσεων πληκτρολογίου (συνδυασμοί πλήκτρων που ενεργοποιούν μια εγγραφή μενού) δυναμικά, πατώντας τα πλήκτρα, ενώ ο δείκτης είναι πάνω από την επιθυμητή εγγραφή μενού. Όμως, αυτή η δυνατότητα είναι απενεργοποιημένη από επιλογή, επειδή μπορεί να οδηγήσει αρχάριους χρήστες σε τυχαία αντικατάσταση των πρότυπων συντομεύσεων πληκτρολογίου. Εάν θέλετε να το ενεργοποιήσετε, επιλέξτε <span class=\"guilabel\">Χρήση δυναμικών συντομεύσεων πληκτρολογίου</span> εδώ."
+msgstr ""
+
+#: el/gimp-pimping.html:471(p)
+msgid "Πατώντας το κουμπί για <span class=\"guilabel\">Ρύθμιση συντομεύσεων πληκτρολογίου</span> εμφανίζει τον επεξεργαστή συντομεύσεων, που σας δίνει μια γραφική διεπαφή για επιλογή στοιχείων μενού και απόδοση συντομεύσεων σε αυτά."
+msgstr ""
+
+#: el/gimp-pimping.html:476(p)
+msgid "Εάν αλλάξετε τις συντομεύσεις, θα θέλετε πιθανόν οι αλλαγές να συνεχίσουν να εφαρμόζονται σε επόμενες συνόδους του GIMP. Εάν όχι, αποεπιλέξτε <span class=\"guilabel\">Αποθήκευση συντομεύσεων πληκτρολογίου κατά την έξοδο</span>. Αλλά να θυμόσαστε ότι το κάνατε, ή ίσως απογοητευτείτε αργότερα. Εάν δεν θέλετε να αποθηκεύετε τις συντομεύσεις στην έξοδο κάθε συνόδου, μπορείτε να αποθηκεύσετε τις τρέχουσες ρυθμίσεις οποτεδήποτε χρησιμοποιώντας το κουμπί <span class=\"guilabel\">Αποθήκευση συντομεύσεων πληκτρολογίου τώρα</span> και θα εφαρμοστούν στις μελλοντικές συνόδους. Εάν αποφασίσετε ότι έχετε κάνει μερικές κακές επιλογές με τις συντομεύσεις, μπορείτε να τις επαναφέρετε στην αρχική τους κατάσταση πατώντας <span class=\"guilabel\">Επαναφορά των συντομεύσεων πληκτρολογίου στις προκαθορισμένες ρυθμίσεις</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:490(div:title)
+msgid "1.4. Θέμα"
+msgstr ""
+
+#: el/gimp-pimping.html:494(h3)
+msgid "<a id=\"gimp-prefs-theme\"/>1.4. Θέμα"
+msgstr ""
+
+#: el/gimp-pimping.html:503(b)
+msgid "Εικόνα 11.4. Επιλογή θέματος"
+msgstr ""
+
+#: el/gimp-pimping.html:507(img:alt)
+msgid "Επιλογή θέματος"
+msgstr ""
+
+#: el/gimp-pimping.html:512(p)
+msgid "Αυτή η σελίδα σας αφήνει να διαλέξετε ένα θέμα που προσδιορίζει πολλές πλευρές της εμφάνισης της διεπαφής χρήστη του GIMP, περιλαμβάνει ένα σύνολο των χρησιμοποιούμενων εικόνων, τα μεγέθη τους, γραμματοσειρές, επιτρεπόμενα διάκενα στους διαλόγους κλ. Δύο θέματα έρχονται με το GIMP: <span class=\"guilabel\">Προκαθορισμένο</span> που είναι προφανώς το καλύτερο για τους περισσότερους ανθρώπους και <span class=\"guilabel\">μικρό</span> που ίσως είναι προτιμότερο για αυτούς με χαμηλή ανάλυση οθόνης. Πατώντας σε ένα θέμα στη λίστα προκαλεί την άμεση εφαρμογή του, έτσι είναι εύκολο να δείτε το αποτέλεσμα και να αλλάξετε γνώμη, αν δεν σας αρέσει."
+msgstr ""
+
+#: el/gimp-pimping.html:520(p)
+msgid "Μπορείτε επίσης να χρησιμοποιήσετε προσαρμοσμένα θέματα, είτε κατεβάζοντας τα από το διαδίκτυο, είτε αντιγράφοντας ένα από τα αρχικά θέματα και τροποποιώντας το. Τα προσαρμοσμένα θέματα πρέπει να τοποθετηθούν στον υποκατάλογο <code class=\"filename\">themes</code> του προσωπικού σας καταλόγου GIMP, εάν υπάρχουν θα εμφανιστούν στη λίστα εδώ, μετά την επόμενη εκκίνηση. Κάθε θέμα στην πραγματικότητα είναι ένας κατάλογος που περιέχει αρχεία ASCII που μπορείτε να τα επεξεργαστείτε. Είναι αρκετά σύνθετο και το νόημα των περιεχομένων πέρα από το σκοπό της τεκμηρίωσης, αλλά είσθε ελεύθεροι να πειραματιστείτε. Στην χειρότερη περίπτωση, εάν μπερδευτείτε ολότελα, μπορείτε πάντοτε να επιστρέψετε σε ένα από τα προμηθευμένα θέματα."
+msgstr ""
+
+#: el/gimp-pimping.html:529(p)
+msgid "Δεν μπορείτε να επεξεργαστείτε τα προμηθευμένα θέματα, εκτός και έχετε άδειες διαχειριστή, αλλά και σε αυτήν την περίπτωση δε θα έπρεπε. Εάν θέλετε να τροποποιήσετε ένα θέμα, αντιγράψτε το στον προσωπικό σας κατάλογο. και επεξεργαστείτε το. Εάν κάνετε αλλαγές και θέλετε να δείτε το αποτέλεσμα <span class=\"quote\">“<span class=\"quote\">στη κίνηση</span>”</span>, μπορείτε να το κάνετε αποθηκεύοντας το αρχείο του επεξεργασμένου θέματος και έπειτα πατώντας <span class=\"guilabel\">Επαναφόρτωση τρέχοντος θέματος</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:537(div:title)
+msgid "1.5. Σύστημα βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:541(h3)
+msgid "<a id=\"gimp-prefs-help\"/>1.5. Σύστημα βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:550(b)
+msgid "Εικόνα 11.5. Προτιμήσεις συστήματος βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:554(img:alt)
+msgid "Προτιμήσεις συστήματος βοήθειας (στιγμιότυπο Linux)"
+msgstr ""
+
+#: el/gimp-pimping.html:556(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τη συμπεριφορά του συστήματος βοήθειας του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:564(div:title)
+msgid "1.5.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:568(h4)
+msgid "<a id=\"id3165111\"/>1.5.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:572(div:title) el/gimp-pimping.html:574(b) el/gimp-pimping.html:705(div:title) el/gimp-pimping.html:707(b) el/gimp-pimping.html:1023(div:title) el/gimp-pimping.html:1025(b) el/gimp-pimping.html:1953(span)
+msgid "Γενικά"
+msgstr ""
+
+#: el/gimp-pimping.html:578(span)
+msgid "Εμφάνιση συμβουλών εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:581(p)
+msgid "Οι συμβουλές εργαλείων είναι μικρές αναδυόμενες βοήθειες που εμφανίζονται όταν ο δείκτης αιωρείται για μια στιγμή πάνω από κάποιο στοιχείο της διεπαφής, όπως ένα κουμπί ή εικόνα. Μερικές φορές εξηγούν τι κάνει το στοιχείο. Μερικές φορές δίνουν υποδείξεις για μη προφανείς τρόπους χρήσης. Εάν τις βρίσκεται υπερβολικά ενοχλητικές, μπορείτε να τις απενεργοποιήσετε εδώ αποεπιλέγοντας αυτή την επιλογή. Σας συνιστούμε να τις αφήσετε ενεργοποιημένες, εκτός και είσαστε ένας πολύ προχωρημένος χρήστης."
+msgstr ""
+
+#: el/gimp-pimping.html:590(span)
+msgid "Εμφάνιση κουμπιών βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:593(p)
+msgid "Αυτή η επιλογή ελέγχει εάν τα κουμπιά βοήθειας εμφανίζονται στο διάλογο κάθε εργαλείου, που μπορεί να χρησιμοποιηθεί εναλλακτικά για να καλέσει το σύστημα της βοήθειας."
+msgstr ""
+
+#: el/gimp-pimping.html:599(span)
+msgid "Εγχειρίδιο χρήστη"
+msgstr ""
+
+#: el/gimp-pimping.html:602(p)
+msgid "Αυτή η αναδυόμενη λίστα σας επιτρέπει να επιλέξετε μεταξύ <span class=\"guilabel\">χρήση του εγκατεστημένου αντιγράφου</span> και <span class=\"guilabel\">χρήση της διαδικτυακής έκδοσης</span>. Δείτε <a class=\"xref\" href=\"gimp-help.html\" title=\"12.2.&#xA0;&#x392;&#x3BF;&#x3AE;&#x3B8;&#x3B5;&#x3B9;&#x3B1;\">Παράγραφος 12.2, “Βοήθεια”</a>."
+msgstr ""
+
+#: el/gimp-pimping.html:611(div:title) el/gimp-pimping.html:613(b)
+msgid "Περιηγητής βοήθειας"
+msgstr ""
+
+#: el/gimp-pimping.html:617(span)
+msgid "Περιηγητής βοήθειας για χρήση"
+msgstr ""
+
+#: el/gimp-pimping.html:620(p)
+msgid "Η βοήθεια του GIMP έρχεται σε μορφή αρχείων HTML, δηλαδή, ιστοσελίδων. Μπορείτε να τα δείτε χρησιμοποιώντας είτε τον περιηγητή βοήθειας του GIMP, ή με περιηγητή ιστοσελίδας της επιλογής σας. Εδώ επιλέγετε ποια επιλογή να επιλογή να χρησιμοποιήσετε. Επειδή οι σελίδες βοήθειας ελέγχθηκαν προσεκτικά για να είναι βέβαιο ότι δουλεύουν σωστά με τον περιηγητή του GIMP, επειδή άλλοι περιηγητές είναι κάπως μεταβλητοί στην υποστήριξη χαρακτηριστικών, η πιο ασφαλής επιλογή είναι να χρησιμοποιήσετε τον εσωτερικό περιηγητή. Όμως, οποιοσδήποτε σύγχρονος περιηγητής ιστού θα πρέπει να είναι εντάξει."
+msgstr ""
+
+#: el/gimp-pimping.html:628(div:title) el/gimp-pimping.html:634(th) el/gimp-pimping.html:1581(div:title) el/gimp-pimping.html:1587(th) el/gimp-pimping.html:1752(div:title) el/gimp-pimping.html:1758(th) el/gimp-pimping.html:2049(div:title) el/gimp-pimping.html:2055(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-pimping.html:632(img:alt) el/gimp-pimping.html:1585(img:alt) el/gimp-pimping.html:1756(img:alt) el/gimp-pimping.html:2053(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-pimping.html:638(p)
+msgid "Σημειώστε ότι ο περιηγητής βοήθειας δεν είναι διαθέσιμος σε όλες τις πλατφόρμες. Εάν λείπει, ο περιηγητής ιστοσελίδων θα χρησιμοποιηθεί για να επιτρέψει πρόσβαση στις σελίδες βοήθειας."
+msgstr ""
+
+#: el/gimp-pimping.html:649(div:title) el/gimp-pimping.html:651(b) el/gimp-pimping.html:656(span)
+msgid "Περιηγητής ιστοσελίδων"
+msgstr ""
+
+#: el/gimp-pimping.html:659(p)
+msgid "Εάν επιλέξατε <span class=\"quote\">“<span class=\"quote\">Περιηγητής βοήθειας του GIMP</span>”</span> για περιηγητή βοήθειας, αυτή η επιλογή δεν έχει αποτέλεσμα. Εάν επιλέξατε <span class=\"quote\">“<span class=\"quote\">περιηγητής ιστοσελίδων</span>”</span>, πρέπει να αποφασίσετε εδώ ποιον περιηγητή να χρησιμοποιήσετε και πώς να τον καλέσετε, εισάγοντας την εντολή που θα χρησιμοποιηθεί για να τρέξει ο περιηγητής."
+msgstr ""
+
+#: el/gimp-pimping.html:670(div:title)
+msgid "1.6. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:674(h3)
+msgid "<a id=\"gimp-prefs-tool-options\"/>1.6. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:683(b)
+msgid "Εικόνα 11.6. Προτιμήσεις επιλογών εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:687(img:alt)
+msgid "Προτιμήσεις επιλογών εργαλείων"
+msgstr ""
+
+#: el/gimp-pimping.html:689(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε μερικές όψεις της συμπεριφοράς των εργαλείων."
+msgstr ""
+
+#: el/gimp-pimping.html:697(div:title)
+msgid "1.6.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:701(h4)
+msgid "<a id=\"id3218652\"/>1.6.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:711(span)
+msgid "Αποθήκευση ρυθμίσεων εργαλείων κατά την έξοδο"
+msgstr ""
+
+#: el/gimp-pimping.html:714(p) el/gimp-pimping.html:720(p) el/gimp-pimping.html:726(p)
+msgid "Αυτονόητο"
+msgstr ""
+
+#: el/gimp-pimping.html:717(span)
+msgid "Αποθήκευση ρυθμίσεων εργαλείων τώρα"
+msgstr ""
+
+#: el/gimp-pimping.html:723(span)
+msgid "Επαναφορά των εργαλείων στις προεπιλεγμένες ρυθμίσεις"
+msgstr ""
+
+#: el/gimp-pimping.html:730(div:title)
+msgid "Guide and Grid Snapping"
+msgstr ""
+
+#: el/gimp-pimping.html:732(b)
+msgid "Προσκόλληση σε οδηγό και πλέγμα"
+msgstr ""
+
+#: el/gimp-pimping.html:736(span)
+msgid "Απόσταση προσκόλλησης"
+msgstr ""
+
+#: el/gimp-pimping.html:739(p)
+msgid "<span class=\"quote\">“<span class=\"quote\">Προσκόλληση</span>”</span> σε οδηγούς ή στο πλέγμα μιας εικόνας, σημαίνει ότι εάν ένα εργαλείο εφαρμόζεται πατώντας κάπου στην εμφάνιση της εικόνας, εάν το πατημένο σημείο είναι αρκετά κοντά σε έναν οδηγό ή πλέγμα, μετακινείται ακριβώς στον οδηγό ή το πλέγμα. Η προσκόλληση σε οδηγούς μπορεί να εναλλαγεί χρησιμοποιώντας, <span class=\"guimenu\">Προβολή</span> → <span class=\"guimenuitem\">Προσκόλληση στους οδηγούς</span> στο μενού εικόνας και εάν το πλέγμα είναι επιλεγμένο, προσκόλληση σε αυτό μπορεί να εναλλαχτεί χρησιμοποιώντας <span class=\"guimenu\">Προβολή</span> → <span class=\"guimenuitem\">Προσκόλληση στο πλέγμα</span>. Αυτή η επιλογή προτίμησης προσδιορίζει πόσο κοντά ένα πατημένο σημείο πρέπει να είναι σε οδηγό ή πλέγμα για να προσκολληθεί σε αυτό, σε εικονοστοιχεία."
+msgstr ""
+
+#: el/gimp-pimping.html:752(div:title) el/gimp-pimping.html:754(b)
+msgid "Αλλαγή μεγέθους"
+msgstr ""
+
+#: el/gimp-pimping.html:758(span)
+msgid "Προεπιλεγμένη παρεμβολή"
+msgstr ""
+
+#: el/gimp-pimping.html:761(p)
+msgid "Όταν κλιμακώνεται κάτι, κάθε εικονοστοιχείο στο αποτέλεσμα μετριέται με <a class=\"link\" href=\"glossary.html#glossary-interpolation\" title=\"Interpolation\">παρεμβολή</a> αρκετών εικονοστοιχείων στην πηγή. Αυτή η επιλογή προσδιορίζει την προκαθορισμένη μέθοδο παρεμβολής. Μπορεί πάντοτε να αλλαχτεί, όμως, στο διάλογο επιλογών εργαλείου."
+msgstr ""
+
+#: el/gimp-pimping.html:768(p)
+msgid "Υπάρχουν τέσσερεις επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:771(span)
+msgid "παρεμβολή|Καμία"
+msgstr ""
+
+#: el/gimp-pimping.html:774(p)
+msgid "Είναι η πιο γρήγορη μέθοδος, αλλά είναι αρκετά υποβαθμισμένη. Θα πρέπει να σκεφτείτε να τη χρησιμοποιήσετε μόνο εάν ο υπολογιστής σας είναι πολύ ασθενικός από πλευράς ταχύτητας."
+msgstr ""
+
+#: el/gimp-pimping.html:780(span)
+msgid "παρεμβολή|Γραμμική"
+msgstr ""
+
+#: el/gimp-pimping.html:783(p)
+msgid "Αυτή ήταν κάποτε η προεπιλεγμένη και είναι αρκετά καλή για τις περισσότερες περιπτώσεις."
+msgstr ""
+
+#: el/gimp-pimping.html:788(span)
+msgid "Κυβικό"
+msgstr ""
+
+#: el/gimp-pimping.html:791(p)
+msgid "Αυτή είναι η άριστη επιλογή (αν και μπορεί στην πραγματικότητα να δείχνει χειρότερη από τη γραμμική σε μερικούς τύπους εικόνας), αλλά επίσης και η πιο αργή. Από το GIMP 2.6, αυτή η μέθοδος είναι η προεπιλεγμένη."
+msgstr ""
+
+#: el/gimp-pimping.html:797(span)
+msgid "Sinc (Lanczos3)"
+msgstr ""
+
+#: el/gimp-pimping.html:800(p)
+msgid "Αυτή η μέθοδος εκτελεί μια υψηλής ποιότητας παρεμβολή."
+msgstr ""
+
+#: el/gimp-pimping.html:809(div:title) el/gimp-pimping.html:811(b)
+msgid "Ρυθμίσεις ζωγραφίσματος που θα είναι κοινές στα εργαλεία"
+msgstr ""
+
+#: el/gimp-pimping.html:815(span)
+msgid "Πινέλο, Μοτίβο, Διαβάθμιση."
+msgstr ""
+
+#: el/gimp-pimping.html:818(p)
+msgid "Μπορείτε να αποφασίσετε εδώ, εάν αλλάζοντας κάτι στο πινέλο κλ., η αλλαγή θα αντανακλάται σε όλα τα εργαλεία, ή κάθε ξεχωριστό εργαλείο (μολύβι, πινέλο βαφής, αερογράφος κλ.) θα θυμάται το στοιχείο που χρησιμοποιήθηκε για αυτό ειδικά."
+msgstr ""
+
+#: el/gimp-pimping.html:826(div:title) el/gimp-pimping.html:828(b)
+msgid "Εργαλείο μετακίνησης"
+msgstr ""
+
+#: el/gimp-pimping.html:832(span)
+msgid "Ενεργοποιεί τη στρώση ή το μονοπάτι"
+msgstr ""
+
+#: el/gimp-pimping.html:835(p)
+msgid "Επιλέγοντας το πλαίσιο, το εργαλείο μετακίνησης αλλάζει την ενεργή στρώση ή μονοπάτι, όταν μια στρώση ή μονοπάτι πατηθεί."
+msgstr ""
+
+#: el/gimp-pimping.html:844(div:title)
+msgid "1.7. Εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-pimping.html:848(h3)
+msgid "<a id=\"gimp-prefs-toolbox\"/>1.7. Εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-pimping.html:857(b)
+msgid "Εικόνα 11.7. Προτιμήσεις εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-pimping.html:861(img:alt)
+msgid "Προτιμήσεις εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-pimping.html:866(div:title)
+msgid "1.7.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:870(h4)
+msgid "<a id=\"id3239002\"/>1.7.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:877(b)
+msgid "Εικόνα 11.8. Προκαθορισμένη εμφάνιση εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-pimping.html:881(img:alt)
+msgid "Προκαθορισμένη εμφάνιση εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-pimping.html:886(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε την εμφάνιση της εργαλειοθήκης, αποφασίζοντας εάν οι τρεις περιοχές <span class=\"quote\">“<span class=\"quote\">πληροφορίας περιεχομένου</span>”</span> θα πρέπει να εμφανίζονται στον πάτο."
+msgstr ""
+
+#: el/gimp-pimping.html:891(div:title) el/gimp-pimping.html:893(b)
+msgid "Εμφάνιση"
+msgstr ""
+
+#: el/gimp-pimping.html:900(span)
+msgid "Εμφάνιση χρώματος προσκηνίου και παρασκηνίου"
+msgstr ""
+
+#: el/gimp-pimping.html:903(p)
+msgid "Ελέγχει εάν η χρωματική περιοχή στα αριστερά (2) εμφανίζεται στην εργαλειοθήκη."
+msgstr ""
+
+#: el/gimp-pimping.html:908(span)
+msgid "Εμφάνιση ενεργού πινέλου, μοτίβου και διαβάθμισης"
+msgstr ""
+
+#: el/gimp-pimping.html:911(p)
+msgid "Ελέγχει εάν η περιοχή στο κέντρο (3), με τα εικονίδια πινέλου, μοτίβου και διαβάθμισης, εμφανίζεται στην εργαλειοθήκη."
+msgstr ""
+
+#: el/gimp-pimping.html:916(span)
+msgid "Εμφάνιση ενεργής εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:919(p)
+msgid "Ελέγχει εάν η προεπισκόπηση της τρέχουσας ενεργής εικόνας εμφανίζεται στα δεξιά (4)."
+msgstr ""
+
+#: el/gimp-pimping.html:927(div:title)
+msgid "1.8. Προτιμήσεις προεπιλεγμένης εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:931(h3)
+msgid "<a id=\"gimp-prefs-new-image\"/>1.8. Προτιμήσεις προεπιλεγμένης εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:941(b)
+msgid "Εικόνα 11.9. Προτιμήσεις προεπιλεγμένης νέας εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:945(img:alt)
+msgid "Προτιμήσεις προεπιλεγμένης νέας εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:950(p)
+msgid "Αυτή η καρτέλα επιτρέπει την προσαρμογή των προεπιλεγμένων ρυθμίσεων του διαλόγου της νέας εικόνας. Δείτε την παράγραφο <a class=\"link\" href=\"gimp-file-new.html\" title=\"2.2.&#xA0;&#x39D;&#x3AD;&#x3BF;\">Διάλογος νέας εικόνας</a> για επεξήγηση σημασίας κάθε τιμής."
+msgstr ""
+
+#: el/gimp-pimping.html:956(div:title)
+msgid "1.9. Προεπιλεγμένο πλέγμα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:960(h3)
+msgid "<a id=\"gimp-prefs-default-grid\"/>1.9. Προεπιλεγμένο πλέγμα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:969(b)
+msgid "Εικόνα 11.10. Προτιμήσεις προεπιλεγμένου πλέγματος"
+msgstr ""
+
+#: el/gimp-pimping.html:973(img:alt)
+msgid "Προτιμήσεις προεπιλεγμένου πλέγματος"
+msgstr ""
+
+#: el/gimp-pimping.html:978(p)
+msgid "Αυτή η σελίδα επιτρέπει προσαρμογή των προεπιλεγμένων ιδιοτήτων πλέγματος του GIMP που μπορούν να εναλλαγούν ναι/όχι χρησιμοποιώντας από το μενού εικόνας <span class=\"guimenu\">Προβολή</span> → <span class=\"guimenuitem\">Εμφάνιση πλέγματος</span> Οι ρυθμίσεις εδώ ταιριάζουν με αυτές του διαλόγου ρύθμιση πλέγματος εικόνας που μπορεί να χρησιμοποιηθεί για ξαναρρύθμιση του πλέγματος για την υπάρχουσα εικόνα, επιλέγοντας από το μενού εικόνας <span class=\"guimenu\">Εικόνα</span> → <span class=\"guimenuitem\">Διαμόρφωση πλέγματος</span>. Δείτε την παράγραφο <a class=\"link\" href=\"gimp-image-configure-grid.html#gimp-configure-grid-dialog\">Διάλογος διαμόρφωσης πλέγματος</a> για πληροφορίες για τη σημασία κάθε ρύθμισης."
+msgstr ""
+
+#: el/gimp-pimping.html:988(div:title)
+msgid "1.10. Παράθυρα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:992(h3)
+msgid "<a id=\"gimp-prefs-image-window\"/>1.10. Παράθυρα εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1001(b)
+msgid "Εικόνα 11.11. Προτιμήσεις γενικού παραθύρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1005(img:alt)
+msgid "Προτιμήσεις γενικού παραθύρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1007(p)
+msgid "Αυτή η σελίδα επιτρέπει την προσαρμογή πολλών όψεων της συμπεριφοράς των παραθύρων εικόνας."
+msgstr ""
+
+#: el/gimp-pimping.html:1015(div:title)
+msgid "1.10.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1019(h4)
+msgid "<a id=\"id3225788\"/>1.10.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1033(span)
+msgid "Κουκκίδα για κουκκίδα"
+msgstr ""
+
+#: el/gimp-pimping.html:1033(span) el/gimp-pimping.html:1281(span) el/gimp-pimping.html:1285(span) el/gimp-pimping.html:1371(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-pimping.html:1033(span)
+msgid "Χρήση <placeholder-1/> ως προεπιλογή"
+msgstr ""
+
+#: el/gimp-pimping.html:1036(p)
+msgid "Χρήση του <span class=\"quote\">“<span class=\"quote\">Κουκκίδα για κουκκίδα</span>”</span> σημαίνει ότι σε εστίαση 1:1 ότι κάθε εικονοστοιχείο στην εικόνα κλιμακώνεται σε ένα εικονοστοιχείο στην εμφάνιση. Εάν το <span class=\"quote\">“<span class=\"quote\">Κουκκίδα για κουκκίδα</span>”</span> δεν χρησιμοποιείται, τότε το εμφανιζόμενο μέγεθος της εικόνας προσδιορίζεται από την X και Y ανάλυση της εικόνας. Δείτε την παράγραφο <a class=\"link\" href=\"gimp-image-scale.html\" title=\"6.15.&#xA0;&#x39A;&#x3BB;&#x3B9;&#x3BC;&#x3AC;&#x3BA;&#x3C9;&#x3C3;&#x3B7; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Κλιμάκωση εικόνας</a> για περισσότερες πληροφορίες."
+msgstr ""
+
+#: el/gimp-pimping.html:1046(span)
+msgid "Ταχύτητα διακεκομμένων γραμμών"
+msgstr ""
+
+#: el/gimp-pimping.html:1049(p)
+msgid "Όταν δημιουργείτε μια επιλογή, η άκρη της φαίνεται ως μια διακεκομμένη γραμμή με παύλες που φαίνονται να κινούνται, προχωρώντας αργά κατά μήκος του ορίου. Αποκαλούνται αστεία <span class=\"quote\">“<span class=\"quote\">μυρμήγκια που περπατούν(διακεκομμένες γραμμές)</span>”</span>. Όσο πιο μικρή εισάγεται εδώ, τόσο πιο γρήγορα κινούνται οι διακεκομμένες γραμμές (και άρα πιο πολύ ενοχλούν!)."
+msgstr ""
+
+#: el/gimp-pimping.html:1058(div:title) el/gimp-pimping.html:1060(b)
+msgid "Συμπεριφορά εστίασης και αλλαγής μεγέθους"
+msgstr ""
+
+#: el/gimp-pimping.html:1065(span)
+msgid "Αλλαγή μεγέθους παραθύρου κατά την εστίαση"
+msgstr ""
+
+#: el/gimp-pimping.html:1068(p)
+msgid "Εάν αυτή η επιλογή σημειωθεί, τότε κάθε φορά εστιάζεται την εικόνα, το παράθυρο της εικόνας θα προσαρμόζεται αυτόματα για να το παρακολουθήσει. Αλλιώς, το παράθυρο εικόνας θα διατηρήσει το ίδιο μέγεθος, όταν εστιάζετε στην εικόνα."
+msgstr ""
+
+#: el/gimp-pimping.html:1075(span)
+msgid "Αλλαγή μεγέθους παραθύρου με την αλλαγή μεγέθους εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1078(p)
+msgid "Εάν σημειωθεί αυτή η επιλογή, τότε κάθε φορά που αλλάζετε το μέγεθος της εικόνας, περικόπτοντας ή κλιμακώνοντας την, το παράθυρο της εικόνας θα την κλιμακώνει αυτόματα για να ακολουθήσει. Αλλιώς το παράθυρο της εικόνας θα διατηρεί το ίδιο μέγεθος."
+msgstr ""
+
+#: el/gimp-pimping.html:1085(span)
+msgid "Αρχική εστίαση"
+msgstr ""
+
+#: el/gimp-pimping.html:1088(p)
+msgid "Μπορείτε να επιλέξετε οι εικόνες όταν πρωτοανοίγουν, να κλιμακώνονται έτσι ώστε η συνολική εικόνα να ταιριάζει άνετα στην οθόνη, ή να εμφανίζονται σε εστίαση 1:1. Εάν επιλέξετε τη δεύτερη επιλογή και η εικόνα είναι πολύ μεγάλη για να χωρέσει στη οθόνη, τότε το παράθυρο της εικόνας θα δείχνει μόνο ένα τμήμα της (αλλά θα μπορείτε να κυλίσετε σε άλλα μέρη)."
+msgstr ""
+
+#: el/gimp-pimping.html:1097(div:title) el/gimp-pimping.html:1099(b)
+msgid "Πλήκτρο κενού"
+msgstr ""
+
+#: el/gimp-pimping.html:1104(span)
+msgid "Ενώ το πλήκτρο κενού είναι πατημένο"
+msgstr ""
+
+#: el/gimp-pimping.html:1110(p)
+msgid "<span class=\"guilabel\">Pan view (πανοραμική επισκόπηση)</span> (προεπιλογή) ή"
+msgstr ""
+
+#: el/gimp-pimping.html:1114(span)
+msgid "Αλλαγή στο εργαλείο μετακίνησης"
+msgstr ""
+
+#: el/gimp-pimping.html:1119(span)
+msgid "Καμία ενέργεια"
+msgstr ""
+
+#: el/gimp-pimping.html:1127(div:title) el/gimp-pimping.html:1129(b)
+msgid "Δείκτες ποντικιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1134(span)
+msgid "Εμφάνιση περιγράμματος πινέλου"
+msgstr ""
+
+#: el/gimp-pimping.html:1137(p)
+msgid "Εάν αυτή η επιλογή σημειωθεί, τότε όταν χρησιμοποιείτε ένα εργαλείο ζωγραφικής, το περίγραμμα του πινέλου θα εμφανίζεται στην εικόνα καθώς μετακινείτε το δείκτη. Σε αργά συστήματα, εάν το πινέλο είναι πολύ μεγάλο, αυτό θα μπορούσε να προκαλέσει κάποιες φορές κάποια καθυστέρηση στην ικανότητα του GIMP να παρακολουθεί τις κινήσεις σας. Εάν συμβεί αυτό, η απενεργοποίηση του ίσως βοηθήσει. Αλλιώς, θα το βρείτε χρήσιμο."
+msgstr ""
+
+#: el/gimp-pimping.html:1145(span)
+msgid "Εμφάνιση δείκτη στα εργαλεία ζωγραφικής"
+msgstr ""
+
+#: el/gimp-pimping.html:1148(p)
+msgid "Εάν αυτό επιλεγεί, ο δείκτης θα εμφανίζεται. Αυτό είναι επιπλέον του περιγράμματος του πινέλου, εάν αυτό φαίνεται. Ο τύπος του δείκτη προσδιορίζεται από την επόμενη επιλογή."
+msgstr ""
+
+#: el/gimp-pimping.html:1154(span)
+msgid "Κατάσταση δείκτη"
+msgstr ""
+
+#: el/gimp-pimping.html:1157(p)
+msgid "Αυτή η επιλογή δεν έχει συνέπεια, εκτός και επιλεγεί <span class=\"guilabel\">Εμφάνιση δείκτη στα εργαλεία ζωγραφικής</span>. Εάν συμβαίνει αυτό έχετε τρεις επιλογές: <span class=\"guilabel\">Εικονίδιο εργαλείου</span>, που προκαλεί μια μικρή παρουσίαση εικονιδίου του τρέχοντος ενεργού εργαλείου να εμφανίζεται πέρα από το δείκτη. Το <span class=\"guilabel\">Εικονίδιο εργαλείου με σταυρόνημα</span> που δείχνει το εικονίδιο και το σταυρόνημα που δείχνει το κέντρο του δείκτη ή <span class=\"guilabel\">Σταυρόνημα μόνο</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:1166(span)
+msgid "Σχεδίαση δείκτη"
+msgstr ""
+
+#: el/gimp-pimping.html:1169(p)
+msgid "Εάν επιλέξετε <span class=\"quote\">“<span class=\"quote\">Fancy (φανταχτερή)</span>”</span> εδώ, ο δείκτης σχεδιάζεται σε γκρι κλίμακα. Εάν επιλέξετε <span class=\"quote\">“<span class=\"quote\">Μαύρο και άσπρο</span>”</span>, σχεδιάζεται σε πιο απλό τρόπο που μπορεί να επιταχύνει κάπως, εάν έχετε προβλήματα με την ταχύτητα."
+msgstr ""
+
+#: el/gimp-pimping.html:1179(div:title)
+msgid "1.11. Εμφάνιση παράθυρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1183(h3)
+msgid "<a id=\"gimp-prefs-image-window-appearance\"/>1.11. Εμφάνιση παράθυρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1192(b)
+msgid "Εικόνα 11.12. Προεπιλογές εμφάνισης παράθυρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1196(img:alt)
+msgid "Προεπιλογές εμφάνισης παράθυρου εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1198(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να προσαρμόσετε τις προεπιλογές εμφάνισης παραθύρων εικόνας, στην κανονική κατάσταση και στην κατάσταση πλήρους οθόνης. Όλες οι ρυθμίσεις εδώ μπορούν να μεταβληθούν σε μια ειδική βάση εικόνας χρησιμοποιώντας τις εγγραφές στο μενού προβολή. Δείτε την παράγραφο <a class=\"link\" href=\"gimp-image-window.html\" title=\"2.2.&#xA0;&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3BF; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Παράθυρο εικόνας</a> για πληροφορίες στη σημασία των εγγραφών."
+msgstr ""
+
+#: el/gimp-pimping.html:1210(p)
+msgid "Τα μόνα τμήματα που ίσως χρειάζονται παραπέρα εξηγήσεις είναι τα σχετικά με το χρώμα φόντου παραθύρου. <span class=\"quote\">“<span class=\"quote\">Χρώμα φόντου παραθύρου</span>”</span> είναι το χρώμα που εμφανίζεται γύρω από τις άκρες της εικόνας, εάν δεν καταλαμβάνει όλη την περιοχή της οθόνης (που φαίνεται με ανοιχτό γκρι σε όλες τις εικόνες εδώ). Μπορείτε να επιλέξετε μεταξύ τεσσάρων χρωμάτων για το χρώμα φόντου παραθύρου: Χρήση του οριζόμενου χρώματος από το τρέχον θέμα. Χρήση των ανοιχτών ή σκοτεινών χρωμάτων που ορίζονται για επιλογές, όπως αναπαράσταση των διαφανών μερών της εικόνας, ή χρήση ενός προσαρμοσμένου χρώματος που μπορεί να οριστεί χρησιμοποιώντας το κουμπί χρώματος για <span class=\"quote\">“<span class=\"quote\">προσαρμοσμένο χρώμα φόντου παραθύρου</span>”</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:1221(div:title)
+msgid "1.12. Τίτλος παραθύρου και γραμμή κατάσταση εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1225(h3)
+msgid "<a id=\"gimp-prefs-image-window-title\"/>1.12. Τίτλος παραθύρου και γραμμή κατάσταση εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1235(b)
+msgid "Εικόνα 11.13. Μορφή τίτλου και γραμμής κατάστασης εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1239(img:alt)
+msgid "Μορφή τίτλου και γραμμής κατάστασης εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:1241(p)
+msgid "Αυτή η σελίδα σας επιτρέπει την προσαρμογή του κειμένου που εμφανίζεται σε δύο μέρη: τη γραμμή τίτλου μιας εικόνας και τη γραμμή κατάστασης. Η γραμμή τίτλου θα πρέπει να εμφανίζεται πάνω από την εικόνα. Όμως, αυτό εξαρτάται από τη συνεργασία από το διαχειριστή παραθύρου, έτσι δεν είναι εγγυημένο ότι θα δουλέψει σε όλες τις περιπτώσεις. Η γραμμή κατάστασης εμφανίζεται κάτω από την εικόνα, στη δεξιά πλευρά. Δείτε την παράγραφο <a class=\"link\" href=\"gimp-image-window.html\" title=\"2.2.&#xA0;&#x3A0;&#x3B1;&#x3C1;&#x3AC;&#x3B8;&#x3C5;&#x3C1;&#x3BF; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Παράθυρο εικόνας</a> για περισσότερες πληροφορίες."
+msgstr ""
+
+#: el/gimp-pimping.html:1254(div:title)
+msgid "1.12.1. Επιλογή μορφής"
+msgstr ""
+
+#: el/gimp-pimping.html:1258(h4)
+msgid "<a id=\"id3227216\"/>1.12.1. Επιλογή μορφής"
+msgstr ""
+
+#: el/gimp-pimping.html:1262(p)
+msgid "Μπορείτε να επιλέξετε μεταξύ αρκετών προσχεδιασμένων μορφών ή μπορείτε να δημιουργήσετε μία δικιά σας, γράφοντας <span class=\"emphasis\"><em>μορφή αλφαριθμητικού</em></span> στην περιοχή εισόδου. Μορφή αλφαριθμητικού: οτιδήποτε τυπώνετε εμφανίζεται ακριβώς όπως το τυπώνετε, με εξαίρεση τις <span class=\"emphasis\"><em>μεταβλητές</em></span>, των οποίων όλων το όνομα αρχίζει με <span class=\"quote\">“<span class=\"quote\">%</span>”</span>. Εδώ είναι ο κατάλογος των μεταβλητών που μπορείτε να χρησιμοποιήσετε."
+msgstr ""
+
+#: el/gimp-pimping.html:1274(th)
+msgid "Μεταβλητή"
+msgstr ""
+
+#: el/gimp-pimping.html:1275(th)
+msgid "Σημασία"
+msgstr ""
+
+#: el/gimp-pimping.html:1280(td)
+msgid "%f"
+msgstr ""
+
+#: el/gimp-pimping.html:1281(span) el/gimp-pimping.html:1285(span)
+msgid "Χωρίς τίτλο"
+msgstr ""
+
+#: el/gimp-pimping.html:1281(td)
+msgid "Όνομα του αρχείου ή της εικόνας (χωρίς διαδρομή) ή <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-pimping.html:1284(td)
+msgid "%F"
+msgstr ""
+
+#: el/gimp-pimping.html:1285(td)
+msgid "Πλήρης διαδρομή του αρχείου ή <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-pimping.html:1288(td)
+msgid "%p"
+msgstr ""
+
+#: el/gimp-pimping.html:1289(td)
+msgid "Αριθμός id της εικόνας (αυτός είναι μοναδικός)"
+msgstr ""
+
+#: el/gimp-pimping.html:1292(td)
+msgid "%i"
+msgstr ""
+
+#: el/gimp-pimping.html:1293(td)
+msgid "Αριθμός προβολής, εάν η εικόνα έχει περισσότερες από μία εμφανίσεις."
+msgstr ""
+
+#: el/gimp-pimping.html:1298(td)
+msgid "%t"
+msgstr ""
+
+#: el/gimp-pimping.html:1299(td)
+msgid "Τύπος εικόνας (RGB, γκρι κλίμακα, από ευρετήριο)"
+msgstr ""
+
+#: el/gimp-pimping.html:1302(td)
+msgid "%z"
+msgstr ""
+
+#: el/gimp-pimping.html:1303(td)
+msgid "Συντελεστής εστίασης ως ποσοστό"
+msgstr ""
+
+#: el/gimp-pimping.html:1306(td)
+msgid "%s"
+msgstr ""
+
+#: el/gimp-pimping.html:1307(td)
+msgid "Συντελεστής κλιμάκωσης της πηγής (στάθμη εστίασης = %d/%s)"
+msgstr ""
+
+#: el/gimp-pimping.html:1310(td)
+msgid "%d"
+msgstr ""
+
+#: el/gimp-pimping.html:1311(td)
+msgid "Συντελεστής κλιμάκωσης του προορισμού (στάθμη εστίασης = %d/%s)"
+msgstr ""
+
+#: el/gimp-pimping.html:1314(td)
+msgid "%Dx"
+msgstr ""
+
+#: el/gimp-pimping.html:1315(td)
+msgid "Επέκταση στο x εάν η εικόνα έχει αλλάξει, αλλιώς τίποτα"
+msgstr ""
+
+#: el/gimp-pimping.html:1320(td)
+msgid "%Cx"
+msgstr ""
+
+#: el/gimp-pimping.html:1321(td)
+msgid "Επέκταση στο x εάν η εικόνα δεν έχει αλλάξει, αλλιώς τίποτα"
+msgstr ""
+
+#: el/gimp-pimping.html:1326(td)
+msgid "%l"
+msgstr ""
+
+#: el/gimp-pimping.html:1327(td)
+msgid "Ο αριθμός των στρώσεων"
+msgstr ""
+
+#: el/gimp-pimping.html:1330(td)
+msgid "%L"
+msgstr ""
+
+#: el/gimp-pimping.html:1331(td)
+msgid "Ο αριθμός των στρώσεων (πλήρης μορφή)"
+msgstr ""
+
+#: el/gimp-pimping.html:1334(td)
+msgid "%m"
+msgstr ""
+
+#: el/gimp-pimping.html:1335(td)
+msgid "Χρησιμοποιούμενη μνήμη από την εικόνα"
+msgstr ""
+
+#: el/gimp-pimping.html:1338(td)
+msgid "%n"
+msgstr ""
+
+#: el/gimp-pimping.html:1339(td)
+msgid "Όνομα της ενεργής στρώσης/ενεργού καναλιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1342(td)
+msgid "%P"
+msgstr ""
+
+#: el/gimp-pimping.html:1343(td)
+msgid "id της ενεργής στρώσης/ενεργού καναλιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1346(td)
+msgid "%w"
+msgstr ""
+
+#: el/gimp-pimping.html:1347(td)
+msgid "Πλάτος εικόνας σε εικονοστοιχεία"
+msgstr ""
+
+#: el/gimp-pimping.html:1350(td)
+msgid "%W"
+msgstr ""
+
+#: el/gimp-pimping.html:1351(td)
+msgid "Πλάτος εικόνας σε πραγματικές μονάδες"
+msgstr ""
+
+#: el/gimp-pimping.html:1354(td)
+msgid "%h"
+msgstr ""
+
+#: el/gimp-pimping.html:1355(td)
+msgid "Ύψος εικόνας σε εικονοστοιχεία"
+msgstr ""
+
+#: el/gimp-pimping.html:1358(td)
+msgid "%H"
+msgstr ""
+
+#: el/gimp-pimping.html:1359(td)
+msgid "Ύψος εικόνας σε πραγματικές μονάδες"
+msgstr ""
+
+#: el/gimp-pimping.html:1362(td)
+msgid "%u"
+msgstr ""
+
+#: el/gimp-pimping.html:1363(td)
+msgid "Σύμβολο μονάδας (π.χ. px για εικονοστοιχεία)"
+msgstr ""
+
+#: el/gimp-pimping.html:1366(td)
+msgid "%U"
+msgstr ""
+
+#: el/gimp-pimping.html:1367(td)
+msgid "Σύντμηση μονάδας"
+msgstr ""
+
+#: el/gimp-pimping.html:1370(td)
+msgid "%%"
+msgstr ""
+
+#: el/gimp-pimping.html:1371(span)
+msgid "%"
+msgstr ""
+
+#: el/gimp-pimping.html:1371(td)
+msgid "Το κυριολεκτικό <placeholder-1/> σύμβολο"
+msgstr ""
+
+#: el/gimp-pimping.html:1378(div:title)
+msgid "1.13. Οθόνη"
+msgstr ""
+
+#: el/gimp-pimping.html:1382(h3)
+msgid "<a id=\"gimp-prefs-display\"/>1.13. Οθόνη"
+msgstr ""
+
+#: el/gimp-pimping.html:1393(b)
+msgid "Εικόνα 11.14. Προτιμήσεις οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1397(img:alt)
+msgid "Προτιμήσεις οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1399(p)
+msgid "Αυτή η σελίδα σας επιτρέπει την προσαρμογή του τρόπου αναπαράστασης των διαφανών μερών μιας εικόνας και της επαναρρύθμισης της ανάλυσης της οθόνης."
+msgstr ""
+
+#: el/gimp-pimping.html:1408(div:title)
+msgid "1.13.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1412(h4)
+msgid "<a id=\"gimp-prefs-display-options\"/>1.13.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1416(div:title) el/gimp-pimping.html:1418(b)
+msgid "Διαφάνεια"
+msgstr ""
+
+#: el/gimp-pimping.html:1422(span)
+msgid "Στυλ σκακιέρας (Τύποι διαφάνειας)"
+msgstr ""
+
+#: el/gimp-pimping.html:1425(p)
+msgid "Από προεπιλογή το GIMP δείχνει τη διαφάνεια χρησιμοποιώντας ένα μοτίβο σκακιέρας με μεσαίους τόνους, αλλά μπορείτε να το αλλάξετε σε διαφορετικό τύπο σκακιέρες ή σε μαύρο, άσπρο ή γκρι."
+msgstr ""
+
+#: el/gimp-pimping.html:1431(span)
+msgid "Μέγεθος σκακιέρας"
+msgstr ""
+
+#: el/gimp-pimping.html:1434(p)
+msgid "Εδώ μπορείτε να μεταβάλλετε το μέγεθος των τετραγώνων στο χρησιμοποιούμενο μοτίβο της σκακιέρας που δείχνει διαφάνεια."
+msgstr ""
+
+#: el/gimp-pimping.html:1444(b)
+msgid "Εικόνα 11.15. Ο διάλογος ανάλυση οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1448(img:alt)
+msgid "Ο διάλογος ανάλυση οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1457(span)
+msgid "Ανάλυση οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1460(p)
+msgid "Η ανάλυση οθόνης είναι ο αριθμός των εικονοστοιχείων οριζόντια και κάθετα ανά ίντσα. Εδώ υπάρχουν τρεις τρόποι:"
+msgstr ""
+
+#: el/gimp-pimping.html:1466(p)
+msgid "Αυτόματη ανίχνευση. (ο ευκολότερος, προφανώς ανακριβής)."
+msgstr ""
+
+#: el/gimp-pimping.html:1471(p)
+msgid "Χειροκίνητη εισαγωγή"
+msgstr ""
+
+#: el/gimp-pimping.html:1474(p)
+msgid "Πάτημα του κουμπιού βαθμονόμησης."
+msgstr ""
+
+#: el/gimp-pimping.html:1480(span)
+msgid "Ο διάλογος βαθμονόμησης"
+msgstr ""
+
+#: el/gimp-pimping.html:1483(p)
+msgid "Η ανάλυση της οθόνης μου ήταν εντυπωσιακά εκτός, όταν δοκίμασα το διάλογο βαθμονόμησης. Το <span class=\"quote\">“<span class=\"quote\">Παιχνίδι βαθμονόμησης</span>”</span> έχει πλάκα. Θα χρειαστείτε ένα μαλακό χάρακα."
+msgstr ""
+
+#: el/gimp-pimping.html:1493(div:title)
+msgid "1.14. Διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1497(h3)
+msgid "<a id=\"gimp-prefs-color-management\"/>1.14. Διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1507(b)
+msgid "Εικόνα 11.16. Προτιμήσεις διαχείρισης χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1511(img:alt)
+msgid "Προτιμήσεις διαχείρισης χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1516(div:title)
+msgid "1.14.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1520(h4)
+msgid "<a id=\"id3176078\"/>1.14.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:1524(p)
+msgid "Αυτή η σελίδα σας επιτρέπει την προσαρμογή της διαχείρισης χρώματος του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:1527(p)
+msgid "Μερικές από τις επιλογές σας επιτρέπουν να διαλέξετε μια χρωματική κατατομή (προφίλ) από ένα μενού. Εάν η επιθυμητή κατατομή δεν είναι ακόμα στο μενού, μπορείτε να την προσθέσετε πατώντας στο στοιχείο <span class=\"guimenuitem\">Επιλέξτε κατατομή χρώματος από το δίσκο...</span>."
+msgstr ""
+
+#: el/gimp-pimping.html:1532(div:title) el/gimp-pimping.html:1538(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-pimping.html:1536(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-pimping.html:1542(p)
+msgid "Αρχεία που περιέχουν χρωματικές κατατομές (προφίλ) είναι εύκολα αναγνωρίσιμα από το επίθημα <code class=\"filename\">.icc</code>. Επιπλέον αποθηκεύονται όλα μαζί σε λίγες μόνο θέσεις. Εάν εκτελείτε το GIMP σε Mac OS X, πρέπει να δοκιμάσετε <code class=\"filename\">/Library/ColorSync/Profiles/</code> και <code class=\"filename\">Library/Printers/[manufacturer]/Profiles</code>."
+msgstr ""
+
+#: el/gimp-pimping.html:1555(span)
+msgid "Κατάσταση λειτουργίας"
+msgstr ""
+
+#: el/gimp-pimping.html:1558(p)
+msgid "Χρησιμοποιώντας αυτήν την επιλογή μπορείτε να αποφασίσετε τη λειτουργία της χρωματικής διαχείρισης του GIMP. Υπάρχουν τρεις καταστάσεις για επιλογή:"
+msgstr ""
+
+#: el/gimp-pimping.html:1565(p)
+msgid "<span class=\"guimenuitem\">Καμία διαχείριση χρώματος</span>: Επιλέγοντας το, κλείνει η χρωματική διαχείριση στο GIMP ολότελα."
+msgstr ""
+
+#: el/gimp-pimping.html:1570(p)
+msgid "<span class=\"guimenuitem\">Οθόνη διαχείρισης χρώματος</span>: Με αυτήν την επιλογή μπορείτε να ενεργοποιήσετε τη χρωματική διαχείριση του GIMP για να έχετε μια πλήρως διορθωμένη εμφάνιση των εικόνων σύμφωνα με το δοσμένο χρωματικό προφίλ για την οθόνη."
+msgstr ""
+
+#: el/gimp-pimping.html:1576(p)
+msgid "<span class=\"guimenuitem\">Εξομοίωση εκτύπωσης</span>: διαλέγοντας αυτήν την επιλογή, ενεργοποιείται τη χρωματική διαχείριση του GIMP όχι μόνο για την εφαρμογή του προφίλ στην οθόνη, αλλά επίσης την κατατομή της επιλεγμένης εξομοίωσης εκτύπωσης. Έτσι, μπορείτε να προεπισκοπήσετε τα χρωματικά αποτελέσματα μιας εκτύπωσης με αυτόν τον εκτυπωτή."
+msgstr ""
+
+#: el/gimp-pimping.html:1591(p)
+msgid "Παρακαλώ σημειώστε, ότι η χρωματική διαχείριση του GIMP χρησιμοποιείται για βελτιστοποίηση της εμφάνισης των εικόνων και την ενσωμάτωση των κατατομών των αρχείων εικόνας μόνο. Ειδικά οι χρησιμοποιούμενες επιλογές σε αυτό το διάλογο δεν χρησιμοποιούνται κατά κανέναν τρόπο για εκτύπωση από το GIMP. Αυτό οφείλεται στο ότι η εκτύπωση είναι ένα ειδικό καθήκον που γίνεται από μια πιο ειδικευμένη εκτυπωτική μηχανή που δεν είναι μέρος του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:1606(span)
+msgid "Προφίλ RGB"
+msgstr ""
+
+#: el/gimp-pimping.html:1613(span)
+msgid "Προφίλ CMYK"
+msgstr ""
+
+#: el/gimp-pimping.html:1620(span)
+msgid "Προφίλ οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1623(p)
+msgid "Αυτή η επιλογή σας δίνει δύο στοιχεία για αλληλεπίδραση:"
+msgstr ""
+
+#: el/gimp-pimping.html:1629(p)
+msgid "Πρέπει να επιλέξετε ένα προφίλ εμφάνισης για αυτή την επιλογή. Το επιλεγμένο χρωματικό προφίλ χρησιμοποιεί το GIMP για την εμφάνιση στην οθόνη."
+msgstr ""
+
+#: el/gimp-pimping.html:1635(p)
+msgid "Εάν ενεργοποιήσετε την επιλογή <span class=\"guilabel\">Προσπάθεια χρήσης του προφίλ οθόνης συστήματος</span>, το GIMP θα χρησιμοποιήσει τη χρωματική κατατομή που δίνεται για τις εμφανίσεις από το σύστημα χρωματικής διαχείρισης των λειτουργικών συστημάτων."
+msgstr ""
+
+#: el/gimp-pimping.html:1645(span)
+msgid "Επιδίωξη αποτύπωσης οθόνης"
+msgstr ""
+
+#: el/gimp-pimping.html:1648(p)
+msgid "Επιδίωξη αποτύπωσης, όπως αυτή που μπορείτε να τροποποιήσετε με αυτήν την επιλογή, είναι τρόποι απόδοσης με χρώματα που είναι εκτός χρωμάτων<a class=\"xref\" href=\"glossary.html#glossary-gamut\" title=\"Gamut (&#x3C6;&#x3AC;&#x3C3;&#x3BC;&#x3B1;)\"><span>Gamut (φάσματος)</span></a> που παρουσιάζονται στον πηγαίο χώρο και που ο χώρος προορισμού είναι ανίκανος να παράξει. Υπάρχουν τέσσερις μέθοδοι επιδίωξης αποτύπωσης για να επιλέξετε:"
+msgstr ""
+
+#: el/gimp-pimping.html:1658(span)
+msgid "Συγκεκριμένο"
+msgstr ""
+
+#: el/gimp-pimping.html:1663(span)
+msgid "Σχετική μέτρηση χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1668(span)
+msgid "στόχος|Κορεσμός"
+msgstr ""
+
+#: el/gimp-pimping.html:1673(span)
+msgid "Απόλυτη μέτρηση χρώματος"
+msgstr ""
+
+#: el/gimp-pimping.html:1678(p)
+msgid "Μια περιγραφή των ατομικών μεθόδων βρίσκεται στο <a class=\"xref\" href=\"glossary.html#glossary-rendering-intent\" title=\"&#x395;&#x3C0;&#x3B9;&#x3B4;&#x3AF;&#x3C9;&#x3BE;&#x3B7; &#x3B1;&#x3C0;&#x3BF;&#x3C4;&#x3CD;&#x3C0;&#x3C9;&#x3C3;&#x3B7;&#x3C2;\"><span>Επιδίωξη αποτύπωσης</span></a>."
+msgstr ""
+
+#: el/gimp-pimping.html:1686(span)
+msgid "Προφίλ προσομοίωσης εκτύπωσης"
+msgstr ""
+
+#: el/gimp-pimping.html:1689(p)
+msgid "Θα πρέπει να διαλέξετε ένα προφίλ εκτυπωτή για αυτή την επιλογή. Το επιλεγμένο χρωματικό προφίλ χρησιμοποιείται για την κατάσταση προσομοίωσης εκτύπωσης."
+msgstr ""
+
+#: el/gimp-pimping.html:1695(span)
+msgid "Επιδίωξη αποτύπωσης Softproof"
+msgstr ""
+
+#: el/gimp-pimping.html:1698(p)
+msgid "Αυτή η επιλογή πάλι παρέχει δύο διαφορετικά στοιχεία για αλληλεπίδραση:"
+msgstr ""
+
+#: el/gimp-pimping.html:1704(p)
+msgid "Μπορείτε να χρησιμοποιήσετε το μενού για να επιλέξετε την απόδοση στόχου. Είναι οι ίδιοι όπως ήδη περιγράφηκαν για την επιδίωξη αποτύπωσης της οθόνης."
+msgstr ""
+
+#: el/gimp-pimping.html:1710(p)
+msgid "Εάν ενεργοποιήσετε την επιλογή <span class=\"guilabel\">Σήμανση χρωμάτων εκτός φάσματος</span>, όλα τα εικονοστοιχεία που έχουν ένα χρώμα δεν είναι εκτυπώσιμο σημειώνονται με ένα ειδικό χρώμα. Ποιο χρώμα χρησιμοποιείται για αυτό μπορεί επίσης να επιλεγεί από εσάς. Μπορείτε να το κάνετε απλά πατώντας στο εικονίδιο χρώματος στα δεξιά, δίπλα στο πλαίσιο ελέγχου."
+msgstr ""
+
+#: el/gimp-pimping.html:1721(span)
+msgid "Συμπεριφορά κατά το άνοιγμα αρχείου"
+msgstr ""
+
+#: el/gimp-pimping.html:1724(p)
+msgid "Χρησιμοποιώντας αυτό το μενού μπορείτε να προσδιορίσετε πώς συμπεριφέρεται το GIMP, όταν ανοίγει ένα αρχείο που περιέχει ένα ενσωματωμένο χρωματικό προφίλ, που δεν ταιριάζει το χώρο εργασίας sRGB. Μπορείτε να διαλέξετε από τις πιο κάτω εισόδους:"
+msgstr ""
+
+#: el/gimp-pimping.html:1732(p)
+msgid "<span class=\"guimenuitem\">Ερώτηση για το τι θα γίνει</span>: Εάν επιλεγεί, το GIMP θα σας ρωτά τι να κάνει."
+msgstr ""
+
+#: el/gimp-pimping.html:1736(p)
+msgid "<span class=\"guimenuitem\">Διατήρηση ενσωματωμένου προφίλ</span>: Εάν επιλεγεί, το GIMP θα κρατήσει το ενσωματωμένο προφίλ και δεν θα μετατρέψει την εικόνα στο χώρο εργασίας. Η εικόνα απεικονίζεται σωστά πάντα, γιατί το ενσωματωμένο προφίλ θα εφαρμοστεί για την εμφάνιση."
+msgstr ""
+
+#: el/gimp-pimping.html:1742(p)
+msgid "<span class=\"guimenuitem\">Convert to RGB workspace (Μετατροπή στο χώρο εργασίας RGB)</span>: Με αυτήν την επιλογή το GIMP θα χρησιμοποιήσει αυτόματα το ενσωματωμένο χρωματικό προφίλ για να μετατρέψει την εικόνα στο χώρο εργασίας."
+msgstr ""
+
+#: el/gimp-pimping.html:1762(p)
+msgid "Για περισσότερες εξηγήσεις:"
+msgstr ""
+
+#: el/gimp-pimping.html:1766(p)
+msgid "Τα προφίλ ICC εξηγούνται στη Wikipedia <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-icc\" title=\"Wikipedia - ICC Profile\">[<abbr class=\"abbrev\">WKPD-ICC</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-pimping.html:1772(p)
+msgid "Δείτε το σχέδιο OpenICC (<a class=\"xref\" href=\"bibliography.html#bibliography-online-openicc\" title=\"The OpenICC project\">[<abbr class=\"abbrev\">OPENICC</abbr>]</a>) όπου συμβάλλουν το GIMP και άλλα μεγάλα ονόματα της ελεύθερης πληροφόρησης."
+msgstr ""
+
+#: el/gimp-pimping.html:1780(p)
+msgid "Πολλά προφίλ για φόρτωση από τον ιστό:"
+msgstr ""
+
+#: el/gimp-pimping.html:1784(p)
+msgid "Χώρος εργασίας ICC sRGB: <span class=\"productname\">ICCsRGB</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-iccsrgb\" title=\"ICC sRGB PROFILES\">[<abbr class=\"abbrev\">ICCsRGB</abbr>]</a>"
+msgstr ""
+
+#: el/gimp-pimping.html:1791(p)
+msgid "Χώρος εργασίας Microsoft sRGB: <span class=\"productname\">MsRGB</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-microsoft-srgb\" title=\"Microsoft sRVB Workspace\">[<abbr class=\"abbrev\">MsRGB</abbr>]</a>"
+msgstr ""
+
+#: el/gimp-pimping.html:1798(p)
+msgid "Χώρος εργασίας Adobe RGB98: <span class=\"productname\">Adobe RGB (1998)</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-adobrgb\" title=\"Adobe RGB (1998) ICC Profile\">[<abbr class=\"abbrev\">AdobeRGB</abbr>]</a>"
+msgstr ""
+
+#: el/gimp-pimping.html:1805(p)
+msgid "Προφίλ ECI (European Color Initiative) (Ευρωπαϊκή χρωματική πρωτοβουλία): <span class=\"productname\">ECI</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-eci\" title=\"ECI (European Color Initiative) Profiles\">[<abbr class=\"abbrev\">ECI</abbr>]</a>"
+msgstr ""
+
+#: el/gimp-pimping.html:1819(div:title)
+msgid "1.15. Συσκευές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1823(h3)
+msgid "<a id=\"gimp-prefs-input-devices\"/>1.15. Συσκευές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1832(b)
+msgid "Εικόνα 11.17. Προτιμήσεις συσκευών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1836(img:alt)
+msgid "Προτιμήσεις συσκευών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1841(div:title) el/gimp-pimping.html:1843(b)
+msgid "Εκτεταμένες συσκευές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1847(span)
+msgid "Ρύθμιση εκτεταμένων συσκευών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1850(p)
+msgid "Αυτό το μεγάλο κουμπί σας επιτρέπει να ορίσετε τις συνδεμένες συσκευές με τον υπολογιστή σας: ταμπλέτες, πληκτρολόγια MIDI... Εάν έχετε μια ταμπλέτα, θα δείτε ένα διάλογο όπως αυτόν:"
+msgstr ""
+
+#: el/gimp-pimping.html:1857(b)
+msgid "Εικόνα 11.18. Προτιμήσεις για ταμπλέτα"
+msgstr ""
+
+#: el/gimp-pimping.html:1861(img:alt)
+msgid "Προτιμήσεις για ταμπλέτα"
+msgstr ""
+
+#: el/gimp-pimping.html:1868(span)
+msgid "Αποθήκευση ρυθμίσεων συσκευών εισόδου κατά την έξοδο"
+msgstr ""
+
+#: el/gimp-pimping.html:1871(p)
+msgid "Εάν σημειώσετε αυτό το πλαίσιο, το GIMP θυμάται το εργαλείο, χρώμα, μοτίβο και πινέλο που χρησιμοποιούσατε την τελευταία φορά που φύγατε."
+msgstr ""
+
+#: el/gimp-pimping.html:1877(span)
+msgid "Αποθήκευση ρυθμίσεων συσκευών εισόδου τώρα"
+msgstr ""
+
+#: el/gimp-pimping.html:1880(p)
+msgid "Αυτονόητο."
+msgstr ""
+
+#: el/gimp-pimping.html:1883(span)
+msgid "Επαναφορά προεπιλεγμένων ρυθμίσεων συσκευών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1888(p)
+msgid "Διαγραφή των ρυθμίσεων σας και επαναφορά των προεπιλεγμένων ρυθμίσεων."
+msgstr ""
+
+#: el/gimp-pimping.html:1895(div:title)
+msgid "1.16. Ελεγκτές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1899(h3)
+msgid "<a id=\"gimp-prefs-input-controllers\"/>1.16. Ελεγκτές εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1908(b)
+msgid "Εικόνα 11.19. Προτιμήσεις ελεγκτών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1912(img:alt)
+msgid "Προτιμήσεις ελεγκτών εισόδου"
+msgstr ""
+
+#: el/gimp-pimping.html:1917(p)
+msgid "Αυτός ο διάλογος έχει δύο καταλόγους επιπρόσθετων ελεγκτών εισόδου: <span class=\"guilabel\">Διαθέσιμοι ελεγκτές</span> στα αριστερά, <span class=\"guilabel\">Ενεργοί ελεγκτές</span> στα δεξιά."
+msgstr ""
+
+#: el/gimp-pimping.html:1922(p)
+msgid "Πατώντας ένα στοιχείο, θα επισημανθεί και μπορείτε να μετακινήσετε τον ελεγκτή από τη μία λίστα στην άλλη πατώντας το αντίστοιχο πλήκτρο τόξου. Όταν προσπαθείτε να μετακινήσετε έναν ελεγκτή από τη λίστα των ενεργών ελεγκτών στους διαθέσιμους ελεγκτές, ένας διάλογος αναδύεται και θα έχετε την επιλογή της απομάκρυνσης του ελεγκτή ή απλά της απενεργοποίησης του."
+msgstr ""
+
+#: el/gimp-pimping.html:1928(p)
+msgid "Όταν διπλοπατάτε σε έναν (τυπικά ενεργό) ελεγκτή ή εναλλακτικά πατάτε στο κουμπί ρύθμιση του επιλεγμένου ελεγκτή, μπορείτε να ρυθμίσετε αυτόν τον ελεγκτή σε ένα παράθυρο διαλόγου:"
+msgstr ""
+
+#: el/gimp-pimping.html:1932(div:title)
+msgid "Main Mouse Wheel"
+msgstr ""
+
+#: el/gimp-pimping.html:1934(b)
+msgid "Main Mouse Wheel (Τροχός κύριου ποντικιού)"
+msgstr ""
+
+#: el/gimp-pimping.html:1941(b)
+msgid "Εικόνα 11.20. Τροχός κύριου ποντικιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1945(img:alt)
+msgid "Τροχός κύριου ποντικιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1959(span)
+msgid "Dump events from this controller (Αποτύπωση συμβάντων από αυτόν τον ελεγκτή)"
+msgstr ""
+
+#: el/gimp-pimping.html:1962(p)
+msgid "Αυτή η επιλογή πρέπει να σημειωθεί, εάν θέλετε την εμφάνιση των ροών στην έξοδο (stdout) των παραγόμενων συμβάντων από τους ενεργοποιημένους ελεγκτές. Εάν θέλετε να δείτε αυτά τα συμβάντα πρέπει να ξεκινήσετε το GIMP από ένα τερματικό ή να το κάνετε να εμφανίσει τις ροές στην έξοδο σε αρχείο ανακατευθύνοντας το κέλυφος. Η κύρια χρήση αυτής της επιλογής είναι για αποσφαλμάτωση."
+msgstr ""
+
+#: el/gimp-pimping.html:1970(span)
+msgid "Ενεργοποίηση αυτού του ελεγκτή"
+msgstr ""
+
+#: el/gimp-pimping.html:1973(p)
+msgid "Αυτή η επιλογή πρέπει να σημειωθεί εάν θέλετε να προσθέσετε νέες ενέργειες στο τροχό του ποντικιού."
+msgstr ""
+
+#: el/gimp-pimping.html:1981(span)
+msgid "Τροχός ποντικιού"
+msgstr ""
+
+#: el/gimp-pimping.html:1984(p)
+msgid "Σε αυτό το παράθυρο με γραμμές κύλισης έχετε: στα αριστερά, τα πιθανά συμβάντα που αφορούν τον τροχό του ποντικιού, περισσότερο ή λιγότερο συνδεμένα με τα πλήκτρα ελέγχου. Στα δεξιά, η ενέργεια που αντιστοιχεί στο συμβάν όταν θα συμβεί. Έχετε επίσης δύο κουμπιά, ένα για <span class=\"guibutton\">Επεξεργασία</span> του επιλεγμένου συμβάντος, το άλλο για <span class=\"guibutton\">Ακύρωση</span> της ενέργειας του επιλεγμένου συμβάντος."
+msgstr ""
+
+#: el/gimp-pimping.html:1990(p)
+msgid "Μερικές ενέργειες έχουν ήδη συσχετιστεί σε συμβάντα. Πρέπει να είναι παραδείγματα, μη λειτουργικά."
+msgstr ""
+
+#: el/gimp-pimping.html:1995(span)
+msgid "Επιλογή της ενέργειας που καταμερίστηκε στο συμβάν."
+msgstr ""
+
+#: el/gimp-pimping.html:1998(p)
+msgid "Μετά την επιλογή ενός συμβάντος, εάν πατήσετε στο κουμπί <span class=\"guibutton\">Επεξεργασία</span>, ανοίγετε τον παρακάτω διάλογο:"
+msgstr ""
+
+#: el/gimp-pimping.html:2005(b)
+msgid "Εικόνα 11.21. Select Controller Event Action (Επιλογή ενέργειας ελεγκτή συμβάντων)"
+msgstr ""
+
+#: el/gimp-pimping.html:2009(img:alt)
+msgid "Select Controller Event Action (Επιλογή ενέργειας ελεγκτή συμβάντων)"
+msgstr ""
+
+#: el/gimp-pimping.html:2014(p)
+msgid "Εάν μια ενέργεια υπάρχει ήδη για αυτό το συμβάν, το παράθυρο θα ανοίξει σε αυτήν την ενέργεια. Αλλιώς, το παράθυρο θα εμφανίσει τα τμήματα που δίνουν εντολές ενέργειας. Πατήστε σε μια ενέργεια για να την επιλέξετε."
+msgstr ""
+
+#: el/gimp-pimping.html:2021(div:title)
+msgid "Main Keyboard (Κύριο πληκτρολόγιο)"
+msgstr ""
+
+#: el/gimp-pimping.html:2023(b)
+msgid "(Κύριο πληκτρολόγιο)"
+msgstr ""
+
+#: el/gimp-pimping.html:2030(p)
+msgid "Μπορείτε να χρησιμοποιήσετε αυτό το διάλογο όπως και τον τροχό του ποντικιού. Τα συμβάντα σχετίζονται με τα πλήκτρα τόξων του πληκτρολογίου, συνδυασμένα ή όχι με τα πλήκτρα ελέγχου."
+msgstr ""
+
+#: el/gimp-pimping.html:2037(b)
+msgid "Εικόνα 11.22.Κύριο πληκτρολόγιο"
+msgstr ""
+
+#: el/gimp-pimping.html:2041(img:alt)
+msgid "Κύριο πληκτρολόγιο"
+msgstr ""
+
+#: el/gimp-pimping.html:2059(p)
+msgid "Θα βρείτε ένα παράδειγμα αυτών των ιδεών στο <a class=\"link\" href=\"gimp-using-variable-size-brush.html\" title=\"9.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BC;&#x3B5;&#x3B3;&#x3AD;&#x3B8;&#x3BF;&#x3C5;&#x3C2; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF;&#x3C5;\"> Δημιουργία ενός μεταβλητού μεγέθους πινέλου </a>."
+msgstr ""
+
+#: el/gimp-pimping.html:2070(div:title)
+msgid "1.17. Διαχείριση παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2074(h3)
+msgid "<a id=\"gimp-prefs-window-management\"/>1.17. Διαχείριση παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2083(b)
+msgid "Εικόνα 11.23. Επιλογές διαχείρισης παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2087(img:alt)
+msgid "Επιλογές διαχείρισης παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2092(p)
+msgid "Αυτή η σελίδα επιτρέπει την προσαρμογή του τρόπου χειρισμού των παραθύρων στο GIMP. Θα πρέπει να σημειώσετε ότι το GIMP επεξεργάζεται τα παράθυρα άμεσα, αλλά στέλνει αιτήσεις στο διαχειριστή παραθύρου (π.χ., στα Windows εάν τρέχετε τα Windows, στο Metacity εάν τρέχετε μια τυπική εγκατάσταση του Gnome στα Linux, κλ.). Επειδή υπάρχουν πολλοί διαχειριστές παραθύρων και δεν συμπεριφέρονται όλοι καλά, δεν υπάρχει εγγύηση ότι οι λειτουργίες που περιγράφονται εδώ, θα δουλέψουν όπως περιγράφεται. Όμως, εάν χρησιμοποιείται ένα σύγχρονο διαχειριστή παραθύρου σύμφωνο με τα πρότυπα, θα πρέπει να δουλέψουν άψογα."
+msgstr ""
+
+#: el/gimp-pimping.html:2100(div:title)
+msgid "1.17.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:2104(h4)
+msgid "<a id=\"id3173192\"/>1.17.1. Επιλογές"
+msgstr ""
+
+#: el/gimp-pimping.html:2108(div:title) el/gimp-pimping.html:2110(b)
+msgid "Οδηγίες στο διαχειριστή παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2114(span)
+msgid "Οδηγίες για το κουτί εργαλείων και για άλλα παράθυρα"
+msgstr ""
+
+#: el/gimp-pimping.html:2117(p)
+msgid "Οι επιλογές που κάνετε εδώ προσδιορίζουν την αντιμετώπιση της εργαλειοθήκης και των αγκιστριών (docks) που κρατούν διαλόγους. Έχετε τρεις επιλογές:"
+msgstr ""
+
+#: el/gimp-pimping.html:2124(p)
+msgid "Εάν επιλέξετε <span class=\"guilabel\">Κανονικό παράθυρο</span>, θα αντιμετωπίζονται όπως κάθε άλλο παράθυρο."
+msgstr ""
+
+#: el/gimp-pimping.html:2129(p)
+msgid "Εάν επιλέξετε <span class=\"guilabel\">Βοηθητικό παράθυρο</span>, το κουμπί μείωσης στη γραμμή τίτλου λείπει και τα αγκίστρια θα παραμείνουν μόνιμα στην οθόνη σας."
+msgstr ""
+
+#: el/gimp-pimping.html:2136(b)
+msgid "Εικόνα 11.24. Γραμμή τίτλου βοηθητικού παραθύρου"
+msgstr ""
+
+#: el/gimp-pimping.html:2140(img:alt) el/gimp-pimping.html:2148(img:alt)
+msgid "Γραμμή τίτλου βοηθητικού παραθύρου"
+msgstr ""
+
+#: el/gimp-pimping.html:2142(p)
+msgid "Κανονική γραμμή τίτλου."
+msgstr ""
+
+#: el/gimp-pimping.html:2150(p)
+msgid "Η γραμμή τίτλου σε ένα βοηθητικό παράθυρο."
+msgstr ""
+
+#: el/gimp-pimping.html:2160(p)
+msgid "Εάν διαλέξετε <span class=\"guilabel\">Keep above (Διατήρηση υπεράνω)</span>, θα διατηρούνται μπροστά από κάθε άλλο παράθυρο πάντοτε."
+msgstr ""
+
+#: el/gimp-pimping.html:2167(p)
+msgid "Σημειώστε ότι αλλαγές που κάνετε εδώ, δεν λαμβάνουν χώρα πριν την επόμενη εκκίνηση του GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:2173(div:title) el/gimp-pimping.html:2175(b)
+msgid "Εστίαση"
+msgstr ""
+
+#: el/gimp-pimping.html:2179(span)
+msgid "Ενεργοποίηση της εστιασμένης εικόνας"
+msgstr ""
+
+#: el/gimp-pimping.html:2182(p)
+msgid "Κανονικά, όταν εστιάζετε ένα παράθυρο εικόνας (συνήθως δείχνεται από μια αλλαγή στο χρώμα του πλαισίου), γίνεται <span class=\"quote\">“<span class=\"quote\">η ενεργή εικόνα </span>”</span> για το GIMP, και άρα ο στόχος για κάθε ενέργεια που εκτελείτε σχετιζόμενη με την εικόνα. Κάποιοι όμως, προτιμούν να εγκαταστήσουν τους διαχειριστές παραθύρων έτσι ώστε κάθε παράθυρο που εισέρχεται από το δείκτη του ποντικιού να εστιάζεται αυτόματα. Εάν κάνετε αυτό, ίσως βρείτε άβολο για εστιασμένες εικόνες να γίνονται αυτόματα ενεργές και είναι πιο καλά, εάν αποεπιλέξετε αυτή την επιλογή."
+msgstr ""
+
+#: el/gimp-pimping.html:2193(div:title) el/gimp-pimping.html:2195(b)
+msgid "Θέσεις παραθύρων"
+msgstr ""
+
+#: el/gimp-pimping.html:2199(span)
+msgid "Αποθήκευση θέσεων παραθύρων κατά την έξοδο"
+msgstr ""
+
+#: el/gimp-pimping.html:2202(p)
+msgid "Εάν διαλέξετε αυτήν την επιλογή, την επόμενη φορά που θα ξεκινήσετε το GIMP, θα δείτε το ίδιο σύνολο παραθύρων διαλόγου, στις ίδιες θέσεις που καταλάμβαναν, όταν φύγατε για τελευταία φορά."
+msgstr ""
+
+#: el/gimp-pimping.html:2208(span)
+msgid "Αποθήκευση θέσεων παραθύρων τώρα"
+msgstr ""
+
+#: el/gimp-pimping.html:2211(p)
+msgid "Αυτό το κουμπί είναι χρήσιμο εάν το \"Αποθήκευση θέσεων παραθύρων κατά την έξοδο\" είναι αποεπιλεγμένο. Επιτρέπει την ρύθμιση των παραθύρων όπως θέλετε, πατώντας το κουμπί και έπειτα να εμφανίζονται τα παράθυρα με αυτή τη ρύθμιση κάθε φορά που ξεκινάτε το GIMP."
+msgstr ""
+
+#: el/gimp-pimping.html:2218(span)
+msgid "Επαναφορά των παραθύρων στις προεπιλεγμένες θέσεις"
+msgstr ""
+
+#: el/gimp-pimping.html:2221(p)
+msgid "Εάν αποφασίσετε ότι δεν επιθυμείτε τη ρύθμιση των παραθύρων που αποθηκεύσατε και θέλετε να γυρίσετε στην προκαθορισμένη ρύθμιση, μπορείτε να πατήσετε αυτό το κουμπί."
+msgstr ""
+
+#: el/gimp-pimping.html:2230(div:title)
+msgid "1.18. Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:2234(h3)
+msgid "<a id=\"gimp-prefs-folders\"/>1.18. Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:2242(b)
+msgid "Εικόνα 11.25. Βασικές προτιμήσεις φακέλων"
+msgstr ""
+
+#: el/gimp-pimping.html:2246(img:alt)
+msgid "Βασικές προτιμήσεις φακέλων"
+msgstr ""
+
+#: el/gimp-pimping.html:2251(p)
+msgid "Αυτή η σελίδα σας επιτρέπει να ορίσετε τις τοποθεσίες για δύο σημαντικούς φακέλους που χρησιμοποιούνται από το GIMP για προσωρινά αρχεία. Οι πιο κάτω σελίδες σας επιτρέπουν την προσαρμογή των τοποθεσιών που αναζητούνται για πηγές όπως τα πινέλα κλ., δείτε <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;&#x3A6;&#x3AC;&#x3BA;&#x3B5;&#x3BB;&#x3BF;&#x3B9; &#x3B4;&#x3B5;&#x3B4;&#x3BF;&#x3BC;&#x3AD;&#x3BD;&#x3C9;&#x3BD;\">Φάκελοι δεδομένων</a> για μια περιγραφή που αντιστοιχεί σε αυτούς. Μπορείτε να αλλάξετε τους φακέλους εδώ, επεξεργαζόμενοι τις εισόδους, ή πατώντας τα κουμπιά στα δεξιά για να εμφανιστεί ένα παράθυρο επιλογέα αρχείου."
+msgstr ""
+
+#: el/gimp-pimping.html:2259(div:title) el/gimp-pimping.html:2261(b)
+msgid "Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:2267(span)
+msgid "Προσωρινός φάκελος"
+msgstr ""
+
+#: el/gimp-pimping.html:2270(p)
+msgid "Αυτός ο φάκελος χρησιμοποιείται για προσωρινά αρχεία: αρχεία που δημιουργήθηκαν για προσωρινή αποθήκευση των δεδομένων εργασίας και έπειτα διαγράφηκαν στην ίδια σύνοδο του GIMP. Δεν χρειάζονται πολύ χώρο ή υψηλή επίδοση. Από προεπιλογή, ένας υποκατάλογος που λέγεται <code class=\"filename\">tmp</code> χρησιμοποιείται στον προσωπικό σας κατάλογο, αλλά εάν ο δίσκος είναι στριμωγμένος από χώρο ή έχετε προβλήματα απόδοσης, μπορείτε να τον αλλάξετε σε έναν διαφορετικό κατάλογο. Ο κατάλογος πρέπει να υπάρχει και να είναι εγγράψιμος από εσάς, ή θα συμβούν ανεπιθύμητα πράγματα."
+msgstr ""
+
+#: el/gimp-pimping.html:2280(span)
+msgid "Φάκελος Swap (εναλλαγής)"
+msgstr ""
+
+#: el/gimp-pimping.html:2283(p)
+msgid "Αυτός είναι ο φάκελος που χρησιμεύει ως <span class=\"quote\">“<span class=\"quote\">τράπεζα μνήμης</span>”</span> όταν το συνολικό μέγεθος των ανοιχτών εικόνων και δεδομένων στο GIMP ξεπερνά το διαθέσιμο RAM. Εάν δουλεύετε με πολύ μεγάλες εικόνες, ή εικόνες με πολλές στρώσεις ή έχετε πολλές ανοιχτές εικόνες ταυτόχρονα, το GIMP μπορεί να απαιτεί εκατοντάδες megabytes εναλλακτικού χώρου, έτσι ο διαθέσιμος χώρος δίσκου και η επίδοση είναι σίγουρα πράγματα προς σκέψη για αυτό το φάκελο. Από προεπιλογή, ορίζεται στον προσωπικό κατάλογο GIMP, αλλά εάν έχετε έναν άλλο δίσκο με περισσότερο ελεύθερο χώρο, ή ουσιαστικά καλύτερη επίδοση, μπορείτε να δείτε ένα σημαντικό πλεονέκτημα μετακινώντας τον εναλλακτικό σας φάκελο εκεί. Ο κατάλογος πρέπει να υπάρχει και να είναι εγγράψιμος από εσάς."
+msgstr ""
+
+#: el/gimp-pimping.html:2297(div:title)
+msgid "1.19. Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:2301(h3)
+msgid "<a id=\"gimp-prefs-folders-data\"/>1.19. Φάκελοι"
+msgstr ""
+
+#: el/gimp-pimping.html:2320(b)
+msgid "Εικόνα 11.26. Προτιμήσεις: Φάκελοι πινέλων"
+msgstr ""
+
+#: el/gimp-pimping.html:2324(img:alt)
+msgid "Προτιμήσεις: Φάκελοι πινέλων"
+msgstr ""
+
+#: el/gimp-pimping.html:2329(p)
+msgid "Το GIMP χρησιμοποιεί πολλούς τύπους πηγών - όπως πινέλα, προπλάσματα, διαβαθμίσεις. κλ. -για τα οποία ένα βασικό σύνολο έρχεται με το GIMP όταν εγκαθίσταται και άλλοι μπορούν να δημιουργηθούν ή να φορτωθούν από το χρήστη. Για κάθε τέτοιο τύπο πηγής, υπάρχει μια σελίδα προτιμήσεων που σας επιτρέπει να ορίσετε τη <span class=\"emphasis\"><em>διαδρομή αναζήτησης</em></span>. Το σύνολο των καταλόγων που περιέχουν στοιχεία των εν λόγω τύπων φορτώνονται αυτόματα, όταν ξεκινά το GIMP. Αυτές οι σελίδες μοιάζουν πολύ μεταξύ τους. Η σελίδα για τα πινέλα φαίνεται στα δεξιά ως παράδειγμα."
+msgstr ""
+
+#: el/gimp-pimping.html:2337(p)
+msgid "Από προεπιλογή, η διαδρομή αναζήτησης περιλαμβάνει δύο φακέλους: έναν φάκελο <span class=\"emphasis\"><em>συστήματος</em></span>, όπου τα εγκατεστημένα στοιχεία μαζί με το GIMP τοποθετούνται και έναν <span class=\"emphasis\"><em>προσωπικό</em></span> φάκελο, στον προσωπικό σας κατάλογο GIMP, όπου τα προστιθέμενα από εσάς στοιχεία τοποθετούνται. Ο φάκελος του συστήματος δεν πρέπει να σημειωθεί ως εγγράψιμος και δεν θα πρέπει να προσπαθήσετε να αλλάξετε τα περιεχόμενα του. Οι προσωπικοί φάκελοι πρέπει να σημειωθούν ως εγγράψιμοι γιατί αλλιώς είναι άχρηστοι, επειδή δεν υπάρχει τίποτα εκεί, εκτός από όσα βάζετε."
+msgstr ""
+
+#: el/gimp-pimping.html:2345(p)
+msgid "Μπορείτε να προσαρμόσετε τη διαδρομή αναζήτησης με τα κουμπιά στην κορυφή του διαλόγου."
+msgstr ""
+
+#: el/gimp-pimping.html:2354(span)
+msgid "Επιλογή φακέλου"
+msgstr ""
+
+#: el/gimp-pimping.html:2357(p)
+msgid "Εάν πατήσετε σε έναν από τους φακέλους στη λίστα, επιλέγεται για την ενέργεια που ακολουθεί."
+msgstr ""
+
+#: el/gimp-pimping.html:2362(span)
+msgid "Προσθήκη/Αφαίρεση φακέλου"
+msgstr ""
+
+#: el/gimp-pimping.html:2365(p)
+msgid "Εάν γράψετε το όνομα ενός φακέλου στο χώρο εισόδου, ή περιηγηθείτε σε αυτόν, χρησιμοποιώντας το κουμπί επιλογής αρχείου <span class=\"guiicon\"><img src=\"images/dialogs/stock-fileopen-16.png\"/></span> στα δεξιά και έπειτα πατήσετε στο αριστερό κουμπί, αυτό θα αντικαταστήσει τον επιλεγμένο φάκελο με το φάκελο που ορίσατε. Εάν δεν επιλεγεί τίποτα στη λίστα, ο φάκελος που ορίσατε θα προστεθεί στη λίστα. Εάν το εικονίδιο φωτός στα αριστερά της περιοχής εισόδου κειμένου είναι κόκκινο αντί για πράσινο, σημαίνει ότι ο φάκελος που ορίσατε δεν υπάρχει. Το GIMP δεν θα τον δημιουργήσει για σας, έτσι πρέπει να το κάνετε εσείς αμέσως."
+msgstr ""
+
+#: el/gimp-pimping.html:2375(span)
+msgid "Μετακίνηση επάνω/κάτω"
+msgstr ""
+
+#: el/gimp-pimping.html:2378(p)
+msgid "Εάν πατήσετε στα κουμπιά επάνω ή κάτω τόξου, ο επιλεγμένος φάκελος θα αλλάξει στον επόμενο ή προηγούμενο στη λίστα. Επειδή οι φάκελοι διαβάζονται σε σειρά, χρησιμοποιώντας αυτά τα κουμπιά, αλλάζετε την προτεραιότητα φόρτωσης των στοιχείων σε αυτούς τους φακέλους."
+msgstr ""
+
+#: el/gimp-pimping.html:2385(span)
+msgid "Διαγραφή φακέλου"
+msgstr ""
+
+#: el/gimp-pimping.html:2388(p)
+msgid "Αν πατήσετε το κουμπί με τον σκουπιδοτενεκέ, ο επιλεγμένος φάκελος θα διαγραφεί από τη λίστα. (Ο ίδιος ο φάκελος δεν επηρεάζεται. Απλά μετακινείται από τη διαδρομή αναζήτησης.) Διαγραφή του φακέλου του συστήματος είναι προφανώς κακή ιδέα, αλλά τίποτα δεν σας εμποδίζει από το να το κάνετε."
+msgstr ""
+
+#: el/gimp-pimping.html:2406(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-pimping.html:2412(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-pimping.html:2415(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-pimping.html:2418(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

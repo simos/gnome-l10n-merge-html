@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-shortcuts.html:6(title) en/gimp-concepts-shortcuts.html:21(th) en/gimp-concepts-shortcuts.html:31(div:title)
+msgid "5. Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:13(link:title) en/gimp-concepts-shortcuts.html:25(th)
+msgid "Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:14(link:title) en/gimp-concepts-shortcuts.html:169(a)
+msgid "4. How to Set Your Tile Cache"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:15(link:title) en/gimp-concepts-shortcuts.html:175(a)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:24(img:alt) en/gimp-concepts-shortcuts.html:160(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:24(td) en/gimp-concepts-shortcuts.html:160(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-setup-tile-cache.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:26(img:alt) en/gimp-concepts-shortcuts.html:166(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:26(td) en/gimp-concepts-shortcuts.html:166(td)
+msgid " <a accesskey=\"n\" href=\"customize-splashscreen.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:35(h2)
+msgid "<a id=\"gimp-concepts-shortcuts\"/>5. Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:41(p)
+msgid "Many functions which are accessible via the image menu have a default keyboard shortcut. You may want to create a new shortcut for a command that you use a lot and doesn't have one or, more rarely, edit an existing shortcut. There are two methods for doing this."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:47(div:title) en/gimp-concepts-shortcuts.html:50(b)
+msgid "Procedure 11.1. Using dynamic keyboard shortcuts"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:53(li:title) en/gimp-concepts-shortcuts.html:106(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:54(p)
+msgid "First, you have to activate this capability by checking the <span class=\"guilabel\">Use dynamic keyboard shortcuts</span> option in the <span class=\"guilabel\">Interface</span> item of the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-interface\" title=\"1.3.&#xA0;Interface\">Preferences</a> menu. This option is usually not checked, to prevent accidental key presses from creating an unwanted shortcut."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:63(li:title) en/gimp-concepts-shortcuts.html:113(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:64(p)
+msgid "While you're doing that, also check the <span class=\"guilabel\">Save keyboard shortcuts on exit</span> option so that your shortcut will be saved."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:70(li:title) en/gimp-concepts-shortcuts.html:121(li:title)
+msgid "Step 3"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:71(p)
+msgid "To create a keyboard shortcut, simply place the mouse pointer on a command in the menu: it will then be highlighted. Be careful that the mouse pointer doesn't move and type a sequence of three keys, keeping the keys pressed. You will see this sequence appear on the right of the command."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:79(li:title)
+msgid "Step 4"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:80(p)
+msgid "It is best to use the <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span>+<span class=\"keycap\"><strong>Key</strong></span> sequence for your custom shortcuts."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:91(b)
+msgid "Figure 11.31. Configure Keyboard Shortcuts"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:95(img:alt)
+msgid "Configure Keyboard Shortcuts"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:100(div:title) en/gimp-concepts-shortcuts.html:103(b)
+msgid "Procedure 11.2. Using the Keyboard Shortcut Editor"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:107(p)
+msgid "You get to this Editor by clicking on <span class=\"guibutton\">Configure keyboard shortcuts</span> in the <span class=\"quote\">“<span class=\"quote\">Interface</span>”</span> item of the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-interface\" title=\"1.3.&#xA0;Interface\">Preferences</a> menu."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:114(p)
+msgid "As shown in this dialog, you can select the command you want to create a shortcut for, in the <span class=\"quote\">“<span class=\"quote\">Action</span>”</span> area. Then you type your key sequence as above. In principle, the Space bar should clear a shortcut. (In practice, it clears it, but doesn't delete it.)"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:122(p)
+msgid "This shortcut editor also allows you to <span class=\"emphasis\"><em>control the tool parameter settings</em></span> with the keyboard. At the top of this dialog, you can find a <span class=\"guilabel\">Context</span> menu that takes you to the tool parameters. To make your work easier, tool types are marked with small icons."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:132(div:title) en/gimp-concepts-shortcuts.html:138(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:136(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:142(p)
+msgid "Custom Keyboard shortcuts are stored in one of Gimp's hidden directory (<code class=\"filename\">/home/[username]/.gimp-2.6/menurc</code>) under Linux, and <code class=\"filename\">C:\\Documents and Settings\\[Username]\\.gimp-2.6\\menurc</code> under Windows XP. It is a simple text file that you can transport from one computer to another."
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:163(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:169(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:172(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-shortcuts.html:175(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

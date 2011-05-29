@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-main-windows.html:6(title) el/gimp-concepts-main-windows.html:20(th) el/gimp-concepts-main-windows.html:29(div:title)
+msgid "2. Κύρια παράθυρα"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:13(link:title) el/gimp-concepts-main-windows.html:14(link:title) el/gimp-concepts-main-windows.html:23(th) el/gimp-concepts-main-windows.html:347(a)
+msgid "Κεφάλαιο 3. Πρώτα βήματα με τον Wilber"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:15(link:title) el/gimp-concepts-main-windows.html:353(a)
+msgid "2.2. Παράθυρο εικόνας"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:22(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:22(td)
+msgid "<a accesskey=\"p\" href=\"gimp-first-steps.html\"><img src=\"images/prev.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:24(img:alt) el/gimp-concepts-main-windows.html:338(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:24(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-window.html\"><img src=\"images/next.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:32(h2)
+msgid "<a id=\"gimp-concepts-main-windows\"/>2. Κύρια παράθυρα"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:39(b)
+msgid "Εικόνα 3.2. Τα αρχικά παράθυρα του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:42(img:alt)
+msgid "Τα αρχικά παράθυρα του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:44(p)
+msgid "Τα στιγμιότυπα απεικονίζουν τα αρχικά παράθυρα του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:51(p)
+msgid "Τα παραπάνω στιγμιότυπα δείχνουν την πιο βασική διάταξη παραθύρων του GIMP που μπορεί να χρησιμοποιηθεί αποτελεσματικά."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:54(p)
+msgid "<span class=\"emphasis\"><em>Η βασική εργαλειοθήκη:</em></span> Περιέχει ένα σύνολο πλήκτρων εικονιδίων που χρησιμοποιούνται για επιλογή εργαλείων. Μπορεί επίσης να περιέχει τα χρώματα προσκηνίου και παρασκηνίου, πινέλα, μοτίβα και διαβαθμίσεις και μια απεικόνιση της ενεργού εικόνας. Χρησιμοποιήστε <span class=\"guimenu\">Επεξεργασία</span> → <span class=\"guisubmenu\">Προτιμήσεις</span> → <span class=\"guisubmenu\">Εργαλειοθήκη</span> για ενεργοποίηση ή απενεργοποίηση των επιπλέον αντικειμένων."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:63(p)
+msgid "<span class=\"emphasis\"><em>Επιλογές εργαλείων:</em></span> Προσαρτημένος κάτω από την κύρια εργαλειοθήκη είναι ο διάλογος επιλογών εργαλείου που δείχνει επιλογές για το πρόσφατα επιλεγμένο εργαλείο (σε αυτή την περίπτωση, το εργαλείο μουτζούρας)."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:70(p)
+msgid "<span class=\"emphasis\"><em>Ένα παράθυρο εικόνας:</em></span> Κάθε εικόνα που ανοίγει στο GIMP εμφανίζεται σε ξεχωριστό παράθυρο. Πολλές εικόνες μπορεί να είναι ανοικτές ταυτόχρονα, περιοριζόμενες μόνο από τους πόρους του συστήματος. Πριν να μπορείτε να κάνετε οτιδήποτε χρήσιμο στο GIMP, πρέπει να έχετε τουλάχιστον ένα παράθυρο εικόνας ανοικτό. Το παράθυρο εικόνας κρατά το μενού των κύριων εντολών του GIMP (Αρχείο, Επεξεργασία, επιλογή ...), που μπορείτε επίσης να χρησιμοποιήσετε δεξιοπατώντας στο παράθυρο."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:81(p)
+msgid "Το αγκίστρι (dock) <span class=\"emphasis\"><em>Στρώσεις, Κανάλια, Μονοπάτια</em></span> με το διάλογο στρώσεων ανοικτό. Σημειώστε ότι οι <span class=\"quote\">“<span class=\"quote\">διάλογοι</span>”</span> στο <span class=\"quote\"> “<span class=\"quote\">αγκίστρι (dock)</span>”</span> είναι καρτέλες. Αυτό το παράθυρο διαλόγου δείχνει τη δομή της στρώσης της τρέχουσας ενεργού εικόνας, και επιτρέπει το χειρισμό της με ποικίλους τρόπους. Είναι δυνατόν να μερικά βασικά πράγματα χωρίς τη χρήση του διαλόγου στρώσεων, αλλά ακόμα και οι μέτρια προχωρημένοι χρήστες το του GIMP βρίσκουν απαραίτητο να έχουν το διάλογο στρώσεων πάντοτε διαθέσιμο."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:91(p)
+msgid "<span class=\"emphasis\"><em>Πινέλα, Μοτίβα, Διαβαθμίσεις:</em></span> Ο προσαρτημένος διάλογος κάτω από διάλογο στρώσεων δείχνει τους διαλόγους (καρτέλες) για το χειρισμό πινέλων, μοτίβων και διαβαθμίσεων."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:99(p)
+msgid "Αυτή είναι η ελαχιστοποιημένη εγκατάσταση. Υπάρχουν πολλοί άλλοι τύποι διαλόγου χρησιμοποιούμενοι από το GIMP για ποικίλους σκοπούς, αλλά οι χρήστες τυπικά τους ανοίγουν όταν τους χρειάζονται και τους κλείνουν όταν τελειώνουν. Καταρτισμένοι χρήστες κρατούν γενικά την εργαλειοθήκη (με επιλογές εργαλείου) και το διάλογο στρώσεων πάντοτε ανοικτό. Η εργαλειοθήκη είναι απαραίτητη σε πολλές λειτουργίες του GIMP. Στην πραγματικότητα, εάν την κλείσεις το GIMP θα κλείσει, αφού επιβεβαιώσει ότι αυτό είναι πραγματικά που θέλετε. Το τμήμα επιλογές εργαλείου είναι στην πραγματικότητα ένας ξεχωριστός διάλογος, που δείχνει προσαρτημένος στην κύρια εργαλειοθήκη στο στιγμιότυπο. Πεπειραμένοι χρήστες σχεδόν πάντοτε το εγκαθιστούν έτσι: Είναι πολύ δύσκολο να χρησιμοποιηθούν αποτελεσματικά τα εργαλεία χωρίς να βλέπει κανείς τις επιλογές. Ο διάλογος στρώσεων ενεργοποιείται, όταν δουλεύετε με μια εικόνα με πολλαπλές στρώσεις: αφού προχωρήσετε πέρα από τα πιο βασικά στάδια εκμάθησης του GIMP που σημαίνει <span class=\"emphasis\"><em>σχεδόν πάντα</em></span>. Φυσικά βοηθά και στην εμφάνιση των εικόνων που επεξεργάζεσθε στην οθόνη, εάν κλείσετε το παράθυρο της εικόνας πριν την αποθήκευση της εργασίας σας. Το GIMP θα ρωτήσει εάν θέλετε να κλείσετε το αρχείο."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:114(div:title) el/gimp-concepts-main-windows.html:120(th) el/gimp-concepts-main-windows.html:247(div:title) el/gimp-concepts-main-windows.html:253(th) el/gimp-concepts-main-windows.html:269(div:title) el/gimp-concepts-main-windows.html:275(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:118(img:alt) el/gimp-concepts-main-windows.html:251(img:alt) el/gimp-concepts-main-windows.html:273(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:124(p)
+msgid "Εάν η διάταξη του GIMP χαθεί, οι ρυθμίσεις σας είναι εύκολο να ανακτηθούν χρησιμοποιώντας <span class=\"guimenu\">Παράθυρα</span> → <span class=\"guisubmenu\">Recently Closed Docks</span> Η εντολή μενού των παραθύρων είναι διαθέσιμη μόνο όσο η εικόνα είναι ανοικτή. Για προσθήκη, κλείσιμο ή απόσπαση μιας καρτέλας από αγκίστρι, πατήστε <span class=\"guiicon\"><span class=\"inlinemediaobject\"><img src=\"images/using/tab-icon.png\"/></span></span> στην πάνω δεξιά γωνία του διαλόγου. Αυτό ανοίγει το μενού καρτελών. Επιλέξτε <span class=\"guimenuitem\">Προσθήκη Καρτέλας</span>,<span class=\"guimenuitem\"> Κλείσιμο Καρτέλας </span>, ή <span class=\"guimenuitem\">Απόσπαση Καρτέλας</span>."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:138(p)
+msgid "Το GIMP δεν υποστηρίζει την τοποθέτηση όλων των εικόνων και ελέγχων σε ένα μοναδικό περιεκτικό παράθυρο. Η αποδοχή στην κοινότητα του GIMP είναι ότι τα πολλαπλά παράθυρα προσφέρουν μια καλύτερη εμπειρία χρήστη και ένα μοναδικό παράθυρο είναι δύσκολο να γίνει με τρόπο που να δουλεύει σωστά σε όλα τα λειτουργικά συστήματα στα οποία τρέχει το GIMP."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:144(p)
+msgid "Προηγούμενες εκδόσεις του GIMP (μέχρι το GIMP 1.2.5) χρησιμοποιούσαν πολλούς διαλόγους: προχωρημένοι χρήστες συχνά είχαν πολλούς διαλόγους ανοιχτούς ταυτόχρονα, διασπαρμένους σε όλη την οθόνη και πολύ δύσκολα εντοπίσιμους. Το GIMP 2.0 είναι πολύ καλύτερο από αυτή την άποψη, επειδή επιτρέπει οι διάλογοι να προσαρτώνται μαζί με ένα ευλύγιστο τρόπο. (Ο διάλογος στρώσεων στο στιγμιότυπο στην πραγματικότητα περιέχει τέσσερις διαλόγους, παρουσιαζόμενους από καρτέλες: Στρώσεις, Κανάλια, Μονοπάτια και Αναιρέσεις.) Το σύστημα χρειάζεται λίγο για εκμάθηση, αλλά άμα το μάθετε, ελπίζουμε ότι θα σας αρέσει."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:153(p)
+msgid "Τα παρακάτω τμήματα θα σας οδηγήσουν μέσα από τα συστατικά καθενός παραθύρου που φαίνεται στο στιγμιότυπο, εξηγώντας τι είναι και πώς δουλεύει. Όταν τα μελετήσετε, καθώς και το τμήμα που περιγράφει τη βασική δομή των εικόνων του GIMP, πρέπει να έχετε μάθει αρκετά για χρησιμοποιήσετε το GIMP για μια μεγάλη ποικιλία των βασικών χειρισμών εικόνας. Τότε μπορείτε να κοιτάξετε το υπόλοιπο του εγχειριδίου με την ησυχία σας (ή απλά για να πειραματιστείτε) για να μάθετε τον σχεδόν απεριόριστο αριθμό περισσότερων λεπτών και εξειδικευμένων πραγμάτων που είναι δυνατά. Καλή διασκέδαση!"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:161(div:title)
+msgid "2.1. Η εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:165(h3)
+msgid "<a id=\"gimp-concepts-toolbox\"/>2.1. Η εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:172(b)
+msgid "Εικόνα 3.3. Στιγμιότυπο της εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:175(img:alt)
+msgid "Στιγμιότυπο της εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:180(p)
+msgid "Η εργαλειοθήκη είναι η καρδιά του GIMP. Εάν την κλείσετε, εγκαταλείπετε το GIMP. Να μια γρήγορη περιδιάβαση του τι θα βρείτε εκεί."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:184(div:title) el/gimp-concepts-main-windows.html:190(th) el/gimp-concepts-main-windows.html:292(div:title) el/gimp-concepts-main-windows.html:298(th) el/gimp-concepts-main-windows.html:313(div:title) el/gimp-concepts-main-windows.html:319(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:188(img:alt) el/gimp-concepts-main-windows.html:296(img:alt) el/gimp-concepts-main-windows.html:317(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:194(p)
+msgid "Στην εργαλειοθήκη, όπως και στα περισσότερα μέρη του GIMP, η μετακίνηση του ποντικιού πάνω από κάτι η εναπόθεση του για μια στιγμή, συνήθως εμφανίζει μια <span class=\"quote\"> “<span class=\"quote\">συμβουλή εργαλείου</span>”</span> που περιγράφει το αντικείμενο. Πλήκτρα συντομεύσεων εμφανίζονται επίσης συχνά στη συμβουλή εργαλείων. Σε πολλές περιπτώσεις η αιώρηση του ποντικιού πάνω από ένα αντικείμενο και το πάτημα του πλήκτρου <span class=\"keycap\"><strong>F1</strong></span> είναι βοήθεια για ένα αντικείμενο που είναι κάτω από το ποντίκι."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:209(p)
+msgid "<span class=\"emphasis\"><em>Εικόνες εργαλείων:</em></span> Αυτές οι εικόνες είναι κουμπιά που ενεργοποιούν εργαλεία για μια μεγάλη ποικιλία σκοπών: επιλογή μερών της εικόνας, χρώση μιας εικόνας, μετασχηματισμός μιας εικόνας κλ. <a class=\"xref\" href=\"gimp-tools.html#gimp-toolbox\" title=\"1.&#xA0;&#x397; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3B9;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B7;\">Ενότητα 1, “Η εργαλειοθήκη”</a> δίνει μια επισκόπηση εργασίας με εργαλεία και κάθε εργαλείο περιγράφεται συστηματικά στο κεφάλαιο <a class=\"link\" href=\"gimp-tools.html\" title=\"&#x39A;&#x3B5;&#x3C6;&#x3AC;&#x3BB;&#x3B1;&#x3B9;&#x3BF;&#xA0;13.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3B1;\">Εργαλεία</a>."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:219(p)
+msgid "<span class=\"emphasis\"><em>Χρώματα προσκηνίου/παρασκηνίου:</em></span> Οι περιοχές χρωμάτων εδώ σας δείχνουν τα τρέχοντα χρώματα προσκηνίου και παρασκηνίου του GIMP, που ενεργοποιείται σε πολλές λειτουργίες. Πατώντας σε οποιοδήποτε από τα δύο φέρνει το διάλογο επιλογής χρώματος που σας επιτρέπει αλλαγή σε άλλο χρώμα. Πατώντας στο διπλοκέφαλο βέλος εναλλάσσει τα δύο χρώματα, και πατώντας στο μικρό εικονίδιο στην κάτω αριστερή γωνία, τα επαναφέρει σε μαύρο και άσπρο."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:228(p)
+msgid "<span class=\"emphasis\"><em>Πινέλο/Μοτίβα/διαβάθμιση:</em></span> Τα σύμβολα εδώ σας δείχνουν τις τρέχουσες επιλογές του GIMP για: το πινέλο που χρησιμοποιείται από όλα τα εργαλεία που σας επιτρέπουν να σχεδιάσετε στην εικόνα (<span class=\"quote\">“<span class=\"quote\">Η σχεδίαση</span>”</span> συμπεριλαμβάνει λειτουργίες όπως σβήσιμο και μουτζούρωμα). Τα μοτίβα που χρησιμοποιούνται στην πλήρωση επιλεγμένων περιοχών της εικόνας. Οι διαβαθμίσεις που ενεργοποιούνται όταν μια λειτουργία απαιτεί μια ήπια μεταβαλλόμενη κλίμακα χρωμάτων. Πατώντας σε οποιοδήποτε από αυτά τα σύμβολα εμφανίζει ένα παράθυρο διαλόγου που σας επιτρέπει να το αλλάξετε."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:239(p)
+msgid "<span class=\"emphasis\"><em>Ενεργή Εικόνα:</em></span> Στο GIMP, μπορείτε να εργαστείτε με πολλές εικόνες ταυτόχρονα, αλλά σε δεδομένη χρονική στιγμή, μόνο μια εικόνα είναι η <span class=\"quote\">“<span class=\"quote\">ενεργή εικόνα</span>”</span>. Εδώ θα βρείτε μια μικρή σχηματική αναπαράσταση της ενεργού εικόνας. Πατώντας την εικόνα εμφανίζεται ένας διάλογος με έναν κατάλογο των τρεχουσών ανοικτών εικόνων, πατώντας σε μια εικόνα στο διάλογο, κάνει την εικόνα ενεργή. Μπορείτε επίσης να πατήσετε στο παράθυρο της εικόνας για να την κάνετε ενεργή."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:257(p)
+msgid "Η προεπισκόπηση της <span class=\"quote\">“<span class=\"quote\">Ενεργής Εικόνας</span>”</span> απενεργοποιείται από προεπιλογή. Εάν θέλετε, μπορείτε να την ενεργοποιήσετε στην καρτέλα <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-toolbox\" title=\"1.7.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3B9;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B7;\">Προτιμήσεις Εργαλειοθήκης</a>."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:279(p)
+msgid "Σε κάθε εκκίνηση το GIMP επιλέγει ένα εργαλείο (το πινέλο), ένα χρώμα, μια μύτη πινέλου και ένα μοτίβο από προεπιλογή, πάντα το ίδιο. Εάν θέλετε το GIMP να επιλέγει το τελευταίο εργαλείο, χρώμα, πινέλο και μοτίβο που χρησιμοποιήσατε, όταν αφήνατε την προηγούμενη σύνοδο, επιλέξτε το <span class=\"guilabel\">Αποθήκευση ρυθμίσεων συσκευής εισόδου τώρα</span> στο <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-input-devices\" title=\"1.15.&#xA0;&#x3A3;&#x3C5;&#x3C3;&#x3BA;&#x3B5;&#x3C5;&#x3AD;&#x3C2; &#x395;&#x3B9;&#x3C3;&#x3CC;&#x3B4;&#x3BF;&#x3C5;\">Προτιμήσεις/ Συσκευές Εισόδου</a>."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:302(p)
+msgid "Το παράθυρο της εργαλειοθήκης εμφανίζει <span class=\"quote\">“<span class=\"quote\">τα μάτια του Wilber</span>” </span> κατά μήκος της κορυφής του διαλόγου. Μπορείτε να απαλλαγείτε από <span class=\"quote\">“<span class=\"quote\"> τα μάτια του Wilber</span>”</span> προσθέτοντας την παρακάτω γραμμή στο αρχείο σας <code class=\"filename\"> gimprc</code>: <code class=\"code\">(toolbox-wilber no)</code>. Αυτό επηρεάζει μόνο την εργαλειοθήκη. Τα μάτια στο παράθυρο εικόνας είναι ορατά μόνο, όταν δεν έχετε μια ανοικτή εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:323(p)
+msgid "Σύρσιμο και απόθεση μιας εικόνας στο παράθυρο εργαλειοθήκης για άνοιγμα της εικόνας στο δικό της παράθυρο. Αυτό είναι πολύ διαφορετικό από το σύρσιμο μιας εικόνας σε ένα υπάρχον παράθυρο εικόνας, που το προσθέτει στην τρέχουσα ανοικτή εικόνα σε μια καινούργια στρώση που συνήθως δεν θέλετε."
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:338(td)
+msgid "<a accesskey=\"p\" href=\"gimp-first-steps.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:341(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:344(img:alt)
+msgid "επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:344(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-window.html\"><img src=\"images/next.png\" alt=\"&#x3B5;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:347(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:350(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-main-windows.html:353(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

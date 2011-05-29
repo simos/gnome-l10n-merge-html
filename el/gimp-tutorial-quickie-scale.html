@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+<link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-tutorial-quickies.html" title="4. Γρήγορο ξεκίνημα (GIMPLite Quickies)" />
+<link rel="prev" href="gimp-tutorial-quickies.html" title="4. Γρήγορο ξεκίνημα (GIMPLite Quickies)" />
+<link rel="next" href="gimp-tutorial-quickie-jpeg.html" title="4.3. Σμίκρυνση JPEGs" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-tutorial-quickies.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">4. Γρήγορο ξεκίνημα (GIMPLite Quickies)</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-jpeg.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" lang="el" xml:lang="el">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-tutorial-quickie-scale"></a>4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)</h3>
+</div>
+</div>
+</div>
+<a id="id445100" class="indexterm"></a>
+<a id="id489919" class="indexterm"></a>
+<p>
+Πρόβλημα: έχετε μια τεράστια φωτογραφία  και θέλετε να αλλάξετε μέγεθος, ώστε να φαίνεται ωραία στον ιστό. Η
+εικόνα αυτή είναι η m51_hallas_big.jpg from APOD
+<a class="xref" href="bibliography.html#bibliography-online-apod03" title="Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)">[<abbr class="abbrev">APOD03</abbr>]</a>.
+</p>
+<div class="figure">
+<a id="id498809"></a>
+<p class="title">
+<b>Εικόνα 3.16. Παράδειγμα εικόνας για αλλαγή μεγέθους</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-scale-example.jpg" alt="Παράδειγμα εικόνας για αλλαγή μεγέθους" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το πρώτο πράγμα που μπορεί να παρατηρήσατε, είναι ότι το GIMP
+ανοίγει την εικόνα σε ένα λογικό μέγεθος για παρατήρηση. Εάν η εικόνα σας είναι πραγματικά μεγάλη όπως η εικόνα
+στο παράδειγμα, τότε το GIMP θα αλλάξει την εστίαση, έτσι ώστε να εμφανίζεται
+ωραία στην οθόνη. Το επίπεδο εστίασης φαίνεται στην περιοχή κατάστασης στο κάτω μέρος του παραθύρου της εικόνας.
+</p>
+<p>
+Το άλλο πράγμα που μπορεί να παρατηρήσατε είναι η κατάσταση στη γραμμή τίτλου . Εάν η κατάσταση δείχνει ως RGB
+στη γραμμή τίτλου, είστε θαυμάσια. Εάν η κατάσταση λέει από χρωματολόγιο ή κλίμακα του γκρι, διαβάστε το
+<a class="xref" href="gimp-tutorial-quickie-change-mode.html" title="4.6. Αλλαγή κατάστασης">Μέρος 4.6, “Αλλαγή κατάστασης”</a>.
+</p>
+<div class="figure">
+<a id="id469762"></a>
+<p class="title">
+<b>Εικόνα 3.17. Χρήση του GIMP για αλλαγή μεγέθους της εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-scale-menu.png" alt="Χρήση του GIMP για αλλαγή μεγέθους της εικόνας" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ενεργοποιείστε <span class="guimenu">Εικόνα</span> → <span class="guimenuitem">Μέγεθος εικόνας</span>,
+για να ανοίξετε το διάλογο αυξομείωση μεγέθους εικόνας. Μπορείτε να δεξιοπατήσετε στην εικόνα για να ανοίξετε
+το μενού ή χρησιμοποιείστε το μενού κατά μήκος της κορυφής του παραθύρου εικόνας. Σημειώστε ότι το αντικείμενο
+μενού αυξομείωσης της εικόνας  περιέχει τρείς τελείες που  είναι μια υπόδειξη ότι ένας διάλογος θα ανοίξει.
+</p>
+<div class="figure">
+<a id="id469809"></a>
+<p class="title">
+<b>Εικόνα 3.18. Διάλογος για την αλλαγή μεγέθους εικόνας σε εικονοστοιχεία </b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-scale-dialog.png" alt="Διάλογος για την αυξομείωση μεγέθους εικόνας σε εικονοστοιχεία" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Εάν έχετε ένα επιθυμητό πλάτος, βάλτε το στο διάλογο στην κορυφή, όπου λέει <span class="guilabel">πλάτος</span>.
+Εάν δεν έχετε ένα τέτοιο αριθμό στο μυαλό, μπορείτε να βάλετε το πλάτος του μεγέθους της προκαθορισμένης εικόνας του <acronym class="acronym">GIMP</acronym>
+που είναι 256 εικονοστοιχεία. Αυτό φαίνεται στην παραπάνω εικόνα.
+</p>
+<div class="figure">
+<a id="id449174"></a>
+<p class="title">
+<b>Εικόνα 3.19. Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/tutorials/quickie-scale-dialog2.png" alt="Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ίσως θέλετε η εικόνα σας να δείχνει ως μία 140x100 χιλιοστά φωτογραφία.
+Αλλάξτε τις μονάδες σε “<span class="quote">χιλιοστά</span>” και βάλτε 99,84 χιλιοστά στο πλαίσιο ύψους (καλύτερα πιο
+μικρό από 140x100 παρά πιο μεγάλο). Μπορείτε να δείτε αυτό το διάλογο πιο πάνω.
+</p>
+<p>
+Αφήστε το GIMP να επιλέξει την άλλη διάσταση μήκους για σας, γιατί χρειάζεται
+περισσότερη γνώση της εικόνας για ταυτόχρονη αλλαγή πλάτους και ύψους, ενώ παράλληλα να φαίνεται σωστή. Γι' αυτό
+αλλάξτε μόνο τη μία τιμή και αφήστε το GIMP να αλλάξει τα υπόλοιπα. Για αλλαγή
+της άλλης διάστασης, δείτε <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4. ">Ενότητα 4.4, “Περικοπή εικόνας”</a>.
+</p>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-tutorial-quickies.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-tutorial-quickies.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-jpeg.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tutorial-quickies.html">4. Γρήγορο ξεκίνημα (GIMPLite Quickies)</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tutorial-quickie-jpeg.html">4.3. Σμίκρυνση JPEGs</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-text.html:6(title) el/gimp-concepts-text.html:21(th) el/gimp-concepts-text.html:31(div:title)
+msgid "4. Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/gimp-concepts-text.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-text.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-text.html:13(link:title) el/gimp-concepts-text.html:25(th)
+msgid "Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-concepts-text.html:14(link:title) el/gimp-concepts-text.html:137(a)
+msgid "3. Δημιουργία νέων στρώσεων"
+msgstr ""
+
+#: el/gimp-concepts-text.html:15(link:title) el/gimp-concepts-text.html:143(a)
+msgid "5. Κείμενο"
+msgstr ""
+
+#: el/gimp-concepts-text.html:24(img:alt) el/gimp-concepts-text.html:128(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-text.html:24(td) el/gimp-concepts-text.html:128(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-layers.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-text.html:26(img:alt) el/gimp-concepts-text.html:134(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-text.html:26(td) el/gimp-concepts-text.html:134(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-text.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-text.html:35(h2)
+msgid "<a id=\"gimp-concepts-text\"/>4. Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/gimp-concepts-text.html:42(b)
+msgid "Εικόνα 8.33. Παράδειγμα στοιχείου κειμένου"
+msgstr ""
+
+#: el/gimp-concepts-text.html:45(img:alt)
+msgid "Παράδειγμα στοιχείου κειμένου"
+msgstr ""
+
+#: el/gimp-concepts-text.html:47(p)
+msgid "Παράδειγμα στοιχείου κειμένου που δείχνει τα όρια της κειμενικής στρώσης. (Γραμματοσειρά: Utopia Bold)"
+msgstr ""
+
+#: el/gimp-concepts-text.html:53(p)
+msgid "Το εργαλείο κειμένου βελτιώθηκε προοδευτικά. Μια από τις μεγαλύτερες βελτιώσεις του GIMP 2.0 έναντι του GIMP 1.2 είναι ο χειρισμός του κειμένου. Στο GIMP 2.0 και 2.2, κάθε στοιχείο κειμένου πηγαίνει σε διαφορετική στρώση κειμένου και μπορείτε να επιστρέψετε αργότερα στη στρώση και να μελετήσετε το κείμενο εκεί. Μπορείτε επίσης να μετακινήσετε το κείμενο γύρω από την εικόνα, ή να αλλάξετε τη γραμματοσειρά ή το μέγεθος της γραμματοσειράς. Μπορείτε να χρησιμοποιήσετε οποιαδήποτε διαθέσιμη γραμματοσειρά στο σύστημα σας. Μπορείτε να ελέγξετε την ευθυγράμμιση, την εσοχή, και το διάκενο."
+msgstr ""
+
+#: el/gimp-concepts-text.html:61(p)
+msgid "Με το GIMP-2.6, μπορείτε να σχεδιάσετε ένα οριακό πλαίσιο (ορθογώνιο πλαίσιο) για το κείμενο στην εικόνα σας και μπορείτε να ρυθμίσετε αυτό το ορθογώνιο όπως και την ορθογώνια επιλογή. Το κείμενο πηγαίνει για επεξεργασία στον επεξεργαστή κειμένου, αλλά αναδιπλώνεται αυτόματα σε αυτό το πλαίσιο."
+msgstr ""
+
+#: el/gimp-concepts-text.html:66(p)
+msgid "Στην πραγματικότητα, μπορείτε να χειριστείτε μια στρώση κειμένου όπως οποιαδήποτε άλλη στρώση, αλλά κάνοντας το αυτό συχνά σημαίνει ότι χάνετε την δυνατότητα επεξεργασίας του κειμένου ως κείμενο και θα πρέπει να κάνετε όλες τις αλλαγές στη στρώση εικονοστοιχείων."
+msgstr ""
+
+#: el/gimp-concepts-text.html:73(b)
+msgid "Εικόνα 8.34. Επεξεργαστής κειμένου του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-text.html:76(img:alt)
+msgid "Επεξεργαστής κειμένου του GIMP"
+msgstr ""
+
+#: el/gimp-concepts-text.html:81(p)
+msgid "Καταλαβαίνοντας μερικές από τις ιδιοσυγκρασίες χειρισμού του κειμένου, μπορεί να σας βοηθήσει στην κατανόηση ότι η στρώση κειμένου περιέχει περισσότερες πληροφορίες παρά τα δεδομένα του εικονοστοιχείου που βλέπετε: Επίσης περιέχει μια αναπαράσταση του κειμένου σε μορφή επεξεργαστή κειμένου. Μπορείτε να το δείτε στο παράθυρο επεξεργαστή κειμένου που εμφανίζεται, ενώ χρησιμοποιείται το εργαλείο κειμένου. Κάθε φορά που μεταβάλλετε το κείμενο, η στρώση της εικόνας επαναχαράσσεται για να εμφανίσει τις αλλαγές σας."
+msgstr ""
+
+#: el/gimp-concepts-text.html:88(p)
+msgid "Τώρα ας υποθέσουμε ότι δημιουργείτε μια στρώση κειμένου και έπειτα την επεξεργαζόσαστε με κάποιο τρόπο που δεν περιλαμβάνει το εργαλείο κειμένου: π.χ. περιστρέψτε την. Ας υποθέσουμε έπειτα επιστρέφετε και προσπαθείτε να την επεξεργαστείτε χρησιμοποιώντας το εργαλείο κειμένου. Μόλις επεξεργαστείτε το κείμενο, το εργαλείο κειμένου θα επαναχαράξει τη στρώση, εξαφανίζοντας τα αποτελέσματα των χειρισμών που κάνατε εν τω μεταξύ."
+msgstr ""
+
+#: el/gimp-concepts-text.html:94(p)
+msgid "Επειδή αυτός ο κίνδυνος δεν είναι προφανής, το εργαλείο κειμένου προσπαθεί να σας προστατέψει από αυτό. Εάν επιδράσετε σε μια στρώση κειμένου και κατόπιν προσπαθήσετε να επεξεργαστείτε το κείμενο, αναδύεται ένα μήνυμα που προειδοποιεί ότι οι αλλαγές σας θα αναιρεθούν και σας δίνει τρεις επιλογές:"
+msgstr ""
+
+#: el/gimp-concepts-text.html:102(p)
+msgid "Επεξεργασία (του κειμένου οπωσδήποτε)"
+msgstr ""
+
+#: el/gimp-concepts-text.html:105(p)
+msgid "Ακύρωση"
+msgstr ""
+
+#: el/gimp-concepts-text.html:108(p)
+msgid "δημιουργία νέας στρώσης (κειμένου με το ίδιο κείμενο όπως στην υπάρχουσα στρώση, αφήνοντας την υπάρχουσα στρώση αμετάβλητη)."
+msgstr ""
+
+#: el/gimp-concepts-text.html:115(b)
+msgid "Εικόνα 8.35. Επιβεβαίωση επεξεργασίας κειμένου"
+msgstr ""
+
+#: el/gimp-concepts-text.html:118(img:alt)
+msgid "Επιβεβαίωση επεξεργασίας κειμένου"
+msgstr ""
+
+#: el/gimp-concepts-text.html:131(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-text.html:137(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-text.html:140(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-text.html:143(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

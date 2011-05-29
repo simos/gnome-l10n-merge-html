@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3.4. Χρήση εξωτερικών προγραμμάτων</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-using-fileformats-opening.html" title="3. Άνοιγμα αρχείων" />
+<link rel="prev" href="gimp-using-open-recent.html" title="3.3. Άνοιγμα πρόσφατου" />
+<link rel="next" href="gimp-using-file-manager.html" title="3.5. Διαχειριστής αρχείου" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3.4. Χρήση εξωτερικών προγραμμάτων</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-open-recent.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">3. Άνοιγμα αρχείων</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-file-manager.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="3.4. Χρήση εξωτερικών προγραμμάτων">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-external-programs"></a>3.4. Χρήση εξωτερικών προγραμμάτων</h3>
+</div>
+</div>
+</div>
+<p>
+Το GIMP χρησιμοποιεί πρόσθετα για ανάγνωση και γράψιμο όλων των μορφών
+αρχείων εκτός από XCF. Αυτά τα πρόσθετα μπορεί να χρησιμοποιούν εξωτερικές βιβλιοθήκες ή προγράμματα. Για
+παράδειγμα, το GIMP δεν υποστηρίζει άμεσα το
+<a class="link" href="glossary.html#glossary-postscript" title="PostScript">PostScript</a>. Αντί γι' αυτό,
+για διάβασμα (ή γράψιμο) αρχείων PostScript (επέκταση αρχείου <code class="filename">.ps</code> ή
+<code class="filename">.eps</code>), το GIMP χρειάζεται ένα ισχυρό
+ελεύθερο πρόγραμμα λογισμικού που λέγεται <span class="application">Ghostscript</span>.
+</p>
+<div class="simplesect" title="Εγκατάσταση Ghostscript">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3143389"></a>Εγκατάσταση <span class="application">Ghostscript</span></h4>
+</div>
+</div>
+</div>
+<p>
+Οι διανομές Linux σχεδόν πάντοτε έρχονται με το Ghostscript ήδη εγκατεστημένο (όχι απαραίτητα με την πιο
+πρόσφατη έκδοση). Για άλλα λειτουργικά συστήματα, ίσως χρειαστεί να το εγκαταστήσετε οι ίδιοι. Να οι
+οδηγίες για εγκατάστασή του στα Windows:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Πηγαίνετε στη σελίδα σχεδίου του Ghostscript στο Sourceforge
+<a class="xref" href="bibliography.html#bibliography-online-ghostscript" title="Ghostscript project page on Sourceforge.net">[<abbr class="abbrev">GHOSTSCRIPT</abbr>]</a>.
+</p>
+</li>
+<li class="listitem">
+<p>
+Κοιτάξτε για το πακέτο <span class="application">gnu-gs</span> ή <span class="application">ghostscript</span>
+(μόνο για μη εμπορική χρήση) και πηγαίνετε στο τμήμα λήψης.
+</p>
+</li>
+<li class="listitem">
+<p>
+Κατεβάστε μία από τις έτοιμες διανομές για Windows, όπως
+<code class="filename">gs650w32.exe</code> ή <code class="filename">gs700w32.exe</code>.
+</p>
+</li>
+<li class="listitem">
+<p>
+Ξεκινήστε το εκτελέσιμο αρχείο και ακολουθείστε τις οδηγίες για τη διαδικασία εγκατάστασης.
+</p>
+</li>
+<li class="listitem">
+<p>
+Βάλτε στη μεταβλητή περιβάλλοντος <code class="envar">GS_PROG</code> το πλήρες όνομα του δυαδικού αρχείου
+gswin32c (π.χ. <code class="filename">C:\gs\gsX.YY\bin\gswin32c.exe</code>).
+</p>
+</li>
+</ul>
+</div>
+<p>
+Τώρα θα πρέπει να μπορείτε να διαβάσετε αρχεία PostScript με το GIMP.
+Παρακαλώ, σημειώστε ότι δεν πρέπει να μετακινήσετε τους καταλόγους Ghostscript, μετά την ολοκλήρωση της
+εγκατάστασης. Η εγκατάσταση δημιουργεί εγγραφές μητρώου που επιτρέπουν στο Ghostscript να βρει τις
+βιβλιοθήκες του.  (Αυτές οι οδηγίες είναι προσφορά του http://www.kirchgessner.net.)
+</p>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-open-recent.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-using-fileformats-opening.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-file-manager.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-open-recent.html">3.3. Άνοιγμα πρόσφατου</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-file-manager.html">3.5. Διαχειριστής αρχείου</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

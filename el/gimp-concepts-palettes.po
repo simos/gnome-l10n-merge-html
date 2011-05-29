@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-palettes.html:6(title) el/gimp-concepts-palettes.html:21(th) el/gimp-concepts-palettes.html:31(div:title)
+msgid "12. Παλέτες"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:13(link:title) el/gimp-concepts-palettes.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:14(link:title) el/gimp-concepts-palettes.html:208(a)
+msgid "11. Μοτίβα"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:15(link:title) el/gimp-concepts-palettes.html:214(a)
+msgid "13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:24(img:alt) el/gimp-concepts-palettes.html:199(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:24(td) el/gimp-concepts-palettes.html:199(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-patterns.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:26(img:alt) el/gimp-concepts-palettes.html:205(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:26(td) el/gimp-concepts-palettes.html:205(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-simpleobjects.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:35(h2)
+msgid "<a id=\"gimp-concepts-palettes\"/>12. Παλέτες"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:42(p)
+msgid "Μια <span class=\"emphasis\"><em>παλέτα</em></span> είναι ένα σύνολο διακριτών χρωμάτων. Στο GIMP, οι παλέτες χρησιμοποιούνται κυρίως για δύο σκοπούς:"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:49(p)
+msgid "Σας επιτρέπουν να βάψετε με ένα επιλεγμένο σύνολο χρωμάτων, όπως ένας ζωγράφος δουλεύει με χρώματα από έναν περιορισμένο αριθμό σωληναρίων."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:55(p)
+msgid "Σχηματίζουν τα ευρετηριακά χρωματολόγια εικόνων. Μια ευρετηριακή εικόνα μπορεί να χρησιμοποιήσει το πολύ 256 διαφορετικά χρώματα, αλλά αυτά μπορεί να είναι οποιαδήποτε χρώματα. Το χρωματολόγιο μιας ευρετηριακής εικόνας λέγεται μια \"ευρετηριακή παλέτα\" στο GIMP."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:63(p)
+msgid "Στην πραγματικότητα καμιά από αυτές τις συναρτήσεις δεν εμπίπτει πολύ στο κυρίως ρεύμα χρήσης του GIMP: Είναι δυνατό να κάνετε εξελιγμένα πράγματα στο GIMP χωρίς να ασχοληθείτε ποτέ με παλέτες. Παρ' όλα αυτά, υπάρχουν κάποια πράγματα που ένας προχωρημένος χρήστης θα πρέπει να καταλάβει και ακόμα ένας λιγότερο προχωρημένος χρήστης ίσως χρειαστεί να σκεφτεί σε κάποιες καταστάσεις, όπως για παράδειγμα όταν δουλεύει με αρχεία GIF."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:71(b)
+msgid "Εικόνα 7.31. Ο διάλογος των παλετών"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:74(img:alt)
+msgid "Ο διάλογος των παλετών"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:79(p)
+msgid "Όταν εγκαθίσταται το GIMP, έρχεται εφοδιασμένο με πολλές προκαθορισμένες παλέτες και μπορείτε να δημιουργήσετε επίσης, μερικές νέες. Μερικές από τις προκαθορισμένες παλέτες είναι συνήθως χρήσιμες όπως η παλέτα <span class=\"quote\">“<span class=\"quote\">Web</span>”</span>, που περιέχει το σύνολο των χρωμάτων που θεωρούνται <span class=\"quote\">“<span class=\"quote\"> ασφαλή στο διαδίκτυο</span>”</span>. Πολλές από τις παλέτες φαίνεται να έχουν επιλεγεί περισσότερο ή λιγότερο τυχαία. Μπορείτε να έχετε πρόσβαση σε όλες τις διαθέσιμες παλέτες χρησιμοποιώντας το <a class=\"link\" href=\"gimp-palette-dialog.html\" title=\"3.5.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C0;&#x3B1;&#x3BB;&#x3B5;&#x3C4;&#x3CE;&#x3BD;\">Διάλογος παλετών</a>. Αυτό είναι επίσης το αρχικό σημείο, εάν θέλετε να δημιουργήσετε μια νέα παλέτα."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:91(b)
+msgid "Εικόνα 7.32. Επεξεργασία παλέτας"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:94(img:alt)
+msgid "Επεξεργασία παλέτας"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:99(p)
+msgid "Διπλοπατώντας σε ένα εικονίδιο μιας παλέτας στο διάλογο παλετών εμφανίζεται η <a class=\"link\" href=\"gimp-palette-dialog.html#gimp-palette-editor-dialog\" title=\"3.5.4.&#xA0;&#x395;&#x3C0;&#x3B5;&#x3BE;&#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3C3;&#x3AF;&#x3B1; &#x3C0;&#x3B1;&#x3BB;&#x3AD;&#x3C4;&#x3B1;&#x3C2;\">Επεξεργασία παλέτας</a>, που δείχνει τα χρώματα από την παλέτα που πατήσατε. Μπορείτε να το χρησιμοποιήσετε για να βάψετε με την παλέτα: πατώντας σε ένα χρώμα της παλέτας, το ορίζετε ως χρώμα προσκηνίου του GIMP, όπως φαίνεται στην περιοχή χρωμάτων της εργαλειοθήκης. Κρατώντας πατημένο το πλήκτρο <span class=\"keycap\"><strong>Ctrl</strong></span> ενώ πατάτε το ποντίκι, ορίζετε ως χρώμα παρασκηνίου του GIMP, το χρώμα που πατήσατε."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:107(p)
+msgid "Μπορείτε επίσης, όπως υποδηλώνει το όνομα, να χρησιμοποιήσετε την επεξεργασία παλέτας, για αλλαγή των χρωμάτων σε μία παλέτα, αρκεί να την έχετε δημιουργήσει εσείς. Δεν μπορείτε να επεξεργαστείτε τις παλέτες που έρχονται με το GIMP. Όμως, μπορείτε να τις αντιγράψετε και να επεξεργαστείτε τα αντίγραφα."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:112(p)
+msgid "Εάν δημιουργήσετε παλέτες χρησιμοποιώντας την επεξεργασία παλετών, αποθηκεύονται αυτόματα μόλις αφήσετε το GIMP, στο προσωπικό σας φάκελο <code class=\"filename\">palettes</code> του καταλόγου του GIMP. Οποιαδήποτε αρχεία παλέτας σε αυτόν τον κατάλογο ή στον κατάλογο του συστήματος <code class=\"filename\">palettes</code> που δημιουργήθηκαν όταν εγκαταστάθηκε το GIMP, φορτώνονται αυτόματα και εμφανίζονται στο διάλογο παλετών την επόμενη φορά που ξεκινάτε το GIMP. Μπορείτε επίσης να προσθέσετε και άλλους φακέλους στη διαδρομή αναζήτησης παλετών χρησιμοποιώντας τη σελίδα του διαλόγου προτιμήσεων <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;&#x3A6;&#x3AC;&#x3BA;&#x3B5;&#x3BB;&#x3BF;&#x3B9; &#x3C0;&#x3B1;&#x3BB;&#x3B5;&#x3C4;&#x3CE;&#x3BD;\">Φάκελοι παλετών</a>"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:121(p)
+msgid "Οι παλέτες του GIMP αποθηκεύονται χρησιμοποιώντας μια ειδική μορφή αρχείου, με την επέκταση <code class=\"filename\">.gpl</code>. Είναι μια πολύ απλή μορφή και είναι σε αρχεία ASCII, έτσι εάν αποκτήσετε παλέτες από άλλη πηγή και θέλετε να τις χρησιμοποιήσετε στο GIMP, δεν θα είναι πολύ δύσκολο να τις μετατρέψετε: Απλά κοιτάξτε σε οποιοδήποτε αρχείο με επέκταση <code class=\"filename\">.gpl</code> και θα δείτε τι να κάνετε."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:128(div:title)
+msgid "12.1. Χρωματολόγιο"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:132(h3)
+msgid "<a id=\"id3179603\"/>12.1. Χρωματολόγιο"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:136(p)
+msgid "Το GIMP χρησιμοποιεί δύο τύπους παλετών. Ο πιο σημαντικός είναι ο τύπος που εμφανίζεται στο διάλογο παλετών: οι παλέτες που υπάρχουν ανεξάρτητα από την εικόνα. Ο δεύτερος τύπος οι <span class=\"emphasis\"><em>ευρετηριακές παλέτες</em></span>, από το χρωματολόγιο των ευρετηριακών εικόνων. Κάθε ευρετηριακή εικόνα έχει τη δικιά της ιδιωτική ευρετηριακή παλέτα που ορίζει το σύνολο των διαθέσιμων χρωμάτων στην εικόνα: ο μέγιστος αριθμός επιτρεπόμενων χρωμάτων σε μια ευρετηριακή παλέτα είναι 256. Αυτές οι παλέτες λέγονται <span class=\"quote\">“<span class=\"quote\">ευρετηριακές</span>”</span> επειδή κάθε χρώμα συνδέεται με έναν αριθμό ευρετηρίου. (Στην πραγματικότητα, τα χρώματα στις συνηθισμένες παλέτες αριθμούνται επίσης, αλλά οι αριθμοί δεν έχουν καμιά λειτουργική σημασία.)"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:148(b)
+msgid "Εικόνα 7.33. Ο διάλογος του χρωματολογίου"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:151(img:alt)
+msgid "Ο διάλογος του χρωματολογίου"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:156(p)
+msgid "Το χρωματολόγιο μιας ευρετηριακής εικόνας φαίνεται στο <a class=\"link\" href=\"gimp-indexed-palette-dialog.html\" title=\"2.4.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C7;&#x3C1;&#x3C9;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3BB;&#x3BF;&#x3B3;&#x3AF;&#x3BF;&#x3C5;\">Διάλογος ευρετηριακής παλέτας</a>, που δεν πρέπει να συγχέεται με το διάλογο παλετών. Ο διάλογος παλετών εμφανίζει έναν κατάλογο όλων των διαθέσιμων παλετών. Ο διάλογος χρωματολογίου δείχνει το χρωματολόγιο της τρέχουσας ενεργής εικόνας, εάν είναι μια ευρετηριακή εικόνα, αλλιώς τίποτα."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:163(p)
+msgid "Μπορείτε, όμως, να δημιουργήσετε μια κανονική παλέτα από τα χρώματα σε μια ευρετηριακή εικόνα -στην πραγματικότητα από τα χρώματα σε κάθε εικόνα. Για να το κάνετε, δεξιοπατήστε και επιλέξτε <span class=\"guimenuitem\">Εισαγωγή παλέτας</span> από το αναδυόμενο μενού στο διάλογο παλετών: αυτό εμφανίζει ένα διάλογο που σας δίνει πολλές επιλογές, συμπεριλαμβανόμενης της επιλογής πηγής από εικόνα. (Μπορείτε επίσης να εισάγετε οποιαδήποτε διαβάθμιση του GIMP ως παλέτα.) Αυτή η δυνατότητα γίνεται σημαντική, εάν θέλετε να δημιουργήσετε ένα σύνολο ευρετηριακών εικόνων που όλες χρησιμοποιούν το ίδιο σύνολο χρωμάτων."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:171(p)
+msgid "Όταν μετατρέπετε μια εικόνα σε κατάσταση από ευρετήριο, ένα μεγάλο μέρος της διαδικασίας είναι η δημιουργία μιας ευρετηριακής παλέτας για την εικόνα. Πώς συμβαίνει αυτό περιγράφεται λεπτομερώς στο <a class=\"xref\" href=\"gimp-image-convert-indexed.html\" title=\"6.6.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; &#x3B1;&#x3C0;&#x3CC; &#x3B5;&#x3C5;&#x3C1;&#x3B5;&#x3C4;&#x3AE;&#x3C1;&#x3B9;&#x3BF;\">Ενότητα 6.6. “Κατάσταση από ευρετήριο”</a>. Περιληπτικά, έχετε αρκετές μεθόδους για να διαλέξετε, μία από τις οποίες είναι να χρησιμοποιήσετε μια ειδική παλέτα από το διάλογο παλετών."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:178(p)
+msgid "Έτσι για να συνοψίσουμε κανονικές παλέτες μπορούν να μετατραπούν σε ευρετηριακές παλέτες, όταν μετατρέπετε μια εικόνα σε κατάσταση από ευρετήριο. Ευρετηριακές παλέτες μπορούν να μετατραπούν σε κανονικές παλέτες εισάγοντας τες στο διάλογο παλετών."
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:185(b)
+msgid "Εικόνα 7.34. Διάλογος χρωματολογίου (1) και διάλογος παλετών (2)"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:188(img:alt)
+msgid "Διάλογος χρωματολογίου (1) και διάλογος παλετών (2)"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:202(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:208(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:211(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-palettes.html:214(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-rectangular.html:6(title) en/gimp-using-rectangular.html:21(th) en/gimp-using-rectangular.html:31(div:title)
+msgid "13.2. Creating a Basic Shape"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:13(link:title) en/gimp-using-rectangular.html:14(link:title) en/gimp-using-rectangular.html:25(th) en/gimp-using-rectangular.html:138(a)
+msgid "13. Drawing Simple Objects"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:15(link:title) en/gimp-using-rectangular.html:144(a)
+msgid "Chapter 8. Combining Images"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:24(img:alt) en/gimp-using-rectangular.html:129(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:24(td) en/gimp-using-rectangular.html:129(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-simpleobjects.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-rectangular.html:26(img:alt) en/gimp-using-rectangular.html:135(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:26(td) en/gimp-using-rectangular.html:135(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-combining.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:35(h3)
+msgid "<a id=\"gimp-using-rectangular\"/>13.2. Creating a Basic Shape"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:41(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:42(p)
+msgid "Drawing shapes is not the main purpose for using <acronym class=\"acronym\">GIMP</acronym>. However, you may create shapes by either painting them using the technique described in <a class=\"xref\" href=\"gimp-using-simpleobjects.html#gimp-using-straightline1\" title=\"Figure&#xA0;7.35.&#xA0;A new image\">Figure 7.35, “A new image”</a> or by using the selection tools. Of course, there are various other ways to paint a shape, but we'll stick to the easiest ones here. So, create a <a class=\"link\" href=\"gimp-file-new.html\" title=\"2.2.&#xA0;New\">new image</a> and check that the <a class=\"link\" href=\"gimp-tools.html#gimp-toolbox-color-area\" title=\"1.3.1.&#xA0;Color Area\">foreground and background colors</a> are different."
+msgstr ""
+
+#: en/gimp-using-rectangular.html:54(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:58(b)
+msgid "Figure 7.39. Creating a rectangular selection"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:62(img:alt)
+msgid "Creating a rectangular selection"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:64(p)
+msgid "The screenshot shows how a rectangular selection is created. Press and hold the left mouse button while you move the mouse in the direction of the red arrow."
+msgstr ""
+
+#: en/gimp-using-rectangular.html:74(p)
+msgid "Basic shapes like rectangles or ellipses, can be created using the <a class=\"link\" href=\"gimp-tools-selection.html\" title=\"2.&#xA0;Selection Tools\">selection tools</a>. This tutorial uses a rectangular selection as an example. So, choose the <a class=\"link\" href=\"gimp-tool-rect-select.html\" title=\"2.2.&#xA0;Rectangle Selection\">rectangular selection tool</a> and create a new selection: press and hold the left mouse button while you move the mouse to another position in the image (illustrated in figure <a class=\"xref\" href=\"gimp-using-rectangular.html#gimp-using-basicshape1\" title=\"Figure&#xA0;7.39.&#xA0;Creating a rectangular selection\">Figure 7.39, “Creating a rectangular selection”</a>). The selection is created when you release the mouse button. For more information about key modifiers see <a class=\"link\" href=\"gimp-tools-selection.html\" title=\"2.&#xA0;Selection Tools\">selection tools</a>."
+msgstr ""
+
+#: en/gimp-using-rectangular.html:89(li:title)
+msgid "Step 3"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:93(b)
+msgid "Figure 7.40. Rectangular selection filled with foreground color"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:97(img:alt)
+msgid "Rectangular selection filled with foreground color"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:99(p)
+msgid "The screenshot shows a rectangular selection filled with the foreground color."
+msgstr ""
+
+#: en/gimp-using-rectangular.html:108(p)
+msgid "After creating the selection, you can either create a filled or an outlined shape with the foreground color of your choice. If you go for the first option, choose a <a class=\"link\" href=\"gimp-tools.html#gimp-toolbox-color-area\" title=\"1.3.1.&#xA0;Color Area\">foreground color</a> and fill the selection with the <a class=\"link\" href=\"gimp-tool-bucket-fill.html\" title=\"3.3.&#xA0;Bucket Fill\">bucket fill tool</a>. If you choose the latter option, create an outline by using the<a class=\"link\" href=\"gimp-selection-stroke.html\" title=\"3.17.&#xA0;Stroke Selection\">Stroke selection</a> menu item from the <span class=\"guimenu\">Edit</span> menu. If you're satisfied with the result, <a class=\"link\" href=\"gimp-selection-none.html\" title=\"4.3.&#xA0;None\">remove the selection</a>."
+msgstr ""
+
+#: en/gimp-using-rectangular.html:132(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:138(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-rectangular.html:141(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-rectangular.html:144(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

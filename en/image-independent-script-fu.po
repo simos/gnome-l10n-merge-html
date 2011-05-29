@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/image-independent-script-fu.html:6(title) en/image-independent-script-fu.html:21(th) en/image-independent-script-fu.html:31(div:title)
+msgid "2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/image-independent-script-fu.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/image-independent-script-fu.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/image-independent-script-fu.html:13(link:title) en/image-independent-script-fu.html:25(th)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/image-independent-script-fu.html:14(link:title) en/image-independent-script-fu.html:79(a)
+msgid "2.5. Standalone Scripts"
+msgstr ""
+
+#: en/image-independent-script-fu.html:15(link:title) en/image-independent-script-fu.html:85(a)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/image-independent-script-fu.html:24(img:alt) en/image-independent-script-fu.html:70(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/image-independent-script-fu.html:24(td) en/image-independent-script-fu.html:70(td)
+msgid "<a accesskey=\"p\" href=\"standalone-script-fu.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/image-independent-script-fu.html:26(img:alt) en/image-independent-script-fu.html:76(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/image-independent-script-fu.html:26(td) en/image-independent-script-fu.html:76(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/image-independent-script-fu.html:35(h3)
+msgid "<a id=\"image-independent-script-fu\"/>2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/image-independent-script-fu.html:39(p)
+msgid "Now, scripts and filters that perform operations on an existing image are accessible directly by the appropriate menu. For example, the script <span class=\"guimenu\">New Brush</span> (script-fu-paste-as-brush) is integrated in the <span class=\"guimenu\">Edit</span> image menu (<span class=\"guimenu\">Edit</span> → <span class=\"guimenuitem\">Paste as...</span> → <span class=\"guimenuitem\">New Brush</span>), that is more logical."
+msgstr ""
+
+#: en/image-independent-script-fu.html:47(p)
+msgid "Furthermore, a new <span class=\"guimenu\">Color</span> menu has been created that regroups together all that concern works on colors, the hue or level color adjustment tools, etc..."
+msgstr ""
+
+#: en/image-independent-script-fu.html:52(p)
+msgid "<span class=\"guimenu\">Filters</span> menu and <span class=\"guimenu\">Scripts-Fu</span> menu are regrouped in one <span class=\"guimenu\">Filters</span> menu and organised according to new categories. Now if a plugin and a filter works similarly, they are nearby in the menu."
+msgstr ""
+
+#: en/image-independent-script-fu.html:58(p)
+msgid "The <span class=\"guimenu\">Scripts-Fu</span> menu only appears if you have loaded additional scripts: for example the gimp-resynthesizer pack corresponding to your Linux distribution (<code class=\"filename\">.deb</code>, <code class=\"filename\">.rpm</code>, <code class=\"filename\">.gz</code> ...)."
+msgstr ""
+
+#: en/image-independent-script-fu.html:73(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/image-independent-script-fu.html:79(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/image-independent-script-fu.html:82(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/image-independent-script-fu.html:85(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

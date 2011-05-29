@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-straight-lines-examples.html:6(title) en/gimp-tutorial-straight-lines-examples.html:21(th) en/gimp-tutorial-straight-lines-examples.html:31(div:title)
+msgid "5.2. Examples"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:13(link:title) en/gimp-tutorial-straight-lines-examples.html:14(link:title) en/gimp-tutorial-straight-lines-examples.html:25(th) en/gimp-tutorial-straight-lines-examples.html:132(a)
+msgid "5. How to Draw Straight Lines"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:15(link:title) en/gimp-tutorial-straight-lines-examples.html:138(a)
+msgid "Chapter 4. Getting Unstuck"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:24(img:alt) en/gimp-tutorial-straight-lines-examples.html:123(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:24(td) en/gimp-tutorial-straight-lines-examples.html:123(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-straight-lines.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:26(img:alt) en/gimp-tutorial-straight-lines-examples.html:129(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:26(td) en/gimp-tutorial-straight-lines-examples.html:129(td)
+msgid " <a accesskey=\"n\" href=\"gimp-getting-unstuck.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:35(h3)
+msgid "<a id=\"gimp-tutorial-straight-lines-examples\"/>5.2. Examples"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:42(b)
+msgid "Figure 3.48. Examples I"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:46(img:alt) en/gimp-tutorial-straight-lines-examples.html:54(img:alt)
+msgid "Examples I"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:48(p)
+msgid "Check Use color from gradient."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:56(p)
+msgid "Select the Clone tool and set the source to <span class=\"quote\">“<span class=\"quote\">Maple Leaves</span>”</span> pattern."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:68(b)
+msgid "Figure 3.49. Examples II"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:72(img:alt) en/gimp-tutorial-straight-lines-examples.html:83(img:alt)
+msgid "Examples II"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:74(p)
+msgid "Use <span class=\"guimenu\">Filters</span> → <span class=\"guimenuitem\">Render</span> → <span class=\"guimenuitem\">Pattern</span> → <span class=\"guimenuitem\">Grid</span> to create a grid. Use the Smudge Tool to draw a line with a slightly larger brush."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:85(p)
+msgid "Use <span class=\"guimenu\">Filters</span> → <span class=\"guimenuitem\">Render</span> → <span class=\"guimenuitem\">Couds</span> → <span class=\"guimenuitem\">Plasma</span> to create the cool plasma cloud. Use the Erase Tool with a square brush to draw a line."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:99(b)
+msgid "Figure 3.50. Example III"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:103(img:alt)
+msgid "Example III"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:105(p)
+msgid "Use the rectangle select tool to select a rectangle, and then fill the selection with a light blue color. Select the dodge/burn tool. Set the type to Dodge and paint along the top and left side using an appropriately sized brush. Set the type to Burn and paint along the right and bottom."
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:126(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:132(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:135(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-straight-lines-examples.html:138(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

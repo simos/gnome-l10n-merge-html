@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος  II. Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="gimp-imaging-photos.html" title="Κεφάλαιο 9. Βελτιστοποίηση φωτογραφιών" />
+<link rel="next" href="gimp-pimping.html" title="Κεφάλαιο 11. Προσαρμογή του GIMP" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-imaging-photos.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος  II. Πώς θα γίνω ένας μάγος του GIMP;"
+</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-pimping.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" title="Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-imaging-color-management"></a>Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1">
+<a href="gimp-imaging-color-management.html#gimp-concepts-color-management">1. Διαχείριση χρώματος στο GIMP</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-imaging-color-management.html#id3141519">1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-imaging-color-management.html#plug-in-icc-profile-set">1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος</a>
+</span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="sect1" title="1. Διαχείριση χρώματος στο GIMP">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-color-management"></a>1. Διαχείριση χρώματος στο GIMP</h2>
+</div>
+</div>
+</div>
+<a id="id3128510" class="indexterm"></a>
+<a id="id3140176" class="indexterm"></a>
+<p>
+Πολλές συσκευές που χρησιμοποιούνται στη παραγωγή σχεδίασης ή φωτογραφίας, όπως ψηφιακές φωτογραφικές κάμερες,
+σαρωτές, οθόνες, εκτυπωτές κλ., έχουν τα δικά τους χαρακτηριστικά χρωματικής αναπαραγωγής. Εάν αυτά δεν ληφθούν
+υπόψη κατά το άνοιγμα, επεξεργασία και αποθήκευση, βλαβερές συνέπειες μπορούν να συμβούν στις εικόνες.
+Με το GIMP μπορείτε να έχετε αξιόπιστες εξόδους για το διαδίκτυο και την εκτύπωση.
+</p>
+<div class="figure">
+<a id="id3084324"></a>
+<p class="title">
+<b>Εικόνα 10.1. Διαδικασία παραγωγής εικόνας</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/colormanagement-workflow1.png" alt="Διαδικασία παραγωγής εικόνας" />
+<div class="caption">
+<p>Παραγωγή χωρίς διαχείριση χρώματος</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/colormanagement-workflow2.png" alt="Παραγωγή χωρίς διαχείριση χρώματος" />
+<div class="caption">
+<p>Διαδικασία με διαχείριση χρώματος</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect2" title="1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="id3141519"></a>1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος</h3>
+</div>
+</div>
+</div>
+<p>
+Το βασικό πρόβλημα χειρισμού μιας εικόνας  χωρίς χρωματική διαχείριση είναι ότι δεν βλέπετε αυτό που κάνετε.
+Αυτό επηρεάζει δύο διαφορετικές περιοχές.
+</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>
+Υπάρχουν διαφορές στα χρώματα που προκαλούνται από διαφορετικά χαρακτηριστικά χρώματος των διαφορετικών
+συσκευών όπως κάμερες, σαρωτές, οθόνες ή εκτυπωτές.
+</p>
+</li>
+<li class="listitem">
+<p>
+Υπάρχουν διαφορές στα χρώματα προκαλούμενες από τους περιορισμούς του χρωματικού χώρου που μια συγκεκριμένη
+συσκευή μπορεί να χειριστεί.
+</p>
+</li>
+</ol>
+</div>
+<p>
+Ο κύριος σκοπός της διαχείρισης  χρώματος είναι η αποφυγή τέτοιων προβλημάτων. Η λαμβανόμενη προσέγγιση
+περιλαμβάνει την προσθήκη μιας περιγραφής των χρωματικών χαρακτηριστικών σε μια εικόνα ή συσκευή.
+</p>
+<p>
+Αυτές οι περιγραφές λέγονται <span class="emphasis"><em>χρωματικά προφίλ (κατατομές)</em></span>. Ένα χρωματικό προφίλ
+είναι βασικά ένας  πίνακας αναφορών για να μεταφραστούν τα ειδικά χρωματικά χαρακτηριστικά μιας συσκευής σε
+ένα χρωματικό χώρο ανεξάρτητο από τη συσκευή που λέγεται χώρος εργασίας. Ο χειρισμός όλων των εικόνων γίνεται
+τότε στο χώρο εργασίας. Επιπλέον το χρωματικό προφίλ μιας συσκευής μπορεί να χρησιμοποιηθεί για να προσομοιωθεί
+πώς φαίνονται τα χρώματα σε αυτή τη συσκευή.
+</p>
+<p>
+Η δημιουργία των χρωματικών προφίλ γίνεται συχνά από τους ίδιους τους κατασκευαστές των συσκευών. Για να γίνουν
+αυτά τα προφίλ χρησιμοποιήσιμα ανεξάρτητα από την πλατφόρμα και το λειτουργικό σύστημα, το ICC (International
+Color Consortium) δημιούργησε ένα πρότυπο που λέγεται ICC προφίλ που περιγράφει πώς αποθηκεύονται τα χρωματικά
+προφίλ σε αρχεία και ενσωματώνονται σε εικόνες.
+</p>
+</div>
+<div class="sect2" title="1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="plug-in-icc-profile-set"></a>1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος</h3>
+</div>
+</div>
+</div>
+<div class="tip" title="Συμβουλή" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Tip">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Συμβουλή]" src="images/tip.png" />
+</td>
+<th align="left">Συμβουλή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Οι περισσότερες από τις παραμέτρους και τις κατατομές που περιγράφονται εδώ, μπορούν να οριστούν στις προτιμήσεις
+του GIMP. Παρακαλώ δείτε
+<a class="xref" href="gimp-pimping.html#gimp-prefs-color-management" title="1.14. Διαχείριση χρώματος">Ενότητα 1.14, “Διαχείριση χρώματος”</a> για λεπτομέρειες.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3" title="1.2.1. Είσοδος">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="plug-in-icc-profile-apply"></a>1.2.1. Είσοδος</h4>
+</div>
+</div>
+</div>
+<p>
+Οι περισσότερες ψηφιακές κάμερες ενσωματώνουν ένα χρωματικό προφίλ σε ατομικά φωτογραφικά αρχεία χωρίς
+αλληλεπίδραση με το χρήστη. Οι ψηφιακοί σαρωτές συνήθως έρχονται με μια χρωματική κατατομή που επίσης
+επισυνάπτεται στις σαρωμένες εικόνες.
+</p>
+<div class="figure">
+<a id="id3186117"></a>
+<p class="title">
+<b>Εικόνα 10.2. Εφαρμογή του προφίλ ICC</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/icc-apply.png" alt="Εφαρμογή του προφίλ ICC" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Όταν ανοίγετε μια εικόνα με ενσωματωμένη χρωματική κατατομή το GIMP σας προτείνει να μετατρέψετε το αρχείο σε
+χρωματικό χώρο εργασίας RGB. Αυτός είναι από προεπιλογή ο sRGB και συνιστάται όλη η δουλειά να γίνεται σε αυτό
+το χρωματικό χώρο. Αν όμως αποφασίσετε να κρατήσετε το ενσωματωμένο χρωματικό προφίλ η εικόνα θα εξακολουθεί να
+εμφανίζεται σωστά.
+</p>
+<p>
+Σε περίπτωση που για κάποιο λόγο ένα χρωματικό προφίλ δεν είναι ενσωματωμένο στην εικόνα και ξέρετε (ή
+μπορείτε να μαντέψετε) ποιο θα πρέπει να είναι, μπορείτε χειροκίνητα να το αποδώσετε στην εικόνα.
+</p>
+</div>
+<div class="sect3" title="1.2.2. Εμφάνιση">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="gimp-concepts-cm-display"></a>1.2.2. Εμφάνιση</h4>
+</div>
+</div>
+</div>
+<p>
+Για καλύτερα αποτελέσματα, χρειάζεστε μια χρωματική κατατομή για την οθόνη σας. Εάν ένα προφίλ οθόνης
+τροποποιηθεί, είτε στο σύστημα, είτε στο τμήμα χρωματικής  διαχείρισης του διαλόγου προτιμήσεων του GIMP
+τα χρώματα της εικόνας θα εμφανίζονται πιο ακριβή.
+</p>
+<p>
+Μία από τις πιο σημαντικές εντολές του GIMP για εργασία με χρωματική διαχείριση περιγράφεται στο
+<a class="xref" href="gimp-display-filter-dialog.html" title="5.8. Φίλτρα προβολής">Ενότητα 5.8, “Φίλτρα προβολής”</a>.
+</p>
+<p>
+Εάν δεν έχετε χρωματικό προφίλ για την οθόνη σας, μπορείτε να το δημιουργήσετε χρησιμοποιώντας διακρίβωση
+υλικού και εργαλείων μέτρησης. Σε συστήματα UNIX θα χρειαστείτε
+<span class="productname">Argyll Color Management System</span>™
+<a class="xref" href="bibliography.html#bibliography-online-argyllcms" title="Argyll Color Management System Home Page">[<abbr class="abbrev">ARGYLLCMS</abbr>]</a>
+και/ή <span class="productname">LProf</span>™
+<a class="xref" href="bibliography.html#bibliography-online-lprof" title="LPROF ICC Profiler">[<abbr class="abbrev">LPROF</abbr>]</a>
+για να δημιουργήσετε χρωματικά προφίλ.
+</p>
+<div class="sect4" title="1.2.2.1. Εμφάνιση διακρίβωσης και προφίλ">
+<div class="titlepage">
+<div>
+<div>
+<h5 class="title"><a id="gimp-concepts-cm-display-profiling"></a>1.2.2.1. Εμφάνιση διακρίβωσης και προφίλ</h5>
+</div>
+</div>
+</div>
+<a id="id3171596" class="indexterm"></a>
+<a id="id3171606" class="indexterm"></a>
+<p>
+Για τις εμφανίσεις υπάρχουν δύο εμπλεκόμενα βήματα. Το ένα λέγεται διακρίβωση και το άλλο δημιουργία προφίλ.
+Λοιπόν, η διακρίβωση περιλαμβάνει γενικά δύο βήματα. Το πρώτο περιλαμβάνει ρύθμιση των εξωτερικών ελέγχων
+όπως αντίθεση, φωτεινότητα, θερμοκρασία χρώματος, κλ.  και εξαρτάται πολύ από την συγκεκριμένη οθόνη. Επιπλέον
+υπάρχουν παραπέρα ρυθμίσεις που φορτώνονται στην μνήμη της κάρτας  για να έρθει η οθόνη όσο πιο κοντά γίνεται
+στην πρότυπη κατάσταση. Αυτή η πληροφορία αποθηκεύεται στο προφίλ της οθόνης στην αποκαλούμενη ετικέτα vgct.
+Πιθανόν στα  Windows XP ή Mac OS, το λειτουργικό σύστημα φορτώνει αυτή την πληροφορία (LUT) στην κάρτα βίντεο
+στη διαδικασία εκκίνησης του υπολογιστή. Στο Linux, προς το παρόν πρέπει να χρησιμοποιήσετε ένα εξωτερικό
+πρόγραμμα όπως xcalib ή dispwin. (Εάν κάποιος κάνει μια απλή οπτική διακρίβωση χρησιμοποιώντας έναν ιστότοπο
+όπως Norman Koren, κάποιος μπορεί να χρησιμοποιήσει μόνο xgamma για να φορτώσει μια τιμή gamma.)
+</p>
+<p>
+Το δεύτερο βήμα δημιουργία προφίλ, παράγει ένα σύνολο κανόνων που επιτρέπουν στο GIMP να
+μεταφράσει τις τιμές RGB στο αρχείο της εικόνας σε κατάλληλα χρώματα στην οθόνη. Αυτό επίσης αποθηκεύεται
+στο προφίλ της οθόνης. Δεν αλλάζει τις τιμές RGB στη εικόνα, αλλά αλλάζει ποιες τιμές στέλνονται στη κάρτα
+βίντεο (που ήδη περιέχει τη vgct LUT).
+</p>
+</div>
+</div>
+<div class="sect3" title="1.2.3. Προσομοίωση εκτύπωσης">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3171653"></a>1.2.3. Προσομοίωση εκτύπωσης</h4>
+</div>
+</div>
+</div>
+<p>
+Χρησιμοποιώντας το GIMP, μπορείτε εύκολα να έχετε μια προεπισκόπηση πώς θα φαίνεται η εικόνα στο χαρτί.
+Δεδομένου ενός χρωματικού προφίλ για τον εκτυπωτή, η εμφάνιση μπορεί να μετατραπεί στην κατάσταση Soft Proof.
+Σε μια τέτοια προσομοιωμένη εκτύπωση, τα χρώματα που δεν μπορούν να αναπαραχθούν θα σημειωθούν κατ' επιλογή
+με ουδέτερο γκρι χρώμα, επιτρέποντας σας να διορθώσετε τέτοια λάθη πριν στείλετε τις εικόνες στον εκτυπωτή.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-imaging-photos.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-pimping.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-imaging-photos.html">Κεφάλαιο 9. Βελτιστοποίηση φωτογραφιών</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-pimping.html">Κεφάλαιο 11. Προσαρμογή του GIMP</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

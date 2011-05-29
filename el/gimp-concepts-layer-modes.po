@@ -1,0 +1,707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-layer-modes.html:6(title) el/gimp-concepts-layer-modes.html:21(th) el/gimp-concepts-layer-modes.html:31(div:title)
+msgid "2. Καταστάσεις στρώσεων"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:13(link:title) el/gimp-concepts-layer-modes.html:14(link:title) el/gimp-concepts-layer-modes.html:25(th) el/gimp-concepts-layer-modes.html:1185(a)
+msgid "Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:15(link:title) el/gimp-concepts-layer-modes.html:1191(a)
+msgid "3. Δημιουργία νέων στρώσεων"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:24(img:alt) el/gimp-concepts-layer-modes.html:1176(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:24(td) el/gimp-concepts-layer-modes.html:1176(td)
+msgid "<a accesskey=\"p\" href=\"gimp-image-combining.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:26(img:alt) el/gimp-concepts-layer-modes.html:1182(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:26(td) el/gimp-concepts-layer-modes.html:1182(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-layers.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:35(h2)
+msgid "<a id=\"gimp-concepts-layer-modes\"/>2. Καταστάσεις στρώσεων"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:42(p)
+msgid "Το GIMP έχει είκοσι μία καταστάσεις στρώσεις. Οι καταστάσεις στρώσης λέγονται επίσης <span class=\"quote\"> “<span class=\"quote\">καταστάσεις ανάμιξης</span>” </span>. Επιλέγοντας μια κατάσταση στρώσης αλλάζει η εμφάνιση της στρώσης ή της εικόνας, βασισμένη στη στρώση ή στρώσεις από κάτω της. Εάν υπάρχει μόνο μια στρώση, η κατάσταση στρώσης δεν επιδρά. Πρέπει να υπάρχουν τουλάχιστον δύο στρώσεις στην εικόνα για να χρησιμοποιηθούν οι καταστάσεις στρώσης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:49(p)
+msgid "Μπορείτε να ορίσετε την κατάσταση στρώσης στο μενού <span class=\"guilabel\">Κατάσταση</span> στο διάλογο στρώσεων. Το GIMP χρησιμοποιεί την κατάσταση στρώσης για να προσδιορίσει το συνδυασμό κάθε εικονοστοιχείου στην κορυφαία στρώση με τα εικονοστοιχεία στην ίδια τοποθεσία στη στρώση από κάτω της."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:54(div:title) el/gimp-concepts-layer-modes.html:60(th) el/gimp-concepts-layer-modes.html:142(div:title) el/gimp-concepts-layer-modes.html:148(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:58(img:alt) el/gimp-concepts-layer-modes.html:146(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:64(p)
+msgid "Υπάρχει ένας αναδυόμενος κατάλογος στο Παράθυρα/dockable dialogs/Επιλογές εργαλείων που περιέχει καταστάσεις που επηρεάζουν τα εργαλεία ζωγραφικής με παρόμοιο τρόπο με τις καταστάσεις στρώσεις. Μπορείτε να χρησιμοποιήσετε τις ίδιες καταστάσεις βαψίματος που είναι διαθέσιμες για στρώσεις και υπάρχουν δύο επιπρόσθετες καταστάσεις μόνο για τα εργαλεία ζωγραφικής. Δείτε <a class=\"xref\" href=\"gimp-tools-brush.html\" title=\"3.2.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3B1; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF;&#x3C5; (&#x3BC;&#x3BF;&#x3BB;&#x3CD;&#x3B2;&#x3B9;, &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3BF; &#x3B2;&#x3B1;&#x3C6;&#x3AE;&#x3C2;, &#x3B1;&#x3B5;&#x3C1;&#x3BF;&#x3B3;&#x3C1;&#x3AC;&#x3C6;&#x3BF;&#x3C2;)\">Ενότητα 3.2, “Εργαλεία πινέλου (μολύβι, πινέλο, αερογράφος)”</a>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:74(p)
+msgid "Οι καταστάσεις στρώσης επιτρέπουν σύνθετες αλλαγές χρώματος στην εικόνα. Χρησιμοποιούνται συχνά με μια νέα στρώση που ενεργεί ως ένα είδος μάσκας. Π.χ., εάν βάλετε μια συμπαγή λευκή στρώση πάνω από μια εικόνα και ορίσετε την κατάσταση στρώσης της νέας στρώσης σε <span class=\"quote\">“<span class=\"quote\">Κορεσμό</span>”</span>, οι υποκείμενες ορατές στρώσεις θα εμφανιστούν σε αποχρώσεις του γκρι."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:82(b)
+msgid "Εικόνα 8.8. Εικόνες (μάσκες) για παραδείγματα κατάστασης στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:85(img:alt) el/gimp-concepts-layer-modes.html:90(img:alt)
+msgid "Εικόνες (μάσκες) για παραδείγματα κατάστασης στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:86(p)
+msgid "Μάσκα 1"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:91(p)
+msgid "Μάσκα 2"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:99(b)
+msgid "Εικόνα 8.9. Εικόνες (παρασκήνια) για παραδείγματα κατάστασης στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:102(img:alt) el/gimp-concepts-layer-modes.html:107(img:alt)
+msgid "Εικόνες (παρασκήνια) για παραδείγματα κατάστασης στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:103(p)
+msgid "Κρίκος"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:108(p)
+msgid "Πάπιες"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:114(p)
+msgid "Στις περιγραφές των καταστάσεων στρώσης παρακάτω, οι εξισώσεις εμφανίζονται επίσης. Αυτό είναι για αυτούς που είναι περιέργοι για τα μαθηματικά των καταστάσεων στρώσης. Όμως, δεν χρειάζεται να καταλάβετε τις εξισώσεις για να χρησιμοποιήσετε τις καταστάσεις στρώσης αποτελεσματικά."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:119(p)
+msgid "Οι εξισώσεις είναι σε συντομογραφική σημειογραφία. Π.χ., η εξίσωση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:124(b)
+msgid "Εξίσωση 8.1. Παράδειγμα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:132(p)
+msgid "σημαίνει, <span class=\"quote\">“<span class=\"quote\"> Για κάθε εικονοστοιχείο στην κορυφαία (<span class=\"emphasis\"><em>Μ</em></span>άσκα) και χαμηλότερη στρώση (ε<span class=\"emphasis\"><em>Ι</em></span>κόνας), πρόσθεση καθενός από τα αντίστοιχα χρωματικά συστατικά μαζί για τη δημιουργία <span class=\"emphasis\"><em>E</em></span> του τελικού χρώματος του εικονοστοιχείου. </span>”</span> Τα χρωματικά συστατικά των εικονοστοιχείων πρέπει να είναι πάντοτε μεταξύ 0 και 255."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:152(p)
+msgid "Εκτός και η πιο κάτω περιγραφή λέει αλλιώς, ένα αρνητικό χρωματικό συστατικό ορίζεται στο 0 και ένα χρωματικό συστατικό μεγαλύτερο από 255 ορίζεται στο 255."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:160(p)
+msgid "Τα πιο κάτω παραδείγματα δείχνουν τα αποτέλεσματα κάθε κατάστασης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:163(p)
+msgid "Αφού τα αποτέλεσματα κάθε κατάστασης διαφέρουν πολύ ανάλογα με τα χρώματα των στρώσεων, αυτές οι εικόνες μπορούν να σας δώσουν μόνο μια γενική ιδέα της λειτουργίας των καταστάσεων. Δοκιμάστε τες μόνοι σας. Μπορείτε να αρχίσετε με δύο παρόμοιες στρώσεις, όπου η μία είναι αντίγραφο της άλλης, αλλά ελαφρά τροποποιημένη (εφαρμόζοντας θόλωση, μετακίνηση, περιστροφή, κλιμάκωση, αναστροφή χρώματος κλ.) και βλέποντας τι συμβαίνει με τις καταστάσεις στρώσης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:173(span)
+msgid "Κανονικό"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:179(span) el/gimp-concepts-layer-modes.html:207(span)
+msgid "Κανονική"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:179(span) el/gimp-concepts-layer-modes.html:207(span) el/gimp-concepts-layer-modes.html:224(span) el/gimp-concepts-layer-modes.html:281(span) el/gimp-concepts-layer-modes.html:306(span) el/gimp-concepts-layer-modes.html:324(span) el/gimp-concepts-layer-modes.html:348(span) el/gimp-concepts-layer-modes.html:365(span) el/gimp-concepts-layer-modes.html:393(span) el/gimp-concepts-layer-modes.html:412(span) el/gimp-concepts-layer-modes.html:440(span) el/gimp-concepts-layer-modes.html:457(span) el/gimp-concepts-layer-modes.html:486(span) el/gimp-concepts-layer-modes.html:503(span) el/gimp-concepts-layer-modes.html:533(span) el/gimp-concepts-layer-modes.html:550(span) el/gimp-concepts-layer-modes.html:579(span) el/gimp-concepts-layer-modes.html:593(span) el/gimp-concepts-layer-modes.html:612(span) el/gimp-concepts-layer-modes.html:639(span) el/gimp-concepts-layer-modes.html:649(span) el/gimp-concepts-layer-modes.html:667(span) el/gimp-concepts-layer-modes.html:694(span) el/gimp-concepts-layer-modes.html:718(span) el/gimp-concepts-layer-modes.html:745(span) el/gimp-concepts-layer-modes.html:765(span) el/gimp-concepts-layer-modes.html:791(span) el/gimp-concepts-layer-modes.html:811(span) el/gimp-concepts-layer-modes.html:839(span) el/gimp-concepts-layer-modes.html:859(span) el/gimp-concepts-layer-modes.html:887(span) el/gimp-concepts-layer-modes.html:906(span) el/gimp-concepts-layer-modes.html:934(span) el/gimp-concepts-layer-modes.html:954(span) el/gimp-concepts-layer-modes.html:982(span) el/gimp-concepts-layer-modes.html:1002(span) el/gimp-concepts-layer-modes.html:1035(span) el/gimp-concepts-layer-modes.html:1067(span) el/gimp-concepts-layer-modes.html:1099(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:179(b)
+msgid "Εικόνα 8.10. Παράδειγμα για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:182(img:alt) el/gimp-concepts-layer-modes.html:188(img:alt)
+msgid "Παράδειγμα για την κατάσταση στρώσης Κανονική"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:184(p)
+msgid "Και οι δυό εικόνες είναι ανακατεμένες μεταξύ τους με την ίδια ένταση."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:190(p)
+msgid "Με 100% αδιαφάνεια μόνο η κορυφαία στρώση εμφανίζεται όταν αναμιγνύεται με <span class=\"quote\">“<span class=\"quote\">Κανονική</span>”</span> κατάσταση."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:199(p)
+msgid "<span class=\"guilabel\">Κανονική</span> κατάσταση είναι η προκαθορισμένη κατάσταση στρώσης. Η επάνω στρώση καλύπτει τις αποκάτω στρώσεις. Εάν θέλετε να δείτε οτιδήποτε κάτω από την πάνω στρώση όταν χρησιμοποιείται αυτήν την κατάσταση, η στρώση πρέπει να έχει μερικές διαφανείς περιοχές."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:204(p) el/gimp-concepts-layer-modes.html:303(p) el/gimp-concepts-layer-modes.html:345(p) el/gimp-concepts-layer-modes.html:390(p) el/gimp-concepts-layer-modes.html:483(p) el/gimp-concepts-layer-modes.html:530(p) el/gimp-concepts-layer-modes.html:690(p) el/gimp-concepts-layer-modes.html:741(p) el/gimp-concepts-layer-modes.html:787(p) el/gimp-concepts-layer-modes.html:883(p) el/gimp-concepts-layer-modes.html:930(p) el/gimp-concepts-layer-modes.html:978(p)
+msgid "Η εξίσωση είναι:"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:207(b)
+msgid "Εξίσωση 8.2. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:217(span) el/gimp-concepts-layer-modes.html:224(span)
+msgid "Διάλυση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:224(b)
+msgid "Εικόνα 8.11. Παράδειγμα για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:227(img:alt) el/gimp-concepts-layer-modes.html:233(img:alt)
+msgid "Παράδειγμα για την κατάσταση στρώσης Διάλυση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:229(p)
+msgid "Και οι δυο εικόνες αναμιγνύονται μεταξύ τους με την ίδια ένταση."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:235(p)
+msgid "Με 100% αδιαφάνεια μόνο η κορυφαία στρώση εμφανίζεται όταν αναμιγνύονται με <span class=\"quote\"> “<span class=\"quote\">διάλυση</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:244(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Διάλυση</span> διαλύει την ανώτερη στρώση στην αποκάτω στρώση σχεδιάζοντας ένα τυχαίο μοτίβο εικονοστοιχείων σε περιοχές μερικής διαφάνειας. Είναι χρήσιμη ως κατάσταση στρώσης, αλλά και ως κατάσταση βαψίματος."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:249(p)
+msgid "Αυτό είναι ειδικά ορατό κατά μήκος των άκρων σε μία εικόνα. Είναι πιο εύκολο να το δείτε σε ένα μεγεθυσμένο στιγμιότυπο. Η εικόνα στα αριστερά δείχνει την <span class=\"quote\">“<span class=\"quote\">Κανονική</span>”</span> κατάσταση στρώσης (μεγεθυσμένη) και η εικόνα στα δεξιά δείχνει τις ίδιες δύο στρώσεις σε κατάσταση <span class=\"quote\">“<span class=\"quote\">Διάλυσης</span>”</span>, όπου μπορεί να φανεί καθαρά πώς τα εικονοστοιχεία διασκορπίζονται."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:258(b)
+msgid "Εικόνα 8.12. Μεγεθυσμένα στιγμιότυπα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:261(img:alt) el/gimp-concepts-layer-modes.html:265(img:alt)
+msgid "Μεγεθυσμένα στιγμιότυπα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:262(p)
+msgid "Κανονική κατάσταση."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:266(p)
+msgid "Κατάσταση διάλυσης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:274(span) el/gimp-concepts-layer-modes.html:281(span) el/gimp-concepts-layer-modes.html:306(span)
+msgid "Πολλαπλασιασμός"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:281(b)
+msgid "Εικόνα 8.13. Παράδειγμα για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:284(img:alt) el/gimp-concepts-layer-modes.html:289(img:alt)
+msgid "Παράδειγμα για την κατάσταση στρώσης Πολλαπλασιασμός"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:285(p) el/gimp-concepts-layer-modes.html:328(p) el/gimp-concepts-layer-modes.html:370(p) el/gimp-concepts-layer-modes.html:416(p) el/gimp-concepts-layer-modes.html:461(p) el/gimp-concepts-layer-modes.html:507(p) el/gimp-concepts-layer-modes.html:554(p) el/gimp-concepts-layer-modes.html:616(p) el/gimp-concepts-layer-modes.html:621(p) el/gimp-concepts-layer-modes.html:672(p) el/gimp-concepts-layer-modes.html:723(p) el/gimp-concepts-layer-modes.html:770(p) el/gimp-concepts-layer-modes.html:817(p) el/gimp-concepts-layer-modes.html:865(p) el/gimp-concepts-layer-modes.html:912(p) el/gimp-concepts-layer-modes.html:960(p) el/gimp-concepts-layer-modes.html:1008(p) el/gimp-concepts-layer-modes.html:1041(p) el/gimp-concepts-layer-modes.html:1073(p) el/gimp-concepts-layer-modes.html:1105(p)
+msgid "Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:291(p) el/gimp-concepts-layer-modes.html:421(p) el/gimp-concepts-layer-modes.html:466(p) el/gimp-concepts-layer-modes.html:512(p) el/gimp-concepts-layer-modes.html:559(p) el/gimp-concepts-layer-modes.html:677(p)
+msgid "Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:297(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Πολλαπλασιασμός</span> πολλαπλασιάζει τις τιμές των εικονοστοιχείων της κορυφαίας στρώσης με αυτές της αποκάτω στρώσης και έπειτα διαιρεί το αποτέλεσμα με 255. Το αποτέλεσμα είναι συνήθως μια πιο σκούρα εικόνα. Εάν κάποια στρώση είναι λευκή, η τελική εικόνα είναι η ίδια όπως στην άλλη στρώση (1 * I = I). Εάν κάποια στρώση είναι μαύρη, η τελική εικόνα είναι πλήρως μαύρη (0 * I = 0)."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:306(b)
+msgid "Εξίσωση 8.3. Εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:314(p) el/gimp-concepts-layer-modes.html:401(p)
+msgid "Η κατάσταση είναι αθροιστική. Η σειρά των δύο στρώσεων δεν πειράζει."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:317(span) el/gimp-concepts-layer-modes.html:324(span) el/gimp-concepts-layer-modes.html:348(span)
+msgid "Διαίρεση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:324(b)
+msgid "Εικόνα 8.14. Παράδειγμα για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:327(img:alt)
+msgid "Παράδειγμα για την κατάσταση στρώσης Διαίρεση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:332(img:alt)
+msgid "Example for layer mode Divide"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:333(p) el/gimp-concepts-layer-modes.html:376(p) el/gimp-concepts-layer-modes.html:728(p) el/gimp-concepts-layer-modes.html:775(p) el/gimp-concepts-layer-modes.html:823(p) el/gimp-concepts-layer-modes.html:871(p) el/gimp-concepts-layer-modes.html:918(p) el/gimp-concepts-layer-modes.html:966(p) el/gimp-concepts-layer-modes.html:1014(p) el/gimp-concepts-layer-modes.html:1047(p) el/gimp-concepts-layer-modes.html:1079(p) el/gimp-concepts-layer-modes.html:1111(p)
+msgid "Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:339(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Διαίρεση</span> πολλαπλασιάζει την τιμή κάθε εικονοστοιχείου στην κατώτερη στρώση με 256 και έπειτα τη διαιρεί με την αντίστοιχη τιμή εικονοστοιχείου της κορυφαίας στρώσης συν ένα. (Η πρόσθεση με ένα στον παρανομαστή αποφεύγει τη διαίρεση με μηδέν.) Η τελική εικόνα είναι συχνά πιο ανοικτή και μερικές φορές δείχνει <span class=\"quote\">“<span class=\"quote\"> καμμένη</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:348(b)
+msgid "Εξίσωση 8.4. Εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:358(span) el/gimp-concepts-layer-modes.html:365(span) el/gimp-concepts-layer-modes.html:393(span) el/gimp-concepts-layer-modes.html:639(span)
+msgid "Οθόνη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:365(b)
+msgid "Εικόνα 8.15. Παράδειγμα για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:368(img:alt) el/gimp-concepts-layer-modes.html:374(img:alt)
+msgid "Παράδειγμα για την κατάσταση στρώσης Οθόνη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:382(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Οθόνη</span>μετατρέπει τις τιμές καθενός από τα ορατά εικονοστοιχεία στις δύο στρώσεις της εικόνας. (Δηλαδή, αφαιρεί καθένα τους από το 255.) Έπειτα τις πολλαπλασιάζει μαζί, διαιρεί με 255 και αντιστρέφει πάλι αυτήν την τιμή. Η τελική εικόνα είναι συνήθως πιο φωτεινή και μερικές φορές <span class=\"quote\"> “<span class=\"quote\">ξεπλυμένη</span>”</span> στην εμφάνιση. Οι εξαιρέσεις σ' αυτό είναι μια μαύρη στρώση που δεν αλλάζει την άλλη στρώση και η λευκή στρώση που καταλήγει σε άσπρη εικόνα. Πιο σκούρα χρώματα στην εικόνα φαίνονται να είναι πιο διαφανή."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:393(b)
+msgid "Εξίσωση 8.5. Εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:405(span) el/gimp-concepts-layer-modes.html:412(span) el/gimp-concepts-layer-modes.html:440(span)
+msgid "Επικάλυψη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:412(b)
+msgid "Εικόνα 8.16. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:415(img:alt) el/gimp-concepts-layer-modes.html:420(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Επικάλυψη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:427(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Επικάλυψη</span> αντιστρέφει την τιμή εικονοστοιχείου της κατώτερης στρώσης, πολλαπλασιάζοντας την δυο φορές με την τιμή εικονοστοιχείου της κορυφαίας στρώσης, την προσθέτει στην αρχική τιμή εικονοστοιχείου της κατώτερης στρώσης, διαιρεί με 255 και έπειτα πολλαπλασιάζει με την τιμή εικονοστοιχείου της αρχικής κατώτερης στρώσης και διαιρεί με 255 πάλι. Σκουραίνει την εικόνα, αλλά όχι όσο με την κατάσταση <span class=\"quote\">“<span class=\"quote\">Πολλαπλασιασμός</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:434(p)
+msgid "Η εξίσωση είναι: <sup>[<a id=\"gimp-layer-mode-bug162395\" href=\"#ftn.gimp-layer-mode-bug162395\" class=\"footnote\">4</a>]</sup>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:440(b)
+msgid "Εξίσωση 8.6. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:450(span)
+msgid "Dodge (Υπεκφυγή)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:457(span) el/gimp-concepts-layer-modes.html:486(span)
+msgid "Dodge (υπεκφυγή)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:457(b)
+msgid "Εικόνα 8.17. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:460(img:alt) el/gimp-concepts-layer-modes.html:465(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Dodge (υπεκφυγή)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:472(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Dodge (υπεκφυγή)</span> πολλαπλασιάζει την τιμή του εικονοστοιχείου της κατώτερης στρώσης με 256, έπειτα τη διαιρεί αντιστρέφοντας την τιμή εικονοστοιχείου της άνω στρώσης. Η τελική εικόνα είναι συνήθως πιο φωτεινή, αλλά μερικά χρώματα μπορεί να αντιστραφούν."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:477(p)
+msgid "Στη φωτογραφία dodging (υπεκφυγή) είναι μια τεχνική που χρησιμοποιείται σε ένα σκοτεινό δωμάτιο για να μειώσει την έκθεση σε συγκεκριμένες περιοχές της εικόνας. Αυτό προσφέρει λεπτομέρειες στις σκιές. Όταν χρησιμοποιείται για αυτό το σκοπό η υπεκφυγή δουλεύει άριστα σε εικόνες γκρι κλίμακας και καλύτερα με ένα εργαλείο ζωγραφικής παρά με κατάσταση στρώσης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:486(b)
+msgid "Εξίσωση 8.7. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:496(span)
+msgid "Κάψιμο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:503(span) el/gimp-concepts-layer-modes.html:533(span)
+msgid "κάψιμο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:503(b)
+msgid "Εικόνα 8.18. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:506(img:alt) el/gimp-concepts-layer-modes.html:511(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης κάψιμο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:518(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Κάψιμο</span> αντιστρέφει την τιμή εικονοστοιχείου της κατώτερης στρώσης, την πολλαπλασιάζει με 256, τη διαιρεί με ένα συν την τιμή εικονοστοιχείου της κορυφαίας στρώσης και έπειτα αντιστρέφει το αποτέλεσμα. Τείνει να κάνει την εικόνα πιο σκοτεινή, κάτι παρόμοιο με την κατάσταση <span class=\"quote\"> “<span class=\"quote\">πολλαπλασιασμός</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:524(p)
+msgid "Στην φωτογραφία, κάψιμο είναι μια τεχνική που χρησιμοποιείται σε σκοτεινό δωμάτιο για να αυξήσει την έκθεση σε συγκεκριμένες περιοχές της εικόνας. Αυτό δίνει λεπτομέρειες στα τονισμένα. Όταν χρησιμοποιείται για αυτόν το σκοπό το κάψιμο δουλεύει άριστα με εικόνας κλίμακας του γκρι και με ένα εργαλείο ζωγραφικής παρά σε κατάσταση στρώσης."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:533(b)
+msgid "Εξίσωση 8.8. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:543(span)
+msgid "Hard light (Σκληρό φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:550(span) el/gimp-concepts-layer-modes.html:579(span) el/gimp-concepts-layer-modes.html:593(span)
+msgid "Hard light (σκληρό φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:550(b)
+msgid "Εικόνα 8.19. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:553(img:alt) el/gimp-concepts-layer-modes.html:558(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Hard light (σκληρό φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:565(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Hard light (σκληρό φως)</span> είναι μάλλον περίπλοκη επειδή η εξίσωση αποτελείται από δύο μέρη, ένα για πιο σκοτεινά χρώματα και ένα για πιο φωτεινά χρώματα. Εάν το χρώμα εικονοστοιχείου της κορυφαίας στρώσης είναι μεγαλύτερο από 128, οι στρώσεις συνδυάζονται σύμφωνα με τον πρώτο τύπο που φαίνεται πιο κάτω. Διαφορετικά, οι τιμές εικονοστοιχείου της κορυφαίας και κατώτερης στρώσης πολλαπλασιάζονται μαζί και με 2, έπειτα διαιρούνται με 256. Μπορείτε να χρησιμοποιήσετε αυτήν την κατάσταση για να συνδυάσετε δύο φωτογραφίες και να πετύχετε φωτεινά χρώματα και κοφτές ακμές."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:573(p)
+msgid "Η εξίσωση είναι περίπλοκη και διαφορετική σύμφωνα με την τιμή μεγαλύτερη από 128 ή μικρότερη από 128:"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:578(b)
+msgid "Εξίσωση 8.9.  Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>, M μεγαλύτερο του 128"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:592(b)
+msgid "Εξίσωση 8.10.  Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>, M μικρότερο ή ίσιο του 128"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:605(span) el/gimp-concepts-layer-modes.html:612(span)
+msgid "Soft light (Ήπιο φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:612(b)
+msgid "Εικόνα 8.20. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:615(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Soft light (Ήπιο φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:620(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Soft light(Ήπιο φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:627(p)
+msgid "Το <span class=\"guilabel\">Soft light (Ήπιο φως)</span> δεν σχετίζεται με το <span class=\"quote\"> “<span class=\"quote\">Hard light (σκληρό φως)</span>”</span> πέραν του ονόματος, αλλά τείνει να κάνει τις ακμές πιο ήπιες και τα χρώματα όχι τόσο φωτεινά. Είναι παρόμοια με την κατάσταση <span class=\"quote\">“<span class=\"quote\">επικάλυψη</span>”</span>. Σε μερικές εκδόσεις του GIMP, η κατάσταση <span class=\"quote\">“<span class=\"quote\">επικάλυψη</span>”</span> και η κατάσταση <span class=\"quote\">“<span class=\"quote\">Soft light (ήπιο φως)</span>”</span>είναι ταυτόσημες."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:635(p)
+msgid "Η εξίσωση είναι περίπλοκη. Χρειάζεται Rs, το αποτέλεσμα της κατάστασης οθόνης:"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:639(b)
+msgid "Εξίσωση 8.11. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:649(span)
+msgid "Soft light (ήπιο φως)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:649(b)
+msgid "Εξίσωση 8.12. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:659(span) el/gimp-concepts-layer-modes.html:667(span) el/gimp-concepts-layer-modes.html:694(span)
+msgid "Grain extract (Εξαγωγή κόκκων)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:667(b)
+msgid "Εικόνα 8.21. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:671(img:alt) el/gimp-concepts-layer-modes.html:676(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Grain extract (Εξαγωγή κόκκων)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:683(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Grain extract (Εξαγωγή κόκκων)</span> είναι για εξαγωγή των <span class=\"quote\"> “<span class=\"quote\">κόκκων ταινίας</span>”</span> από μια στρώση για να παράξει μια νέα στρώση που είναι καθαρά κοκκώδης, αλλά μπορεί επίσης να είναι χρήσιμη για να δίνει εικόνες με ανάγλυφη εμφάνιση. Αφαιρεί την τιμή εικονοστοιχείου της κορυφαίας στρώσης από την αντίστοιχη της κατώτερης στρώσης και προσθέτει 128."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:694(b)
+msgid "Εξίσωση 8.13. Η Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:705(span) el/gimp-concepts-layer-modes.html:718(span) el/gimp-concepts-layer-modes.html:745(span)
+msgid "Grain merge (Ανάμιξη κόκκων)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:710(p)
+msgid "Υπάρχουν δύο ακόμη καταστάσεις στρώσεις που είναι διαθέσιμες μόνο για εργαλεία ζωγραφικής (χρώσης). Δείτε <a class=\"link\" href=\"gimp-tools-paint.html#gimp-tool-painting-modes\">Καταστάσεις ζωγραφικής (χρώσης)</a> για αναλυτικές πληροφορίες."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:718(b)
+msgid "Εικόνα 8.22. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:722(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Grain merge (Ανάμιξη κόκκων)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:727(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Grain merge(Ανάμιξη κόκκων)"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:734(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Grain merge (Ανάμιξη κόκκων)</span> αναμιγνύει μια στρώση κόκκων (ενδεχομένως μία που δημιουργήθηκε από την κατάσταση <span class=\"quote\">“<span class=\"quote\">Grain extract (εξαγωγή κόκκων)</span>”</span>). στην τρέχουσα στρώση, αφήνοντας μια κοκκώδη έκδοση της αρχικής στρώσης. Κάνει ακριβώς το αντίθετο από την <span class=\"quote\">“<span class=\"quote\">Grain extract (εξαγωγή κόκκων)</span>”</span>. Προσθέτει τις τιμές εικονοστοιχείου της κορυφαίας και κατώτερης στρώσης μαζί και αφαιρεί 128."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:745(b)
+msgid "Εξίσωση 8.14. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:757(span) el/gimp-concepts-layer-modes.html:765(span) el/gimp-concepts-layer-modes.html:791(span)
+msgid "Διαφορά"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:765(b)
+msgid "Εικόνα 8.23. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:769(img:alt) el/gimp-concepts-layer-modes.html:774(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Διαφορά"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:781(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Διαφορά</span> αφαιρεί την τιμή εικονοστοιχείου της κορυφαίας στρώσης από την αντίστοιχη της κατώτερης στρώσης και έπειτα παίρνει την απόλυτη τιμή του αποτέλεσματος. Ανεξάρτητα από την αρχική εμφάνιση των δύο στρώσεων, το αποτέλεσμα δείχνει μάλλον ασυνήθιστο. Μπορείτε να το χρησιμοποιήσετε για αναστροφή των στοιχείων μιας εικόνας."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:791(b)
+msgid "Εξίσωση 8.15. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:800(p) el/gimp-concepts-layer-modes.html:848(p) el/gimp-concepts-layer-modes.html:943(p) el/gimp-concepts-layer-modes.html:991(p)
+msgid "Η κατάσταση είναι αθροιστική, η σειρά των δύο στρώσεων δεν πειράζει."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:803(span) el/gimp-concepts-layer-modes.html:811(span) el/gimp-concepts-layer-modes.html:839(span)
+msgid "Προσθήκη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:811(b)
+msgid "Εικόνα 8.24. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:815(img:alt) el/gimp-concepts-layer-modes.html:821(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Προσθήκη"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:829(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Προσθήκη</span> είναι πολύ απλή. Οι τιμές εικονοστοιχείου της κορυφαίας και κατώτερης στρώσης προστίθενται μεταξύ τους. Η τελική εικόνα είναι συνήθως πιο φωτεινή. Η εξίσωση μπορεί να καταλήξει σε χρωματικές τιμές μεγαλύτερες από 255, έτσι μερικά από τα φωτεινά χρώματα μπορεί να οριστούν σε μια μέγιστη τιμή 255."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:835(p)
+msgid "The equation is:"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:839(b)
+msgid "Εξίσωση 8.16. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:851(span) el/gimp-concepts-layer-modes.html:859(span) el/gimp-concepts-layer-modes.html:887(span)
+msgid "Αφαίρεση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:859(b)
+msgid "Εικόνα 8.25. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:863(img:alt) el/gimp-concepts-layer-modes.html:869(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Αφαίρεση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:877(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Αφαίρεση</span> αφαιρεί τις τιμές εικονοστοιχείου της κορυφαίας στρώσης από τις τιμές εικονοστοιχείου της χαμηλότερης στρώσης. Η τελική εικόνα είναι κανονικά πιο σκοτεινή. Μπορεί να πάρετε πολύ μαύρο και κοντά στο μαύρο στην τελική εικόνα. Η εξίσωση μπορεί να καταλήξει σε αρνητικές χρωματικές τιμές. Έτσι μερικά από τα σκούρα χρώματα μπορούν να οριστούν σε μια ελάχιστη τιμή 0."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:887(b)
+msgid "Εξίσωση 8.17. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:898(span) el/gimp-concepts-layer-modes.html:906(span) el/gimp-concepts-layer-modes.html:934(span)
+msgid "Σκοτείνιασμα μόνο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:906(b)
+msgid "Εικόνα 8.26. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:910(img:alt) el/gimp-concepts-layer-modes.html:916(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Σκοτείνιασμα μόνο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:924(p)
+msgid "Η κατάσταση <span class=\"guimenuitem\">Σκοτείνιασμα μόνο</span> συγκρίνει κάθε συστατικό καθενός εικονοστοιχείου στην κορυφαία στρώση με το αντίστοιχο στην χαμηλότερη στρώση και χρησιμοποιεί την μικρότερη τιμή στην τελική εικόνα. Πλήρως λευκές στρώσεις δεν έχουν καμιά επίδραση στην τελική εικόνα και πλήρως μαύρες στρώσεις καταλήγουν σε μια μαύρη εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:934(b)
+msgid "Εξίσωση 8.18. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:946(span) el/gimp-concepts-layer-modes.html:954(span) el/gimp-concepts-layer-modes.html:982(span)
+msgid "Φωτισμός μόνο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:954(b)
+msgid "Εικόνα 8.27. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:958(img:alt) el/gimp-concepts-layer-modes.html:964(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Φωτισμός μόνο"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:972(p)
+msgid "Η κατάσταση <span class=\"guimenuitem\">Φωτισμός μόνο</span> συγκρίνει κάθε συστατικό καθενός εικονοστοιχείου στην κορυφαία στρώση με το αντίστοιχο στην χαμηλότερη στρώση και χρησιμοποιεί την μεγαλύτερη τιμή στην τελική εικόνα. Πλήρως μαύρες στρώσεις δεν επιδρούν στην τελική εικόνα και πλήρως λευκές στρώσεις καταλήγουν σε λευκή εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:982(b)
+msgid "Εξίσωση 8.19. Η εξίσωση για την κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:994(span) el/gimp-concepts-layer-modes.html:1002(span)
+msgid "Απόχρωση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1002(b)
+msgid "Εικόνα 8.28. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1006(img:alt) el/gimp-concepts-layer-modes.html:1012(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Απόχρωση"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1020(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Απόχρωση</span> χρησιμοποιεί την απόχρωση της κορυφαίας στρώσης και τον κορεσμό καθώς και την τιμή της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα. Όμως, εάν ο κορεσμός της κορυφαίας στρώσης είναι μηδέν, η απόχρωση λαμβάνεται και από την χαμηλότερη στρώση."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1027(span) el/gimp-concepts-layer-modes.html:1035(span)
+msgid "Κορεσμός"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1035(b)
+msgid "Εικόνα 8.29. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1039(img:alt) el/gimp-concepts-layer-modes.html:1045(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Κορεσμός"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1053(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Κορεσμός</span> χρησιμοποιεί τον κορεσμό της κορυφαίας στρώσης και απόχρωση και τιμή της χαμηλότερης στρώσης για να σχηματίσουν την τελική εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1059(span) el/gimp-concepts-layer-modes.html:1067(span)
+msgid "Χρώμα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1067(b)
+msgid "Εικόνα 8.30. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1071(img:alt) el/gimp-concepts-layer-modes.html:1077(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Χρώμα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1085(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Χρώμα</span> χρησιμοποιεί την απόχρωση και κορεσμό της κορυφαίας στρώσης και την τιμή της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1091(span) el/gimp-concepts-layer-modes.html:1099(span)
+msgid "Τιμή"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1099(b)
+msgid "Εικόνα 8.31. Παράδειγμα για κατάσταση στρώσης <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1103(img:alt) el/gimp-concepts-layer-modes.html:1109(img:alt)
+msgid "Παράδειγμα για κατάσταση στρώσης Τιμή"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1117(p)
+msgid "Η κατάσταση <span class=\"guilabel\">Τιμή</span> χρησιμοποιεί την τιμή της κορυφαίας στρώσης καθώς και τον κορεσμό και την χροιά της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα. Μπορείτε να χρησιμοποιήσετε αυτήν την κατάσταση για να αποκαλύψετε τις λεπτομέρειες σε σκοτεινές και φωτεινές περιοχές μιας εικόνας χωρίς αλλαγή του κορεσμού."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1126(p)
+msgid "Κάθε στρώση σε μια εικόνα μπορεί να έχει διαφορετική κατάσταση στρώσης. (Φυσικά, η κατάσταση στρώσης της χαμηλότερης στρώσης μιας εικόνας δεν επιδρά.) Τα αποτέλεσματα αυτών των καταστάσεων στρώσης είναι αθροιστικά. Η εικόνα που φαίνεται παρακάτω έχει τρεις στρώσεις. Η κορυφαία στρώση αποτελείται από τον Wilber περιβαλλόμενο από διαφάνεια και έχει μια κατάσταση στρώσης <span class=\"quote\">“<span class=\"quote\">Διαφορά</span>”</span>. Η δεύτερη στρώση είναι συμπαγές φωτεινό μπλε και έχει μια κατάσταση στρώσης <span class=\"quote\">“<span class=\"quote\">Προσθήκη</span>”</span>. Η χαμηλότερη στρώση είναι γεμάτη με μοτίβα <span class=\"quote\">“<span class=\"quote\">Red Cubes (Κόκκινοι κύβοι)</span>”</span>."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1137(b)
+msgid "Εικόνα 8.32. Παράδειγμα πολλαπλής στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1140(img:alt)
+msgid "Παράδειγμα πολλαπλής στρώσης"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1145(p)
+msgid "Το GIMP έχει επίσης ανάλογες καταστάσεις που χρησιμοποιούνται για τα εργαλεία ζωγραφικής. Αυτές είναι οι ίδιες είκοσι μία καταστάσεις όπως οι καταστάσεις στρώσης με επιπρόσθετες δύο καταστάσεις που είναι ειδικές για τα εργαλεία ζωγραφικής (χρώσης). Μπορείτε να ορίσετε αυτές τις καταστάσεις από το (Παράθυρα/Dockable Dialogs (αγκιστρωμένοι διάλογοι)/επιλογές εργαλείων/Κατάσταση). Στις εξισώσεις που φαίνονται πιο πάνω, οι στρώσεις που σχεδιάζετε είναι η <span class=\"quote\">“<span class=\"quote\">χαμηλότερη στρώση</span>”</span> και τα εικονοστοιχεία που βάφονται από το εργαλείο είναι η <span class=\"quote\">“<span class=\"quote\">κορυφαία στρώση</span>”</span>. Φυσικά, δεν χρειαζόσαστε περισσότερο από μια στρώση στην εικόνα για να χρησιμοποιήσετε αυτές τις καταστάσεις, επειδή λειτουργούν μόνο στην ενεργή στρώση και στο επιλεγμένο εργαλείο ζωγραφικής (χρώσης)."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1156(p)
+msgid "Δείτε <a class=\"xref\" href=\"gimp-tools-paint.html#gimp-paint-mode-examples\" title=\"3.1.3.&#xA0;&#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B4;&#x3B5;&#x3AF;&#x3B3;&#x3BC;&#x3B1;&#x3C4;&#x3B1; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2; &#x3B2;&#x3B1;&#x3C8;&#x3AF;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;\">Τμήμα 3.1.3, “Παραδείγματα κατάστασης βαψίματος”</a> για περιγραφή των δύο επιπρόσθετων καταστάσεων βαψίματος."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1164(p)
+msgid "<sup>[<a id=\"ftn.gimp-layer-mode-bug162395\" href=\"#gimp-layer-mode-bug162395\" class=\"para\">4</a>] </sup> Η εξίσωση είναι η *θεωρητική* εξίσωση. Λόγω του <a class=\"ulink\" href=\"http://bugzilla.gnome.org/show_bug.cgi?id=162395\" target=\"_top\"> σφάλματος #162395 </a>, η πραγματική εξίσωση είναι ισοδύναμη με το Soft light (ήπιο φως). Είναι δύσκολο να ρυθμιστεί αυτό το σφάλμα χωρίς αλλαγή της εμφάνισης των υπαρχουσών εικόνων."
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1179(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1185(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1188(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-concepts-layer-modes.html:1191(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

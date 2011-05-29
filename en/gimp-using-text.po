@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-text.html:6(title) en/gimp-using-text.html:21(th) en/gimp-using-text.html:31(div:title)
+msgid "5. Text"
+msgstr ""
+
+#: en/gimp-using-text.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-text.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-text.html:13(link:title) en/gimp-using-text.html:25(th)
+msgid "Chapter 8. Combining Images"
+msgstr ""
+
+#: en/gimp-using-text.html:14(link:title) en/gimp-using-text.html:101(a)
+msgid "4. Text and Fonts"
+msgstr ""
+
+#: en/gimp-using-text.html:15(link:title) en/gimp-using-text.html:107(a)
+msgid "5.2. Adding Fonts"
+msgstr ""
+
+#: en/gimp-using-text.html:24(img:alt) en/gimp-using-text.html:92(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-text.html:24(td) en/gimp-using-text.html:92(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-text.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-text.html:26(img:alt) en/gimp-using-text.html:98(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-text.html:26(td) en/gimp-using-text.html:98(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-fonts.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-text.html:35(h2)
+msgid "<a id=\"gimp-using-text\"/>5. Text"
+msgstr ""
+
+#: en/gimp-using-text.html:40(div:title)
+msgid "5.1. Embellishing Text"
+msgstr ""
+
+#: en/gimp-using-text.html:44(h3)
+msgid "<a id=\"id3185010\"/>5.1. Embellishing Text"
+msgstr ""
+
+#: en/gimp-using-text.html:52(b)
+msgid "Figure 8.36. Fancy text"
+msgstr ""
+
+#: en/gimp-using-text.html:56(img:alt)
+msgid "Fancy text"
+msgstr ""
+
+#: en/gimp-using-text.html:58(p)
+msgid "Four fancy text items created using logo scripts: <span class=\"quote\">“<span class=\"quote\">alien neon</span>”</span>, <span class=\"quote\">“<span class=\"quote\">bovination</span>”</span>, <span class=\"quote\">“<span class=\"quote\">frosty</span>”</span>, and <span class=\"quote\">“<span class=\"quote\">chalk</span>”</span>. Default settings were used for everything except font size."
+msgstr ""
+
+#: en/gimp-using-text.html:69(p)
+msgid "There are many things you can do to vary the appearance of text beyond just rendering it with different fonts or different colors. By converting a text item to a selection or a path, you can fill it, stroke the outlines, transform it, or generally apply the whole panoply of GIMP tools to get interesting effects. As a demonstration of some of the possibilities, try out the \"logo\" scripts at <span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Create</span> → <span class=\"guisubmenu\">Logos</span>. Each of these scripts allows you to enter some text, and then creates a new image showing a logo constructed out of that text. If you would like to modify one of these scripts, or construct a logo script of your own, the <a class=\"link\" href=\"gimp-concepts-script-fu.html\" title=\"2.&#xA0;Using Script-Fu Scripts\">Using Script-Fu</a> and <a class=\"link\" href=\"gimp-using-script-fu-tutorial.html\" title=\"3.&#xA0;A Script-Fu Tutorial\">Script-Fu Tutorial</a> sections should help you get started. Of course, you don't need Script-Fu to create these sorts of effects, only to automate them."
+msgstr ""
+
+#: en/gimp-using-text.html:95(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-text.html:101(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-text.html:104(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-text.html:107(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

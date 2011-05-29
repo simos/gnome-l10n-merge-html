@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-imaging-color-management.html:6(title) en/gimp-imaging-color-management.html:21(th) en/gimp-imaging-color-management.html:33(div:title)
+msgid "Chapter 10. Color Management with GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:13(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:14(link:title) en/gimp-imaging-color-management.html:321(a)
+msgid "Chapter 9. Enhancing Photographs"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:15(link:title) en/gimp-imaging-color-management.html:327(a)
+msgid "Chapter 11. Pimp my GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:24(img:alt) en/gimp-imaging-color-management.html:312(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:24(td) en/gimp-imaging-color-management.html:312(td)
+msgid "<a accesskey=\"p\" href=\"gimp-imaging-photos.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:26(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:25(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:28(img:alt) en/gimp-imaging-color-management.html:318(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:28(td) en/gimp-imaging-color-management.html:318(td)
+msgid " <a accesskey=\"n\" href=\"gimp-pimping.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:37(h2)
+msgid "<a id=\"gimp-imaging-color-management\"/>Chapter 10. Color Management with GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:43(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:48(a)
+msgid "1. Color Management in GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:55(a)
+msgid "1.1. Problems of a non Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:60(a)
+msgid "1.2. Introduction to a Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:67(div:title)
+msgid "1. Color Management in GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:71(h2)
+msgid "<a id=\"gimp-concepts-color-management\"/>1. Color Management in GIMP"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:77(p)
+msgid "Many devices you use in your design or photography workflow, like digital photo cameras, scanners, displays, printers etc., have their own color reproduction characteristics. If those are not taken into account during opening, editing and saving, harmful adjustments can be done to images. With <acronym class=\"acronym\">GIMP</acronym> you can have reliable output for both Web and print."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:88(b)
+msgid "Figure 10.1. Image Processing Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:92(img:alt) en/gimp-imaging-color-management.html:98(img:alt)
+msgid "Image Processing Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:94(p)
+msgid "Workflow without Color management"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:100(p)
+msgid "Process with Color management"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:106(div:title)
+msgid "1.1. Problems of a non Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:110(h3)
+msgid "<a id=\"id3141519\"/>1.1. Problems of a non Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:114(p)
+msgid "The basic problem of image manipulation without color management is that you do simply not see what you do. This affects two different areas:"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:121(p)
+msgid "There are differences in Colors caused by different color characteristics of different devices like cameras, scanners, displays or printers"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:128(p)
+msgid "There are differences in Colors caused by the limitations of the colorspace a specific device is able to handle"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:135(p)
+msgid "The main purpose of color management is to avoid such problems. The approach taken to do so involves the addition of a description of the color characteristic to an image or devices."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:140(p)
+msgid "These descriptions are called <span class=\"emphasis\"><em>color profile</em></span>. A color profile is basically a look-up table to translate the specific color characteristic of a device to a device-independent color space - the so called working-space. All the image manipulation is then done to images in the working-space. In addition to that the color profile of a device can be used to simulate how colors would look on that device."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:148(p)
+msgid "The creation of color profiles is most often done by the manufacturer of the devices themselves. To make these profiles usable independent of platform and operating system, the ICC (International Color Consortium) created a standard called ICC-profile that describes how color profiles are stored to files and embedded into images."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:156(div:title)
+msgid "1.2. Introduction to a Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:160(h3)
+msgid "<a id=\"plug-in-icc-profile-set\"/>1.2. Introduction to a Color Managed Workflow"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:164(div:title) en/gimp-imaging-color-management.html:170(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:168(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:174(p)
+msgid "Most of the parameters and profiles described here can be set in the <acronym class=\"acronym\">GIMP</acronym> preferences. Please see <a class=\"xref\" href=\"gimp-pimping.html#gimp-prefs-color-management\" title=\"1.14.&#xA0;Color Management\">Section 1.14, “Color Management”</a> for details."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:183(div:title)
+msgid "1.2.1. Input"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:187(h4)
+msgid "<a id=\"plug-in-icc-profile-apply\"/>1.2.1. Input"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:191(p)
+msgid "Most digital cameras embed a color profile to individual photo files without user interaction. Digital scanners usually come with a color profile, which they also attach to the scanned images."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:199(b)
+msgid "Figure 10.2. Applying the ICC-profile"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:203(img:alt)
+msgid "Applying the ICC-profile"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:208(p)
+msgid "When opening an image with an embedded color profile, <acronym class=\"acronym\">GIMP</acronym> offers to convert the file to the RGB working color space. This is sRGB by default and it is recommended that all work is done in that color space. Should you however decide to keep the embedded color profile, the image will however still be displayed correctly."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:216(p)
+msgid "In case for some reason a color profile is not embedded in the image and you know (or have a good guess) which one it should be, you can manually assign it to that image."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:222(div:title)
+msgid "1.2.2. Display"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:226(h4)
+msgid "<a id=\"gimp-concepts-cm-display\"/>1.2.2. Display"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:230(p)
+msgid "For the best results, you need a color profile for your monitor. If a monitor profile is configured, either system-wide or in the Color Management section of the <acronym class=\"acronym\">GIMP</acronym> Preferences dialog, the image colors will be displayed most accurately."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:236(p)
+msgid "One of the most important <acronym class=\"acronym\">GIMP</acronym> commands to work with color management is described in <a class=\"xref\" href=\"gimp-display-filter-dialog.html\" title=\"5.8.&#xA0;Display Filters\">Section 5.8, “Display Filters”</a>."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:241(p)
+msgid "If you do not have a color profile for your monitor, you can create it using hardware calibration and measurement tools. On UNIX systems you will need <span class=\"productname\">Argyll Color Management System</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-argyllcms\" title=\"Argyll Color Management System Home Page\">[<abbr class=\"abbrev\">ARGYLLCMS</abbr>]</a> and/or <span class=\"productname\">LProf</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-lprof\" title=\"LPROF ICC Profiler\">[<abbr class=\"abbrev\">LPROF</abbr>]</a> to create color profiles."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:251(div:title)
+msgid "1.2.2.1. Display Calibration and Profiling"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:255(h5)
+msgid "<a id=\"gimp-concepts-cm-display-profiling\"/>1.2.2.1. Display Calibration and Profiling"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:261(p)
+msgid "For displays there are two steps involved. One is called calibration and the other is called profiling. Also, calibration generally involves two steps. The first involves adjusting external monitor controls such as Contrast, Brightness, Color Temperature, etc, and it is highly dependent on the specific monitor. In addition there are further adjustments that are loaded into the video card memory to bring the monitor as close to a standard state as possible. This information is stored in the monitor profile in the so-called vgct tag. Probably under Windows XP or Mac OS, the operating system loads this information (LUT) in the video card in the process of starting your computer. Under Linux, at present you have to use an external program such as xcalib or dispwin. (If one just does a simple visual calibration using a web site such as that of Norman Koren, one might only use xgamma to load a gamma value.)"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:277(p)
+msgid "The second step, profiling, derives a set of rules which allow <acronym class=\"acronym\">GIMP</acronym> to translate RGB values in the image file into appropriate colors on the screen. This is also stored in the monitor profile. It doesn't change the RGB values in the image, but it does change which values are sent to the video card (which already contains the vgct LUT)."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:287(div:title)
+msgid "1.2.3. Print Simulation"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:291(h4)
+msgid "<a id=\"id3171653\"/>1.2.3. Print Simulation"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:295(p)
+msgid "Using <acronym class=\"acronym\">GIMP</acronym>, you can easily get a preview of what your image will look like on paper. Given a color profile for your printer, the display can be switched into Soft Proof mode. In such a simulated printout, colors that cannot be reproduced will optionally be marked with neutral gray color, allowing you to correct such mistakes before sending your images to the printer."
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:315(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:321(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:324(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-imaging-color-management.html:327(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

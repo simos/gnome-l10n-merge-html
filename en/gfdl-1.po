@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gfdl-1.html:6(title) en/gfdl-1.html:21(th) en/gfdl-1.html:31(div:title)
+msgid "2. APPLICABILITY AND DEFINITIONS"
+msgstr ""
+
+#: en/gfdl-1.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gfdl-1.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gfdl-1.html:13(link:title) en/gfdl-1.html:14(link:title) en/gfdl-1.html:25(th) en/gfdl-1.html:155(a)
+msgid "Appendix C. GNU Free Documentation License"
+msgstr ""
+
+#: en/gfdl-1.html:15(link:title) en/gfdl-1.html:161(a)
+msgid "3. VERBATIM COPYING"
+msgstr ""
+
+#: en/gfdl-1.html:24(img:alt) en/gfdl-1.html:146(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gfdl-1.html:24(td) en/gfdl-1.html:146(td)
+msgid "<a accesskey=\"p\" href=\"legal.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gfdl-1.html:26(img:alt) en/gfdl-1.html:152(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gfdl-1.html:26(td) en/gfdl-1.html:152(td)
+msgid " <a accesskey=\"n\" href=\"gfdl-2.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gfdl-1.html:35(h2)
+msgid "<a id=\"gfdl-1\"/>2. APPLICABILITY AND DEFINITIONS"
+msgstr ""
+
+#: en/gfdl-1.html:39(p)
+msgid "<a id=\"gfdl-doc\"/> This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright holder saying it can be distributed under the terms of this License. Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein. The <span class=\"quote\">“<span class=\"quote\">Document</span>”</span>, below, refers to any such manual or work. Any member of the public is a licensee, and is addressed as <span class=\"quote\">“<span class=\"quote\">you</span>”</span>. You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law."
+msgstr ""
+
+#: en/gfdl-1.html:50(p)
+msgid "<a id=\"gfdl-mod-ver\"/> A <span class=\"quote\">“<span class=\"quote\">Modified Version</span>”</span> of the Document means any work containing the Document or a portion of it, either copied verbatim, or with modifications and/or translated into another language."
+msgstr ""
+
+#: en/gfdl-1.html:56(p)
+msgid "<a id=\"gfdl-secnd-sect\"/> A <span class=\"quote\">“<span class=\"quote\">Secondary Section</span>”</span> is a named appendix or a front-matter section of the Document that deals exclusively with the relationship of the publishers or authors of the Document to the Document's overall subject (or to related matters) and contains nothing that could fall directly within that overall subject. (Thus, if the Document is in part a textbook of mathematics, a Secondary Section may not explain any mathematics.) The relationship could be a matter of historical connection with the subject or with related matters, or of legal, commercial, philosophical, ethical or political position regarding them."
+msgstr ""
+
+#: en/gfdl-1.html:68(p)
+msgid "<a id=\"gfdl-inv-sect\"/> The <span class=\"quote\">“<span class=\"quote\">Invariant Sections</span>”</span> are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License. If a section does not fit the above definition of Secondary then it is not allowed to be designated as Invariant. The Document may contain zero Invariant Sections. If the Document does not identify any Invariant Sections then there are none."
+msgstr ""
+
+#: en/gfdl-1.html:77(p)
+msgid "<a id=\"gfdl-cov-text\"/> The <span class=\"quote\">“<span class=\"quote\">Cover Texts</span>”</span> are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License. A Front-Cover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words."
+msgstr ""
+
+#: en/gfdl-1.html:85(p)
+msgid "<a id=\"gfdl-transparent\"/> A <span class=\"quote\">“<span class=\"quote\">Transparent</span>”</span> copy of the Document means a machine-readable copy, represented in a format whose specification is available to the general public, that is suitable for revising the document straightforwardly with generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of formats suitable for input to text formatters. A copy made in an otherwise Transparent file format whose markup, or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not Transparent. An image format is not Transparent if used for any substantial amount of text. A copy that is not <span class=\"quote\">“<span class=\"quote\">Transparent</span>”</span> is called <span class=\"quote\">“<span class=\"quote\">Opaque</span>”</span>."
+msgstr ""
+
+#: en/gfdl-1.html:100(p)
+msgid "Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification. Examples of transparent image formats include PNG, XCF and JPG. Opaque formats include proprietary formats that can be read and edited only by proprietary word processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only."
+msgstr ""
+
+#: en/gfdl-1.html:112(p)
+msgid "<a id=\"gfdl-title-page\"/> The <span class=\"quote\">“<span class=\"quote\">Title Page</span>”</span> means, for a printed book, the title page itself, plus such following pages as are needed to hold, legibly, the material this License requires to appear in the title page. For works in formats which do not have any title page as such, <span class=\"quote\">“<span class=\"quote\">Title Page</span>”</span> means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text."
+msgstr ""
+
+#: en/gfdl-1.html:122(p)
+msgid "<a id=\"gfdl-entitled\"/> A section <span class=\"quote\">“<span class=\"quote\">Entitled XYZ</span>”</span> means a named subunit of the Document whose title either is precisely XYZ or contains XYZ in parentheses following text that translates XYZ in another language. (Here XYZ stands for a specific section name mentioned below, such as <span class=\"quote\">“<span class=\"quote\">Acknowledgements</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Dedications</span>”</span>, <span class=\"quote\">“<span class=\"quote\">Endorsements</span>”</span>, or <span class=\"quote\">“<span class=\"quote\">History</span>”</span>.) To <span class=\"quote\">“<span class=\"quote\">Preserve the Title</span>”</span> of such a section when you modify the Document means that it remains a section <span class=\"quote\">“<span class=\"quote\">Entitled XYZ</span>”</span> according to this definition."
+msgstr ""
+
+#: en/gfdl-1.html:133(p)
+msgid "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document. These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License."
+msgstr ""
+
+#: en/gfdl-1.html:149(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gfdl-1.html:155(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gfdl-1.html:158(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gfdl-1.html:161(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

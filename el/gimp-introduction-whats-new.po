@@ -1,0 +1,347 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-introduction-whats-new.html:6(title)
+msgid "2. Τι είναι Καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:13(link:title) el/gimp-introduction-whats-new.html:14(link:title) el/gimp-introduction-whats-new.html:25(th)
+msgid "Κεφάλαιο 1. Εισαγωγή"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:15(link:title) el/gimp-introduction-whats-new.html:480(a)
+msgid "Κεφάλαιο 2. Εκκίνηση του GIMP"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:21(th)
+msgid "Τι είναι Καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:24(img:alt) el/gimp-introduction-whats-new.html:465(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:24(td) el/gimp-introduction-whats-new.html:465(td)
+msgid "<a accesskey=\"p\" href=\"introduction.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:26(img:alt) el/gimp-introduction-whats-new.html:471(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:26(td) el/gimp-introduction-whats-new.html:471(td)
+msgid " <a accesskey=\"n\" href=\"gimp-fire-up.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:35(h2)
+msgid "<a id=\"gimp-introduction-whats-new\"/>2. Τι είναι Καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:39(p)
+msgid "Το GIMP 2.6 είναι μια ενδιαφέρουσα έκδοση από την πλευρά της ανάπτυξης. Αλλάζει κάποια χαρακτηριστικά στην διεπαφή του χρήστη, αντιμετωπίζοντας κάποια συχνά παράπονα καθώς και μια προσπάθεια ολοκλήρωσης του GEGL, τη βιβλιοθήκη επεξεργασίας εικόνας βασισμένης σε γραφικά που ενδεχομένως θα οδηγήσει σε ψηλό βάθος bit και μη καταστροφική επεξεργασία στο GIMP."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:47(b)
+msgid "Διεπαφή Χρήστη"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:51(span)
+msgid "Απομακρύνθηκε η Γραμμή Μενού Εργαλειοθήκης"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:54(p)
+msgid "Η Γραμμή Μενού Εργαλειοθήκης μετακινήθηκε και συγχωνεύτηκε με τη γραμμή μενού του παραθύρου της εικόνας. Για να επιτευχθεί αυτό, εισήχθη ένα παράθυρο ονομαζόμενο παράθυρο της κενής εικόνας. Αυτό κρατάει τη γραμμή μενού και διατηρεί ένα ζωντανό στιγμιότυπο της εφαρμογής, όταν καμιά εικόνα δεν είναι ανοιχτή. Γίνεται επίσης ο στόχος με σύρσιμο και μετάθεση. Όταν ανοίγεται η πρώτη εικόνα το παράθυρο της κενής εικόνας μετασχηματίζεται σε ένα κανονικό παράθυρο εικόνας και όταν κλείνει η τελευταία εικόνα, αυτό το παράθυρο γίνεται ένα παράθυρο κενής εικόνας."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:65(b)
+msgid "Εικόνα 1.1. Νέα εμφάνιση του παραθύρου εικόνας στο GIMP 2.6"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:69(img:alt)
+msgid "Νέα εμφάνιση του παραθύρου εικόνας στο GIMP 2.6"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:76(span)
+msgid "Εργαλειοθήκη και προσαρτήσεις είναι λειτουργικά παράθυρα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:79(p)
+msgid "Με το παράθυρο κενής εικόνας να λειτουργεί σαν ένα φυσικό κύριο παράθυρο, τα παράθυρα εργαλειοθήκης και αγκιστριών (Docks) είναι τώρα πιο λειτουργικά παράθυρα από τα κύρια παράθυρα. Αυτό επιτρέπει στους διαχειριστές παραθύρου να κάνουν μια πιο καλή εργασία διαχείρισης των παραθύρων GIMP, συμπεριλαμβάνοντας την παράλειψη της εργαλειοθήκης και των αγκιστριών από την γραμμή εργασιών και εξασφαλίζοντας ότι η εργαλειοθήκη και τα αγκίστρια είναι πάντα πάνω από τα παράθυρα εικόνας."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:88(span)
+msgid "Ικανότητα κύλισης πέρα από το περίγραμμα της εικόνας"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:91(p)
+msgid "Ο διάλογος περιήγησης τώρα επιτρέπει εστίαση πέρα από το περίγραμμα της εικόνας, έτσι δεν υπάρχει πιά πρόβλημα με τη χρήση πινέλου στα άκρα μιας εικόνας που γεμίζει όλη την οθόνη του παραθύρου. Επίσης, εάν ένα λειτουργικό παράθυρο καλύπτει την εικόνα, μπορεί να ζουμάρεις την εικόνα για να δεις ή να επεξεργαστείς το κομμάτι που καλύπτεται από το λειτουργικό παράθυρο."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:100(b)
+msgid "Εικόνα 1.2. Κύλιση πέρα από το περίγραμμα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:104(img:alt)
+msgid "Κύλιση πέρα από το περίγραμμα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:111(span) el/gimp-introduction-whats-new.html:213(span)
+msgid "Μικρές Αλλαγές"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:117(p)
+msgid "Νέα Ονομασία μενού διαλόγων στα παράθυρα."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:122(p)
+msgid "Διατήρηση μιας λίστας των πρόσφατα κλεισμένων αγκιστριών(Docks) και άδεια ξανανοίγματος."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:127(p)
+msgid "Καλύτερη εργασία στο άνοιγμα εικόνων σε ήδη τρέχοντα στιγμιότυπα GIMP στα παράθυρα."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:133(p)
+msgid "Δυνατότητα εισόδου της αναλογίας ζουμ της εικόνας απευθείας στη γραμμή κατάστασης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:138(p)
+msgid "Υποστήριξη για χρήση άμεσης βοήθειας αντί για πακέτο GIMP τοπικά εγκαταστημένης βοήθειας."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:143(p)
+msgid "Δυνατότητα κλειδώματος καρτελών στα προσαρτημένα για αποφυγή τυχαίας μετακίνησης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:154(b)
+msgid "Εργαλεία, Φίλτρα και Πρόσθετα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:158(span)
+msgid "Βελτιωμένο Εργαλείο Ελεύθερης Επιλογής"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:161(p)
+msgid "Βελτίωση του εργαλείου ελεύθερης επιλογής για υποστήριξη πολυγωνικών επιλογών. Δυνατότητα ανάμιξης τμημάτων ελεύθερου χεριού με πολυγωνικά τμήματα, επεξεργασία υπαρχόντων τμημάτων, εφαρμογή περιορισμένων γωνιών σε τμήματα και φυσικά τις λειτουργίες του κανονικού εργαλείου επιλογής όπως προσθήκη και αφαίρεση. Όλα μαζύ κάνουν το εργαλείο ελεύθερης επιλογής ένα πολύ ευλύγιστο, δυνατό and εύχρηστο εργαλείο επιλογής."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:170(b)
+msgid "Σχήμα 1.3. Πολυγωνική Επιλογή"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:174(img:alt)
+msgid "Πολυγωνική Επιλογή"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:181(span) el/gimp-introduction-whats-new.html:198(img:alt)
+msgid "Δυναμικά Πινέλα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:184(p)
+msgid "Δυναμικά πινέλα χρησιμοποιούν μια δυναμική είσοδο όπως πίεση, ταχύτητα καθώς και τυχαία, για μεταβολή παραμέτρων του πινέλου όπως αδιαφάνεια, σκληρότητα, μέγεθος, ή χρώμα. Κάθε πινέλο υποστηρίζει μέγεθος και αδιαφάνεια. Τα περισσότερα πινέλα υποστηρίζουν πιο πολλά. Οι επιλογές ταχύτητα και τυχαία χρησιμοποιούνται με το ποντίκι. Το εργαλείο μελανιού , που υποστήριζε ταχύτητα, επεξεργάστηκε για καλύτερο χειρισμό βαφής ανεξάρτητο από ταχύτητα."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:194(b)
+msgid "Εικόνα 1.4. Δυναμικά πινέλα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:203(p)
+msgid "Τα δυναμικά πινέλα έχουν μια καινούργια λειτουργία στα μονοπάτια βαφής. Υπάρχει τώρα ένα πλαίσιο ελέγχου κάτω από την επιλογή “<span class=\"quote\">Εργαλεία Ζωγραφικής</span>” , για προσομοίωση δυναμικών πινέλων στο βάψιμο με εργαλείο ζωγραφικής. Αυτό σημαίνει ότι κατά τη διάρκεια της σχεδίασης, το πινέλο λαμβάνει υπόψη ότι η πίεση και η ταχύτητα ποικίλλουν. Η πίεση ξεκινάει με μηδενική πίεση, ανεβαίνει μέχρι πλήρη πίεση και μετά ξαναπέφτει σε μηδενική πίεση. Η ταχύτητα ξεκινά από 0 και φτάνει σε πλήρη ταχύτητα μέχρι το τέλος της σχεδίασης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:219(p)
+msgid "Προσθήκη επεναδιαστάσιμου πλαισίου για το εργαλείο κειμένου που υποστηρίζει αυτόματη αναδίπλωση του κειμένου μέσα σ' αυτό το οριακό κουτί."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:226(b)
+msgid "Εικονα 1.5. Επαναδιαστάσιμο πλαίσιο εργαλείου κειμένου"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:230(img:alt)
+msgid "Επαναδιαστάσιμο πλαίσιο εργαλείου κειμένου"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:237(p)
+msgid "Μετακίνηση χειριστηρίων για εργαλεία βασισμένα σε ορθογώνια όπως περικοπή και επιλογή ορθογωνίου στην έξω πλευρά του ορθογωνίου όταν το ορθογώνιο είναι στενό."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:244(b)
+msgid "Εικόνα 1.6. Χειριστήρια ορθογωνίου"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:248(img:alt)
+msgid "Χειριστήρια ορθογωνίου"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:255(p)
+msgid "Προσθήκη περιορισμών κίνησης στο εργαλείο μετακίνησης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:260(p)
+msgid "Βελτιωμένη εξομάλυνση συμβάντων για εργαλεία βαφής."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:265(p)
+msgid "Επισήμανση του κέντρου των ορθογωνίων όταν μετακινούνται και προσκόληση του κέντρου στο πλέγμα και τους κανόνες."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:271(p)
+msgid "Δυνατότητα κλιμάκωσης πινέλου για το εργαλείο μουτζούρας."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:276(p)
+msgid "Προσθήκη δυνατότητας αποθήκευσης προκαθορισμένων σε όλα τα εργαλεία χρωμάτων για ρυθμίσεις χρώματος συχνής χρήσης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:282(p)
+msgid "Δυνατότητα μεταφοράς ρυθμίσεων από <span class=\"emphasis\"><em>φωτεινότητα-αντίθεση </em></span> σε <span class=\"emphasis\"><em>επίπεδα</em></span> και από <span class=\"emphasis\"><em>επιπεδα</em></span> σε <span class=\"emphasis\"><em>καμπύλες</em></span>."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:289(p)
+msgid "Δυνατότητα αλλαγής αδιαφάνειας σε προεπισκοπίσεις εργαλείου μετασχηματισμού."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:294(p)
+msgid "Το πρόσθετο στιγμιότυπο (Screenshot) δίνει τη δυνατότητα σύλληψης του δρομέα ποντικιού (χρησιμοποιώντας Xfixes)."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:300(p)
+msgid "Εμφάνιση αναλογιών των εργαλείων περικοπής και ορθογωνίου στη γραμμή κατάστασης."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:306(p)
+msgid "Δυνατότητα προεπισκόπησης στον καμβά για αποκορεσμό."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:311(p)
+msgid "Το πρόσθετο φλόγα (Flame) επεκτάθηκε με 22 νέες παραλλαγές."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:316(p)
+msgid "Φάκελοι αρχείων δεδομένων όπως φάκελοι πινέλων ψάχνονται αναδρομικά για αρχεία."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:321(p)
+msgid "Το πρόσθετο εισαγωγής PSD αντικαταστάθηκε από μια ξαναγραμμένη έκδοση που κάνει ότι η παλιά έκδοση με κάποια επιπρόσθετα, όπως -για παράδειγμα- ανάγνωση των ICC προφιλ χρωμάτων."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:327(p)
+msgid "Πολλές οθόνες χρησιμοποιούν τη βιβλιοθήκη Cairo."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:333(span) el/gimp-introduction-whats-new.html:337(img:alt)
+msgid "Σύγκριση εμφάνισης GIMP 2.6 με GIMP 2.4"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:333(b)
+msgid "Εικόνα 1.7. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:350(b)
+msgid "Τα Αφανή"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:354(span)
+msgid "GEGL"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:357(p)
+msgid "Σημαντική πρόοδος έγινε προς υψηλή ανάλυση και μη καταστροφική επεξεργασία στο GIMP. Οι περισσότερες λειτουργίες χρώματος στο GIMP εκτελούνται τώρα από ένα ισχυρό πλαίσιο βασισμένο σε γραφική επεξεργασία εικόνας GEGL <a class=\"xref\" href=\"bibliography.html#bibliography-online-gegl\" title=\"GEGL (&#x393;&#x3B5;&#x3BD;&#x3B9;&#x3BA;&#x3AE; &#x392;&#x3B9;&#x3B2;&#x3BB;&#x3B9;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B7; &#x393;&#x3C1;&#x3B1;&#x3C6;&#x3B9;&#x3BA;&#x3CE;&#x3BD;)\">[<abbr class=\"abbrev\">GEGL</abbr>]</a>, που σημαίνει ότι η εσωτερική επεξεργασία γίνεται σε 32bit επιπλέουσας υποδιαστολής γραμμικού φωτός RGBA. Από προεπιλογή, εξακολουθούν να χρησιμοποιούται ο κληρονομημένος 8bit κώδικας μονοπατιών, αλλά κάποιος χρήστης μπορεί να ενεργοποιήσει το GEGL για τις λειτουργίες χρώματος με <a class=\"link\" href=\"gimp-config-use-gegl.html\" title=\"8.5.&#xA0;Use GEGL\">Χρώματα / Χρήση του GEGL</a>."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:367(p)
+msgid "Επιπρόσθετα με την εκτέλεση χρωματικών λειτουργιών στο GEGL, ένα πειραματικό εργαλείο λειτουργίας GEGL προστέθηκε και βρίσκεται στο μενού εργαλείων. Ενεργοποεί την εφαρμογή λειτουργιών GEGL σε μια εικόνα και δίνει προεπισκοπήσεις των αποτελεσμάτων στον καμβά. Το στιγμιότυπο παρακάτω το δείχνει για ένα θόλωμα Gauss."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:376(b)
+msgid "Εικόνα 1.8. Λειτουργία GEGL"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:380(img:alt)
+msgid "Λειτουργία GEGL"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:387(span)
+msgid "Μικρότερες Αλλαγές"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:390(p)
+msgid "Μεταφορά πολλών γραφικών συστατικών για χρήση σε διδιάστατα γραφικά βιβλιοθήκης cairo <a class=\"xref\" href=\"bibliography.html#bibliography-online-cairo\" title=\"Cairo\">[<abbr class=\"abbrev\">CAIRO</abbr>]</a> για σχεδίαση. Δείτε αυτή <a class=\"link\" href=\"gimp-introduction-whats-new.html#gimp-cairo-2-4-vs-2-6\" title=\"&#x395;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#xA0;1.7.&#xA0; &#x3A3;&#x3CD;&#x3B3;&#x3BA;&#x3C1;&#x3B9;&#x3C3;&#x3B7; &#x3B5;&#x3BC;&#x3C6;&#x3AC;&#x3BD;&#x3B9;&#x3C3;&#x3B7;&#x3C2; GIMP 2.6  &#x3BC;&#x3B5; GIMP 2.4\"> τη σύγκριση</a> για ένα παράδειγμα του πόσο καλύτερα δείχνει."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:401(b)
+msgid "Ποικίλα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:405(span)
+msgid "Ανάπτυξη προσθέτων"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:408(p)
+msgid "Υπάρχουν καινούργια πράγματα για την ανάπτυξη προσθέτων που μπορείτε επίσης να απολαύσετε. Για παράδειγμα, οι διαδικασίες μπορούν να δώσουν μια αναλυτική περιγραφή σφάλματος σε περίπτωση λάθους, και το λάθος μπορεί να διαδοθεί στον χρήστη."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:413(p)
+msgid "Το GIMP 2.6 βελτιώνει παραπέρα τις ικανότητες του σεναρίου. Ειδικά υπάρχει τώρα ένα πολύ πιο πλούσιο API για τη δημιουργία και το χειρισμό των στρώσεων κειμένου. Εδώ είναι ένας κατάλογος με νέα σύμβολα του GIMP 2.6: <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-dev-new\" title=\"&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3BD;&#x3AD;&#x3C9;&#x3BD; &#x3C3;&#x3C5;&#x3BC;&#x3B2;&#x3CC;&#x3BB;&#x3C9;&#x3BD; &#x3C3;&#x3C4;&#x3BF; GIMP 2.6\">[<abbr class=\"abbrev\">GIMP-NEWSYM26</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:420(span)
+msgid "Συμβατότητα προς τα πίσω"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:423(p)
+msgid "Μερικά παλιά σενάρια δεν μπορούν να χρησιμοποιηθούν με το GIMP-2.4. Αυτό βελτιώθηκε και το 2.6 μπορεί να εκτελέσει 2.0 και 2.2 σενάρια."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:429(span)
+msgid "Γνωστά προβλήματα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:435(p)
+msgid "Οι υποδείξεις του λειτουργικού παραθύρου λειτουργούν σωστά στο περιβάλλον επιφάνειας εργασίας του Linux GNOME και στα Windows ξεκινώντας από το GIMP 2.6.1."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:442(p)
+msgid "Η χρήση του εργαλείου κειμένου δεν είναι προς το παρόν η καλύτερη εμπειρία. Η βελτίωση του είναι σκοπός για το GIMP 2.8."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:448(p)
+msgid "Εάν μεταγλωττίσετε το GIMP οι ίδιοι και δεν έχετε GVfs υποστήριξη στην πλατφόρμα σας χρειάζεστε να περάσετε ρητά <code class=\"option\">--without-gvfs</code> to <span class=\"command\"><strong>configure</strong></span>, αλλιώς το άνοιγμα απομακρυσμένων αρχείων δεν θα δουλέψει κατάλληλα."
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:468(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:474(a)
+msgid "Κεφάλιο 1. Εισαγωγή"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:474(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:477(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-introduction-whats-new.html:480(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

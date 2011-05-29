@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-image-guides.html:6(title) en/gimp-concepts-image-guides.html:21(th) en/gimp-concepts-image-guides.html:31(div:title)
+msgid "2.2. Guides"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:13(link:title) en/gimp-concepts-image-guides.html:14(link:title) en/gimp-concepts-image-guides.html:25(th) en/gimp-concepts-image-guides.html:149(a)
+msgid "2. Grids and Guides"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:15(link:title) en/gimp-concepts-image-guides.html:155(a)
+msgid "3. Rendering a Grid"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:24(img:alt) en/gimp-concepts-image-guides.html:140(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:24(td) en/gimp-concepts-image-guides.html:140(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-image-grid-and-guides.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:26(img:alt) en/gimp-concepts-image-guides.html:146(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:26(td) en/gimp-concepts-image-guides.html:146(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-grid.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:35(h3)
+msgid "<a id=\"gimp-concepts-image-guides\"/>2.2. Guides"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:42(b)
+msgid "Figure 11.30. Image with four guides"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:46(img:alt)
+msgid "Image with four guides"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:51(p)
+msgid "In addition to the image grid, <acronym class=\"acronym\">GIMP</acronym> also gives you a more flexible type of positioning aid: <span class=\"emphasis\"><em>guides</em></span>. These are horizontal or vertical lines you can temporarily display on an image while you are working on it."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:57(p)
+msgid "To create a guide, simply click on one of the rulers in the image window and pull out a guide, while holding the <span class=\"mousebutton\">mouse button</span> pressed. The guide is then displayed as a blue, dashed line, which follows the pointer. As soon as you create a guide, the <span class=\"quote\">“<span class=\"quote\">Move</span>”</span> tool is activated and the mouse pointer changes to the Move icon."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:65(p)
+msgid "You can also create a guide with the <a class=\"link\" href=\"script-fu-guide-new.html\" title=\"6.23.&#xA0;New Guide\">New Guide</a> command, which allows you to precisely place the guide on the image, the <a class=\"link\" href=\"script-fu-guide-new-percent.html\" title=\"6.24.&#xA0;New Guide (by Percent)\">New Guide (by Percent)</a> command, or the <a class=\"link\" href=\"script-fu-guides-from-selection.html\" title=\"6.25.&#xA0;New Guides from Selection\">New Guides from Selection</a> command."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:74(p)
+msgid "You can create as many guides as you like, positioned wherever you like. To move a guide after you have created it, activate the Move tool in the Toolbox (or press the <span class=\"keycap\"><strong>M</strong></span> key), you can then click and drag a guide. To delete a guide, simply drag it outside the image. Holding down the <span class=\"keycap\"><strong>Shift</strong></span> key, you can move everything but a guide, using the guides as an effective alignment aid."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:82(p)
+msgid "The behavior of the guides depends upon the <span class=\"guilabel\">Move</span> (Affect) mode of the <span class=\"quote\">“<span class=\"quote\">Move</span>”</span> tool. When <span class=\"emphasis\"><em>Layer</em></span> mode is selected, the mouse pointer turns into a small hand as soon as it gets close to a guide. Then the guide is activated and it turns red, and you can move the guide or delete it by moving it back into the ruler. If <span class=\"emphasis\"><em>Selection</em></span> mode is selected, you can position a guide, but you cannot move it after that."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:91(p)
+msgid "As with the grid, you can cause the pointer to snap to nearby guides, by toggling <span class=\"guimenu\">View</span> → <span class=\"guimenuitem\">Snap to Guides</span> in the image menu. If you have a number of guides and they are making it difficult for you to judge the image properly, you can hide them by toggling <span class=\"guimenu\">View</span> → <span class=\"guimenuitem\">Show Guides</span>. It is suggested that you only do this momentarily, otherwise you may get confused the next time you try to create a guide and don't see anything happening."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:103(p)
+msgid "If it makes things easier for you, you can change the default behavior for guides in the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-image-window-appearance\" title=\"1.11.&#xA0;Image Window Appearance\">Image Windows Appearance</a> page of the Preferences dialog. Disabling <span class=\"guilabel\">Show guides</span> is probably a bad idea, though, for the reason just given."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:111(p)
+msgid "You can remove the guides with the <span class=\"guimenu\">Image</span> → <span class=\"guisubmenu\">Guides</span> → <span class=\"guimenuitem\">Remove all Guides</span> command."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:116(div:title) en/gimp-concepts-image-guides.html:122(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:120(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:126(p)
+msgid "Another use for guides: the <a class=\"link\" href=\"plug-in-guillotine.html\" title=\"6.10.&#xA0;Guillotine\">Guillotine</a> plugin can use guides to slice an image into a set of sub-images."
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:143(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:149(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:152(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-image-guides.html:155(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

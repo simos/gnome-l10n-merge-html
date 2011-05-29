@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/install-script-fu.html:6(title) en/install-script-fu.html:21(th) en/install-script-fu.html:31(div:title)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/install-script-fu.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/install-script-fu.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/install-script-fu.html:13(link:title) en/install-script-fu.html:14(link:title) en/install-script-fu.html:25(th) en/install-script-fu.html:84(a)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/install-script-fu.html:15(link:title) en/install-script-fu.html:90(a)
+msgid "2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/install-script-fu.html:24(img:alt) en/install-script-fu.html:75(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/install-script-fu.html:24(td) en/install-script-fu.html:75(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-script-fu.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/install-script-fu.html:26(img:alt) en/install-script-fu.html:81(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/install-script-fu.html:26(td) en/install-script-fu.html:81(td)
+msgid " <a accesskey=\"n\" href=\"common-script-fu-errors.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/install-script-fu.html:35(h3)
+msgid "<a id=\"install-script-fu\"/>2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/install-script-fu.html:40(p)
+msgid "One of the great things about Script-Fu is that you can share your script with all your <acronym class=\"acronym\">GIMP</acronym> friends. There are many scripts that come with <acronym class=\"acronym\">GIMP</acronym> by default, but there are also vast quantities of scripts that are available for download all around the Internet."
+msgstr ""
+
+#: en/install-script-fu.html:49(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/install-script-fu.html:50(p)
+msgid "If you have downloaded a script, copy or move it to your scripts directory. It can be found in the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders\" title=\"1.18.&#xA0;Folders\">Preferences</a>: <span class=\"guimenu\">Folders</span> → <span class=\"guimenuitem\">Scripts</span>."
+msgstr ""
+
+#: en/install-script-fu.html:57(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/install-script-fu.html:58(p)
+msgid "Do a refresh by using <span class=\"guimenu\">Filters</span> → <span class=\"guisubmenu\">Script-Fu</span> → <span class=\"guimenuitem\">Refresh Scripts</span> from the image menubar. The script will now appear in one of your menus. If you don't find it, look for it under the root file menu filters. If it doesn't appear at all, something was wrong with the script (e.g. it contains syntax errors)."
+msgstr ""
+
+#: en/install-script-fu.html:78(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/install-script-fu.html:84(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/install-script-fu.html:87(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/install-script-fu.html:90(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:6(title) el/gimp-using-script-fu-tutorial-identifier.html:21(th) el/gimp-using-script-fu-tutorial-identifier.html:31(div:title)
+msgid "3.2. Μεταβλητές και συναρτήσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:13(link:title) el/gimp-using-script-fu-tutorial-identifier.html:14(link:title) el/gimp-using-script-fu-tutorial-identifier.html:25(th) el/gimp-using-script-fu-tutorial-identifier.html:260(a)
+msgid "3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:15(link:title) el/gimp-using-script-fu-tutorial-identifier.html:266(a)
+msgid "3.3. Λίστες, λίστες και πάλι λίστες"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:24(img:alt) el/gimp-using-script-fu-tutorial-identifier.html:251(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:24(td) el/gimp-using-script-fu-tutorial-identifier.html:251(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:26(img:alt) el/gimp-using-script-fu-tutorial-identifier.html:257(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:26(td) el/gimp-using-script-fu-tutorial-identifier.html:257(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-lists.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-identifier\"/>3.2.Μεταβλητές και συναρτήσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:39(p)
+msgid "Τώρα που ξέρουμε ότι κάθε πρόταση του Scheme περιβάλλεται από παρενθέσεις και ότι το όνομα/τελεστής της συνάρτησης καταχωρίζεται πρώτο, χρειάζεται να μάθουμε τη δημιουργία και χρήση μεταβλητών και πώς να δημιουργήσουμε και να χρησιμοποιήσουμε τις συναρτήσεις. Θα ξεκινήσουμε με τις μεταβλητές."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:44(div:title)
+msgid "3.2.1. Declaring Variables"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:48(h4)
+msgid "<a id=\"id3231753\"/>3.2.1. Δήλωση μεταβλητών"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:52(p)
+msgid "Αν και υπάρχουν περισσότερες μέθοδοι για δήλωση μεταβλητών, η προτιμώμενη μέθοδος είναι η χρήση της δομής <span class=\"command\"><strong>let*</strong></span>. Εάν ξέρετε άλλες γλώσσες προγραμματισμού, αυτή η δομή είναι ισοδύναμη με τον ορισμό μιας λίστας τοπικών μεταβλητών και μια εμβέλεια στην οποία είναι ενεργή. Π.χ., για να δηλώσετε δύο μεταβλητές, a και b, αρχικοποιημένες στο 1 και 2, αντίστοιχα, πρέπει να γράψετε:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:58(pre)
+#, no-wrap
+msgid "\n(let*\n(\n(a 1)\n(b 2)\n)\n(+ a b)\n)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:67(p)
+msgid "ή σε μια γραμμή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:68(pre)
+#, no-wrap
+msgid "(let* ( (a 1) (b 2) ) (+ a b) )"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:69(div:title) el/gimp-using-script-fu-tutorial-identifier.html:75(th) el/gimp-using-script-fu-tutorial-identifier.html:167(div:title) el/gimp-using-script-fu-tutorial-identifier.html:173(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:73(img:alt) el/gimp-using-script-fu-tutorial-identifier.html:171(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:79(p)
+msgid "Πρέπει να γράψετε όλο αυτό σε μια γραμμή εάν χρησιμοποιείται το παράθυρο κονσόλας. Γενικά, όμως, θα θέλετε να υιοθετήσετε μια παρόμοια πρακτική εσοχής για να κάνετε τα σενάρια σας πιο ευανάγνωστα. Θα μιλήσουμε λίγο περισσότερο για αυτό στην ενότητα του κενού διαστήματος."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:88(p)
+msgid "Αυτό δηλώνει δύο τοπικές μεταβλητές, a και b, τις αρχικοποιεί, έπειτα τυπώνει το άθροισμα των δύο μεταβλητών."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:92(div:title)
+msgid "3.2.2. Τι είναι τοπική μεταβλητή;"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:96(h4)
+msgid "<a id=\"id3231714\"/>3.2.2. Τι είναι τοπική μεταβλητή;"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:100(p)
+msgid "Θα παρατηρήσατε ότι γράψαμε την άθροιση <code class=\"code\">(+ a b)</code> μέσα στις παρενθέσεις της έκφρασης <code class=\"code\">let*</code>, και όχι μετά."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:104(p)
+msgid "Αυτό γιατί η πρόταση <code class=\"code\">let*</code> ορίζει μια περιοχή στο σενάριο σας στην οποία οι δηλωμένες μεταβλητές είναι χρησιμοποιήσιμες. Εάν γράψετε την πρόταση <strong class=\"userinput\"><code>(+ a b)</code></strong> μετά την πρόταση <strong class=\"userinput\"><code>(let* …)</code></strong>, θα πάρετε σφάλμα, επειδή οι δηλωμένες μεταβλητές ισχύουν μόνο μέσα στο πλαίσιο της πρότασης <code class=\"code\">let*</code>. Είναι αυτό που οι προγραμματιστές αποκαλούν τοπικές μεταβλητές."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:112(div:title)
+msgid "3.2.3. Η γενική σύνταξη του let*"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:116(code)
+msgid "let*"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:116(h4)
+msgid "<a id=\"id3216440\"/>3.2.3. Η γενική σύνταξη του <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:120(p)
+msgid "Η γενική μορφή της πρότασης <code class=\"code\">let*</code> είναι:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:121(pre)
+#, no-wrap
+msgid "\n(let* ( <em class=\"replaceable\"><code>μεταβλητές</code></em> )\n<em class=\"replaceable\"><code>εκφράσεις</code></em> )\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:125(p)
+msgid "όπου οι μεταβλητές δηλώνονται μέσα σε παρενθέσεις, π.χ., <strong class=\"userinput\"><code>(a 2)</code></strong> και εκφράσεις είναι κάθε έγκυρη έκφραση του Scheme. Να θυμόσαστε ότι οι δηλωμένες μεταβλητές εδώ είναι έγκυρες μόνο μέσα στην πρόταση <code class=\"code\">let*</code> — είναι τοπικές μεταβλητές."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:131(div:title)
+msgid "3.2.4. Κενό διάστημα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:135(h4)
+msgid "<a id=\"id3216411\"/>3.2.4. Κενό διάστημα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:139(p)
+msgid "Πιο μπροστά, αναφέραμε το γεγονός ότι θα θέλετε προφανώς να χρησιμοποιήσετε εσοχές για να ξεκαθαρίσετε και να οργανώσετε τα σενάρια σας. Αυτή είναι μια καλή πολιτική να δεχθείτε και δεν είναι πρόβλημα στο Scheme — κενά διαστήματα αγνοούνται από τον ερμηνευτή του Scheme και μπορείτε έτσι να τα εφαρμόσετε ελεύθερα για ξεκαθάρισμα και οργάνωση του κώδικα στο σενάριο. Όμως, εάν δουλεύετε στο παράθυρο της κονσόλας του Script-Fu, θα πρέπει να εισαγάγετε την συνολική έκφραση σε μια γραμμή, δηλαδή οτιδήποτε μεταξύ της αρχικής και τελικής παρένθεσης μιας έκφρασης, πρέπει να έλθει σε μια γραμμή στο παράθυρο της κονσόλας του Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:148(div:title)
+msgid "3.2.5. Απόδοση μιας νέας τιμής σε μια μεταβλητή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:152(h4)
+msgid "<a id=\"id3139700\"/>3.2.5. Απόδοση μιας νέας τιμής σε μια μεταβλητή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:156(p)
+msgid "Αφού αρχικοποιήσατε μια μεταβλητή, ίσως χρειαστεί να αλλάξετε την τιμή της αργότερα στο σενάριο. Χρησιμοποιήστε την πρόταση <code class=\"code\">set!</code> για να αλλάξετε την τιμή της μεταβλητής:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:160(pre)
+#, no-wrap
+msgid "\n(let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:163(p)
+msgid "Προσπαθήστε να μαντέψετε τι θα κάνει η πιο πάνω πρόταση, έπειτα συνεχίστε και εισάγετε το στο παράθυρο κονσόλας του Script-Fu."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:177(p)
+msgid "Το <span class=\"quote\">“<span class=\"quote\"><code class=\"code\">\\</code></span>”</span> δείχνει ότι δεν υπάρχει καμία αλλαγή γραμμής. Αγνοήστε το (μην το γράφετε στην κονσόλα Script-Fu και μην πατάτε <span class=\"keycap\"><strong>Enter</strong></span>), απλά συνεχίστε με την επόμενη γραμμή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:187(div:title)
+msgid "3.2.6. Συναρτήσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:191(h4)
+msgid "<a id=\"id3150259\"/>3.2.6. Συναρτήσεις"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:195(p)
+msgid "Τώρα που μάθατε για τις μεταβλητές, ας δουλέψουμε με μερικές συναρτήσεις. Δηλώνετε μια συνάρτηση με την ακόλουθη σύνταξη."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:199(pre)
+#, no-wrap
+msgid "\n(define\n(\n<em class=\"replaceable\"><code>name</code></em>\n<em class=\"replaceable\"><code>param-list</code></em>\n)\n<em class=\"replaceable\"><code>expressions</code></em>\n)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:208(p)
+msgid "όπου <em class=\"replaceable\"><code>name</code></em> είναι το αποδοθέν όνομα στη συνάρτηση, <em class=\"replaceable\"><code>param-list</code></em> is a space-delimited list of parameter names, and <em class=\"replaceable\"><code>expressions</code></em> είναι η σειρά των εκφράσεων που η συνάρτηση εκτελεί, όταν καλείται. Π.χ.:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:214(pre)
+#, no-wrap
+msgid "(define (AddXY inX inY) (+ inX inY) )"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:215(p)
+msgid "<code class=\"varname\">AddXY</code> είναι το όνομα της συνάρτησης και <code class=\"varname\">inX</code> καθώς και <code class=\"varname\">inY</code> είναι οι μεταβλητές. Αυτή η συνάρτηση παίρνει τις δύο παραμέτρους της και τις προσθέτει μαζί."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:220(p)
+msgid "Εάν έχετε προγραμματίσει σε άλλες προστακτικές γλώσσες (όπως C/C++, Java, Pascal, κλ.), ίσως να παρατηρήσατε ότι μερικά πράγματα λείπουν στον ορισμό αυτής της συνάρτησης, όταν συγκρίνετε με άλλες προγραμματιστικές γλώσσες."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:228(p)
+msgid "Πρώτα, σημειώστε ότι οι παράμετροι δεν έχουν κανένα <span class=\"quote\">“<span class=\"quote\">τύπο</span>”</span> (δηλαδή δεν τις δηλώσαμε ως αλφαριθμητικά, ακέραιους κλ.). Το Scheme είναι μια άτυπη γλώσσα. Αυτό είναι εύχρηστο και επιτρέπει τη συγγραφή πιο γρήγορων σεναρίων."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:235(p)
+msgid "Δεύτερο, παρατηρείστε ότι δεν χρειάζεται να ανησυχούμε για την <span class=\"quote\">“<span class=\"quote\">επιστροφή</span>”</span> του αποτελέσματος της συνάρτησης μας — η τελευταία πρόταση είναι η <span class=\"quote\">“<span class=\"quote\">επιστρεφόμενη</span>”</span> τιμή, όταν καλείται αυτή η συνάρτηση. Γράψτε τη συνάρτηση στην κονσόλα, έπειτα προσπαθήστε κάτι όπως:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:241(pre)
+#, no-wrap
+msgid "(AddXY (AddXY 5 6) 4)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:254(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:260(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:263(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-identifier.html:266(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

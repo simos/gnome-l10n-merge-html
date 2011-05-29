@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.8. CML Explorer</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="filters-render.html" title="13. Rendering Filters" />
+    <link rel="prev" href="plug-in-checkerboard.html" title="13.7. Checkerboard" />
+    <link rel="next" href="plug-in-diffraction.html" title="13.9. Diffraction Patterns" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.8. CML Explorer</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="plug-in-checkerboard.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">13. Rendering Filters</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-diffraction.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="13.8. CML Explorer">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-cml-explorer"></a>13.8. CML Explorer</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id3217361" class="indexterm"></a>
+      <a id="id3246109" class="indexterm"></a>
+      <div class="sect3" title="13.8.1. Overview">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id3322673"></a>13.8.1. Overview</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="id3366482"></a>
+          <p class="title">
+            <b>Figure 16.293. Example for the <span class="quote">“<span class="quote">CML Explorer</span>”</span> filter</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-cmlexplorer.jpg" alt="Example for the CML Explorer filter" />
+              <div class="caption">
+                <p>
+            Filter <span class="quote">“<span class="quote">CML Explorer</span>”</span> applied with default options
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      This filter is the king of texture creating filters. It is extremely
+      efficient but very complex. It uses a mathematical method named Cellular
+      Automata <a class="xref" href="bibliography.html#bibliography-online-wkpd-cellular-automata" title="Wikipedia - Cellular Automata">[<abbr class="abbrev">WKPD-CA</abbr>]</a>.
+    </p>
+      </div>
+      <div class="sect3" title="13.8.2. Activating the filter">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id3319368"></a>13.8.2. Activating the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can find this filter from the image menu through
+      <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">CML Explorer</span>.
+    </p>
+      </div>
+      <div class="sect3" title="13.8.3. Options">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="id3209398"></a>13.8.3. Options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="simplesect" title="General Options">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3380563"></a>General Options</h5>
+              </div>
+            </div>
+          </div>
+          <p>
+        Filter options are distributed among
+        <span class="guilabel">Hue</span>,<span class="guilabel">Saturation</span>,
+        <span class="guilabel">Value</span>, <span class="guilabel">Advanced</span>,
+        <span class="guilabel">others</span> and <span class="guilabel">Misc.ops</span>
+        tabs.  Some more options are available. They will be described
+        in following section.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Preview</span>
+              </dt>
+              <dd>
+                <p>
+              This filter offers you a Preview where you can see the
+              result of your settings before they are applied to the
+              image.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">New seed; Fix seed; Random seed</span>
+              </dt>
+              <dd>
+                <p>
+              Random plays a large part in creating patterns. With these
+              options, you can influence the way random is generated. By
+              clicking on the <span class="guibutton">New seed</span> button, you
+              can force random to use a new source of random. The preview
+              will show you the result.
+              <span class="guibutton">Fix seed</span> lets you keep the same seed
+              and so to reproduce the same effect with the filter.
+              <span class="guibutton">Random seed</span> generates a random seed
+              at random.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Open; Save</span>
+              </dt>
+              <dd>
+                <p>
+              With these both command buttons you can save pattern
+              settings in a file, and to get them back later.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options(Hue)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3335325"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options(Hue)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3255295"></a>
+            <p class="title">
+              <b>Figure 16.294. Hue tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer1.png" alt="Hue tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        This filter works in the
+        <a class="link" href="glossary.html#glossary-hsv" title="HSV">HSV</a> color model. In this tab, you
+        can set options for Hue.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Function type</span>
+              </dt>
+              <dd>
+                <p>
+              In this drop-down list, you can select the method that
+              will be used to treat the current layer. These methods
+              are:
+            </p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" type="disc">
+                    <li class="listitem">
+                      <p>
+                  <span class="guilabel">Keep image's values</span>: With this
+                  option, image hue values will be kept.
+                </p>
+                    </li>
+                    <li class="listitem">
+                      <p>
+                  <span class="guilabel">Keep the first value</span>: With this
+                  option, starting color will be standard cyan.
+                </p>
+                    </li>
+                    <li class="listitem">
+                      <p>
+                  <span class="guilabel">Fill with k parameter</span>,
+                  <span class="guilabel">k{x(1-x)}^p</span>,
+                  <span class="guilabel">k{x(1-x)}^p stepped</span>,
+                  <span class="guilabel">kx^p</span>,
+                  <span class="guilabel">kx^p stepped</span>,
+                  <span class="guilabel">k(1-x^p)</span>,
+                  <span class="guilabel">k(1-x^p) stepped</span>: pattern look
+                  will depend on <em class="parameter"><code>k</code></em> that you will
+                  set later in options.
+                </p>
+                    </li>
+                    <li class="listitem">
+                      <p>
+                  <span class="guilabel">Delta function</span>,
+                  <span class="guilabel">Delta function stepped</span>: FIXME
+                </p>
+                    </li>
+                    <li class="listitem">
+                      <p>
+                  <span class="guilabel">sin^p based Function</span>,
+                  <span class="guilabel">sin^p stepped</span>: These options
+                  create wave-like patterns, like aurora borealis or
+                  curtain folds.
+                </p>
+                    </li>
+                  </ul>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">Composition</span>
+              </dt>
+              <dd>
+                <p>
+              Here, these options concern Hue. You can select:
+            </p>
+                <p>
+              <span class="guilabel">None</span>, <span class="guilabel">Max(x, -)</span>,
+              <span class="guilabel">Max(x+d, -)</span>,
+              <span class="guilabel">Max(x-d, -)</span>,
+              <span class="guilabel">Min(x, -)</span>,
+              <span class="guilabel">Min(x+d, -)</span>,
+              <span class="guilabel">Min(x-d, -)</span>,
+              <span class="guilabel">Max(x+d, -), (x &lt; 0,5)</span>,
+              <span class="guilabel">Max(x+d, -), (0,5 &lt; x)</span>,
+              <span class="guilabel">Max(x-d, -), (x &lt; 0,5)</span>,
+              <span class="guilabel">Max(x-d, -), (0,5 &lt; x)</span>,
+              <span class="guilabel">Min(x+d, -), (x &lt; 0,5)</span>,
+              <span class="guilabel">Min(x+d, -), (0,5 &lt; x)</span>,
+              <span class="guilabel">Min(x-d, -), (x &lt; 0,5)</span> and
+              <span class="guilabel">Min(x-d, -), (0,5 &lt; x)</span>.
+            </p>
+                <p>
+              A book could be filled with results of all these
+              functions. Please, experiment!
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Misc. Arrange</span>
+              </dt>
+              <dd>
+                <p>
+              This drop-down list offers you some other parameters:
+            </p>
+                <p>
+              <span class="guilabel">Standard</span>,
+              <span class="guilabel">Use average value</span>,
+              <span class="guilabel">Use reverse value</span>,
+              <span class="guilabel">With random power (0,10)</span>,
+              <span class="guilabel">With random power (0,1)</span>,
+              <span class="guilabel">with gradient power (0,1)</span>,
+              <span class="guilabel">Multiply rand. value (0,1)</span>,
+              <span class="guilabel">Multiply rand. value (0,2)</span>,
+              <span class="guilabel">Multiply gradient (0,1)</span> and
+              <span class="guilabel">With p and random (0,1)</span>.
+            </p>
+                <p>
+              Also a book would be necessary to explain all
+              possibilities of these parameters.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Use cyclic range</span>
+              </dt>
+              <dd>
+                <p>
+              //TODO
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Mod. rate</span>
+              </dt>
+              <dd>
+                <p>
+              With this slider and the input box, you can set
+              modification rate from 0.0 to 1.0. Low value results in a
+              lined pattern.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Env. sensitivity</span>
+              </dt>
+              <dd>
+                <p>
+              Value is from 0.0 to 1.0
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Diffusion dist.</span>
+              </dt>
+              <dd>
+                <p>
+              Diffusion distance: from 2 to 10.
+            </p>
+              </dd>
+              <dt>
+                <span class="term"># of subranges</span>
+              </dt>
+              <dd>
+                <p>
+              Number of sub-rangers: from 1 to 10.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">(P)ower factor</span>
+              </dt>
+              <dd>
+                <p>
+              With this option you can influence the
+              <span class="guilabel">Function types</span> using the
+              <em class="parameter"><code>p</code></em> parameter. Value from 0.0 to 10.0.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">k Parameter</span>
+              </dt>
+              <dd>
+                <p>
+              With this option you can influence the
+              <span class="guilabel">Function types</span> using the
+              <em class="parameter"><code>k</code></em> parameter. Value from 0.0 to 10.0.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Range low</span>
+              </dt>
+              <dd>
+                <p>
+              Set lower limit of hue that will be used for calculation.
+              values vary from 0.0 to 1.0.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Range high</span>
+              </dt>
+              <dd>
+                <p>
+              Set the upper limit of hue that will be used for
+              calculation. Variations are from 0.0 to 1.0.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Plot a graph of the settings</span>
+              </dt>
+              <dd>
+                <p>
+              By clicking on this large button, you can open a window
+              that displays the graph of hue present settings.
+            </p>
+                <div class="figure">
+                  <a id="id3316802"></a>
+                  <p class="title">
+                    <b>Figure 16.295. Function graph of present settings</b>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/filters/options-render-cmlexplorer1a.png" alt="Function graph of present settings" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options(Saturation)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3382915"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options(Saturation)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3380101"></a>
+            <p class="title">
+              <b>Figure 16.296. Saturation tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer2.png" alt="Saturation tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        In this tab, you can set how Saturation component of the HSV
+        color model will be used in pattern calculation.
+      </p>
+          <p>
+        These options are similar to Hue tab options.
+      </p>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options (Value)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3318631"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options (Value)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3371036"></a>
+            <p class="title">
+              <b>Figure 16.297. Value tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer3.png" alt="Value tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        In this tab, you can set how the Value (Luminosity) component of
+        the HSV color model will be used in pattern calculation.
+      </p>
+          <p>
+        These options are similar to Hue tab options.
+      </p>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options (Advanced)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3330124"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options (Advanced)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3393992"></a>
+            <p class="title">
+              <b>Figure 16.298. Advanced tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer4.png" alt="Advanced tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        These tab settings apply to the three HSV channels.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Channel Sensitivity</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+              <dt>
+                <span class="term">Mutation rate</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+              <dt>
+                <span class="term">Mutation distance</span>
+              </dt>
+              <dd>
+                <p>//TODO</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options (Others)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3306314"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options (Others)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3395713"></a>
+            <p class="title">
+              <b>Figure 16.299. Others tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer5.png" alt="Others tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        In this tab, you can find various parameters about image display
+        and random intervention.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Initial value</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+              <dt>
+                <span class="term">Zoom factor</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+              <dt>
+                <span class="term">Start offset</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+              <dt>
+                <span class="term">Seed of random</span>
+              </dt>
+              <dd>
+                <p>// TODO</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect" title="“CML Explorer” filter options (Misc.ops)">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="id3383815"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> filter options (Misc.ops)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="id3364208"></a>
+            <p class="title">
+              <b>Figure 16.300. Miscellaneous options tab</b>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/options-render-cmlexplorer6.png" alt="Miscellaneous options tab" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+        In this tab you can find various options about copy and loading.
+      </p>
+          <div class="variablelist">
+            <dl>
+              <dt>
+                <span class="term">Copy settings</span>
+              </dt>
+              <dd>
+                <p>
+              These options allow you to transfer information from
+              one of the HSV channel to another one.
+            </p>
+              </dd>
+              <dt>
+                <span class="term">Selective load setting</span>
+              </dt>
+              <dd>
+                <p>
+              With the <span class="guibutton">Open</span> button of this
+              filter,  you can load previously loaded settings. If you
+              don't want to load all of them, you can select a source
+              and a destination channel here.
+            </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-checkerboard.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-diffraction.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-checkerboard.html">13.7. Checkerboard</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-diffraction.html">13.9. Diffraction Patterns</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/common-script-fu-errors.html:6(title) en/common-script-fu-errors.html:21(th) en/common-script-fu-errors.html:31(div:title)
+msgid "2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/common-script-fu-errors.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/common-script-fu-errors.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/common-script-fu-errors.html:13(link:title) en/common-script-fu-errors.html:25(th)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/common-script-fu-errors.html:14(link:title) en/common-script-fu-errors.html:59(a)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/common-script-fu-errors.html:15(link:title) en/common-script-fu-errors.html:65(a)
+msgid "2.4. Different Kinds Of Script-Fus"
+msgstr ""
+
+#: en/common-script-fu-errors.html:24(img:alt) en/common-script-fu-errors.html:50(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/common-script-fu-errors.html:24(td) en/common-script-fu-errors.html:50(td)
+msgid "<a accesskey=\"p\" href=\"install-script-fu.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/common-script-fu-errors.html:26(img:alt) en/common-script-fu-errors.html:56(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/common-script-fu-errors.html:26(td) en/common-script-fu-errors.html:56(td)
+msgid " <a accesskey=\"n\" href=\"kinds-of-script-fu.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/common-script-fu-errors.html:35(h3)
+msgid "<a id=\"common-script-fu-errors\"/>2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/common-script-fu-errors.html:39(p)
+msgid "A common error when you are dealing with Script-Fus is that you simply bring them up and press the OK button. When nothing happens, you probably think that the script is broken or buggy, but there is most likely nothing wrong with it."
+msgstr ""
+
+#: en/common-script-fu-errors.html:53(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/common-script-fu-errors.html:59(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/common-script-fu-errors.html:62(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/common-script-fu-errors.html:65(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

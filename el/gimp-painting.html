@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 7. Βάφοντας με το GIMP</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="gimp-using-web-transparency.html" title="2.3. Αποθήκευση εικόνων με διαφάνεια" />
+<link rel="next" href="gimp-using-selections.html" title="2. Δημιουργία και χρήση επιλογών" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 7. Βάφοντας με το GIMP</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-web-transparency.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;
+</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-selections.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" title="Κεφάλαιο 7. Βάφοντας με το GIMP">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-painting"></a>Κεφάλαιο 7. Βάφοντας με το GIMP</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1"><a href="gimp-painting.html#gimp-concepts-selection">1. Επιλογή</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-painting.html#id3215185">1.1. Απάλυνση</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-painting.html#id3215279">1.2. Κάνοντας μια επιλογή μερικώς διαφανή</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-using-selections.html">2. Δημιουργία και χρήση επιλογών</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-using-selections.html#gimp-using-selections-moving">2.1. Μετακίνηση επιλογής</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-selections-add.html">2.2. Προσθήκη ή αφαίρεση επιλογών</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-image-window-qmask-button.html">3. Σύντομη μάσκα</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview">3.1. Επισκόπηση</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-image-window-qmask-properties.html">3.2. Ιδιότητες</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-using-quickmask.html">4. Χρήση της σύντομης μάσκας</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-using-paths.html">5. <span>Μονοπάτια</span></a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-using-paths.html#gimp-using-paths-creating">5.1. Δημιουργία μονοπατιού</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-properties.html">5.2. Ιδιότητες μονοπατιού</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-and-selections.html">5.3. Μονοπάτια και επιλογές</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-transforming.html">5.4. Μετασχηματισμός μονοπατιών</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-stroking.html">5.5. Βάψιμο μονοπατιού</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-and-text.html">5.6. Μονοπάτια και κείμενο</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-paths-and-svg.html">5.7. Μονοπάτια και αρχεία <acronym class="acronym">SVG</acronym></a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-concepts-brushes.html">6. Πινέλα</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-using-brushes.html">7. Προσθήκη νέων πινέλων</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-using-animated-brushes.html">8. Το πλαίσιο διαλόγου GIH</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-using-variable-size-brush.html">9. Αλλαγή μεγέθους πινέλου</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-using-variable-size-brush.html#gimp-using-variable-size-brush-varying">9.1. Αυξομείωση ύψους πινέλου</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-variable-size-brush-creating.html">9.2. Γρήγορη δημιουργία πινέλου</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-concepts-gradients.html">10. Διαβαθμίσεις</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-concepts-patterns.html">11. Μοτίβα</a></span>
+</dt>
+<dt>
+<span class="sect1"><a href="gimp-concepts-palettes.html">12. Παλέτες</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-concepts-palettes.html#id3179603">12.1. Χρωματολόγιο</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-using-simpleobjects.html">13. Σχεδίαση απλών αντικειμένων</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-using-simpleobjects.html#gimp-using-line">13.1. Σχεδίαση ευθείας γραμμής</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-rectangular.html">13.2. Δημιουργία βασικού σχήματος</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="sect1" title="1. Επιλογή">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-selection"></a>1. Επιλογή</h2>
+</div>
+</div>
+</div>
+<a id="id3178764" class="indexterm"></a>
+<p>
+Συχνά, όταν δουλεύετε με μια εικόνα, θέλετε μόνο ένα μέρος της να επηρεαστεί. Στο GIMP,
+αυτό μπορεί να συμβεί <span class="emphasis"><em>επιλέγοντας</em></span> αυτό το μέρος. Κάθε εικόνα έχει μια
+<span class="emphasis"><em>επιλογή</em></span> συνδεμένη με αυτή. Οι περισσότερες, αλλά όχι όλες, οι λειτουργίες
+του GIMP επιδρούν μόνο στα επιλεγμένα τμήματα της εικόνας.
+</p>
+<div class="figure">
+<a id="id3136759"></a>
+<p class="title">
+<b>Εικόνα 7.1. Πώς θα απομονώνατε το δέντρο;</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/fog-tree-example.png" alt="Πώς θα απομονώνατε το δέντρο;" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Υπάρχουν πολλές καταστάσεις, όπου η δημιουργία της κατάλληλης επιλογής είναι το κλειδί για να πετύχετε το
+αποτέλεσμα που θέλετε και συχνά δεν είναι εύκολο να γίνει. Για παράδειγμα, στην πιο πάνω εικόνα, ας υποθέσουμε
+ότι θέλω να αποκόψω το δέντρο από το φόντο και να το επικολλήσω σε άλλη εικόνα. Για να το κάνω, χρειάζομαι να
+δημιουργήσω μία επιλογή που περιέχει το δέντρο και τίποτα άλλο. Είναι δύσκολο επειδή το δέντρο έχει ένα
+σύνθετο σχήμα και σε πολλά σημεία είναι δύσκολο να ξεχωρίσει από τα αντικείμενα πίσω του.
+</p>
+<div class="figure">
+<a id="id3116897"></a>
+<p class="title">
+<b>Εικόνα 7.2. Η επιλογή εμφανίζεται συνήθως με διακεκομμένη γραμμή.</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/select-outline.png" alt="Η επιλογή εμφανίζεται συνήθως με διακεκομμένη γραμμή." />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Να ένα πολύ σημαντικό σημείο που είναι βασικό για να το κατανοήσετε. Κανονικά, όταν δημιουργείτε μια επιλογή,
+τη βλέπετε ως διακεκομμένη γραμμή  που περιβάλει ένα τμήμα της εικόνας. Η συνηθισμένη, όχι ολότελα ακριβής,
+ιδέα που μπορείτε να πάρετε, είναι ότι η επιλογή είναι ένα είδος περιέκτη, με τα επιλεγμένα τμήματα της εικόνας
+μέσα και τα μη επιλεγμένα τμήματα έξω. Αν και αυτή η σκέψη της επιλογής είναι σωστή για πολλούς σκοπούς, δεν
+είναι ολότελα σωστή.
+</p>
+<p>
+Στην πραγματικότητα η επιλογή υλοποιείται ως ένα <span class="emphasis"><em>κανάλι</em></span>.
+Με όρους της εσωτερικής της δομής, είναι ταυτόσημη με κόκκινο, πράσινο, μπλε και άλφα κανάλια μιας εικόνας.
+Έτσι, η επιλογή έχει μια τιμή που ορίζεται σε κάθε εικονοστοιχείο της εικόνας, από 0 (ανεπίλεκτη) έως 255
+(πλήρως επιλεγμένη). Το πλεονέκτημα αυτής της προσέγγισης είναι ότι επιτρέπει μερικά εικονοστοιχεία να είναι
+<span class="emphasis"><em>μερικώς επιλεγμένα</em></span>, δίνοντας τους τιμές μεταξύ 0 και 255. Όπως θα
+δείτε, υπάρχουν πολλές καταστάσεις, όπου είναι επιθυμητό να έχουμε ομαλές μεταβάσεις μεταξύ επιλεγμένων και
+ανεπίλεκτων περιοχών.
+</p>
+<p>
+Τι είναι, τότε, η διακεκομμένη γραμμή που εμφανίζεται όταν δημιουργείτε μια επιλογή;
+</p>
+<p>
+Η διακεκομμένη γραμμή είναι μια <span class="emphasis"><em>γραμμή περιγράμματος</em></span>, που χωρίζει
+περιοχές, όπου έχουν επιλεγεί πάνω από το μισό, με περιοχές όπου είναι επιλεγμένες λιγότερες από το μισό.
+</p>
+<div class="figure">
+<a id="id3154948"></a>
+<p class="title">
+<b>Εικόνα 7.3. Ίδια επιλογή στην κατάσταση σύντομης μάσκας.</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/select-outline-qmask.png" alt="Ίδια επιλογή στην κατάσταση σύντομης μάσκας." />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ενώ κοιτάτε τη διακεκομμένη γραμμή που αντιπροσωπεύει την επιλογή, να θυμόσαστε πάντα ότι η γραμμή λέει μόνο
+μέρος της ιστορίας. Εάν θέλετε να δείτε την επιλογή σε πλήρη λεπτομέρεια, ο πιο απλός τρόπος είναι να πατήσετε
+στο κουμπί της σύντομης μάσκας στην κάτω αριστερή γωνία του παραθύρου της εικόνας. Αυτό κάνει την επιλογή να
+φαίνεται ως  ημιδιαφανής επικάλυψη στην κορυφή της εικόνας. Οι επιλεγμένες περιοχές δεν επηρεάζονται. Οι
+ανεπίλεκτες περιοχές κοκκινίζουν. Όσο πιο επιλεγμένη είναι μια περιοχή τόσο λιγότερο κόκκινη φαίνεται.
+</p>
+<p>
+Πολλές λειτουργίες δουλεύουν διαφορετικά στην κατάσταση σύντομης μάσκας, όπως αναφέρθηκε στην
+<a class="link" href="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview" title="3.1. Επισκόπηση">Επισκόπηση σύντομης μάσκας</a>.
+Χρησιμοποιείστε το κουμπί της σύντομης μάσκας στην κάτω αριστερή γωνία του παραθύρου της εικόνας για εναλλαγή
+της κατάστασης σύντομης μάσκας ναι/όχι.
+</p>
+<div class="figure">
+<a id="id3134378"></a>
+<p class="title">
+<b>Εικόνα 7.4. Ίδια επιλογή στην κατάσταση σύντομης μάσκας μετά από απάλυνση.</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/select-outline-qmask-feather.png" alt="Ίδια επιλογή στην κατάσταση σύντομης μάσκας μετά από απάλυνση." />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect2" title="1.1. Απάλυνση">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="id3215185"></a>1.1. Απάλυνση</h3>
+</div>
+</div>
+</div>
+<p>
+Με τις προκαθορισμένες ρυθμίσεις, τα βασικά εργαλεία επιλογής, όπως το εργαλείο επιλογής ορθογωνίου, δημιουργεί
+κοφτές επιλογές. Εικονοστοιχεία μες τη διακεκομμένη γραμμή είναι πλήρως επιλεγμένα και εικονοστοιχεία εκτός
+είναι ολότελα ανεπίλεκτα. Μπορείτε να το επιβεβαιώσετε αυτό εναλλάσσοντας τη σύντομη μάσκα. Βλέπετε ένα καθαρό
+ορθογώνιο με κοφτές ακμές, που περιβάλλεται από ομοιόμορφο κόκκινο.
+Χρησιμοποιήστε το κουτί επιλογής <span class="quote">“<span class="quote">Απάλυνση ακμών</span>”</span> στις
+επιλογές εργαλείων (διπλό αριστερό πάτημα στο εργαλείο) για εναλλαγή μεταξύ βαθμιαίων επιλογών και κοφτών επιλογών. Η ακτίνα απάλυνσης, που
+μπορείτε να ρυθμίσετε, προσδιορίζει την απόσταση πάνω από την οποία συμβαίνει η μετάβαση.
+</p>
+<p>
+Εάν με παρακολουθείτε, δοκιμάστε αυτό με το εργαλείο επιλογής ορθογωνίου και έπειτα εναλλάξτε τη σύντομη μάσκα.
+Θα δείτε ότι το καθαρό ορθογώνιο έχει μια ασαφή ακμή.
+</p>
+<p>
+Η απάλυνση είναι ιδιαίτερα χρήσιμη, όταν αποκόβετε και επικολλάτε, έτσι ώστε το επικολλημένο αντικείμενο
+αναμιγνύεται ομαλά και διακριτικά με το περιβάλλον του.
+</p>
+<p>
+Είναι δυνατό να απαλύνεται μια επιλογή οποτεδήποτε, ακόμα κι αν αρχικά δημιουργήθηκε ως κοφτή επιλογή. Πατήστε
+<span class="guimenu">Επιλογή</span> → <span class="guimenuitem">Απάλυνση</span> από το μενού εικόνας για να
+ανοίξετε το διάλογο επιλογής απάλυνσης. Βάλτε την ακτίνα απάλυνσης και πατήστε Εντάξει.
+Αυτό φέρνει ένα διάλογο που σας επιτρέπει να βάλετε την ακτίνα απάλυνσης. Πατήστε <span class="guimenu">Επιλογή</span> → <span class="guimenuitem">Όξυνση</span>.
+Κάντε το αντίθετο -οξύνετε μια βαθμιαία επιλογή σε μια επιλογή όλα ή τίποτα.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Για αναγνώστες τεχνικά προσανατολισμένους. Η απάλυνση δουλεύει εφαρμόζοντας μια θόλωση Gauss στο κανάλι
+επιλογής, με την ορισμένη ακτίνα θόλωσης.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2" title="1.2. Κάνοντας μια επιλογή μερικώς διαφανή">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="id3215279"></a>1.2. Κάνοντας μια επιλογή μερικώς διαφανή</h3>
+</div>
+</div>
+</div>
+<p>
+Μπορείτε να ορίσετε μια στρώση αδιαφάνειας, αλλά δεν μπορείτε να κάνετε αυτό άμεσα για μια επιλογή. Είναι
+απολύτως χρήσιμο να κάνετε την εικόνα ενός γυαλιού διαφανή. Χρησιμοποιείστε τις παρακάτω μεθόδους για να
+ορίσετε την αδιαφάνεια στρώσης:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Για απλές επιλογές, χρησιμοποιείστε το εργαλείο σβήστρας με την επιθυμητή αδιαφάνεια.
+</p>
+</li>
+<li class="listitem">
+<p>
+Για σύνθετες επιλογές: Πατήστε <span class="guimenu">Επιλογή</span> → <span class="guimenuitem">Επιπλέουσα</span>
+για να δημιουργήσετε μια επιπλέουσα επιλογή. Αυτό δημιουργεί μια νέα στρώση με την αποκαλούμενη επιλογή
+<span class="quote">“<span class="quote">Επιπλέουσα επιλογή</span>”</span>.
+Ορίστε τον ολισθητή αδιαφάνειας στο διάλογο στρώσης στην επιθυμητή αδιαφάνεια. Έπειτα αγκυρώστε την επιλογή.
+Έξω από την επιλογή, ο δείκτης του ποντικιού περιλαμβάνει μια άγκυρα. Όταν πατάτε, ενώ ο δείκτης του ποντικιού
+περιλαμβάνει την άγκυρα, η επιπλέουσα επιλογή εξαφανίζεται από το διάλογο στρώσης και η επιλογή είναι στη σωστή
+θέση και μερικώς διαφανής (η αγκύρωση δουλεύει έτσι, μόνο εάν ένα εργαλείο επιλογής είναι ενεργοποιημένο.
+Μπορείτε επίσης να χρησιμοποιήσετε την εντολή στρώση αγκύρωσης στο μενού συνάφειας, δεξιοπατώντας στην
+επιλεγμένη στρώση στο διάλογο στρώσης).
+</p>
+<p>
+Εάν χρησιμοποιείτε, αυτή τη λειτουργία συχνά:
+<span class="keycap"><strong>Ctrl</strong></span>-<span class="keycap"><strong>C</strong></span> για αντιγραφή της επιλογής,
+<span class="keycap"><strong>Ctrl</strong></span>-<span class="keycap"><strong>V</strong></span> για επικόλληση του προχείρου ως επιπλέουσα επιλογή
+και <span class="guimenu">Στρώση</span> → <span class="guimenuitem">Νέα στρώση</span> για αλλαγή της επιλογής σε νέα στρώση.
+Μπορείτε να ρυθμίσετε την αδιαφάνεια πριν ή μετά τη δημιουργία της νέας στρώσης.
+</p>
+</li>
+<li class="listitem">
+<p>
+Άλλος τρόπος: Πατήστε <span class="guimenu">Στρώση</span> → <span class="guisubmenu">Μάσκα</span> → <span class="guimenuitem">Προσθήκη μάσκας στρώσης</span>
+για να προσθέσετε μια μάσκα στρώσης στη στρώση με την επιλογή, αρχικοποιώντας την με την επιλογή. Έπειτα
+χρησιμοποιείστε ένα πινέλο με την επιθυμητή αδιαφάνεια για να βάψετε την επιλογή με μαύρο (δηλαδή να την βάψετε
+με διαφάνεια. Έπειτα στρώση/Μάσκα/Εφαρμογή μάσκας (στρώσης). Δείτε
+<a class="xref" href="gimp-dialogs-structure.html#gimp-layer-mask" title="2.1.3. Μάσκες στρώσης">Ενότητα 2.1.3. “Μάσκες στρώσης”</a>.
+</p>
+</li>
+<li class="listitem">
+<p>
+Για να <span class="emphasis"><em>κάνετε ένα στέρεο φόντο μιας διαφανούς εικόνας</em></span>, προσθέστε ένα
+κανάλι άλφα και χρησιμοποιείστε το εργαλείο ασαφούς επιλογής για να επιλέξετε το παρασκήνιο. Έπειτα,
+χρησιμοποιείστε το εργαλείο επιλογής χρώματος για να επιλέξετε το χρώμα παρασκηνίου, που γίνεται το χρώμα
+παρασκηνίου στην εργαλειοθήκη. Χρησιμοποιείστε το εργαλείο κουβά γεμίσματος με το επιλεγμένο χρώμα.
+Ορίστε την κατάσταση κουβά γεμίσματος σε <span class="quote">“<span class="quote">Color Erase (Σβήσιμο χρώματος)</span>”</span>, που
+σβήνει τα εικονοστοιχεία με το επιλεγμένο χρώμα. Άλλα εικονοστοιχεία είναι μερικώς σβησμένα και το χρώμα τους
+αλλάζει.
+</p>
+<p>
+Η πιο απλή μέθοδος είναι πατώντας <span class="guimenu">Επεξεργασία</span> → <span class="guimenuitem">
+Καθαρισμός, </span>, που δίνει πλήρη διαφάνεια σε μια επιλογή.
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-web-transparency.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-selections.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-web-transparency.html">2.3. Αποθήκευση εικόνων με διαφάνεια</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-selections.html">2. Δημιουργία και χρήση επιλογών</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

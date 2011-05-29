@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-grid.html:6(title) el/gimp-using-grid.html:21(th) el/gimp-using-grid.html:31(div:title)
+msgid "3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/gimp-using-grid.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-grid.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-grid.html:13(link:title) el/gimp-using-grid.html:25(th)
+msgid "Κεφάλαιο 11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/gimp-using-grid.html:14(link:title) el/gimp-using-grid.html:63(a)
+msgid "2.2. Οδηγοί"
+msgstr ""
+
+#: el/gimp-using-grid.html:15(link:title) el/gimp-using-grid.html:69(a)
+msgid "4. Ρύθμιση κρυφής μνήμης"
+msgstr ""
+
+#: el/gimp-using-grid.html:24(img:alt) el/gimp-using-grid.html:54(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-grid.html:24(td) el/gimp-using-grid.html:54(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-image-guides.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-grid.html:26(img:alt) el/gimp-using-grid.html:60(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-grid.html:26(td) el/gimp-using-grid.html:60(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-setup-tile-cache.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-grid.html:35(h2)
+msgid "<a id=\"gimp-using-grid\"/>3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/gimp-using-grid.html:39(p)
+msgid "Πώς μπορείτε να δημιουργήσετε ένα πλέγμα που είναι στην πραγματικότητα μέρος της εικόνας; Δεν μπορείτε να το κάνετε, χρησιμοποιώντας το πλέγμα της εικόνας. Αυτό είναι μόνο μια βοήθεια και είναι ορατό μόνο στην οθόνη ή σε στιγμιότυπο. Μπορείτε, όμως, να χρησιμοποιήσετε το πρόσθετο <a class=\"link\" href=\"plug-in-grid.html\" title=\"13.10.&#xA0;Grid (&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1;)\">Grid (Πλέγμα)</a> για να αποδώσετε ένα πλέγμα πολύ όμοιο με το πλέγμα εικόνας. (Στην πραγματικότητα, το πρόσθετο έχει περισσότερες επιλογές.)"
+msgstr ""
+
+#: el/gimp-using-grid.html:46(p)
+msgid "Δείτε επίσης <a class=\"link\" href=\"gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid\" title=\"2.1.&#x3A0;&#x3BB;&#x3AD;&#x3B3;&#x3BC;&#x3B1; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Πλέγμα και Οδηγοί</a>."
+msgstr ""
+
+#: el/gimp-using-grid.html:57(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-grid.html:63(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-grid.html:66(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-grid.html:69(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

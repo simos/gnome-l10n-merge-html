@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-result.html:6(title) en/gimp-using-script-fu-tutorial-result.html:21(th) en/gimp-using-script-fu-tutorial-result.html:31(div:title)
+msgid "3.7. Your script and its working"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:13(link:title) en/gimp-using-script-fu-tutorial-result.html:25(th)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:14(link:title) en/gimp-using-script-fu-tutorial-result.html:167(a)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:15(link:title) en/gimp-using-script-fu-tutorial-result.html:173(a)
+msgid "Part III. Function Reference"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:24(img:alt) en/gimp-using-script-fu-tutorial-result.html:158(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:24(td) en/gimp-using-script-fu-tutorial-result.html:158(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-extending-text-box.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:26(img:alt) en/gimp-using-script-fu-tutorial-result.html:164(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:26(td) en/gimp-using-script-fu-tutorial-result.html:164(td)
+msgid " <a accesskey=\"n\" href=\"gimp-function-reference.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-result\"/>3.7. Your script and its working"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:39(div:title)
+msgid "3.7.1. What you write"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:43(h4)
+msgid "<a id=\"id3243143\"/>3.7.1. What you write"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:47(p)
+msgid "Below the complete script:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:48(pre)
+#, no-wrap
+msgid "\n  (script-fu-register\n            \"script-fu-text-box\"                        ;func name\n            \"Text Box\"                                  ;menu label\n            \"Creates a simple text box, sized to fit\\\n              around the user's choice of text,\\\n              font, font size, and color.\"              ;description\n            \"Michael Terry\"                             ;author\n            \"copyright 1997, Michael Terry;\\\n              2009, the GIMP Documentation Team\"        ;copyright notice\n            \"October 27, 1997\"                          ;date created\n            \"\"                     ;image type that the script works on\n            SF-STRING      \"Text\"          \"Text Box\"   ;a string variable\n            SF-FONT        \"Font\"          \"Charter\"    ;a font variable\n            SF-ADJUSTMENT  \"Font size\"     '(50 1 1000 1 10 0 1)\n                                                        ;a spin-button\n            SF-COLOR       \"Color\"         '(0 0 0)     ;color variable\n            SF-ADJUSTMENT  \"Buffer amount\" '(35 0 100 1 10 1 0)\n                                                        ;a slider\n  )\n  (script-fu-menu-register \"script-fu-text-box\" \"&lt;Image&gt;/File/Create/Text\")\n  (define (script-fu-text-box inText inFont inFontSize inTextColor inBufferAmount)\n    (let*\n      (\n        ; define our local variables\n        ; create a new image:\n        (theImageWidth  10)\n        (theImageHeight 10)\n        (theImage)\n        (theImage\n                  (car\n                      (gimp-image-new\n                        theImageWidth\n                        theImageHeight\n                        RGB\n                      )\n                  )\n        )\n        (theText)             ;a declaration for the text\n        (theBuffer)           ;create a new layer for the image\n        (theLayer\n                  (car\n                      (gimp-layer-new\n                        theImage\n                        theImageWidth\n                        theImageHeight\n                        RGB-IMAGE\n                        \"layer 1\"\n                        100\n                        NORMAL\n                      )\n                  )\n        )\n      ) ;end of our local variables\n      (gimp-image-add-layer theImage theLayer 0)\n      (gimp-context-set-background '(255 255 255) )\n      (gimp-context-set-foreground inTextColor)\n      (gimp-drawable-fill theLayer BACKGROUND-FILL)\n      (set! theText\n                    (car\n                          (gimp-text-fontname\n                          theImage theLayer\n                          0 0\n                          inText\n                          0\n                          TRUE\n                          inFontSize PIXELS\n                          \"Sans\")\n                      )\n        )\n      (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n      (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n      (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n      (set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n      (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n      (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n      (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n      (gimp-layer-set-offsets theText theBuffer theBuffer)\n      (gimp-display-new theImage)\n      (list theImage theLayer theText)\n    )\n  )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:132(div:title)
+msgid "3.7.2. What you obtain"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:136(h4)
+msgid "<a id=\"id3243160\"/>3.7.2. What you obtain"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:143(b)
+msgid "Figure 12.5. And the result on the screen."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:147(img:alt)
+msgid "And the result on the screen."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:161(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:167(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:170(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-result.html:173(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

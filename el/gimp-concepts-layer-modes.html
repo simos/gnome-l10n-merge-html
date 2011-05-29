@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>2. Καταστάσεις στρώσεων</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-image-combining.html" title="Κεφάλαιο 8. Συνδυασμός εικόνων" />
+<link rel="prev" href="gimp-image-combining.html" title="Κεφάλαιο 8. Συνδυασμός εικόνων" />
+<link rel="next" href="gimp-using-layers.html" title="3. Δημιουργία νέων στρώσεων" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">2. Καταστάσεις στρώσεων</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-image-combining.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 8. Συνδυασμός εικόνων</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-layers.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="2. Καταστάσεις στρώσεων">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-layer-modes"></a>2. Καταστάσεις στρώσεων</h2>
+</div>
+</div>
+</div>
+<a id="id3132399" class="indexterm"></a>
+<a id="id3120342" class="indexterm"></a>
+<a id="id3159492" class="indexterm"></a>
+<p>
+Το GIMP έχει είκοσι μία καταστάσεις στρώσεις. Οι καταστάσεις στρώσης λέγονται επίσης
+<span class="quote"> “<span class="quote">καταστάσεις ανάμιξης</span>” </span>.
+Επιλέγοντας μια κατάσταση στρώσης αλλάζει η εμφάνιση της στρώσης ή της εικόνας, βασισμένη στη στρώση ή στρώσεις
+από κάτω της. Εάν υπάρχει μόνο μια στρώση, η κατάσταση στρώσης δεν επιδρά. Πρέπει να υπάρχουν τουλάχιστον δύο
+στρώσεις στην εικόνα για να χρησιμοποιηθούν οι καταστάσεις στρώσης.
+</p>
+<p>
+Μπορείτε να ορίσετε την κατάσταση στρώσης στο μενού <span class="guilabel">Κατάσταση</span> στο διάλογο
+στρώσεων. Το GIMP χρησιμοποιεί την κατάσταση στρώσης για να προσδιορίσει το συνδυασμό κάθε εικονοστοιχείου στην
+κορυφαία στρώση με τα εικονοστοιχεία στην ίδια τοποθεσία στη στρώση από κάτω της.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Υπάρχει ένας αναδυόμενος κατάλογος στο Παράθυρα/dockable dialogs/Επιλογές εργαλείων που περιέχει καταστάσεις
+που επηρεάζουν τα εργαλεία ζωγραφικής με παρόμοιο τρόπο με τις καταστάσεις στρώσεις. Μπορείτε να χρησιμοποιήσετε
+τις ίδιες καταστάσεις βαψίματος που είναι διαθέσιμες για στρώσεις και υπάρχουν δύο επιπρόσθετες καταστάσεις μόνο για τα εργαλεία ζωγραφικής.
+Δείτε <a class="xref" href="gimp-tools-brush.html" title="3.2. Εργαλεία πινέλου (μολύβι, πινέλο βαφής, αερογράφος)">Ενότητα 3.2, “Εργαλεία πινέλου (μολύβι, πινέλο, αερογράφος)”</a>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+Οι καταστάσεις στρώσης επιτρέπουν σύνθετες αλλαγές χρώματος στην εικόνα. Χρησιμοποιούνται συχνά με μια νέα
+στρώση που ενεργεί ως ένα είδος μάσκας. Π.χ., εάν βάλετε μια συμπαγή λευκή στρώση πάνω από μια εικόνα και
+ορίσετε την κατάσταση στρώσης της νέας στρώσης σε <span class="quote">“<span class="quote">Κορεσμό</span>”</span>,
+οι υποκείμενες ορατές στρώσεις θα εμφανιστούν σε αποχρώσεις του γκρι.
+</p>
+<div class="figure">
+<a id="id3161175"></a>
+<p class="title"><b>Εικόνα 8.8. Εικόνες (μάσκες) για παραδείγματα κατάστασης στρώσης</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-mask1.jpg" alt="Εικόνες (μάσκες) για παραδείγματα κατάστασης στρώσης" />
+<div class="caption"><p>Μάσκα 1</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-mask2.jpg" alt="Εικόνες (μάσκες) για παραδείγματα κατάστασης στρώσης" />
+<div class="caption"><p>Μάσκα 2</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="figure">
+<a id="id3208729"></a>
+<p class="title"><b>Εικόνα 8.9. Εικόνες (παρασκήνια) για παραδείγματα κατάστασης στρώσης</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/keyfob_orig.png" alt="Εικόνες (παρασκήνια) για παραδείγματα κατάστασης στρώσης" />
+<div class="caption"><p>Κρίκος</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/duck_orig.png" alt="Εικόνες (παρασκήνια) για παραδείγματα κατάστασης στρώσης" />
+<div class="caption"><p>Πάπιες</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Στις περιγραφές των καταστάσεων στρώσης παρακάτω, οι εξισώσεις εμφανίζονται επίσης. Αυτό είναι για αυτούς που
+είναι περιέργοι για τα μαθηματικά των καταστάσεων στρώσης. Όμως, δεν χρειάζεται να καταλάβετε τις εξισώσεις για
+να χρησιμοποιήσετε τις καταστάσεις στρώσης αποτελεσματικά.
+</p>
+<p>
+Οι εξισώσεις είναι σε συντομογραφική σημειογραφία. Π.χ., η εξίσωση
+</p>
+<div class="equation">
+<a id="id3208796"></a>
+<p class="title"><b>Εξίσωση 8.1. Παράδειγμα</b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-example.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>
+σημαίνει,
+<span class="quote">“<span class="quote">
+Για κάθε εικονοστοιχείο στην κορυφαία (<span class="emphasis"><em>Μ</em></span>άσκα) και χαμηλότερη στρώση
+(ε<span class="emphasis"><em>Ι</em></span>κόνας), πρόσθεση καθενός από τα αντίστοιχα χρωματικά συστατικά
+μαζί για τη δημιουργία
+<span class="emphasis"><em>E</em></span> του τελικού χρώματος του εικονοστοιχείου.
+</span>”</span>
+Τα χρωματικά συστατικά των εικονοστοιχείων πρέπει να είναι πάντοτε μεταξύ 0 και 255.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Εκτός και η πιο κάτω περιγραφή λέει αλλιώς, ένα αρνητικό χρωματικό συστατικό ορίζεται στο 0 και ένα
+χρωματικό συστατικό μεγαλύτερο από 255 ορίζεται στο 255.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+Τα πιο κάτω παραδείγματα δείχνουν τα αποτέλεσματα κάθε κατάστασης.
+</p>
+<p>
+Αφού τα αποτέλεσματα κάθε κατάστασης διαφέρουν πολύ ανάλογα με τα χρώματα των στρώσεων, αυτές οι εικόνες
+μπορούν να σας δώσουν μόνο μια γενική ιδέα της λειτουργίας των καταστάσεων. Δοκιμάστε τες μόνοι σας. Μπορείτε
+να αρχίσετε με δύο παρόμοιες στρώσεις, όπου η μία είναι αντίγραφο της άλλης, αλλά ελαφρά τροποποιημένη
+(εφαρμόζοντας θόλωση, μετακίνηση, περιστροφή, κλιμάκωση, αναστροφή χρώματος κλ.) και βλέποντας τι συμβαίνει
+με τις καταστάσεις στρώσης.
+</p>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Κανονικό</span>
+</dt>
+<dd>
+<a id="id3214251" class="indexterm"></a>
+<div class="figure">
+<a id="id3214265"></a>
+<p class="title"><b>Εικόνα 8.10. Παράδειγμα για την κατάσταση στρώσης <span class="quote">“<span class="quote">Κανονική</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-normal-50.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Κανονική" />
+<div class="caption">
+<p>Και οι δυό εικόνες είναι ανακατεμένες μεταξύ τους με την ίδια ένταση.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-normal-100.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Κανονική" />
+<div class="caption">
+<p>
+Με 100% αδιαφάνεια μόνο η κορυφαία στρώση εμφανίζεται όταν αναμιγνύεται με
+<span class="quote">“<span class="quote">Κανονική</span>”</span> κατάσταση.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+<span class="guilabel">Κανονική</span> κατάσταση είναι η προκαθορισμένη κατάσταση στρώσης. Η επάνω στρώση
+καλύπτει τις αποκάτω στρώσεις. Εάν θέλετε να δείτε οτιδήποτε κάτω από την πάνω στρώση όταν χρησιμοποιείται αυτήν
+την κατάσταση, η στρώση πρέπει να έχει μερικές διαφανείς περιοχές.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3214346"></a>
+<p class="title"><b>Εξίσωση 8.2. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Κανονική</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-normal.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Διάλυση</span>
+</dt>
+<dd>
+<a id="id3214379" class="indexterm"></a>
+<a id="id3214393" class="indexterm"></a>
+<div class="figure">
+<a id="id3214403"></a>
+<p class="title"><b>Εικόνα 8.11. Παράδειγμα για την κατάσταση στρώσης <span class="quote">“<span class="quote">Διάλυση</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-dissolve-50.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Διάλυση" />
+<div class="caption">
+<p>Και οι δυο εικόνες αναμιγνύονται μεταξύ τους με την ίδια ένταση.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-dissolve-100.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Διάλυση" />
+<div class="caption">
+<p>
+Με 100% αδιαφάνεια μόνο η κορυφαία στρώση εμφανίζεται όταν αναμιγνύονται με
+<span class="quote"> “<span class="quote">διάλυση</span>”</span>.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Διάλυση</span> διαλύει την ανώτερη στρώση στην αποκάτω στρώση σχεδιάζοντας
+ένα τυχαίο μοτίβο εικονοστοιχείων σε περιοχές μερικής διαφάνειας. Είναι χρήσιμη ως κατάσταση στρώσης, αλλά και
+ως κατάσταση βαψίματος.
+</p>
+<p>
+Αυτό είναι ειδικά ορατό κατά μήκος των άκρων σε μία εικόνα. Είναι πιο εύκολο να το δείτε σε ένα μεγεθυσμένο
+στιγμιότυπο. Η εικόνα στα αριστερά δείχνει την <span class="quote">“<span class="quote">Κανονική</span>”</span>
+κατάσταση στρώσης (μεγεθυσμένη) και η εικόνα στα δεξιά δείχνει τις ίδιες δύο στρώσεις σε κατάσταση
+<span class="quote">“<span class="quote">Διάλυσης</span>”</span>, όπου μπορεί να φανεί καθαρά πώς τα
+εικονοστοιχεία διασκορπίζονται.
+</p>
+<div class="figure">
+<a id="id3214497"></a>
+<p class="title"><b>Εικόνα 8.12. Μεγεθυσμένα στιγμιότυπα</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-dissolve-nbig.jpg" alt="Μεγεθυσμένα στιγμιότυπα" />
+<div class="caption"><p>Κανονική κατάσταση.</p></div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-dissolve-dbig.jpg" alt="Μεγεθυσμένα στιγμιότυπα" />
+<div class="caption"><p>Κατάσταση διάλυσης.</p></div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+<dt>
+<a id="layer-mode-multiply"></a>
+<span class="term">Πολλαπλασιασμός</span>
+</dt>
+<dd>
+<a id="id3180064" class="indexterm"></a>
+<a id="id3180077" class="indexterm"></a>
+<div class="figure">
+<a id="id3180087"></a>
+<p class="title"><b>Εικόνα 8.13. Παράδειγμα για την κατάσταση στρώσης <span class="quote">“<span class="quote">Πολλαπλασιασμός</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-multiply-mask1.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Πολλαπλασιασμός" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-multiply-mask2.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Πολλαπλασιασμός" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Πολλαπλασιασμός</span> πολλαπλασιάζει τις τιμές των εικονοστοιχείων της
+κορυφαίας στρώσης με αυτές της αποκάτω στρώσης και έπειτα διαιρεί το αποτέλεσμα με 255. Το αποτέλεσμα είναι
+συνήθως μια πιο σκούρα εικόνα. Εάν κάποια στρώση είναι λευκή, η τελική εικόνα είναι η ίδια όπως στην άλλη
+στρώση (1 * I = I). Εάν κάποια στρώση είναι μαύρη, η τελική εικόνα είναι πλήρως μαύρη (0 * I = 0).
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3180166"></a>
+<p class="title"><b>Εξίσωση 8.3. Εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Πολλαπλασιασμός</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-multiply.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική. Η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<span class="term">Διαίρεση</span>
+</dt>
+<dd>
+<a id="id3180204" class="indexterm"></a>
+<a id="id3180217" class="indexterm"></a>
+<div class="figure">
+<a id="id3180227"></a>
+<p class="title"><b>Εικόνα 8.14. Παράδειγμα για την κατάσταση στρώσης <span class="quote">“<span class="quote">Διαίρεση</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-divide-mask1.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Διαίρεση" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-divide-mask2.jpg" alt="Example for layer mode Divide" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Διαίρεση</span> πολλαπλασιάζει την τιμή κάθε εικονοστοιχείου στην κατώτερη
+στρώση με 256 και έπειτα τη διαιρεί με την αντίστοιχη τιμή εικονοστοιχείου της κορυφαίας στρώσης συν ένα. (Η
+πρόσθεση με ένα στον παρανομαστή αποφεύγει τη διαίρεση με μηδέν.) Η τελική εικόνα είναι συχνά πιο ανοικτή και
+μερικές φορές δείχνει <span class="quote">“<span class="quote"> καμμένη</span>”</span>.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3196818"></a>
+<p class="title"><b>Εξίσωση 8.4. Εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Διαίρεση</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-divide.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Οθόνη</span>
+</dt>
+<dd>
+<a id="id3196851" class="indexterm"></a>
+<a id="id3196864" class="indexterm"></a>
+<div class="figure">
+<a id="id3196874"></a>
+<p class="title"><b>Εικόνα 8.15. Παράδειγμα για την κατάσταση στρώσης <span class="quote">“<span class="quote">Οθόνη</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-screen-mask1.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Οθόνη" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-screen-mask2.jpg" alt="Παράδειγμα για την κατάσταση στρώσης Οθόνη" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Οθόνη</span>μετατρέπει τις τιμές καθενός από τα ορατά εικονοστοιχεία στις
+δύο στρώσεις της εικόνας. (Δηλαδή, αφαιρεί καθένα τους από το 255.) Έπειτα τις πολλαπλασιάζει μαζί, διαιρεί με
+255 και αντιστρέφει πάλι αυτήν την τιμή. Η τελική εικόνα είναι συνήθως πιο φωτεινή και μερικές φορές
+<span class="quote"> “<span class="quote">ξεπλυμένη</span>”</span> στην εμφάνιση. Οι εξαιρέσεις σ' αυτό είναι
+μια μαύρη στρώση που δεν αλλάζει την άλλη στρώση και η λευκή στρώση που καταλήγει σε άσπρη εικόνα. Πιο σκούρα
+χρώματα στην εικόνα φαίνονται να είναι πιο διαφανή.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3196960"></a>
+<p class="title"><b>Εξίσωση 8.5. Εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Οθόνη</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-screen.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική. Η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<a id="layer-mode-overlay"></a>
+<span class="term">Επικάλυψη</span>
+</dt>
+<dd>
+<a id="id3197001" class="indexterm"></a>
+<a id="id3197014" class="indexterm"></a>
+<div class="figure">
+<a id="id3197024"></a>
+<p class="title"><b>Εικόνα 8.16. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Επικάλυψη</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-overlay-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Επικάλυψη" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-overlay-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Επικάλυψη" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Επικάλυψη</span> αντιστρέφει την τιμή εικονοστοιχείου της κατώτερης στρώσης,
+πολλαπλασιάζοντας την δυο φορές με την τιμή εικονοστοιχείου της κορυφαίας στρώσης, την προσθέτει στην αρχική τιμή
+εικονοστοιχείου της κατώτερης στρώσης, διαιρεί με 255 και έπειτα πολλαπλασιάζει με την τιμή εικονοστοιχείου
+της αρχικής κατώτερης στρώσης και διαιρεί με 255 πάλι. Σκουραίνει την εικόνα, αλλά όχι όσο με την κατάσταση
+<span class="quote">“<span class="quote">Πολλαπλασιασμός</span>”</span>.
+</p>
+<p>
+Η εξίσωση είναι:
+<sup>[<a id="gimp-layer-mode-bug162395" href="#ftn.gimp-layer-mode-bug162395" class="footnote">4</a>]</sup>
+</p>
+<div class="equation">
+<a id="id3197129"></a>
+<p class="title"><b>Εξίσωση 8.6. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Επικάλυψη</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-overlay.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Dodge (Υπεκφυγή)</span>
+</dt>
+<dd>
+<a id="id3197162" class="indexterm"></a>
+<a id="id3197175" class="indexterm"></a>
+<div class="figure">
+<a id="id3197185"></a>
+<p class="title"><b>Εικόνα 8.17. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Dodge (υπεκφυγή)</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-dodge-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Dodge (υπεκφυγή)" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-dodge-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Dodge (υπεκφυγή)" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Dodge (υπεκφυγή)</span>  πολλαπλασιάζει την τιμή του εικονοστοιχείου της
+κατώτερης στρώσης με 256, έπειτα τη διαιρεί αντιστρέφοντας την τιμή εικονοστοιχείου της άνω στρώσης. Η τελική
+εικόνα είναι συνήθως πιο φωτεινή, αλλά μερικά χρώματα μπορεί να αντιστραφούν.
+</p>
+<p>
+Στη φωτογραφία dodging (υπεκφυγή) είναι μια τεχνική που χρησιμοποιείται σε ένα σκοτεινό δωμάτιο για να μειώσει την
+έκθεση σε συγκεκριμένες περιοχές της εικόνας. Αυτό προσφέρει λεπτομέρειες στις σκιές. Όταν χρησιμοποιείται για αυτό
+το σκοπό η υπεκφυγή δουλεύει άριστα σε εικόνες γκρι κλίμακας και καλύτερα με ένα εργαλείο ζωγραφικής παρά με
+κατάσταση στρώσης.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3183313"></a>
+<p class="title"><b>Εξίσωση 8.7. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Dodge (υπεκφυγή)</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-dodge.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Κάψιμο</span>
+</dt>
+<dd>
+<a id="id3183344" class="indexterm"></a>
+<a id="id3183358" class="indexterm"></a>
+<div class="figure">
+<a id="id3183368"></a>
+<p class="title"><b>Εικόνα 8.18. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">κάψιμο</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-burn-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης κάψιμο" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-burn-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης κάψιμο" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Κάψιμο</span> αντιστρέφει την τιμή εικονοστοιχείου της κατώτερης στρώσης,
+την πολλαπλασιάζει με 256, τη διαιρεί με ένα συν την τιμή εικονοστοιχείου της κορυφαίας στρώσης και έπειτα
+αντιστρέφει το αποτέλεσμα. Τείνει να κάνει την εικόνα πιο σκοτεινή, κάτι παρόμοιο με την κατάσταση
+<span class="quote"> “<span class="quote">πολλαπλασιασμός</span>”</span>.
+</p>
+<p>
+Στην φωτογραφία, κάψιμο είναι μια τεχνική που χρησιμοποιείται σε σκοτεινό δωμάτιο για να αυξήσει την έκθεση σε
+συγκεκριμένες περιοχές της εικόνας. Αυτό δίνει λεπτομέρειες στα τονισμένα. Όταν χρησιμοποιείται για αυτόν το
+σκοπό το κάψιμο δουλεύει άριστα με εικόνας κλίμακας του γκρι και με ένα εργαλείο ζωγραφικής παρά σε κατάσταση
+στρώσης.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3183459"></a>
+<p class="title"><b>Εξίσωση 8.8. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">κάψιμο</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-burn.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Hard light (Σκληρό φως)</span>
+</dt>
+<dd>
+<a id="id3183491" class="indexterm"></a>
+<a id="id3183505" class="indexterm"></a>
+<div class="figure">
+<a id="id3183514"></a>
+<p class="title"><b>Εικόνα 8.19. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Hard light (σκληρό φως)</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-hard-light-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Hard light (σκληρό φως) " />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-hard-light-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Hard light (σκληρό φως)" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Hard light (σκληρό φως)</span> είναι μάλλον περίπλοκη επειδή η εξίσωση
+αποτελείται από δύο μέρη, ένα για πιο σκοτεινά χρώματα και ένα για πιο φωτεινά χρώματα. Εάν το χρώμα
+εικονοστοιχείου της κορυφαίας στρώσης είναι μεγαλύτερο από 128, οι στρώσεις συνδυάζονται σύμφωνα με τον πρώτο
+τύπο που φαίνεται πιο κάτω. Διαφορετικά, οι τιμές εικονοστοιχείου της κορυφαίας και κατώτερης στρώσης
+πολλαπλασιάζονται μαζί και με 2, έπειτα διαιρούνται με 256. Μπορείτε να χρησιμοποιήσετε αυτήν την κατάσταση
+για να συνδυάσετε δύο φωτογραφίες και να πετύχετε φωτεινά χρώματα και κοφτές ακμές.
+</p>
+<p>Η εξίσωση είναι περίπλοκη και διαφορετική σύμφωνα με την τιμή μεγαλύτερη από 128 ή μικρότερη από 128:
+</p>
+<div class="equation">
+<a id="id3183598"></a>
+<p class="title">
+<b>Εξίσωση 8.9. 
+Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Hard light (σκληρό φως)</span>”</span>, M μεγαλύτερο του 128
+</b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-hard-light1.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<div class="equation">
+<a id="id3183622"></a>
+<p class="title">
+<b>Εξίσωση 8.10. 
+Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Hard light (σκληρό φως)</span>”</span>, M μικρότερο ή ίσιο του 128
+</b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-hard-light2.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Soft light (Ήπιο φως)</span>
+</dt>
+<dd>
+<a id="id3183657" class="indexterm"></a>
+<a id="id3183671" class="indexterm"></a>
+<div class="figure">
+<a id="id3183681"></a>
+<p class="title"><b>Εικόνα 8.20. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Soft light (Ήπιο φως)</span>”</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-soft-light-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Soft light (Ήπιο φως)" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-soft-light-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Soft light(Ήπιο φως)" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το <span class="guilabel">Soft light (Ήπιο φως)</span> δεν σχετίζεται με το
+<span class="quote"> “<span class="quote">Hard light (σκληρό φως)</span>”</span> πέραν του ονόματος, αλλά
+τείνει να κάνει τις ακμές πιο ήπιες και τα χρώματα όχι τόσο φωτεινά. Είναι παρόμοια με την κατάσταση
+<span class="quote">“<span class="quote">επικάλυψη</span>”</span>. Σε μερικές εκδόσεις του GIMP,
+η κατάσταση <span class="quote">“<span class="quote">επικάλυψη</span>”</span> και η κατάσταση
+<span class="quote">“<span class="quote">Soft light (ήπιο φως)</span>”</span>είναι ταυτόσημες.
+</p>
+<p>Η εξίσωση είναι περίπλοκη. Χρειάζεται Rs, το αποτέλεσμα της κατάστασης οθόνης:
+</p>
+<div class="equation">
+<a id="id3183778"></a>
+<p class="title"><b>Εξίσωση 8.11. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Οθόνη</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-soft-light1.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<div class="equation">
+<a id="id3183800"></a>
+<p class="title"><b>Εξίσωση 8.12. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Soft light (ήπιο φως)</span>”</span></b></p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-soft-light2.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Grain extract (Εξαγωγή κόκκων)</span>
+</dt>
+<dd>
+<a id="id3183833" class="indexterm"></a>
+<a id="id3183846" class="indexterm"></a>
+<div class="figure">
+<a id="id3183856"></a>
+<p class="title">
+<b>Εικόνα 8.21. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Grain extract (Εξαγωγή κόκκων)</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-grain-extract-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Grain extract (Εξαγωγή κόκκων)" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-grain-extract-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Grain extract (Εξαγωγή κόκκων)" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως ανώτερη στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Grain extract (Εξαγωγή κόκκων)</span> είναι για εξαγωγή των
+<span class="quote"> “<span class="quote">κόκκων ταινίας</span>”</span> από μια στρώση για να παράξει μια νέα
+στρώση που είναι καθαρά κοκκώδης, αλλά μπορεί επίσης να είναι χρήσιμη για να δίνει εικόνες με ανάγλυφη
+εμφάνιση. Αφαιρεί την τιμή εικονοστοιχείου της κορυφαίας στρώσης από την αντίστοιχη της κατώτερης στρώσης και
+προσθέτει 128.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3183940"></a>
+<p class="title">
+<b>Εξίσωση 8.13. Η Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Grain extract (Εξαγωγή κόκκων)</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-grainextract.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Grain merge (Ανάμιξη κόκκων)</span>
+</dt>
+<dd>
+<a id="id3183972" class="indexterm"></a>
+<a id="id3183985" class="indexterm"></a>
+<p>
+Υπάρχουν δύο ακόμη καταστάσεις στρώσεις που είναι διαθέσιμες μόνο για εργαλεία ζωγραφικής (χρώσης). Δείτε
+<a class="link" href="gimp-tools-paint.html#gimp-tool-painting-modes">Καταστάσεις ζωγραφικής (χρώσης)</a>
+για αναλυτικές πληροφορίες.
+</p>
+<div class="figure">
+<a id="id3184007"></a>
+<p class="title">
+<b>Εικόνα 8.22. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Grain merge (Ανάμιξη κόκκων)</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-grain-merge-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Grain merge (Ανάμιξη κόκκων)" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-grain-merge-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Grain merge(Ανάμιξη κόκκων)" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Grain merge (Ανάμιξη κόκκων)</span> αναμιγνύει μια στρώση κόκκων
+(ενδεχομένως μία που δημιουργήθηκε από την κατάσταση <span class="quote">“<span class="quote">Grain extract (εξαγωγή κόκκων)</span>”</span>).
+στην τρέχουσα στρώση, αφήνοντας μια κοκκώδη έκδοση της αρχικής στρώσης. Κάνει ακριβώς το αντίθετο από την
+<span class="quote">“<span class="quote">Grain extract (εξαγωγή κόκκων)</span>”</span>. Προσθέτει τις τιμές
+εικονοστοιχείου της κορυφαίας και κατώτερης στρώσης μαζί και αφαιρεί 128.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3184094"></a>
+<p class="title">
+<b>Εξίσωση 8.14. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Grain merge (Ανάμιξη κόκκων)</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-grainmerge.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<a id="layer-mode-difference"></a>
+<span class="term">Διαφορά</span>
+</dt>
+<dd>
+<a id="id3184128" class="indexterm"></a>
+<a id="id3184142" class="indexterm"></a>
+<div class="figure">
+<a id="id3184152"></a>
+<p class="title">
+<b>Εικόνα 8.23. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Διαφορά</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-difference-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Διαφορά" />
+<div class="caption"><p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-difference-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Διαφορά" />
+<div class="caption"><p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Διαφορά</span> αφαιρεί την τιμή εικονοστοιχείου της κορυφαίας στρώσης από
+την αντίστοιχη της κατώτερης στρώσης και έπειτα παίρνει την απόλυτη τιμή του αποτέλεσματος. Ανεξάρτητα από
+την αρχική εμφάνιση των δύο στρώσεων, το αποτέλεσμα δείχνει μάλλον ασυνήθιστο. Μπορείτε να το χρησιμοποιήσετε
+για αναστροφή των στοιχείων μιας εικόνας.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3187922"></a>
+<p class="title">
+<b>Εξίσωση 8.15. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Διαφορά</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-difference.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική, η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<span class="term">Προσθήκη</span>
+</dt>
+<dd>
+<a id="id3187959" class="indexterm"></a>
+<a id="id3187973" class="indexterm"></a>
+<div class="figure">
+<a id="id3187983"></a>
+<p class="title">
+<b>Εικόνα 8.24. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Προσθήκη</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-addition-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Προσθήκη" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-addition-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Προσθήκη" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Προσθήκη</span> είναι πολύ απλή. Οι τιμές εικονοστοιχείου της κορυφαίας και
+κατώτερης στρώσης προστίθενται μεταξύ τους. Η τελική εικόνα είναι συνήθως πιο φωτεινή. Η εξίσωση μπορεί να
+καταλήξει σε χρωματικές τιμές μεγαλύτερες από 255, έτσι μερικά από τα φωτεινά χρώματα μπορεί να οριστούν σε
+μια μέγιστη τιμή 255.
+</p>
+<p>The equation is:</p>
+<div class="equation">
+<a id="id3188062"></a>
+<p class="title">
+<b>Εξίσωση 8.16. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Προσθήκη</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-addition.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική, η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<span class="term">Αφαίρεση</span>
+</dt>
+<dd>
+<a id="id3188099" class="indexterm"></a>
+<a id="id3188113" class="indexterm"></a>
+<div class="figure">
+<a id="id3188123"></a>
+<p class="title">
+<b>Εικόνα 8.25. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Αφαίρεση</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-subtract-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Αφαίρεση" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-subtract-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Αφαίρεση" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Αφαίρεση</span> αφαιρεί τις τιμές εικονοστοιχείου της κορυφαίας στρώσης από
+τις τιμές εικονοστοιχείου της χαμηλότερης στρώσης. Η τελική εικόνα είναι κανονικά πιο σκοτεινή. Μπορεί να πάρετε
+πολύ μαύρο και κοντά στο μαύρο στην τελική εικόνα. Η εξίσωση μπορεί να καταλήξει σε αρνητικές χρωματικές τιμές.
+Έτσι μερικά από τα σκούρα χρώματα μπορούν να οριστούν σε μια ελάχιστη τιμή 0.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3188203"></a>
+<p class="title">
+<b>Εξίσωση 8.17. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Αφαίρεση</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-subtract.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+</dd>
+<dt>
+<span class="term">Σκοτείνιασμα μόνο</span>
+</dt>
+<dd>
+<a id="id3188235" class="indexterm"></a>
+<a id="id3188249" class="indexterm"></a>
+<div class="figure">
+<a id="id3188258"></a>
+<p class="title">
+<b>Εικόνα 8.26. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Σκοτείνιασμα μόνο</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-darken-only-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Σκοτείνιασμα μόνο" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-darken-only-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Σκοτείνιασμα μόνο" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guimenuitem">Σκοτείνιασμα μόνο</span> συγκρίνει κάθε συστατικό καθενός
+εικονοστοιχείου στην κορυφαία στρώση με το αντίστοιχο στην χαμηλότερη στρώση και χρησιμοποιεί την
+μικρότερη τιμή στην τελική εικόνα. Πλήρως λευκές στρώσεις δεν έχουν καμιά επίδραση στην τελική
+εικόνα και πλήρως μαύρες στρώσεις καταλήγουν σε μια μαύρη εικόνα.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3188338"></a>
+<p class="title">
+<b>Εξίσωση 8.18. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Σκοτείνιασμα μόνο</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-darken.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική, η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<span class="term">Φωτισμός μόνο</span>
+</dt>
+<dd>
+<a id="id3188375" class="indexterm"></a>
+<a id="id3188389" class="indexterm"></a>
+<div class="figure">
+<a id="id3188399"></a>
+<p class="title">
+<b>Εικόνα 8.27. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Φωτισμός μόνο</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-lighten-only-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Φωτισμός μόνο" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-lighten-only-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Φωτισμός μόνο" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guimenuitem">Φωτισμός μόνο</span> συγκρίνει κάθε συστατικό καθενός εικονοστοιχείου
+στην κορυφαία στρώση με το αντίστοιχο στην χαμηλότερη στρώση και χρησιμοποιεί την μεγαλύτερη τιμή στην τελική
+εικόνα. Πλήρως μαύρες στρώσεις δεν επιδρούν στην τελική εικόνα και πλήρως λευκές στρώσεις καταλήγουν σε
+λευκή εικόνα.
+</p>
+<p>Η εξίσωση είναι:</p>
+<div class="equation">
+<a id="id3188479"></a>
+<p class="title">
+<b>Εξίσωση 8.19. Η εξίσωση για την κατάσταση στρώσης <span class="quote">“<span class="quote">Φωτισμός μόνο</span>”</span></b>
+</p>
+<div class="equation-contents">
+<div>
+<img src="images/math/layer-mode-lighten.png" />
+</div>
+</div>
+</div>
+<br class="equation-break" />
+<p>Η κατάσταση είναι αθροιστική, η σειρά των δύο στρώσεων δεν πειράζει.</p>
+</dd>
+<dt>
+<span class="term">Απόχρωση</span>
+</dt>
+<dd>
+<a id="id3188516" class="indexterm"></a>
+<a id="id3188530" class="indexterm"></a>
+<div class="figure">
+<a id="id3188539"></a>
+<p class="title">
+<b>Εικόνα 8.28. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Απόχρωση</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-hue-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Απόχρωση" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-hue-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Απόχρωση" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Απόχρωση</span> χρησιμοποιεί την απόχρωση της κορυφαίας στρώσης και τον
+κορεσμό καθώς και την τιμή της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα. Όμως, εάν ο
+κορεσμός της κορυφαίας στρώσης είναι μηδέν, η απόχρωση λαμβάνεται και από την χαμηλότερη στρώση.
+</p>
+</dd>
+<dt>
+<span class="term">Κορεσμός</span>
+</dt>
+<dd>
+<a id="id3188625" class="indexterm"></a>
+<a id="id3188639" class="indexterm"></a>
+<div class="figure">
+<a id="id3188648"></a>
+<p class="title">
+<b>Εικόνα 8.29. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Κορεσμός</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-saturation-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Κορεσμός" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-saturation-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Κορεσμός" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Κορεσμός</span> χρησιμοποιεί τον κορεσμό της κορυφαίας στρώσης και απόχρωση
+και τιμή της χαμηλότερης στρώσης για να σχηματίσουν την τελική εικόνα.
+</p>
+</dd>
+<dt>
+<span class="term">Χρώμα</span>
+</dt>
+<dd>
+<a id="id3188732" class="indexterm"></a>
+<a id="id3188746" class="indexterm"></a>
+<div class="figure">
+<a id="id3188756"></a>
+<p class="title">
+<b>Εικόνα 8.30. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Χρώμα</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-color-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Χρώμα" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-color-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Χρώμα" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Χρώμα</span> χρησιμοποιεί την απόχρωση και κορεσμό της κορυφαίας στρώσης
+και την τιμή της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα.
+</p>
+</dd>
+<dt>
+<span class="term">Τιμή</span>
+</dt>
+<dd>
+<a id="id3188840" class="indexterm"></a>
+<a id="id3188853" class="indexterm"></a>
+<div class="figure">
+<a id="id3188863"></a>
+<p class="title">
+<b>Εικόνα 8.31. Παράδειγμα για κατάσταση στρώσης <span class="quote">“<span class="quote">Τιμή</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/layer-mode-value-mask1.jpg" alt="Παράδειγμα για κατάσταση στρώσης Τιμή" />
+<div class="caption">
+<p>Η μάσκα 1 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/layer-mode-value-mask2.jpg" alt="Παράδειγμα για κατάσταση στρώσης Τιμή" />
+<div class="caption">
+<p>Η μάσκα 2 χρησιμοποιείται ως κορυφαία στρώση με 100% αδιαφάνεια.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Η κατάσταση <span class="guilabel">Τιμή</span> χρησιμοποιεί την τιμή της κορυφαίας στρώσης καθώς και τον
+κορεσμό και την χροιά της χαμηλότερης στρώσης για να σχηματίσει την τελική εικόνα. Μπορείτε να χρησιμοποιήσετε
+αυτήν την κατάσταση για να αποκαλύψετε τις λεπτομέρειες σε σκοτεινές και φωτεινές περιοχές μιας εικόνας χωρίς
+αλλαγή του κορεσμού.
+</p>
+</dd>
+</dl>
+</div>
+<p>
+Κάθε στρώση σε μια εικόνα μπορεί να έχει διαφορετική κατάσταση στρώσης. (Φυσικά, η κατάσταση στρώσης της
+χαμηλότερης στρώσης μιας εικόνας δεν επιδρά.) Τα αποτέλεσματα αυτών των καταστάσεων στρώσης είναι αθροιστικά.
+Η εικόνα που φαίνεται παρακάτω έχει τρεις στρώσεις. Η κορυφαία στρώση αποτελείται από τον Wilber περιβαλλόμενο
+από διαφάνεια και έχει μια κατάσταση στρώσης <span class="quote">“<span class="quote">Διαφορά</span>”</span>.
+Η δεύτερη στρώση είναι συμπαγές φωτεινό μπλε και έχει μια κατάσταση στρώσης
+<span class="quote">“<span class="quote">Προσθήκη</span>”</span>. Η χαμηλότερη στρώση είναι γεμάτη με μοτίβα
+<span class="quote">“<span class="quote">Red Cubes (Κόκκινοι κύβοι)</span>”</span>.
+</p>
+<div class="figure">
+<a id="id3185093"></a>
+<p class="title"><b>Εικόνα 8.32. Παράδειγμα πολλαπλής στρώσης</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/modes-multilayer.png" alt="Παράδειγμα πολλαπλής στρώσης" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το GIMP έχει επίσης ανάλογες καταστάσεις που χρησιμοποιούνται για τα εργαλεία ζωγραφικής. Αυτές είναι οι ίδιες
+είκοσι μία καταστάσεις όπως οι καταστάσεις στρώσης με επιπρόσθετες δύο καταστάσεις που είναι ειδικές για τα
+εργαλεία ζωγραφικής (χρώσης). Μπορείτε να ορίσετε αυτές τις καταστάσεις από το
+(Παράθυρα/Dockable Dialogs (αγκιστρωμένοι διάλογοι)/επιλογές εργαλείων/Κατάσταση).
+Στις εξισώσεις που φαίνονται πιο πάνω, οι στρώσεις που σχεδιάζετε  είναι η
+<span class="quote">“<span class="quote">χαμηλότερη στρώση</span>”</span> και τα εικονοστοιχεία που βάφονται από
+το εργαλείο είναι η <span class="quote">“<span class="quote">κορυφαία στρώση</span>”</span>. Φυσικά, δεν χρειαζόσαστε
+περισσότερο από μια στρώση στην εικόνα για να χρησιμοποιήσετε αυτές τις καταστάσεις, επειδή λειτουργούν μόνο στην
+ενεργή στρώση και στο επιλεγμένο εργαλείο ζωγραφικής (χρώσης).
+</p>
+<p>
+Δείτε <a class="xref" href="gimp-tools-paint.html#gimp-paint-mode-examples" title="3.1.3. Παραδείγματα κατάστασης βαψίματος">Τμήμα 3.1.3, “Παραδείγματα κατάστασης βαψίματος”</a>
+για περιγραφή των δύο επιπρόσθετων καταστάσεων βαψίματος.
+</p>
+<div class="footnotes">
+<br />
+<hr width="100" align="left" />
+<div class="footnote">
+<p><sup>[<a id="ftn.gimp-layer-mode-bug162395" href="#gimp-layer-mode-bug162395" class="para">4</a>] </sup>
+Η εξίσωση είναι η *θεωρητική* εξίσωση. Λόγω του <a class="ulink" href="http://bugzilla.gnome.org/show_bug.cgi?id=162395" target="_top">
+σφάλματος #162395 </a>, η πραγματική εξίσωση είναι ισοδύναμη με το Soft light (ήπιο φως). Είναι δύσκολο να
+ρυθμιστεί αυτό το σφάλμα χωρίς αλλαγή της εμφάνισης των υπαρχουσών εικόνων.
+</p>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-image-combining.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-image-combining.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-layers.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-image-combining.html">Κεφάλαιο 8. Συνδυασμός εικόνων</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-layers.html">3. Δημιουργία νέων στρώσεων</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="gimp-using-image-browser.html" title="3.8. Περιηγητής εικόνας" />
+<link rel="next" href="gimp-using-web.html" title="2. Προετοιμασία εικόνων για τον ιστό" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-image-browser.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-web.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" title="Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-images-out"></a>Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1"><a href="gimp-images-out.html#gimp-using-fileformats">1. Αρχεία</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-images-out.html#id3121827">1.1. Αποθήκευση εικόνων</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-images-out.html#gimp-using-fileformats-export-dialog">1.2. Αποθήκευση αρχείων</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="sect1"><a href="gimp-using-web.html">2. Προετοιμασία εικόνων για τον ιστό</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2"><a href="gimp-using-web.html#gimp-using-web-size-vs-quality">2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-web-reducing-file-size.html">2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου</a></span>
+</dt>
+<dt>
+<span class="sect2"><a href="gimp-using-web-transparency.html">2.3. Αποθήκευση εικόνων με διαφάνεια</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="sect1" title="1. Αρχεία">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-using-fileformats"></a>1. Αρχεία</h2>
+</div>
+</div>
+</div>
+<a id="id3186385" class="indexterm"></a>
+<p>
+Το GIMP είναι ικανό να διαβάζει και να γράφει μια μεγάλη ποικιλία μορφών
+αρχείων γραφικών.  Με την εξαίρεση του εγγενούς τύπου αρχείου XCF του GIMP,
+ο χειρισμός αρχείου γίνεται από πρόσθετα. Έτσι είναι σχετικά εύκολο να επεκταθεί το GIMP
+για να υποστηρίξει νέους τύπους αρχείων, όταν προκύψει ανάγκη.
+</p>
+<p>
+Δεν είναι όλοι οι τύποι αρχείων εξίσου καλοί για όλους τους σκοπούς. Αυτό το τμήμα της τεκμηρίωσης θα πρέπει
+να σας βοηθήσει να καταλάβετε τα πλεονεκτήματα και τα μειονεκτήματα κάθε τύπου.
+</p>
+<div class="sect2" title="1.1. Αποθήκευση εικόνων">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="id3121827"></a>1.1. Αποθήκευση εικόνων</h3>
+</div>
+</div>
+</div>
+<p>
+Όταν τελειώσετε δουλεύοντας με μια εικόνα, θα θέλετε να αποθηκεύσετε τα αποτελέσματα. (Στην πραγματικότητα
+είναι συχνά καλή ιδέα να την αποθηκεύεται σε ενδιάμεσα στάδια επίσης.) Το GIMP
+είναι ένα πολύ αξιόπιστο πρόγραμμα, αλλά ακούσαμε φήμες, ίσως απόκρυφες, ότι είναι ίσως γνωστό σε περίεργες
+και μυστηριώδεις περιπτώσεις να καταρρέει. Οι περισσότερες μορφές αρχείου που το GIMP
+μπορεί να ανοίξει, μπορούν επίσης να αποθηκευτούν. Υπάρχει, όμως, μια μορφή αρχείου που είναι ειδική, η εγγενής
+μορφή XCF του GIMP και είναι χρήσιμη επειδή αποθηκεύει
+<span class="emphasis"><em>σχεδόν οτιδήποτε</em></span> για μια εικόνα, (δεν αποθηκεύει πληροφορίες
+<span class="quote">“<span class="quote">αναίρεσης</span>”</span>).
+Γι' αυτό η μορφή XCF είναι ειδικά κατάλληλη για αποθήκευση ενδιάμεσων αποτελεσμάτων και για αποθήκευση εικόνων
+που θα ξανανοιχτούν αργότερα στο GIMP.
+Τα αρχεία XCF δεν διαβάζονται από τα περισσότερα άλλα προγράμματα που εμφανίζουν εικόνες. Έτσι, τελειώνοντας
+θα θέλετε προφανώς να αποθηκεύσετε την εικόνα σε μια πιο πλατιά χρησιμοποιούμενη μορφή όπως JPEG, PNG, TIFF, κλ.
+</p>
+</div>
+<div class="sect2" title="1.2. Αποθήκευση αρχείων">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-fileformats-export-dialog"></a>1.2. Αποθήκευση αρχείων</h3>
+</div>
+</div>
+</div>
+<p>
+Υπάρχουν αρκετές εντολές για αποθήκευση εικόνων. Ένας κατάλογος εντολών και πληροφορίες για τη χρήση τους,
+μπορείτε να βρείτε στην ενότητα που καλύπτει το
+<a class="link" href="gimp-file-menu.html" title="2. Το μενού “Αρχείο” ">Μενού αρχείο</a>.
+</p>
+<p>Το GIMP σας επιτρέπει να αποθηκεύσετε τις εικόνες που δημιουργείτε σε
+μια μεγάλη ποικιλία μορφών. Είναι σημαντικό να καταλάβετε ότι η μόνη μορφή ικανή να αποθηκεύσει
+<span class="emphasis"><em>όλες</em></span> τις πληροφορίες σε μια εικόνα, που περιλαμβάνει στρώσεις,
+διαφάνειες κλ. είναι η εγγενής μορφή του GIMP XCF. Κάθε άλλη μορφή διατηρεί μερικές ιδιότητες της εικόνας
+και χάνει άλλες. Όταν αποθηκεύεται μια εικόνα, το GIMP προσπαθεί να σας
+προειδοποιήσει, αλλά εξαρτάται από εσάς να καταλάβετε τις δυνατότητες της μορφής που επιλέγετε.
+</p>
+<div class="figure">
+<a id="id3135643"></a>
+<p class="title">
+<b>Εικόνα 6.1. Παράδειγμα διαλόγου εξαγωγής</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/export-dialog.png" alt="Παράδειγμα διαλόγου εξαγωγής" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Όπως υπογραμμίστηκε πιο πάνω, δεν υπάρχει καμιά μορφή αρχείου, με την εξαίρεση της εγγενούς μορφής αρχείου του
+GIMP <a class="link" href="glossary.html#glossary-xcf" title="XCF">XCF</a>, που είναι ικανή να αποθηκεύσει
+όλες τις πληροφορίες σε μια εικόνα του GIMP. Όταν ζητάτε να αποθηκευτεί μια
+εικόνα σε μορφή που θα χάσει πληροφορίες, το GIMP σας ενημερώνει, λέγοντας
+σας ποιές πληροφορίες θα χαθούν και σας ζητά εάν θα θέλατε να <span class="quote">“<span class="quote">εξαγάγετε</span>”</span>
+την εικόνα σε μορφή που ο τύπος αρχείου μπορεί να χειριστεί. Εξαγωγή μιας εικόνας δεν τροποποιεί την ίδια την
+εικόνα, έτσι δεν χάνετε τίποτα εξάγοντας. Δείτε
+<a class="link" href="gimp-export-dialog.html" title="5.4. Εξαγωγή αρχείου">Εξαγωγή αρχείου</a>.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Όταν κλείνετε μια εικόνα (πιθανόν αφήνοντας το GIMP), προειδοποιείστε εάν η εικόνα είναι "βρόμικη", δηλαδή εάν
+έχει αλλάξει χωρίς να έχει αποθηκευτεί. Αποθήκευση εικόνας σε οποιαδήποτε μορφή αρχείου θα σημάνει ότι θεωρείται
+"όχι βρόμικη", ακόμα κι αν η μορφή αρχείου δεν παρουσιάζει όλες τις πληροφορίες από την εικόνα.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect3" title="1.2.1. Αποθήκευση ως GIF">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="file-gif-save"></a>1.2.1. Αποθήκευση ως GIF</h4>
+</div>
+</div>
+</div>
+<a id="file-gif-load"></a>
+<a id="id3205504" class="indexterm"></a>
+<a id="id3205514" class="indexterm"></a>
+<a id="id3205523" class="indexterm"></a>
+<a id="id3205533" class="indexterm"></a>
+<div class="figure">
+<a id="id3205547"></a>
+<p class="title">
+<b>Εικόνα 6.2. Ο διάλογος αποθήκευση ως GIF</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/gif-save-dialog.png" alt="Ο διάλογος αποθήκευση ως GIF" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="warning" title="Προειδοποίηση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Προειδοποίηση]" src="images/warning.png" />
+</td>
+<th align="left">Προειδοποίηση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Η μορφή αρχείου GIF δεν υποστηρίζει μερικές βασικές ιδιότητες της εικόνας, όπως <span class="emphasis"><em>ανάλυση εκτύπωσης</em></span>.
+Εάν ενδιαφέρεσθε για αυτές τις ιδιότητες, χρησιμοποιείστε μια διαφορετική μορφή αρχείου όπως PNG.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">GIF Options (Επιλογές GIF)</span>
+</dt>
+<dd>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Interlace (Πεπλεγμένο)</span>
+</dt>
+<dd>
+<p>
+Επιλέγοντας πεπλεγμένο επιτρέπεται σε μια εικόνα στον ιστό να εμφανιστεί σταδιακά καθώς φορτώνεται.
+Η σταδιακή εμφάνιση της εικόνας είναι χρήσιμη με ταχύτητες χαμηλής σύνδεσης, επειδή μπορείτε να σταματήσετε μια
+εικόνα που δεν σας ενδιαφέρει. Πεπλεγμένο είναι μικρής χρήσης σήμερα λόγω των υψηλότερων ταχυτήτων σύνδεσης.
+</p>
+</dd>
+<dt>
+<span class="term">GIF comment (Σχόλιο GIF)</span>
+</dt>
+<dd>
+<p>
+Τα σχόλια GIF υποστηρίζουν μόνο 7-bit χαρακτήρες ASCII. Εάν χρησιμοποιήσετε χαρακτήρα εκτός του 7-bit συνόλου ASCII,
+το <acronym class="acronym">GIMP</acronym> θα αποθηκεύσει την εικόνα χωρίς σχόλιο και θα σας ενημερώσει ότι το
+σχόλιο δεν αποθηκεύτηκε.
+</p>
+</dd>
+</dl>
+</div>
+</dd>
+<dt>
+<span class="term">Animated GIF options (Επιλογές κινούμενου GIF)</span>
+</dt>
+<dd>
+<a id="id3190498" class="indexterm"></a>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Loop forever (Συνεχής βρόγχος)</span>
+</dt>
+<dd>
+<p>
+Όταν επιλεγεί αυτή η επιλογή, η κίνηση θα επαναλαμβάνεται συνέχεια μέχρι να τη σταματήσετε.
+</p>
+</dd>
+<dt>
+<span class="term">Delay between frames if unspecified (καθυστέρηση μεταξύ πλαισίων (καρέ) εάν δεν ορίζεται)</span>
+</dt>
+<dd>
+<p>
+Μπορείτε να βάλετε την καθυστέρηση μεταξύ πλαισίων(καρέ), σε χιλιοστά του δευτερολέπτου, εάν δεν έχει οριστεί
+πριν. Σ' αυτήν την περίπτωση, μπορείτε να τροποποιήσετε κάθε καθυστέρηση στο διάλογο στρώσης.
+</p>
+</dd>
+<dt>
+<span class="term">Frame disposal when unspecified (διευθέτηση πλαισίου(καρέ) όταν δεν προσδιορίζεται)</span>
+</dt>
+<dd>
+<p>
+Εάν αυτό δεν έχει καθοριστεί, μπορείτε να ορίσετε πόσα πλαίσια (καρέ) θα υπερθέτονται. Μπορείτε να επιλέξετε
+μεταξύ τριών επιλογών:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="opencircle">
+<li class="listitem" style="list-style-type: circle">
+<p>
+<span class="guilabel">I don't care (Δεν με ενδιαφέρει)</span>: Μπορείτε να
+χρησιμοποιήσετε αυτήν την επιλογή εάν όλες οι στρώσεις είναι αδιαφανείς. Οι στρώσεις θα αντικαταστήσουν ό,τι
+είναι από κάτω.
+</p>
+</li>
+<li class="listitem" style="list-style-type: circle">
+<p>
+<span class="guilabel">Cumulative Layers (combine) (Προσθετικές στρώσεις (συνδυασμός))</span>:
+Τα προηγούμενα πλαίσια (καρέ) δεν θα καταργηθούν όταν εμφανίζεται ένα καινούργιο.
+</p>
+</li>
+<li class="listitem" style="list-style-type: circle">
+<p>
+<span class="guilabel">One frame per layer (replace) (Ένα πλαίσιο (καρέ) ανά στρώση (αντικατάσταση))</span>:
+Τα προηγούμενα πλαίσια (καρέ) θα καταργηθούν πριν την εμφάνιση ενός καινούργιου.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3" title="1.2.2. Αποθήκευση ως JPEG">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="file-jpeg-save"></a>1.2.2. Αποθήκευση ως JPEG</h4>
+</div>
+</div>
+</div>
+<a id="file-jpeg-load"></a>
+<a id="id3190643" class="indexterm"></a>
+<a id="id3190653" class="indexterm"></a>
+<a id="id3190663" class="indexterm"></a>
+<a id="id3190673" class="indexterm"></a>
+<a id="id3190682" class="indexterm"></a>
+<p>
+Τα αρχεία JPEG έχουν συνήθως μια επέκταση .jpg, .JPG, ή .jpeg. Είναι μια πολύ πλατιά χρησιμοποιούμενη μορφή,
+επειδή συμπιέζει τις εικόνες πολύ αποτελεσματικά, ενώ ελαχιστοποιεί την απώλεια ποιότητας της εικόνας. Καμιά
+άλλη μορφή δεν πλησιάζει στην επίτευξη του ίδιου επιπέδου συμπίεσης. Δεν υποστηρίζει, όμως, διαφάνεια ή
+πολλαπλές στρώσεις. Γι' αυτό, η αποθήκευση εικόνων ως JPEG συχνά απαιτεί να εξαχθούν από το <acronym class="acronym">GIMP</acronym>.
+</p>
+<div class="figure">
+<a id="id3167577"></a>
+<p class="title">
+<b>Εικόνα 6.3. Διάλογος αποθήκευση ως JPEG</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/save-jpeg-dialog.png" alt="Διάλογος αποθήκευση ως JPEG" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ο αλγόριθμος του JPEG είναι περίπλοκος και εμπεριέχει έναν αριθμό επιλογών που προκαλούν σύγχυση και των οποίων
+το νόημα είναι πέρα από το σκοπό αυτής της τεκμηρίωσης. Εκτός και είσαστε ένας ειδικός του JPEG, η παράμετρος
+της ποιότητας είναι προφανώς η μόνη που θα χρειαστείτε να ρυθμίσετε.
+</p>
+<p>
+</p>
+<div class="caution" title="Προσοχή" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Caution">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Προσοχή]" src="images/caution.png" />
+</td>
+<th align="left">Προσοχή</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Αφού αποθηκεύσετε μια εικόνα ως αρχείο JPEG, η εικόνα δεν θεωρείται πια,
+<span class="quote">“<span class="quote">βρόμικη</span>”</span> από το <acronym class="acronym">GIMP</acronym>,
+έτσι εκτός και κάνετε παραπέρα αλλαγές, δεν θα δεχθείτε καμία προειδοποίηση, εάν την κλείσετε. Επειδή η JPEG
+είναι με απώλειες και δεν υποστηρίζει διαφάνεια ή πολλαπλές στρώσεις , μερικές από τις πληροφορίες στην εικόνα
+μπορεί να χαθούν. Εάν θέλετε να αποθηκεύσετε όλες τις πληροφορίες σε μια εικόνα, χρησιμοποιείστε την εγγενή
+μορφή του <acronym class="acronym">GIMP</acronym> <a class="link" href="glossary.html#glossary-xcf" title="XCF">XCF</a>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+</p>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Ποιότητα</span>
+</dt>
+<dd>
+<p>
+Όταν αποθηκεύετε ένα αρχείο σε μορφή JPEG, εμφανίζεται ένας διάλογος που σας επιτρέπει να ορίσετε το επίπεδο
+ποιότητας, που κυμαίνεται από 0 μέχρι 100. Τιμές πάνω από 95 δεν είναι γενικά χρήσιμες. Η προκαθορισμένη
+ποιότητα του 85 συνήθως παράγει θαυμάσια αποτελέσματα, αλλά σε πολλές περιπτώσεις είναι δυνατό να οριστεί η
+ποιότητα πραγματικά χαμηλότερη χωρίς υποβάθμιση της εικόνας. Μπορείτε να ελέγξετε το αποτέλεσμα ρυθμίσεων
+διαφορετικής ποιότητας επιλέγοντας <span class="guilabel">Show Preview in image window (Προβολή προεπισκόπησης στο παράθυρο εικόνας)</span>
+στο διάλογο JPEG.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Σημειώστε ότι οι αριθμοί για το επίπεδο ποιότητας JPEG έχουν διαφορετικό νόημα σε διάφορες εφαρμογές. Αποθήκευση
+με επίπεδο ποιότητας 80 στο GIMP δεν είναι κατ' ανάγκη συγκρίσιμο με αποθήκευση με επίπεδο ποιότητας 80 σε άλλη
+εφαρμογή.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+<dt>
+<span class="term">Preview in image window (Προεπισκόπηση στο παράθυρο εικόνας)</span>
+</dt>
+<dd>
+<p>
+Σημειώνοντας αυτήν την επιλογή, κάθε αλλαγή στην ποιότητα (ή άλλη παράμετρο του JPEG) παρουσιάζεται στην
+εμφάνιση εικόνας. (Αυτό δεν αλλάζει την εικόνα. Η εικόνα ξαναμετατρέπεται στην αρχική της κατάσταση, όταν ο
+διάλογος JPEG κλείνει.)
+</p>
+</dd>
+<dt>
+<span class="term">Advanced settings (Προχωρημένες ρυθμίσεις)</span>
+</dt>
+<dd>
+<p>
+Μερικές πληροφορίες για τις προχωρημένες ρυθμίσεις.
+</p>
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Optimize (Βελτιστοποίηση)</span>
+</dt>
+<dd>
+<p>
+Εάν ενεργοποιήσετε αυτήν την επιλογή, η βελτιστοποίηση των παραμέτρων για κωδικοποίηση της εντροπίας θα
+χρησιμοποιηθεί. Το αποτέλεσμα είναι γενικά ένα πιο μικρό αρχείο, αλλά παίρνει πιο πολύ χρόνο να δημιουργηθεί.
+</p>
+</dd>
+<dt>
+<span class="term">Progressive (Σταδιακό)</span>
+</dt>
+<dd>
+<p>
+Με αυτήν την επιλογή επισημασμένη, τα κομμάτια της εικόνας αποθηκεύονται σε ένα αρχείο με σειρά που επιτρέπει
+σταδιακή βελτιστοποίηση της εικόνας κατά τη διάρκεια αργής σύνδεσης με το διαδίκτυο.
+Η σταδιακή επιλογή για JPG έχει τον ίδιο σκοπό όπως η πεπλεγμένη επιλογή για GIF. Δυστυχώς, η σταδιακή επιλογή
+παράγει ελαφρώς μεγαλύτερα αρχεία JPG.
+</p>
+</dd>
+<dt>
+<span class="term">Save EXIF data (Αποθήκευση δεδομένων EXIF)</span>
+</dt>
+<dd>
+<a id="id3167780" class="indexterm"></a>
+<p>
+Τα αρχεία JPEG από πολλές ψηφιακές κάμερες περιέχουν επιπρόσθετες πληροφορίες, που λέγονται δεδομένα EXIF.
+Δεδομένα EXIF παρέχουν πληροφορίες για την εικόνα, όπως κατασκευαστή και μοντέλο, μέγεθος εικόνας, ημερομηνία
+εικόνας κλ. Αν και το GIMP χρησιμοποιεί τη βιβλιοθήκη <span class="quote">“<span class="quote">libexif</span>”</span>
+για ανάγνωση και εγγραφή δεδομένων EXIF, η βιβλιοθήκη δεν πακετάρεται αυτόματα με το GIMP. Εάν το GIMP
+δημιουργήθηκε με libexif υποστήριξη, τότε τα δεδομένα EXIF διατηρούνται εάν ανοίξετε ένα αρχείο JPEG, το
+επεξεργαστείτε και έπειτα το αποθηκεύσετε ως JPEG. Τα δεδομένα EXIF δεν αλλάζουν καθόλου, εάν το κάνετε αυτό.
+Τα δεδομένα EXIF μπορεί να δείχνουν πράγματα όπως χρόνος δημιουργίας της εικόνας και όνομα αρχείου, που μπορεί
+να μην είναι πια σωστό.
+Εάν το GIMP δεν δημιουργήθηκε με υποστήριξη EXIF, μπορείτε να ανοίξετε αρχεία JPG που περιέχουν δεδομένα
+EXIF, αλλά τα δεδομένα EXIF παραλείπονται και δεν αποθηκεύονται όταν η τελική εικόνα αποθηκευτεί αργότερα.
+</p>
+</dd>
+<dt>
+<span class="term">Save thumbnail (Αποθήκευση μικρογραφίας)</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή σας επιτρέπει να αποθηκεύσετε μια μικρογραφία με την εικόνα. Πολλές εφαρμογές χρησιμοποιούν την
+εικόνα μικρογραφίας ως μια γρήγορη μικρή διαθέσιμη προεπισκόπηση εικόνας.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Αυτή η επιλογή εμφανίζεται μόνο αν το <acronym class="acronym">GIMP</acronym> δημιουργήθηκε με υποστήριξη
+EXIF.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</dd>
+<dt>
+<span class="term">Save XMP data (Αποθήκευση δεδομένων XMP)</span>
+</dt>
+<dd>
+<p>
+Τα δεδομένα XMP είναι <span class="quote">“<span class="quote">meta</span>”</span> δεδομένα για την εικόνα.
+Είναι μια ανταγωνιστική μορφή με το EXIF. Εάν ενεργοποιήσετε αυτήν την επιλογή, τα meta δεδομένα της εικόνας
+αποθηκεύονται σε μια δομή  <acronym class="acronym">XMP</acronym> μες το αρχείο.
+</p>
+</dd>
+<dt>
+<span class="term">
+Use quality settings from original image (Χρήση ποιοτικών ρυθμίσεων από την αυθεντική εικόνα).
+</span>
+</dt>
+<dd>
+<p>
+Εάν μία ειδική ποιοτική ρύθμιση (ή <span class="quote">“<span class="quote">πίνακας ποιοτικοποίησης </span>”</span>)
+προσαρτήθηκε στην εικόνα όταν φορτώθηκε, τότε αυτή η επιλογή σας επιτρέπει να την χρησιμοποιήσετε αντί για τις
+προκαθορισμένες.
+</p>
+<p>
+Εάν κάνατε μόνο λίγες αλλαγές στην εικόνα, έπειτα ξαναχρησιμοποιήσατε την ίδια ρύθμιση ποιότητας θα πάρετε
+σχεδόν την ίδια ποιότητα και μέγεθος αρχείου όπως και η αυθεντική. Αυτό θα ελαχιστοποιήσει τις απώλειες που
+προκλήθηκαν από το βήμα της ποιοτικοποίησης, συγκρινόμενο με το τι θα συνέβαινε εάν χρησιμοποιούσατε
+διαφορετική ρύθμιση ποιότητας.
+</p>
+<p>
+Εάν οι ρυθμίσεις ποιότητας που βρίσκονται στο αρχικό αρχείο δεν είναι καλύτερες από τις προκαθορισμένες
+ποιοτικές ρυθμίσεις, τότε η επιλογή
+<span class="quote">“<span class="quote">Use quality settings from original image (Χρήση ποιοτικών ρυθμίσεων από την αυθεντική εικόνα)</span>”</span>
+θα είναι διαθέσιμες, αλλά όχι ενεργοποιημένες. Αυτό επιβεβαιώνει ότι θα παίρνετε πάντοτε τουλάχιστον την
+ελάχιστη ποιότητα που προδιαγράφεται από προεπιλογή. Εάν δεν κάνατε μεγάλες αλλαγές στην εικόνα και θέλετε να
+την αποθηκεύσετε χρησιμοποιώντας την ίδια ποιότητα όπως η αρχική, τότε μπορείτε να το κάνετε ενεργοποιώντας
+αυτήν την επιλογή.
+</p>
+</dd>
+<dt>
+<span class="term">Smoothing (Εξομάλυνση)</span>
+</dt>
+<dd>
+<p>
+Η συμπίεση JPG δημιουργεί παράσιτα. Χρησιμοποιώντας αυτή την επιλογή, μπορείτε να εξομαλύνετε την εικόνα
+όταν αποθηκεύεται, μειώνοντας την. Αλλά η εικόνα σας γίνεται κάπως θολή.
+</p>
+</dd>
+<dt>
+<span class="term">Restart markers (Επανεκκίνηση σημειωτών) </span>
+</dt>
+<dd>
+<p>
+Το αρχείο εικόνας μπορεί να περιέχει σημειωτές που επιτρέπουν στην εικόνα να φορτωθεί ως τμήματα. Εάν η σύνδεση
+διακοπεί, ενώ φορτώνεται η εικόνα σε μια ιστοσελίδα, η φόρτωση μπορεί να συνεχιστεί από τον επόμενο σημειωτή.
+</p>
+</dd>
+<dt>
+<span class="term">Subsampling (Υποδειγματοληψία)</span>
+</dt>
+<dd>
+<p>
+Το ανθρώπινο μάτι δεν είναι ευαίσθητο το με τον ίδιο τρόπο σε όλο το χρωματικό φάσμα. Η συμπίεση μπορεί να το
+χρησιμοποιήσει για να τροποποιήσει ελαφρά διαφορετικά χρώματα, ως ίδια. Υπάρχουν τρεις μέθοδοι.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+<span class="guilabel">1x1,1x1,1x1 (best quality) (άριστη ποιότητα)</span>:
+Συνήθως αναφερόμενο ως (4:4:4), παράγοντας την καλύτερη ποιότητα, διατηρώντας τα περιγράμματα και αντιθέσεις
+χρωμάτων. αλλά η συμπίεση είναι πιο μικρή.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">2x1,1x1,1x1 (4:2:2)</span>:
+Αυτή είναι η τυπική υποδειγματοληψία, που συνήθως προσφέρει καλή αναλογία μεταξύ ποιότητας εικόνας και μεγέθους
+αρχείου. Υπάρχουν, όμως, περιπτώσεις όπου χρησιμοποιώντας όχι υποδειγματοληψία (4:4:4) προσφέρει μια
+αξιοσημείωτη αύξηση στην ποιότητα της εικόνας. Για παράδειγμα, όταν η εικόνα περιέχει λεπτές λεπτομέρειες όπως
+κείμενο πάνω από ομοιόμορφο φόντο, ή φωτογραφίες με σχεδόν επίπεδα χρώματα.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">1x2,1x1,1x1</span>
+Αυτό είναι παρόμοιο με το (2x1,1x1,1x1), αλλά η δειγματοληψία χρώματος είναι στην οριζόντια κατεύθυνση  παρά
+στην κάθετη κατεύθυνση, σαν κάποιος να περιέστρεψε την εικόνα.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">2x2,1x1,1x1 (smallest file) (ελάχιστο αρχείο) </span>:
+Συνήθως αναφέρεται ως (4:1:1), παράγοντας ελάχιστα αρχεία. Αυτό ταιριάζει σε εικόνες με ασθενή περιγράμματα,
+αλλά τείνει να μετουσιώσει τα χρώματα.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">DCT Method (Μέθοδος DCT)</span>
+</dt>
+<dd>
+<p>
+DCT είναι <span class="quote">“<span class="quote">discrete cosine transform  (προσεκτικός μετασχηματισμός συνημιτόνου)</span>”</span>
+και είναι το πρώτο βήμα στον αλγόριθμο JPEG πηγαίνοντας από το χωρικό στο συχνοτικό τομέα. Οι επιλογές είναι
+<span class="quote">“<span class="quote">float (κινητή υποδιαστολή)</span>”</span>, <span class="quote">“<span class="quote">integer (ακέραιος)</span>”</span>
+(η προεπιλεγμένη) και <span class="quote">“<span class="quote">fast integer (γρήγορος ακέραιος)</span>”</span>.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Η <span class="guilabel">float (κινητή υποδιαστολή) </span>. Η μέθοδος κινητής υποδιαστολής είναι ελαφρά πιο
+ακριβής από τη μέθοδο ακέραιου, αλλά είναι πολύ πιο αργή εκτός και το μηχάνημα σας έχει πολύ γρήγορο υλικό
+κινητής υποδιαστολής. Επίσης σημειώστε ότι τα αποτελέσματα της μεθόδου κινητής υποδιαστολής μπορεί να διαφέρουν
+ελαφρά μεταξύ των υπολογιστών, ενώ οι μέθοδοι ακέραιου πρέπει να δίνουν τα ίδια αποτελέσματα παντού.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">integer (ακέραιος)</span>
+(Η προεπιλεγμένη). Αυτή η μέθοδος είναι πιο γρήγορη από την <span class="quote">“<span class="quote">float (κινητή υποδιαστολή)</span>”</span>,
+αλλά όχι τόσο ακριβής.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">fast integer (γρήγορος ακέραιος)</span>. Η μέθοδος γρήγορου ακέραιου είναι πολύ
+λιγότερο ακριβής από τις άλλες δύο.
+</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Σχόλιο</span>
+</dt>
+<dd>
+<p>
+Σε αυτό το πλαίσιο κειμένου μπορείτε να εισαγάγετε ένα σχόλιο που αποθηκεύεται μαζί με την εικόνα.
+</p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect3" title="1.2.3. Saving as PNG">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="file-png-save"></a>1.2.3. Αποθήκευση ως PNG</h4>
+</div>
+</div>
+</div>
+<a id="file-png-load"></a>
+<a id="file-png-save-defaults"></a>
+<a id="id3176265" class="indexterm"></a>
+<a id="id3176275" class="indexterm"></a>
+<a id="id3176284" class="indexterm"></a>
+<div class="figure">
+<a id="id3176298"></a>
+<p class="title">
+<b>Εικόνα 6.4. Ο διάλογος <span class="quote">“<span class="quote">Αποθήκευση ως PNG</span>”</span></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/save-png-dialog.png" alt="Ο διάλογος Αποθήκευση ως PNG" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Interlacing (πεπλεγμένο)</span>
+</dt>
+<dd>
+<p>
+Έλεγχος της πλέξης επιτρέπει στην εικόνα σε μια ιστοσελίδα να εμφανίζεται σταδιακά καθώς λαμβάνεται.
+Σταδιακή εμφάνιση της εικόνας είναι χρήσιμη με ταχύτητες αργής σύνδεσης, επειδή μπορείτε να διακόψετε μια
+εικόνα που δεν σας ενδιαφέρει. Η πλέξη είναι μικρής χρήσης σήμερα με τις γρήγορες ταχύτητες σύνδεσης.
+</p>
+</dd>
+<dt>
+<span class="term">Save background color (Αποθήκευση χρώματος παρασκηνίου)</span>
+</dt>
+<dd>
+<p>
+Εάν η εικόνα σας έχει πολλά επίπεδα διαφάνειας,  οι περιηγητές διαδικτύου που αναγνωρίζουν μόνο δύο επίπεδα, θα
+χρησιμοποιήσουν το χρώμα φόντου της εργαλειοθήκης σας στη θέση τους. Ο Internet Explorer μέχρι την έκδοση 6 δεν
+χρησιμοποιεί αυτήν την πληροφορία.
+</p>
+</dd>
+<dt>
+<span class="term">Save gamma (Αποθήκευση γάμα)</span>
+</dt>
+<dd>
+<p>
+Η διόρθωση γάμα είναι η ικανότητα να διορθώνονται οι διαφορές στην ερμηνεία τιμών χρωμάτων. Αυτό αποθηκεύει
+την πληροφορία γάμα στην PNG που αντανακλά τον τρέχοντα παράγοντα γάμα για την εμφάνιση σας. Θεατές σε άλλους
+υπολογιστές μπορούν τότε να αντισταθμίσουν για να επιβεβαιώσουν ότι η εικόνα δεν είναι ούτε πολύ σκοτεινή, ούτε                 that the image
+πολύ φωτεινή.
+</p>
+</dd>
+<dt>
+<span class="term">Save layer offset (Αποθήκευση μετατόπισης στρώσης)</span>
+</dt>
+<dd>
+<p>
+Το PNG υποστηρίζει μια τιμή μετατόπισης που λέγεται
+<span class="quote">“<span class="quote">oFFs chunk</span>”</span>, που δίνει τα δεδομένα θέσης. Δυστυχώς, η
+υποστήριξη μετατόπισης PNG στο <acronym class="acronym">GIMP</acronym>, είναι ελαττωματική, ή τουλάχιστον
+ασύμβατη με άλλες εφαρμογές και για πολύ χρόνο. Μην ενεργοποιείτε τις μετατοπίσεις, αφήστε το
+<acronym class="acronym">GIMP</acronym> να ισοπεδώσει τις στρώσεις πριν την αποθήκευση και δεν θα έχετε
+προβλήματα.
+</p>
+</dd>
+<dt>
+<span class="term">Save Resolution (Αποθήκευση ανάλυσης)</span>
+</dt>
+<dd>
+<p>
+Αποθήκευση της ανάλυσης εικόνας, σε DPI (κουκίδες ανά ίντσα).
+</p>
+</dd>
+<dt>
+<span class="term">Save creation time (Αποθήκευση χρόνου δημιουργίας)</span>
+</dt>
+<dd>
+<p>
+Ημερομηνία αποθήκευσης του αρχείου.
+</p>
+</dd>
+<dt>
+<span class="term">Save comment (Αποθήκευση σχολίου)</span>
+</dt>
+<dd>
+<p>
+Μπορείτε να διαβάσετε αυτό το σχόλιο
+<a class="link" href="gimp-image-properties.html" title="6.28. Ιδιότητες εικόνας">Ιδιότητες εικόνας</a>.
+</p>
+</dd>
+<dt>
+<span class="term">Save color values from transparent pixels (Αποθήκευση τιμών χρώματος από διαφανή εικονοστοιχεία)</span>
+</dt>
+<dd>
+<p>
+Με ενεργοποιημένη αυτήν την επιλογή, οι τιμές χρώματος αποθηκεύονται ακόμα κι αν τα εικονοστοιχεία είναι
+ολότελα διαφανή.
+</p>
+</dd>
+<dt>
+<span class="term">Compression level (Επίπεδο συμπίεσης)</span>
+</dt>
+<dd>
+<p>
+Επειδή η συμπίεση είναι χωρίς απώλειες, η μόνη αιτία για χρήση επιπέδου συμπίεσης πιο μικρό από 9, είναι εάν
+παίρνει πολύ χρόνο για συμπίεση ενός αρχείου σε αργό υπολογιστή.
+Κανένας φόβος από την αποσυμπίεση. Είναι γρήγορη ανεξάρτητα από το επίπεδο συμπίεσης.
+</p>
+</dd>
+<dt>
+<span class="term">Save Defaults (Αποθήκευση προκαθορισμένων)</span>
+</dt>
+<dd>
+<p>
+Πατήστε για αποθήκευση των τρεχουσών ρυθμίσεων. Έπειτα, μπορείτε να χρησιμοποιήσετε
+<span class="guibutton">Load Defaults (Φόρτωση προεπιλεγμένων)</span> για να φορτώσετε τις αποθηκευμένες ρυθμίσεις.
+
+</p>
+</dd>
+</dl>
+</div>
+<div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Η μορφή PNG υποστηρίζει εικόνες από χρωματολόγιο. Χρησιμοποιώντας λιγότερα χρώματα, άρα, καταλήγουμε σε πιο
+μικρά αρχεία. Αυτό είναι ιδιαίτερα χρήσιμο για δημιουργία εικόνων στον ιστό. Δείτε
+<a class="xref" href="gimp-image-convert-indexed.html" title="6.6. Κατάσταση από χρωματολόγιο">Ενότητα 6.6, “Κατάσταση από χρωματολόγιο”</a>.
+</p>
+<p>
+Οι υπολογιστές εργάζονται σε μπλοκ των 8 bits που ονομάζονται <span class="quote">“<span class="quote">Byte</span>”</span>.
+Ένα byte επιτρέπει 256 χρώματα. Μειώνοντας τον αριθμό των χρωμάτων κάτω από 256 δεν είναι χρήσιμο. Ένα byte θα
+χρησιμοποιηθεί οπωσδήποτε και το μέγεθος του αρχείου δεν θα μικρύνει. Επιπρόσθετα, αυτή η
+<span class="quote">“<span class="quote">PNG8</span>”</span> μορφή, όπως το GIF, χρησιμοποιεί μόνο ένα bit
+για διαφάνεια. Μόνο δύο επίπεδα διαφάνειας είναι δυνατά, διαφανές ή αδιαφανές.
+</p>
+<p>
+Εάν θέλετε η διαφάνεια PNG να εμφανίζεται πλήρως από τον Internet Explorer, μπορείτε να χρησιμοποιήσετε το
+φίλτρο AlphaImageLoader DirectX στον κώδικα της ιστοσελίδας σας. Δείτε Microsoft Knowledge Base
+<a class="xref" href="bibliography.html#bibliography-online-microsoft-kb294714" title="Microsoft Knowledge Base Article 294714">[<abbr class="abbrev">MSKB-294714</abbr>]</a>.
+Παρακαλώ σημειώστε, ότι αυτό δεν είναι κατ' ανάγκη για τον Internet Explorer 7 και πάνω.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3" title="1.2.4. Saving as TIFF">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="file-tiff-save"></a>1.2.4. Αποθήκευση ως TIFF</h4>
+</div>
+</div>
+</div>
+<div class="figure">
+<a id="id3170005"></a>
+<p class="title">
+<b>Εικόνα 6.5. Ο διάλογος αποθήκευσης TIFF</b>
+</p>
+<div class="figure-contents">
+<a id="id3170013" class="indexterm"></a>
+<a id="id3170023" class="indexterm"></a>
+<a id="id3170032" class="indexterm"></a>
+<div class="mediaobject">
+<img src="images/using/save-tiff-dialog.png" alt="Ο διάλογος αποθήκευσης TIFF" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="variablelist">
+<dl>
+<dt>
+<span class="term">Συμπίεση</span>
+</dt>
+<dd>
+<p>
+Αυτή η επιλογή σας επιτρέπει να ορίσετε το χρησιμοποιούμενο αλγόριθμο για συμπίεση της εικόνας.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+<span class="guilabel">None (Κανένας)</span>: Είναι γρήγορος και χωρίς απώλειες, αλλά το προκύπτον αρχείο
+είναι πολύ μεγάλο.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">LZW</span>. Η εικόνα συμπιέζεται χρησιμοποιώντας τον αλγόριθμο
+<span class="quote">“<span class="quote">Lempel-Ziv-Welch</span>”</span>, μια τεχνική συμπίεσης χωρίς απώλειες.
+Αυτός είναι παλιός, αλλά αποτελεσματικός και γρήγορος. Περισσότερες πληροφορίες στο:
+<a class="xref" href="bibliography.html#bibliography-online-wkpd-lzw" title="Wikipedia - LZW">[<abbr class="abbrev">WKPD-LZW</abbr>]</a>.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">Pack Bits (Bits ανά πακέτο)</span>: Γρήγορο, απλό σχήμα συμπίεσης για κωδικοποίηση
+δεδομένων. Η Apple εισήγαγε την μορφή PackBits με την έκδοση του MacPaint σε υπολογιστή Macintosh. Μια ροή
+δεδομένων PackBits αποτελείται από πακέτα επικεφαλίδας του ενός byte ακολουθούμενα από δεδομένα. (Πηγή:
+<a class="xref" href="bibliography.html#bibliography-online-wkpd-packbits" title="Wikipedia - PackBits">[<abbr class="abbrev">WKPD-PACKBITS</abbr>]</a>)
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">Deflate (Ξεφούσκωμα)</span>: Είναι ένας αλγόριθμος συμπίεσης δεδομένων χωρίς απώλειες
+που χρησιμοποιεί ένα συνδυασμό του αλγόριθμου LZ77 και του κώδικα Huffman. Χρησιμοποιείται επίσης σε μορφές
+αρχείων Zip, Gzip και PNG. Πηγή::
+<a class="xref" href="bibliography.html#bibliography-online-wkpd-deflate" title="Wikipedia - Deflate">[<abbr class="abbrev">WKPD-DEFLATE</abbr>]</a>.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">JPEG</span>: Είναι ένας πολύ καλός αλγόριθμος συμπίεσης, αλλά με απώλειες.
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="guilabel">CCITT Group 3 fax</span>;
+<span class="guilabel">CCITT Group 4 fax</span> είναι μια μορφή ασπρόμαυρη που αναπτύχθηκε για μεταφορά εικόνων
+με φαξ.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Αυτές οι επιλογές μπορεί να επιλεγούν μόνο εάν η εικόνα είναι σε κατάσταση χρωματολογίου και μειωθεί σε δύο
+χρώματα. Πατήστε <span class="guimenu">Εικόνα</span> → <span class="guisubmenu">Κατάσταση</span> → <span class="guimenuitem">Από χρωματολόγιο</span>
+για μετατροπή σε εικόνα από χρωματολόγιο. Βεβαιωθείτε για την ενεργοποίηση
+<span class="quote">“<span class="quote">Χρήση ασπρόμαυρης (1-bit)παλέτας</span>”</span>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</dd>
+<dt>
+<span class="term">Save color values from transparent pixels (Αποθήκευση χρωματικών τιμών από διαφανή εικονοστοιχεία)</span>
+</dt>
+<dd>
+<p>
+Με αυτήν την επιλογή οι χρωματικές τιμές αποθηκεύονται ακόμα κι αν τα εικονοστοιχεία είναι ολότελα διαφανή.
+</p>
+</dd>
+<dt>
+<span class="term">Σχόλιο</span>
+</dt>
+<dd>
+<p>
+Σε αυτό το πλαίσιο κειμένου, μπορείτε να εισάγετε ένα σχόλιο που συνδέεται με την εικόνα.
+</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-image-browser.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-web.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-image-browser.html">3.8. Περιηγητής εικόνας</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-web.html">2. Προετοιμασία εικόνων για τον ιστό</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

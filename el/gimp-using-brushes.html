@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>7. Προσθήκη νέων πινέλων</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-painting.html" title="Κεφάλαιο 7. Βάφοντας με το GIMP" />
+<link rel="prev" href="gimp-concepts-brushes.html" title="6. Πινέλα" />
+<link rel="next" href="gimp-using-animated-brushes.html" title="8. Το πλαίσιο διαλόγου GIH" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">7. Προσθήκη νέων πινέλων</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-concepts-brushes.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 7. Βάφοντας με το GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-animated-brushes.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="7. Προσθήκη νέων πινέλων">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-using-brushes"></a>7. Προσθήκη νέων πινέλων</h2>
+</div>
+</div>
+</div>
+<a id="id3137191" class="indexterm"></a>
+<p>
+Για να προσθέσετε ένα νέο πινέλο, μετά από δημιουργία ή κατέβασμα, χρειάζεται να το αποθηκεύσετε σε μια μορφή
+που το GIMP μπορεί να χρησιμοποιήσει. Το αρχείο πινέλου πρέπει να τοποθετηθεί στη διαδρομή αναζήτησης πινέλου του
+GIMP, έτσι ώστε το GIMP να μπορεί να το ευρετηριοποιήσει και να το εμφανίσει στο διάλογο πινέλων. Μπορείτε να
+πατήσετε το πλήκτρο του <span class="guibutton">Ανανέωση</span>, που επαναευρετηριοποιεί τον κατάλογο των
+πινέλων. Το GIMP χρησιμοποιεί τρεις μορφές αρχείων για πινέλα.
+</p>
+<div class="variablelist">
+<a id="brushes-file-formats"></a>
+<a id="id3146190" class="indexterm"></a>
+<dl>
+<dt>
+<span class="term">GBR</span>
+</dt>
+<dd>
+<a id="id3156182" class="indexterm"></a>
+<a id="id3150389" class="indexterm"></a>
+<p>
+Η μορφή <code class="filename">.gbr</code> του <span class="emphasis"><em>("π</em></span>ινέλου <span class="emphasis"><em>g</em></span>imp")
+χρησιμοποιείται για συνηθισμένα και χρωματιστά πινέλα. Μπορείτε να μετατρέψετε πολλούς άλλους τύπους εικόνων
+συμπεριλαμβανόμενων πολλών πινέλων που χρησιμοποιούνται από άλλα προγράμματα, σε πινέλα στο GIMP, ανοίγοντας τα
+στο GIMP και αποθηκεύοντας τα με όνομα αρχείου που λήγει σε <code class="filename">.gbr</code>. Αυτό φέρνει ένα
+κουτί διαλόγου στο οποίο μπορείτε να ορίσετε το προκαθορισμένο διάκενο για το πινέλο. Μια πιο πλήρης περιγραφή
+του τύπου αρχείου GBR μπορείτε να βρείτε στο αρχείο <code class="filename">gbr.txt</code> στον κατάλογο
+<code class="filename">devel-docs</code> της πηγαίας διανομής του GIMP.
+</p>
+<div class="figure">
+<a id="id3153342"></a>
+<p class="title">
+<b>Εικόνα 7.17. Αποθήκευση πινέλου <code class="filename">.gbr</code></b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/file-gbr-save.png" alt="Αποθήκευση πινέλου .gbr" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</dd>
+<dt>
+<span class="term">GIH</span>
+</dt>
+<dd>
+<a id="id3199390" class="indexterm"></a>
+<a id="id3199399" class="indexterm"></a>
+<p>
+Η μορφή <code class="filename">.gih</code> της (<span class="emphasis"><em>"κ</em></span>ινούμενης
+<span class="emphasis"><em> ει</em></span>κόνας <span class="emphasis"><em>g</em></span>imp") χρησιμοποιείται
+για κινούμενα πινέλα. Αυτά τα πινέλα κατασκευάζονται από εικόνες που περιέχουν πολλαπλές στρώσεις. Κάθε στρώση
+μπορεί να περιέχει πολλαπλούς τύπος πινέλου, ταχτοποιημένους σε πλέγμα. Όταν αποθηκεύεται μια εικόνα ως αρχείο
+<code class="filename">.gih</code>, εμφανίζεται ένας διάλογος που σας επιτρέπει να περιγράψετε τη μορφή του
+πινέλου. Κοιτάξτε το <a class="link" href="gimp-using-animated-brushes.html" title="8. Το πλαίσιο διαλόγου GIH">Το πλαίσιο διαλόγου GIH
+</a> για περισσότερες πληροφορίες για το διάλογο. Η μορφή GIH είναι μάλλον περίπλοκη. Μια πλήρης περιγραφή μπορεί
+να βρεθεί στο αρχείο <code class="filename">gih.txt</code> στον κατάλογο <code class="filename">devel-docs</code>
+της πηγαίας έκδοσης του GIMP.
+</p>
+</dd>
+<dt>
+<span class="term">VBR</span>
+</dt>
+<dd>
+<a id="id3199476" class="indexterm"></a>
+<a id="id3199486" class="indexterm"></a>
+<p>
+Η μορφή <code class="filename">.vbr</code> χρησιμοποιείται για παραμετρικά πινέλα, δηλαδή πινέλα που δημιουργήθηκαν
+χρησιμοποιώντας τον επεξεργαστή πινέλου. Δεν υπάρχει άλλος τρόπος για λήψη αρχείων σε αυτή τη μορφή.
+</p>
+</dd>
+</dl>
+</div>
+<p>
+Για να καταστήσετε ένα πινέλο διαθέσιμο, τοποθετήστε το σε έναν από τους φακέλους στη διαδρομή αναζήτησης πινέλου του
+GIMP. Από προεπιλογή, η διαδρομή αναζήτησης πινέλου περιλαμβάνει δύο φακέλους, το φάκελο συστήματος,
+<code class="filename">brushes</code>, που δεν πρέπει να χρησιμοποιήσετε ή να μεταβάλλετε και το φάκελο
+<code class="filename">brushes</code> στο προσωπικό σας κατάλογο GIMP. Μπορείτε να προσθέσετε νέους
+φακέλους στη διαδρομή αναζήτησης πινέλου χρησιμοποιώντας
+<a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Φάκελοι">Πινέλα</a>
+του διαλόγου προτιμήσεων. Οποιοδήποτε αρχείο GBR, GIH ή VBR συμπεριλαμβάνεται σε έναν κατάλογο
+της διαδρομής αναζήτησης πινέλου θα εμφανιστεί στο διάλογο πινέλων την επόμενη φορά που ξεκινάτε το GIMP
+ή μόλις πιέσετε το κουμπί <span class="guibutton">Ανανέωση</span> στο διάλογο πινέλων.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Όταν δημιουργείτε ένα νέο παραμετρικό πινέλο χρησιμοποιώντας τον επεξεργαστή πινέλου , αποθηκεύεται αυτόματα
+στον προσωπικό σας φάκελο <code class="filename">brushes</code>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+Υπάρχει ένας αριθμός ιστότοπων με φορτώσιμες συλλογές πινέλων του GIMP. Είναι προτιμότερο αντί για έναν κατάλογο
+συνδέσμων που σύντομα θα ξεπεραστούν ψάξτε με μια μηχανή αναζήτησης για <span class="quote">“<span class="quote">GIMP brushes</span>”</span>.
+Υπάρχουν επίσης πολλές συλλογές πινέλων για άλλα προγράμματα με λειτουργικότητα βαφής. Μερικές μπορούν εύκολα να
+μετατραπούν σε πινέλα GIMP, μερικές απαιτούν ειδικές λειτουργικές μετατροπές και άλλες δεν μπορούν να μετατραπούν.
+καθόλου. Οι πιο φανταχτεροί τύποι πινέλων ανήκουν στην τελευταία κατηγορία.
+</p>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-concepts-brushes.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-painting.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-animated-brushes.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-concepts-brushes.html">6. Πινέλα</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-animated-brushes.html">8. Το πλαίσιο διαλόγου GIH</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

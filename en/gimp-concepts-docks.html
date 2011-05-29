@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.3. Dialogs and Docking</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-concepts-main-windows.html" title="2. Main Windows" />
+    <link rel="prev" href="gimp-image-window.html" title="2.2. Image Window" />
+    <link rel="next" href="gimp-concepts-undo.html" title="3. Undoing" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.3. Dialogs and Docking</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="gimp-image-window.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">2. Main Windows</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-undo.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="2.3. Dialogs and Docking">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-concepts-docks"></a>2.3. Dialogs and Docking</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id3177263" class="indexterm"></a>
+      <a id="id3177273" class="indexterm"></a>
+      <div class="sect3" title="2.3.1. Docking Areas">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-dock-separator"></a>2.3.1. Docking Areas</h4>
+            </div>
+          </div>
+        </div>
+        <a id="id3190693" class="indexterm"></a>
+        <p>
+      <acronym class="acronym">GIMP</acronym> has great flexibility for arranging
+      dialog windows on your screen. Instead of placing each dialog in its
+      own window, you can group dialogs using docks. A "dock" is a
+      container window that can hold a collection of persistent dialogs, such
+      as the Tool Options dialog, Brushes dialog, Palette dialog, etc. Docks
+      cannot, however, hold non-persistent dialogs such as
+      the Preferences dialog or an Image window.
+    </p>
+        <p>
+      <acronym class="acronym">GIMP</acronym> has two default docks:
+      </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" type="disc">
+            <li class="listitem">
+              <p>
+            The Layers, Channels and Paths dock.
+          </p>
+            </li>
+            <li class="listitem">
+              <p>
+            The Brushes, Patterns and Gradients dock.
+          </p>
+            </li>
+          </ul>
+        </div>
+        <p>
+      In these docks, each window is in its own tab.
+    </p>
+        <p>
+      The Toolbox is a <span class="emphasis"><em>utility window</em></span>. The
+      Tool Options window is normally attached under the Toolbox and displays
+      the options of the selected tool.
+    </p>
+        <p>
+      Use
+      <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span>.
+      view a list of dockable dialogs. Choose a dockable dialog from
+      the list to view the dialog. If the dialog is available in a dock,
+      then it is made visible. If the dialog is not in a dock, then
+      it is displayed in its own window. Note that the Windows command
+      is only available while an image is open for editing.
+    </p>
+        <p>
+      Every dockable dialog has two types of docking areas: the docking bars
+      and the docking-tab area. In a dock, the docking-tab area covers
+      the entire window.
+    </p>
+        <div class="figure">
+          <a id="figure-docking-types"></a>
+          <p class="title">
+            <b>Figure 3.5. The two docking types</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/dock-attached.png" alt="The two docking types" />
+              <div class="caption">
+                <p>The dockable window is docked onto a dock bar.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/using/dock-tab.png" alt="The two docking types" />
+              <div class="caption">
+                <p>
+            The dockable window is docked onto the docking-tab area. A
+            new tab has been created.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3" title="2.3.2. Docking Bars">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-dockable-dock-bars"></a>2.3.2. Docking Bars</h4>
+            </div>
+          </div>
+        </div>
+        <a id="id3170659" class="indexterm"></a>
+        <p>
+      Each dockable window has two <span class="emphasis"><em>docking bars</em></span>. These
+      bars are thin gray bars, very unobtrusive and easy to not notice: most
+      people don't realize that they exist until they are specifically pointed
+      out.
+    </p>
+        <div class="figure">
+          <a id="figure-dock"></a>
+          <p class="title">
+            <b>Figure 3.6. Docking bars</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/dialog-highlight-dockbar.png" alt="Docking bars" />
+              <div class="caption">
+                <p>
+            A window with <span class="emphasis"><em>docking bars</em></span> highlighted.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3" title="2.3.3. Docking Drag Handles">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-dockable-drag-area"></a>2.3.3. Docking Drag Handles</h4>
+            </div>
+          </div>
+        </div>
+        <a id="id3171918" class="indexterm"></a>
+        <p>
+      Each dockable window has a <span class="emphasis"><em>drag handle area</em></span>,
+      as highlighted in the figure below. The cursor changes to a hand
+      shape when it is over a drag handle area. To dock a dialog, click in
+      the drag handle area, and drag it:
+      </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" type="disc">
+            <li class="listitem">
+              <p>
+            onto a docking bar so that the dialog is attached
+            below the docking bar in the window,
+          </p>
+            </li>
+            <li class="listitem">
+              <p>
+            or into the docking-tab area so that the dialog is
+            added as a tab.
+          </p>
+            </li>
+          </ul>
+        </div>
+        <p>
+    </p>
+        <div class="figure">
+          <a id="figure-docked-dialogs"></a>
+          <p class="title">
+            <b>Figure 3.7. A dockable window, with the drag handle area highlighted</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/dialog-highlight-handle.png" alt="A dockable window, with the drag handle area highlighted" />
+              <div class="caption">
+                <p>
+            This screenshot shows the area that can be used to drag a
+            dialog window onto a dock. It can also be used to take a dialog
+            off the dock.
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      You can drag more than one dialog onto the same docking bar. If you do,
+      the dialogs are displayed as tabs, represented by iconic symbols at the
+      top. Click on the iconic symbol to bring the tab to the front.
+    </p>
+        <div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Note]" src="images/note.png" />
+              </td>
+              <th align="left">Note</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        You can also add, detach, or delete a tab window
+        using the Tab menu (see below).
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[Tip]" src="images/tip.png" />
+              </td>
+              <th align="left">Tip</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>
+        Press <span class="keycap"><strong>TAB</strong></span> in an Image window to toggle the
+        visibility of the docks. This is useful if the docks hide a portion
+        of the image Window. You can quickly hide all the docks,
+        do your work, then display all the docs again.
+        Pressing <span class="keycap"><strong>TAB</strong></span> inside a dock to navigate
+        through the dock.
+      </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3" title="2.3.4. Image Selection">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-dock-image-menu"></a>2.3.4. Image Selection</h4>
+            </div>
+          </div>
+        </div>
+        <a id="gimp-dock-auto-button"></a>
+        <a id="id3174023" class="indexterm"></a>
+        <p>
+      Some docks contain an <span class="emphasis"><em>Image Selection Menu</em></span>:
+      a menu listing all of the images open in <acronym class="acronym">GIMP</acronym>.
+      The Image Menu displays the name of the image whose information
+      is shown in the dock.
+      Use the <span class="guilabel">Auto</span> button to toggle the value of
+      <span class="guilabel">Auto Follow Active Image</span>.
+      Suppose you are using the Layers dialog and you want to see
+      the layers for a different image. Select the desired image from the
+      Image Selection Menu. Although this is convenient, do not forget that
+      you changed the working image for the dock. Setting
+      <span class="guilabel">Auto Follow Active Image</span> from the Tab menu
+      helps to avoid this problem.
+    </p>
+        <div class="figure">
+          <a id="figure-highlight-imagemenu"></a>
+          <p class="title">
+            <b>Figure 3.8. A dock with an Image Menu highlighted.</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/dialog-highlight-imagemenu.png" alt="A dock with an Image Menu highlighted." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      By default, a <span class="quote">“<span class="quote">Layers, Channels, and Paths</span>”</span>
+      dock shows an Image Menu at the top, and other types of docks do not.
+      You can always add or remove an Image Menu, however, using the
+      <span class="quote">“<span class="quote">Show Image Menu</span>”</span> toggle in the Tab menu, as described
+      below. (Exception: you
+      cannot add an Image Menu to the dock that contains the Toolbox.)
+    </p>
+      </div>
+      <div class="sect3" title="2.3.5. Tab Menu">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-dockable-menu"></a>2.3.5. Tab Menu</h4>
+            </div>
+          </div>
+        </div>
+        <a id="id3184214" class="indexterm"></a>
+        <div class="figure">
+          <a id="id3184228"></a>
+          <p class="title">
+            <b>Figure 3.9. A dialog in a dock, with the Tab menu button highlighted.</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/dialog-highlight-tabmenu.png" alt="A dialog in a dock, with the Tab menu button highlighted." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      In each dialog, you can access a special menu of tab-related operations
+      by pressing the Tab Menu button, as highlighted in the figure above.
+      Exactly which commands are shown in the menu varies a bit from
+      dialog to dialog, but they always include operations for creating new
+      tabs, or closing or detaching tabs.
+    </p>
+        <div class="figure">
+          <a id="id3188978"></a>
+          <p class="title">
+            <b>Figure 3.10. Tab menu from the Layers dialog.</b>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/tab-menu.png" alt="Tab menu from the Layers dialog." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>
+      The Tab menu gives you access to the following commands:
+    </p>
+        <div class="variablelist">
+          <dl>
+            <dt>
+              <span class="term">Context Menu</span>
+            </dt>
+            <dd>
+              <a id="id3184254" class="indexterm"></a>
+              <p>
+            At the top of each Tab menu is an entry that opens into the
+            dialog's context menu, which contains operations specific to that
+            particular type of dialog. For example, the context menu for the
+            Layers tab is <span class="guilabel">Layers Menu</span>, which contains
+            a set of operations for manipulating layers.
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-tab-add"></a>
+              <span class="term">Add Tab</span>
+            </dt>
+            <dd>
+              <a id="id3197301" class="indexterm"></a>
+              <p>
+            <span class="guilabel">Add Tab</span> opens into a submenu allowing you to
+            add a large variety of dockable dialogs as new tabs.
+          </p>
+              <div class="figure">
+                <a id="id3179232"></a>
+                <p class="title">
+                  <b>Figure 3.11. <span class="quote">“<span class="quote">Add tab</span>”</span> sub-menu</b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/tab-menu-add-tab.png" alt="Add tab sub-menu" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <a id="gimp-dock-tab-close"></a>
+              <span class="term">Close Tab</span>
+            </dt>
+            <dd>
+              <a id="id3167527" class="indexterm"></a>
+              <p>
+            Close the dialog. Closing the last dialog in a dock
+            causes the dock itself to close.
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-tab-detach"></a>
+              <span class="term">Detach Tab</span>
+            </dt>
+            <dd>
+              <a id="id3187852" class="indexterm"></a>
+              <p>
+            Detach the dialog from the dock, creating a new dock
+            with the detached dialog as its only member. It has the same
+            effect as dragging the tab out of the dock and releasing it at a
+            location where it cannot be docked.
+          </p>
+              <p>
+            If the tab is <a class="link" href="gimp-concepts-docks.html#gimp-dock-tab-lock">locked</a>,
+            this menu item is insensitive and grayed out.
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-tab-lock"></a>
+              <span class="term">Lock Tab to Dock</span>
+            </dt>
+            <dd>
+              <a id="id3208388" class="indexterm"></a>
+              <p>
+            Prevent the dialog from being moved or detached. When activated,
+            <span class="guimenuitem">Detach Tab</span> is insensitive and grayed
+            out.
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-preview-size"></a>
+              <span class="term">Preview Size</span>
+            </dt>
+            <dd>
+              <a id="id3208426" class="indexterm"></a>
+              <a id="id3116046" class="indexterm"></a>
+              <div class="figure">
+                <a id="id3116060"></a>
+                <p class="title">
+                  <b>Figure 3.12. Preview Size submenu of a Tab menu.</b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/tab-menu-preview-size.png" alt="Preview Size submenu of a Tab menu." />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <a id="id3116085" class="indexterm"></a>
+              <p>
+            Many, but not all, dialogs have Tab menus containing a
+            <span class="guilabel">Preview Size</span>
+            option, which opens into a submenu giving a list of sizes for the
+            items in the dialog (see the figure above).
+            For example, the Brushes dialog shows pictures of all available
+            brushes: the Preview Size determines how large the pictures are.
+            The default is <span class="guilabel">Medium</span>.
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-tab-style"></a>
+              <span class="term">Tab Style</span>
+            </dt>
+            <dd>
+              <div class="figure">
+                <a id="id3189612"></a>
+                <p class="title">
+                  <b>Figure 3.13. Tab Style submenu of a Tab menu.</b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/tab-menu-tab-style.png" alt="Tab Style submenu of a Tab menu." />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <a id="id3213176" class="indexterm"></a>
+              <p>
+            Available only when multiple dialogs are in the same dock,
+            <span class="guilabel">Tab Style</span> opens a submenu allowing you
+            to choose the appearance of the tabs at the top (see the figure
+            above). There are five choices, not all are available for every
+            dialog:
+          </p>
+              <p>
+            </p>
+              <div class="variablelist">
+                <dl>
+                  <dt>
+                    <span class="term">Icon</span>
+                  </dt>
+                  <dd>
+                    <p>
+                    Use an icon to represent the dialog type.
+                  </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Current Status</span>
+                  </dt>
+                  <dd>
+                    <p>
+                    Is only available for dialogs that allows you
+                    to select something, such as a brush, pattern,
+                    gradient, etc. <span class="guilabel">Current Status</span>
+                    shows a representation of the currently selected
+                    item in the tab top.
+                  </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Text</span>
+                  </dt>
+                  <dd>
+                    <p>
+                    Use text to display the dialog type.
+                  </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Icon and Text</span>
+                  </dt>
+                  <dd>
+                    <p>
+                    Using both an icon and text results in wider tabs.
+                  </p>
+                  </dd>
+                  <dt>
+                    <span class="term">Status and Text</span>
+                  </dt>
+                  <dd>
+                    <p>
+                    Show the currently selected item and text with the dialog
+                    type.
+                  </p>
+                  </dd>
+                </dl>
+              </div>
+              <p>
+          </p>
+            </dd>
+            <dt>
+              <a id="gimp-dock-view-as-list"></a>
+              <span class="term">View as List; View as Grid</span>
+            </dt>
+            <dd>
+              <a id="gimp-dock-view-as-grid"></a>
+              <a id="id3120513" class="indexterm"></a>
+              <a id="id3198384" class="indexterm"></a>
+              <p>
+            These entries are shown in dialogs that allow you to select an
+            item from a set: brushes, patterns, fonts, etc. You can choose
+            to view the items as a vertical list, with the name of
+            each beside it, or as a grid, with representations of the items
+            but no names. Each has its advantages: viewing as a list gives you
+            more information, but viewing as a grid allows you to see
+            more possibilities at once. The default for this varies across
+            dialogs: for brushes and patterns, the default is a grid; for most
+            other things, the default is a list.
+          </p>
+              <div class="tip" title="Tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Tip">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[Tip]" src="images/tip.png" />
+                    </td>
+                    <th align="left">Tip</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>
+              When the treeview is <span class="guilabel">View as List</span>, pressing
+              <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>F</strong></span> (or
+              <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>S</strong></span>,
+              it depends on your GTK+ keybindings), opens a text box, a
+              search field, where you can enter the first letter(s) of the
+              name of the item you want. The search field will not open
+              with <span class="guilabel">View as Grid</span>.
+            </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="figure">
+                <a id="id3207516"></a>
+                <p class="title">
+                  <b>Figure 3.14. The list search field.</b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/list-search-field.png" alt="The list search field." />
+                    <div class="caption">
+                      <p>
+                  Use
+                  <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>F</strong></span>
+                  to open the list search field.
+                </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>
+            The list search field automatically closes after five seconds
+            if you do nothing.
+          </p>
+              <div class="note" title="Note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Note">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[Note]" src="images/note.png" />
+                    </td>
+                    <th align="left">Note</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>
+              The search field shortcut is also available for the treeview you
+              get in the <span class="quote">“<span class="quote">Brush</span>”</span>, <span class="quote">“<span class="quote">Font</span>”</span> or
+              <span class="quote">“<span class="quote">Pattern</span>”</span> option of several tools.
+            </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </dd>
+            <dt>
+              <a id="gimp-dock-show-button-bar"></a>
+              <span class="term">Show Button Bar</span>
+            </dt>
+            <dd>
+              <p>
+            Some dialogs display a button bar on the bottom of the dialog; for
+            example, the Patterns, Brushes, Gradients, and Images dialogs.
+            This is a toggle. If it is checked, then the Button Bar is
+            displayed.
+          </p>
+              <div class="figure">
+                <a id="id3116111"></a>
+                <p class="title">
+                  <b>Figure 3.15. Button Bar on the Brushes dialog.</b>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/dialog-button-bar.png" alt="Button Bar on the Brushes dialog." />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Show Image Selection</span>
+            </dt>
+            <dd>
+              <p>
+            This is a toggle. If it is checked, then an Image Menu is shown at
+            the top of the dock
+            (see <a class="xref" href="gimp-concepts-docks.html#figure-highlight-imagemenu" title="Figure 3.8. A dock with an Image Menu highlighted.">Figure 3.8, “A dock with an Image Menu highlighted.”</a>).
+            It is not available for dialogs docked below the Toolbox. This
+            option is interesting only if you have several open images on your
+            screen.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">Auto Follow Active Image</span>
+            </dt>
+            <dd>
+              <p>
+            This option is also interesting only if you have several images
+            open on your screen. Then, the information displayed in a dock
+            is always that of the selected image in the Image Selection
+            drop-down list. If the <span class="guilabel">Auto Follow Active Image
+            </span> is disabled, the image can be selected only in the
+            Image Selection. If enabled, you  can also select it by
+            activating the image directly (clicking on its title bar).
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-image-window.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-concepts-main-windows.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-undo.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-image-window.html">2.2. Image Window</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-undo.html">3. Undoing</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

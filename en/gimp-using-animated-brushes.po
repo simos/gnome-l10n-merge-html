@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-animated-brushes.html:6(title) en/gimp-using-animated-brushes.html:21(th) en/gimp-using-animated-brushes.html:31(div:title)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:13(link:title) en/gimp-using-animated-brushes.html:25(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:14(link:title) en/gimp-using-animated-brushes.html:610(a)
+msgid "7. Adding New Brushes"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:15(link:title) en/gimp-using-animated-brushes.html:616(a)
+msgid "9. Varying brush size"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:24(img:alt) en/gimp-using-animated-brushes.html:601(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:24(td) en/gimp-using-animated-brushes.html:601(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-brushes.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:26(img:alt) en/gimp-using-animated-brushes.html:607(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:26(td) en/gimp-using-animated-brushes.html:607(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-variable-size-brush.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:35(h2)
+msgid "<a id=\"gimp-using-animated-brushes\"/>8. The GIH Dialog Box"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:40(p)
+msgid "When your new animated brush is created, it is displayed within the image window and you would like save it into a gih format. You select <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">Save as...</span> menu, name your work with the gih extension in the new window relevant field and as soon as you pressed the Save button, the following window is displayed:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:51(b)
+msgid "Figure 7.18. The dialog to describe the animated brush"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:55(img:alt)
+msgid "The dialog to describe the animated brush"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:57(p)
+msgid "This dialog box shows up, if you save an image as GIMP image hose"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:65(p)
+msgid "This dialog box has several options not easy to understand. They allow you to determine the way your brush is animated."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:72(span)
+msgid "Spacing (Percent)"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:75(p)
+msgid "<span class=\"quote\">“<span class=\"quote\">Spacing</span>”</span> is the distance between consecutive brush marks when you trace out a brushstroke with the pointer. You must consider drawing with a brush, whatever the paint tool, like stamping. If Spacing is low, stamps will be very close and stroke look continuous. If spacing is high, stamps will be separated: that's interesting with a color brush (like <span class=\"quote\">“<span class=\"quote\">green pepper</span>”</span> for instance). Value varies from 1 to 200 and this percentage refers to brush <span class=\"quote\">“<span class=\"quote\">diameter</span>”</span>: 100% is one diameter."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:88(span)
+msgid "Description"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:91(p)
+msgid "It's the brush name that will appear at the top of Brush Dialog (grid mode) when the brush is selected."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:97(span)
+msgid "Cell Size"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:100(p)
+msgid "That's size of cells you will cut up in layers... Default is one cell per layer and size is that of the layer. Then there is only one brush aspect per layer."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:105(p)
+msgid "We could have only one big layer and cut up in it the cells that will be used for the different aspects of the animated brush."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:109(p)
+msgid "For instance, we want a 100x100 pixels brush with 8 different aspects. We can take these 8 aspects from a 400x200 pixels layer, or from a 300x300 pixels layer but with one cell unused."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:116(span)
+msgid "Number of cells"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:119(p)
+msgid "That's the number of cells (one cell per aspect) that will be cut in every layer. Default is the number of layers as there is only one layer per aspect."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:126(span)
+msgid "Display as"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:129(p)
+msgid "This tells how cells have been arranged in layers. If, for example, you have placed height cells at the rate of two cells per layer on four layers, GIMP will display: <code class=\"computeroutput\">1 rows of 2 columns on each layer</code>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:137(span)
+msgid "Dimension, Ranks, Selection"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:140(p)
+msgid "There things are getting complicated! Explanations are necessary to understand how to arrange cell and layers."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:144(p)
+msgid "GIMP starts retrieving cells from each layer and stacks them into a FIFO stack (First In First Out: the first in is at the top of the stack and so can be first out). In our example 4 layers with 2 cells in each, we'll have, from top to bottom: first cell of first layer, second cell of first layer, first cell of second layer, second cell of second layer..., second cell of fourth layer. With one cell per layer or with several cells per layer, result is the same. You can see this stack in the Layer Dialog of the resulting <code class=\"filename\">.gih</code> image file."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:155(p)
+msgid "Then GIMP creates a computer array from this stack with the <span class=\"guilabel\">Dimensions</span> you have set. You can use four dimensions."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:160(p)
+msgid "In computer science an array has a <span class=\"quote\">“<span class=\"quote\">myarray(x,y,z)</span>”</span> form for a 3 dimensions array (3D). It's easy to imagine a 2D array: on a paper it's an array with rows and columns"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:168(p)
+msgid "With a 3d array we don't talk rows and columns but <span class=\"guilabel\">Dimensions</span> and <span class=\"guilabel\">Ranks</span>. The first dimension is along x axis, the second dimension along y axis, the third along z axis. Each dimension has ranks of cells."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:180(p)
+msgid "To fill up this array, GIMP starts retrieving cells from the top of stack. The way it fills the array reminds that of an odometer: right rank digits turn first and, when they reach their maximum, left rank digits start running. If you have some memories of Basic programming you will have, with an array(4,2,2), the following succession: (1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,2),(3,1,1).... (4,2,2). We will see this later in an example."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:189(p)
+msgid "Besides the rank number that you can give to each dimension, you can also give them a <span class=\"guilabel\">Selection</span> mode. You have several modes that will be applied when drawing:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:197(span)
+msgid "Incremental"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:200(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> selects a rank from the concerned dimension according to the order ranks have in that dimension."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:206(span)
+msgid "Random"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:209(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> selects a rank at random from the concerned dimension."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:215(span)
+msgid "Angular"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:218(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> selects a rank in the concerned dimension according to the moving angle of the brush."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:222(p)
+msgid "The first rank is for the direction 0°, upwards. The other ranks are affected, clockwise, to an angle whose value is 360/number of ranks. So, with 4 ranks in the concerned dimension, the angle will move 90° clockwise for each direction change: second rank will be affected to 90° (rightwards), third rank to 180° (downwards) and fourth rank to 270° (-90°) (leftwards).<sup>[<a id=\"id3189752\" href=\"#ftn.id3189752\" class=\"footnote\">2</a>]</sup>"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:233(span)
+msgid "Speed, Pressure, x tilt, y tilt"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:236(p)
+msgid "These options are for sophisticated drawing tablets."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:245(div:title) en/gimp-using-animated-brushes.html:247(b)
+msgid "Examples"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:251(span)
+msgid "A one dimension image pipe"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:254(p)
+msgid "Well! What is all this useful for? We'll see that gradually with examples. You can actually place in each dimension cases that will give your brush a particular action."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:259(p)
+msgid "Let us start with a 1D brush which will allow us to study selection modes action. We can imagine it like this:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:266(p)
+msgid "Follow these steps:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:271(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:272(p)
+msgid "Open a new 30x30 pixels image, RGB with Transparent fill type. Using the Text tool create 4 layers <span class=\"quote\">“<span class=\"quote\">1</span>”</span>, <span class=\"quote\">“<span class=\"quote\">2</span>”</span>, <span class=\"quote\">“<span class=\"quote\">3</span>”</span>, <span class=\"quote\">“<span class=\"quote\">4</span>”</span>. Delete the <span class=\"quote\">“<span class=\"quote\">background</span>”</span> layer."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:279(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:280(p)
+msgid "Save this image first with <code class=\"filename\">.xcf</code> extension to keep its properties then save it as <code class=\"filename\">.gih</code>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:287(li:title)
+msgid "Step 3"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:288(p)
+msgid "The Save As Dialog is opened: select a destination for your image. OK. The GIH dialog is opened: Choose Spacing 100, give a name in Description box, 30x30 for Cell Size, 1 dimension, 4 ranks and choose <span class=\"quote\">“<span class=\"quote\">Incremental</span>”</span> in Selection box. OK."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:296(li:title)
+msgid "Step 4"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:297(p)
+msgid "You may have difficulties to save directly in the GIMP Brush directory. In that case, save the <code class=\"filename\">.gih</code> file manually into the <code class=\"filename\">/usr/share/gimp/gimp/2.0/brushes</code> directory. Then come back into the Toolbox, click in the brush icon to open the Brush Dialog then click on <span class=\"guibutton\">Refresh</span><span class=\"guiicon\"><img src=\"images/dialogs/stock-reload-16.png\"/></span> icon button. Your new brush appears in the Brush window. Select it. Select pencil tool for instance and click and hold with it on a new image:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:315(p)
+msgid "You see 1, 2, 3, 4 digits following one another in order."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:323(li:title) en/gimp-using-animated-brushes.html:508(li:title)
+msgid "Step 5"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:324(p)
+msgid "Take your <code class=\"filename\">.xcf</code> image file back and save it as <code class=\"filename\">.gih</code> setting Selection to <span class=\"quote\">“<span class=\"quote\">Random</span>”</span>:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:332(p)
+msgid "Digits will be displayed at random order."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:340(li:title)
+msgid "Step 6"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:341(p)
+msgid "Now select <span class=\"quote\">“<span class=\"quote\">Angular</span>”</span> Selection:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:354(span)
+msgid "A 3 dimensions image hose"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:357(p)
+msgid "We are now going to create a 3D animated brush: its orientation will vary according to brush direction, it will alternate Left/Right hands regularly and its color will vary at random between black and blue."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:363(p)
+msgid "The first question we have to answer to is the number of images that is necessary. We reserve the first dimension (x) to the brush direction (4 directions). The second dimension (y) is for Left/Right alternation and the third dimension (z) for color variation. Such a brush is represented in a 3D array <span class=\"quote\">“<span class=\"quote\">myarray(4,2,2)</span>”</span>:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:373(p)
+msgid "There are 4 ranks in first dimension (x), 2 ranks in second dimension (y) and 2 ranks in third dimension (z). We see that there are 4x2x2 = 16 cells. We need 16 images."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:380(li:title) en/gimp-using-animated-brushes.html:382(b)
+msgid "Creating images of dimension 1 (x)"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:384(p)
+msgid "Open a new 30x30 pixels image, RGB with Transparent Fill Type. Using the zoom draw a left hand with fingers upwards.<sup>[<a id=\"id3177550\" href=\"#ftn.id3177550\" class=\"footnote\">3</a>]</sup> Save it as <code class=\"filename\">handL0k.xcf</code> (hand Left 0° Black)."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:390(p)
+msgid "Open the Layer Dialog. Double click on the layer to open the Layer Attributes Dialog and rename it to handL0k."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:394(p)
+msgid "Duplicate the layer. Let visible only the duplicated layer, select it and apply a 90° rotation (Layer/Transform/ 90° rotation clockwise). Rename it to handL90k."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:399(p)
+msgid "Repeat the same operations to create handL180k and handL-90k (or handL270k)."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:404(li:title) en/gimp-using-animated-brushes.html:406(b)
+msgid "Creating images of dimension 2 (y)"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:408(p)
+msgid "This dimension in our example has two ranks, one for left hand and the other for right hand. The left hand rank exists yet. We shall build right hand images by flipping it horizontally."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:413(p)
+msgid "Duplicate the handL0k layer. Let it visible only and select it. Rename it to handR0K. Apply Layer/Transform/Flip Horizontally."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:417(p)
+msgid "Repeat the same operation on the other left hand layers to create their right hand equivalent."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:421(p)
+msgid "Re-order layers to have a clockwise rotation from top to bottom, alternating Left and Right: handL0k, handR0k, handL90k, handR90k, ..., handR-90k."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:427(li:title) en/gimp-using-animated-brushes.html:429(b)
+msgid "Creating images of dimension 3 (z)"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:431(p)
+msgid "<span class=\"emphasis\"><em>Creating images of dimension 3 (z)</em></span>: The third dimension has two ranks, one for black color and the other for blue color. The first rank, black, exists yet. We well see that images of dimension 3 will be a copy, in blue, of the images of dimension 2. So we will have our 16 images. But a row of 16 layers is not easy to manage: we will use layers with two images."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:440(p)
+msgid "Select the handL0k layer and let it visible only. Using Image/Canvas Size change canvas size to 60x30 pixels."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:444(p)
+msgid "Duplicate hand0k layer. On the copy, fill the hand with blue using Bucket Fill tool."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:448(p)
+msgid "Now, select the Move tool. Double click on it to accede to its properties: check <span class=\"guilabel\">Move the Current Layer</span> option. Move the blue hand into the right part of the layer precisely with the help of <span class=\"guisubmenu\">Zoom</span>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:454(p)
+msgid "Make sure only handL0k and its blue copy are visible. Right click on the Layer Dialog: Apply the <span class=\"guimenuitem\">Merge Visible Layers</span> command with the option <span class=\"guilabel\">Expand as Necessary</span>. You get a 60x30 pixels layer with the black hand on the left and the blue hand on the right. Rename it to <span class=\"quote\">“<span class=\"quote\">handsL0</span>”</span>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:462(p)
+msgid "Repeat the same operations on the other layers."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:466(li:title) en/gimp-using-animated-brushes.html:468(b)
+msgid "Set layers in order"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:470(p)
+msgid "Layers must be set in order so that GIMP can find the required image at some point of using the brush. Our layers are yet in order but we must understand more generally how to have them in order.There are two ways to imagine this setting in order. The first method is mathematical: GIMP divides the 16 layers first by 4; that gives 4 groups of 4 layers for the first dimension. Each group represents a direction of the brush. Then, it divides each group by 2; that gives 8 groups of 2 layers for the second dimension: each group represents a L/R alternation. Then another division by 2 for the third dimension to represent a color at random between black and blue."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:484(p)
+msgid "The other method is visual, by using the array representation. Correlation between two methods is represented in next image:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:493(p)
+msgid "<span class=\"emphasis\"><em>How will GIMP read this array?</em></span>: GIMP starts with the first dimension which is programmed for <span class=\"quote\">“<span class=\"quote\">angular</span>”</span>, for instance 90°. In this 90° rank, in yellow, in the second dimension, it selects a L/R alternation, in an <span class=\"quote\">“<span class=\"quote\">incremental</span>”</span> way. Then, in the third dimension, in a random way, it chooses a color. Finally, our layers must be in the following order:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:509(p)
+msgid "Voilà. Your brush is ready. Save it as <code class=\"filename\">.xcf</code> first, then as <code class=\"filename\">.gih</code> with the following parameters:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:518(p)
+msgid "Spacing: 100"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:521(p)
+msgid "Description: Hands"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:524(p)
+msgid "Cell Size: 30x30"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:527(p)
+msgid "Number of cells: 16"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:530(p)
+msgid "Dimensions: 3"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:534(p)
+msgid "Dimension 1: 4 ranks Selection: Angular"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:537(p)
+msgid "Dimension 2: 2 ranks Selection: Incremental"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:540(p)
+msgid "Dimension 3: 2 ranks Selection: Random"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:547(p)
+msgid "Place your <code class=\"filename\">.gih</code> file into <acronym class=\"acronym\">GIMP</acronym> brush directory and refresh the brush box. You can now use your brush."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:555(b)
+msgid "Figure 7.19.  Here is the result by stroking an elliptical selection with the brush:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:562(img:alt)
+msgid "Here is the result by stroking an elliptical selection with the brush:"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:564(p)
+msgid "This brush alternates right hand and left hand regularly, black and blue color at random, direction according to four brush directions."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:584(p)
+msgid "<sup>[<a id=\"ftn.id3189752\" href=\"#id3189752\" class=\"para\">2</a>] </sup> For previous <acronym class=\"acronym\">GIMP</acronym> versions you may have to replace <span class=\"quote\">“<span class=\"quote\">clockwise</span>”</span> with <span class=\"quote\">“<span class=\"quote\">counter-clockwise</span>”</span>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:591(p)
+msgid "<sup>[<a id=\"ftn.id3177550\" href=\"#id3177550\" class=\"para\">3</a>] </sup> Ok, we are cheating here: our hand is borrowed from <a class=\"ulink\" href=\"http://commons.wikimedia.org/wiki/File:Stop_hand.png\" target=\"_top\">http://commons.wikimedia.org/wiki/File:Stop_hand.png</a>."
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:604(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:610(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:613(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-animated-brushes.html:616(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

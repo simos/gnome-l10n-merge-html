@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-web.html:6(title) el/gimp-using-web.html:21(th) el/gimp-using-web.html:31(div:title)
+msgid "2. Προετοιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/gimp-using-web.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-web.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-web.html:13(link:title) el/gimp-using-web.html:14(link:title) el/gimp-using-web.html:25(th) el/gimp-using-web.html:160(a)
+msgid "Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP"
+msgstr ""
+
+#: el/gimp-using-web.html:15(link:title) el/gimp-using-web.html:166(a)
+msgid "2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
+msgstr ""
+
+#: el/gimp-using-web.html:24(img:alt) el/gimp-using-web.html:151(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-web.html:24(td) el/gimp-using-web.html:151(td)
+msgid "<a accesskey=\"p\" href=\"gimp-images-out.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-web.html:26(img:alt) el/gimp-using-web.html:157(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-web.html:26(td) el/gimp-using-web.html:157(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-web-reducing-file-size.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-web.html:35(h2)
+msgid "<a id=\"gimp-using-web\"/>2. Προετοιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/gimp-using-web.html:40(p)
+msgid "Μία από τις πιο κοινές χρήσεις του <acronym class=\"acronym\">GIMP</acronym> είναι η προετοιμασία εικόνων για διαδικτυακούς τόπους. Αυτό σημαίνει ότι οι εικόνες θα πρέπει να δείχνουν όσο το δυνατό πιο ωραίες, ενώ το μέγεθος του αρχείου όσο το δυνατό πιο μικρό. Αυτός ο οδηγός σας δείχνει πώς να δημιουργήσετε μικρά αρχεία με ελάχιστη απώλεια ποιότητας της εικόνας"
+msgstr ""
+
+#: el/gimp-using-web.html:46(div:title)
+msgid "2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας"
+msgstr ""
+
+#: el/gimp-using-web.html:50(h3)
+msgid "<a id=\"gimp-using-web-size-vs-quality\"/>2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας"
+msgstr ""
+
+#: el/gimp-using-web.html:54(p)
+msgid "Μία άριστη εικόνα για τον ιστό εξαρτάται από τον τύπο της εικόνας και τη μορφή αρχείου. Χρησιμοποιείστε <a class=\"link\" href=\"gimp-images-out.html#file-jpeg-save\" title=\"1.2.2.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7; &#x3C9;&#x3C2; JPEG\">JPEG</a> για φωτογραφίες, επειδή συνήθως έχουν πολλά χρώματα και πολλή λεπτομέρεια. Μια εικόνα με πιο λίγα χρώματα, όπως ένα κουμπί, εικονίδιο ή στιγμιότυπο ταιριάζει καλύτερα στη μορφή <a class=\"link\" href=\"gimp-images-out.html#file-png-load\">PNG</a>."
+msgstr ""
+
+#: el/gimp-using-web.html:63(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-using-web.html:64(p)
+msgid "Αρχικά, ανοίξτε την εικόνα όπως συνήθως. Άνοιξα τον Wilber ως παράδειγμα εικόνας."
+msgstr ""
+
+#: el/gimp-using-web.html:70(b)
+msgid "Εικόνα 6.6. Η εικόνα του Wilber ανοιγμένη σε κατάσταση RGBA"
+msgstr ""
+
+#: el/gimp-using-web.html:74(img:alt)
+msgid "Η εικόνα του Wilber ανοιγμένη σε κατάσταση RGBA"
+msgstr ""
+
+#: el/gimp-using-web.html:80(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-using-web.html:81(p)
+msgid "Η εικόνα είναι τώρα σε κατάσταση RGB, με ένα πρόσθετο <a class=\"link\" href=\"glossary.html#glossary-alpha\" title=\"&#x386;&#x3BB;&#x3C6;&#x3B1;\">άλφα κανάλι</a> (RGBA). Δεν υπάρχει συνήθως ανάγκη να έχουμε ένα άλφα κανάλι για την διαδικτυακή εικόνα σας. Μπορείτε να αφαιρέσετε το άλφα κανάλι με <a class=\"link\" href=\"gimp-image-flatten.html\" title=\"6.20.&#xA0;&#x399;&#x3C3;&#x3BF;&#x3C0;&#x3AD;&#x3B4;&#x3C9;&#x3C3;&#x3B7; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">ισοπέδωση εικόνας</a>."
+msgstr ""
+
+#: el/gimp-using-web.html:86(p)
+msgid "Μια φωτογραφία έχει σπάνια ένα κανάλι άλφα, έτσι η εικόνα θα ανοίξει σε κατάσταση RGB παρά σε κατάσταση RGBA και δεν θα έχετε να διώξετε το άλφα κανάλι."
+msgstr ""
+
+#: el/gimp-using-web.html:90(div:title) el/gimp-using-web.html:96(th) el/gimp-using-web.html:121(div:title) el/gimp-using-web.html:127(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-using-web.html:94(img:alt) el/gimp-using-web.html:125(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-using-web.html:100(p)
+msgid "Εάν η εικόνα έχει μια ομαλή μετάβαση σε περιοχές διαφάνειας, δεν πρέπει να απομακρύνετε το άλφα κανάλι, επειδή η χρησιμοποιούμενη πληροφορία για τη μετάβαση δεν αποθηκεύεται στο αρχείο. Για αποθήκευση μιας εικόνας με διαφανείς περιοχές που δεν έχουν ομαλή μετάβαση, (όμοια με το <a class=\"link\" href=\"gimp-images-out.html#file-gif-save\" title=\"1.2.1.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7; &#x3C9;&#x3C2; GIF\">GIF</a>), απομακρύνετε το άλφα κανάλι."
+msgstr ""
+
+#: el/gimp-using-web.html:112(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-using-web.html:113(p)
+msgid "Αφού ισοπεδώσετε την εικόνα, <a class=\"link\" href=\"gimp-file-save.html\" title=\"2.8.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7;\">αποθήκευση της εικόνας</a> σε <a class=\"link\" href=\"gimp-images-out.html#file-png-save-defaults\">μορφή PNG</a> για τον ιστότοπό σας."
+msgstr ""
+
+#: el/gimp-using-web.html:131(p)
+msgid "Μπορείτε να αποθηκεύσετε την εικόνα σας σε μορφή PNG με τις προκαθορισμένες ρυθμίσεις. Πάντοτε χρησιμοποιείτε μέγιστη συμπίεση, όταν δημιουργείτε την εικόνα. Η μέγιστη συμπίεση δεν έχει κανένα αποτέλεσμα στην ποιότητα της εικόνας ή τον απαιτούμενο χρόνο για εμφάνιση της εικόνας, αλλά χρειάζεται περισσότερος χρόνος για αποθήκευση. Μία εικόνα <a class=\"link\" href=\"gimp-images-out.html#file-jpeg-save\" title=\"1.2.2.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7; &#x3C9;&#x3C2; JPEG\">JPEG</a>, όμως, χάνει ποιότητα καθώς αυξάνεται η συμπίεση. Εάν η εικόνα σας είναι μια φωτογραφία με πολλά χρώματα, θα πρέπει να χρησιμοποιήσετε jpeg. Το πιο βασικό είναι να βρείτε το καλύτερο ισοζύγιο μεταξύ ποιότητας και συμπίεσης. Μπορείτε να βρείτε περισσότερες πληροφορίες για αυτό το θέμα στο <a class=\"xref\" href=\"gimp-images-out.html#file-jpeg-save\" title=\"1.2.2.&#xA0;&#x391;&#x3C0;&#x3BF;&#x3B8;&#x3AE;&#x3BA;&#x3B5;&#x3C5;&#x3C3;&#x3B7; &#x3C9;&#x3C2; JPEG\">Ενότητα  1.2.2, “Αποθήκευση ως JPEG”</a>."
+msgstr ""
+
+#: el/gimp-using-web.html:154(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-web.html:160(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-web.html:163(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-web.html:166(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

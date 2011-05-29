@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-selections.html:6(title) en/gimp-using-selections.html:21(th) en/gimp-using-selections.html:31(div:title)
+msgid "2. Creating and Using Selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-selections.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-selections.html:13(link:title) en/gimp-using-selections.html:14(link:title) en/gimp-using-selections.html:25(th) en/gimp-using-selections.html:243(a)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-selections.html:15(link:title) en/gimp-using-selections.html:249(a)
+msgid "2.2. Adding or subtracting selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:24(img:alt) en/gimp-using-selections.html:234(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-selections.html:24(td) en/gimp-using-selections.html:234(td)
+msgid "<a accesskey=\"p\" href=\"gimp-painting.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-selections.html:26(img:alt) en/gimp-using-selections.html:240(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-selections.html:26(td) en/gimp-using-selections.html:240(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-selections-add.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-selections.html:35(h2)
+msgid "<a id=\"gimp-using-selections\"/>2. Creating and Using Selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:40(div:title)
+msgid "2.1. Moving a Selection"
+msgstr ""
+
+#: en/gimp-using-selections.html:44(h3)
+msgid "<a id=\"gimp-using-selections-moving\"/>2.1. Moving a Selection"
+msgstr ""
+
+#: en/gimp-using-selections.html:49(p)
+msgid "Rectangular and elliptical selections have two modes. The default mode has handles on the selection. If you click the selection or press the <span class=\"keycap\"><strong>Enter</strong></span> key,the handles disappear leaving only the dotted outline (marching ants). The other selection tools have different behaviour."
+msgstr ""
+
+#: en/gimp-using-selections.html:56(div:title)
+msgid "2.1.1. Moving rectangular and elliptical selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:60(h4)
+msgid "<a id=\"id3163193\"/>2.1.1. Moving rectangular and elliptical selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:64(p)
+msgid "If you click-and drag a selection with handles, you move the selection outline, and you don't move the contents of rectangular or elliptic selections."
+msgstr ""
+
+#: en/gimp-using-selections.html:69(p)
+msgid "Select the <a class=\"link\" href=\"gimp-tool-move.html\" title=\"4.3.&#xA0;Move\">Move </a> tool and set the options to move the selection; the tool supports moving the selection, path, or layer."
+msgstr ""
+
+#: en/gimp-using-selections.html:77(b)
+msgid "Figure 7.5. Moving selection outline"
+msgstr ""
+
+#: en/gimp-using-selections.html:81(img:alt)
+msgid "Moving selection outline"
+msgstr ""
+
+#: en/gimp-using-selections.html:86(p)
+msgid "Most systems support moving the selection using the arrow keys. The precise behavior is system dependent. If the arrow keys do not cause the selection to move, try hovering the mouse cursor over the selection first. Press and hold the <span class=\"keycap\"><strong>Alt</strong></span> (or <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span>, <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span>, or <span class=\"keycap\"><strong>Alt</strong></span>). One combination may move the selection by one pixel, and another by 25 pixels each step. Hover the mouse cursor over a side or corner handle, and the arrow keys and combinations can change the size of the selection."
+msgstr ""
+
+#: en/gimp-using-selections.html:98(p)
+msgid "If you click-and-drag the selection without handles, you create a new selection! To move the selection contents, you have to"
+msgstr ""
+
+#: en/gimp-using-selections.html:105(p)
+msgid "hold down <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span> keys and click-and-drag the selection. This makes the original place empty. A floating selection is created. The required key commands may differ on your system, look in the status bar to see if another combination is specified; for example, <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span>."
+msgstr ""
+
+#: en/gimp-using-selections.html:118(b)
+msgid "Figure 7.6.  Moving a selection and its content, emptying the original place"
+msgstr ""
+
+#: en/gimp-using-selections.html:124(img:alt)
+msgid "Moving a selection and its content, emptying the original place"
+msgstr ""
+
+#: en/gimp-using-selections.html:131(p)
+msgid "hold down <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span> keys and click-and-drag the selection to move without emptying the original place. A floating selection is created."
+msgstr ""
+
+#: en/gimp-using-selections.html:140(b)
+msgid "Figure 7.7.  Moving a selection and its content without emptying the original place"
+msgstr ""
+
+#: en/gimp-using-selections.html:147(img:alt)
+msgid "Moving a selection and its content without emptying the original place"
+msgstr ""
+
+#: en/gimp-using-selections.html:155(div:title) en/gimp-using-selections.html:161(th) en/gimp-using-selections.html:207(div:title) en/gimp-using-selections.html:213(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-selections.html:159(img:alt) en/gimp-using-selections.html:211(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-selections.html:165(p)
+msgid "On some systems, you must push <span class=\"keycap\"><strong>Alt</strong></span> before <span class=\"keycap\"><strong>Shift</strong></span> or <span class=\"keycap\"><strong>Ctrl</strong></span>. On these systems, pressing <span class=\"keycap\"><strong>Shift</strong></span> or <span class=\"keycap\"><strong>Ctrl</strong></span> first, causes GIMP to enter a mode that adds or subtract from the current selection — after that, the <span class=\"keycap\"><strong>Alt</strong></span> key is ineffective!"
+msgstr ""
+
+#: en/gimp-using-selections.html:178(div:title)
+msgid "2.1.2. Moving the other selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:182(h4)
+msgid "<a id=\"id3164431\"/>2.1.2. Moving the other selections"
+msgstr ""
+
+#: en/gimp-using-selections.html:186(p)
+msgid "The other selections (Lasso, Magic wand, By Color) have no handle. Click-and dragging them doesn't move them. To move their contents, as with rectangular and elliptical selections, you have to hold down <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span> keys or <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>Alt</strong></span> and click-and-drag."
+msgstr ""
+
+#: en/gimp-using-selections.html:194(p)
+msgid "If you use keyboard arrow keys instead of click-and-drag, you move the outline."
+msgstr ""
+
+#: en/gimp-using-selections.html:199(div:title)
+msgid "2.1.3. Other method"
+msgstr ""
+
+#: en/gimp-using-selections.html:203(h4)
+msgid "<a id=\"id3164478\"/>2.1.3. Other method"
+msgstr ""
+
+#: en/gimp-using-selections.html:217(p)
+msgid "You can also use a more roundabout method to move a selection. Make it floating. Then you can move its content, emptying the origin, by click-and-dragging or keyboard arrow keys. To move without emptying, use copy-paste."
+msgstr ""
+
+#: en/gimp-using-selections.html:237(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-selections.html:243(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-selections.html:246(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-selections.html:249(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

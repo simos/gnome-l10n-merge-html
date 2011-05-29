@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-image-window-qmask-button.html:6(title) el/gimp-image-window-qmask-button.html:21(th) el/gimp-image-window-qmask-button.html:31(div:title)
+msgid "3. Σύντομη μάσκα"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:13(link:title) el/gimp-image-window-qmask-button.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:14(link:title) el/gimp-image-window-qmask-button.html:154(a)
+msgid "2.2. Προσθήκη ή αφαίρεση επιλογών"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:15(link:title) el/gimp-image-window-qmask-button.html:160(a)
+msgid "3.2. Ιδιότητες"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:24(img:alt) el/gimp-image-window-qmask-button.html:145(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:24(td) el/gimp-image-window-qmask-button.html:145(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-selections-add.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:26(img:alt) el/gimp-image-window-qmask-button.html:151(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:26(td) el/gimp-image-window-qmask-button.html:151(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-window-qmask-properties.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:35(h2)
+msgid "<a id=\"gimp-image-window-qmask-button\"/>3. Σύντομη μάσκα"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:42(b)
+msgid "Εικόνα 7.9. Εικόνα με ενεργοποιημένη τη σύντομη μάσκα"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:45(img:alt)
+msgid "Εικόνα με ενεργοποιημένη τη σύντομη μάσκα"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:50(p)
+msgid "Οι συνηθισμένες <a class=\"link\" href=\"gimp-tools-selection.html\" title=\"2.&#xA0;&#x395;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AD;&#x3C2; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3C9;&#x3BD;\">επιλογές εργαλείων</a> εμπεριέχουν ιχνηθέτηση ενός περιγράμματος γύρω από μια περιοχή ενδιαφέροντος, που δεν δουλεύει καλά για μερικές περίπλοκες επιλογές. Η σύντομη μάσκα, όμως, σας επιτρέπει να βάψετε την επιλογή αντί για απλή ιχνηθέτηση του περιγράμματος της."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:56(div:title)
+msgid "3.1. Επισκόπηση"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:59(h3)
+msgid "<a id=\"gimp-image-window-qmask-overview\"/>3.1. Επισκόπηση"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:62(p)
+msgid "Κανονικά, μια επιλογή στο GIMP αντιπροσωπεύεται από <span class=\"quote\">“<span class=\"quote\">μυρμήγκια που περπατούν (κινούμενες στιγμές)</span>”</span> που ανιχνεύουν το περίγραμμα επιλογής, αλλά μπορεί να υπάρχουν περισσότερα σε μια επιλογή από την εμφάνιση κινούμενων στιγμών . Μια επιλογή στο GIMP είναι στην πραγματικότητα ένα κανάλι πλήρους γκρι κλίμακας, που καλύπτει την εικόνα, με τιμές εικονοστοιχείου (pixel) από 0 (ανεπίλεκτο) έως 255 (πλήρως επιλεγμένο). Οι κινούμενες στιγμές χαράσσονται κατά μήκος ενός περιγράμματος μισοεπιλεγμένων εικονοστοιχείων. Έτσι, ότι σας δείχνουν οι κινούμενες στιγμές είτε μέσα είτε έξω από τα όρια, στην πραγματικότητα είναι μια μη καθαρή ενδιάμεση ζώνη."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:71(p)
+msgid "Η σύντομη μάσκα είναι ένας τρόπος του GIMP να δείξει την πλήρη δομή της επιλογής. Η σύντομη μάσκα επίσης δίνει τη δυνατότητα αλληλεπίδρασης με την επιλογή ξανά και έχει στην πραγματικότητα πιο ισχυρούς τρόπους. Πατήστε το μικρό περιγραμμένο κουμπί στα κάτω αριστερά του παραθύρου της εικόνας για εναλλαγή της σύντομης μάσκας. Αυτό το κουμπί αλλάζει μεταξύ κατάστασης σύντομης μάσκας και κινούμενων στιγμών. Μπορείτε επίσης να χρησιμοποιήσετε <span class=\"guimenu\">Επιλογή</span> → <span class=\"guimenuitem\">Ενεργοποίηση σύντομης μάσκας</span>, ή <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>Q</strong></span>, για εναλλαγή κατάστασης μεταξύ σύντομης μάσκας και κινούμενων στιγμών."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:80(p)
+msgid "Στην κατάσταση σύντομης μάσκας, η επιλογή φαίνεται ως ημιδιαφανής οθόνη που επικάθεται στη εικόνα. Η διαφάνεια της εικόνας σε κάθε εικονοστοιχείο δείχνει το βαθμό επιλογής του εικονοστοιχείου. Από προεπιλογή η μάσκα είναι κόκκινη, αλλά μπορείτε να το αλλάξετε, εάν σας βολεύει. Όσο λιγότερο επιλέγεται ένα εικονοστοιχείο, τόσο αποκρύβεται από τη μάσκα. Πλήρως επιλεγμένα εικονοστοιχεία φαίνονται πλήρως διαφανή."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:86(p)
+msgid "Στην κατάσταση σύντομης μάσκας, πολλοί χειρισμοί επιδρούν στο κανάλι επιλογής παρά στην ίδια την εικόνα. Αυτό περιλαμβάνει ειδικά, τα εργαλεία ζωγραφικής. Βάφοντας με λευκό επιλέγονται εικονοστοιχεία (pixels) και βάφοντας με μαύρο αποεπιλέγονται εικονοστοιχεία. Μπορείτε να χρησιμοποιήσετε οποιοδήποτε από τα εργαλεία ζωγραφικής καθώς και τα εργαλεία κουβά γεμίσματος και γεμίσματος διαβάθμισης. Προχωρημένοι χρήστες του GIMP μαθαίνουν ότι <span class=\"quote\">“<span class=\"quote\">βάψιμο της επιλογής</span>”</span> είναι ο πιο απλός αποτελεσματικός τρόπος χειρισμού με λεπτότητα της εικόνας."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:94(div:title) el/gimp-image-window-qmask-button.html:116(div:title)
+msgid "Tip"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:98(img:alt) el/gimp-image-window-qmask-button.html:120(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:100(th) el/gimp-image-window-qmask-button.html:122(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:104(p)
+msgid "Για να αποθηκεύσετε μια επιλογή της σύντομης μάσκας σε ένα νέο κανάλι, βεβαιωθείτε ότι υπάρχει μία επιλογή και ότι η κατάσταση σύντομης μάσκας δεν είναι ενεργή στο παράθυρο εικόνας. Πατήστε <span class=\"guimenu\">Επιλογή</span> → <span class=\"guimenuitem\">Αποθήκευση σε κανάλι</span>, για να δημιουργήσετε ένα νέο κανάλι στο διάλογο καναλιού που λέγεται <span class=\"quote\">“<span class=\"quote\">Μάσκα επιλογής αντίγραφο</span>”</span> (επαναλαμβάνοντας αυτήν την εντολή δημιουργείται <span class=\"quote\">“<span class=\"quote\">..αντίγραφο#1</span>”</span>, <span class=\"quote\">“<span class=\"quote\">...αντίγραφο#2</span>”</span> κ.λ."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:126(p)
+msgid "Στην κατάσταση σύντομης μάσκας, αποκοπή και επικόλληση επιδρά στην επιλογή παρά στην εικόνα. Μπορείτε μερικές φορές να το χρησιμοποιήσετε ως τον πιο κατάλληλο τρόπο μεταφοράς μιας επιλογής από μια εικόνα σε μια άλλη."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:134(p)
+msgid "Μπορείτε να μάθετε περισσότερα στο <a class=\"link\" href=\"gimp-channel-dialog.html#dialogs-selection-masks\" title=\"2.2.3.&#xA0;&#x395;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE; &#x3BC;&#x3B1;&#x3C3;&#x3BA;&#x3CE;&#x3BD;\">Επιλογή μασκών</a> στο τμήμα που είναι αφιερωμένο στο διάλογο καναλιού."
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:148(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:154(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:157(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-image-window-qmask-button.html:160(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

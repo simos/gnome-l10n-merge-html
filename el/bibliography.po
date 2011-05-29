@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/bibliography.html:6(title)
+msgid "Bibliography"
+msgstr ""
+
+#: el/bibliography.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/bibliography.html:12(link:title) el/bibliography.html:13(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/bibliography.html:14(link:title) el/bibliography.html:862(a)
+msgid "Γλωσσάρι"
+msgstr ""
+
+#: el/bibliography.html:15(link:title)
+msgid "Παράρτημα A. Ιστορια του GIMP"
+msgstr ""
+
+#: el/bibliography.html:21(th)
+msgid "Βιβλιογραφία"
+msgstr ""
+
+#: el/bibliography.html:24(img:alt) el/bibliography.html:857(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/bibliography.html:24(td) el/bibliography.html:857(td)
+msgid "<a accesskey=\"p\" href=\"glossary.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/bibliography.html:25(th) el/bibliography.html:858(td)
+msgid " "
+msgstr ""
+
+#: el/bibliography.html:26(img:alt) el/bibliography.html:859(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/bibliography.html:26(td) el/bibliography.html:859(td)
+msgid " <a accesskey=\"n\" href=\"gimp-introduction-history.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/bibliography.html:35(h2)
+msgid "<a id=\"bibliography\"/>Βιβλιογραφία"
+msgstr ""
+
+#: el/bibliography.html:40(h3)
+msgid "<a id=\"bibliography-books\"/>Βιβλία"
+msgstr ""
+
+#: el/bibliography.html:43(p)
+msgid "[<abbr class=\"abbrev\">APRESS00</abbr>] <span class=\"title\"><i>Beginning GIMP: From Novice to Professional</i>. </span><span class=\"author\"><span class=\"firstname\">Akkana</span><span class=\"surname\">Peck</span>. </span><span class=\"copyright\">Copyright © 2006 Apress Inc.. </span><span class=\"publisher\"><span class=\"publishername\">Apress Inc, www.apress.com. </span></span><span class=\"isbn\">ISBN 1-59059-587-4. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimpbook.com/\" target=\"_top\">http://gimpbook.com/</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:49(p)
+msgid "[<abbr class=\"abbrev\">FOLEY01</abbr>] <span class=\"title\"><i>Computer Graphics, Principles and Practice</i>. </span><span class=\"author\"><span class=\"othername\">Foley and van Dam, et al</span>. </span><span class=\"copyright\">Copyright © 1990 Addison Wesley. </span><span class=\"publisher\"><span class=\"publishername\">Addison Wesley. </span></span><span class=\"releaseinfo\"><em><span class=\"remark\">2nd Ed. (Addison Wesley, 1990)</span></em> . </span>"
+msgstr ""
+
+#: el/bibliography.html:55(p)
+msgid "[<abbr class=\"abbrev\">GROKKING</abbr>] <span class=\"title\"><i>Grokking the Gimp</i>. </span><span class=\"author\"><span class=\"firstname\">Carey</span><span class=\"surname\">Bunks</span>. </span><span class=\"copyright\">Copyright © 2000 New Riders Publishing. </span><span class=\"publisher\"><span class=\"publishername\"> New Riders Publishing, www.newriders.com . </span></span><span class=\"isbn\">ISBN 0-7357-0924-6. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimp-savvy.com/BOOK/\" target=\"_top\"> http://gimp-savvy.com/BOOK </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:65(h3)
+msgid "<a id=\"bibliography-online\"/>Online resources"
+msgstr ""
+
+#: el/bibliography.html:68(p)
+msgid "[<abbr class=\"abbrev\">AdobeRGB</abbr>] <span class=\"title\"><i>Adobe RGB (1998) ICC Profile</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.adobe.com/digitalimag/adobergb.html\" target=\"_top\"> http://www.adobe.com/digitalimag/adobergb.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:76(p)
+msgid "[<abbr class=\"abbrev\">APOD</abbr>] <span class=\"title\"><i>Astronomy Picture of the Day</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:84(p)
+msgid "[<abbr class=\"abbrev\">APOD01</abbr>] <span class=\"title\"><i>Astronomy Picture of the Day (today)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/astropix.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/astropix.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:92(p)
+msgid "[<abbr class=\"abbrev\">APOD02</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - The Hubble Ultra Deep Field (2004 March 9) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap040309.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap040309.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:103(p)
+msgid "[<abbr class=\"abbrev\">APOD03</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap020710.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap020710.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:113(p)
+msgid "[<abbr class=\"abbrev\">APOD04</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - Saturn: Lord of the Rings (2002 February 15) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap020215.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap020215.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:124(p)
+msgid "[<abbr class=\"abbrev\">APOD05</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - NGC 6369: The Little Ghost Nebula (2002 November 8) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap021108.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap021108.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:135(p)
+msgid "[<abbr class=\"abbrev\">APOD06</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000 November 13) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap001113.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap001113.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:146(p)
+msgid "[<abbr class=\"abbrev\">APOD07</abbr>] <span class=\"title\"><i> Astronomy Picture of the Day - The Sharpest View of the Sun (2002 November 14) </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://antwrp.gsfc.nasa.gov/apod/ap021114.html\" target=\"_top\"> http://antwrp.gsfc.nasa.gov/apod/ap021114.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:157(p)
+msgid "[<abbr class=\"abbrev\">ARGYLLCMS</abbr>] <span class=\"title\"><i>Argyll Color Management System Home Page</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.argyllcms.com/\" target=\"_top\"> http://www.argyllcms.com/ </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:165(p)
+msgid "[<abbr class=\"abbrev\">BABL</abbr>] <span class=\"title\"><i>babl (pixel format translation library)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.gegl.org/babl\" target=\"_top\">http://www.gegl.org/babl</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:171(p)
+msgid "[<abbr class=\"abbrev\">BACH04</abbr>] <span class=\"title\"><i>Face in blocks</i>. </span><span class=\"author\"><span class=\"firstname\">Michael</span><span class=\"surname\">Bach</span>. </span><span class=\"copyright\">Copyright © 2004 Michael Bach. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.michaelbach.de/ot/fcs_mosaic/\" target=\"_top\"> http://www.michaelbach.de/ot/fcs_mosaic/ </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:179(p)
+msgid "[<abbr class=\"abbrev\">BUDIG01</abbr>] <span class=\"title\"><i>Golden Text</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.home.unix-ag.org/simon/gimp/golden.html\" target=\"_top\"> http://www.home.unix-ag.org/simon/gimp/golden.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:187(p)
+msgid "[<abbr class=\"abbrev\">BUGZILLA</abbr>] <span class=\"title\"><i>Bugzilla</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://bugzilla.gnome.org\" target=\"_top\"> http://bugzilla.gnome.org </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:195(p)
+msgid "[<abbr class=\"abbrev\">BUGZILLA-GIMP</abbr>] <span class=\"title\"><i>Bugzilla-GIMP</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://bugzilla.gnome.org/browse.cgi?product=GIMP\" target=\"_top\"> http://bugzilla.gnome.org/browse.cgi?product=GIMP </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:203(p)
+msgid "[<abbr class=\"abbrev\">CAIRO</abbr>] <span class=\"title\"><i>Cairo</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.cairographics.org\" target=\"_top\"> http://www.cairographics.org </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:211(p)
+msgid "[<abbr class=\"abbrev\">DARWINORTS</abbr>] <span class=\"title\"><i>Darwin Ports Package Manager for OS X</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://darwinports.org\" target=\"_top\">http://darwinports.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:217(p)
+msgid "[<abbr class=\"abbrev\">ECI</abbr>] <span class=\"title\"><i>ECI (European Color Initiative) Profiles</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.eci.org/eci/en/060_downloads.php\" target=\"_top\"> http://www.eci.org/eci/en/060_downloads.php </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:225(p)
+msgid "[<abbr class=\"abbrev\">FDL-TRANSLATION</abbr>] <span class=\"title\"><i> Unofficial translation of the GNU Free Documentation License </i>. </span>"
+msgstr ""
+
+#: el/bibliography.html:231(p)
+msgid "[<abbr class=\"abbrev\">FINK</abbr>] <span class=\"title\"><i>Fink Package Manager for OS X</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://fink.sf.net\" target=\"_top\">http://fink.sf.net</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:237(p)
+msgid "[<abbr class=\"abbrev\">FREETYPE</abbr>] <span class=\"title\"><i>Freetype 2 home page</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.freetype.org/freetype2/index.html\" target=\"_top\"> http://www.freetype.org/freetype2/index.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:245(p)
+msgid "[<abbr class=\"abbrev\">GEGL</abbr>] <span class=\"title\"><i>GEGL (Generic Graphics Library)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gegl.org\" target=\"_top\">http://gegl.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:251(p)
+msgid "[<abbr class=\"abbrev\">GEORGIEV01</abbr>] <span class=\"title\"><i>Image Reconstruction Invariant to Relighting</i>. </span><span class=\"author\"><span class=\"firstname\">Todor</span><span class=\"surname\">Georgiev</span>. </span><span class=\"copyright\">Copyright © 2005 Todor Georgiev. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.tgeorgiev.net/Invariant.pdf\" target=\"_top\"> http://www.tgeorgiev.net/Invariant.pdf </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:259(p)
+msgid "[<abbr class=\"abbrev\">GHOSTSCRIPT</abbr>] <span class=\"title\"><i>Ghostscript project page on Sourceforge.net</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://sourceforge.net/projects/ghostscript\" target=\"_top\"> http://sourceforge.net/projects/ghostscript </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:267(p)
+msgid "[<abbr class=\"abbrev\">GIMP</abbr>] <span class=\"title\"><i>GIMP - The Gnu Image Manipulation Program</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimp.org\" target=\"_top\">http://gimp.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:273(p)
+msgid "[<abbr class=\"abbrev\">GIMP-DEV</abbr>] <span class=\"title\"><i>GIMP Development</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://developer.gimp.org\" target=\"_top\"> http://developer.gimp.org </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:281(p)
+msgid "[<abbr class=\"abbrev\">GIMP-DEV-PLUGIN</abbr>] <span class=\"title\"><i>GIMP Plugin Development</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://developer.gimp.org/plug-ins.html\" target=\"_top\"> http://developer.gimp.org/plug-ins.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:289(p)
+msgid "[<abbr class=\"abbrev\">GIMP-DOCS</abbr>] <span class=\"title\"><i>GIMP Documentation project page</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://docs.gimp.org\" target=\"_top\"> http://docs.gimp.org </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:297(p)
+msgid "[<abbr class=\"abbrev\">GIMP-FONTS</abbr>] <span class=\"title\"><i>Fonts in GIMP 2.0</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimp.org/unix/fonts.html\" target=\"_top\"> http://gimp.org/unix/fonts.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:305(p)
+msgid "[<abbr class=\"abbrev\">GIMP-NEWSYM26</abbr>] <span class=\"title\"><i>List of new symbols in GIMP 2.6</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-6.html\" target=\"_top\"> libgimp-index-new-in-2-6.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:313(p)
+msgid "[<abbr class=\"abbrev\">GIMP-REGISTRY</abbr>] <span class=\"title\"><i>GIMP-Plugin Registry</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://registry.gimp.org\" target=\"_top\">http://registry.gimp.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:319(p)
+msgid "[<abbr class=\"abbrev\">GIMP-WIKI-MS</abbr>] <span class=\"title\"><i>GIMP-Wiki - How to compile for Windows</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://wiki.gimp.org/gimp/HowToCompileGimp/MicrosoftWindows\" target=\"_top\"> http://wiki.gimp.org/gimp/HowToCompileGimp/MicrosoftWindows </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:327(p)
+msgid "[<abbr class=\"abbrev\">GROKKING01</abbr>] <span class=\"title\"><i>Grokking the GIMP</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimp-savvy.com/BOOK/index.html\" target=\"_top\"> http://gimp-savvy.com/BOOK/index.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:335(p)
+msgid "[<abbr class=\"abbrev\">GROKKING02</abbr>] <span class=\"title\"><i>Grokking the GIMP (9.2 Clickable Image Maps)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gimp-savvy.com/BOOK/index.html?node81.html\" target=\"_top\"> http://gimp-savvy.com/BOOK/index.html?node81.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:343(p)
+msgid "[<abbr class=\"abbrev\">GUNTHER04</abbr>] <span class=\"title\"><i>Making shapes in GIMP</i>. </span><span class=\"author\"><span class=\"firstname\">Gunther</span><span class=\"surname\">Dale</span>. </span><span class=\"copyright\">Copyright © 2004 Dale (Gunther). </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gug.sunsite.dk/tutorials/gunther1/\" target=\"_top\"> http://gug.sunsite.dk/tutorials/gunther1 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:351(p)
+msgid "[<abbr class=\"abbrev\">ICC</abbr>] <span class=\"title\"><i>INTERNATIONAL COLOR CONSORTIUM</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.color.org/\" target=\"_top\">http://www.color.org/</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:357(p)
+msgid "[<abbr class=\"abbrev\">ICCsRGB</abbr>] <span class=\"title\"><i>ICC sRGB PROFILES</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.color.org/srgbprofiles.html\" target=\"_top\"> http://www.color.org/srgbprofiles.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:365(p)
+msgid "[<abbr class=\"abbrev\">GPL</abbr>] <span class=\"title\"><i>General Public License (GPL)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.fsf.org/licensing/licenses/gpl.html\" target=\"_top\"> http://www.fsf.org/licensing/licenses/gpl.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:373(p)
+msgid "[<abbr class=\"abbrev\">GQVIEW</abbr>] <span class=\"title\"><i>Homepage of GQview, an image browser</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gqview.sourceforge.net\" target=\"_top\"> http://gqview.sourceforge.net </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:381(p)
+msgid "[<abbr class=\"abbrev\">GTHUMB</abbr>] <span class=\"title\"><i> gThumb - An Image Viewer and Browser for the GNOME Desktop </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://gthumb.sourceforge.net\" target=\"_top\"> http://gthumb.sourceforge.net </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:391(p)
+msgid "[<abbr class=\"abbrev\">INKSCAPE</abbr>] <span class=\"title\"><i>Inkscape is an Open Source vector graphics editor</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.inkscape.org\" target=\"_top\">http://www.inkscape.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:397(p)
+msgid "[<abbr class=\"abbrev\">JIMMAC01</abbr>] <span class=\"title\"><i>Alternative icon theme for GIMP 2.4</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://jimmac.musichall.cz/zip/GIMP-Greyscale-tools-0.1.tar.bz2\" target=\"_top\"> http://jimmac.musichall.cz/zip/GIMP-Greyscale-tools-0.1.tar.bz2 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:405(p)
+msgid "[<abbr class=\"abbrev\">LPROF</abbr>] <span class=\"title\"><i>LPROF ICC Profiler</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://lprof.sourceforge.net/\" target=\"_top\"> http://lprof.sourceforge.net/ </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:413(p)
+msgid "[<abbr class=\"abbrev\">MSKB-294714</abbr>] <span class=\"title\"><i>Microsoft Knowledge Base Article 294714</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://support.microsoft.com/kb/294714\" target=\"_top\"> http://support.microsoft.com/kb/294714 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:421(p)
+msgid "[<abbr class=\"abbrev\">MsRGB</abbr>] <span class=\"title\"><i>Microsoft sRVB Workspace</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.microsoft.com/whdc/device/display/color/default.mspx\" target=\"_top\"> http://www.microsoft.com/whdc/device/display/color/default.mspx </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:429(p)
+msgid "[<abbr class=\"abbrev\">OPENCLIPART-GRADIENT</abbr>] <span class=\"title\"><i>Open Clipart - Gradients</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://openclipart.org/\" target=\"_top\">http://openclipart.org/</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:435(p)
+msgid "[<abbr class=\"abbrev\">OPENICC</abbr>] <span class=\"title\"><i>The OpenICC project</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://freedesktop.org/wiki/OpenIcc/\" target=\"_top\"> http://freedesktop.org/wiki/OpenIcc </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:443(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-EXIF</abbr>] <span class=\"title\"><i>GIMP-Plugin Exif Browser</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://registry.gimp.org/plugin?id=4153\" target=\"_top\"> http://registry.gimp.org/plugin?id=4153 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:451(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-FLAMES</abbr>] <span class=\"title\"><i>GIMP-Plugin Flames</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://draves.org/gimp/flame.html\" target=\"_top\"> http://draves.org/gimp/flame.html </a>; <a class=\"ulink\" href=\"http://flam3.com/\" target=\"_top\">http://flam3.com/</a>. </span>"
+msgstr ""
+
+#: el/bibliography.html:458(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-PLASMA2</abbr>] <span class=\"title\"><i>GIMP-Plugin Plasma2 at the Registry</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://registry.gimp.org/plugin?id=501\" target=\"_top\"> http://registry.gimp.org/plugin?id=501 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:466(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-REDEYE</abbr>] <span class=\"title\"><i> A plugin to quickly remove “<span class=\"quote\">redeye</span>” caused by camera flash </i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://registry.gimp.org/plugin?id=4212\" target=\"_top\"> http://registry.gimp.org/plugin?id=4212 </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:477(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-RESYNTH</abbr>] <span class=\"title\"><i>Resynthesizer is a Gimp plug-in for texture synthesis</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.logarithmic.net/pfh/resynthesizer\" target=\"_top\"> http://www.logarithmic.net/pfh/resynthesizer </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:485(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-RETINEX</abbr>] <span class=\"title\"><i>A plugin providing the Retinex algorithm for GIMP</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"www-prima.inrialpes.fr/pelisson/MSRCR.php\" target=\"_top\"> www-prima.inrialpes.fr/pelisson/MSRCR.php </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:493(p)
+msgid "[<abbr class=\"abbrev\">PLUGIN-SEPARATE</abbr>] <span class=\"title\"><i>A plugin providing rudimentary CMYK support for GIMP</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.blackfiveservices.co.uk/separate.shtml\" target=\"_top\"> http://www.blackfiveservices.co.uk/separate.shtml </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:501(p)
+msgid "[<abbr class=\"abbrev\">SCRIBUS</abbr>] <span class=\"title\"><i>Scribus :: Open Source Desktop Publishing</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.scribus.net/\" target=\"_top\">http://www.scribus.net/</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:507(p)
+msgid "[<abbr class=\"abbrev\">SIOX</abbr>] <span class=\"title\"><i>Simple Interactive Object Extraction</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.siox.org/\" target=\"_top\">http://www.siox.org/</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:513(p)
+msgid "[<abbr class=\"abbrev\">TUT01</abbr>] <span class=\"title\"><i>Tutorial: How to draw straight lines</i>. </span><span class=\"author\"><span class=\"firstname\">Seth</span><span class=\"surname\">Burgess</span>. </span><span class=\"copyright\">Copyright © 2002 Seth Burgess. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.gimp.org/tutorials/Straight_Line/\" target=\"_top\"> http://www.gimp.org/tutorials/Straight_Line </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:521(p)
+msgid "[<abbr class=\"abbrev\">TUT02</abbr>] <span class=\"title\"><i>Tutorial: GIMPLite Quickies</i>. </span><span class=\"author\"><span class=\"firstname\">Carol</span><span class=\"surname\">Spears</span>. </span><span class=\"copyright\">Copyright © 2004 Carol Spears. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://next.gimp.org/tutorials/Lite_Quickies/\" target=\"_top\"> http://next.gimp.org/tutorials/Lite_Quickies/ </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:529(p)
+msgid "[<abbr class=\"abbrev\">UNICODE</abbr>] <span class=\"title\"><i>Unicode</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.unicode.org\" target=\"_top\">http://www.unicode.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:535(p)
+msgid "[<abbr class=\"abbrev\">WIKIPEDIA</abbr>] <span class=\"title\"><i>Wikipedia</i>. </span><span class=\"author\"><span class=\"othername\">Wikipedia Foundation</span>. </span><span class=\"copyright\">Copyright © 2004 Wikipedia Foundation Inc.. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://www.wikipedia.org\" target=\"_top\">http://www.wikipedia.org</a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:541(p)
+msgid "[<abbr class=\"abbrev\">WKPD-ALPHA</abbr>] <span class=\"title\"><i>Wikipedia - Alpha channel</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Alpha_channel\" target=\"_top\"> http://en.wikipedia.org/wiki/Alpha_channel </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:549(p)
+msgid "[<abbr class=\"abbrev\">WKPD-BEZIER</abbr>] <span class=\"title\"><i>Wikipedia - Bézier curve</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Bezier_curve\" target=\"_top\"> http://en.wikipedia.org/wiki/Bezier_curve </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:557(p)
+msgid "[<abbr class=\"abbrev\">WKPD-BUMP</abbr>] <span class=\"title\"><i>Wikipedia - Bumpmap</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Bump_Mapping\" target=\"_top\"> http://en.wikipedia.org/wiki/Bump_Mapping </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:565(p)
+msgid "[<abbr class=\"abbrev\">WKPD-BURN</abbr>] <span class=\"title\"><i>Wikipedia - Burning</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Dodging_and_burning\" target=\"_top\"> http://en.wikipedia.org/wiki/Dodging_and_burning </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:573(p)
+msgid "[<abbr class=\"abbrev\">WKPD-CA</abbr>] <span class=\"title\"><i>Wikipedia - Cellular Automata</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Bump_Mapping\" target=\"_top\"> http://en.wikipedia.org/wiki/Cellular_Automata </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:581(p)
+msgid "[<abbr class=\"abbrev\">WKPD-CMYK</abbr>] <span class=\"title\"><i>Wikipedia - CMYK</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/CMYK\" target=\"_top\"> http://en.wikipedia.org/wiki/CMYK </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:589(p)
+msgid "[<abbr class=\"abbrev\">WKPD-COLORSPACE</abbr>] <span class=\"title\"><i>Wikipedia - Colorspace</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Colorspace\" target=\"_top\"> http://en.wikipedia.org/wiki/Colorspace </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:597(p)
+msgid "[<abbr class=\"abbrev\">WKPD-DEFLATE</abbr>] <span class=\"title\"><i>Wikipedia - Deflate</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/deflate\" target=\"_top\"> http://en.wikipedia.org/wiki/deflate </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:605(p)
+msgid "[<abbr class=\"abbrev\">WKPD-DEINTERLACE</abbr>] <span class=\"title\"><i>Wikipedia - Deinterlace</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Deinterlace\" target=\"_top\"> http://en.wikipedia.org/wiki/Deinterlace </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:613(p)
+msgid "[<abbr class=\"abbrev\">WKPD-DITHERING</abbr>] <span class=\"title\"><i>Wikipedia - Dithering</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Dithering\" target=\"_top\"> http://en.wikipedia.org/wiki/Dithering </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:621(p)
+msgid "[<abbr class=\"abbrev\">WKPD-DODGE</abbr>] <span class=\"title\"><i>Wikipedia - Dodging</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Dodging_and_burning\" target=\"_top\"> http://en.wikipedia.org/wiki/Dodging_and_burning </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:629(p)
+msgid "[<abbr class=\"abbrev\">WKPD-EXIF</abbr>] <span class=\"title\"><i>Wikipedia - EXIF</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/EXIF\" target=\"_top\"> http://en.wikipedia.org/wiki/EXIF </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:637(p)
+msgid "[<abbr class=\"abbrev\">WKPD-FILEFORMAT</abbr>] <span class=\"title\"><i>Wikipedia - Fileformat</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Image_file_format\" target=\"_top\"> http://en.wikipedia.org/wiki/Image_file_format </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:645(p)
+msgid "[<abbr class=\"abbrev\">WKPD-GAMUT</abbr>] <span class=\"title\"><i>Wikipedia - Gamut</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Gamut\" target=\"_top\"> http://en.wikipedia.org/wiki/Gamut </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:653(p)
+msgid "[<abbr class=\"abbrev\">WKPD-GIF</abbr>] <span class=\"title\"><i>Wikipedia - GIF</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/GIF\" target=\"_top\"> http://en.wikipedia.org/wiki/GIF </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:661(p)
+msgid "[<abbr class=\"abbrev\">WKPD-GNU</abbr>] <span class=\"title\"><i>Wikipedia - GNU</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/GNU\" target=\"_top\"> http://en.wikipedia.org/wiki/GNU </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:669(p)
+msgid "[<abbr class=\"abbrev\">WKPD-HISTOGRAM</abbr>] <span class=\"title\"><i>Wikipedia - Histogram</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Image_histogram\" target=\"_top\"> http://en.wikipedia.org/wiki/Image_histogram </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:677(p)
+msgid "[<abbr class=\"abbrev\">WKPD-HSV</abbr>] <span class=\"title\"><i>Wikipedia - HSV</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/HSL_and_HSV\" target=\"_top\"> http://en.wikipedia.org/wiki/HSL_and_HSV </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:685(p)
+msgid "[<abbr class=\"abbrev\">WKPD-ICC</abbr>] <span class=\"title\"><i>Wikipedia - ICC Profile</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/ICC_Profile\" target=\"_top\"> http://en.wikipedia.org/wiki/ICC_Profile </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:693(p)
+msgid "[<abbr class=\"abbrev\">WKPD-INTERPOL</abbr>] <span class=\"title\"><i>Wikipedia - Interpolation</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Interpolation\" target=\"_top\"> http://en.wikipedia.org/wiki/Interpolation </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:701(p)
+msgid "[<abbr class=\"abbrev\">WKPD-JPEG</abbr>] <span class=\"title\"><i>Wikipedia - JPEG</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/JPEG\" target=\"_top\"> http://en.wikipedia.org/wiki/JPEG </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:709(p)
+msgid "[<abbr class=\"abbrev\">WKPD-LAB</abbr>] <span class=\"title\"><i>Wikipedia - L*a*b</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Lab_color_space\" target=\"_top\"> http://en.wikipedia.org/wiki/Lab_color_space </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:717(p)
+msgid "[<abbr class=\"abbrev\">WKPD-LZW</abbr>] <span class=\"title\"><i>Wikipedia - LZW</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/LZW\" target=\"_top\"> http://en.wikipedia.org/wiki/LZW </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:725(p)
+msgid "[<abbr class=\"abbrev\">WKPD-MOIRE</abbr>] <span class=\"title\"><i>Wikipedia - Moire</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Moire\" target=\"_top\"> http://en.wikipedia.org/wiki/Moire </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:733(p)
+msgid "[<abbr class=\"abbrev\">WKPD-PACKBITS</abbr>] <span class=\"title\"><i>Wikipedia - PackBits</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/PackBits\" target=\"_top\"> http://en.wikipedia.org/wiki/PackBits </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:741(p)
+msgid "[<abbr class=\"abbrev\">WKPD-PNG</abbr>] <span class=\"title\"><i>Wikipedia - PNG</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Portable_Network_Graphics\" target=\"_top\"> http://en.wikipedia.org/wiki/Portable_Network_Graphics </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:749(p)
+msgid "[<abbr class=\"abbrev\">WKPD-RASTER</abbr>] <span class=\"title\"><i>Wikipedia - Raster Graphics</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Raster_graphics\" target=\"_top\"> http://en.wikipedia.org/wiki/Raster_graphics </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:757(p)
+msgid "[<abbr class=\"abbrev\">WKPD-RI</abbr>] <span class=\"title\"><i>Wikipedia - Rendering Intent</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Rendering_intent\" target=\"_top\"> http://en.wikipedia.org/wiki/Rendering_intent </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:765(p)
+msgid "[<abbr class=\"abbrev\">WKPD-RETINA</abbr>] <span class=\"title\"><i>Wikipedia - Retina</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Retina\" target=\"_top\"> http://en.wikipedia.org/wiki/Retina </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:773(p)
+msgid "[<abbr class=\"abbrev\">WKPD-SEPIA</abbr>] <span class=\"title\"><i>Wikipedia - Sepia</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Sepia\" target=\"_top\"> http://en.wikipedia.org/wiki/Sepia </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:781(p)
+msgid "[<abbr class=\"abbrev\">WKPD-SUBSAMPLING</abbr>] <span class=\"title\"><i>Wikipedia - Chroma subsampling</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Chroma_Subsampling\" target=\"_top\"> http://en.wikipedia.org/wiki/Chroma_Subsampling </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:789(p)
+msgid "[<abbr class=\"abbrev\">WKPD-SVG</abbr>] <span class=\"title\"><i>Wikipedia - SVG</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Scalable_Vector_Graphics\" target=\"_top\"> http://en.wikipedia.org/wiki/Scalable_Vector_Graphics </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:797(p)
+msgid "[<abbr class=\"abbrev\">WKPD-URI</abbr>] <span class=\"title\"><i>Wikipedia - URI</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Uniform_Resource_Identifier\" target=\"_top\"> http://en.wikipedia.org/wiki/Uniform_Resource_Identifier </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:805(p)
+msgid "[<abbr class=\"abbrev\">WKPD-URL</abbr>] <span class=\"title\"><i>Wikipedia - URL</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Uniform_Resource_Locator\" target=\"_top\"> http://en.wikipedia.org/wiki/Uniform_Resource_Locator </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:813(p)
+msgid "[<abbr class=\"abbrev\">WKPD-Web-colors</abbr>] <span class=\"title\"><i>Wikipedia - Web-colors</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/Web_colors\" target=\"_top\"> http://en.wikipedia.org/wiki/Web_colors </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:821(p)
+msgid "[<abbr class=\"abbrev\">WKPD-YCBCR</abbr>] <span class=\"title\"><i>Wikipedia - YCbCr</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/YCbCr\" target=\"_top\"> http://en.wikipedia.org/wiki/YCbCr </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:829(p)
+msgid "[<abbr class=\"abbrev\">WKPD-YUV</abbr>] <span class=\"title\"><i>Wikipedia - YUV</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://en.wikipedia.org/wiki/YUV\" target=\"_top\"> http://en.wikipedia.org/wiki/YUV </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:837(p)
+msgid "[<abbr class=\"abbrev\">XDS</abbr>] <span class=\"title\"><i>Direct Save Protocol (XDS)</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://freedesktop.org/wiki/Specifications/XDS\" target=\"_top\"> http://freedesktop.org/wiki/Specifications/XDS </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:845(p)
+msgid "[<abbr class=\"abbrev\">XNVIEW</abbr>] <span class=\"title\"><i>XnView</i>. </span><span class=\"releaseinfo\"><a class=\"ulink\" href=\"http://perso.orange.fr/pierre.g/xnview/enhome.html\" target=\"_top\"> http://perso.orange.fr/pierre.g/xnview/enhome.html </a> . </span>"
+msgstr ""
+
+#: el/bibliography.html:862(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/bibliography.html:865(img:alt)
+msgid "Αρχικό"
+msgstr ""
+
+#: el/bibliography.html:868(a)
+msgid "Παράρτημα A. Ιστορία του GIMP"
+msgstr ""
+
+#: el/bibliography.html:868(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

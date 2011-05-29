@@ -1,0 +1,2927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/index.html:6(title) el/index.html:12(link:title) el/index.html:18(th) el/index.html:27(div:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/index.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/index.html:13(link:title) el/index.html:59(a)
+msgid "Πρόλογος"
+msgstr ""
+
+#: el/index.html:20(td) el/index.html:21(th) el/index.html:1116(td) el/index.html:1117(td) el/index.html:1121(td) el/index.html:1122(td)
+msgid " "
+msgstr ""
+
+#: el/index.html:22(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/index.html:22(td)
+msgid " <a accesskey=\"n\" href=\"preface.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/index.html:31(h1)
+msgid "<a id=\"gimp-main\"/>GNU Image Manipulation Program"
+msgstr ""
+
+#: el/index.html:34(h2)
+msgid "User Manual"
+msgstr ""
+
+#: el/index.html:37(p)
+msgid "Copyright © 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 The GIMP Documentation Team"
+msgstr ""
+
+#: el/index.html:40(div:title)
+msgid "Legal Notice"
+msgstr ""
+
+#: el/index.html:42(b)
+msgid "Νομική σημείωση"
+msgstr ""
+
+#: el/index.html:43(p)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section enphrased <a class=\"link\" href=\"legal.html\" title=\"Appendix&#xA0;C.&#xA0;GNU Free Documentation License\">GNU Free Documentation License</a>."
+msgstr ""
+
+#: el/index.html:57(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/index.html:62(a)
+msgid "1. Συγγραφείς και συντελεστές του εγχειριδίου χρήσης"
+msgstr ""
+
+#: el/index.html:65(a)
+msgid "I. Ξεκίνημα"
+msgstr ""
+
+#: el/index.html:68(a) el/index.html:817(a)
+msgid "1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:71(a)
+msgid "1. Καλώς ήρθατε στο GIMP"
+msgstr ""
+
+#: el/index.html:74(a)
+msgid "1.1. Συγγραφείς"
+msgstr ""
+
+#: el/index.html:75(a)
+msgid "1.2. Το σύστημα βοήθειας του GIMP"
+msgstr ""
+
+#: el/index.html:76(a)
+msgid "1.3. Χαρακτηριστικά και δυνατότητες"
+msgstr ""
+
+#: el/index.html:79(a)
+msgid "2. Τι είναι νέο στο GIMP 2.6;"
+msgstr ""
+
+#: el/index.html:82(a)
+msgid "2. Εκκίνηση του GIMP"
+msgstr ""
+
+#: el/index.html:85(a)
+msgid "1. Εκτέλεση του GIMP"
+msgstr ""
+
+#: el/index.html:88(a)
+msgid "1.1. Γνωστές πλατφόρμες"
+msgstr ""
+
+#: el/index.html:89(a)
+msgid "1.2. Γλώσσα"
+msgstr ""
+
+#: el/index.html:90(a)
+msgid "1.3. Ορίσματα γραμμής εντολών"
+msgstr ""
+
+#: el/index.html:93(a)
+msgid "2. Ξεκίνημα του GIMP για πρώτη φορά"
+msgstr ""
+
+#: el/index.html:96(a)
+msgid "2.1. Επιτέλους . . ."
+msgstr ""
+
+#: el/index.html:101(a)
+msgid "3. Πρώτα βήματα με τον Wilber"
+msgstr ""
+
+#: el/index.html:104(a)
+msgid "1. Βασικές ιδέες"
+msgstr ""
+
+#: el/index.html:105(a)
+msgid "2. Κύρια παράθυρα"
+msgstr ""
+
+#: el/index.html:108(a)
+msgid "2.1. Η εργαλειοθήκη"
+msgstr ""
+
+#: el/index.html:109(a)
+msgid "2.2. Παράθυρο εικόνας"
+msgstr ""
+
+#: el/index.html:110(a)
+msgid "2.3. Διάλογοι και αγκίστρια (Docking)"
+msgstr ""
+
+#: el/index.html:113(a)
+msgid "3. Αναίρεση"
+msgstr ""
+
+#: el/index.html:116(a)
+msgid "3.1. Πράγματα που δεν μπορούν να αναιρεθούν"
+msgstr ""
+
+#: el/index.html:119(a)
+msgid "4. Τα γρήγορα του GIMPLite"
+msgstr ""
+
+#: el/index.html:122(a)
+msgid "4.1. Σκοπός"
+msgstr ""
+
+#: el/index.html:123(a)
+msgid "4.2. Αυξομείωση του μεγέθους μιας εικόνας (Κλίμακα)"
+msgstr ""
+
+#: el/index.html:124(a)
+msgid "4.3. Σμίκρυνση JPEGs"
+msgstr ""
+
+#: el/index.html:125(a)
+msgid "4.4. Περικοπή εικόνας"
+msgstr ""
+
+#: el/index.html:126(a)
+msgid "4.5. Εύρεση πληροφοριών για την εικόνα σας"
+msgstr ""
+
+#: el/index.html:127(a)
+msgid "4.6. Αλλαγή κατάστασης"
+msgstr ""
+
+#: el/index.html:128(a)
+msgid "4.7. Αναστροφή εικόνας"
+msgstr ""
+
+#: el/index.html:129(a)
+msgid "4.8. Περιστροφή εικόνας"
+msgstr ""
+
+#: el/index.html:132(a)
+msgid "5. Ευθύγραμμη σχεδίαση"
+msgstr ""
+
+#: el/index.html:135(a)
+msgid "5.1. Σκοπός"
+msgstr ""
+
+#: el/index.html:136(a)
+msgid "5.2. Παραδείγματα"
+msgstr ""
+
+#: el/index.html:141(a)
+msgid "4. Ξεκόλλημα"
+msgstr ""
+
+#: el/index.html:144(a)
+msgid "1. Ξεκόλλημα"
+msgstr ""
+
+#: el/index.html:147(a)
+msgid "1.1. Κόλλημα!"
+msgstr ""
+
+#: el/index.html:148(a)
+msgid "1.2. Συνηθισμένα αίτια μη ανταπόκρισης του GIMP"
+msgstr ""
+
+#: el/index.html:155(a)
+msgid "II. Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/index.html:158(a)
+msgid "5. Εισαγωγή εικόνων στο GIMP"
+msgstr ""
+
+#: el/index.html:161(a)
+msgid "1. Τύποι εικόνας"
+msgstr ""
+
+#: el/index.html:162(a)
+msgid "2. Δημιουργία νέων αρχείων"
+msgstr ""
+
+#: el/index.html:163(a)
+msgid "3. Άνοιγμα αρχείων"
+msgstr ""
+
+#: el/index.html:166(a)
+msgid "3.1. Άνοιγμα αρχείου"
+msgstr ""
+
+#: el/index.html:167(a)
+msgid "3.2. Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/index.html:168(a)
+msgid "3.3. Άνοιγμα πρόσφατου"
+msgstr ""
+
+#: el/index.html:169(a)
+msgid "3.4. Χρήση εξωτερικών προγραμμάτων"
+msgstr ""
+
+#: el/index.html:170(a)
+msgid "3.5. Διαχειριστής αρχείου"
+msgstr ""
+
+#: el/index.html:171(a)
+msgid "3.6. Σύρσιμο και απόθεση"
+msgstr ""
+
+#: el/index.html:172(a)
+msgid "3.7. Αντιγραφή και επικόλληση"
+msgstr ""
+
+#: el/index.html:173(a)
+msgid "3.8. Περιηγητής εικόνας"
+msgstr ""
+
+#: el/index.html:178(a)
+msgid "6. Εξαγωγή εικόνων από το GIMP"
+msgstr ""
+
+#: el/index.html:181(a)
+msgid "1. Αρχεία"
+msgstr ""
+
+#: el/index.html:184(a)
+msgid "1.1. Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/index.html:185(a)
+msgid "1.2. Αποθήκευση αρχείων"
+msgstr ""
+
+#: el/index.html:188(a)
+msgid "2. Προετοιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/index.html:191(a)
+msgid "2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας"
+msgstr ""
+
+#: el/index.html:192(a)
+msgid "2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
+msgstr ""
+
+#: el/index.html:193(a)
+msgid "2.3. Αποθήκευση εικόνων με διαφάνεια"
+msgstr ""
+
+#: el/index.html:198(a)
+msgid "7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/index.html:201(a)
+msgid "1. Επιλογή"
+msgstr ""
+
+#: el/index.html:204(a)
+msgid "1.1. Απάλυνση"
+msgstr ""
+
+#: el/index.html:205(a)
+msgid "1.2. Κάνοντας μια επιλογή μερικώς διαφανή"
+msgstr ""
+
+#: el/index.html:208(a)
+msgid "2. Δημιουργία και χρήση επιλογών"
+msgstr ""
+
+#: el/index.html:211(a)
+msgid "2.1. Μετακίνηση επιλογής"
+msgstr ""
+
+#: el/index.html:212(a)
+msgid "2.2. Προσθήκη ή αφαίρεση επιλογών"
+msgstr ""
+
+#: el/index.html:215(a)
+msgid "3. Σύντομη Μάσκα"
+msgstr ""
+
+#: el/index.html:218(a)
+msgid "3.1. Επισκόπηση"
+msgstr ""
+
+#: el/index.html:219(a)
+msgid "3.2. Ιδιότητες"
+msgstr ""
+
+#: el/index.html:222(a)
+msgid "4. Χρήση της κατάστασης σύντομης μάσκας"
+msgstr ""
+
+#: el/index.html:223(span)
+msgid "Μονοπάτια"
+msgstr ""
+
+#: el/index.html:223(a)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:226(a)
+msgid "5.1. Δημιουργία μονοπατιού"
+msgstr ""
+
+#: el/index.html:227(a)
+msgid "5.2. Ιδιότητες Μονοπατιού"
+msgstr ""
+
+#: el/index.html:228(a)
+msgid "5.3. Μονοπάτια και επιλογές"
+msgstr ""
+
+#: el/index.html:229(a)
+msgid "5.4. Μετασχηματισμός μονοπατιών"
+msgstr ""
+
+#: el/index.html:230(a)
+msgid "5.5. Βάψιμο μονοπατιού"
+msgstr ""
+
+#: el/index.html:231(a)
+msgid "5.6. Μονοπάτια και κείμενο"
+msgstr ""
+
+#: el/index.html:232(acronym)
+msgid "SVG"
+msgstr ""
+
+#: el/index.html:232(a)
+msgid "5.7. Μονοπάτια και αρχεία <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:235(a)
+msgid "6. Πινέλα"
+msgstr ""
+
+#: el/index.html:236(a)
+msgid "7. Προσθήκη νέων πινέλων"
+msgstr ""
+
+#: el/index.html:237(a)
+msgid "8. Το πλαίσιο διαλόγου GIH"
+msgstr ""
+
+#: el/index.html:238(a)
+msgid "9. Αλλαγή μεγέθους πινέλου"
+msgstr ""
+
+#: el/index.html:241(a)
+msgid "9.1. Αυξομείωση ύψους πινέλου"
+msgstr ""
+
+#: el/index.html:242(a)
+msgid "9.2. Γρήγορη δημιουργία πινέλου"
+msgstr ""
+
+#: el/index.html:245(a)
+msgid "10. Διαβαθμίσεις"
+msgstr ""
+
+#: el/index.html:246(a)
+msgid "11. Μοτίβα (προπλάσματα)"
+msgstr ""
+
+#: el/index.html:247(a)
+msgid "12. Παλέτες"
+msgstr ""
+
+#: el/index.html:250(a)
+msgid "12.1. Χρωματολόγιο"
+msgstr ""
+
+#: el/index.html:253(a)
+msgid "13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/index.html:256(a)
+msgid "13.1. Σχεδίαση ευθείας γραμμής"
+msgstr ""
+
+#: el/index.html:257(a)
+msgid "13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/index.html:262(a)
+msgid "8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/index.html:265(a)
+msgid "1. Εισαγωγή στις στρώσεις"
+msgstr ""
+
+#: el/index.html:268(a)
+msgid "1.1. Ιδιότητες στρώσης"
+msgstr ""
+
+#: el/index.html:271(a)
+msgid "2. Καταστάσεις στρώσης"
+msgstr ""
+
+#: el/index.html:272(a)
+msgid "3. Δημιουργία νέων στρώσεων"
+msgstr ""
+
+#: el/index.html:273(a)
+msgid "4. Κείμενο και γραμματοσειρές"
+msgstr ""
+
+#: el/index.html:274(a)
+msgid "5. Κείμενο"
+msgstr ""
+
+#: el/index.html:277(a)
+msgid "5.1. Διακόσμηση κειμένου"
+msgstr ""
+
+#: el/index.html:278(a)
+msgid "5.2. Προσθήκη γραμματοσειρών"
+msgstr ""
+
+#: el/index.html:279(a)
+msgid "5.3. Προβλήματα γραμματοσειρών"
+msgstr ""
+
+#: el/index.html:284(a)
+msgid "9. Βελτιστοποίηση φωτογραφιών"
+msgstr ""
+
+#: el/index.html:287(a)
+msgid "1. Εργασία με φωτογραφίες ψηφιακής κάμερας"
+msgstr ""
+
+#: el/index.html:290(a) el/index.html:318(a) el/index.html:358(a) el/index.html:400(a)
+msgid "1.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:291(a)
+msgid "1.2. Βελτίωση σύστασης"
+msgstr ""
+
+#: el/index.html:292(a)
+msgid "1.3. Βελτίωση χρωμάτων"
+msgstr ""
+
+#: el/index.html:293(a)
+msgid "1.4. Ρύθμιση οξύτητας"
+msgstr ""
+
+#: el/index.html:294(a)
+msgid "1.5. Αφαίρεση ανεπιθύμητων αντικειμένων από εικόνα"
+msgstr ""
+
+#: el/index.html:295(a)
+msgid "1.6. Αποθήκευση αποτελεσμάτων"
+msgstr ""
+
+#: el/index.html:300(a)
+msgid "10. Διαχείριση χρώματος με το GIMP"
+msgstr ""
+
+#: el/index.html:303(a)
+msgid "1. Διαχείριση Χρώματος στο GIMP"
+msgstr ""
+
+#: el/index.html:306(a)
+msgid "1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/index.html:307(a)
+msgid "1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος"
+msgstr ""
+
+#: el/index.html:312(a)
+msgid "11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/index.html:315(a)
+msgid "1. Διάλογος προτιμήσεων"
+msgstr ""
+
+#: el/index.html:319(a)
+msgid "1.2. Περιβάλλον"
+msgstr ""
+
+#: el/index.html:320(a)
+msgid "1.3. Διεπαφή"
+msgstr ""
+
+#: el/index.html:321(a)
+msgid "1.4. Θέμα"
+msgstr ""
+
+#: el/index.html:322(a)
+msgid "1.5. Σύστημα βοήθειας"
+msgstr ""
+
+#: el/index.html:323(a)
+msgid "1.6. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/index.html:324(a)
+msgid "1.7. Εργαλειοθήκη"
+msgstr ""
+
+#: el/index.html:325(a)
+msgid "1.8. Προεπιλεγμένες προτιμήσεις εικόνας"
+msgstr ""
+
+#: el/index.html:326(a)
+msgid "1.9. Προεπιλεγμένο πλέγμα εικόνας"
+msgstr ""
+
+#: el/index.html:327(a)
+msgid "1.10. Παράθυρα εικόνας"
+msgstr ""
+
+#: el/index.html:328(a)
+msgid "1.11. Εμφάνιση παράθυρου εικόνας"
+msgstr ""
+
+#: el/index.html:329(a)
+msgid "1.12. Τίτλος παράθυρου εικόνας και γραμμής κατάστασης"
+msgstr ""
+
+#: el/index.html:330(a)
+msgid "1.13. Εμφάνιση"
+msgstr ""
+
+#: el/index.html:331(a)
+msgid "1.14. Διαχείριση χρώματος"
+msgstr ""
+
+#: el/index.html:332(a)
+msgid "1.15. Συσκευές εισαγωγής"
+msgstr ""
+
+#: el/index.html:333(a)
+msgid "1.16. Ελεγκτές εισαγωγής"
+msgstr ""
+
+#: el/index.html:334(a)
+msgid "1.17. Διαχείριση παραθύρου"
+msgstr ""
+
+#: el/index.html:335(a)
+msgid "1.18. Φάκελοι"
+msgstr ""
+
+#: el/index.html:336(a)
+msgid "1.19. Φάκελοι δεδομένων"
+msgstr ""
+
+#: el/index.html:339(a)
+msgid "2. Πλέγμα και οδηγοί"
+msgstr ""
+
+#: el/index.html:342(a)
+msgid "2.1. Πλέγμα εικόνας"
+msgstr ""
+
+#: el/index.html:343(a)
+msgid "2.2. Οδηγοί"
+msgstr ""
+
+#: el/index.html:346(a)
+msgid "3. Ενσωμάτωση πλέγματος"
+msgstr ""
+
+#: el/index.html:347(a)
+msgid "4. Ρύθμιση της παράθεσης κρυφής μνήμης"
+msgstr ""
+
+#: el/index.html:348(a)
+msgid "5. Δημιουργία συντομεύσεων στις λειτουργίες μενού"
+msgstr ""
+
+#: el/index.html:349(a)
+msgid "6. Προσαρμογή αρχικής οθόνης"
+msgstr ""
+
+#: el/index.html:352(a)
+msgid "12. Σενάρια"
+msgstr ""
+
+#: el/index.html:355(a)
+msgid "1. Πρόσθετα"
+msgstr ""
+
+#: el/index.html:359(a)
+msgid "1.2. Χρήση προσθέτων"
+msgstr ""
+
+#: el/index.html:360(a)
+msgid "1.3. Εγκατάσταση νέων προσθέτων"
+msgstr ""
+
+#: el/index.html:361(a)
+msgid "1.4. Εγγραφή προσθέτων"
+msgstr ""
+
+#: el/index.html:364(a)
+msgid "2. Χρήση σεναρίων Script-Fu"
+msgstr ""
+
+#: el/index.html:367(a)
+msgid "2.1. Script-Fu;"
+msgstr ""
+
+#: el/index.html:368(a)
+msgid "2.2. Εγκατάσταση Script-Fus"
+msgstr ""
+
+#: el/index.html:369(a)
+msgid "2.3. Επιτρεπτά και μη"
+msgstr ""
+
+#: el/index.html:370(a)
+msgid "2.4. Διάφορα είδη Script-Fus"
+msgstr ""
+
+#: el/index.html:371(a)
+msgid "2.5. Αυτόνομα σενάρια"
+msgstr ""
+
+#: el/index.html:372(a)
+msgid "2.6. Εικονοεξαρτώμενα σενάρια"
+msgstr ""
+
+#: el/index.html:375(a)
+msgid "3. Διδασκαλία ενός Script-Fu"
+msgstr ""
+
+#: el/index.html:378(a)
+msgid "3.1. Εξοικείωση με Scheme"
+msgstr ""
+
+#: el/index.html:379(a)
+msgid "3.2. Μεταβλητές και συναρτήσεις"
+msgstr ""
+
+#: el/index.html:380(a)
+msgid "3.3. Λίστες, λίστες και πάλι λίστες"
+msgstr ""
+
+#: el/index.html:381(a)
+msgid "3.4. Το πρώτο σας σενάριο Script-Fu"
+msgstr ""
+
+#: el/index.html:382(a)
+msgid "3.5. Δίνοντας στο σενάριο περισσότερη ψυχή"
+msgstr ""
+
+#: el/index.html:383(a)
+msgid "3.6. Επέκταση του σεναρίου πλαισίου κειμένου"
+msgstr ""
+
+#: el/index.html:384(a)
+msgid "3.7. Το σενάριο και η λειτουργία του"
+msgstr ""
+
+#: el/index.html:391(a)
+msgid "III. Αναφορά λειτουργιών"
+msgstr ""
+
+#: el/index.html:394(a)
+msgid "13. Εργαλεία"
+msgstr ""
+
+#: el/index.html:397(a)
+msgid "1. Η εργαλειοθήκη"
+msgstr ""
+
+#: el/index.html:401(a)
+msgid "1.2. Εικονίδια εργαλείων"
+msgstr ""
+
+#: el/index.html:402(a)
+msgid "1.3. Χρώμα και περιοχή δείκτη"
+msgstr ""
+
+#: el/index.html:403(a)
+msgid "1.4. Επιλογές εργαλείων"
+msgstr ""
+
+#: el/index.html:406(a)
+msgid "2. Εργαλεία επιλογής"
+msgstr ""
+
+#: el/index.html:409(a)
+msgid "2.1. Κοινά χαρακτηριστικά"
+msgstr ""
+
+#: el/index.html:410(a)
+msgid "2.2. Επιλογή ορθογωνίου"
+msgstr ""
+
+#: el/index.html:411(a)
+msgid "2.3. Επιλογή έλλειψης"
+msgstr ""
+
+#: el/index.html:412(a)
+msgid "2.4. Ελεύθερη επιλογή (Λάσο)"
+msgstr ""
+
+#: el/index.html:413(a)
+msgid "2.5. Ασαφής επιλογή (Μαγικό ραβδί)"
+msgstr ""
+
+#: el/index.html:414(a)
+msgid "2.6. Επιλογή κατά χρώμα"
+msgstr ""
+
+#: el/index.html:415(a)
+msgid "2.7. Έξυπνα ψαλίδια"
+msgstr ""
+
+#: el/index.html:416(a)
+msgid "2.8. Επιλογή προσκηνίου"
+msgstr ""
+
+#: el/index.html:419(a)
+msgid "3. Εργαλεία ζωγραφικής"
+msgstr ""
+
+#: el/index.html:422(a)
+msgid "3.1. Κοινά χαρακτηριστικά"
+msgstr ""
+
+#: el/index.html:423(a)
+msgid "3.2. Εργαλεία πινέλου (μολύβι, πινέλο, αερογράφος)"
+msgstr ""
+
+#: el/index.html:424(a)
+msgid "3.3. Κουβάς γεμίσματος"
+msgstr ""
+
+#: el/index.html:425(a)
+msgid "3.4. Μείξη"
+msgstr ""
+
+#: el/index.html:426(a)
+msgid "3.5. Μολύβι"
+msgstr ""
+
+#: el/index.html:427(a)
+msgid "3.6. Πινέλο"
+msgstr ""
+
+#: el/index.html:428(a)
+msgid "3.7. Σβήστρα"
+msgstr ""
+
+#: el/index.html:429(a)
+msgid "3.8. Αερογράφος"
+msgstr ""
+
+#: el/index.html:430(a)
+msgid "3.9. Μελάνι"
+msgstr ""
+
+#: el/index.html:431(a)
+msgid "3.10. Κλωνοποίηση"
+msgstr ""
+
+#: el/index.html:432(a)
+msgid "3.11. Επούλωση"
+msgstr ""
+
+#: el/index.html:433(a)
+msgid "3.12. Προοπτική κλωνοποίησης"
+msgstr ""
+
+#: el/index.html:434(a)
+msgid "3.13. Θόλωση/Όξυνση"
+msgstr ""
+
+#: el/index.html:435(a)
+msgid "3.14. Μουτζούρα"
+msgstr ""
+
+#: el/index.html:436(a)
+msgid "3.15. Κάλυψη/Κάψιμο"
+msgstr ""
+
+#: el/index.html:439(a)
+msgid "4. Εργαλεία μετασχηματισμού"
+msgstr ""
+
+#: el/index.html:442(a)
+msgid "4.1. Κοινά χαρακτηριστικά"
+msgstr ""
+
+#: el/index.html:443(a)
+msgid "4.2. Ευθυγράμμιση"
+msgstr ""
+
+#: el/index.html:444(a)
+msgid "4.3. Μετακίνηση"
+msgstr ""
+
+#: el/index.html:445(a)
+msgid "4.4. Περικοπή"
+msgstr ""
+
+#: el/index.html:446(a)
+msgid "4.5. Περιστροφή"
+msgstr ""
+
+#: el/index.html:447(a)
+msgid "4.6. Αυξομείωση μεγέθους"
+msgstr ""
+
+#: el/index.html:448(a)
+msgid "4.7. Στρέβλωση"
+msgstr ""
+
+#: el/index.html:449(a)
+msgid "4.8. Προοπτική"
+msgstr ""
+
+#: el/index.html:450(a)
+msgid "4.9. Αναστροφή"
+msgstr ""
+
+#: el/index.html:453(a)
+msgid "5. Εργαλεία χρώματος"
+msgstr ""
+
+#: el/index.html:456(a)
+msgid "5.1. Επισκόπηση"
+msgstr ""
+
+#: el/index.html:457(a)
+msgid "5.2. Ισορροπία χρώματος"
+msgstr ""
+
+#: el/index.html:458(a)
+msgid "5.3. Απόχρωση-Κορεσμός"
+msgstr ""
+
+#: el/index.html:459(a)
+msgid "5.4. Χρωματισμός"
+msgstr ""
+
+#: el/index.html:460(a)
+msgid "5.5. Φωτεινότητα-Αντίθεση"
+msgstr ""
+
+#: el/index.html:461(a)
+msgid "5.6. Κατώφλι"
+msgstr ""
+
+#: el/index.html:462(a)
+msgid "5.7. Στάθμες"
+msgstr ""
+
+#: el/index.html:463(a)
+msgid "5.8. Καμπύλες"
+msgstr ""
+
+#: el/index.html:464(a)
+msgid "5.9. Ποστεροποίηση"
+msgstr ""
+
+#: el/index.html:465(a)
+msgid "5.10. Αποκερεσμός"
+msgstr ""
+
+#: el/index.html:468(a)
+msgid "6. Άλλα"
+msgstr ""
+
+#: el/index.html:471(a) el/index.html:643(a)
+msgid "6.1. Επισκόπηση"
+msgstr ""
+
+#: el/index.html:472(a)
+msgid "6.2. Μονοπάτια"
+msgstr ""
+
+#: el/index.html:473(a)
+msgid "6.3. Επιλογέας χρώματος"
+msgstr ""
+
+#: el/index.html:474(a)
+msgid "6.4. Μεγέθυνση"
+msgstr ""
+
+#: el/index.html:475(a)
+msgid "6.5. Μέτρηση"
+msgstr ""
+
+#: el/index.html:476(a)
+msgid "6.6. Κείμενο"
+msgstr ""
+
+#: el/index.html:477(a)
+msgid "6.7. Λειτουργία GEGL"
+msgstr ""
+
+#: el/index.html:482(a)
+msgid "14. Διάλογοι"
+msgstr ""
+
+#: el/index.html:485(a)
+msgid "1. Εισαγωγή διαλόγου"
+msgstr ""
+
+#: el/index.html:486(a)
+msgid "2. Δομικοί διάλογοι εικόνας"
+msgstr ""
+
+#: el/index.html:489(a)
+msgid "2.1. Διάλογος στρώσεων"
+msgstr ""
+
+#: el/index.html:490(a)
+msgid "2.2. Διάλογος καναλιών"
+msgstr ""
+
+#: el/index.html:491(a)
+msgid "2.3. Διάλογος μονοπατιών"
+msgstr ""
+
+#: el/index.html:492(a)
+msgid "2.4. Διάλογος χρωματολογίου"
+msgstr ""
+
+#: el/index.html:493(a)
+msgid "2.5. Διάλογος ιστογράμματος"
+msgstr ""
+
+#: el/index.html:494(a)
+msgid "2.6. Διάλογος περιήγησης"
+msgstr ""
+
+#: el/index.html:495(a)
+msgid "2.7. Διάλογος ιστορικού αναιρέσεων"
+msgstr ""
+
+#: el/index.html:498(a)
+msgid "3. Διάλογοι περιεχομένου εικόνας"
+msgstr ""
+
+#: el/index.html:501(a)
+msgid "3.1. Χρωματικός διάλογος FG/BG"
+msgstr ""
+
+#: el/index.html:502(a)
+msgid "3.2. Διάλογος πινέλων"
+msgstr ""
+
+#: el/index.html:503(a)
+msgid "3.3. Διάλογος μοτίβων (προπλασμάτων)"
+msgstr ""
+
+#: el/index.html:504(a)
+msgid "3.4. Διάλογος διαβαθμίσεων"
+msgstr ""
+
+#: el/index.html:505(a)
+msgid "3.5. Διάλογος παλετών"
+msgstr ""
+
+#: el/index.html:506(a)
+msgid "3.6. Διάλογος γραμματοσειρών"
+msgstr ""
+
+#: el/index.html:509(a)
+msgid "4. Διάλογοι διαχείρισης εικόνας"
+msgstr ""
+
+#: el/index.html:512(a)
+msgid "4.1. Διάλογος Buffer (προσωρινής αποθήκευσης)"
+msgstr ""
+
+#: el/index.html:513(a)
+msgid "4.2. Διάλογος εικόνων"
+msgstr ""
+
+#: el/index.html:514(a)
+msgid "4.3. Διάλογος ιστορικού εγγράφου"
+msgstr ""
+
+#: el/index.html:515(a)
+msgid "4.4. Διάλογος προτύπων"
+msgstr ""
+
+#: el/index.html:518(a)
+msgid "5. Ποικίλοι διάλογοι"
+msgstr ""
+
+#: el/index.html:521(a)
+msgid "5.1. Διάλογος εργαλείων"
+msgstr ""
+
+#: el/index.html:522(a)
+msgid "5.2. Διάλογος κατάστασης συσκευής"
+msgstr ""
+
+#: el/index.html:523(a)
+msgid "5.3. Κονσόλα σφάλματος"
+msgstr ""
+
+#: el/index.html:524(a)
+msgid "5.4. Εξαγωγή αρχείου"
+msgstr ""
+
+#: el/index.html:525(a)
+msgid "5.5. Διάλογος σημείων δειγματοληψίας"
+msgstr ""
+
+#: el/index.html:526(a)
+msgid "5.6. Διάλογος δεικτών"
+msgstr ""
+
+#: el/index.html:531(a)
+msgid "15. Μενού"
+msgstr ""
+
+#: el/index.html:534(a)
+msgid "1. Εισαγωγή στα μενού"
+msgstr ""
+
+#: el/index.html:537(a)
+msgid "1.1. Μενού περιεχομένου"
+msgstr ""
+
+#: el/index.html:538(a)
+msgid "1.2. Αποσπώμενα μενού"
+msgstr ""
+
+#: el/index.html:539(a)
+msgid "1.3. Μενού καρτελών"
+msgstr ""
+
+#: el/index.html:542(span) el/index.html:1049(a)
+msgid "Αρχείο"
+msgstr ""
+
+#: el/index.html:542(span) el/index.html:563(span) el/index.html:566(span) el/index.html:584(span) el/index.html:590(span) el/index.html:593(span) el/index.html:613(span) el/index.html:616(span) el/index.html:640(span) el/index.html:673(span) el/index.html:676(span) el/index.html:685(span) el/index.html:694(span) el/index.html:695(span) el/index.html:706(span) el/index.html:716(span) el/index.html:731(span) el/index.html:734(span) el/index.html:739(span) el/index.html:746(span) el/index.html:751(span) el/index.html:760(span) el/index.html:774(span) el/index.html:777(span) el/index.html:780(span) el/index.html:783(span) el/index.html:787(span) el/index.html:788(span) el/index.html:791(span) el/index.html:794(span) el/index.html:795(span) el/index.html:796(span) el/index.html:799(span) el/index.html:802(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/index.html:542(a)
+msgid "2. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:545(a)
+msgid "2.1. Επισκόπηση"
+msgstr ""
+
+#: el/index.html:546(a)
+msgid "2.2. Νέο"
+msgstr ""
+
+#: el/index.html:547(a)
+msgid "2.3. Δημιουργία"
+msgstr ""
+
+#: el/index.html:548(a)
+msgid "2.4. Άνοιγμα"
+msgstr ""
+
+#: el/index.html:549(a)
+msgid "2.5. Άνοιγμα ως στρώσεις"
+msgstr ""
+
+#: el/index.html:550(a)
+msgid "2.6. Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/index.html:551(a)
+msgid "2.7. Άνοιγμα πρόσφατου"
+msgstr ""
+
+#: el/index.html:552(a)
+msgid "2.8. Αποθήκευση"
+msgstr ""
+
+#: el/index.html:553(a)
+msgid "2.9. Αποθήκευση ως"
+msgstr ""
+
+#: el/index.html:554(a)
+msgid "2.10. Αποθήκευση ενός αντιγράφου"
+msgstr ""
+
+#: el/index.html:555(a)
+msgid "2.11. Αποθήκευση ως πρότυπο"
+msgstr ""
+
+#: el/index.html:556(a)
+msgid "2.12. Επαναφόρτωση"
+msgstr ""
+
+#: el/index.html:557(a)
+msgid "2.13. Εκτύπωση"
+msgstr ""
+
+#: el/index.html:558(a)
+msgid "2.14. Κλείσιμο"
+msgstr ""
+
+#: el/index.html:559(a)
+msgid "2.15. Κλείσιμο όλων"
+msgstr ""
+
+#: el/index.html:560(a)
+msgid "2.16. Έξοδος"
+msgstr ""
+
+#: el/index.html:563(span) el/index.html:566(span) el/index.html:1055(a)
+msgid "Επεξεργασία"
+msgstr ""
+
+#: el/index.html:563(a)
+msgid "3. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:566(a)
+msgid "3.1. Είσοδοι του μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:567(a)
+msgid "3.2. Αναίρεση"
+msgstr ""
+
+#: el/index.html:568(a)
+msgid "3.3. Ακύρωση αναίρεσης (Επανεκτέλεση)"
+msgstr ""
+
+#: el/index.html:569(a)
+msgid "3.4. Fade (Ξεθώριασμα)"
+msgstr ""
+
+#: el/index.html:570(a)
+msgid "3.5. Ιστορικό αναιρέσεων"
+msgstr ""
+
+#: el/index.html:571(a)
+msgid "3.6. Αποκοπή"
+msgstr ""
+
+#: el/index.html:572(a)
+msgid "3.7. Αντιγραφή"
+msgstr ""
+
+#: el/index.html:573(a)
+msgid "3.8. Αντιγραφή ορατών"
+msgstr ""
+
+#: el/index.html:574(a)
+msgid "3.9. Επικόλληση"
+msgstr ""
+
+#: el/index.html:575(a)
+msgid "3.10. Επικόλληση σε"
+msgstr ""
+
+#: el/index.html:576(a)
+msgid "3.11. Επικόλληση ως"
+msgstr ""
+
+#: el/index.html:577(a)
+msgid "3.12. Buffer (προσωρινή αποθήκευση)"
+msgstr ""
+
+#: el/index.html:578(a)
+msgid "3.13. Καθαρισμός"
+msgstr ""
+
+#: el/index.html:579(a)
+msgid "3.14. Γέμισμα με χρώμα προσκηνίου"
+msgstr ""
+
+#: el/index.html:580(a)
+msgid "3.15. Γέμισμα με χρώμα παρασκηνίου"
+msgstr ""
+
+#: el/index.html:581(a)
+msgid "3.16. Γέμισμα με μοτίβο"
+msgstr ""
+
+#: el/index.html:582(a)
+msgid "3.17. Βάψιμο επιλογής"
+msgstr ""
+
+#: el/index.html:583(a)
+msgid "3.18. Βάψιμο μονοπατιού"
+msgstr ""
+
+#: el/index.html:584(span)
+msgid "Προτιμήσεις"
+msgstr ""
+
+#: el/index.html:584(a)
+msgid "3.19. Η εντολή <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:585(a)
+msgid "3.20. Συντομεύσεις πληκτρολογίου"
+msgstr ""
+
+#: el/index.html:586(a)
+msgid "3.21. Αρθρώματα"
+msgstr ""
+
+#: el/index.html:587(a)
+msgid "3.22. Units (Μονάδες)"
+msgstr ""
+
+#: el/index.html:590(span) el/index.html:593(span) el/index.html:1059(a)
+msgid "Επιλογή"
+msgstr ""
+
+#: el/index.html:590(a)
+msgid "4. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:593(a)
+msgid "4.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:594(a)
+msgid "4.2. Όλα"
+msgstr ""
+
+#: el/index.html:595(a)
+msgid "4.3. Τίποτα"
+msgstr ""
+
+#: el/index.html:596(a)
+msgid "4.4. Αναστροφή"
+msgstr ""
+
+#: el/index.html:597(a)
+msgid "4.5. Επιπλέουσα"
+msgstr ""
+
+#: el/index.html:598(a)
+msgid "4.6. Κατά χρώμα"
+msgstr ""
+
+#: el/index.html:599(a)
+msgid "4.7. Από μονοπάτι"
+msgstr ""
+
+#: el/index.html:600(a)
+msgid "4.8. Επεξεργαστής επιλογής"
+msgstr ""
+
+#: el/index.html:601(a)
+msgid "4.9. Απάλυνση"
+msgstr ""
+
+#: el/index.html:602(a)
+msgid "4.10. Όξυνση"
+msgstr ""
+
+#: el/index.html:603(a)
+msgid "4.11. Σμίκρυνση"
+msgstr ""
+
+#: el/index.html:604(a)
+msgid "4.12. Μεγέθυνση"
+msgstr ""
+
+#: el/index.html:605(a)
+msgid "4.13. Περίγραμμα"
+msgstr ""
+
+#: el/index.html:606(a)
+msgid "4.14. Distort (Παραμόρφωση)"
+msgstr ""
+
+#: el/index.html:607(a)
+msgid "4.15. Rounded Rectangle (Στρογγυλευμένο ορθογώνιο)"
+msgstr ""
+
+#: el/index.html:608(a)
+msgid "4.16. Ενεργοποίηση σύντομης μάσκας"
+msgstr ""
+
+#: el/index.html:609(a)
+msgid "4.17. Αποθήκευση σε κανάλι"
+msgstr ""
+
+#: el/index.html:610(a)
+msgid "4.18. Σε μονοπάτι"
+msgstr ""
+
+#: el/index.html:613(span) el/index.html:616(span) el/index.html:1053(a)
+msgid "Προβολή"
+msgstr ""
+
+#: el/index.html:613(a)
+msgid "5. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:616(a)
+msgid "5.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:617(a)
+msgid "5.2. Νέα προβολή"
+msgstr ""
+
+#: el/index.html:618(a)
+msgid "5.3. Κουκίδα για κουκίδα"
+msgstr ""
+
+#: el/index.html:619(a)
+msgid "5.4. Εστίαση"
+msgstr ""
+
+#: el/index.html:620(a)
+msgid "5.5. Συρρίκνωση παραθύρου"
+msgstr ""
+
+#: el/index.html:621(a)
+msgid "5.6. Πλήρης οθόνη"
+msgstr ""
+
+#: el/index.html:622(a)
+msgid "5.7. Παράθυρο περιήγησης"
+msgstr ""
+
+#: el/index.html:623(a)
+msgid "5.8. Φίλτρα προβολής"
+msgstr ""
+
+#: el/index.html:624(a)
+msgid "5.9. Εμφάνιση επιλογής"
+msgstr ""
+
+#: el/index.html:625(a)
+msgid "5.10. Εμφάνιση περιγράμματος στρώσης"
+msgstr ""
+
+#: el/index.html:626(a)
+msgid "5.11. Εμφάνιση οδηγών"
+msgstr ""
+
+#: el/index.html:627(a)
+msgid "5.12. Εμφάνιση πλέγματος"
+msgstr ""
+
+#: el/index.html:628(a)
+msgid "5.13. Εμφάνιση σημείων δειγματοληψίας"
+msgstr ""
+
+#: el/index.html:629(a)
+msgid "5.14. Προσκόλληση στους οδηγούς"
+msgstr ""
+
+#: el/index.html:630(a)
+msgid "5.15. Προσκόλληση στο πλέγμα"
+msgstr ""
+
+#: el/index.html:631(a)
+msgid "5.16. Προσκόλληση στα όρια του καμβά"
+msgstr ""
+
+#: el/index.html:632(a)
+msgid "5.17. Προσκόλληση στο ενεργό μονοπάτι"
+msgstr ""
+
+#: el/index.html:633(a)
+msgid "5.18. Χρώμα φόντου παραθύρου"
+msgstr ""
+
+#: el/index.html:634(a)
+msgid "5.19. Εμφάνιση γραμμής μενού"
+msgstr ""
+
+#: el/index.html:635(a)
+msgid "5.20. Εμφάνιση κανόνων"
+msgstr ""
+
+#: el/index.html:636(a)
+msgid "5.21. Εμφάνιση γραμμών κύλισης"
+msgstr ""
+
+#: el/index.html:637(a)
+msgid "5.22. Εμφάνιση γραμμής κατάστασης"
+msgstr ""
+
+#: el/index.html:640(span)
+msgid "Εικόνα"
+msgstr ""
+
+#: el/index.html:640(a)
+msgid "6. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:644(a)
+msgid "6.2. Δημιουργία αντιγράφου"
+msgstr ""
+
+#: el/index.html:645(a)
+msgid "6.3. Κατάσταση"
+msgstr ""
+
+#: el/index.html:646(a)
+msgid "6.4. Κατάσταση RGB"
+msgstr ""
+
+#: el/index.html:647(a)
+msgid "6.5. Κατάσταση κλίμακας γκρι"
+msgstr ""
+
+#: el/index.html:648(a)
+msgid "6.6. Από χρωματολόγιο"
+msgstr ""
+
+#: el/index.html:649(a)
+msgid "6.7. Μετασχηματισμός"
+msgstr ""
+
+#: el/index.html:650(a)
+msgid "6.8. Οριζόντια και κάθετη αναστροφή"
+msgstr ""
+
+#: el/index.html:651(a)
+msgid "6.9. Περιστροφή"
+msgstr ""
+
+#: el/index.html:652(a)
+msgid "6.10. Guillotine (Λαιμητόμος)"
+msgstr ""
+
+#: el/index.html:653(a)
+msgid "6.11. Μέγεθος καμβά"
+msgstr ""
+
+#: el/index.html:654(a)
+msgid "6.12. Προσαρμογή του καμβά στις στρώσεις"
+msgstr ""
+
+#: el/index.html:655(a)
+msgid "6.13. Προσαρμογή του καμβά στην επιλογή"
+msgstr ""
+
+#: el/index.html:656(a)
+msgid "6.14. Print Size (Μέγεθος εκτύπωσης)"
+msgstr ""
+
+#: el/index.html:657(a)
+msgid "6.15. Μέγεθος εικόνας"
+msgstr ""
+
+#: el/index.html:658(a)
+msgid "6.16. Περικοπή στην επιλογή"
+msgstr ""
+
+#: el/index.html:659(a)
+msgid "6.17. Autocrop Image (Αυτόματη περικοπή εικόνας)"
+msgstr ""
+
+#: el/index.html:660(a)
+msgid "6.18. Zealous Crop (Έξυπνη περικοπή)"
+msgstr ""
+
+#: el/index.html:661(a)
+msgid "6.19. Συγχώνευση ορατών στρώσεων"
+msgstr ""
+
+#: el/index.html:662(a)
+msgid "6.20. Ισοπέδωση εικόνας"
+msgstr ""
+
+#: el/index.html:663(a)
+msgid "6.21. Align Visible Layers (Ευθυγράμμιση Ορατών Στρώσεων)"
+msgstr ""
+
+#: el/index.html:664(a)
+msgid "6.22. Οδηγοί"
+msgstr ""
+
+#: el/index.html:665(a)
+msgid "6.23. New Guide (Νέος οδηγός)"
+msgstr ""
+
+#: el/index.html:666(a)
+msgid "6.24. Νέος οδηγός (Αναλογία)"
+msgstr ""
+
+#: el/index.html:667(a)
+msgid "6.25. Νέοι Οδηγοί από Επιλογή"
+msgstr ""
+
+#: el/index.html:668(a)
+msgid "6.26. Remove all guides (Απομάκρυνση όλων των οδηγών)"
+msgstr ""
+
+#: el/index.html:669(a)
+msgid "6.27. Διαμόρφωση πλέγματος"
+msgstr ""
+
+#: el/index.html:670(a)
+msgid "6.28. Ιδιότητες εικόνας"
+msgstr ""
+
+#: el/index.html:673(span) el/index.html:676(span) el/index.html:1057(a)
+msgid "Στρώση"
+msgstr ""
+
+#: el/index.html:673(a)
+msgid "7. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:676(a)
+msgid "7.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:677(a)
+msgid "7.2. Νέα στρώση"
+msgstr ""
+
+#: el/index.html:678(a)
+msgid "7.3. Νέο από τα ορατά"
+msgstr ""
+
+#: el/index.html:679(a)
+msgid "7.4. Δημιουργία αντιγράφου στρώσης"
+msgstr ""
+
+#: el/index.html:680(a)
+msgid "7.5. Αγκίστρωση στρώσης"
+msgstr ""
+
+#: el/index.html:681(a)
+msgid "7.6. Συγχώνευση με το από κάτω"
+msgstr ""
+
+#: el/index.html:682(a)
+msgid "7.7. Διαγραφή στρώσης"
+msgstr ""
+
+#: el/index.html:683(a)
+msgid "7.8. Οι εντολές κειμένου του μενού στρώση"
+msgstr ""
+
+#: el/index.html:684(a)
+msgid "7.9. Απόρριψη πληροφοριών κειμένου"
+msgstr ""
+
+#: el/index.html:685(span)
+msgid "Στοίβα"
+msgstr ""
+
+#: el/index.html:685(a)
+msgid "7.10. Υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:686(a)
+msgid "7.11. Επιλογή προηγούμενης στρώσης"
+msgstr ""
+
+#: el/index.html:687(a)
+msgid "7.12. Επιλογή επόμενης στρώσης"
+msgstr ""
+
+#: el/index.html:688(a)
+msgid "7.13. Επιλογή της κορυφαίας στρώσης"
+msgstr ""
+
+#: el/index.html:689(a)
+msgid "7.14. Επιλογή της χαμηλότερης στρώσης"
+msgstr ""
+
+#: el/index.html:690(a)
+msgid "7.15. Ανύψωση στρώσης"
+msgstr ""
+
+#: el/index.html:691(a)
+msgid "7.16. Χαμήλωμα στρώσης"
+msgstr ""
+
+#: el/index.html:692(a)
+msgid "7.17. Στην κορυφή της στοίβας"
+msgstr ""
+
+#: el/index.html:693(a)
+msgid "7.18. Στον πάτο της στοίβας"
+msgstr ""
+
+#: el/index.html:694(span)
+msgid "Reverse Layer Order (Αναστροφή σειράς στρώσης)"
+msgstr ""
+
+#: el/index.html:694(a)
+msgid "7.19. Η εντολή <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:695(span)
+msgid "Μάσκα"
+msgstr ""
+
+#: el/index.html:695(a)
+msgid "7.20. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:696(a)
+msgid "7.21. Προσθήκη μάσκας στρώσης"
+msgstr ""
+
+#: el/index.html:697(a)
+msgid "7.22. Εφαρμογή της μάσκας"
+msgstr ""
+
+#: el/index.html:698(a)
+msgid "7.23. Διαγραφή μάσκας"
+msgstr ""
+
+#: el/index.html:699(a)
+msgid "7.24. Προβολή της μάσκας"
+msgstr ""
+
+#: el/index.html:700(a)
+msgid "7.25. Επεξεργασία μάσκας στρώσης"
+msgstr ""
+
+#: el/index.html:701(a)
+msgid "7.26. Απενεργοποίηση της μάσκας"
+msgstr ""
+
+#: el/index.html:702(a)
+msgid "7.27. Από μάσκα σε επιλογή"
+msgstr ""
+
+#: el/index.html:703(a)
+msgid "7.28. Προσθήκη στην επιλογή"
+msgstr ""
+
+#: el/index.html:704(a)
+msgid "7.29. Αφαίρεση από την επιλογή"
+msgstr ""
+
+#: el/index.html:705(a)
+msgid "7.30. Intersect with Selection (Τομή με την επιλογή)"
+msgstr ""
+
+#: el/index.html:706(span)
+msgid "Διαφάνεια"
+msgstr ""
+
+#: el/index.html:706(span)
+msgid "“<span class=\"quote\"/>”"
+msgstr ""
+
+#: el/index.html:706(a)
+msgid "7.31. Το υπομενού <placeholder-1/><placeholder-2/>"
+msgstr ""
+
+#: el/index.html:707(a)
+msgid "7.32. Προσθήκη Καναλιού Alpha"
+msgstr ""
+
+#: el/index.html:708(a)
+msgid "7.33. Διαγραφή Καναλιού Alpha"
+msgstr ""
+
+#: el/index.html:709(a)
+msgid "7.34. Color to Alpha (Χρώμα στο άλφα)"
+msgstr ""
+
+#: el/index.html:710(a)
+msgid "7.35. Semi-flatten (Ημιισοπέδωση)"
+msgstr ""
+
+#: el/index.html:711(a)
+msgid "7.36. Threshold Alpha (Κατώφλι άλφα)"
+msgstr ""
+
+#: el/index.html:712(a)
+msgid "7.37. Από Alpha σε επιλογή"
+msgstr ""
+
+#: el/index.html:713(a)
+msgid "7.38. Προσθήκη Alpha στην επιλογή"
+msgstr ""
+
+#: el/index.html:714(a)
+msgid "7.39. Αφαίρεση Alpha από επιλογή"
+msgstr ""
+
+#: el/index.html:715(a)
+msgid "7.40. Intersect with Selection (Τομή με Επιλογή)"
+msgstr ""
+
+#: el/index.html:716(span)
+msgid "Μετασχηματισμός"
+msgstr ""
+
+#: el/index.html:716(a)
+msgid "7.41. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:717(a)
+msgid "7.42. Οριζόντια αναστροφή"
+msgstr ""
+
+#: el/index.html:718(a)
+msgid "7.43. Κατακόρυφη αναστροφή"
+msgstr ""
+
+#: el/index.html:719(a)
+msgid "7.44. Περιστροφή 90° δεξιόστροφα"
+msgstr ""
+
+#: el/index.html:720(a)
+msgid "7.45. Περιστροφή 90° αριστερόστροφα"
+msgstr ""
+
+#: el/index.html:721(a)
+msgid "7.46. Περιστροφή 180°"
+msgstr ""
+
+#: el/index.html:722(a)
+msgid "7.47. Ελεύθερη περιστροφή"
+msgstr ""
+
+#: el/index.html:723(a)
+msgid "7.48. Offset (Μετατόπιση)"
+msgstr ""
+
+#: el/index.html:724(a)
+msgid "7.49. Μέγεθος περιγράμματος στρώσης"
+msgstr ""
+
+#: el/index.html:725(a)
+msgid "7.50. Περίγραμμα στο μέγεθος της εικόνας"
+msgstr ""
+
+#: el/index.html:726(a)
+msgid "7.51. Αλλαγή μεγέθους στρώσης"
+msgstr ""
+
+#: el/index.html:727(a)
+msgid "7.52. Περικοπή στην επιλογή"
+msgstr ""
+
+#: el/index.html:728(a)
+msgid "7.53. Autocrop Layer (Αυτόματη Περικοπή Στρώσης)"
+msgstr ""
+
+#: el/index.html:731(span) el/index.html:734(span)
+msgid "Χρώματα"
+msgstr ""
+
+#: el/index.html:731(a)
+msgid "8. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:734(a)
+msgid "8.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:735(a)
+msgid "8.2. Εργαλεία χρωμάτων"
+msgstr ""
+
+#: el/index.html:736(a)
+msgid "8.3. Αντιστροφή"
+msgstr ""
+
+#: el/index.html:737(a)
+msgid "8.4. Value Invert (Αντιστροφή τιμής)"
+msgstr ""
+
+#: el/index.html:738(a)
+msgid "8.5. Χρήση GEGL"
+msgstr ""
+
+#: el/index.html:739(span)
+msgid "Αυτόματο"
+msgstr ""
+
+#: el/index.html:739(a)
+msgid "8.6. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:740(a)
+msgid "8.7. Ισοστάθμιση"
+msgstr ""
+
+#: el/index.html:741(a)
+msgid "8.8. Ισορροπία λευκού"
+msgstr ""
+
+#: el/index.html:742(a)
+msgid "8.9. (Βελτιστοποίηση Χρώματος)"
+msgstr ""
+
+#: el/index.html:743(a)
+msgid "8.10. Normalize (Κανονικοποίηση)"
+msgstr ""
+
+#: el/index.html:744(a)
+msgid "8.11. Stretch Contrast (Επέκταση αντίθεσης)"
+msgstr ""
+
+#: el/index.html:745(a)
+msgid "8.12. Stretch HSV (Επέκταση HSV)"
+msgstr ""
+
+#: el/index.html:746(span)
+msgid "Σχόλια (Συστατικά)"
+msgstr ""
+
+#: el/index.html:746(a)
+msgid "8.13. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:747(a)
+msgid "8.14. (Μείκτης καναλιών)"
+msgstr ""
+
+#: el/index.html:748(a)
+msgid "8.15. Compose (Σύνθεση)"
+msgstr ""
+
+#: el/index.html:749(span)
+msgid "Decompose (Αποσύνθεση)"
+msgstr ""
+
+#: el/index.html:749(a)
+msgid "8.16. <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:750(a)
+msgid "8.17. Recompose (Ανασύνθεση)"
+msgstr ""
+
+#: el/index.html:751(span)
+msgid "Map (Χάρτης)"
+msgstr ""
+
+#: el/index.html:751(a)
+msgid "8.18. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:752(a)
+msgid "8.19. Rearrange Colormap (Αναδιάταξη χρωματολογίου)"
+msgstr ""
+
+#: el/index.html:753(a)
+msgid "8.20. Set Colormap (Ορισμός χρωματολογίου)"
+msgstr ""
+
+#: el/index.html:754(a)
+msgid "8.21. Alien Map (Ξένος Χάρτης)"
+msgstr ""
+
+#: el/index.html:755(a)
+msgid "8.22. Color Exchange (Ανταλλαγή Χρώματος)"
+msgstr ""
+
+#: el/index.html:756(a)
+msgid "8.23. Gradient Map (Βαθμιδωτός χάρτης)"
+msgstr ""
+
+#: el/index.html:757(a)
+msgid "8.24. Palette Map (Χάρτης παλέτας)"
+msgstr ""
+
+#: el/index.html:758(a)
+msgid "8.25. Rotate Colors (Περιστροφή χρωμάτων)"
+msgstr ""
+
+#: el/index.html:759(a)
+msgid "8.26. Sample Colorize (Χρωματισμός δείγματος)"
+msgstr ""
+
+#: el/index.html:760(span)
+msgid "Πληροφορίες"
+msgstr ""
+
+#: el/index.html:760(a)
+msgid "8.27. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:761(a)
+msgid "8.28. Ιστόγραμμα"
+msgstr ""
+
+#: el/index.html:762(a)
+msgid "8.29. Border Average (Μέσο περίγραμμα)"
+msgstr ""
+
+#: el/index.html:763(a)
+msgid "8.30. Colorcube Analysis (Ανάλυση χρωματόκυβου)"
+msgstr ""
+
+#: el/index.html:764(a)
+msgid "8.31. Smooth Palette (Ομαλή παλέτα)"
+msgstr ""
+
+#: el/index.html:765(a)
+msgid "8.32. The Color Filters (Φίλτρα χρώματος)"
+msgstr ""
+
+#: el/index.html:766(a)
+msgid "8.33. Colorify (Χρωματισμός)"
+msgstr ""
+
+#: el/index.html:767(a)
+msgid "8.34. Color to Alpha (Χρώμα στο άλφα)"
+msgstr ""
+
+#: el/index.html:768(a)
+msgid "8.35. Filter Pack (Σύμπτυξη χρώματος)"
+msgstr ""
+
+#: el/index.html:769(a)
+msgid "8.36. Hot (Καυτό)"
+msgstr ""
+
+#: el/index.html:770(a)
+msgid "8.37. Max RGB (Μέγιστο RGB)"
+msgstr ""
+
+#: el/index.html:771(a)
+msgid "8.38. Retinex"
+msgstr ""
+
+#: el/index.html:774(span) el/index.html:777(span) el/index.html:1047(a)
+msgid "Εργαλεία"
+msgstr ""
+
+#: el/index.html:774(a)
+msgid "9. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:777(a)
+msgid "9.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:780(span) el/index.html:783(span) el/index.html:1061(a)
+msgid "Φίλτρα"
+msgstr ""
+
+#: el/index.html:780(a)
+msgid "10. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:783(a)
+msgid "10.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:784(a)
+msgid "10.2. Επανάληψη τελευταίου"
+msgstr ""
+
+#: el/index.html:785(a)
+msgid "10.3. Επανεμφάνιση τελευταίου"
+msgstr ""
+
+#: el/index.html:786(a)
+msgid "10.4. Επαναφορά όλων των φίλτρων"
+msgstr ""
+
+#: el/index.html:787(span)
+msgid "Python-Fu"
+msgstr ""
+
+#: el/index.html:787(a)
+msgid "10.5. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:788(span)
+msgid "Script-Fu"
+msgstr ""
+
+#: el/index.html:788(a)
+msgid "10.6. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:791(span)
+msgid "Windows"
+msgstr ""
+
+#: el/index.html:791(a)
+msgid "11. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:794(span)
+msgid "Παράθυρα"
+msgstr ""
+
+#: el/index.html:794(a)
+msgid "11.1. Είσοδοι του μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:795(span)
+msgid "Recently Closed Docks (πρόσφατα κλεισμένα αγκίστρια)"
+msgstr ""
+
+#: el/index.html:795(a)
+msgid "11.2. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:796(span) el/index.html:1052(span)
+msgid "Dockable Dialogs (αγκιστρωμένοι διάλογοι)"
+msgstr ""
+
+#: el/index.html:796(a)
+msgid "11.3. Το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:799(span) el/index.html:802(span) el/index.html:1045(a)
+msgid "Βοήθεια"
+msgstr ""
+
+#: el/index.html:799(a)
+msgid "12. Το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:802(a)
+msgid "12.1. Εισαγωγή στο μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:803(a)
+msgid "12.2. Βοήθεια"
+msgstr ""
+
+#: el/index.html:804(a)
+msgid "12.3. Βοήθεια με κατάδειξη"
+msgstr ""
+
+#: el/index.html:805(a)
+msgid "12.4. Συμβουλή της ημέρας"
+msgstr ""
+
+#: el/index.html:806(a)
+msgid "12.5. Περί"
+msgstr ""
+
+#: el/index.html:807(a)
+msgid "12.6. Plug-In Browser (Περιηγητής προσθέτων)"
+msgstr ""
+
+#: el/index.html:808(a)
+msgid "12.7. The Procedure Browser (Διαδικασιακός περιηγητής)"
+msgstr ""
+
+#: el/index.html:809(a)
+msgid "12.8. Το GIMP στο διαδίκτυο"
+msgstr ""
+
+#: el/index.html:814(a)
+msgid "16. Φίλτρα"
+msgstr ""
+
+#: el/index.html:820(a)
+msgid "1.1. Προεπισκόπηση"
+msgstr ""
+
+#: el/index.html:823(a)
+msgid "2. Φίλτρα θόλωσης"
+msgstr ""
+
+#: el/index.html:826(a)
+msgid "2.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:827(a)
+msgid "2.2. Blur (Θόλωση)"
+msgstr ""
+
+#: el/index.html:828(a)
+msgid "2.3. Gaussian Blur (Θόλωση Gauss)"
+msgstr ""
+
+#: el/index.html:829(a)
+msgid "2.4. Selective Gaussian Blur (Επιλεκτική θόλωση Gauss)"
+msgstr ""
+
+#: el/index.html:830(a)
+msgid "2.5. Θόλωση κίνησης"
+msgstr ""
+
+#: el/index.html:831(a)
+msgid "2.6. Pixelise (Εικονοστοιχείωση)"
+msgstr ""
+
+#: el/index.html:832(a)
+msgid "2.7. Tileable Blur (Παραθέσιμη θόλωση)"
+msgstr ""
+
+#: el/index.html:835(a)
+msgid "3. Φίλτρα βελτιστοποίησης"
+msgstr ""
+
+#: el/index.html:838(a)
+msgid "3.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:839(a)
+msgid "3.2. Antialias (Εξομάλυνση)"
+msgstr ""
+
+#: el/index.html:840(a)
+msgid "3.3. Deinterlace (Ξέπλεγμα)"
+msgstr ""
+
+#: el/index.html:841(a)
+msgid "3.4. Despeckle (Αποκηλίδωση)"
+msgstr ""
+
+#: el/index.html:842(a)
+msgid "3.5. Destripe (Αποράβδωση)"
+msgstr ""
+
+#: el/index.html:843(a)
+msgid "3.6. NL Filter (Φίλτρο NL)"
+msgstr ""
+
+#: el/index.html:844(a)
+msgid "3.7. Red Eye Removal (Αφαίρεση κόκκινου ματιού)"
+msgstr ""
+
+#: el/index.html:845(a)
+msgid "3.8. Sharpen (Όξυνση)"
+msgstr ""
+
+#: el/index.html:846(a)
+msgid "3.9. Unsharp Mask (Μάσκα απόξυνσης)"
+msgstr ""
+
+#: el/index.html:849(a)
+msgid "4. Φίλτρα παραμόρφωσης"
+msgstr ""
+
+#: el/index.html:852(a)
+msgid "4.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:853(a)
+msgid "4.2. Blinds (Τυφλά)"
+msgstr ""
+
+#: el/index.html:854(a)
+msgid "4.3. Curve Bend (Κάμψη καμπύλης)"
+msgstr ""
+
+#: el/index.html:855(a)
+msgid "4.4. Emboss (Κάμψη καμπύλης)"
+msgstr ""
+
+#: el/index.html:856(a)
+msgid "4.5. Engrave (Χάραξη)"
+msgstr ""
+
+#: el/index.html:857(a)
+msgid "4.6. Erase Every Other Row (Διαγραφή κάθε δεύτερης γραμμής)"
+msgstr ""
+
+#: el/index.html:858(a)
+msgid "4.7. IWarp (Αναδίπλωση)"
+msgstr ""
+
+#: el/index.html:859(a)
+msgid "4.8. Lens Distortion (Παραμόρφωση φακών)"
+msgstr ""
+
+#: el/index.html:860(a)
+msgid "4.9. Mosaic (Μωσαϊκό)"
+msgstr ""
+
+#: el/index.html:861(a)
+msgid "4.10. Newsprint (Εκτύπωση Νέων)"
+msgstr ""
+
+#: el/index.html:862(a)
+msgid "4.11. Page Curl (Κατσάρωμα σελίδας)"
+msgstr ""
+
+#: el/index.html:863(a)
+msgid "4.12. Polar Coords (Πολικές συντεταγμένες)"
+msgstr ""
+
+#: el/index.html:864(a)
+msgid "4.13. Ripple (Κυματισμός)"
+msgstr ""
+
+#: el/index.html:865(a)
+msgid "4.14. Shift (Μετατόπιση)"
+msgstr ""
+
+#: el/index.html:866(a)
+msgid "4.15. Value Propagate (Διάδοση τιμής)"
+msgstr ""
+
+#: el/index.html:867(a)
+msgid "4.16. Video (Βίντεο)"
+msgstr ""
+
+#: el/index.html:868(a)
+msgid "4.17. Waves (Κύματα)"
+msgstr ""
+
+#: el/index.html:869(a)
+msgid "4.18. Whirl and Pinch (Στροβιλισμός και τσίμπημα)"
+msgstr ""
+
+#: el/index.html:870(a)
+msgid "4.19. Wind (Άνεμος)"
+msgstr ""
+
+#: el/index.html:873(a)
+msgid "5. Φίλτρα φωτός και σκιάς"
+msgstr ""
+
+#: el/index.html:876(a)
+msgid "5.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:877(a)
+msgid "5.2. Gradient Flare (Βαθμιδωτή λάμψη)"
+msgstr ""
+
+#: el/index.html:878(a)
+msgid "5.3. Lens Flare (Φακοί λάμψης)"
+msgstr ""
+
+#: el/index.html:879(a)
+msgid "5.4. Lighting Effects (Εφέ Φωτισμού)"
+msgstr ""
+
+#: el/index.html:880(a)
+msgid "5.5. Sparkle (Σπινθηρισμός)"
+msgstr ""
+
+#: el/index.html:881(a)
+msgid "5.6. Supernova (Υπερκαινοφανής)"
+msgstr ""
+
+#: el/index.html:882(a)
+msgid "5.7. Drop Shadow (Πίπτουσα σκιά)"
+msgstr ""
+
+#: el/index.html:883(a)
+msgid "5.8. Perspective (Προοπτική)"
+msgstr ""
+
+#: el/index.html:884(a)
+msgid "5.9. Xach-Effect (Εφέ Xach)"
+msgstr ""
+
+#: el/index.html:885(a)
+msgid "5.10. Apply Lens (Εφαρμογή φακών)"
+msgstr ""
+
+#: el/index.html:886(a)
+msgid "5.11. Glass Tile (Παράθεση γυαλιού)"
+msgstr ""
+
+#: el/index.html:889(a)
+msgid "6. Φίλτρα θορύβου"
+msgstr ""
+
+#: el/index.html:892(a)
+msgid "6.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:893(a)
+msgid "6.2. HSV Noise (Θόρυβος HSV)"
+msgstr ""
+
+#: el/index.html:894(a)
+msgid "6.3. Hurl (Εκτόξευση)"
+msgstr ""
+
+#: el/index.html:895(a)
+msgid "6.4. Pick (Επιλογή)"
+msgstr ""
+
+#: el/index.html:896(a)
+msgid "6.5. RGB Noise (Θόρυβος RGB)"
+msgstr ""
+
+#: el/index.html:897(a)
+msgid "6.6. Slur (Σύγχυση)"
+msgstr ""
+
+#: el/index.html:898(a)
+msgid "6.7. Spread (Εξάπλωση)"
+msgstr ""
+
+#: el/index.html:901(a)
+msgid "7. Φίλτρα εντοπισμού ακμών"
+msgstr ""
+
+#: el/index.html:904(a)
+msgid "7.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:905(a)
+msgid "7.2. Difference of Gaussians (Διαφορά Gauss)"
+msgstr ""
+
+#: el/index.html:906(a)
+msgid "7.3. Edge (Ακμή)"
+msgstr ""
+
+#: el/index.html:907(a)
+msgid "7.4. Laplace"
+msgstr ""
+
+#: el/index.html:908(a)
+msgid "7.5. Neon (Νέον)"
+msgstr ""
+
+#: el/index.html:909(a)
+msgid "7.6. Sobel"
+msgstr ""
+
+#: el/index.html:912(a)
+msgid "8. Γενικά φίλτρα"
+msgstr ""
+
+#: el/index.html:915(a)
+msgid "8.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:916(a)
+msgid "8.2. Convolution Matrix (Πίνακας περιτύλιξης)"
+msgstr ""
+
+#: el/index.html:917(a)
+msgid "8.3. Dilate (Διαστολή)"
+msgstr ""
+
+#: el/index.html:918(a)
+msgid "8.4. Erode (Διάβρωση)"
+msgstr ""
+
+#: el/index.html:921(a)
+msgid "9. Συνδυασμός (φίλτρων)"
+msgstr ""
+
+#: el/index.html:924(a)
+msgid "9.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:925(a)
+msgid "9.2. Depth Merge (Συγχώνευση βάθους)"
+msgstr ""
+
+#: el/index.html:926(a)
+msgid "9.3. Film (Φιλμ)"
+msgstr ""
+
+#: el/index.html:929(a)
+msgid "10. Καλλιτεχνικά φίλτρα"
+msgstr ""
+
+#: el/index.html:932(a)
+msgid "10.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:933(a)
+msgid "10.2. Apply Canvas (Εφαρμογή καμβά)"
+msgstr ""
+
+#: el/index.html:934(a)
+msgid "10.3. Cartoon (καρτούν)"
+msgstr ""
+
+#: el/index.html:935(a)
+msgid "10.4. Clothify"
+msgstr ""
+
+#: el/index.html:936(a)
+msgid "10.5. Cubism (Κυβισμός)"
+msgstr ""
+
+#: el/index.html:937(a)
+msgid "10.6. GIMPressionist (GIMP Ιμπρεσιονιστής)"
+msgstr ""
+
+#: el/index.html:938(a)
+msgid "10.7. Oilify (Ελαιοποίηση)"
+msgstr ""
+
+#: el/index.html:939(a)
+msgid "10.8. Photocopy (Φωτοτυπία)"
+msgstr ""
+
+#: el/index.html:940(a)
+msgid "10.9. Predator (Αρπακτικό)"
+msgstr ""
+
+#: el/index.html:941(a)
+msgid "10.10. Softglow (Ήπια λαμπρότητα)"
+msgstr ""
+
+#: el/index.html:942(a)
+msgid "10.11. Van Gogh (LIC) (Βαν Γκογκ)"
+msgstr ""
+
+#: el/index.html:943(a)
+msgid "10.12. Weave (Ύφανση)"
+msgstr ""
+
+#: el/index.html:946(a)
+msgid "11. Διακοσμητικά φίλτρα"
+msgstr ""
+
+#: el/index.html:949(a)
+msgid "11.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:950(a)
+msgid "11.2. Add Bevel (Προσθήκη εμβάθυνσης)"
+msgstr ""
+
+#: el/index.html:951(a)
+msgid "11.3. Add Border (Προσθήκη περιγράμματος)"
+msgstr ""
+
+#: el/index.html:952(a)
+msgid "11.4. Coffee Stain (Καφέ κηλίδες)"
+msgstr ""
+
+#: el/index.html:953(a)
+msgid "11.5. Fuzzy Border (Ασαφές Περίγραμμα)"
+msgstr ""
+
+#: el/index.html:954(a)
+msgid "11.6. Old Photo (Παλιά φωτογραφία)"
+msgstr ""
+
+#: el/index.html:955(a)
+msgid "11.7. Round Corners (Στρογγυλές γωνίες)"
+msgstr ""
+
+#: el/index.html:956(a)
+msgid "11.8. Slide (Διαφάνεια)"
+msgstr ""
+
+#: el/index.html:957(a)
+msgid "11.9. Stencil Carve (Ανάγλυφο πατρόν)"
+msgstr ""
+
+#: el/index.html:960(a)
+msgid "12. Map Filters (Φίλτρα απεικονίσεων)"
+msgstr ""
+
+#: el/index.html:963(a)
+msgid "12.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:964(a)
+msgid "12.2. Bump Map (Απεικόνιση ανωμαλίας)"
+msgstr ""
+
+#: el/index.html:965(a)
+msgid "12.3. Displace (Μετακίνηση)"
+msgstr ""
+
+#: el/index.html:966(a)
+msgid "12.4. Fractal Trace (Ίχνη κομματιών)"
+msgstr ""
+
+#: el/index.html:967(a)
+msgid "12.5. Illusion (Αυταπάτη)"
+msgstr ""
+
+#: el/index.html:968(a)
+msgid "12.6. Make Seamless (Συναρμολόγηση)"
+msgstr ""
+
+#: el/index.html:969(a)
+msgid "12.7. Map Object (Απεικόνιση αντικειμένου)"
+msgstr ""
+
+#: el/index.html:970(a)
+msgid "12.8. Paper Tile (Παράθεση χαρτιού)"
+msgstr ""
+
+#: el/index.html:971(a)
+msgid "12.9. Small Tiles (Μικρές παραθέσεις)"
+msgstr ""
+
+#: el/index.html:972(a)
+msgid "12.10. Tile (Παράθεση)"
+msgstr ""
+
+#: el/index.html:973(a)
+msgid "12.11. Warp (Αναδίπλωση)"
+msgstr ""
+
+#: el/index.html:976(a)
+msgid "13. Φίλτρα σχεδίασης"
+msgstr ""
+
+#: el/index.html:979(a)
+msgid "13.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:980(a)
+msgid "13.2. Difference Clouds (Σύννεφα διαφοράς)"
+msgstr ""
+
+#: el/index.html:981(a)
+msgid "13.3. Plasma (Πλάσμα)"
+msgstr ""
+
+#: el/index.html:982(a)
+msgid "13.4. Solid Noise (Συμπαγής θόρυβος)"
+msgstr ""
+
+#: el/index.html:983(a)
+msgid "13.5. Flame (Φλόγα)"
+msgstr ""
+
+#: el/index.html:984(a)
+msgid "13.6. IFS Fractal (Κομμάτια IFS)"
+msgstr ""
+
+#: el/index.html:985(a)
+msgid "13.7. Checkerboard (Σκακιέρα)"
+msgstr ""
+
+#: el/index.html:986(a)
+msgid "13.8. CML Explorer (Εξερευνητής CML)"
+msgstr ""
+
+#: el/index.html:987(a)
+msgid "13.9. Diffraction Patterns (Μοτίβα διάθλασης)"
+msgstr ""
+
+#: el/index.html:988(a)
+msgid "13.10. Grid (Πλέγμα)"
+msgstr ""
+
+#: el/index.html:989(a)
+msgid "13.11. Jigsaw (Οδοντωτό)"
+msgstr ""
+
+#: el/index.html:990(a)
+msgid "13.12. Maze (Λαβύρινθος)"
+msgstr ""
+
+#: el/index.html:991(a)
+msgid "13.13. Qbist (Κυβισμός)"
+msgstr ""
+
+#: el/index.html:992(a)
+msgid "13.14. Sinus (Ημίτονο)"
+msgstr ""
+
+#: el/index.html:993(a)
+msgid "13.15. Κύκλωμα"
+msgstr ""
+
+#: el/index.html:994(a)
+msgid "13.16. Fractal Explorer (Εξερευνητής κομματιών)"
+msgstr ""
+
+#: el/index.html:995(a)
+msgid "13.17. Gfig"
+msgstr ""
+
+#: el/index.html:996(a)
+msgid "13.18. Sphere Designer (Σχεδιαστής σφαίρας)"
+msgstr ""
+
+#: el/index.html:999(a)
+msgid "14. Φίλτρα διαδικτύου"
+msgstr ""
+
+#: el/index.html:1002(a)
+msgid "14.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:1003(a)
+msgid "14.2. ImageMap (Απεικόνιση εικόνας)"
+msgstr ""
+
+#: el/index.html:1004(a)
+msgid "14.3. Semi-Flatten (Ημιισοπέδωση)"
+msgstr ""
+
+#: el/index.html:1005(a)
+msgid "14.4. Slice (Φέτα)"
+msgstr ""
+
+#: el/index.html:1008(a)
+msgid "15. Κινούμενο σχέδιο"
+msgstr ""
+
+#: el/index.html:1011(a)
+msgid "15.1. Optimize (Βελτιστοποίηση)"
+msgstr ""
+
+#: el/index.html:1012(a)
+msgid "15.2. Playback (Αναπαραγωγή)"
+msgstr ""
+
+#: el/index.html:1015(a)
+msgid "16. Alpha to Logo Filters (Φίλτρα άλφα σε λογότυπο)"
+msgstr ""
+
+#: el/index.html:1018(a)
+msgid "16.1. Εισαγωγή"
+msgstr ""
+
+#: el/index.html:1019(a)
+msgid "16.2. 3Δ Περίγραμμα"
+msgstr ""
+
+#: el/index.html:1020(a)
+msgid "16.3. Alien Glow (Εξωγήινη λαμπρότητα)"
+msgstr ""
+
+#: el/index.html:1021(a)
+msgid "16.4. Alien Neon (Εξωγήινο νέον)"
+msgstr ""
+
+#: el/index.html:1022(a)
+msgid "16.5. Βασικό I"
+msgstr ""
+
+#: el/index.html:1023(a)
+msgid "16.6. Βασικό II"
+msgstr ""
+
+#: el/index.html:1024(a)
+msgid "16.7. Blended (Ανάμειξη)"
+msgstr ""
+
+#: el/index.html:1025(a)
+msgid "16.8. Bovination (Αργό)"
+msgstr ""
+
+#: el/index.html:1026(a)
+msgid "16.9. Κιμωλία"
+msgstr ""
+
+#: el/index.html:1027(a)
+msgid "16.10. Chip Away (Ψιλοκοπή)"
+msgstr ""
+
+#: el/index.html:1028(a)
+msgid "16.11. Chrome (Χρώμιο)"
+msgstr ""
+
+#: el/index.html:1029(a)
+msgid "16.12. Comic Book (Κωμικό βιβλίο)"
+msgstr ""
+
+#: el/index.html:1030(a)
+msgid "16.13. Cool Metal (Ήπιο μέταλλο)"
+msgstr ""
+
+#: el/index.html:1031(a)
+msgid "16.14. Frosty (Παγωμένο)"
+msgstr ""
+
+#: el/index.html:1032(a)
+msgid "16.15. Glossy (Γυαλιστερό)"
+msgstr ""
+
+#: el/index.html:1033(a)
+msgid "16.16. Glowing Hot (Πυρακτωμένα καυτός)"
+msgstr ""
+
+#: el/index.html:1034(a)
+msgid "16.17. Gradient Bevel (Βαθμιδωτή Γωνία)"
+msgstr ""
+
+#: el/index.html:1035(a)
+msgid "16.18. Neon (Νέον)"
+msgstr ""
+
+#: el/index.html:1036(a)
+msgid "16.19. Particle Trace (Ίχνος ατόμου)"
+msgstr ""
+
+#: el/index.html:1037(a)
+msgid "16.20. Textured (Υφή)"
+msgstr ""
+
+#: el/index.html:1042(a)
+msgid "I. Αναφορά κλειδιών και ποντικιού"
+msgstr ""
+
+#: el/index.html:1046(span)
+msgid "βοήθεια"
+msgstr ""
+
+#: el/index.html:1045(span) el/index.html:1048(span) el/index.html:1049(span) el/index.html:1053(span) el/index.html:1055(span) el/index.html:1057(span) el/index.html:1059(span) el/index.html:1061(span)
+msgid "— Αναφορά πλήκτρου για το μενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:1048(span)
+msgid "εργαλεία"
+msgstr ""
+
+#: el/index.html:1050(span)
+msgid "αρχείο"
+msgstr ""
+
+#: el/index.html:1051(a)
+msgid "Διάλογοι"
+msgstr ""
+
+#: el/index.html:1051(span) el/index.html:1063(span)
+msgid "— Αναφορά πλήκτρου για το υπομενού <placeholder-1/>"
+msgstr ""
+
+#: el/index.html:1054(span)
+msgid "προβολή"
+msgstr ""
+
+#: el/index.html:1056(span)
+msgid "επεξεργασία"
+msgstr ""
+
+#: el/index.html:1058(span)
+msgid "στρώση"
+msgstr ""
+
+#: el/index.html:1060(span)
+msgid "επιλογή"
+msgstr ""
+
+#: el/index.html:1062(span)
+msgid "φίλτρα"
+msgstr ""
+
+#: el/index.html:1063(a)
+msgid "Εργαλείο εστίασης"
+msgstr ""
+
+#: el/index.html:1064(span)
+msgid "εργαλείο εστίασης"
+msgstr ""
+
+#: el/index.html:1069(a)
+msgid "Γλωσσάρι"
+msgstr ""
+
+#: el/index.html:1070(a)
+msgid "Βιβλιογραφία"
+msgstr ""
+
+#: el/index.html:1071(a)
+msgid "A. Ιστορία του GIMP"
+msgstr ""
+
+#: el/index.html:1074(a)
+msgid "1. Το πρώτο ξεκίνημα"
+msgstr ""
+
+#: el/index.html:1075(a)
+msgid "2. Οι πρώτες μέρες του GIMP"
+msgstr ""
+
+#: el/index.html:1076(a)
+msgid "3. Αυτό που άλλαξε τον κόσμο"
+msgstr ""
+
+#: el/index.html:1077(a)
+msgid "4. Έκδοση 2.0"
+msgstr ""
+
+#: el/index.html:1078(a)
+msgid "5. Τι νέο στο GIMP 2.2;"
+msgstr ""
+
+#: el/index.html:1079(a)
+msgid "6. Τι νέο στο GIMP 2.4;"
+msgstr ""
+
+#: el/index.html:1082(a)
+msgid "B. Αναφορά σφαλμάτων και αιτήματα βελτιώσεων"
+msgstr ""
+
+#: el/index.html:1085(a)
+msgid "1. Βεβαιωθείτε ότι είναι σφάλμα"
+msgstr ""
+
+#: el/index.html:1086(a)
+msgid "2. Αναφορά σφάλματος"
+msgstr ""
+
+#: el/index.html:1087(a)
+msgid "3. Τι συμβαίνει σε μια αναφορά σφάλματος μετά την υποβολή της"
+msgstr ""
+
+#: el/index.html:1090(a)
+msgid "C. GNU Άδεια χρήσης"
+msgstr ""
+
+#: el/index.html:1093(a)
+msgid "1. ΠΡΟΟΙΜΙΟ"
+msgstr ""
+
+#: el/index.html:1094(a)
+msgid "2. ΕΦΑΡΜΟΓΗ ΚΑΙ ΟΡΙΣΜΟΙ"
+msgstr ""
+
+#: el/index.html:1095(a)
+msgid "3. ΑΝΤΙΓΡΑΦΗ VERBATIM"
+msgstr ""
+
+#: el/index.html:1096(a)
+msgid "4. ΑΝΤΙΓΡΑΦΗ ΣΕ ΠΟΣΟΤΗΤΑ"
+msgstr ""
+
+#: el/index.html:1097(a)
+msgid "5. ΤΡΟΠΟΠΟΙΗΣΕΙΣ"
+msgstr ""
+
+#: el/index.html:1098(a)
+msgid "6. ΣΥΝΔΥΑΣΜΟΣ ΤΕΚΜΗΡΙΩΣΕΩΝ"
+msgstr ""
+
+#: el/index.html:1099(a)
+msgid "7. ΣΥΛΛΟΓΕΣ ΤΕΚΜΗΡΙΩΣΕΩΝ"
+msgstr ""
+
+#: el/index.html:1100(a)
+msgid "8. ΣΥΝΔΥΑΣΜΟΣ ΜΕ ΑΝΕΞΑΡΤΗΤΕΣ ΕΡΓΑΣΙΕΣ"
+msgstr ""
+
+#: el/index.html:1101(a)
+msgid "9. ΜΕΤΑΦΡΑΣΗ"
+msgstr ""
+
+#: el/index.html:1102(a)
+msgid "10. ΟΡΟΛΟΓΙΑ"
+msgstr ""
+
+#: el/index.html:1103(a)
+msgid "11. ΜΕΛΛΟΝΤΙΚΕΣ ΑΝΑΘΕΩΡΗΣΕΙΣ ΑΥΤΗΣ ΤΗΣ ΑΔΕΙΑΣ"
+msgstr ""
+
+#: el/index.html:1104(a)
+msgid "12. ΠΑΡΑΡΤΗΜΑ: Χρήση αυτής της άδειας για τα έγγραφά σας"
+msgstr ""
+
+#: el/index.html:1107(a)
+msgid "D. Επ! Λείπει κάποια βοήθεια"
+msgstr ""
+
+#: el/index.html:1108(a)
+msgid "Ευρετήριο"
+msgstr ""
+
+#: el/index.html:1118(img:alt)
+msgid "Next"
+msgstr ""
+
+#: el/index.html:1118(td)
+msgid " <a accesskey=\"n\" href=\"preface.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: el/index.html:1123(a)
+msgid "Preface"
+msgstr ""
+
+#: el/index.html:1123(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-scripting.html:6(title) en/gimp-scripting.html:21(th) en/gimp-scripting.html:33(div:title)
+msgid "Chapter 12. Scripting"
+msgstr ""
+
+#: en/gimp-scripting.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-scripting.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-scripting.html:13(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-scripting.html:14(link:title) en/gimp-scripting.html:548(a)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/gimp-scripting.html:15(link:title) en/gimp-scripting.html:554(a)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/gimp-scripting.html:24(img:alt) en/gimp-scripting.html:539(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-scripting.html:24(td) en/gimp-scripting.html:539(td)
+msgid "<a accesskey=\"p\" href=\"customize-splashscreen.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-scripting.html:26(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-scripting.html:25(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-scripting.html:28(img:alt) en/gimp-scripting.html:545(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-scripting.html:28(td) en/gimp-scripting.html:545(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-script-fu.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-scripting.html:37(h2)
+msgid "<a id=\"gimp-scripting\"/>Chapter 12. Scripting"
+msgstr ""
+
+#: en/gimp-scripting.html:43(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-scripting.html:48(a)
+msgid "1. Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:55(a)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/gimp-scripting.html:60(a)
+msgid "1.2. Using Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:65(a)
+msgid "1.3. Installing New Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:70(a)
+msgid "1.4. Writing Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:77(a)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/gimp-scripting.html:84(a)
+msgid "2.1. Script-Fu?"
+msgstr ""
+
+#: en/gimp-scripting.html:89(a)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/gimp-scripting.html:94(a)
+msgid "2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/gimp-scripting.html:99(a)
+msgid "2.4. Different Kinds Of Script-Fus"
+msgstr ""
+
+#: en/gimp-scripting.html:104(a)
+msgid "2.5. Standalone Scripts"
+msgstr ""
+
+#: en/gimp-scripting.html:109(a)
+msgid "2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/gimp-scripting.html:116(a)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-scripting.html:123(a)
+msgid "3.1. Getting Acquainted With Scheme"
+msgstr ""
+
+#: en/gimp-scripting.html:128(a)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/gimp-scripting.html:133(a)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/gimp-scripting.html:138(a)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/gimp-scripting.html:143(a)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/gimp-scripting.html:148(a)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/gimp-scripting.html:153(a)
+msgid "3.7. Your script and its working"
+msgstr ""
+
+#: en/gimp-scripting.html:160(div:title)
+msgid "1. Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:164(h2)
+msgid "<a id=\"gimp-concepts-plugins\"/>1. Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:169(div:title)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/gimp-scripting.html:173(h3)
+msgid "<a id=\"id3122171\"/>1.1. Introduction"
+msgstr ""
+
+#: en/gimp-scripting.html:177(p)
+msgid "One of the nicest things about <acronym class=\"acronym\">GIMP</acronym> is how easily its functionality can be extended, by using plugins. <acronym class=\"acronym\">GIMP</acronym> plugins are external programs that run under the control of the main <acronym class=\"acronym\">GIMP</acronym> application and interact with it very closely. Plugins can manipulate images in almost any way that users can. Their advantage is that it is much easier to add a capability to <acronym class=\"acronym\">GIMP</acronym> by writing a small plugin than by modifying the huge mass of complex code that makes up the <acronym class=\"acronym\">GIMP</acronym> core. Many valuable plugins have C source code that only comes to 100-200 lines or so."
+msgstr ""
+
+#: en/gimp-scripting.html:189(p)
+msgid "Several dozen plugins are included in the main <acronym class=\"acronym\">GIMP</acronym> distribution, and installed automatically along with <acronym class=\"acronym\">GIMP</acronym>. Most of them can be accessed through the <span class=\"guimenu\">Filters</span> menu (in fact, everything in that menu is a plugin), but a number are located in other menus. In many cases you can use one without ever realizing that it is a plugin: for example, the \"Normalize\" function for automatic color correction is actually a plugin, although there is nothing about the way it works that would tell you this."
+msgstr ""
+
+#: en/gimp-scripting.html:200(p)
+msgid "In addition to the plugins included with <acronym class=\"acronym\">GIMP</acronym> , many more are available on the net. A large number can be found at the <acronym class=\"acronym\">GIMP</acronym> Plugin Registry <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-plugin-registry\" title=\"GIMP-Plugin Registry\">[<abbr class=\"abbrev\">GIMP-REGISTRY</abbr>]</a>, a web site whose purpose is to provide a central repository for plugins. Creators of plugins can upload them there; users in search of plugins for a specific purpose can search the site in a variety of ways."
+msgstr ""
+
+#: en/gimp-scripting.html:209(p)
+msgid "Anybody in the world can write a <acronym class=\"acronym\">GIMP</acronym> plugin and make it available over the web, either via the Registry or a personal web site, and many very valuable plugins can be obtained in this way ­ some are described elsewhere in the User's Manual. With this freedom from constraint comes a certain degree of risk, though: the fact that anybody can do it means that there is no effective quality control. The plugins distributed with <acronym class=\"acronym\">GIMP</acronym> have all been tested and tuned by the developers, but many that you can download were just hacked together in a few hours and then tossed to the winds. Some plugin creators just don't care about robustness, and even for those who do, their ability to test on a variety of systems in a variety of situations is often quite limited. Basically, when you download a plugin, you are getting something for free, and sometimes you get exactly what you pay for. This is not said in an attempt to discourage you, just to make sure you understand reality."
+msgstr ""
+
+#: en/gimp-scripting.html:226(div:title) en/gimp-scripting.html:232(th)
+msgid "Warning"
+msgstr ""
+
+#: en/gimp-scripting.html:230(img:alt)
+msgid "[Warning]"
+msgstr ""
+
+#: en/gimp-scripting.html:236(p)
+msgid "Plugins, being full-fledged executable programs, can do any of the things that any other program can do, including install back-doors on your system or otherwise compromise its security. Don't install a plugin unless it comes from a trusted source."
+msgstr ""
+
+#: en/gimp-scripting.html:246(p)
+msgid "These caveats apply as much to the Plugin Registry as to any other source of plugins. The Registry is available to any plugin creator who wants to use it: there is no systematic oversight. Obviously if the maintainers became aware that something evil was there, they would remove it. (That hasn't happened yet.) There is, however, for <acronym class=\"acronym\">GIMP</acronym> and its plugins the same warranty as for any other free software: namely, none."
+msgstr ""
+
+#: en/gimp-scripting.html:255(div:title) en/gimp-scripting.html:261(th)
+msgid "Caution"
+msgstr ""
+
+#: en/gimp-scripting.html:259(img:alt)
+msgid "[Caution]"
+msgstr ""
+
+#: en/gimp-scripting.html:265(p)
+msgid "Plugins have been a feature of <acronym class=\"acronym\">GIMP</acronym> for many versions. However, plugins written for one version of <acronym class=\"acronym\">GIMP</acronym> can hardly ever be used successfully with other versions. They need to be ported: sometimes this is easy, sometimes not. Many plugins are already available in several versions. Bottom line: before trying to install a plugin, make sure that it is written for your version of <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-scripting.html:279(div:title)
+msgid "1.2. Using Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:283(h3)
+msgid "<a id=\"id3163151\"/>1.2. Using Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:287(p)
+msgid "For the most part you can use a plugin like any other <acronym class=\"acronym\">GIMP</acronym> tool, without needing to be aware that it is a plugin. But there are a few things about plugins that are useful to understand."
+msgstr ""
+
+#: en/gimp-scripting.html:293(p)
+msgid "One is that plugins are generally not as robust as the <acronym class=\"acronym\">GIMP</acronym> core. When <acronym class=\"acronym\">GIMP</acronym> crashes, it is considered a very serious thing: it can cost the user a lot of trouble and headache. When a plugin crashes, the consequences are usually not so serious. In most cases you can just continuing working without worrying about it."
+msgstr ""
+
+#: en/gimp-scripting.html:301(div:title) en/gimp-scripting.html:307(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-scripting.html:305(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-scripting.html:311(p)
+msgid "Because plugins are separate programs, they communicate with the <acronym class=\"acronym\">GIMP</acronym> core in a special way: The <acronym class=\"acronym\">GIMP</acronym> developers call it <span class=\"quote\">“<span class=\"quote\">talking over a wire</span>”</span>. When a plugin crashes, the communication breaks down, and you will see an error message about a <span class=\"quote\">“<span class=\"quote\">wire read error</span>”</span>."
+msgstr ""
+
+#: en/gimp-scripting.html:323(div:title) en/gimp-scripting.html:329(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-scripting.html:327(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-scripting.html:333(p)
+msgid "When a plugin crashes, <acronym class=\"acronym\">GIMP</acronym> gives you a very ominous-looking message telling you that the plugin may have left <acronym class=\"acronym\">GIMP</acronym> in a corrupted state, and you should consider saving your images and exiting. Strictly speaking, this is quite correct, because plugins have the power to alter almost anything in <acronym class=\"acronym\">GIMP</acronym>, but for practical purposes, experience has shown that corruption is actually quite rare, and many users just continue working and don't worry about it. Our advice is that you simply think about how much trouble it would cause you if something went wrong, and weigh it against the odds."
+msgstr ""
+
+#: en/gimp-scripting.html:349(p)
+msgid "Because of the way plugins communicate with <acronym class=\"acronym\">GIMP</acronym>, they do not have any mechanism for being informed about changes you make to an image after the plugin has been started. If you start a plugin, and then alter the image using some other tool, the plugin will often crash, and when it doesn't will usually give a bogus result. You should avoid running more than one plugin at a time on an image, and avoid doing anything to the image until the plugin has finished working on it. If you ignore this advice, not only will you probably screw up the image, you will probably screw up the undo system as well, so that you won't even be able to recover from your foolishness."
+msgstr ""
+
+#: en/gimp-scripting.html:362(div:title)
+msgid "1.3. Installing New Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:366(h3)
+msgid "<a id=\"gimp-plugins-install\"/>1.3. Installing New Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:371(p)
+msgid "The plugins that are distributed with <acronym class=\"acronym\">GIMP</acronym> don't require any special installation. Plugins that you download yourself do. There are several scenarios, depending on what OS you are using and how the plugin is structured. In Linux it is usually pretty easy to install a new plugin; in Windows, it is either easy or very hard. In any case, the two are best considered separately."
+msgstr ""
+
+#: en/gimp-scripting.html:379(div:title)
+msgid "1.3.1. Linux / Unix-sytem like systems"
+msgstr ""
+
+#: en/gimp-scripting.html:383(h4)
+msgid "<a id=\"id3133657\"/>1.3.1. Linux / Unix-sytem like systems"
+msgstr ""
+
+#: en/gimp-scripting.html:387(p)
+msgid "Most plugins fall into two categories: small ones whose source code is distributed as a single .c file, and larger ones whose source code is distributed as a directory containing multiple files including a <code class=\"filename\">Makefile</code>."
+msgstr ""
+
+#: en/gimp-scripting.html:393(p)
+msgid "For a simple one-file plugin, call it <code class=\"filename\">borker.c</code>, installing it is just a matter of running the command <span class=\"command\"><strong>gimptool-2.0 --install borker.c</strong></span>. This command compiles the plugin and installs it in your personal plugin directory, <code class=\"filename\">~/gimp-2.4/plugins</code> unless you have changed it. This will cause it to be loaded automatically the next time you start <acronym class=\"acronym\">GIMP</acronym>. You don't need to be root to do these things; in fact, you shouldn't be. If the plugin fails to compile, well, be creative."
+msgstr ""
+
+#: en/gimp-scripting.html:404(p)
+msgid "Once you have installed the plugin, how do you activate it? The menu path is determined by the plugin itself, so to answer this you need to either look at the documentation for the plugin (if there is any), or launch the Plugin Description dialog (from Xtns/Plugins Details) search the plug-in by its name and look of the <span class=\"guilabel\">Tree view</span> tab. If you still don't find, finally explore the menus or look at the source code in the Register section -- whichever is easiest."
+msgstr ""
+
+#: en/gimp-scripting.html:414(p)
+msgid "For more complex plugins, organized as a directory with multiple files, there ought to be a file inside called either <code class=\"filename\">INSTALL</code> or <code class=\"filename\">README</code>, with instructions. If not, the best advice is to toss the plugin in the trash and spend your time on something else: any code written with so little concern for the user is likely to be frustrating in myriad ways."
+msgstr ""
+
+#: en/gimp-scripting.html:423(p)
+msgid "Some plugins (specifically those based on the <acronym class=\"acronym\">GIMP</acronym> Plugin Template) are designed to be installed in the main system <acronym class=\"acronym\">GIMP</acronym> directory, rather than your home directory. For these, you will need to be root to perform the final stage of installation (when issuing the <span class=\"command\"><strong>make install</strong></span> command)."
+msgstr ""
+
+#: en/gimp-scripting.html:431(p)
+msgid "If you install in your personal plugin directory a plugin that has the same name as one in the system plugin directory, only one can be loaded, and it will be the one in your home directory. You will receive messages telling you this each time you start <acronym class=\"acronym\">GIMP</acronym>. This is probably a situation best avoided."
+msgstr ""
+
+#: en/gimp-scripting.html:439(div:title)
+msgid "1.3.2. Windows"
+msgstr ""
+
+#: en/gimp-scripting.html:443(h4)
+msgid "<a id=\"id3113029\"/>1.3.2. Windows"
+msgstr ""
+
+#: en/gimp-scripting.html:447(p)
+msgid "Windows is a much more problematic environment for building software than Linux. Every decent Linux distribution comes fully supplied with tools for compiling software, and they are all very similar in the way they work, but Windows does not come with such tools. It is possible to set up a good software-building environment in Windows, but it requires either a substantial amount of money or a substantial amount of effort and knowledge."
+msgstr ""
+
+#: en/gimp-scripting.html:456(p)
+msgid "What this means in relation to <acronym class=\"acronym\">GIMP</acronym> plugins is the following: either you have an environment in which you can build software, or you don't. If you don't, then your best hope is to find a precompiled version of the plugin somewhere (or persuade somebody to compile it for you), in which case you simply need to put it into your personal plugin directory. If you do have an environment in which you can build software (which for present purposes means an environment in which you can build <acronym class=\"acronym\">GIMP</acronym>), then you no doubt already know quite a bit about these things, and just need to follow the Linux instructions."
+msgstr ""
+
+#: en/gimp-scripting.html:468(p)
+msgid "If you would like to set up a build environment, and are ready for the heroism involved, you can find a reasonably recent description of how to go about it in the <acronym class=\"acronym\">GIMP</acronym> Wiki, at HowToCompileGimp/MicrosoftWindows <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-wiki-compile-windows\" title=\"GIMP-Wiki - How to compile for Windows\">[<abbr class=\"abbrev\">GIMP-WIKI-MS</abbr>]</a>. Since it is a Wiki, anybody is free to edit it, so please keep it up to date by adding advice based on your own experiences."
+msgstr ""
+
+#: en/gimp-scripting.html:478(div:title)
+msgid "1.3.3. Apple Mac OS X"
+msgstr ""
+
+#: en/gimp-scripting.html:482(h4)
+msgid "<a id=\"id3154852\"/>1.3.3. Apple Mac OS X"
+msgstr ""
+
+#: en/gimp-scripting.html:486(p)
+msgid "How you install plugins on OS X mostly depends on how you installed <acronym class=\"acronym\">GIMP</acronym> itself. If you were one of the brave and installed <acronym class=\"acronym\">GIMP</acronym> through one of the package managers like fink <a class=\"xref\" href=\"bibliography.html#bibliography-online-darwinports\" title=\"Darwin Ports Package Manager for OS X\">[<abbr class=\"abbrev\">DARWINORTS</abbr>]</a> or darwinports, <a class=\"xref\" href=\"bibliography.html#bibliography-online-fink\" title=\"Fink Package Manager for OS X\">[<abbr class=\"abbrev\">FINK</abbr>]</a> the plugin installation works exactly the way it is described for the Linux platform already. The only difference is, that a couple of plugins might be even available in the repository of you package manager, so give it a try."
+msgstr ""
+
+#: en/gimp-scripting.html:498(p)
+msgid "If you on the other hand are one of the Users that preferred to grab a prebuild <acronym class=\"acronym\">GIMP</acronym> package like GIMP.app, you most probably want to stick to that prebuild stuff. So you can try to get a prebuild version of the plugin of you dreams from the author of the plugin, but I'd not want to bet on this. Building your own binaries unfortunately involves installing <acronym class=\"acronym\">GIMP</acronym> through one of the package managers mentioned above."
+msgstr ""
+
+#: en/gimp-scripting.html:510(div:title)
+msgid "1.4. Writing Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:514(h3)
+msgid "<a id=\"plugins-write\"/>1.4. Writing Plugins"
+msgstr ""
+
+#: en/gimp-scripting.html:519(p)
+msgid "If you want to learn how to write a plugin, you can find plenty of help at the <acronym class=\"acronym\">GIMP</acronym> Developers web site <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-dev-plugin\" title=\"GIMP Plugin Development\">[<abbr class=\"abbrev\">GIMP-DEV-PLUGIN</abbr>]</a>. <acronym class=\"acronym\">GIMP</acronym> is a complex program, but the development team has made strenuous efforts to flatten the learning curve for plugin writing: there are good instructions and examples, and the main library that plugins use to interface with <acronym class=\"acronym\">GIMP</acronym> (called <span class=\"quote\">“<span class=\"quote\">libgimp</span>”</span>) has a well-documented <acronym class=\"acronym\">API</acronym>. Good programmers, learning by modifying existing plugins, are often able to accomplish interesting things after just a couple of days of work."
+msgstr ""
+
+#: en/gimp-scripting.html:542(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-scripting.html:548(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-scripting.html:551(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-scripting.html:554(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

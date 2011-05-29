@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-fire-up.html:6(title) el/gimp-fire-up.html:20(th)
+msgid "Κεφάλαιο 2. Εκκίνηση του GIMP"
+msgstr ""
+
+#: el/gimp-fire-up.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-fire-up.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-fire-up.html:13(link:title)
+msgid "Part I. Getting Started"
+msgstr ""
+
+#: el/gimp-fire-up.html:14(link:title)
+msgid "2. Τι είναι καινούργιο στο GIMP 2.6?"
+msgstr ""
+
+#: el/gimp-fire-up.html:15(link:title) el/gimp-fire-up.html:417(a)
+msgid "2. Ξεκίνημα του GIMP για πρώτη φορά"
+msgstr ""
+
+#: el/gimp-fire-up.html:22(img:alt) el/gimp-fire-up.html:402(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-fire-up.html:22(td) el/gimp-fire-up.html:402(td)
+msgid "<a accesskey=\"p\" href=\"gimp-introduction-whats-new.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-fire-up.html:23(th)
+msgid "Μέρος I. Ξεκίνημα"
+msgstr ""
+
+#: el/gimp-fire-up.html:24(img:alt) el/gimp-fire-up.html:408(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-fire-up.html:24(td) el/gimp-fire-up.html:408(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-setup.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-fire-up.html:33(h2)
+msgid "<a id=\"gimp-fire-up\"/>Κεφάλαιο 2. Εκκίνηση του GIMP"
+msgstr ""
+
+#: el/gimp-fire-up.html:38(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-fire-up.html:40(a)
+msgid "1. Εκτέλεση του GIMP"
+msgstr ""
+
+#: el/gimp-fire-up.html:43(a)
+msgid "1.1. Γνωστές πλατφόρμες"
+msgstr ""
+
+#: el/gimp-fire-up.html:44(a)
+msgid "1.2. Γλώσσα"
+msgstr ""
+
+#: el/gimp-fire-up.html:45(a)
+msgid "1.3. Ορίσματα γραμμής εντολών"
+msgstr ""
+
+#: el/gimp-fire-up.html:48(a)
+msgid "2. Ξεκίνημα του GIMP για πρώτη φορά"
+msgstr ""
+
+#: el/gimp-fire-up.html:51(a)
+msgid "2.1. Επιτέλους . . ."
+msgstr ""
+
+#: el/gimp-fire-up.html:60(h2)
+msgid "<a id=\"gimp-concepts-running\"/>1. Εκτέλεση του GIMP"
+msgstr ""
+
+#: el/gimp-fire-up.html:65(p)
+msgid "Συνήθως, ξεκινάτε το GIMP είτε πατώντας σε μια εικόνα (εάν το σύστημα σας εγκαταστάθηκε να σας δίνει μία), ή πληκτρολογώντας <span class=\"command\"><strong>gimp</strong></span> στη γραμμή εντολών. Εάν έχετε πολλές εκδόσεις του GIMP εγκατεστημένες, ίσως χρειαστείτε να πληκτρολογήσετε <span class=\"command\"><strong>gimp-2.6</strong></span> για να πάρετε την τελευταία έκδοση. Μπορείτε, εάν θέλετε, να δώσετε έναν κατάλογο αρχείων εικόνας στη γραμμή εντολών μετά το όνομα του προγράμματος και θα ανοίγονται αυτόματα από το GIMP καθώς ξεκινά. Είναι επίσης δυνατό, εντούτοις, να ανοίξετε αρχεία από μέσα από το GIMP μόλις ξεκινήσει."
+msgstr ""
+
+#: el/gimp-fire-up.html:74(p)
+msgid "Στα περισσότερα λειτουργικά συστήματα μπορείτε να συνδέσετε αρχεία εικόνας μιας τάξης αρχείων (όπως προσδιορίζονται από τις επεκτάσεις του ονόματος αρχείου, π.χ. .jpg) με μια αντίστοιχη εφαρμογή (όπως το GIMP). Όταν τα αρχεία εικόνας “<span class=\"quote\">συνδεθούν</span>” κατάλληλα στο GIMP, μπορείτε να διπλοπατήσετε σε μια εικόνα για να την ανοίξετε στο GIMP."
+msgstr ""
+
+#: el/gimp-fire-up.html:83(h3)
+msgid "<a id=\"introduction-platforms\"/>1.1. Γνωστές πλατφόρμες"
+msgstr ""
+
+#: el/gimp-fire-up.html:86(p)
+msgid "Το GIMP είναι το πιο πλατιά υποστηριζόμενο πρόγραμμα επεξεργασίας εικόνας που είναι διαθέσιμο σήμερα. Οι πλατφόρμες στις οποίες το GIMP είναι γνωστό ότι δουλεύει περιλαμβάνουν:"
+msgstr ""
+
+#: el/gimp-fire-up.html:90(p)
+msgid "<span class=\"productname\"><acronym class=\"acronym\">GNU</acronym>/Linux</span>™, <span class=\"productname\">Apple Mac OS X</span>™, <span class=\"productname\">Microsoft Windows</span>™, <span class=\"productname\">OpenBSD</span>™, <span class=\"productname\">NetBSD</span>™, <span class=\"productname\">FreeBSD</span>™, <span class=\"productname\">Solaris</span>™, <span class=\"productname\">SunOS</span>™, <span class=\"productname\">AIX</span>™, <span class=\"productname\">HP-UX</span>™, <span class=\"productname\">Tru64</span>™, <span class=\"productname\">Digital UNIX</span>™, <span class=\"productname\">OSF/1</span>™, <span class=\"productname\">IRIX</span>™, <span class=\"productname\">OS/2</span>™, και <span class=\"productname\">BeOS</span>™."
+msgstr ""
+
+#: el/gimp-fire-up.html:103(p)
+msgid "Το GIMP μεταφέρεται εύκολα σε άλλα λειτουργικά συστήματα, λόγω της διαθεσιμότητας του πηγαίου του κώδικα. Για παραπέρα πληροφορίες επισκεφτείτε την αρχική σελίδα ανάπτυξης του GIMP. <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-dev\" title=\"&#x391;&#x3BD;&#x3AC;&#x3C0;&#x3C4;&#x3C5;&#x3BE;&#x3B7; &#x3C4;&#x3BF;&#x3C5; GIMP \">[<abbr class=\"abbrev\">GIMP-DEV</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-fire-up.html:113(h3)
+msgid "<a id=\"gimp-concepts-running-language\"/>1.2. Γλώσσα"
+msgstr ""
+
+#: el/gimp-fire-up.html:118(p)
+msgid "Το GIMP αυτόματα ανιχνεύει και χρησιμοποιεί την γλώσσα του συστήματος. Στην απίθανη περίπτωση που η αναγνώριση της γλώσσας αποτύχει, ή εάν απλά θέλετε να χρησιμοποιήσετε μια άλλη γλώσσα, μπορείτε να κάνετε το εξής:"
+msgstr ""
+
+#: el/gimp-fire-up.html:125(span)
+msgid "Linux"
+msgstr ""
+
+#: el/gimp-fire-up.html:127(p)
+msgid "Στο <span class=\"emphasis\"><em>LINUX</em></span>: σε λειτουργία κονσόλας, πληκτρολογήστε <strong class=\"userinput\"><code>LANGUAGE=en gimp</code></strong> ή <strong class=\"userinput\"><code>LANG=en gimp</code></strong> αντικαθιστώντας από fr, de, ... ανάλογα με τη γλώσσα που θέλετε. Υπόβαθρο: Χρησιμοποιώντας <strong class=\"userinput\"><code>LANGUAGE=en</code></strong> δημιουργεί ένα μεταβλητό περιβάλλον για το εκτελούμενο πρόγραμμα <strong class=\"userinput\"><code>gimp</code></strong>."
+msgstr ""
+
+#: el/gimp-fire-up.html:137(span)
+msgid "Windows XP"
+msgstr ""
+
+#: el/gimp-fire-up.html:139(p)
+msgid "<span class=\"guimenu\">Control Panel</span> → <span class=\"guisubmenu\">System</span> → <span class=\"guisubmenu\">Advanced</span> → <span class=\"guimenuitem\">Environment</span> κουμπί στην περιοχή “<span class=\"quote\">System Variables</span>”: <span class=\"guibutton\">Add</span> πλήκτρο: Εισαγωγή LANG για όνομα και fr ή de... για τιμή. Προσοχή! Πρέπει να πατήσετε σε τρία διαδοχικά <span class=\"guibutton\">OK</span> για να επικυρώσετε την επιλογή σας."
+msgstr ""
+
+#: el/gimp-fire-up.html:146(p)
+msgid "Εάν αλλάζετε γλώσσες συχνά, μπορείτε να δημιουργήστε ένα αρχείο batch για αλλαγή της γλώσσας. Ανοίξτε NotePad. Πληκτρολογήστε τις ακόλουθες εντολές (π.χ. για γαλλικά):"
+msgstr ""
+
+#: el/gimp-fire-up.html:153(code)
+msgid "set lang=fr<br/> start gimp-2.6.exe"
+msgstr ""
+
+#: el/gimp-fire-up.html:158(p)
+msgid "Αποθηκεύστε αυτό το αρχείο ως <code class=\"filename\">GIMP-FR.BAT</code> (ή άλλο όνομα, αλλά πάντα με μια <code class=\"filename\">.BAT</code> επέκταση). Δημιουργήστε μια συντόμευση και μεταφέρτε την στην επιφάνεια εργασίας."
+msgstr ""
+
+#: el/gimp-fire-up.html:162(p)
+msgid "Άλλη δυνατότητα: <span class=\"guimenu\">Start</span> → <span class=\"guisubmenu\">Programs</span> → <span class=\"guimenuitem\">GTK Runtime Environment</span> Έπειτα <span class=\"guimenuitem\">Select language</span> και επιλέξτε τη γλώσσα που θέλετε από τον αναδυόμενο κατάλογο."
+msgstr ""
+
+#: el/gimp-fire-up.html:168(span)
+msgid "Apple Mac OS X"
+msgstr ""
+
+#: el/gimp-fire-up.html:170(p)
+msgid "Από System Preferences, πατήστε στην International εικόνα. Στην καρτέλα Language , η επιθυμητή γλώσσα θα πρέπει να είναι η πρώτη στον κατάλογο."
+msgstr ""
+
+#: el/gimp-fire-up.html:175(span)
+msgid "Ένα άλλο στιγμιότυπο GIMP"
+msgstr ""
+
+#: el/gimp-fire-up.html:177(p)
+msgid "Χρησιμοποιείστε <strong class=\"userinput\"><code>-n</code></strong> για να εκτελέσετε πολλαπλά στιγμιότυπα GIMP. Για παράδειγμα, χρησιμοποιήστε <strong class=\"userinput\"><code>gimp-2.6</code></strong> για να ξεκινήσετε το GIMP στην προεπιλεγμένη γλώσσα του συστήματος, και <strong class=\"userinput\"><code>LANGUAGE=en gimp-2.6 -n</code></strong> για να ξεκινήσετε ένα άλλο στιγμιότυπο του GIMP στα αγγλικά. Αυτό είναι πολύ χρήσιμο για μεταφραστές."
+msgstr ""
+
+#: el/gimp-fire-up.html:192(h3)
+msgid "<a id=\"gimp-concepts-running-command-line\"/>1.3. Ορίσματα γραμμής εντολών"
+msgstr ""
+
+#: el/gimp-fire-up.html:197(p)
+msgid "Αν και τα ορίσματα δεν απαιτούνται όταν ξεκινά το GIMP, τα πιο κοινά ορίσματα εμφανίζονται παρακάτω. Σ' ένα σύστημα Unix, μπορείτε να χρησιμοποιήσετε το <strong class=\"userinput\"><code>man gimp</code></strong> για έναν πλήρη κατάλογο."
+msgstr ""
+
+#: el/gimp-fire-up.html:202(p)
+msgid "Τα ορίσματα της γραμμής εντολών πρέπει να είναι στη γραμμή εντολών που χρησιμοποιείτε για εκκίνηση στο GIMP ως <span class=\"command\"><strong>gimp-2.6 [OPTION...] [FILE|URI...]</strong></span>."
+msgstr ""
+
+#: el/gimp-fire-up.html:209(span)
+msgid "-?, --help"
+msgstr ""
+
+#: el/gimp-fire-up.html:212(p)
+msgid "Εμφάνιση του καταλόγου όλων των επιλογών της γραμμής εντολών."
+msgstr ""
+
+#: el/gimp-fire-up.html:215(span)
+msgid "--help-all"
+msgstr ""
+
+#: el/gimp-fire-up.html:218(p)
+msgid "Εμφάνιση όλων των επιλογών βοήθειας."
+msgstr ""
+
+#: el/gimp-fire-up.html:221(span)
+msgid "--help-gtk"
+msgstr ""
+
+#: el/gimp-fire-up.html:224(p)
+msgid "Εμφάνιση των επιλογών GTK+."
+msgstr ""
+
+#: el/gimp-fire-up.html:227(span)
+msgid "-v, --version"
+msgstr ""
+
+#: el/gimp-fire-up.html:230(p)
+msgid "Εκτύπωση της έκδοσης του GIMP και έξοδος."
+msgstr ""
+
+#: el/gimp-fire-up.html:235(span)
+msgid "--license"
+msgstr ""
+
+#: el/gimp-fire-up.html:238(p)
+msgid "Εμφάνιση πληροφοριών άδειας και έξοδος."
+msgstr ""
+
+#: el/gimp-fire-up.html:241(span)
+msgid "--verbose"
+msgstr ""
+
+#: el/gimp-fire-up.html:244(p)
+msgid "Εμφάνιση λεπτομερών εκκινητήριων μηνυμάτων."
+msgstr ""
+
+#: el/gimp-fire-up.html:247(span)
+msgid "-n, --new-instance"
+msgstr ""
+
+#: el/gimp-fire-up.html:250(p)
+msgid "Ξεκινήστε ένα καινούργιο στιγμιότυπο του GIMP."
+msgstr ""
+
+#: el/gimp-fire-up.html:253(span)
+msgid "-a, --as-new"
+msgstr ""
+
+#: el/gimp-fire-up.html:256(p)
+msgid "Άνοιγμα εικόνων ως καινούργιες."
+msgstr ""
+
+#: el/gimp-fire-up.html:259(span)
+msgid "-i, --no-interface"
+msgstr ""
+
+#: el/gimp-fire-up.html:262(p)
+msgid "Εκτέλεση χωρίς διεπαφή χρήστη."
+msgstr ""
+
+#: el/gimp-fire-up.html:265(span)
+msgid "-d, --no-data"
+msgstr ""
+
+#: el/gimp-fire-up.html:268(p)
+msgid "Μη φορτώσετε μοτίβα, διαβαθμίσεις, παλέτες ή πινέλα. Συχνά χρήσιμο σε μη διεπαφικές καταστάσεις όπου ο χρόνος εκκίνησης πρέπει να ελαχιστοποιηθεί."
+msgstr ""
+
+#: el/gimp-fire-up.html:274(span)
+msgid "-f, --no-fonts"
+msgstr ""
+
+#: el/gimp-fire-up.html:277(p)
+msgid "Μη φορτώνετε γραμματοσειρές. Αυτό είναι χρήσιμο για το φόρτωμα στο GIMP πιο γρήγορα των σεναρίων που δεν χρησιμοποιούν γραμματοσειρές, ή για την επίλυση προβλημάτων σχετικά με λανθασμένες γραμματοσειρές που κρεμάνε στο GIMP."
+msgstr ""
+
+#: el/gimp-fire-up.html:283(span)
+msgid "-s, --no-splash"
+msgstr ""
+
+#: el/gimp-fire-up.html:286(p)
+msgid "Μη δείχνετε την αρχική εικόνα στην εκκίνηση.."
+msgstr ""
+
+#: el/gimp-fire-up.html:289(span)
+msgid "--no-shm"
+msgstr ""
+
+#: el/gimp-fire-up.html:292(p)
+msgid "Μη χρησιμοποιείτε κοινή μνήμη μεταξύ του GIMP και προσθέτων."
+msgstr ""
+
+#: el/gimp-fire-up.html:295(span)
+msgid "--no-cpu-accel"
+msgstr ""
+
+#: el/gimp-fire-up.html:298(p)
+msgid "Μη χρησιμοποιείτε συναρτήσεις ειδικής επιτάχυνσης CPU. Χρήσιμο για την εύρεση ή απενεργοποίηση εσφαλμένα επιταχυνόμενου υλικού ή συναρτήσεων."
+msgstr ""
+
+#: el/gimp-fire-up.html:302(code)
+msgid "name"
+msgstr ""
+
+#: el/gimp-fire-up.html:302(span)
+msgid "--session=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:305(p)
+msgid "Χρήση διαφορετικού <code class=\"filename\">sessionrc</code> για αυτή σύνοδο του GIMP. Το όνομα της δεδομένης συνόδου προσαρτάται στο προκαθορισμένο <code class=\"filename\">sessionrc</code> όνομα αρχείου."
+msgstr ""
+
+#: el/gimp-fire-up.html:312(code) el/gimp-fire-up.html:323(code)
+msgid "filename"
+msgstr ""
+
+#: el/gimp-fire-up.html:312(span)
+msgid "--gimprc=<placeholder-1/>"
+msgstr ""
+
+#: el/gimp-fire-up.html:315(p)
+msgid "Χρήση εναλλακτικού <code class=\"filename\">gimprc</code> αντί για το προκαθορισμένο. Το <code class=\"filename\">gimprc</code> αρχείο περιέχει μια καταγραφή των προτιμήσεων σας. Χρήσιμο στις περιπτώσεις όπου τα μονοπάτια των προσθέτων ή των προδιαγραφών της μηχανής είναι διαφορετικά."
+msgstr ""
+
+#: el/gimp-fire-up.html:323(span)
+msgid "--system-gimprc=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:326(p)
+msgid "Χρήση εναλλακτικού αρχείου συστήματος gimprc."
+msgstr ""
+
+#: el/gimp-fire-up.html:330(code)
+msgid "commands"
+msgstr ""
+
+#: el/gimp-fire-up.html:329(span)
+msgid "-b, --batch=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:334(p)
+msgid "Εκτέλεση του συνόλου των εντολών μη διαδραστικά. Το σύνολο των εντολών είναι τυπικά στη μορφή ενός σεναρίου που μπορεί να εκτελεστεί από μία από τις επεκτάσεις σεναρίου του GIMP. Όταν η εντολή είναι <strong class=\"userinput\"><code>-</code></strong>, οι εντολές διαβάζονται από την κανονική είσοδο."
+msgstr ""
+
+#: el/gimp-fire-up.html:341(code)
+msgid "proc"
+msgstr ""
+
+#: el/gimp-fire-up.html:341(span)
+msgid "--batch-interpreter=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:344(p)
+msgid "Προσδιορισμός της διαδικασίας για χρήση επεξεργασίας εντολών batch. Η προκαθορισμένη διαδικασία είναι Script-Fu."
+msgstr ""
+
+#: el/gimp-fire-up.html:348(span)
+msgid "--console-messages"
+msgstr ""
+
+#: el/gimp-fire-up.html:351(p)
+msgid "Μην εμφανίζετε τα πλαίσια διαλόγου για σφάλματα ή προειδοποιήσεις. Αντί για αυτό, εμφανίστε τα μηνύματα στην κονσόλα."
+msgstr ""
+
+#: el/gimp-fire-up.html:356(code) el/gimp-fire-up.html:362(code)
+msgid "mode"
+msgstr ""
+
+#: el/gimp-fire-up.html:356(span)
+msgid "--pdb-compat-mode=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:359(p)
+msgid "Συμβατότητα λειτουργίας PDB (off|on|warn)."
+msgstr ""
+
+#: el/gimp-fire-up.html:362(span)
+msgid "--stack-trace-mode=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:365(p)
+msgid "Αποσφαλμάτωση σε περίπτωση κατάρρευσης (never|query|always)."
+msgstr ""
+
+#: el/gimp-fire-up.html:368(span)
+msgid "--debug-handlers"
+msgstr ""
+
+#: el/gimp-fire-up.html:371(p)
+msgid "Ενεργοποίηση σήματος χειριστών μη ολέθριας αποσφαλμάτωσης. Χρήσιμο για την αποσφαλμάτωση του GIMP."
+msgstr ""
+
+#: el/gimp-fire-up.html:374(span)
+msgid "--g-fatal-warnings"
+msgstr ""
+
+#: el/gimp-fire-up.html:377(p)
+msgid "Εκτέλεση όλων των προειδοποιήσεων ως ολέθριες. Χρήσιμο για αποσφαλμάτωση."
+msgstr ""
+
+#: el/gimp-fire-up.html:380(span)
+msgid "--dump-gimprc"
+msgstr ""
+
+#: el/gimp-fire-up.html:383(p)
+msgid "Έξοδος ενός αρχείου gimprc με προκαθορισμένες ρυθμίσεις. Χρήσιμο εάν χειροτερεύσατε το αρχείο gimprc."
+msgstr ""
+
+#: el/gimp-fire-up.html:386(code)
+msgid "display"
+msgstr ""
+
+#: el/gimp-fire-up.html:386(span)
+msgid "--display=<em class=\"replaceable\"><placeholder-1/></em>"
+msgstr ""
+
+#: el/gimp-fire-up.html:389(p)
+msgid "Χρήση της προκαθορισμένης εμφάνισης X (δεν εφαρμόζεται σε όλες τις πλατφόρμες)."
+msgstr ""
+
+#: el/gimp-fire-up.html:405(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-fire-up.html:411(a)
+msgid "2. Τι είναι καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/gimp-fire-up.html:411(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-fire-up.html:414(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-fire-up.html:417(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

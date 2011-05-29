@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-web-transparency.html:6(title) en/gimp-using-web-transparency.html:21(th) en/gimp-using-web-transparency.html:31(div:title)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:13(link:title) en/gimp-using-web-transparency.html:25(th)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:14(link:title) en/gimp-using-web-transparency.html:162(a)
+msgid "2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:15(link:title) en/gimp-using-web-transparency.html:168(a)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:24(img:alt) en/gimp-using-web-transparency.html:153(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:24(td) en/gimp-using-web-transparency.html:153(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-web-reducing-file-size.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:26(img:alt) en/gimp-using-web-transparency.html:159(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:26(td) en/gimp-using-web-transparency.html:159(td)
+msgid " <a accesskey=\"n\" href=\"gimp-painting.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:35(h3)
+msgid "<a id=\"gimp-using-web-transparency\"/>2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:40(p)
+msgid "There are two different approaches used by graphic file formats for supporting transparent image areas: simple binary transparency and alpha transparency. Simple binary transparency is supported in the <a class=\"link\" href=\"gimp-images-out.html#file-gif-save\" title=\"1.2.1.&#xA0;Saving as GIF\">GIF</a> format; one color from the indexed color palette is marked as the transparent color. Alpha transparency is supported in the <a class=\"link\" href=\"gimp-images-out.html#file-png-save-defaults\">PNG</a> format; the transparency information is stored in a separate channel, the <a class=\"link\" href=\"glossary.html#glossary-alpha\" title=\"Alpha\">Alpha channel</a>."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:51(div:title) en/gimp-using-web-transparency.html:57(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:55(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:61(p)
+msgid "The GIF format is rarely used because PNG supports all the features of GIF with additional features (e.g., alpha transparency). Nevertheless, GIF is still used for animations."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:71(div:title) en/gimp-using-web-transparency.html:74(b)
+msgid "Procedure 6.1.  Creating an Image with Transparent Areas (Alpha Transparency)"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:79(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:80(p)
+msgid "First of all, we will use the same image as in the previous tutorials, Wilber the GIMP mascot."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:87(b)
+msgid "Figure 6.8. The Wilber image opened in RGBA mode"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:91(img:alt)
+msgid "The Wilber image opened in RGBA mode"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:97(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:98(p)
+msgid "To save an image with alpha transparency, you must have an alpha channel. To check if the image has an alpha channel, go to the <a class=\"link\" href=\"gimp-channel-dialog.html\" title=\"2.2.&#xA0;Channels Dialog\">channel dialog</a> and verify that an entry for <span class=\"quote\">“<span class=\"quote\">Alpha</span>”</span> exists, besides Red, Green and Blue. If this is not the case, <a class=\"link\" href=\"gimp-layer-alpha-add.html\" title=\"7.32.&#xA0;Add Alpha Channel\">add a new alpha channel</a> from the layers menu; <span class=\"guimenu\">Layer</span>+<span class=\"guimenu\">Transparency</span> → <span class=\"guimenuitem\">Add Alpha Channel</span>."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:109(li:title)
+msgid "Step 3"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:110(p)
+msgid "The original XCF file contains background layers that you can remove. <acronym class=\"acronym\">GIMP</acronym> comes with standard filters that supports creating gradients; look under <span class=\"guimenu\">Filters</span>+<span class=\"guimenu\">Light and Shadow</span>. You are only limited by your imagination. To demonstrate the capabilities of alpha transparency, a soft glow in the background around Wilber is shown."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:120(li:title)
+msgid "Step 4"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:121(p)
+msgid "After you're done with your image, you can <a class=\"link\" href=\"gimp-file-save.html\" title=\"2.8.&#xA0;Save\">save</a> it in <a class=\"link\" href=\"gimp-images-out.html#file-png-save-defaults\">PNG format</a>."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:132(b)
+msgid "Figure 6.9. The Wilber image with transparency"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:136(img:alt)
+msgid "The Wilber image with transparency"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:138(p)
+msgid "Mid-Tone Checks in the background layer represent the transparent region of the saved image while you are working on it in <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:156(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:162(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:165(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-web-transparency.html:168(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

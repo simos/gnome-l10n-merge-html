@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-quickmask.html:6(title) en/gimp-using-quickmask.html:21(th) en/gimp-using-quickmask.html:31(div:title)
+msgid "4. Using QuickMask Mode"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:13(link:title) en/gimp-using-quickmask.html:25(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:14(link:title) en/gimp-using-quickmask.html:85(a)
+msgid "3.2. Properties"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:15(link:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:24(img:alt) en/gimp-using-quickmask.html:76(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:24(td) en/gimp-using-quickmask.html:76(td)
+msgid "<a accesskey=\"p\" href=\"gimp-image-window-qmask-properties.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-quickmask.html:26(img:alt) en/gimp-using-quickmask.html:82(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:26(td) en/gimp-using-quickmask.html:82(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:35(h2)
+msgid "<a id=\"gimp-using-quickmask\"/>4. Using QuickMask Mode"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:42(li:title)
+msgid "Step 1"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:43(p)
+msgid "Open an image or begin a new document."
+msgstr ""
+
+#: en/gimp-using-quickmask.html:45(li:title)
+msgid "Step 2"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:46(p)
+msgid "Activate QuickMask mode using the left-bottom button in the image window. If a selection is present the mask is initialized with the content of the selection."
+msgstr ""
+
+#: en/gimp-using-quickmask.html:52(li:title)
+msgid "Step 3"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:53(p)
+msgid "Choose any drawing tool. Paint on the QuickMask with black to remove selected areas, and paint with white to add selected areas. Use grey colors to partially select areas."
+msgstr ""
+
+#: en/gimp-using-quickmask.html:58(p)
+msgid "You can also use selection tools and fill these selections with the Bucket Fill tool; this does not destroy the QuickMask selections!"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:63(li:title)
+msgid "Step 4"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:64(p)
+msgid "Toggle QuickMask mode off using the left-bottom button in the image window: the selection will be displayed with marching ants."
+msgstr ""
+
+#: en/gimp-using-quickmask.html:79(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:85(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-quickmask.html:88(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:93(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:91(a)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-quickmask.html:91(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

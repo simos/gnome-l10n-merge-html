@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.5. Find Info About Your Image</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-tutorial-quickies.html" title="4. GIMPLite Quickies" />
+    <link rel="prev" href="gimp-tutorial-quickie-crop.html" title="4.4. Crop An Image" />
+    <link rel="next" href="gimp-tutorial-quickie-change-mode.html" title="4.6. Change the Mode" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.5. Find Info About Your Image</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="gimp-tutorial-quickie-crop.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">4. GIMPLite Quickies</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-change-mode.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="4.5. Find Info About Your Image">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tutorial-quickie-info"></a>4.5. Find Info About Your Image</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id3157586" class="indexterm"></a>
+      <a id="id3157596" class="indexterm"></a>
+      <div class="figure">
+        <a id="id3157609"></a>
+        <p class="title">
+          <b>Figure 3.29. Finding Info</b>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-info-menu.png" alt="Finding Info" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>
+      This example uses another image image from APOD
+      <a class="xref" href="bibliography.html#bibliography-online-apod06" title="Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000 November 13)">[<abbr class="abbrev">APOD06</abbr>]</a>.
+      Much information is available directly from the Image Window; for
+      example, the image dimensions.Use 
+      <span class="guimenu">Image</span> → <span class="guimenuitem">Image Properties</span>
+      to open the Image Properties dialog, which contains even more
+      information.
+    </p>
+      <div class="figure">
+        <a id="id3157662"></a>
+        <p class="title">
+          <b>Figure 3.30. Image Properties Dialog</b>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-info-dialog.png" alt="Image Properties Dialog" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>
+      If you are just making a square out of a rectangle, like in the
+      <a class="xref" href="gimp-tutorial-quickie-crop.html" title="4.4. Crop An Image">Section 4.4, “Crop An Image”</a>,
+      it is fast and easy to find the smallest dimension. 
+      you need only to open the dialog and find the lesser length and use
+      that as described. Since this is very little information, and definitely
+      not enough to fill the space between the menu thumbnail and the dialog
+      screenshot in my layout, I thought I would run through some calculator
+      exercises that might help you to meet your image needs.
+    </p>
+      <div class="figure">
+        <a id="id3157703"></a>
+        <p class="title">
+          <b>Figure 3.31. Scale Problem</b>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-info-problem.png" alt="Scale Problem" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>
+      It is nice to have images appear on a browser window as a photo would.
+      Photos online appear to be 4x6 inches when scaled to 288x432 pixels (72
+      dpi for many monitors). There is a problem, however, if you try to scale
+      this image. The ratio of width to length of the original does not match
+      the ratio of the photo. So, to make the scaled image the correct size
+      some pixels must be cropped from the height. The final image will
+      <span class="quote">“<span class="quote">appear</span>”</span> as a 6x4 inch photo on many monitors.
+    </p>
+      <div class="figure">
+        <a id="id3126680"></a>
+        <p class="title">
+          <b>Figure 3.32. Problem Solved by Cropping</b>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-info-crop.png" alt="Problem Solved by Cropping" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>
+      There are problems when mixing scanned photos, digital
+      photos, and scanned negatives. Many film developing machines
+      automatically crop portions of the image so that they will match
+      the printing size, or a certain style.
+      If you are preparing an image to be printed on a machine like
+      this; or if you are planning on a gallery where the images are from
+      different sources, some intelligent cropping to fit the best size for
+      the medium you have chosen will be a plus. If this is confusing; please
+      blame the photo printing industry and not <acronym class="acronym">GIMP</acronym>.
+    </p>
+      <p>
+      You can change the Resolution of your image as well, using the same
+      methods we used to Scale the image, although, in my somewhat limited
+      use,
+      the issue is more about how many pixels. Let's say you want to print an
+      image at a photo lab. 300 pixels for every inch is preferred.
+      An image that is 2241x1548 pixels will easily print as
+      a 7 x 5 photo. 2241px/300ppi =
+      7.47 in. Get your calculator for the short side. 1548/300 = _.
+    </p>
+      <p>
+      There is another brutal fact you should come to terms with if you are
+      new to graphics and computers. Just because it looks good on the screen
+      doesn't mean that it will print nicely. I tried to emulate how this
+      image would appear printed at 300dpi. Sorry. There are some options, for
+      instance my friend printed images and then scanned them back in.
+      Terrible business!
+    </p>
+      <div class="figure">
+        <a id="id3126744"></a>
+        <p class="title">
+          <b>Figure 3.33. Actual printing result of example image</b>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-info-print-emul.jpg" alt="Actual printing result of example image" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tutorial-quickie-crop.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tutorial-quickies.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tutorial-quickie-change-mode.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tutorial-quickie-crop.html">4.4. Crop An Image</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tutorial-quickie-change-mode.html">4.6. Change the Mode</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

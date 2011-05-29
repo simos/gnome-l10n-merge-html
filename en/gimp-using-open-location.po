@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-open-location.html:6(title) en/gimp-using-open-location.html:21(th) en/gimp-using-open-location.html:31(div:title)
+msgid "3.2. Open Location"
+msgstr ""
+
+#: en/gimp-using-open-location.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-open-location.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-open-location.html:13(link:title) en/gimp-using-open-location.html:14(link:title) en/gimp-using-open-location.html:25(th) en/gimp-using-open-location.html:78(a)
+msgid "3. Opening Files"
+msgstr ""
+
+#: en/gimp-using-open-location.html:15(link:title) en/gimp-using-open-location.html:84(a)
+msgid "3.3. Open Recent"
+msgstr ""
+
+#: en/gimp-using-open-location.html:24(img:alt) en/gimp-using-open-location.html:69(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-open-location.html:24(td) en/gimp-using-open-location.html:69(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-fileformats-opening.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-open-location.html:26(img:alt) en/gimp-using-open-location.html:75(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-open-location.html:26(td) en/gimp-using-open-location.html:75(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-open-recent.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-open-location.html:35(h3)
+msgid "<a id=\"gimp-using-open-location\"/>3.2. Open Location"
+msgstr ""
+
+#: en/gimp-using-open-location.html:39(p)
+msgid "If instead of a file name, you have a <acronym class=\"acronym\">URI</acronym> (i.e., a web address) for the image, you can open it using the menu, by choosing <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">Open Location…</span> from an image menu. This brings up a small dialog that allows you to enter (or paste) the <acronym class=\"acronym\">URI</acronym>."
+msgstr ""
+
+#: en/gimp-using-open-location.html:50(span)
+msgid "Open Location"
+msgstr ""
+
+#: en/gimp-using-open-location.html:50(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-using-open-location.html:50(b)
+msgid "Figure 5.5. The <placeholder-1/> dialog"
+msgstr ""
+
+#: en/gimp-using-open-location.html:54(img:alt)
+msgid "The Open Location dialog"
+msgstr ""
+
+#: en/gimp-using-open-location.html:56(p)
+msgid "The <span class=\"quote\">“<span class=\"quote\">Open Location</span>”</span> dialog."
+msgstr ""
+
+#: en/gimp-using-open-location.html:72(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-open-location.html:78(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-open-location.html:81(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-open-location.html:84(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

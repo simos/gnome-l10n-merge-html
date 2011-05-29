@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-concepts-patterns.html:6(title) en/gimp-concepts-patterns.html:21(th) en/gimp-concepts-patterns.html:31(div:title)
+msgid "11. Patterns"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:13(link:title) en/gimp-concepts-patterns.html:25(th)
+msgid "Chapter 7. Painting with GIMP"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:14(link:title) en/gimp-concepts-patterns.html:290(a)
+msgid "10. Gradients"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:15(link:title) en/gimp-concepts-patterns.html:296(a)
+msgid "12. Palettes"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:24(img:alt) en/gimp-concepts-patterns.html:281(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:24(td) en/gimp-concepts-patterns.html:281(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-gradients.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:26(img:alt) en/gimp-concepts-patterns.html:287(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:26(td) en/gimp-concepts-patterns.html:287(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-palettes.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:35(h2)
+msgid "<a id=\"gimp-concepts-patterns\"/>11. Patterns"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:40(p)
+msgid "A <span class=\"emphasis\"><em>pattern</em></span> is an image, usually small, used for filling regions by <span class=\"emphasis\"><em>tiling</em></span>, that is, by placing copies of the pattern side by side like ceramic tiles. A pattern is said to be <span class=\"emphasis\"><em>tileable</em></span> if copies of it can be adjoined left-edge-to-right-edge and top-edge-to-bottom-edge without creating obvious seams. Not all useful patterns are tileable, but tileable patterns are nicest for many purposes. (A <span class=\"emphasis\"><em>texture</em></span>, by the way, is the same thing as a pattern.)"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:54(b)
+msgid "Figure 7.27. Pattern usage"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:58(img:alt)
+msgid "Pattern usage"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:60(p)
+msgid "Three ways of using the <span class=\"quote\">“<span class=\"quote\">Leopard</span>”</span> pattern: bucket-filling a selection, painting with the Clone tool, and stroking an elliptical selection with the pattern."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:70(p)
+msgid "In GIMP there are three main uses for patterns:"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:74(p)
+msgid "With the <a class=\"link\" href=\"gimp-tool-bucket-fill.html\" title=\"3.3.&#xA0;Bucket Fill\">Bucket Fill</a> tool, you can choose to fill a region with a pattern instead of a solid color."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:82(b)
+msgid "Figure 7.28. The checked box for use a pattern"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:86(img:alt)
+msgid "The checked box for use a pattern"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:88(p)
+msgid "The box for pattern fill is checked and a click on the pattern shows you all patterns in grid mode."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:99(p)
+msgid "With the <a class=\"link\" href=\"gimp-tool-clone.html\" title=\"3.10.&#xA0;Clone\">Clone</a> tool, you can paint using a pattern, with a wide variety of paintbrush shapes."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:106(p)
+msgid "When you <span class=\"emphasis\"><em>stroke</em></span> a path or selection, you can do it with a pattern instead of a solid color. You can also use the Clone tool as your choice if you stroke the selection using a painting tool."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:115(div:title) en/gimp-concepts-patterns.html:121(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:119(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:125(p)
+msgid "Note: Patterns do not need to be opaque. If you fill or paint using a pattern with translucent or transparent areas, then the previous contents of the area will show through from behind it. This is one of many ways of doing <span class=\"quote\">“<span class=\"quote\">overlays</span>”</span> in GIMP."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:135(p)
+msgid "When you install GIMP, it comes presupplied with a few dozen patterns, which seem to have been chosen more or less randomly. You can also add new patterns, either ones you create yourself, or ones you download from the vast number available online."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:141(p)
+msgid "GIMP's <span class=\"emphasis\"><em>current pattern</em></span>, used in most pattern-related operations, is shown in the Brush/Pattern/Gradient area of the Toolbox. Clicking on the pattern symbol brings up the <a class=\"link\" href=\"gimp-pattern-dialog.html\" title=\"3.3.&#xA0;Patterns Dialog\">Patterns dialog</a>, which allows you to select a different pattern. You can also access the Patterns dialog by menu, or dock it so that it is present continuously."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:149(p)
+msgid "To add a new pattern to the collection, so that it shows up in the Patterns dialog, you need to save it in a format GIMP can use, in a folder included in GIMP's pattern search path. There are several file formats you can use for patterns:"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:158(span)
+msgid "PAT"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:161(p)
+msgid "The <code class=\"filename\">.pat</code> format is used for patterns which were created specifically for GIMP. You can convert any image into a <code class=\"filename\">.pat</code> file by opening it in GIMP and then saving it using a file name ending in <code class=\"filename\">.pat</code>."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:168(div:title) en/gimp-concepts-patterns.html:174(th)
+msgid "Caution"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:172(img:alt)
+msgid "[Caution]"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:178(p)
+msgid "Do not confuse <acronym class=\"acronym\">GIMP</acronym>-generated <code class=\"filename\">.pat</code> files with files created by other programs (e.g. <span class=\"application\">Photoshop</span>) – after all, <code class=\"filename\">.pat</code> is just a part of an (arbitrary) file name."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:186(p)
+msgid "(However, <acronym class=\"acronym\">GIMP</acronym><span class=\"emphasis\"><em>does</em></span> support <span class=\"application\">Photoshop</span><code class=\"filename\">.pat</code> files until a certain version.)"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:198(span)
+msgid "PNG, JPEG, BMP, GIF, TIFF"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:201(p)
+msgid "Since GIMP 2.2 you can use <code class=\"filename\">.png</code>, <code class=\"filename\">.jpg</code>, <code class=\"filename\">.bmp</code>, <code class=\"filename\">.gif</code>, or <code class=\"filename\">.tiff</code> files as patterns."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:212(p)
+msgid "To make a pattern available, you place it in one of the folders in GIMP's pattern search path. By default, the pattern search path includes two folders, the system <code class=\"filename\">patterns</code> folder, which you should not use or alter, and the <code class=\"filename\">patterns</code> folder inside your personal GIMP directory. You can add new folders to the pattern search path using the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;Data Folders\">Pattern Folders</a> page of the Preferences dialog. Any PAT file (or, in GIMP 2.2, any of the other acceptable formats) included in a folder in the pattern search path will show up in the Patterns dialog the next time you start GIMP."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:224(p)
+msgid "There are countless ways of creating interesting patterns in GIMP, using the wide variety of available tools and filters -- particularly the rendering filters. You can find tutorials for this in many locations, including the GIMP home page <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp\" title=\"GIMP - The Gnu Image Manipulation Program\">[<abbr class=\"abbrev\">GIMP</abbr>]</a>. Some of the filters have options that allows you to make their results tileable. Also, see <a class=\"xref\" href=\"script-fu-tile-blur.html\" title=\"2.7.&#xA0;Tileable Blur\">Section 2.7, “Tileable Blur”</a>, this filter allows you to blend the edges of an image in order to make it more smoothly tileable."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:237(b)
+msgid "Figure 7.29. Pattern script examples"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:241(img:alt)
+msgid "Pattern script examples"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:243(p)
+msgid "Examples of patterns created using six of the Pattern Script-Fu's that come with GIMP. Default settings were used for everything except size. (From left to right: 3D Truchet; Camouflage; Flatland; Land; Render Map; Swirly)"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:254(p)
+msgid "Also of interest are a set of pattern-generating scripts that come with GIMP: you can find them in the menu bar, through <span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Create</span> → <span class=\"guimenuitem\">Patterns</span>. Each of the scripts creates a new image filled with a particular type of pattern: a dialog pops up that allows you to set parameters controlling the details of the appearance. Some of these patterns are most useful for cutting and pasting; others serve best as <a class=\"link\" href=\"glossary.html#glossary-bumpmapping\" title=\"Bump mapping\">bumpmaps</a>."
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:267(b)
+msgid "Figure 7.30. How to create new patterns"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:271(img:alt)
+msgid "How to create new patterns"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:284(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:290(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:293(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-concepts-patterns.html:296(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

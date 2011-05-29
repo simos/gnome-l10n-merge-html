@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-paths-and-text.html:6(title) en/gimp-using-paths-and-text.html:21(th) en/gimp-using-paths-and-text.html:34(div:title)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:13(link:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:14(link:title) en/gimp-using-paths-and-text.html:109(a)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:15(link:title)
+msgid "5.7. Paths and SVG files"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:24(img:alt) en/gimp-using-paths-and-text.html:100(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:24(td) en/gimp-using-paths-and-text.html:100(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths-stroking.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:27(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:25(th)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:29(img:alt) en/gimp-using-paths-and-text.html:106(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:29(td) en/gimp-using-paths-and-text.html:106(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths-and-svg.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:38(h3)
+msgid "<a id=\"gimp-using-paths-and-text\"/>5.6. Paths and Text"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:45(b)
+msgid "Figure 7.14. Text converted to a path"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:49(img:alt) en/gimp-using-paths-and-text.html:58(img:alt)
+msgid "Text converted to a path"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:51(p)
+msgid "Text converted to a path and then transformed using the Perspective tool."
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:60(p)
+msgid "The path shown above, stroked with a fuzzy brush and then gradient-mapped using the Gradient Map filter with the <span class=\"quote\">“<span class=\"quote\">Yellow Contrast</span>”</span> gradient."
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:70(p)
+msgid "A text item created using the Text tool can be transformed into a path using the <span class=\"guibutton\">Create path from text</span> button in the Tool Options for the Text tool. This can be useful for several purposes, including:"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:79(p)
+msgid "Stroking the path, which gives you many possibilities for fancy text."
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:85(p)
+msgid "More importantly, transforming the text. Converting text into a path, then transforming the path, and finally either stroking the path or converting it to a selection and filling it, often leads to much higher-quality results than rendering the text as a layer and transforming the pixel data."
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:103(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:109(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:112(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:115(acronym)
+msgid "SVG"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:115(a)
+msgid "5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/gimp-using-paths-and-text.html:115(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

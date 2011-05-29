@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-imaging-color-management.html:6(title) el/gimp-imaging-color-management.html:21(th) el/gimp-imaging-color-management.html:32(div:title)
+msgid "Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:13(link:title)
+msgid "Μέρος  II. Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:14(link:title) el/gimp-imaging-color-management.html:298(a)
+msgid "Κεφάλαιο 9. Βελτιστοποίηση φωτογραφιών"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:15(link:title) el/gimp-imaging-color-management.html:304(a)
+msgid "Κεφάλαιο 11. Προσαρμογή του GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:24(img:alt) el/gimp-imaging-color-management.html:289(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:24(td) el/gimp-imaging-color-management.html:289(td)
+msgid "<a accesskey=\"p\" href=\"gimp-imaging-photos.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:25(th)
+msgid "Μέρος  II. Πώς θα γίνω ένας μάγος του GIMP;\""
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:27(img:alt) el/gimp-imaging-color-management.html:295(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:27(td) el/gimp-imaging-color-management.html:295(td)
+msgid " <a accesskey=\"n\" href=\"gimp-pimping.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:36(h2)
+msgid "<a id=\"gimp-imaging-color-management\"/>Κεφάλαιο 10. Διαχείριση χρώματος με το GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:42(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:47(a)
+msgid "1. Διαχείριση χρώματος στο GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:54(a)
+msgid "1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:59(a)
+msgid "1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:66(div:title)
+msgid "1. Διαχείριση χρώματος στο GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:70(h2)
+msgid "<a id=\"gimp-concepts-color-management\"/>1. Διαχείριση χρώματος στο GIMP"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:76(p)
+msgid "Πολλές συσκευές που χρησιμοποιούνται στη παραγωγή σχεδίασης ή φωτογραφίας, όπως ψηφιακές φωτογραφικές κάμερες, σαρωτές, οθόνες, εκτυπωτές κλ., έχουν τα δικά τους χαρακτηριστικά χρωματικής αναπαραγωγής. Εάν αυτά δεν ληφθούν υπόψη κατά το άνοιγμα, επεξεργασία και αποθήκευση, βλαβερές συνέπειες μπορούν να συμβούν στις εικόνες. Με το GIMP μπορείτε να έχετε αξιόπιστες εξόδους για το διαδίκτυο και την εκτύπωση."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:85(b)
+msgid "Εικόνα 10.1. Διαδικασία παραγωγής εικόνας"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:89(img:alt)
+msgid "Διαδικασία παραγωγής εικόνας"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:91(p) el/gimp-imaging-color-management.html:95(img:alt)
+msgid "Παραγωγή χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:97(p)
+msgid "Διαδικασία με διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:103(div:title)
+msgid "1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:107(h3)
+msgid "<a id=\"id3141519\"/>1.1. Προβλήματα παραγωγής χωρίς διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:111(p)
+msgid "Το βασικό πρόβλημα χειρισμού μιας εικόνας χωρίς χρωματική διαχείριση είναι ότι δεν βλέπετε αυτό που κάνετε. Αυτό επηρεάζει δύο διαφορετικές περιοχές."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:118(p)
+msgid "Υπάρχουν διαφορές στα χρώματα που προκαλούνται από διαφορετικά χαρακτηριστικά χρώματος των διαφορετικών συσκευών όπως κάμερες, σαρωτές, οθόνες ή εκτυπωτές."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:124(p)
+msgid "Υπάρχουν διαφορές στα χρώματα προκαλούμενες από τους περιορισμούς του χρωματικού χώρου που μια συγκεκριμένη συσκευή μπορεί να χειριστεί."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:131(p)
+msgid "Ο κύριος σκοπός της διαχείρισης χρώματος είναι η αποφυγή τέτοιων προβλημάτων. Η λαμβανόμενη προσέγγιση περιλαμβάνει την προσθήκη μιας περιγραφής των χρωματικών χαρακτηριστικών σε μια εικόνα ή συσκευή."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:135(p)
+msgid "Αυτές οι περιγραφές λέγονται <span class=\"emphasis\"><em>χρωματικά προφίλ (κατατομές)</em></span>. Ένα χρωματικό προφίλ είναι βασικά ένας πίνακας αναφορών για να μεταφραστούν τα ειδικά χρωματικά χαρακτηριστικά μιας συσκευής σε ένα χρωματικό χώρο ανεξάρτητο από τη συσκευή που λέγεται χώρος εργασίας. Ο χειρισμός όλων των εικόνων γίνεται τότε στο χώρο εργασίας. Επιπλέον το χρωματικό προφίλ μιας συσκευής μπορεί να χρησιμοποιηθεί για να προσομοιωθεί πώς φαίνονται τα χρώματα σε αυτή τη συσκευή."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:142(p)
+msgid "Η δημιουργία των χρωματικών προφίλ γίνεται συχνά από τους ίδιους τους κατασκευαστές των συσκευών. Για να γίνουν αυτά τα προφίλ χρησιμοποιήσιμα ανεξάρτητα από την πλατφόρμα και το λειτουργικό σύστημα, το ICC (International Color Consortium) δημιούργησε ένα πρότυπο που λέγεται ICC προφίλ που περιγράφει πώς αποθηκεύονται τα χρωματικά προφίλ σε αρχεία και ενσωματώνονται σε εικόνες."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:149(div:title)
+msgid "1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:153(h3)
+msgid "<a id=\"plug-in-icc-profile-set\"/>1.2. Εισαγωγή στην παραγωγή με διαχείριση χρώματος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:157(div:title) el/gimp-imaging-color-management.html:163(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:161(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:167(p)
+msgid "Οι περισσότερες από τις παραμέτρους και τις κατατομές που περιγράφονται εδώ, μπορούν να οριστούν στις προτιμήσεις του GIMP. Παρακαλώ δείτε <a class=\"xref\" href=\"gimp-pimping.html#gimp-prefs-color-management\" title=\"1.14.&#xA0;&#x394;&#x3B9;&#x3B1;&#x3C7;&#x3B5;&#x3AF;&#x3C1;&#x3B9;&#x3C3;&#x3B7; &#x3C7;&#x3C1;&#x3CE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;\">Ενότητα 1.14, “Διαχείριση χρώματος”</a> για λεπτομέρειες."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:176(div:title)
+msgid "1.2.1. Είσοδος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:180(h4)
+msgid "<a id=\"plug-in-icc-profile-apply\"/>1.2.1. Είσοδος"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:184(p)
+msgid "Οι περισσότερες ψηφιακές κάμερες ενσωματώνουν ένα χρωματικό προφίλ σε ατομικά φωτογραφικά αρχεία χωρίς αλληλεπίδραση με το χρήστη. Οι ψηφιακοί σαρωτές συνήθως έρχονται με μια χρωματική κατατομή που επίσης επισυνάπτεται στις σαρωμένες εικόνες."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:192(b)
+msgid "Εικόνα 10.2. Εφαρμογή του προφίλ ICC"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:196(img:alt)
+msgid "Εφαρμογή του προφίλ ICC"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:201(p)
+msgid "Όταν ανοίγετε μια εικόνα με ενσωματωμένη χρωματική κατατομή το GIMP σας προτείνει να μετατρέψετε το αρχείο σε χρωματικό χώρο εργασίας RGB. Αυτός είναι από προεπιλογή ο sRGB και συνιστάται όλη η δουλειά να γίνεται σε αυτό το χρωματικό χώρο. Αν όμως αποφασίσετε να κρατήσετε το ενσωματωμένο χρωματικό προφίλ η εικόνα θα εξακολουθεί να εμφανίζεται σωστά."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:207(p)
+msgid "Σε περίπτωση που για κάποιο λόγο ένα χρωματικό προφίλ δεν είναι ενσωματωμένο στην εικόνα και ξέρετε (ή μπορείτε να μαντέψετε) ποιο θα πρέπει να είναι, μπορείτε χειροκίνητα να το αποδώσετε στην εικόνα."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:212(div:title)
+msgid "1.2.2. Εμφάνιση"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:216(h4)
+msgid "<a id=\"gimp-concepts-cm-display\"/>1.2.2. Εμφάνιση"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:220(p)
+msgid "Για καλύτερα αποτελέσματα, χρειάζεστε μια χρωματική κατατομή για την οθόνη σας. Εάν ένα προφίλ οθόνης τροποποιηθεί, είτε στο σύστημα, είτε στο τμήμα χρωματικής διαχείρισης του διαλόγου προτιμήσεων του GIMP τα χρώματα της εικόνας θα εμφανίζονται πιο ακριβή."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:225(p)
+msgid "Μία από τις πιο σημαντικές εντολές του GIMP για εργασία με χρωματική διαχείριση περιγράφεται στο <a class=\"xref\" href=\"gimp-display-filter-dialog.html\" title=\"5.8.&#xA0;&#x3A6;&#x3AF;&#x3BB;&#x3C4;&#x3C1;&#x3B1; &#x3C0;&#x3C1;&#x3BF;&#x3B2;&#x3BF;&#x3BB;&#x3AE;&#x3C2;\">Ενότητα 5.8, “Φίλτρα προβολής”</a>."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:229(p)
+msgid "Εάν δεν έχετε χρωματικό προφίλ για την οθόνη σας, μπορείτε να το δημιουργήσετε χρησιμοποιώντας διακρίβωση υλικού και εργαλείων μέτρησης. Σε συστήματα UNIX θα χρειαστείτε <span class=\"productname\">Argyll Color Management System</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-argyllcms\" title=\"Argyll Color Management System Home Page\">[<abbr class=\"abbrev\">ARGYLLCMS</abbr>]</a> και/ή <span class=\"productname\">LProf</span>™ <a class=\"xref\" href=\"bibliography.html#bibliography-online-lprof\" title=\"LPROF ICC Profiler\">[<abbr class=\"abbrev\">LPROF</abbr>]</a> για να δημιουργήσετε χρωματικά προφίλ."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:238(div:title)
+msgid "1.2.2.1. Εμφάνιση διακρίβωσης και προφίλ"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:242(h5)
+msgid "<a id=\"gimp-concepts-cm-display-profiling\"/>1.2.2.1. Εμφάνιση διακρίβωσης και προφίλ"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:248(p)
+msgid "Για τις εμφανίσεις υπάρχουν δύο εμπλεκόμενα βήματα. Το ένα λέγεται διακρίβωση και το άλλο δημιουργία προφίλ. Λοιπόν, η διακρίβωση περιλαμβάνει γενικά δύο βήματα. Το πρώτο περιλαμβάνει ρύθμιση των εξωτερικών ελέγχων όπως αντίθεση, φωτεινότητα, θερμοκρασία χρώματος, κλ. και εξαρτάται πολύ από την συγκεκριμένη οθόνη. Επιπλέον υπάρχουν παραπέρα ρυθμίσεις που φορτώνονται στην μνήμη της κάρτας για να έρθει η οθόνη όσο πιο κοντά γίνεται στην πρότυπη κατάσταση. Αυτή η πληροφορία αποθηκεύεται στο προφίλ της οθόνης στην αποκαλούμενη ετικέτα vgct. Πιθανόν στα Windows XP ή Mac OS, το λειτουργικό σύστημα φορτώνει αυτή την πληροφορία (LUT) στην κάρτα βίντεο στη διαδικασία εκκίνησης του υπολογιστή. Στο Linux, προς το παρόν πρέπει να χρησιμοποιήσετε ένα εξωτερικό πρόγραμμα όπως xcalib ή dispwin. (Εάν κάποιος κάνει μια απλή οπτική διακρίβωση χρησιμοποιώντας έναν ιστότοπο όπως Norman Koren, κάποιος μπορεί να χρησιμοποιήσει μόνο xgamma για να φορτώσει μια τιμή gamma.)"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:259(p)
+msgid "Το δεύτερο βήμα δημιουργία προφίλ, παράγει ένα σύνολο κανόνων που επιτρέπουν στο GIMP να μεταφράσει τις τιμές RGB στο αρχείο της εικόνας σε κατάλληλα χρώματα στην οθόνη. Αυτό επίσης αποθηκεύεται στο προφίλ της οθόνης. Δεν αλλάζει τις τιμές RGB στη εικόνα, αλλά αλλάζει ποιες τιμές στέλνονται στη κάρτα βίντεο (που ήδη περιέχει τη vgct LUT)."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:267(div:title)
+msgid "1.2.3. Προσομοίωση εκτύπωσης"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:271(h4)
+msgid "<a id=\"id3171653\"/>1.2.3. Προσομοίωση εκτύπωσης"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:275(p)
+msgid "Χρησιμοποιώντας το GIMP, μπορείτε εύκολα να έχετε μια προεπισκόπηση πώς θα φαίνεται η εικόνα στο χαρτί. Δεδομένου ενός χρωματικού προφίλ για τον εκτυπωτή, η εμφάνιση μπορεί να μετατραπεί στην κατάσταση Soft Proof. Σε μια τέτοια προσομοιωμένη εκτύπωση, τα χρώματα που δεν μπορούν να αναπαραχθούν θα σημειωθούν κατ' επιλογή με ουδέτερο γκρι χρώμα, επιτρέποντας σας να διορθώσετε τέτοια λάθη πριν στείλετε τις εικόνες στον εκτυπωτή."
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:292(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:298(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:301(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-imaging-color-management.html:304(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

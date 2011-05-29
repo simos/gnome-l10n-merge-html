@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/introduction.html:6(title) en/introduction.html:21(th) en/introduction.html:31(div:title)
+msgid "Chapter 1. Introduction"
+msgstr ""
+
+#: en/introduction.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/introduction.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/introduction.html:13(link:title) en/introduction.html:14(link:title) en/introduction.html:25(th) en/introduction.html:253(a)
+msgid "Part I. Getting Started"
+msgstr ""
+
+#: en/introduction.html:15(link:title) en/introduction.html:259(a)
+msgid "2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/introduction.html:24(img:alt) en/introduction.html:244(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/introduction.html:24(td) en/introduction.html:244(td)
+msgid "<a accesskey=\"p\" href=\"getting-started.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/introduction.html:26(img:alt) en/introduction.html:250(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/introduction.html:26(td) en/introduction.html:250(td)
+msgid " <a accesskey=\"n\" href=\"gimp-introduction-whats-new.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/introduction.html:35(h2)
+msgid "<a id=\"introduction\"/>Chapter 1. Introduction"
+msgstr ""
+
+#: en/introduction.html:41(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/introduction.html:46(a)
+msgid "1. Welcome to GIMP"
+msgstr ""
+
+#: en/introduction.html:53(a)
+msgid "1.1. Authors"
+msgstr ""
+
+#: en/introduction.html:58(a)
+msgid "1.2. The GIMP Help system"
+msgstr ""
+
+#: en/introduction.html:63(a)
+msgid "1.3. Features and Capabilities"
+msgstr ""
+
+#: en/introduction.html:70(a)
+msgid "2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/introduction.html:75(div:title)
+msgid "1. Welcome to GIMP"
+msgstr ""
+
+#: en/introduction.html:79(h2)
+msgid "<a id=\"introduction-gimp\"/>1. Welcome to GIMP"
+msgstr ""
+
+#: en/introduction.html:84(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> is a multi-platform photo manipulation tool. <acronym class=\"acronym\">GIMP</acronym> is an acronym for <acronym class=\"acronym\">GNU</acronym> Image Manipulation Program. The <acronym class=\"acronym\">GIMP</acronym> is suitable for a variety of image manipulation tasks, including photo retouching, image composition, and image construction."
+msgstr ""
+
+#: en/introduction.html:92(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> has many capabilities. It can be used as a simple paint program, an expert quality photo retouching program, an online batch processing system, a mass production image renderer, an image format converter, etc."
+msgstr ""
+
+#: en/introduction.html:98(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> is expandable and extensible. It is designed to be augmented with plug-ins and extensions to do just about anything. The advanced scripting interface allows everything from the simplest task to the most complex image manipulation procedures to be easily scripted."
+msgstr ""
+
+#: en/introduction.html:105(p)
+msgid "One of The <acronym class=\"acronym\">GIMP</acronym>'s strengths is its free availability from many sources for many operating systems. Most <acronym class=\"acronym\">GNU</acronym>/<span class=\"application\">Linux</span> distributions include The <acronym class=\"acronym\">GIMP</acronym> as a standard application. The <acronym class=\"acronym\">GIMP</acronym> is also available for other operating systems such as <span class=\"productname\">Microsoft Windows</span>™ or Apple's <span class=\"productname\">Mac OS X</span>™ (<span class=\"application\">Darwin</span>). The <acronym class=\"acronym\">GIMP</acronym> is a Free Software application covered by the General Public License <a class=\"xref\" href=\"bibliography.html#bibliography-online-gpl\" title=\"General Public License (GPL)\">[<abbr class=\"abbrev\">GPL</abbr>]</a>. The <acronym class=\"acronym\">GPL</acronym> provides users with the freedom to access and alter the source code that makes up computer programs."
+msgstr ""
+
+#: en/introduction.html:119(div:title)
+msgid "1.1. Authors"
+msgstr ""
+
+#: en/introduction.html:123(h3)
+msgid "<a id=\"authors\"/>1.1. Authors"
+msgstr ""
+
+#: en/introduction.html:127(p)
+msgid "The first version of the <acronym class=\"acronym\">GIMP</acronym> was written by Peter Mattis and Spencer Kimball. Many other developers have contributed more recently, and thousands have provided support and testing. <acronym class=\"acronym\">GIMP</acronym> releases are currently being orchestrated by Sven Neumann and Mitch Natterer and the other members of the <acronym class=\"acronym\">GIMP</acronym>-Team."
+msgstr ""
+
+#: en/introduction.html:137(div:title)
+msgid "1.2. The GIMP Help system"
+msgstr ""
+
+#: en/introduction.html:141(h3)
+msgid "<a id=\"introduction-help\"/>1.2. The GIMP Help system"
+msgstr ""
+
+#: en/introduction.html:145(p)
+msgid "The <acronym class=\"acronym\">GIMP</acronym> Documentation Team and other users have provided you with the information necessary to understand how to use <acronym class=\"acronym\">GIMP</acronym>. The User Manual is an important part of this help. The current version is on the web site of the Documentation Team <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-docs\" title=\"GIMP Documentation project page\">[<abbr class=\"abbrev\">GIMP-DOCS</abbr>]</a> in HTML format. The HTML version is also available as context sensitive help (if you installed it) while using <acronym class=\"acronym\">GIMP</acronym> by pressing the <span class=\"keycap\"><strong>F1</strong></span> key. Help on specific menu items can be accessed by pressing the <span class=\"keycap\"><strong>F1</strong></span> key while the mouse pointer is focused on the menu item. Read on to begin your <acronym class=\"acronym\">GIMP</acronym> journey."
+msgstr ""
+
+#: en/introduction.html:160(div:title)
+msgid "1.3. Features and Capabilities"
+msgstr ""
+
+#: en/introduction.html:164(h3)
+msgid "<a id=\"introduction-features\"/>1.3. Features and Capabilities"
+msgstr ""
+
+#: en/introduction.html:168(p)
+msgid "The following list is a short overview of some of the features and capabilities which <acronym class=\"acronym\">GIMP</acronym> offers you:"
+msgstr ""
+
+#: en/introduction.html:175(p)
+msgid "A full suite of painting tools including brushes, a pencil, an airbrush, cloning, etc."
+msgstr ""
+
+#: en/introduction.html:181(p)
+msgid "Tile-based memory management, so image size is limited only by available disk space"
+msgstr ""
+
+#: en/introduction.html:187(p)
+msgid "Sub-pixel sampling for all paint tools for high-quality anti-aliasing"
+msgstr ""
+
+#: en/introduction.html:193(p)
+msgid "Full Alpha channel support for working with transparency"
+msgstr ""
+
+#: en/introduction.html:198(p)
+msgid "Layers and channels"
+msgstr ""
+
+#: en/introduction.html:201(p)
+msgid "A procedural database for calling internal <acronym class=\"acronym\">GIMP</acronym> functions from external programs, such as Script-Fu"
+msgstr ""
+
+#: en/introduction.html:207(p)
+msgid "Advanced scripting capabilities"
+msgstr ""
+
+#: en/introduction.html:210(p)
+msgid "Multiple undo/redo (limited only by disk space)"
+msgstr ""
+
+#: en/introduction.html:213(p)
+msgid "Transformation tools including rotate, scale, shear and flip"
+msgstr ""
+
+#: en/introduction.html:218(p)
+msgid "Support for a wide range of file formats, including GIF, JPEG, PNG, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others"
+msgstr ""
+
+#: en/introduction.html:224(p)
+msgid "Selection tools, including rectangle, ellipse, free, fuzzy, bezier and intelligent scissors"
+msgstr ""
+
+#: en/introduction.html:230(p)
+msgid "Plug-ins that allow for the easy addition of new file formats and new effect filters."
+msgstr ""
+
+#: en/introduction.html:247(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/introduction.html:253(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/introduction.html:256(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/introduction.html:259(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,639 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-images-out.html:6(title) el/gimp-images-out.html:21(th) el/gimp-images-out.html:31(div:title)
+msgid "Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP"
+msgstr ""
+
+#: el/gimp-images-out.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-images-out.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-images-out.html:13(link:title)
+msgid "Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-images-out.html:14(link:title) el/gimp-images-out.html:937(a)
+msgid "3.8. Περιηγητής εικόνας"
+msgstr ""
+
+#: el/gimp-images-out.html:15(link:title) el/gimp-images-out.html:943(a)
+msgid "2. Προετοιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/gimp-images-out.html:24(img:alt) el/gimp-images-out.html:928(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-images-out.html:24(td) el/gimp-images-out.html:928(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-image-browser.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-images-out.html:25(th)
+msgid "Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-images-out.html:26(img:alt) el/gimp-images-out.html:934(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-images-out.html:26(td) el/gimp-images-out.html:934(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-web.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-images-out.html:35(h2)
+msgid "<a id=\"gimp-images-out\"/>Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP"
+msgstr ""
+
+#: el/gimp-images-out.html:41(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-images-out.html:45(a)
+msgid "1. Αρχεία"
+msgstr ""
+
+#: el/gimp-images-out.html:50(a)
+msgid "1.1. Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/gimp-images-out.html:53(a)
+msgid "1.2. Αποθήκευση αρχείων"
+msgstr ""
+
+#: el/gimp-images-out.html:58(a)
+msgid "2. Προετοιμασία εικόνων για τον ιστό"
+msgstr ""
+
+#: el/gimp-images-out.html:63(a)
+msgid "2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας"
+msgstr ""
+
+#: el/gimp-images-out.html:66(a)
+msgid "2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου"
+msgstr ""
+
+#: el/gimp-images-out.html:69(a)
+msgid "2.3. Αποθήκευση εικόνων με διαφάνεια"
+msgstr ""
+
+#: el/gimp-images-out.html:75(div:title)
+msgid "1. Αρχεία"
+msgstr ""
+
+#: el/gimp-images-out.html:79(h2)
+msgid "<a id=\"gimp-using-fileformats\"/>1. Αρχεία"
+msgstr ""
+
+#: el/gimp-images-out.html:84(p)
+msgid "Το GIMP είναι ικανό να διαβάζει και να γράφει μια μεγάλη ποικιλία μορφών αρχείων γραφικών. Με την εξαίρεση του εγγενούς τύπου αρχείου XCF του GIMP, ο χειρισμός αρχείου γίνεται από πρόσθετα. Έτσι είναι σχετικά εύκολο να επεκταθεί το GIMP για να υποστηρίξει νέους τύπους αρχείων, όταν προκύψει ανάγκη."
+msgstr ""
+
+#: el/gimp-images-out.html:90(p)
+msgid "Δεν είναι όλοι οι τύποι αρχείων εξίσου καλοί για όλους τους σκοπούς. Αυτό το τμήμα της τεκμηρίωσης θα πρέπει να σας βοηθήσει να καταλάβετε τα πλεονεκτήματα και τα μειονεκτήματα κάθε τύπου."
+msgstr ""
+
+#: el/gimp-images-out.html:94(div:title)
+msgid "1.1. Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/gimp-images-out.html:98(h3)
+msgid "<a id=\"id3121827\"/>1.1. Αποθήκευση εικόνων"
+msgstr ""
+
+#: el/gimp-images-out.html:102(p)
+msgid "Όταν τελειώσετε δουλεύοντας με μια εικόνα, θα θέλετε να αποθηκεύσετε τα αποτελέσματα. (Στην πραγματικότητα είναι συχνά καλή ιδέα να την αποθηκεύεται σε ενδιάμεσα στάδια επίσης.) Το GIMP είναι ένα πολύ αξιόπιστο πρόγραμμα, αλλά ακούσαμε φήμες, ίσως απόκρυφες, ότι είναι ίσως γνωστό σε περίεργες και μυστηριώδεις περιπτώσεις να καταρρέει. Οι περισσότερες μορφές αρχείου που το GIMP μπορεί να ανοίξει, μπορούν επίσης να αποθηκευτούν. Υπάρχει, όμως, μια μορφή αρχείου που είναι ειδική, η εγγενής μορφή XCF του GIMP και είναι χρήσιμη επειδή αποθηκεύει <span class=\"emphasis\"><em>σχεδόν οτιδήποτε</em></span> για μια εικόνα, (δεν αποθηκεύει πληροφορίες <span class=\"quote\">“<span class=\"quote\">αναίρεσης</span>”</span>). Γι' αυτό η μορφή XCF είναι ειδικά κατάλληλη για αποθήκευση ενδιάμεσων αποτελεσμάτων και για αποθήκευση εικόνων που θα ξανανοιχτούν αργότερα στο GIMP. Τα αρχεία XCF δεν διαβάζονται από τα περισσότερα άλλα προγράμματα που εμφανίζουν εικόνες. Έτσι, τελειώνοντας θα θέλετε προφανώς να αποθηκεύσετε την εικόνα σε μια πιο πλατιά χρησιμοποιούμενη μορφή όπως JPEG, PNG, TIFF, κλ."
+msgstr ""
+
+#: el/gimp-images-out.html:117(div:title)
+msgid "1.2. Αποθήκευση αρχείων"
+msgstr ""
+
+#: el/gimp-images-out.html:121(h3)
+msgid "<a id=\"gimp-using-fileformats-export-dialog\"/>1.2. Αποθήκευση αρχείων"
+msgstr ""
+
+#: el/gimp-images-out.html:125(p)
+msgid "Υπάρχουν αρκετές εντολές για αποθήκευση εικόνων. Ένας κατάλογος εντολών και πληροφορίες για τη χρήση τους, μπορείτε να βρείτε στην ενότητα που καλύπτει το <a class=\"link\" href=\"gimp-file-menu.html\" title=\"2.&#xA0;&#x3A4;&#x3BF; &#x3BC;&#x3B5;&#x3BD;&#x3BF;&#x3CD; &#x201C;&#x391;&#x3C1;&#x3C7;&#x3B5;&#x3AF;&#x3BF;&#x201D; \">Μενού αρχείο</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:130(p)
+msgid "Το GIMP σας επιτρέπει να αποθηκεύσετε τις εικόνες που δημιουργείτε σε μια μεγάλη ποικιλία μορφών. Είναι σημαντικό να καταλάβετε ότι η μόνη μορφή ικανή να αποθηκεύσει <span class=\"emphasis\"><em>όλες</em></span> τις πληροφορίες σε μια εικόνα, που περιλαμβάνει στρώσεις, διαφάνειες κλ. είναι η εγγενής μορφή του GIMP XCF. Κάθε άλλη μορφή διατηρεί μερικές ιδιότητες της εικόνας και χάνει άλλες. Όταν αποθηκεύεται μια εικόνα, το GIMP προσπαθεί να σας προειδοποιήσει, αλλά εξαρτάται από εσάς να καταλάβετε τις δυνατότητες της μορφής που επιλέγετε."
+msgstr ""
+
+#: el/gimp-images-out.html:140(b)
+msgid "Εικόνα 6.1. Παράδειγμα διαλόγου εξαγωγής"
+msgstr ""
+
+#: el/gimp-images-out.html:144(img:alt)
+msgid "Παράδειγμα διαλόγου εξαγωγής"
+msgstr ""
+
+#: el/gimp-images-out.html:149(p)
+msgid "Όπως υπογραμμίστηκε πιο πάνω, δεν υπάρχει καμιά μορφή αρχείου, με την εξαίρεση της εγγενούς μορφής αρχείου του GIMP <a class=\"link\" href=\"glossary.html#glossary-xcf\" title=\"XCF\">XCF</a>, που είναι ικανή να αποθηκεύσει όλες τις πληροφορίες σε μια εικόνα του GIMP. Όταν ζητάτε να αποθηκευτεί μια εικόνα σε μορφή που θα χάσει πληροφορίες, το GIMP σας ενημερώνει, λέγοντας σας ποιές πληροφορίες θα χαθούν και σας ζητά εάν θα θέλατε να <span class=\"quote\">“<span class=\"quote\">εξαγάγετε</span>”</span> την εικόνα σε μορφή που ο τύπος αρχείου μπορεί να χειριστεί. Εξαγωγή μιας εικόνας δεν τροποποιεί την ίδια την εικόνα, έτσι δεν χάνετε τίποτα εξάγοντας. Δείτε <a class=\"link\" href=\"gimp-export-dialog.html\" title=\"5.4.&#xA0;&#x395;&#x3BE;&#x3B1;&#x3B3;&#x3C9;&#x3B3;&#x3AE; &#x3B1;&#x3C1;&#x3C7;&#x3B5;&#x3AF;&#x3BF;&#x3C5;\">Εξαγωγή αρχείου</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:159(div:title) el/gimp-images-out.html:165(th) el/gimp-images-out.html:391(div:title) el/gimp-images-out.html:397(th) el/gimp-images-out.html:476(div:title) el/gimp-images-out.html:482(th) el/gimp-images-out.html:776(th) el/gimp-images-out.html:878(div:title) el/gimp-images-out.html:884(th)
+msgid "Σημείωση"
+msgstr ""
+
+#: el/gimp-images-out.html:163(img:alt) el/gimp-images-out.html:395(img:alt) el/gimp-images-out.html:480(img:alt) el/gimp-images-out.html:774(img:alt) el/gimp-images-out.html:882(img:alt)
+msgid "[Σημείωση]"
+msgstr ""
+
+#: el/gimp-images-out.html:169(p)
+msgid "Όταν κλείνετε μια εικόνα (πιθανόν αφήνοντας το GIMP), προειδοποιείστε εάν η εικόνα είναι \"βρόμικη\", δηλαδή εάν έχει αλλάξει χωρίς να έχει αποθηκευτεί. Αποθήκευση εικόνας σε οποιαδήποτε μορφή αρχείου θα σημάνει ότι θεωρείται \"όχι βρόμικη\", ακόμα κι αν η μορφή αρχείου δεν παρουσιάζει όλες τις πληροφορίες από την εικόνα."
+msgstr ""
+
+#: el/gimp-images-out.html:178(div:title)
+msgid "1.2.1. Αποθήκευση ως GIF"
+msgstr ""
+
+#: el/gimp-images-out.html:182(h4)
+msgid "<a id=\"file-gif-save\"/>1.2.1. Αποθήκευση ως GIF"
+msgstr ""
+
+#: el/gimp-images-out.html:194(b)
+msgid "Εικόνα 6.2. Ο διάλογος αποθήκευση ως GIF"
+msgstr ""
+
+#: el/gimp-images-out.html:198(img:alt)
+msgid "Ο διάλογος αποθήκευση ως GIF"
+msgstr ""
+
+#: el/gimp-images-out.html:203(div:title) el/gimp-images-out.html:209(th)
+msgid "Προειδοποίηση"
+msgstr ""
+
+#: el/gimp-images-out.html:207(img:alt)
+msgid "[Προειδοποίηση]"
+msgstr ""
+
+#: el/gimp-images-out.html:213(p)
+msgid "Η μορφή αρχείου GIF δεν υποστηρίζει μερικές βασικές ιδιότητες της εικόνας, όπως <span class=\"emphasis\"><em>ανάλυση εκτύπωσης</em></span>. Εάν ενδιαφέρεσθε για αυτές τις ιδιότητες, χρησιμοποιείστε μια διαφορετική μορφή αρχείου όπως PNG."
+msgstr ""
+
+#: el/gimp-images-out.html:224(span)
+msgid "GIF Options (Επιλογές GIF)"
+msgstr ""
+
+#: el/gimp-images-out.html:230(span)
+msgid "Interlace (Πεπλεγμένο)"
+msgstr ""
+
+#: el/gimp-images-out.html:233(p)
+msgid "Επιλέγοντας πεπλεγμένο επιτρέπεται σε μια εικόνα στον ιστό να εμφανιστεί σταδιακά καθώς φορτώνεται. Η σταδιακή εμφάνιση της εικόνας είναι χρήσιμη με ταχύτητες χαμηλής σύνδεσης, επειδή μπορείτε να σταματήσετε μια εικόνα που δεν σας ενδιαφέρει. Πεπλεγμένο είναι μικρής χρήσης σήμερα λόγω των υψηλότερων ταχυτήτων σύνδεσης."
+msgstr ""
+
+#: el/gimp-images-out.html:240(span)
+msgid "GIF comment (Σχόλιο GIF)"
+msgstr ""
+
+#: el/gimp-images-out.html:243(p)
+msgid "Τα σχόλια GIF υποστηρίζουν μόνο 7-bit χαρακτήρες ASCII. Εάν χρησιμοποιήσετε χαρακτήρα εκτός του 7-bit συνόλου ASCII, το <acronym class=\"acronym\">GIMP</acronym> θα αποθηκεύσει την εικόνα χωρίς σχόλιο και θα σας ενημερώσει ότι το σχόλιο δεν αποθηκεύτηκε."
+msgstr ""
+
+#: el/gimp-images-out.html:253(span)
+msgid "Animated GIF options (Επιλογές κινούμενου GIF)"
+msgstr ""
+
+#: el/gimp-images-out.html:260(span)
+msgid "Loop forever (Συνεχής βρόγχος)"
+msgstr ""
+
+#: el/gimp-images-out.html:263(p)
+msgid "Όταν επιλεγεί αυτή η επιλογή, η κίνηση θα επαναλαμβάνεται συνέχεια μέχρι να τη σταματήσετε."
+msgstr ""
+
+#: el/gimp-images-out.html:268(span)
+msgid "Delay between frames if unspecified (καθυστέρηση μεταξύ πλαισίων (καρέ) εάν δεν ορίζεται)"
+msgstr ""
+
+#: el/gimp-images-out.html:271(p)
+msgid "Μπορείτε να βάλετε την καθυστέρηση μεταξύ πλαισίων(καρέ), σε χιλιοστά του δευτερολέπτου, εάν δεν έχει οριστεί πριν. Σ' αυτήν την περίπτωση, μπορείτε να τροποποιήσετε κάθε καθυστέρηση στο διάλογο στρώσης."
+msgstr ""
+
+#: el/gimp-images-out.html:277(span)
+msgid "Frame disposal when unspecified (διευθέτηση πλαισίου(καρέ) όταν δεν προσδιορίζεται)"
+msgstr ""
+
+#: el/gimp-images-out.html:280(p)
+msgid "Εάν αυτό δεν έχει καθοριστεί, μπορείτε να ορίσετε πόσα πλαίσια (καρέ) θα υπερθέτονται. Μπορείτε να επιλέξετε μεταξύ τριών επιλογών:"
+msgstr ""
+
+#: el/gimp-images-out.html:287(p)
+msgid "<span class=\"guilabel\">I don't care (Δεν με ενδιαφέρει)</span>: Μπορείτε να χρησιμοποιήσετε αυτήν την επιλογή εάν όλες οι στρώσεις είναι αδιαφανείς. Οι στρώσεις θα αντικαταστήσουν ό,τι είναι από κάτω."
+msgstr ""
+
+#: el/gimp-images-out.html:294(p)
+msgid "<span class=\"guilabel\">Cumulative Layers (combine) (Προσθετικές στρώσεις (συνδυασμός))</span>: Τα προηγούμενα πλαίσια (καρέ) δεν θα καταργηθούν όταν εμφανίζεται ένα καινούργιο."
+msgstr ""
+
+#: el/gimp-images-out.html:300(p)
+msgid "<span class=\"guilabel\">One frame per layer (replace) (Ένα πλαίσιο (καρέ) ανά στρώση (αντικατάσταση))</span>: Τα προηγούμενα πλαίσια (καρέ) θα καταργηθούν πριν την εμφάνιση ενός καινούργιου."
+msgstr ""
+
+#: el/gimp-images-out.html:314(div:title)
+msgid "1.2.2. Αποθήκευση ως JPEG"
+msgstr ""
+
+#: el/gimp-images-out.html:318(h4)
+msgid "<a id=\"file-jpeg-save\"/>1.2.2. Αποθήκευση ως JPEG"
+msgstr ""
+
+#: el/gimp-images-out.html:328(p)
+msgid "Τα αρχεία JPEG έχουν συνήθως μια επέκταση .jpg, .JPG, ή .jpeg. Είναι μια πολύ πλατιά χρησιμοποιούμενη μορφή, επειδή συμπιέζει τις εικόνες πολύ αποτελεσματικά, ενώ ελαχιστοποιεί την απώλεια ποιότητας της εικόνας. Καμιά άλλη μορφή δεν πλησιάζει στην επίτευξη του ίδιου επιπέδου συμπίεσης. Δεν υποστηρίζει, όμως, διαφάνεια ή πολλαπλές στρώσεις. Γι' αυτό, η αποθήκευση εικόνων ως JPEG συχνά απαιτεί να εξαχθούν από το <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: el/gimp-images-out.html:337(b)
+msgid "Εικόνα 6.3. Διάλογος αποθήκευση ως JPEG"
+msgstr ""
+
+#: el/gimp-images-out.html:341(img:alt)
+msgid "Διάλογος αποθήκευση ως JPEG"
+msgstr ""
+
+#: el/gimp-images-out.html:346(p)
+msgid "Ο αλγόριθμος του JPEG είναι περίπλοκος και εμπεριέχει έναν αριθμό επιλογών που προκαλούν σύγχυση και των οποίων το νόημα είναι πέρα από το σκοπό αυτής της τεκμηρίωσης. Εκτός και είσαστε ένας ειδικός του JPEG, η παράμετρος της ποιότητας είναι προφανώς η μόνη που θα χρειαστείτε να ρυθμίσετε."
+msgstr ""
+
+#: el/gimp-images-out.html:353(div:title) el/gimp-images-out.html:359(th)
+msgid "Προσοχή"
+msgstr ""
+
+#: el/gimp-images-out.html:357(img:alt)
+msgid "[Προσοχή]"
+msgstr ""
+
+#: el/gimp-images-out.html:363(p)
+msgid "Αφού αποθηκεύσετε μια εικόνα ως αρχείο JPEG, η εικόνα δεν θεωρείται πια, <span class=\"quote\">“<span class=\"quote\">βρόμικη</span>”</span> από το <acronym class=\"acronym\">GIMP</acronym>, έτσι εκτός και κάνετε παραπέρα αλλαγές, δεν θα δεχθείτε καμία προειδοποίηση, εάν την κλείσετε. Επειδή η JPEG είναι με απώλειες και δεν υποστηρίζει διαφάνεια ή πολλαπλές στρώσεις , μερικές από τις πληροφορίες στην εικόνα μπορεί να χαθούν. Εάν θέλετε να αποθηκεύσετε όλες τις πληροφορίες σε μια εικόνα, χρησιμοποιείστε την εγγενή μορφή του <acronym class=\"acronym\">GIMP</acronym><a class=\"link\" href=\"glossary.html#glossary-xcf\" title=\"XCF\">XCF</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:380(span)
+msgid "Ποιότητα"
+msgstr ""
+
+#: el/gimp-images-out.html:383(p)
+msgid "Όταν αποθηκεύετε ένα αρχείο σε μορφή JPEG, εμφανίζεται ένας διάλογος που σας επιτρέπει να ορίσετε το επίπεδο ποιότητας, που κυμαίνεται από 0 μέχρι 100. Τιμές πάνω από 95 δεν είναι γενικά χρήσιμες. Η προκαθορισμένη ποιότητα του 85 συνήθως παράγει θαυμάσια αποτελέσματα, αλλά σε πολλές περιπτώσεις είναι δυνατό να οριστεί η ποιότητα πραγματικά χαμηλότερη χωρίς υποβάθμιση της εικόνας. Μπορείτε να ελέγξετε το αποτέλεσμα ρυθμίσεων διαφορετικής ποιότητας επιλέγοντας <span class=\"guilabel\">Show Preview in image window (Προβολή προεπισκόπησης στο παράθυρο εικόνας)</span> στο διάλογο JPEG."
+msgstr ""
+
+#: el/gimp-images-out.html:401(p)
+msgid "Σημειώστε ότι οι αριθμοί για το επίπεδο ποιότητας JPEG έχουν διαφορετικό νόημα σε διάφορες εφαρμογές. Αποθήκευση με επίπεδο ποιότητας 80 στο GIMP δεν είναι κατ' ανάγκη συγκρίσιμο με αποθήκευση με επίπεδο ποιότητας 80 σε άλλη εφαρμογή."
+msgstr ""
+
+#: el/gimp-images-out.html:412(span)
+msgid "Preview in image window (Προεπισκόπηση στο παράθυρο εικόνας)"
+msgstr ""
+
+#: el/gimp-images-out.html:415(p)
+msgid "Σημειώνοντας αυτήν την επιλογή, κάθε αλλαγή στην ποιότητα (ή άλλη παράμετρο του JPEG) παρουσιάζεται στην εμφάνιση εικόνας. (Αυτό δεν αλλάζει την εικόνα. Η εικόνα ξαναμετατρέπεται στην αρχική της κατάσταση, όταν ο διάλογος JPEG κλείνει.)"
+msgstr ""
+
+#: el/gimp-images-out.html:422(span)
+msgid "Advanced settings (Προχωρημένες ρυθμίσεις)"
+msgstr ""
+
+#: el/gimp-images-out.html:425(p)
+msgid "Μερικές πληροφορίες για τις προχωρημένες ρυθμίσεις."
+msgstr ""
+
+#: el/gimp-images-out.html:431(span)
+msgid "Optimize (Βελτιστοποίηση)"
+msgstr ""
+
+#: el/gimp-images-out.html:434(p)
+msgid "Εάν ενεργοποιήσετε αυτήν την επιλογή, η βελτιστοποίηση των παραμέτρων για κωδικοποίηση της εντροπίας θα χρησιμοποιηθεί. Το αποτέλεσμα είναι γενικά ένα πιο μικρό αρχείο, αλλά παίρνει πιο πολύ χρόνο να δημιουργηθεί."
+msgstr ""
+
+#: el/gimp-images-out.html:440(span)
+msgid "Progressive (Σταδιακό)"
+msgstr ""
+
+#: el/gimp-images-out.html:443(p)
+msgid "Με αυτήν την επιλογή επισημασμένη, τα κομμάτια της εικόνας αποθηκεύονται σε ένα αρχείο με σειρά που επιτρέπει σταδιακή βελτιστοποίηση της εικόνας κατά τη διάρκεια αργής σύνδεσης με το διαδίκτυο. Η σταδιακή επιλογή για JPG έχει τον ίδιο σκοπό όπως η πεπλεγμένη επιλογή για GIF. Δυστυχώς, η σταδιακή επιλογή παράγει ελαφρώς μεγαλύτερα αρχεία JPG."
+msgstr ""
+
+#: el/gimp-images-out.html:451(span)
+msgid "Save EXIF data (Αποθήκευση δεδομένων EXIF)"
+msgstr ""
+
+#: el/gimp-images-out.html:455(p)
+msgid "Τα αρχεία JPEG από πολλές ψηφιακές κάμερες περιέχουν επιπρόσθετες πληροφορίες, που λέγονται δεδομένα EXIF. Δεδομένα EXIF παρέχουν πληροφορίες για την εικόνα, όπως κατασκευαστή και μοντέλο, μέγεθος εικόνας, ημερομηνία εικόνας κλ. Αν και το GIMP χρησιμοποιεί τη βιβλιοθήκη <span class=\"quote\">“<span class=\"quote\">libexif</span>”</span> για ανάγνωση και εγγραφή δεδομένων EXIF, η βιβλιοθήκη δεν πακετάρεται αυτόματα με το GIMP. Εάν το GIMP δημιουργήθηκε με libexif υποστήριξη, τότε τα δεδομένα EXIF διατηρούνται εάν ανοίξετε ένα αρχείο JPEG, το επεξεργαστείτε και έπειτα το αποθηκεύσετε ως JPEG. Τα δεδομένα EXIF δεν αλλάζουν καθόλου, εάν το κάνετε αυτό. Τα δεδομένα EXIF μπορεί να δείχνουν πράγματα όπως χρόνος δημιουργίας της εικόνας και όνομα αρχείου, που μπορεί να μην είναι πια σωστό. Εάν το GIMP δεν δημιουργήθηκε με υποστήριξη EXIF, μπορείτε να ανοίξετε αρχεία JPG που περιέχουν δεδομένα EXIF, αλλά τα δεδομένα EXIF παραλείπονται και δεν αποθηκεύονται όταν η τελική εικόνα αποθηκευτεί αργότερα."
+msgstr ""
+
+#: el/gimp-images-out.html:469(span)
+msgid "Save thumbnail (Αποθήκευση μικρογραφίας)"
+msgstr ""
+
+#: el/gimp-images-out.html:472(p)
+msgid "Αυτή η επιλογή σας επιτρέπει να αποθηκεύσετε μια μικρογραφία με την εικόνα. Πολλές εφαρμογές χρησιμοποιούν την εικόνα μικρογραφίας ως μια γρήγορη μικρή διαθέσιμη προεπισκόπηση εικόνας."
+msgstr ""
+
+#: el/gimp-images-out.html:486(p)
+msgid "Αυτή η επιλογή εμφανίζεται μόνο αν το <acronym class=\"acronym\">GIMP</acronym> δημιουργήθηκε με υποστήριξη EXIF."
+msgstr ""
+
+#: el/gimp-images-out.html:496(span)
+msgid "Save XMP data (Αποθήκευση δεδομένων XMP)"
+msgstr ""
+
+#: el/gimp-images-out.html:499(p)
+msgid "Τα δεδομένα XMP είναι <span class=\"quote\">“<span class=\"quote\">meta</span>”</span> δεδομένα για την εικόνα. Είναι μια ανταγωνιστική μορφή με το EXIF. Εάν ενεργοποιήσετε αυτήν την επιλογή, τα meta δεδομένα της εικόνας αποθηκεύονται σε μια δομή <acronym class=\"acronym\">XMP</acronym> μες το αρχείο."
+msgstr ""
+
+#: el/gimp-images-out.html:506(span)
+msgid "Use quality settings from original image (Χρήση ποιοτικών ρυθμίσεων από την αυθεντική εικόνα)."
+msgstr ""
+
+#: el/gimp-images-out.html:511(p)
+msgid "Εάν μία ειδική ποιοτική ρύθμιση (ή <span class=\"quote\">“<span class=\"quote\">πίνακας ποιοτικοποίησης </span>”</span>) προσαρτήθηκε στην εικόνα όταν φορτώθηκε, τότε αυτή η επιλογή σας επιτρέπει να την χρησιμοποιήσετε αντί για τις προκαθορισμένες."
+msgstr ""
+
+#: el/gimp-images-out.html:516(p)
+msgid "Εάν κάνατε μόνο λίγες αλλαγές στην εικόνα, έπειτα ξαναχρησιμοποιήσατε την ίδια ρύθμιση ποιότητας θα πάρετε σχεδόν την ίδια ποιότητα και μέγεθος αρχείου όπως και η αυθεντική. Αυτό θα ελαχιστοποιήσει τις απώλειες που προκλήθηκαν από το βήμα της ποιοτικοποίησης, συγκρινόμενο με το τι θα συνέβαινε εάν χρησιμοποιούσατε διαφορετική ρύθμιση ποιότητας."
+msgstr ""
+
+#: el/gimp-images-out.html:522(p)
+msgid "Εάν οι ρυθμίσεις ποιότητας που βρίσκονται στο αρχικό αρχείο δεν είναι καλύτερες από τις προκαθορισμένες ποιοτικές ρυθμίσεις, τότε η επιλογή <span class=\"quote\">“<span class=\"quote\">Use quality settings from original image (Χρήση ποιοτικών ρυθμίσεων από την αυθεντική εικόνα)</span>”</span> θα είναι διαθέσιμες, αλλά όχι ενεργοποιημένες. Αυτό επιβεβαιώνει ότι θα παίρνετε πάντοτε τουλάχιστον την ελάχιστη ποιότητα που προδιαγράφεται από προεπιλογή. Εάν δεν κάνατε μεγάλες αλλαγές στην εικόνα και θέλετε να την αποθηκεύσετε χρησιμοποιώντας την ίδια ποιότητα όπως η αρχική, τότε μπορείτε να το κάνετε ενεργοποιώντας αυτήν την επιλογή."
+msgstr ""
+
+#: el/gimp-images-out.html:533(span)
+msgid "Smoothing (Εξομάλυνση)"
+msgstr ""
+
+#: el/gimp-images-out.html:536(p)
+msgid "Η συμπίεση JPG δημιουργεί παράσιτα. Χρησιμοποιώντας αυτή την επιλογή, μπορείτε να εξομαλύνετε την εικόνα όταν αποθηκεύεται, μειώνοντας την. Αλλά η εικόνα σας γίνεται κάπως θολή."
+msgstr ""
+
+#: el/gimp-images-out.html:542(span)
+msgid "Restart markers (Επανεκκίνηση σημειωτών)"
+msgstr ""
+
+#: el/gimp-images-out.html:545(p)
+msgid "Το αρχείο εικόνας μπορεί να περιέχει σημειωτές που επιτρέπουν στην εικόνα να φορτωθεί ως τμήματα. Εάν η σύνδεση διακοπεί, ενώ φορτώνεται η εικόνα σε μια ιστοσελίδα, η φόρτωση μπορεί να συνεχιστεί από τον επόμενο σημειωτή."
+msgstr ""
+
+#: el/gimp-images-out.html:551(span)
+msgid "Subsampling (Υποδειγματοληψία)"
+msgstr ""
+
+#: el/gimp-images-out.html:554(p)
+msgid "Το ανθρώπινο μάτι δεν είναι ευαίσθητο το με τον ίδιο τρόπο σε όλο το χρωματικό φάσμα. Η συμπίεση μπορεί να το χρησιμοποιήσει για να τροποποιήσει ελαφρά διαφορετικά χρώματα, ως ίδια. Υπάρχουν τρεις μέθοδοι."
+msgstr ""
+
+#: el/gimp-images-out.html:561(p)
+msgid "<span class=\"guilabel\">1x1,1x1,1x1 (best quality) (άριστη ποιότητα)</span>: Συνήθως αναφερόμενο ως (4:4:4), παράγοντας την καλύτερη ποιότητα, διατηρώντας τα περιγράμματα και αντιθέσεις χρωμάτων. αλλά η συμπίεση είναι πιο μικρή."
+msgstr ""
+
+#: el/gimp-images-out.html:568(p)
+msgid "<span class=\"guilabel\">2x1,1x1,1x1 (4:2:2)</span>: Αυτή είναι η τυπική υποδειγματοληψία, που συνήθως προσφέρει καλή αναλογία μεταξύ ποιότητας εικόνας και μεγέθους αρχείου. Υπάρχουν, όμως, περιπτώσεις όπου χρησιμοποιώντας όχι υποδειγματοληψία (4:4:4) προσφέρει μια αξιοσημείωτη αύξηση στην ποιότητα της εικόνας. Για παράδειγμα, όταν η εικόνα περιέχει λεπτές λεπτομέρειες όπως κείμενο πάνω από ομοιόμορφο φόντο, ή φωτογραφίες με σχεδόν επίπεδα χρώματα."
+msgstr ""
+
+#: el/gimp-images-out.html:577(p)
+msgid "<span class=\"guilabel\">1x2,1x1,1x1</span> Αυτό είναι παρόμοιο με το (2x1,1x1,1x1), αλλά η δειγματοληψία χρώματος είναι στην οριζόντια κατεύθυνση παρά στην κάθετη κατεύθυνση, σαν κάποιος να περιέστρεψε την εικόνα."
+msgstr ""
+
+#: el/gimp-images-out.html:584(p)
+msgid "<span class=\"guilabel\">2x2,1x1,1x1 (smallest file) (ελάχιστο αρχείο) </span>: Συνήθως αναφέρεται ως (4:1:1), παράγοντας ελάχιστα αρχεία. Αυτό ταιριάζει σε εικόνες με ασθενή περιγράμματα, αλλά τείνει να μετουσιώσει τα χρώματα."
+msgstr ""
+
+#: el/gimp-images-out.html:594(span)
+msgid "DCT Method (Μέθοδος DCT)"
+msgstr ""
+
+#: el/gimp-images-out.html:597(p)
+msgid "DCT είναι <span class=\"quote\">“<span class=\"quote\">discrete cosine transform (προσεκτικός μετασχηματισμός συνημιτόνου)</span>”</span> και είναι το πρώτο βήμα στον αλγόριθμο JPEG πηγαίνοντας από το χωρικό στο συχνοτικό τομέα. Οι επιλογές είναι <span class=\"quote\">“<span class=\"quote\">float (κινητή υποδιαστολή)</span>”</span>, <span class=\"quote\">“<span class=\"quote\">integer (ακέραιος)</span>”</span> (η προεπιλεγμένη) και <span class=\"quote\">“<span class=\"quote\">fast integer (γρήγορος ακέραιος)</span>”</span>."
+msgstr ""
+
+#: el/gimp-images-out.html:606(p)
+msgid "Η <span class=\"guilabel\">float (κινητή υποδιαστολή) </span>. Η μέθοδος κινητής υποδιαστολής είναι ελαφρά πιο ακριβής από τη μέθοδο ακέραιου, αλλά είναι πολύ πιο αργή εκτός και το μηχάνημα σας έχει πολύ γρήγορο υλικό κινητής υποδιαστολής. Επίσης σημειώστε ότι τα αποτελέσματα της μεθόδου κινητής υποδιαστολής μπορεί να διαφέρουν ελαφρά μεταξύ των υπολογιστών, ενώ οι μέθοδοι ακέραιου πρέπει να δίνουν τα ίδια αποτελέσματα παντού."
+msgstr ""
+
+#: el/gimp-images-out.html:614(p)
+msgid "<span class=\"guilabel\">integer (ακέραιος)</span> (Η προεπιλεγμένη). Αυτή η μέθοδος είναι πιο γρήγορη από την <span class=\"quote\">“<span class=\"quote\">float (κινητή υποδιαστολή)</span>”</span>, αλλά όχι τόσο ακριβής."
+msgstr ""
+
+#: el/gimp-images-out.html:621(p)
+msgid "<span class=\"guilabel\">fast integer (γρήγορος ακέραιος)</span>. Η μέθοδος γρήγορου ακέραιου είναι πολύ λιγότερο ακριβής από τις άλλες δύο."
+msgstr ""
+
+#: el/gimp-images-out.html:630(span) el/gimp-images-out.html:911(span)
+msgid "Σχόλιο"
+msgstr ""
+
+#: el/gimp-images-out.html:633(p)
+msgid "Σε αυτό το πλαίσιο κειμένου μπορείτε να εισαγάγετε ένα σχόλιο που αποθηκεύεται μαζί με την εικόνα."
+msgstr ""
+
+#: el/gimp-images-out.html:643(div:title)
+msgid "1.2.3. Saving as PNG"
+msgstr ""
+
+#: el/gimp-images-out.html:647(h4)
+msgid "<a id=\"file-png-save\"/>1.2.3. Αποθήκευση ως PNG"
+msgstr ""
+
+#: el/gimp-images-out.html:659(span)
+msgid "Αποθήκευση ως PNG"
+msgstr ""
+
+#: el/gimp-images-out.html:659(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-images-out.html:659(b)
+msgid "Εικόνα 6.4. Ο διάλογος <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-images-out.html:663(img:alt)
+msgid "Ο διάλογος Αποθήκευση ως PNG"
+msgstr ""
+
+#: el/gimp-images-out.html:671(span)
+msgid "Interlacing (πεπλεγμένο)"
+msgstr ""
+
+#: el/gimp-images-out.html:674(p)
+msgid "Έλεγχος της πλέξης επιτρέπει στην εικόνα σε μια ιστοσελίδα να εμφανίζεται σταδιακά καθώς λαμβάνεται. Σταδιακή εμφάνιση της εικόνας είναι χρήσιμη με ταχύτητες αργής σύνδεσης, επειδή μπορείτε να διακόψετε μια εικόνα που δεν σας ενδιαφέρει. Η πλέξη είναι μικρής χρήσης σήμερα με τις γρήγορες ταχύτητες σύνδεσης."
+msgstr ""
+
+#: el/gimp-images-out.html:681(span)
+msgid "Save background color (Αποθήκευση χρώματος παρασκηνίου)"
+msgstr ""
+
+#: el/gimp-images-out.html:684(p)
+msgid "Εάν η εικόνα σας έχει πολλά επίπεδα διαφάνειας, οι περιηγητές διαδικτύου που αναγνωρίζουν μόνο δύο επίπεδα, θα χρησιμοποιήσουν το χρώμα φόντου της εργαλειοθήκης σας στη θέση τους. Ο Internet Explorer μέχρι την έκδοση 6 δεν χρησιμοποιεί αυτήν την πληροφορία."
+msgstr ""
+
+#: el/gimp-images-out.html:691(span)
+msgid "Save gamma (Αποθήκευση γάμα)"
+msgstr ""
+
+#: el/gimp-images-out.html:694(p)
+msgid "Η διόρθωση γάμα είναι η ικανότητα να διορθώνονται οι διαφορές στην ερμηνεία τιμών χρωμάτων. Αυτό αποθηκεύει την πληροφορία γάμα στην PNG που αντανακλά τον τρέχοντα παράγοντα γάμα για την εμφάνιση σας. Θεατές σε άλλους υπολογιστές μπορούν τότε να αντισταθμίσουν για να επιβεβαιώσουν ότι η εικόνα δεν είναι ούτε πολύ σκοτεινή, ούτε that the image πολύ φωτεινή."
+msgstr ""
+
+#: el/gimp-images-out.html:702(span)
+msgid "Save layer offset (Αποθήκευση μετατόπισης στρώσης)"
+msgstr ""
+
+#: el/gimp-images-out.html:705(p)
+msgid "Το PNG υποστηρίζει μια τιμή μετατόπισης που λέγεται <span class=\"quote\">“<span class=\"quote\">oFFs chunk</span>”</span>, που δίνει τα δεδομένα θέσης. Δυστυχώς, η υποστήριξη μετατόπισης PNG στο <acronym class=\"acronym\">GIMP</acronym>, είναι ελαττωματική, ή τουλάχιστον ασύμβατη με άλλες εφαρμογές και για πολύ χρόνο. Μην ενεργοποιείτε τις μετατοπίσεις, αφήστε το <acronym class=\"acronym\">GIMP</acronym> να ισοπεδώσει τις στρώσεις πριν την αποθήκευση και δεν θα έχετε προβλήματα."
+msgstr ""
+
+#: el/gimp-images-out.html:715(span)
+msgid "Save Resolution (Αποθήκευση ανάλυσης)"
+msgstr ""
+
+#: el/gimp-images-out.html:718(p)
+msgid "Αποθήκευση της ανάλυσης εικόνας, σε DPI (κουκίδες ανά ίντσα)."
+msgstr ""
+
+#: el/gimp-images-out.html:723(span)
+msgid "Save creation time (Αποθήκευση χρόνου δημιουργίας)"
+msgstr ""
+
+#: el/gimp-images-out.html:726(p)
+msgid "Ημερομηνία αποθήκευσης του αρχείου."
+msgstr ""
+
+#: el/gimp-images-out.html:731(span)
+msgid "Save comment (Αποθήκευση σχολίου)"
+msgstr ""
+
+#: el/gimp-images-out.html:734(p)
+msgid "Μπορείτε να διαβάσετε αυτό το σχόλιο <a class=\"link\" href=\"gimp-image-properties.html\" title=\"6.28.&#xA0;&#x399;&#x3B4;&#x3B9;&#x3CC;&#x3C4;&#x3B7;&#x3C4;&#x3B5;&#x3C2; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#x3C2;\">Ιδιότητες εικόνας</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:740(span)
+msgid "Save color values from transparent pixels (Αποθήκευση τιμών χρώματος από διαφανή εικονοστοιχεία)"
+msgstr ""
+
+#: el/gimp-images-out.html:743(p)
+msgid "Με ενεργοποιημένη αυτήν την επιλογή, οι τιμές χρώματος αποθηκεύονται ακόμα κι αν τα εικονοστοιχεία είναι ολότελα διαφανή."
+msgstr ""
+
+#: el/gimp-images-out.html:749(span)
+msgid "Compression level (Επίπεδο συμπίεσης)"
+msgstr ""
+
+#: el/gimp-images-out.html:752(p)
+msgid "Επειδή η συμπίεση είναι χωρίς απώλειες, η μόνη αιτία για χρήση επιπέδου συμπίεσης πιο μικρό από 9, είναι εάν παίρνει πολύ χρόνο για συμπίεση ενός αρχείου σε αργό υπολογιστή. Κανένας φόβος από την αποσυμπίεση. Είναι γρήγορη ανεξάρτητα από το επίπεδο συμπίεσης."
+msgstr ""
+
+#: el/gimp-images-out.html:759(span)
+msgid "Save Defaults (Αποθήκευση προκαθορισμένων)"
+msgstr ""
+
+#: el/gimp-images-out.html:762(p)
+msgid "Πατήστε για αποθήκευση των τρεχουσών ρυθμίσεων. Έπειτα, μπορείτε να χρησιμοποιήσετε <span class=\"guibutton\">Load Defaults (Φόρτωση προεπιλεγμένων)</span> για να φορτώσετε τις αποθηκευμένες ρυθμίσεις."
+msgstr ""
+
+#: el/gimp-images-out.html:770(div:title)
+msgid "Note"
+msgstr ""
+
+#: el/gimp-images-out.html:780(p)
+msgid "Η μορφή PNG υποστηρίζει εικόνες από χρωματολόγιο. Χρησιμοποιώντας λιγότερα χρώματα, άρα, καταλήγουμε σε πιο μικρά αρχεία. Αυτό είναι ιδιαίτερα χρήσιμο για δημιουργία εικόνων στον ιστό. Δείτε <a class=\"xref\" href=\"gimp-image-convert-indexed.html\" title=\"6.6.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7; &#x3B1;&#x3C0;&#x3CC; &#x3C7;&#x3C1;&#x3C9;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3BB;&#x3CC;&#x3B3;&#x3B9;&#x3BF;\">Ενότητα 6.6, “Κατάσταση από χρωματολόγιο”</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:785(p)
+msgid "Οι υπολογιστές εργάζονται σε μπλοκ των 8 bits που ονομάζονται <span class=\"quote\">“<span class=\"quote\">Byte</span>”</span>. Ένα byte επιτρέπει 256 χρώματα. Μειώνοντας τον αριθμό των χρωμάτων κάτω από 256 δεν είναι χρήσιμο. Ένα byte θα χρησιμοποιηθεί οπωσδήποτε και το μέγεθος του αρχείου δεν θα μικρύνει. Επιπρόσθετα, αυτή η <span class=\"quote\">“<span class=\"quote\">PNG8</span>”</span> μορφή, όπως το GIF, χρησιμοποιεί μόνο ένα bit για διαφάνεια. Μόνο δύο επίπεδα διαφάνειας είναι δυνατά, διαφανές ή αδιαφανές."
+msgstr ""
+
+#: el/gimp-images-out.html:792(p)
+msgid "Εάν θέλετε η διαφάνεια PNG να εμφανίζεται πλήρως από τον Internet Explorer, μπορείτε να χρησιμοποιήσετε το φίλτρο AlphaImageLoader DirectX στον κώδικα της ιστοσελίδας σας. Δείτε Microsoft Knowledge Base <a class=\"xref\" href=\"bibliography.html#bibliography-online-microsoft-kb294714\" title=\"Microsoft Knowledge Base Article 294714\">[<abbr class=\"abbrev\">MSKB-294714</abbr>]</a>. Παρακαλώ σημειώστε, ότι αυτό δεν είναι κατ' ανάγκη για τον Internet Explorer 7 και πάνω."
+msgstr ""
+
+#: el/gimp-images-out.html:803(div:title)
+msgid "1.2.4. Saving as TIFF"
+msgstr ""
+
+#: el/gimp-images-out.html:807(h4)
+msgid "<a id=\"file-tiff-save\"/>1.2.4. Αποθήκευση ως TIFF"
+msgstr ""
+
+#: el/gimp-images-out.html:814(b)
+msgid "Εικόνα 6.5. Ο διάλογος αποθήκευσης TIFF"
+msgstr ""
+
+#: el/gimp-images-out.html:821(img:alt)
+msgid "Ο διάλογος αποθήκευσης TIFF"
+msgstr ""
+
+#: el/gimp-images-out.html:829(span)
+msgid "Συμπίεση"
+msgstr ""
+
+#: el/gimp-images-out.html:832(p)
+msgid "Αυτή η επιλογή σας επιτρέπει να ορίσετε το χρησιμοποιούμενο αλγόριθμο για συμπίεση της εικόνας."
+msgstr ""
+
+#: el/gimp-images-out.html:838(p)
+msgid "<span class=\"guilabel\">None (Κανένας)</span>: Είναι γρήγορος και χωρίς απώλειες, αλλά το προκύπτον αρχείο είναι πολύ μεγάλο."
+msgstr ""
+
+#: el/gimp-images-out.html:844(p)
+msgid "<span class=\"guilabel\">LZW</span>. Η εικόνα συμπιέζεται χρησιμοποιώντας τον αλγόριθμο <span class=\"quote\">“<span class=\"quote\">Lempel-Ziv-Welch</span>”</span>, μια τεχνική συμπίεσης χωρίς απώλειες. Αυτός είναι παλιός, αλλά αποτελεσματικός και γρήγορος. Περισσότερες πληροφορίες στο: <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-lzw\" title=\"Wikipedia - LZW\">[<abbr class=\"abbrev\">WKPD-LZW</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:852(p)
+msgid "<span class=\"guilabel\">Pack Bits (Bits ανά πακέτο)</span>: Γρήγορο, απλό σχήμα συμπίεσης για κωδικοποίηση δεδομένων. Η Apple εισήγαγε την μορφή PackBits με την έκδοση του MacPaint σε υπολογιστή Macintosh. Μια ροή δεδομένων PackBits αποτελείται από πακέτα επικεφαλίδας του ενός byte ακολουθούμενα από δεδομένα. (Πηγή: <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-packbits\" title=\"Wikipedia - PackBits\">[<abbr class=\"abbrev\">WKPD-PACKBITS</abbr>]</a>)"
+msgstr ""
+
+#: el/gimp-images-out.html:860(p)
+msgid "<span class=\"guilabel\">Deflate (Ξεφούσκωμα)</span>: Είναι ένας αλγόριθμος συμπίεσης δεδομένων χωρίς απώλειες που χρησιμοποιεί ένα συνδυασμό του αλγόριθμου LZ77 και του κώδικα Huffman. Χρησιμοποιείται επίσης σε μορφές αρχείων Zip, Gzip και PNG. Πηγή:: <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-deflate\" title=\"Wikipedia - Deflate\">[<abbr class=\"abbrev\">WKPD-DEFLATE</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-images-out.html:868(p)
+msgid "<span class=\"guilabel\">JPEG</span>: Είναι ένας πολύ καλός αλγόριθμος συμπίεσης, αλλά με απώλειες."
+msgstr ""
+
+#: el/gimp-images-out.html:873(p)
+msgid "<span class=\"guilabel\">CCITT Group 3 fax</span>; <span class=\"guilabel\">CCITT Group 4 fax</span> είναι μια μορφή ασπρόμαυρη που αναπτύχθηκε για μεταφορά εικόνων με φαξ."
+msgstr ""
+
+#: el/gimp-images-out.html:888(p)
+msgid "Αυτές οι επιλογές μπορεί να επιλεγούν μόνο εάν η εικόνα είναι σε κατάσταση χρωματολογίου και μειωθεί σε δύο χρώματα. Πατήστε <span class=\"guimenu\">Εικόνα</span> → <span class=\"guisubmenu\">Κατάσταση</span> → <span class=\"guimenuitem\">Από χρωματολόγιο</span> για μετατροπή σε εικόνα από χρωματολόγιο. Βεβαιωθείτε για την ενεργοποίηση <span class=\"quote\">“<span class=\"quote\">Χρήση ασπρόμαυρης (1-bit)παλέτας</span>”</span>."
+msgstr ""
+
+#: el/gimp-images-out.html:903(span)
+msgid "Save color values from transparent pixels (Αποθήκευση χρωματικών τιμών από διαφανή εικονοστοιχεία)"
+msgstr ""
+
+#: el/gimp-images-out.html:906(p)
+msgid "Με αυτήν την επιλογή οι χρωματικές τιμές αποθηκεύονται ακόμα κι αν τα εικονοστοιχεία είναι ολότελα διαφανή."
+msgstr ""
+
+#: el/gimp-images-out.html:914(p)
+msgid "Σε αυτό το πλαίσιο κειμένου, μπορείτε να εισάγετε ένα σχόλιο που συνδέεται με την εικόνα."
+msgstr ""
+
+#: el/gimp-images-out.html:931(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-images-out.html:937(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-images-out.html:940(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-images-out.html:943(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

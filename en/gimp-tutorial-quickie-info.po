@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-tutorial-quickie-info.html:6(title) en/gimp-tutorial-quickie-info.html:21(th) en/gimp-tutorial-quickie-info.html:31(div:title)
+msgid "4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:13(link:title) en/gimp-tutorial-quickie-info.html:25(th)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:14(link:title) en/gimp-tutorial-quickie-info.html:172(a)
+msgid "4.4. Crop An Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:15(link:title) en/gimp-tutorial-quickie-info.html:178(a)
+msgid "4.6. Change the Mode"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:24(img:alt) en/gimp-tutorial-quickie-info.html:163(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:24(td) en/gimp-tutorial-quickie-info.html:163(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-crop.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:26(img:alt) en/gimp-tutorial-quickie-info.html:169(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:26(td) en/gimp-tutorial-quickie-info.html:169(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-change-mode.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-info\"/>4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:44(b)
+msgid "Figure 3.29. Finding Info"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:48(img:alt)
+msgid "Finding Info"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:53(p)
+msgid "This example uses another image image from APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod06\" title=\"Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000 November 13)\">[<abbr class=\"abbrev\">APOD06</abbr>]</a>. Much information is available directly from the Image Window; for example, the image dimensions.Use <span class=\"guimenu\">Image</span> → <span class=\"guimenuitem\">Image Properties</span> to open the Image Properties dialog, which contains even more information."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:65(b)
+msgid "Figure 3.30. Image Properties Dialog"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:69(img:alt)
+msgid "Image Properties Dialog"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:74(p)
+msgid "If you are just making a square out of a rectangle, like in the <a class=\"xref\" href=\"gimp-tutorial-quickie-crop.html\" title=\"4.4.&#xA0;Crop An Image\">Section 4.4, “Crop An Image”</a>, it is fast and easy to find the smallest dimension. you need only to open the dialog and find the lesser length and use that as described. Since this is very little information, and definitely not enough to fill the space between the menu thumbnail and the dialog screenshot in my layout, I thought I would run through some calculator exercises that might help you to meet your image needs."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:87(b)
+msgid "Figure 3.31. Scale Problem"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:91(img:alt)
+msgid "Scale Problem"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:96(p)
+msgid "It is nice to have images appear on a browser window as a photo would. Photos online appear to be 4x6 inches when scaled to 288x432 pixels (72 dpi for many monitors). There is a problem, however, if you try to scale this image. The ratio of width to length of the original does not match the ratio of the photo. So, to make the scaled image the correct size some pixels must be cropped from the height. The final image will <span class=\"quote\">“<span class=\"quote\">appear</span>”</span> as a 6x4 inch photo on many monitors."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:108(b)
+msgid "Figure 3.32. Problem Solved by Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:112(img:alt)
+msgid "Problem Solved by Cropping"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:117(p)
+msgid "There are problems when mixing scanned photos, digital photos, and scanned negatives. Many film developing machines automatically crop portions of the image so that they will match the printing size, or a certain style. If you are preparing an image to be printed on a machine like this; or if you are planning on a gallery where the images are from different sources, some intelligent cropping to fit the best size for the medium you have chosen will be a plus. If this is confusing; please blame the photo printing industry and not <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:128(p)
+msgid "You can change the Resolution of your image as well, using the same methods we used to Scale the image, although, in my somewhat limited use, the issue is more about how many pixels. Let's say you want to print an image at a photo lab. 300 pixels for every inch is preferred. An image that is 2241x1548 pixels will easily print as a 7 x 5 photo. 2241px/300ppi = 7.47 in. Get your calculator for the short side. 1548/300 = _."
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:138(p)
+msgid "There is another brutal fact you should come to terms with if you are new to graphics and computers. Just because it looks good on the screen doesn't mean that it will print nicely. I tried to emulate how this image would appear printed at 300dpi. Sorry. There are some options, for instance my friend printed images and then scanned them back in. Terrible business!"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:149(b)
+msgid "Figure 3.33. Actual printing result of example image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:153(img:alt)
+msgid "Actual printing result of example image"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:166(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:172(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:175(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-tutorial-quickie-info.html:178(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

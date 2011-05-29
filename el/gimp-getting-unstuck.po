@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-getting-unstuck.html:6(title) el/gimp-getting-unstuck.html:21(th)
+msgid "Κεφάλαιο 4. Ξεκόλλημα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:13(link:title) el/gimp-getting-unstuck.html:25(th)
+msgid "Μέρος I. Ξεκίνημα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:14(link:title) el/gimp-getting-unstuck.html:335(a)
+msgid "5.2. Παραδείγματα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:15(link:title)
+msgid "Μέρος II.  Πώς θα γίνω ένας μάγος του GIMP?"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:24(img:alt) el/gimp-getting-unstuck.html:326(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:24(td) el/gimp-getting-unstuck.html:326(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-straight-lines-examples.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:26(img:alt) el/gimp-getting-unstuck.html:332(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:26(td) el/gimp-getting-unstuck.html:332(td)
+msgid " <a accesskey=\"n\" href=\"become-a-gimp-wizard.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:35(h2)
+msgid "<a id=\"gimp-getting-unstuck\"/>Κεφάλαιο 4. Ξεκόλλημα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:41(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:47(span) el/gimp-getting-unstuck.html:73(span)
+msgid "Ξεκόλλημα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:46(a)
+msgid "1. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:56(span) el/gimp-getting-unstuck.html:83(span)
+msgid "Κόλλημα!"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:55(a)
+msgid "1.1. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:62(span) el/gimp-getting-unstuck.html:104(span)
+msgid "Συνηθισμένα αίτια μη ανταπόκρισης του GIMP"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:62(a)
+msgid "1.2. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:73(h2)
+msgid "<a id=\"gimp-using-getting-unstuck\"/>1. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:82(h3)
+msgid "<a id=\"gimp-using-getting-unstuck-general\"/>1.1.  <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:88(p)
+msgid "Εντάξει, κολλήσατε. Προσπαθείτε να χρησιμοποιήσετε ένα από τα εργαλεία σε μια εικόνα και δεν συμβαίνει τίποτα και οτιδήποτε κάνετε δεν αποδίδει. Πρόκειται να υποχρεωθείτε να σκοτώσετε το πρόγραμμα και να χάσετε όλη τη δουλειά σας. Αυτό βρωμάει!"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:93(p)
+msgid "Λοιπόν, για περιμένετε. Αυτό συμβαίνει αρκετά συχνά, ακόμα και σε ανθρώπους που χρησιμοποιούν το GIMP για πολύ χρόνο, αλλά γενικά η αιτία δεν είναι τόσο δύσκολο να επεξεργαστεί (και να διορθωθεί) εάν ξέρετε πού να κοιτάξετε. Ας ηρεμήσουμε και να ελέγξουμε έναν κατάλογο που ενδεχομένως θα μας δώσει τη λύση."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:103(h3)
+msgid "<a id=\"gimp-using-getting-unstuck-common-causes\"/>1.2.  <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:113(span)
+msgid "Υπάρχει μια επιπλέουσα επιλογή"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:113(h4)
+msgid "<a id=\"id452325\"/>1.2.1. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:120(span) el/gimp-getting-unstuck.html:124(img:alt)
+msgid "Διάλογος στρώσεων που δείχνει μια επιπλέουσα επιλογή."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:120(b)
+msgid "Εικόνα 4.1. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:129(p)
+msgid "<span class=\"emphasis\"><em> Το Πρόβλημα:</em></span> Εάν υπάρχει μια επιπλέουσα επιλογή, πολλές ενέργειες είναι αδύνατες μέχρι η επιπλέουσα επιλογή να αγκιστρωθεί. Για να το ελέγξετε, κοιτάξτε το διάλογο στρώσεων (ώστε να βεβαιωθείτε ότι έχει οριστεί για την εικόνα που δουλεύεται) και δείτε εάν η κορυφαία στρώση λέγεται “<span class=\"quote\">Επιπλέουσα επιλογή</span>”."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:134(p)
+msgid "<span class=\"emphasis\"><em> Η Λύση:</em></span> Είτε αγκιστρώνεται την επιπλέουσα επιλογή, ή την μετατρέπετε σε μια συνηθισμένη (μη επιπλέουσα) στρώση. Εάν χρειάζεσθε βοήθεια πώς να το κάνετε, δείτε <a class=\"link\" href=\"glossary.html#glossary-floatingselection\" title=\"&#x395;&#x3C0;&#x3B9;&#x3C0;&#x3BB;&#x3AD;&#x3BF;&#x3C5;&#x3C3;&#x3B1; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;\"> Επιπλέουσες εφαρμογές </a>."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:145(span)
+msgid "Η επιλογή είναι κρυμμένη"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:145(h4)
+msgid "<a id=\"id458713\"/>1.2.2. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:152(span) el/gimp-getting-unstuck.html:156(img:alt)
+msgid "Ξεκόλλημα εμφάνισης μενού επιλογής"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:152(b)
+msgid "Εικόνα 4.2. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:158(p)
+msgid "Στο μενού προβολή, σιγουρευτείτε ότι το \"Εμφάνιση επιλογής \" είναι επιλεγμένο."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:164(p)
+msgid "<span class=\"emphasis\"><em>Το πρόβλημα:</em></span> Μερικές φορές η περιβάλλουσα γραμμή της επιλογής είναι ενοχλητική, επειδή κάνει δύσκολη την παρατήρηση σημαντικών λεπτομερειών της εικόνας, έτσι το GIMP σας δίνει τη δυνατότητα της απόκρυψης της επιλογής αποεπιλέγοντας <span class=\"guimenuitem\">Εμφάνιση επιλογής</span> στο μενού <span class=\"guimenu\">Προβολή</span>. Είναι όμως εύκολο να το ξεχάσετε."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:170(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> απλά πηγαίνετε στο μενού εικόνας<span class=\"guimenu\">Προβολή</span> και εάν το <span class=\"guimenuitem\">Εμφάνιση επιλογής</span> είναι αποεπιλεγμένο, πατήστε το.."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:178(span)
+msgid "Ενεργείτε εκτός της επιλογής"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:178(h4)
+msgid "<a id=\"id435707\"/>1.2.3. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:184(span) el/gimp-getting-unstuck.html:187(img:alt)
+msgid "Ξεκόλλημα επιλέγοντας όλα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:184(b)
+msgid "Εικόνα 4.3. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:189(p)
+msgid "Πατήστε “<span class=\"quote\">Όλα</span>” στο μενού επιλογή για να βεβαιωθείτε ότι όλα έχουν επιλεγεί."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:195(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> Εάν κάνοντας αυτό καταστράφηκε η επιλογή που θέλατε να κρατήσετε, πληκτρολογείστε Ctrl-Z (αναίρεση) μερικές φορές για να το επαναφέρετε και έπειτα θα επεξεργαστούμε πού είναι το πρόβλημα. Υπάρχουν κάποιες πιθανότητες. Εάν δεν μπορούσατε να δείτε καμία επιλογή, θα μπορούσε να ήταν πολύ μικρή ή όχι η επιλογή που θέλατε να κρατήσετε. Εάν μπορείτε να δείτε μια επιλογή αλλά νομίσατε ότι ήταν εκεί μέσα, μπορεί να έχει αντιστραφεί. Ο πιο απλός τρόπος να το διαπιστώσετε είναι να πατήσετε το κουμπί της σύντομης μάσκας. Η επιλεγμένη περιοχή θα καθαριστεί και η ανεπίλεκτη περιοχή θα καλυφθεί. Εάν αυτό είναι το πρόβλημα, τότε μπορείτε να το επιλύσετε κλείνοντας τη σύντομη μάσκα και επιλέγοντας αντιστροφή στο μενού <span class=\"guimenu\">Επιλογή</span>."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:209(span)
+msgid "Το ενεργό σχέδιο δεν είναι ορατό"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:209(h4)
+msgid "<a id=\"id464085\"/>1.2.4. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:216(span) el/gimp-getting-unstuck.html:220(img:alt)
+msgid "Ξεκόλλημα της αφανούς στρώσης"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:216(b)
+msgid "Figure 4.4. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:222(p)
+msgid "Ο διάλογος στρώσεων με την ορατότητα απενεργοποιημένη για την ενεργή στρώση."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:228(p)
+msgid "<span class=\"emphasis\"><em>Το πρόβλημα:</em></span> Ο διάλογος στρώσεων σας δίνει την ικανότητα να εναλλάξετε την ορατότητα κάθε στρώσης ναι ή όχι. Κοιτάξτε το διάλογο στρώσεων και δείτε εάν η στρώση στην οποία προσπαθείτε να εργασθείτε είναι ενεργή (δηλ. τονισμένη). και έχει το σύμβολο ενός ματιού στα αριστερά της. Εάν όχι, να το πρόβλημα."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:233(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> Εάν η επιθυμητή στρώση δεν είναι ενεργή, πατήστε την στο διάλογο στρώσεων για να την ενεργοποιήσετε. (Εάν καμία στρώση δεν είναι ενεργή, το ενεργό σχέδιο θα μπορούσε να είναι ένα κανάλι - μπορείτε να κοιτάξετε στην καρτέλα καναλιών στο διάλογο στρώσεων για να δείτε. Αυτό, όμως, δεν αλλάζει τη λύση.) Εάν το σύμβολο του ματιού δεν εμφανιστεί, πατήστε στο διάλογο στρώσεων στην αριστερή άκρη για να τον αλλάξετε. Αυτό θα πρέπει να κάνει τη στρώση ορατή. Δείτε το τμήμα βοήθειας για τον <a class=\"link\" href=\"gimp-dialogs-structure.html#gimp-layer-dialog\" title=\"2.1.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C3;&#x3C4;&#x3C1;&#x3CE;&#x3C3;&#x3B5;&#x3C9;&#x3BD;\">Διάλογος στρώσεων</a> εάν χρειαζόσαστε περισσότερη βοήθεια."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:247(span)
+msgid "Το ενεργό σχέδιο είναι διαφανές."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:247(h4)
+msgid "<a id=\"id456254\"/>1.2.5. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:254(span) el/gimp-getting-unstuck.html:258(img:alt)
+msgid "Ξεκόλλημα διαφάνειας στρώσης"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:254(b)
+msgid "Εικόνα 4.5. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:260(p)
+msgid "Ο διάλογος στρώσεων με μηδενισμένη αδιαφάνεια για την ενεργό στρώση."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:268(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> Μετακίνηση του ολισθητή."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:276(span)
+msgid "Προσπαθείτε να δουλέψετε έξω από τη στρώση"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:276(h4)
+msgid "<a id=\"id456309\"/>1.2.6. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:280(p)
+msgid "<span class=\"emphasis\"><em>Το Πρόβλημα:</em></span> Στο GIMP, οι στρώσεις δεν χρειάζεται να έχουν τις ίδιες διαστάσεις όπως η εικόνα. Μπορεί να είναι μεγαλύτερες ή μικρότερες. Εάν προσπαθείτε να βάψετε έξω από τα όρια της στρώσης δεν συμβαίνει τίποτα. Για να δείτε εάν αυτό συμβαίνει, κοιτάξτε για ένα διακεκομμένο μαύρο και κίτρινο ορθογώνιο που δεν περιέχει την περιοχή που προσπαθείτε να σχεδιάσετε."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:287(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> Πρέπει να μεγαλώσετε τη στρώση. Υπάρχουν δύο εντολές στον πάτο του μενού στρώσης που σας επιτρέπουν να το κάνετε: Περίγραμμα στο μέγεθος της εικόνας, που ταιριάζει τα όρια της στρώσης με τα όρια της εικόνας και αλλαγή μεγέθους στρώσης, που φέρνει ένα διάλογο που σας επιτρέπει να βάλετε τις διαστάσεις της στρώσης όπως θέλετε."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:298(span)
+msgid "Η εικόνα είναι σε κατάσταση χρώματος από χρωματολόγιο."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:298(h4)
+msgid "<a id=\"id456344\"/>1.2.7. <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:302(p)
+msgid "<span class=\"emphasis\"><em>Το Πρόβλημα: Το </em></span>GIMP μπορεί να χειριστεί τρεις διαφορετικές καταστάσεις χρώματος <a class=\"link\" href=\"glossary.html#glossary-colormodel\" title=\"&#x39C;&#x3BF;&#x3BD;&#x3C4;&#x3AD;&#x3BB;&#x3B1; &#x3C7;&#x3C1;&#x3C9;&#x3BC;&#x3AC;&#x3C4;&#x3C9;&#x3BD;\">RGB(A), από χρωματολόγιο και γκρι κλίμακα</a>. Η κατάσταση χρώματος από χρωματολόγιο χρησιμοποιεί ένα χρωματολόγιο, όπου όλα τα χρησιμοποιούμενα χρώματα στην εικόνα είναι ευρετηριοποιημένα. Το <a class=\"link\" href=\"gimp-tool-color-picker.html\" title=\"6.2.&#xA0;&#x3A4;&#x3BF; &#x3B5;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3BF; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;&#x3C2; &#x3C7;&#x3C1;&#x3CE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;\">Το εργαλείο επιλογής χρώματος</a> στο GIMP όμως, σας επιτρέπει να επιλέξετε RGB χρώματα. Αυτό σημαίνει ότι, εάν προσπαθείτε να βάψετε με ένα διαφορετικό χρώμα από αυτό του χρωματολογίου, θα καταλήξετε σε πολύ απρόβλεπτα αποτελέσματα (π.χ. βάφει με λάθος χρώμα ή δεν μπορείτε να βάψετε)."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:312(p)
+msgid "<span class=\"emphasis\"><em>Η Λύση:</em></span> Χρησιμοποιείται πάντοτε την κατάσταση χρώματος RGB για βάψιμο σε εικόνες. Μπορείτε να επιβεβαιώσετε και να επιλέξετε άλλη κατάσταση χρώματος από το αντικείμενο μενού <a class=\"link\" href=\"gimp-image-mode.html\" title=\"6.3.&#xA0;&#x39A;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;\">Κατάσταση</a> στο μενού <span class=\"guimenu\">Εικόνα</span>."
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:329(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:335(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:338(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:341(a)
+msgid "Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;"
+msgstr ""
+
+#: el/gimp-getting-unstuck.html:341(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

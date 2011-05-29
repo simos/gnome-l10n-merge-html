@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:6(title) el/gimp-using-script-fu-tutorial-extending-text-box.html:21(th) el/gimp-using-script-fu-tutorial-extending-text-box.html:31(div:title)
+msgid "3.6. Επέκταση του σεναρίου πλαισίου κειμένου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:13(link:title) el/gimp-using-script-fu-tutorial-extending-text-box.html:25(th)
+msgid "3. Διδακτική ενός Script-Fu"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:14(link:title)
+msgid "3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:15(link:title) el/gimp-using-script-fu-tutorial-extending-text-box.html:259(a)
+msgid "3.7. Το σενάριό σας και η λειτουργία του"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:24(img:alt) el/gimp-using-script-fu-tutorial-extending-text-box.html:244(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:24(td) el/gimp-using-script-fu-tutorial-extending-text-box.html:244(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-script.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:26(img:alt) el/gimp-using-script-fu-tutorial-extending-text-box.html:250(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:26(td) el/gimp-using-script-fu-tutorial-extending-text-box.html:250(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-result.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-extending-text-box\"/>3.6. Επέκταση του σεναρίου πλαισίου κειμένου"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:39(div:title)
+msgid "3.6.1. Σωστός χειρισμός της αναίρεσης"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:43(h4)
+msgid "<a id=\"id3236467\"/>3.6.1. Σωστός χειρισμός της αναίρεσης"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:47(p)
+msgid "Όταν δημιουργείτε ένα σενάριο, θέλετε να δώσετε στους χρήστες σας τη δυνατότητα αναίρεσης των ενεργειών τους, εάν κάνουν ένα λάθος. Αυτό πετυχαίνεται εύκολα, καλώντας τις συναρτήσεις <code class=\"function\">gimp-undo-push-group-start</code> και <code class=\"function\">gimp-undo-push-group-end</code> που περιβάλλουν τον κώδικα που χειρίζεται την εικόνα. Μπορείτε να τις θεωρήσετε ως δίδυμες προτάσεις που επιτρέπουν στο GIMP να ξέρει πότε να αρχίσει και πότε να σταματήσει την εγγραφή των χειρισμών στην εικόνα, έτσι ώστε αυτοί οι χειρισμοί να μπορούν αργότερα να αναιρεθούν."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:55(p)
+msgid "Εάν δημιουργείτε μια ολότελα νέα εικόνα, δεν έχει νόημα να χρησιμοποιήσετε αυτές τις συναρτήσεις, επειδή δεν αλλάζετε μια υπάρχουσα εικόνα. Όμως, όταν αλλάζετε μια υπάρχουσα εικόνα, θα θέλετε να χρησιμοποιήσετε αυτές τις συναρτήσεις."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:60(p)
+msgid "Αναίρεση ενός σεναρίου δουλεύει σχεδόν τέλεια, όταν χρησιμοποιείται αυτές τις συναρτήσεις."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:64(div:title)
+msgid "3.6.2. Επέκταση του σεναρίου λίγο περισσότερο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:68(h4)
+msgid "<a id=\"id3230256\"/>3.6.2. Επέκταση του σεναρίου λίγο περισσότερο"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:72(p)
+msgid "Τώρα που έχετε ένα πολύ εύχρηστο σενάριο για δημιουργία πλαισίων κειμένου, ας προσθέσουμε δύο χαρακτηριστικά σ' αυτό."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:79(p)
+msgid "Προς το παρόν η εικόνα άλλαξε μέγεθος για να ταιριάζει ακριβώς γύρω από το κείμενο — δεν υπάρχει χώρος για τίποτα, όπως ρίψη σκιών ή ειδικά εφέ (ακόμα κι αν πολλά σενάρια θα προσαρμόσουν το μέγεθος της εικόνας αυτόματα, όπου απαιτείται). Ας προσθέσουμε μια βοηθητική περιοχή γύρω από το κείμενο και ακόμα ας αφήσουμε το χρήστη να ορίσει πόση βοηθητική περιοχή να προσθέσει ως ποσοστό του μεγέθους του τελικού κειμένου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:87(p)
+msgid "Αυτό το σενάριο θα μπορούσε να χρησιμοποιηθεί εύκολα σε άλλα σενάρια που δουλεύουν με κείμενο. Ας το επεκτείνουμε ώστε να επιστρέψει την εικόνα και τις στρώσεις, έτσι που άλλα σενάρια να μπορούν να καλέσουν αυτό το σενάριο και να χρησιμοποιήσουν την εικόνα και τις στρώσεις που δημιουργήσαμε."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:96(div:title)
+msgid "3.6.3.  Τροποποίηση των παραμέτρων και της συνάρτησης καταχώρισης"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:100(h4)
+msgid "<a id=\"id3211419\"/>3.6.3. Τροποποίηση των παραμέτρων και της συνάρτησης καταχώρισης "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:104(p)
+msgid "Για να επιτρέψουμε στο χρήστη να ορίσει το ποσό του βοηθητικού χώρου, θα προσθέσουμε μια παράμετρο στη συνάρτησή μας και στη συνάρτηση καταχώρισης:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:108(pre)
+#, no-wrap
+msgid "\n(define (script-fu-text-box inTest inFont inFontSize inTextColor inBufferAmount)\n(let*\n(\n; define our local variables\n; create a new image:\n(theImageWidth  10)\n(theImageHeight 10)\n(theImage (car\n(gimp-image-new\ntheImageWidth\ntheImageHeight\nRGB\n)\n)\n)\n(theText)          ;a declaration for the text\n;we create later\n\n(theBuffer)        ;<span class=\"emphasis\"><em>added</em></span>\n\n(theLayer\n(car\n(gimp-layer-new\ntheImage\ntheImageWidth\ntheImageHeight\nRGB-IMAGE\n\"layer 1\"\n100\nNORMAL\n)\n)\n)\n) ;end of our local variables\n\n<em class=\"replaceable\"><code>[Code here]</code></em>\n)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:147(pre)
+#, no-wrap
+msgid "\n(script-fu-register\n\"script-fu-text-box\"                        ;func name\n\"Text Box\"                                  ;menu label\n\"Creates a simple text box, sized to fit\\\naround the user's choice of text,\\\nfont, font size, and color.\"              ;description\n\"Michael Terry\"                             ;author\n\"copyright 1997, Michael Terry;\\\n2009, the GIMP Documentation Team\"        ;copyright notice\n\"October 27, 1997\"                          ;date created\n\"\"                     ;image type that the script works on\nSF-STRING      \"Text\"          \"Text Box\"   ;a string variable\nSF-FONT        \"Font\"          \"Charter\"    ;a font variable\nSF-ADJUSTMENT  \"Font size\"     '(50 1 1000 1 10 0 1)\n;a spin-button\nSF-COLOR       \"Color\"         '(0 0 0)     ;color variable\nSF-ADJUSTMENT  \"Buffer amount\" '(35 0 100 1 10 1 0)\n;a slider\n)\n(script-fu-menu-register \"script-fu-text-box\" \"&lt;Image&gt;/Font/Create/Text\")\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:170(div:title)
+msgid "3.6.4. Προσθήκη του νέου κώδικα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:174(h4)
+msgid "<a id=\"id3211572\"/>3.6.4. Προσθήκη του νέου κώδικα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:178(p)
+msgid "Πρόκειται να προσθέσουμε κώδικα σε δύο θέσεις: ακριβώς πριν αλλάξουμε μέγεθος στην εικόνα και στο τέλος του σεναρίου (για επιστροφή της νέας εικόνας, της στρώσης και του κειμένου)."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:182(p)
+msgid "Αφού πάρουμε το ύψος και πλάτος της εικόνας, χρειαζόμαστε να αλλάξουμε μέγεθος σε αυτές τις τιμές που βασίζονται στο ποσό του βοηθητικού χώρου που ορίστηκε από το χρήστη. Δεν θα κάνουμε λάθος, αν δεν ψάξουμε να επιβεβαιώσουμε ότι είναι στην κλίμακα 0-100%, επειδή δεν είναι θανάσιμο και επειδή δεν υπάρχει λόγος ο χρήστης να μην μπορεί να εισαγάγει μια τιμή όπως <span class=\"quote\">“<span class=\"quote\">200</span>”</span>, ως το ποσοστό του προστιθέμενου βοηθητικού χώρου."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:189(pre)
+#, no-wrap
+msgid "\n(set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n\n(set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n(set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:195(p)
+msgid "Αυτό που κάνουμε εδώ είναι ο ορισμός του βοηθητικού χώρου, βασισμένου στο ύψος του κειμένου και προσθήκη του δύο φορές σε ύψος και πλάτος της νέας μας εικόνας. (Το προσθέτουμε δύο φορές και στις δυο διαστάσεις, επειδή ο βοηθητικός χώρος χρειάζεται να προστεθεί και στις δύο πλευρές του κειμένου.)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:200(p)
+msgid "Τώρα που αλλάξαμε μέγεθος στην εικόνα για να προστεθεί ο βοηθητικός χώρος, χρειάζεται να κεντράρουμε το κείμενο μες την εικόνα. Αυτό γίνεται μετακινώντας το στις συντεταγμένες (x, y) του (<code class=\"varname\">theBuffer</code>, <code class=\"varname\">theBuffer</code>). Προσέθεσα αυτή τη γραμμή μετά την αλλαγή μεγέθους της στρώσης και της εικόνας:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:206(pre)
+#, no-wrap
+msgid "\n(gimp-layer-set-offsets theText theBuffer theBuffer)\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:209(p)
+msgid "Συνεχίστε και αποθηκεύστε το σενάριο σας και δοκιμάστε το μετά την ανανέωση της βάσης δεδομένων."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:212(p)
+msgid "Αυτό που έμεινε να κάνουμε είναι επιστροφή στην εικόνα μας, τη στρώση και τη στρώση του κειμένου. Μετά την εμφάνιση της εικόνας, προσθέτουμε αυτή τη γραμμή:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:216(pre)
+#, no-wrap
+msgid "(list theImage theLayer theText)"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:217(p)
+msgid "Αυτή είναι η τελευταία γραμμή της συνάρτησης, κάνοντας αυτή τη λίστα διαθέσιμη σε άλλα σενάρια που θέλουν να τη χρησιμοποιήσουν."
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:221(p)
+msgid "Για να χρησιμοποιήσουμε το νέο σενάριο του πλαισίου κειμένου σε άλλο σενάριο, θα μπορούσαμε να γράψουμε κάτι όπως το εξής:"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:225(pre)
+#, no-wrap
+msgid "\n(set! theResult (script-fu-text-box\n\"Some text\"\n\"Charter\" \"30\"\n'(0 0 0)\n\"35\"\n)\n)\n(gimp-image-flatten (car theResult))\n"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:235(p)
+msgid "Συγχαρητήρια, είσθε στο δρόμο για τη μαύρη ζώνη στο Script-Fu!"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:247(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:253(a)
+msgid "3.5.  Δίνοντας στο σενάριό μας περισσότερη ψυχή"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:253(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:256(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-script-fu-tutorial-extending-text-box.html:259(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

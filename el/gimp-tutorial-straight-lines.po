@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-tutorial-straight-lines.html:6(title) el/gimp-tutorial-straight-lines.html:21(th)
+msgid "5. Ευθύγραμμη σχεδίαση"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:13(link:title) el/gimp-tutorial-straight-lines.html:25(th)
+msgid "Κεφάλαιο 3. Πρώτα βήματα με το Wilber"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:14(link:title) el/gimp-tutorial-straight-lines.html:232(a)
+msgid "4.8. Περιστροφή εικόνας"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:15(link:title) el/gimp-tutorial-straight-lines.html:238(a)
+msgid "5.2. Παραδείγματα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:24(img:alt) el/gimp-tutorial-straight-lines.html:223(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:24(td) el/gimp-tutorial-straight-lines.html:223(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickie-rotate.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:26(img:alt) el/gimp-tutorial-straight-lines.html:229(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:26(td) el/gimp-tutorial-straight-lines.html:229(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-straight-lines-examples.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:35(h2)
+msgid "<a id=\"gimp-tutorial-straight-lines\"/>5. Ευθύγραμμη σχεδίαση"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:41(p)
+msgid "Αυτό το μάθημα βασίζεται σε κείμενο και φωτογραφίες του Seth Burgess Copyright © 2002 . Το αυθεντικό μάθημα μπορεί να βρεθεί στο διαδίκτυο. <a class=\"xref\" href=\"bibliography.html#bibliography-online-tutorial01\" title=\"&#x39C;&#x3AC;&#x3B8;&#x3B7;&#x3BC;&#x3B1;: &#x395;&#x3C5;&#x3B8;&#x3CD;&#x3B3;&#x3C1;&#x3B1;&#x3BC;&#x3BC;&#x3B7; &#x3C3;&#x3C7;&#x3B5;&#x3B4;&#x3AF;&#x3B1;&#x3C3;&#x3B7;\">[<abbr class=\"abbrev\">TUT01</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:50(h3)
+msgid "<a id=\"gimp-tutorial-straight-lines-intention\"/>5.1. Σκοπός"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:57(b)
+msgid "Εικόνα 3.41. Παράδειγμα ευθειών γραμμών"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:61(img:alt)
+msgid "Παράδειγμα ευθειών γραμμών"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:66(p)
+msgid "Αυτό το μάθημα σας δείχνει πώς να σχεδιάσετε ευθείες γραμμές με το GIMP. Ο εξαναγκασμός μιας γραμμής να είναι ευθεία είναι ένας κατάλληλος τρόπος να ασχοληθείτε με την ανακρίβεια του ποντικιού ή της ταμπλέτας, και να αποκτήσετε τα πλεονεκτήματα της ισχύος του υπολογιστή ώστε τα πράγματα να φαίνονται συγυρισμένα και τακτοποιημένα. Αυτή η διδασκαλία δεν χρησιμοποιεί ευθείες γραμμές για περίπλοκες εργασίες. Σκοπός της είναι να σας δείξει πώς μπορείτε να την χρησιμοποιήσετε για να δημιουργήσετε γρήγορα και εύκολα ευθείες γραμμές."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:78(b)
+msgid "Προετοιμασίες"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:83(span)
+msgid "Shift"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:83(b)
+msgid "Εικόνα 3.42. Εισαγωγή στο πλήκτρο <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:87(img:alt) el/gimp-tutorial-straight-lines.html:90(img:alt)
+msgid "Εισαγωγή στο πλήκτρο Shift"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:95(p)
+msgid "Η εφεύρεση που λέγεται γραφομηχανή εισήγαγε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span>. Συνήθως έχετε 2 Shift στο πληκτρολόγιο. Μοιάζουν όπως η παραπάνω εικόνα. Τα πλήκτρα είναι τοποθετημένα στη δεξιά και αριστερή πλευρά του πληκτρολογίου. Το ποντίκι ανακαλύφθηκε από τον Douglas C. Engelbart το 1970. Αυτά έρχονται σε μια ποικιλία παραλλαγών, αλλά πάντοτε με ένα τουλάχιστον πλήκτρο."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:104(b)
+msgid "Δημιουργία μιας κενής σχεδίασης"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:109(b)
+msgid "Εικόνα 3.43. Νέα εικόνα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:113(img:alt)
+msgid "Νέα εικόνα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:118(p)
+msgid "Δημιουργήστε μια νέα εικόνα. Οποιοδήποτε μέγεθος κάνει. Ενεργοποιείστε <span class=\"guimenu\">Αρχείο</span> → <span class=\"guimenuitem\">Νέο</span> για να δημιουργήσετε μια νέα εικόνα."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:125(b)
+msgid "Επιλογή εργαλείου"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:130(b)
+msgid "Εικόνα 3.44. Εργαλεία ζωγραφικής στην εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:134(img:alt)
+msgid "Εργαλεία ζωγραφικής στην εργαλειοθήκη"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:139(p)
+msgid "Οποιοδήποτε από τα κόκκινα περιγεγραμμένα εργαλεία της πιο πάνω εργαλειοθήκης μπορεί να κάνει γραμμές."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:145(b)
+msgid "Δημιουργήστε ένα σημείο εκκίνησης"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:150(b)
+msgid "Εικόνα 3.45. Σημείο εκκίνησης"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:154(img:alt)
+msgid "Σημείο εκκίνησης"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:159(p)
+msgid "Πατήστε στο εργαλείο χρώματος (επιλογή κατά χρώμα) στην εργαλειοθήκη. Πατήστε στην εικόνα εκεί που θέλετε να ξεκινά ή να τελειώνει. Μια μονή κουκίδα θα εμφανιστεί στην οθόνη. Το μέγεθος της κουκίδας αντιπροσωπεύει το τρέχον μέγεθος του πινέλου, που μπορείτε να αλλάξετε στο διάλογο πινέλου. (Δείτε <a class=\"xref\" href=\"gimp-brush-dialog.html\" title=\"3.2.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3C0;&#x3B9;&#x3BD;&#x3AD;&#x3BB;&#x3C9;&#x3BD;\">Ενότητα 3.2, “Διάλογος πινέλων”</a>). Τώρα ας αρχίσουμε τη σχεδίαση της γραμμής. Πατήστε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> και κρατείστε το πατημένο."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:170(b) el/gimp-tutorial-straight-lines.html:179(img:alt)
+msgid "Σχεδίαση γραμμής"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:175(b)
+msgid "Εικόνα 3.46. Σχεδίαση γραμμής"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:184(p)
+msgid "Μετά το αρχικό σημείο και ενώ πατάτε το <span class=\"keycap\"><strong>Shift</strong></span>, θα δείτε μια ευθεία γραμμή που ακολουθεί το δρομέα. Πατήστε το πρώτο πλήκτρο στο ποντίκι (συνήθως το αριστερό) και αφήστε το. Κατά τη διάρκεια όλου αυτού του “<span class=\"quote\">πατήματος</span>” του <span class=\"mousebutton\">πλήκτρου του ποντικιού</span>, πρέπει να κρατήσετε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span> κάτω."
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:194(b)
+msgid "Τελικό"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:199(b)
+msgid "Εικόνα 3.47. Τελική εικόνα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:203(img:alt)
+msgid "Τελική εικόνα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:208(p)
+msgid "Αυτή είναι μια δυνατή λειτουργία. Μπορείτε να χαράξετε ευθείες γραμμές με οποιοδήποτε από τα εργαλεία σχεδίασης. Μπορείτε ακόμα να χαράξετε περισσότερες γραμμές στο τέλος αυτής της γραμμής. Το τελευταίο βήμα είναι να αφήσουμε το πλήκτρο <span class=\"keycap\"><strong>Shift</strong></span>. Ιδού! Μερικά ακόμα παραδείγματα φαίνονται παρακάτω. Ευχάριστο ταξίδι με το GIMP!"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:226(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:232(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:235(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-tutorial-straight-lines.html:238(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

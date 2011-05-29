@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>5.  Μονοπάτια</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-painting.html" title="Κεφάλαιο 7. Βάφοντας με το GIMP" />
+<link rel="prev" href="gimp-using-quickmask.html" title="4. Χρήση της κατάστασης σύντομης μάσκας" />
+<link rel="next" href="gimp-using-paths-properties.html" title="5.2. Ιδιότητες μονοπατιού" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">5. <span>Μονοπάτια</span></th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-quickmask.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 7. Βάφοντας με το GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-paths-properties.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="5.  Μονοπάτια">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-using-paths"></a>5. <a id="gimp-concepts-paths"></a><span>Μονοπάτια</span></h2>
+</div>
+</div>
+</div>
+<a id="id3149857" class="indexterm"></a>
+<a id="id3120041" class="indexterm"></a>
+<p>
+Τα μονοπάτια είναι καμπύλες (γνωστές ως καμπύλες Bézier). Είναι εύκολο να μάθετε και να χρησιμοποιήσετε τα
+μονοπάτια στο GIMP. Για να καταλάβετε τη λογική τους και το μηχανισμό τους
+δείτε στο γλωσσάρι <a class="link" href="glossary.html#glossary-bezier-curve" title="Καμπύλη Bézier"> Καμπύλη Bézier</a> ή Wikipedia
+<a class="xref" href="bibliography.html#bibliography-online-wkpd-bezier" title="Wikipedia -καμπύλη Bézier ">[<abbr class="abbrev">WKPD-BEZIER</abbr>]</a>.
+Το εργαλείο μονοπατιών είναι πολύ ισχυρό, επιτρέποντας σας να σχεδιάσετε σύνθετες φόρμες. Για να χρησιμοποιήσετε
+το εργαλείο μονοπατιών στο GIMP, πρέπει πρώτα να δημιουργήσετε ένα μονοπάτι κι έπειτα να σχεδιάσετε το μονοπάτι.
+</p>
+<p>
+Στο GIMP, ο όρος <span class="quote">“<span class="quote">βάψιμο μονοπατιού</span>”</span> σημαίνει
+την εφαρμογή ενός ειδικού στιλ στο μονοπάτι (χρώμα, πλάτος, μοτίβο...).
+</p>
+<p>
+Ένα μονοπάτι έχει δύο κύριους σκοπούς:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>Μπορείτε να μετατρέψετε ένα κλειστό μονοπάτι σε επιλογή.</p>
+</li>
+<li class="listitem">
+<p>
+Οποιοδήποτε μονοπάτι, ανοιχτό ή κλειστό, μπορεί να <span class="emphasis"><em>βαφτεί</em></span> με ποικίλους
+τρόπους.
+</p>
+</li>
+</ul>
+</div>
+<div class="figure">
+<a id="id3148456"></a>
+<p class="title"><b>Εικόνα 7.10. Παρουσίαση δημιουργίας τεσσάρων διαφορετικών μονοπατιών.</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/path-examples.png" alt="Παρουσίαση δημιουργίας τεσσάρων διαφορετικών μονοπατιών" />
+<div class="caption">
+<p>
+Τέσσερα παραδείγματα μονοπατιών του GIMP: ένα κλειστό πολυγωνικό, ένα ανοιχτό πολυγωνικό, ένα κλειστό καμπύλο
+και ένα με μίγμα ευθειών και καμπύλων τμημάτων.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<div class="sect2" title="5.1. Δημιουργία μονοπατιού">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-paths-creating"></a>5.1. Δημιουργία μονοπατιού</h3>
+</div>
+</div>
+</div>
+<p>
+Ξεκινήστε χαράσσοντας το περίγραμμα για το μονοπάτι σας. Το περίγραμμα μπορεί να τροποποιηθεί αργότερα (δείτε
+το εργαλείο <a class="link" href="gimp-tool-path.html" title="6.2. Μονοπάτια">Μονοπάτια</a>).
+Για να ξεκινήσετε, επιλέξτε το εργαλείο μονοπατιών χρησιμοποιώντας μία από τις παρακάτω μεθόδους:
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Πατήστε <span class="guimenu">Εργαλεία</span> → <span class="guimenuitem">Μονοπάτια</span> από το μενού εικόνας.
+</p>
+</li>
+<li class="listitem">
+<p>
+Πατήστε το σχετικό εικονίδιο στην εργαλειοθήκη.
+<span class="guiicon">
+<img src="images/toolbox/stock-tool-path-22.png" />
+</span>
+</p>
+</li>
+<li class="listitem">
+<p>Χρησιμοποιείστε το πλήκτρο συντόμευσης <span class="keycap"><strong>B</strong></span>.</p>
+</li>
+</ul>
+</div>
+<p>
+Όταν το εργαλείο μονοπατιών επιλέγεται, ο δρομέας του ποντικιού αλλάζει σε δείκτη (βέλος) με καμπύλη.
+Αριστεροπατήστε στην εικόνα για να δημιουργήσετε το αρχικό σημείο του μονοπατιού. Μετακινήστε το ποντίκι σε
+ένα νέο σημείο και αριστεροπατήστε το ποντίκι για να δημιουργήσετε ένα άλλο σημείο συνδεμένο με το προηγούμενο.
+Αν και μπορείτε να δημιουργήσετε όσα σημεία επιθυμείτε, χρειάζεσθε μόνο δύο σημεία για να μάθετε για τα μονοπάτια.
+Ενώ προσθέτετε σημεία, ο δρομέας ποντικιού έχει <span class="quote">“<span class="quote">+</span>”</span>
+δίπλα στην καμπύλη που δείχνει ότι πατώντας θα προστεθεί ένα νέο σημείο. Όταν ο δρομέας του ποντικιού είναι κοντά
+σε τμήμα της γραμμής το <span class="quote">“<span class="quote">+</span>”</span> αλλάζει σε σταυρό με
+βέλη, όπως το εργαλείο μετακίνησης.
+</p>
+<p>
+Μετακινήστε το δρομέα ποντικιού κοντά σε ένα τμήμα γραμμής (όχι στα άκρα), αριστεροπατήστε και σύρτε το τμήμα της γραμμής.
+Δύο γεγονότα συμβαίνουν.
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>Το τμήμα της γραμμής λυγίζει και καμπυλώνεται καθώς τραβιέται.</p>
+</li>
+<li class="listitem">
+<p>
+Κάθε τμήμα γραμμής έχει ένα αρχικό σημείο και ένα τελικό σημείο που σημειώνεται καθαρά. Μια
+<span class="quote">“<span class="quote">κατευθυντήρια γραμμή</span>”</span> τώρα προβάλλει από τα άκρα του
+τμήματος που μετακινήθηκε.
+</p>
+</li>
+</ul>
+</div>
+<p>
+Το τμήμα της καμπύλης γραμμής αφήνει ένα τελικό σημείο στην ίδια κατεύθυνση, που η
+<span class="quote">“<span class="quote">κατευθυντήρια γραμμή</span>”</span> αφήνει το τελικό σημείο. Το
+μήκος της  <span class="quote">“<span class="quote">κατευθυντήριας γραμμής</span>”</span> ελέγχει πόσο
+μακριά το τμήμα της γραμμής προβάλλει κατά μήκος της <span class="quote">“<span class="quote">κατευθυντήριας γραμμής</span>”</span>
+πριν καμπυλώσει προς το άλλο τελικό σημείο. Κάθε <span class="quote">“<span class="quote">κατευθυντήρια γραμμή</span>”</span>
+έχει ένα κενό τετράγωνο κουτί (αποκαλούμενο λαβή) στη μία άκρη. Πατήστε και σύρτε τη λαβή για να αλλάξετε την
+κατεύθυνση και το μήκος της <span class="quote">“<span class="quote">κατευθυντήριας γραμμής</span>”</span>.
+</p>
+<div class="figure">
+<a id="id3169430"></a>
+<p class="title"><b>Εικόνα 7.11. Εμφάνιση του μονοπατιού, ενώ επεξεργάζεται</b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/path-with-anchors.png" alt="Εμφάνιση του μονοπατιού, ενώ επεξεργάζεται" />
+<div class="caption">
+<p>
+Εμφάνιση του μονοπατιού, ενώ επεξεργάζεται με το εργαλείο μονοπατιών.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Το μονοπάτι αποτελείται από δύο συστατικά με ευθεία και καμπύλα τμήματα. Μαύρα τετράγωνα είναι σημεία αγκίστρωσης.
+Ο ανοιχτός κύκλος δείχνει την επιλεγμένη άγκυρα και τα δύο ανοιχτά τετράγωνα είναι οι συνδεμένες λαβές με την
+επιλεγμένη άγκυρα.
+</p>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-quickmask.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-painting.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-paths-properties.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-quickmask.html">4. Χρήση της κατάστασης σύντομης μάσκας</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-paths-properties.html">5.2. Ιδιότητες μονοπατιού</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

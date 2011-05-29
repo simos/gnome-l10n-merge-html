@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-tutorial-quickie-scale.html:6(title) el/gimp-tutorial-quickie-scale.html:21(th)
+msgid "4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:13(link:title) el/gimp-tutorial-quickie-scale.html:14(link:title) el/gimp-tutorial-quickie-scale.html:25(th) el/gimp-tutorial-quickie-scale.html:141(a)
+msgid "4. Γρήγορο ξεκίνημα (GIMPLite Quickies)"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:15(link:title) el/gimp-tutorial-quickie-scale.html:147(a)
+msgid "4.3. Σμίκρυνση JPEGs"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:24(img:alt) el/gimp-tutorial-quickie-scale.html:132(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:24(td) el/gimp-tutorial-quickie-scale.html:132(td)
+msgid "<a accesskey=\"p\" href=\"gimp-tutorial-quickies.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:26(img:alt) el/gimp-tutorial-quickie-scale.html:138(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:26(td) el/gimp-tutorial-quickie-scale.html:138(td)
+msgid " <a accesskey=\"n\" href=\"gimp-tutorial-quickie-jpeg.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:35(h3)
+msgid "<a id=\"gimp-tutorial-quickie-scale\"/>4.2. Αλλαγή του μεγέθους μιας εικόνας (κλίμακα)"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:41(p)
+msgid "Πρόβλημα: έχετε μια τεράστια φωτογραφία και θέλετε να αλλάξετε μέγεθος, ώστε να φαίνεται ωραία στον ιστό. Η εικόνα αυτή είναι η m51_hallas_big.jpg from APOD <a class=\"xref\" href=\"bibliography.html#bibliography-online-apod03\" title=\"Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)\">[<abbr class=\"abbrev\">APOD03</abbr>]</a>."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:49(b)
+msgid "Εικόνα 3.16. Παράδειγμα εικόνας για αλλαγή μεγέθους"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:53(img:alt)
+msgid "Παράδειγμα εικόνας για αλλαγή μεγέθους"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:58(p)
+msgid "Το πρώτο πράγμα που μπορεί να παρατηρήσατε, είναι ότι το GIMP ανοίγει την εικόνα σε ένα λογικό μέγεθος για παρατήρηση. Εάν η εικόνα σας είναι πραγματικά μεγάλη όπως η εικόνα στο παράδειγμα, τότε το GIMP θα αλλάξει την εστίαση, έτσι ώστε να εμφανίζεται ωραία στην οθόνη. Το επίπεδο εστίασης φαίνεται στην περιοχή κατάστασης στο κάτω μέρος του παραθύρου της εικόνας."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:64(p)
+msgid "Το άλλο πράγμα που μπορεί να παρατηρήσατε είναι η κατάσταση στη γραμμή τίτλου . Εάν η κατάσταση δείχνει ως RGB στη γραμμή τίτλου, είστε θαυμάσια. Εάν η κατάσταση λέει από χρωματολόγιο ή κλίμακα του γκρι, διαβάστε το <a class=\"xref\" href=\"gimp-tutorial-quickie-change-mode.html\" title=\"4.6.&#xA0;&#x391;&#x3BB;&#x3BB;&#x3B1;&#x3B3;&#x3AE; &#x3BA;&#x3B1;&#x3C4;&#x3AC;&#x3C3;&#x3C4;&#x3B1;&#x3C3;&#x3B7;&#x3C2;\">Μέρος 4.6, “Αλλαγή κατάστασης”</a>."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:72(b)
+msgid "Εικόνα 3.17. Χρήση του GIMP για αλλαγή μεγέθους της εικόνας"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:76(img:alt)
+msgid "Χρήση του GIMP για αλλαγή μεγέθους της εικόνας"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:81(p)
+msgid "Ενεργοποιείστε <span class=\"guimenu\">Εικόνα</span> → <span class=\"guimenuitem\">Μέγεθος εικόνας</span>, για να ανοίξετε το διάλογο αυξομείωση μεγέθους εικόνας. Μπορείτε να δεξιοπατήσετε στην εικόνα για να ανοίξετε το μενού ή χρησιμοποιείστε το μενού κατά μήκος της κορυφής του παραθύρου εικόνας. Σημειώστε ότι το αντικείμενο μενού αυξομείωσης της εικόνας περιέχει τρείς τελείες που είναι μια υπόδειξη ότι ένας διάλογος θα ανοίξει."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:90(b)
+msgid "Εικόνα 3.18. Διάλογος για την αλλαγή μεγέθους εικόνας σε εικονοστοιχεία"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:94(img:alt)
+msgid "Διάλογος για την αυξομείωση μεγέθους εικόνας σε εικονοστοιχεία"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:99(p)
+msgid "Εάν έχετε ένα επιθυμητό πλάτος, βάλτε το στο διάλογο στην κορυφή, όπου λέει <span class=\"guilabel\">πλάτος</span>. Εάν δεν έχετε ένα τέτοιο αριθμό στο μυαλό, μπορείτε να βάλετε το πλάτος του μεγέθους της προκαθορισμένης εικόνας του <acronym class=\"acronym\">GIMP</acronym> που είναι 256 εικονοστοιχεία. Αυτό φαίνεται στην παραπάνω εικόνα."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:107(b)
+msgid "Εικόνα 3.19. Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:111(img:alt)
+msgid "Διάλογος για την αλλαγή μεγέθους εικόνας σε χιλιοστά"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:116(p)
+msgid "Ίσως θέλετε η εικόνα σας να δείχνει ως μία 140x100 χιλιοστά φωτογραφία. Αλλάξτε τις μονάδες σε “<span class=\"quote\">χιλιοστά</span>” και βάλτε 99,84 χιλιοστά στο πλαίσιο ύψους (καλύτερα πιο μικρό από 140x100 παρά πιο μεγάλο). Μπορείτε να δείτε αυτό το διάλογο πιο πάνω."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:121(p)
+msgid "Αφήστε το GIMP να επιλέξει την άλλη διάσταση μήκους για σας, γιατί χρειάζεται περισσότερη γνώση της εικόνας για ταυτόχρονη αλλαγή πλάτους και ύψους, ενώ παράλληλα να φαίνεται σωστή. Γι' αυτό αλλάξτε μόνο τη μία τιμή και αφήστε το GIMP να αλλάξει τα υπόλοιπα. Για αλλαγή της άλλης διάστασης, δείτε <a class=\"xref\" href=\"gimp-tutorial-quickie-crop.html\" title=\"4.4.&#xA0;\">Ενότητα 4.4, “Περικοπή εικόνας”</a>."
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:135(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:141(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:144(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-tutorial-quickie-scale.html:147(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-image-window.html:6(title) en/gimp-image-window.html:21(th) en/gimp-image-window.html:31(div:title)
+msgid "2.2. Image Window"
+msgstr ""
+
+#: en/gimp-image-window.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-image-window.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-image-window.html:13(link:title) en/gimp-image-window.html:14(link:title) en/gimp-image-window.html:25(th) en/gimp-image-window.html:338(a)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/gimp-image-window.html:15(link:title) en/gimp-image-window.html:344(a)
+msgid "2.3. Dialogs and Docking"
+msgstr ""
+
+#: en/gimp-image-window.html:24(img:alt) en/gimp-image-window.html:329(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-image-window.html:24(td) en/gimp-image-window.html:329(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-main-windows.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-image-window.html:26(img:alt) en/gimp-image-window.html:335(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-image-window.html:26(td) en/gimp-image-window.html:335(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-docks.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-image-window.html:35(h3)
+msgid "<a id=\"gimp-image-window\"/>2.2. Image Window"
+msgstr ""
+
+#: en/gimp-image-window.html:46(b)
+msgid "Figure 3.4.  A screenshot of the image window illustrating the important components."
+msgstr ""
+
+#: en/gimp-image-window.html:52(img:alt)
+msgid "A screenshot of the image window illustrating the important components."
+msgstr ""
+
+#: en/gimp-image-window.html:58(p)
+msgid "An image window exists, even if no image is open. The Title Bar in an image window without an image reads <span class=\"quote\">“<span class=\"quote\">GNU Image Manipulating Program</span>”</span>. An image window with an image displays the image name and its specifications in the title bar according to the settings in <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-dialog\" title=\"1.&#xA0;Preferences Dialog\">Preference Dialog</a>. Each window displays exactly one image, or no image if no image is open. Each image is displayed in one or more image windows; it is unusual to display the same image in more than one window. We will begin with a brief description of the components that are present by default in an ordinary image window. Some of the components can be removed by using commands in the <a class=\"link\" href=\"gimp-view-menu.html\" title=\"5.&#xA0;The &#x201C;View&#x201D; Menu\">View</a> menu."
+msgstr ""
+
+#: en/gimp-image-window.html:76(p)
+msgid "<span class=\"emphasis\"><em>Title Bar:</em></span> The top of the image window typically displays a Title Bar with the name of the image and some basic information about the image. The Title Bar is provided by the operating system, not by <acronym class=\"acronym\">GIMP</acronym>, so its appearance is likely to vary with the operating system, window manager, and/or theme. Use the <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-dialog\" title=\"1.&#xA0;Preferences Dialog\">Preferences dialog</a> to customize the information that appears in the Title Bar."
+msgstr ""
+
+#: en/gimp-image-window.html:88(p)
+msgid "<span class=\"emphasis\"><em>Image Menu:</em></span> Directly below the Title Bar appears the Image Menu (unless it has been suppressed). The Image Menu provides access to nearly every operation you can perform on an image. You can also right-click on an image to display a pop-up image menu. <sup>[<a id=\"id3170550\" href=\"#ftn.id3170550\" class=\"footnote\">1</a>]</sup>, or by left-clicking on the little <span class=\"quote\">“<span class=\"quote\">arrow</span>”</span> symbol in the upper left corner, called the <span class=\"emphasis\"><em>Menu Button:</em></span>, if for some reason you find one of these more convenient. Many menu commands are also associated with keyboard <span class=\"emphasis\"><em>shortcuts</em></span> as shown in the menu. You can define your own custom shortcuts for menu actions, if you enable <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-interface\" title=\"1.3.&#xA0;Interface\"> Use Dynamic Keyboard Shortcuts</a> in the Preferences dialog."
+msgstr ""
+
+#: en/gimp-image-window.html:107(p)
+msgid "<span class=\"emphasis\"><em>Menu Button:</em></span> Click the Menu Button to display the Image Menu in a column. If you like to use keyboard shortcuts, use <span class=\"keycap\"><strong>Shift</strong></span>+<span class=\"keycap\"><strong>F10</strong></span> to open the menu."
+msgstr ""
+
+#: en/gimp-image-window.html:117(p)
+msgid "<span class=\"emphasis\"><em>Ruler:</em></span> In the default layout, rulers are shown above and to the left of the image. Use the rulers to determine coordinates within the image. The default unit for rulers is pixels; use the settings described below to use a unit other than pixels."
+msgstr ""
+
+#: en/gimp-image-window.html:124(p)
+msgid "One of the most important uses of rulers is to create <span class=\"emphasis\"><em>guides</em></span>. Click and drag a ruler into the image to create a guide. A guide is a line that helps you accurately position things—or verify that another line is truly horizontal or vertical. Click and drag a guide to move it. Drag a guide out of the image to delete it; you can always drag another guide into the image. You can even use multiple guides at the same time."
+msgstr ""
+
+#: en/gimp-image-window.html:138(p)
+msgid "<span class=\"emphasis\"><em>QuickMask Toggle:</em></span> The small button in the lower left corner of the image toggles the Quick Mask on and off. When the Quick Mask is on, the button is outlined in red. See <a class=\"link\" href=\"gimp-channel-dialog.html#gimp-qmask\" title=\"2.2.4.&#xA0;Quick Mask\">QuickMask</a> for more details on this highly useful tool."
+msgstr ""
+
+#: en/gimp-image-window.html:147(p)
+msgid "<span class=\"emphasis\"><em>Pointer Coordinates:</em></span> When the pointer (mouse cursor, if you are using a mouse) is within the image boundaries, the rectangular area in the lower left corner of the window displays the current pointer coordinates. The units are the same as for the rulers."
+msgstr ""
+
+#: en/gimp-image-window.html:156(p)
+msgid "<span class=\"emphasis\"><em>Units Menu:</em></span> Use the Units Menu to change the units used for rulers and several other purposes. The default unit is pixels, but you can quickly change to inches, cm, or several other possibilities using this menu. Note that the setting of <span class=\"quote\">“<span class=\"quote\">Dot for dot</span>”</span> in the View menu affects how the display is scaled: see <a class=\"link\" href=\"gimp-view-dot-for-dot.html\" title=\"5.3.&#xA0;Dot for Dot\">Dot for Dot</a> for more information."
+msgstr ""
+
+#: en/gimp-image-window.html:169(p)
+msgid "<span class=\"emphasis\"><em>Zoom Button:</em></span> There are a number of ways to zoom the image in or out, but the Zoom Button is perhaps the simplest. With GIMP-2.6, you can directly enter a zoom level in the text box for very fine control."
+msgstr ""
+
+#: en/gimp-image-window.html:178(p)
+msgid "<span class=\"emphasis\"><em>Status Area:</em></span> The Status Area is at the bottom of the image window. By default, the Status Area displays the active part of the image, and the amount of system memory used by the image.Use <span class=\"guimenu\">Edit</span> → <span class=\"guisubmenu\">Preferences</span> → <span class=\"guimenuitem\">Image Windows</span> → <span class=\"guimenuitem\">Title &amp; Status</span> to customize the information displayed in the Status Area. During time-consuming operations, the status area temporarily shows the running operation and how complete the operation is."
+msgstr ""
+
+#: en/gimp-image-window.html:188(div:title) en/gimp-image-window.html:194(th) en/gimp-image-window.html:220(div:title) en/gimp-image-window.html:226(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-image-window.html:192(img:alt) en/gimp-image-window.html:224(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-image-window.html:198(p)
+msgid "Note that the memory used by the image is very different from the image file size. For instance, a 70Kb .PNG image may occupy 246Kb in memory when displayed. There are two primary reasons the difference in memory usage. First, a .PNG file is compressed format, and the image is reconstituted in memory in uncompressed form. Second, <acronym class=\"acronym\">GIMP</acronym> uses extra memory, and copies of the image, for use by the Undo command."
+msgstr ""
+
+#: en/gimp-image-window.html:214(p)
+msgid "<span class=\"emphasis\"><em>Cancel Button:</em></span> During complex time-consuming operations, usually a plug-in, a Cancel button temporarily appears in the lower right corner of the window. Use the Cancel button to stop the operation."
+msgstr ""
+
+#: en/gimp-image-window.html:230(p)
+msgid "A few plug-ins respond badly to being canceled, sometimes leaving corrupted pieces of images behind."
+msgstr ""
+
+#: en/gimp-image-window.html:242(p)
+msgid "<span class=\"emphasis\"><em>Navigation Control:</em></span> This is a small cross-shaped button at the lower right corner of the image display. Click and hold (do not release the mouse button) on the navigation control to display the Navigation Preview. The Navigation Preview has a miniature view of the image with the displayed area outlined. Use the Navigation Preview To quickly pan to a different part of the image—move the mouse while keeping the button depressed. The Navigation Window is often the most convenient way to quickly navigate around a large image with only a small portion displayed. (See <a class=\"link\" href=\"gimp-navigation-dialog.html\" title=\"2.6.&#xA0;Navigation Dialog\">Navigation Dialog</a> for other ways to access the Navigation Window). (If your mouse has a middle-button, click-drag with it to pan across the image)."
+msgstr ""
+
+#: en/gimp-image-window.html:260(p)
+msgid "<span class=\"emphasis\"><em>Inactive Padding Area:</em></span> This padding area separates the active image display and the inactive padding area, so you're able to distinguish between them. You cannot apply any Filters or Operations in general to the inactive area."
+msgstr ""
+
+#: en/gimp-image-window.html:269(p)
+msgid "<span class=\"emphasis\"><em>Image Display:</em></span> The most important part of the image window is, of course, the image display or canvas. It occupies the central area of the window, surrounded by a yellow dotted line showing the image boundary, against a neutral gray background. You can change the zoom level of the image display in a variety of ways, including the Zoom setting described below."
+msgstr ""
+
+#: en/gimp-image-window.html:281(p)
+msgid "<span class=\"emphasis\"><em>Image Window Resize Toggle:</em></span> Without enabling this feature, if you change the size of the image window, the image size and zoom does not change. If you make the window larger, for example, then you will see more of the image. If this button is pressed, however, the image resizes when the window resizes so that (mostly) the same portion of the image is displayed before and after the window is resized."
+msgstr ""
+
+#: en/gimp-image-window.html:293(div:title) en/gimp-image-window.html:299(th)
+msgid "Tip"
+msgstr ""
+
+#: en/gimp-image-window.html:297(img:alt)
+msgid "[Tip]"
+msgstr ""
+
+#: en/gimp-image-window.html:303(p)
+msgid "Drag and drop an image into the Toolbox window to open the image in its own Image window. This is very different than dragging an image into an existing Image window, which adds it to the currently open image in a new layer—usually not what you want."
+msgstr ""
+
+#: en/gimp-image-window.html:318(p)
+msgid "<sup>[<a id=\"ftn.id3170550\" href=\"#id3170550\" class=\"para\">1</a>] </sup> Users with an Apple Macintosh and a one button mouse can use <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"mousebutton\">mousebutton</span> instead."
+msgstr ""
+
+#: en/gimp-image-window.html:332(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-image-window.html:338(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-image-window.html:341(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-image-window.html:344(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

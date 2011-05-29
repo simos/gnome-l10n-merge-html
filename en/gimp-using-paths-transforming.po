@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-paths-transforming.html:6(title) en/gimp-using-paths-transforming.html:21(th) en/gimp-using-paths-transforming.html:34(div:title)
+msgid "5.4. Transforming Paths"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:13(link:title)
+msgid "5.  Paths"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:14(link:title) en/gimp-using-paths-transforming.html:81(a)
+msgid "5.3. Paths and Selections"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:15(link:title) en/gimp-using-paths-transforming.html:87(a)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:24(img:alt) en/gimp-using-paths-transforming.html:72(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:24(td) en/gimp-using-paths-transforming.html:72(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-paths-and-selections.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:27(span)
+msgid "Paths"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:25(th)
+msgid "5.  <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:29(img:alt) en/gimp-using-paths-transforming.html:78(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:29(td) en/gimp-using-paths-transforming.html:78(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-paths-stroking.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:38(h3)
+msgid "<a id=\"gimp-using-paths-transforming\"/>5.4. Transforming Paths"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:42(p)
+msgid "Each of the Transform tools (Rotate, Scale, Perspective, etc) can be set to act on a layer, selection, or path. Select the transform tool in the toolbox, then select layer, selection, or path for the <span class=\"quote\">“<span class=\"quote\">Transform:</span>”</span> option in the tool's Tool Options dialog. This gives you a powerful set of methods for altering the shapes of paths without affecting other elements of the image."
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:51(p)
+msgid "By default a Transform tool, when it is set to affect paths, acts on only one path: the <span class=\"emphasis\"><em>active path</em></span> for the image, which is shown highlighted in the Paths dialog. You can make a transformation affect more than one path, and possibly other things as well, using the <span class=\"quote\">“<span class=\"quote\">transform lock</span>”</span> buttons in the Paths dialog. Not only paths, but also layers and channels, can be transform-locked. If you transform one element that is transform-locked, all others will be transformed in the same way. So, for example, if you want to scale a layer and a path by the same amount, click the transform-lock buttons so that <span class=\"quote\">“<span class=\"quote\">chain</span>”</span> symbols appear next to the layer in the Layers dialog, and the path in the Paths dialog; then use the Scale tool on either the layer or the path, and the other will automatically follow."
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:75(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:81(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:84(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-paths-transforming.html:87(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

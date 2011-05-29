@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-introduction-whats-new.html:6(title) en/gimp-introduction-whats-new.html:21(th) en/gimp-introduction-whats-new.html:31(div:title)
+msgid "2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:13(link:title) en/gimp-introduction-whats-new.html:14(link:title) en/gimp-introduction-whats-new.html:25(th) en/gimp-introduction-whats-new.html:493(a)
+msgid "Chapter 1. Introduction"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:15(link:title) en/gimp-introduction-whats-new.html:499(a)
+msgid "Chapter 2. Fire up the GIMP"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:24(img:alt) en/gimp-introduction-whats-new.html:484(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:24(td) en/gimp-introduction-whats-new.html:484(td)
+msgid "<a accesskey=\"p\" href=\"introduction.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:26(img:alt) en/gimp-introduction-whats-new.html:490(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:26(td) en/gimp-introduction-whats-new.html:490(td)
+msgid " <a accesskey=\"n\" href=\"gimp-fire-up.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:35(h2)
+msgid "<a id=\"gimp-introduction-whats-new\"/>2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:39(p)
+msgid "GIMP 2.6 is an important release from a development point of view. It features changes to the user interface addressing some often received complaints, and a tentative integration of GEGL, the graph based image processing library that will eventually bring high bit-depth and non-destructive editing to GIMP."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:46(div:title) en/gimp-introduction-whats-new.html:48(b)
+msgid "User Interface"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:52(span)
+msgid "Toolbox Menubar removed"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:55(p)
+msgid "The toolbox menubar has been removed and merged with the image window menubar. To be able to do this a window called the empty image window has been introduced. It hosts the menubar and keeps the application instance alive when no images are opened. It also acts as a drag and drop target. When opening the first image the empty image window is transformed into a normal image window, and when closing the last image, that window becomes the empty image window."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:68(b)
+msgid "Figure 1.1. New Look of the image window in GIMP 2.6"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:72(img:alt)
+msgid "New Look of the image window in GIMP 2.6"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:79(span)
+msgid "Toolbox and docks are utility windows"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:82(p)
+msgid "With the empty image window acting as a natural main window, the Toolbox and Docks windows are now utility windows rather than main windows. This enables window managers to do a much better job of managing the GIMP windows, including omitting the Toolbox and Docks from the taskbar and ensuring that the Toolbox and Docks always are above image windows."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:92(span)
+msgid "Ability to scroll beyond image border"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:95(p)
+msgid "The Navigation dialog now allows panning beyond the image border; so it is no longer a problem to use a brush on the edge of an image that fills the entire display window. Also, if a utility window covers the image, you can pan the image to view or edit the portion covered by the utility window."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:105(b)
+msgid "Figure 1.2. Scrolling beyond border"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:109(img:alt)
+msgid "Scrolling beyond border"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:116(span) en/gimp-introduction-whats-new.html:227(span) en/gimp-introduction-whats-new.html:404(span)
+msgid "Minor changes"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:122(p)
+msgid "Renamed Dialogs menu to Windows."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:127(p)
+msgid "Keep a list of recently closed Docks and allow reopening them."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:132(p)
+msgid "Make opening images in already running GIMP instances work better on Windows."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:138(p)
+msgid "You can now enter the image zoom ratio directly in the status bar."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:143(p)
+msgid "Added support for using online help instead of a locally installed GIMP Help package."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:149(p)
+msgid "Make it possible to lock tabs in docks to prevent accidental moving."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:159(div:title) en/gimp-introduction-whats-new.html:161(b)
+msgid "Tools, Filters and Plug-ins"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:165(span)
+msgid "Improved Free Select Tool"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:168(p)
+msgid "The freehand select tool has been enhanced to support polygonal selections. It also allows mixing free hand segments with polygonal segments, editing of existing segments, applying angle-constraints to segments, and of course the normal selection tool operations like add and subtract. Altogether this ends up making the Free Select Tool a very versatile, powerful and easy-to-use selection tool."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:180(b)
+msgid "Figure 1.3. Polygonal Selection"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:184(img:alt)
+msgid "Polygonal Selection"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:191(span) en/gimp-introduction-whats-new.html:209(img:alt)
+msgid "Brush Dynamics"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:194(p)
+msgid "Brush dynamics uses an input dynamic such as pressure, velocity, or random, to modify brush parameters such as opacity, hardness, size, or color; every brush supports size and opacity, most support more. Velocity and random are usable with a mouse. The Ink tool, that supported velocity, has been overhauled to better handle velocity-dependent painting."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:205(b)
+msgid "Figure 1.4. Brush Dynamics"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:214(p)
+msgid "Brush dynamics have enabled a new feature in stroking paths. There is now a check box under the <span class=\"quote\">“<span class=\"quote\">paint tool</span>”</span> option, for emulating brush dynamics if you stroke using a paint tool. What this means is that when your stroke is painted, GIMP tells the brush that the pressure and velocity are varying along the length of the stroke. Pressure starts with no pressure, ramps up to full pressure, and then ramps down again to no pressure. Velocity starts from zero and ramps up to full speed by the end of the stroke."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:233(p)
+msgid "Added a bounding box for the Text Tool that supports automatic wrapping of text within that bounding box."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:240(b)
+msgid "Figure 1.5. Text tool bounding box"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:244(img:alt)
+msgid "Text tool bounding box"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:251(p)
+msgid "Move handles for rectangle based tools like Crop and Rectangle Select to the outside of the rectangle when the rectangle is narrow."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:259(b)
+msgid "Figure 1.6. Rectangle handles"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:263(img:alt)
+msgid "Rectangle handles"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:270(p)
+msgid "Added motion constraints to the Move Tool."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:275(p)
+msgid "Improved event smoothing for paint tools."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:280(p)
+msgid "Mark the center of rectangles while they are moved, and snap the center to grid and rulers."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:286(p)
+msgid "Enable brush scaling for the Smudge tool."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:291(p)
+msgid "Added ability to save presets in all color tools for color adjustments you use frequently."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:297(p)
+msgid "Allow to transfer settings from <span class=\"emphasis\"><em>Brightness-Contrast </em></span> to <span class=\"emphasis\"><em>Levels</em></span>, and from <span class=\"emphasis\"><em>Levels</em></span> to <span class=\"emphasis\"><em>Curves</em></span>."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:304(p)
+msgid "Allow changing opacity on transform tool previews."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:309(p)
+msgid "The Screenshot plug-in has been given the ability to capture the mouse cursor (using Xfixes)."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:315(p)
+msgid "Display aspect ratio of the Crop and Rectangle Select Tool rectangles in the status bar."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:321(p)
+msgid "Desaturate has been given an on-canvas preview."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:326(p)
+msgid "The Flame plug-in has been extended with 22 new variations."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:331(p)
+msgid "Data file folders like brush folders are searched recursively for files."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:337(p)
+msgid "Replaced the PSD import plug-in with a rewritten version that does what the old version did plus some other things, for example reading of ICC color profiles."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:344(p)
+msgid "Several displays use Cairo library."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:348(b)
+msgid "Figure 1.7. Comparing 2.6 display vs 2.4"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:352(img:alt)
+msgid "Comparing 2.6 display vs 2.4"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:363(div:title) en/gimp-introduction-whats-new.html:365(b)
+msgid "Under the Hood"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:369(span)
+msgid "GEGL"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:372(p)
+msgid "Important progress towards high bit-depth and non-destructive editing in GIMP has been made. Most color operations in GIMP are now ported to the powerful graph based image processing framework GEGL <a class=\"xref\" href=\"bibliography.html#bibliography-online-gegl\" title=\"GEGL (Generic Graphics Library)\">[<abbr class=\"abbrev\">GEGL</abbr>]</a>, meaning that the internal processing is done in 32bit floating point linear light RGBA. By default the legacy 8bit code paths are still used, but a curious user can turn on the use of GEGL for the color operations with <a class=\"link\" href=\"gimp-config-use-gegl.html\" title=\"8.5.&#xA0;Use GEGL\">Colors / Use GEGL</a>."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:383(p)
+msgid "In addition to porting color operations to GEGL, an experimental GEGL Operation tool has been added, found in the Tools menu. It enables applying GEGL operations to an image and it gives on-canvas previews of the results. The screenshot below shows this for a Gaussian Blur."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:393(b)
+msgid "Figure 1.8. GEGL operation"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:397(img:alt)
+msgid "GEGL operation"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:407(p)
+msgid "Ported many widgets to use the 2D graphics library cairo <a class=\"xref\" href=\"bibliography.html#bibliography-online-cairo\" title=\"Cairo\">[<abbr class=\"abbrev\">CAIRO</abbr>]</a> for drawing. See this <a class=\"link\" href=\"gimp-introduction-whats-new.html#gimp-cairo-2-4-vs-2-6\" title=\"Figure&#xA0;1.7.&#xA0;Comparing 2.6 display vs 2.4\">comparison</a> for an example of how much better this looks."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:416(div:title) en/gimp-introduction-whats-new.html:418(b)
+msgid "Miscellaneous"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:422(span)
+msgid "Plug-in Development"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:425(p)
+msgid "There are new things for a plug-in developer to enjoy as well. For example, procedures can now give a detailed error description in case of an error, and the error can be propagated to the user."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:431(p)
+msgid "GIMP 2.6 also further enhances its scripting abilities. In particular there is now a much richer API for the creation and manipulation of text layers. Here is a list of new symbols in GIMP 2.6: <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-dev-new\" title=\"List of new symbols in GIMP 2.6\">[<abbr class=\"abbrev\">GIMP-NEWSYM26</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:439(span)
+msgid "Backwards Compatibility"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:442(p)
+msgid "Some old scripts could not be used with GIMP-2.4. This has been improved and 2.6 should run 2.0 and 2.2 scripts."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:448(span)
+msgid "Known Problems"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:454(p)
+msgid "The Utility window hint is currently only known to work well in the Linux GNOME desktop environment and on Windows starting with GIMP 2.6.1."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:461(p)
+msgid "Using the Text Tool is currently not an optimal experience. Making it work better is a goal for GIMP 2.8."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:467(p)
+msgid "If you build GIMP yourself and don't have GVfs support on your platform you need to explicitly pass <code class=\"option\">--without-gvfs</code> to <span class=\"command\"><strong>configure</strong></span>, otherwise opening remote files will not work properly."
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:487(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:493(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:496(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-introduction-whats-new.html:499(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

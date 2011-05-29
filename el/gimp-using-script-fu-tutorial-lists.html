@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3.3. Λίστες, λίστες και πάλι λίστες</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. Διδακτική ενός Script-Fu" />
+<link rel="prev" href="gimp-using-script-fu-tutorial-identifier.html" title="3.2. Μεταβλητές και συναρτήσεις" />
+<link rel="next" href="gimp-using-script-fu-tutorial-first-script.html" title="3.4. Το πρώτο σας σενάριο Script-Fu" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3.3. Λίστες, λίστες και πάλι λίστες</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">3. Διδακτική ενός Script-Fu</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="3.3. Λίστες, λίστες και πάλι λίστες">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-script-fu-tutorial-lists"></a>3.3. Λίστες, λίστες και πάλι λίστες</h3>
+</div>
+</div>
+</div>
+<p>
+Εκπαιδευτήκατε σε μεταβλητές και συναρτήσεις και τώρα εισαγωγή στο σκοτεινό βούρκο των λιστών Scheme.
+</p>
+<div class="sect3" title="3.3.1. Ορισμός μιας λίστας">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3228169"></a>3.3.1. Ορισμός μιας λίστας</h4>
+</div>
+</div>
+</div>
+<p>
+Πριν μιλήσουμε περισσότερο για λίστες, είναι ανάγκη να ξέρετε τη διαφορά μεταξύ ατομικών τιμών και λιστών.
+</p>
+<p>
+Είδατε ήδη ατομικές τιμές, όταν αρχικοποιήσαμε τις μεταβλητές στο προηγούμενο μάθημα. Μια ατομική τιμή είναι
+μια μοναδική τιμή. Έτσι, π.χ., μπορούμε να αποδώσουμε στη μεταβλητή 
+<span class="quote">“<span class="quote"><code class="varname">x</code></span>”</span> τη μοναδική τιμή 8
+στην παρακάτω πρόταση:
+</p>
+<pre class="programlisting">(let* ( (x 8) ) x)</pre>
+<p>
+(Προσθέσαμε την έκφραση <code class="varname">x</code> στο τέλος για να τυπώσετε την τιμή που αποδόθηκε στο
+<code class="varname">x</code> — κανονικά δεν χρειάζεται να το κάνετε. Σημειώστε πώς το <code class="code">let*</code>
+λειτουργεί όπως μια συνάρτηση: Η τιμή της τελευταίας πρότασης είναι η επιστρεφόμενη τιμή).
+</p>
+<p>
+Μια μεταβλητή μπορεί επίσης να αναφέρεται σε μια λίστα τιμών, παρά σε μια μοναδική τιμή. Για να αποδοθεί στη
+μεταβλητή <code class="varname">x</code> η λίστα των τιμών 1, 3, 5, γράψαμε:
+</p>
+<pre class="programlisting">(let* ( (x '(1 3 5))) x)</pre>
+<p>
+Προσπαθήστε να γράψετε και τις δύο προτάσεις στην κονσόλα Script-Fu και σημειώστε πώς ανταποκρίνεται. Όταν
+γράφετε την πρώτη πρόταση, απαντά απλά με το αποτέλεσμα:
+</p>
+<pre class="programlisting">8</pre>
+<p>
+Όμως, όταν γράφετε την άλλη πρόταση, απαντά με το παρακάτω αποτέλεσμα:
+</p>
+<pre class="programlisting">(1 3 5)</pre>
+<p>
+Όταν απαντά με την τιμή 8 σας πληροφορεί ότι το <code class="varname">x</code> περιέχει την ατομική τιμή 8.
+Όμως, όταν απαντά με <code class="computeroutput">(1 3 5)</code>, τότε σας πληροφορεί ότι το
+<code class="varname">x</code> περιέχει όχι μια μοναδική τιμή, αλλά μια λίστα τιμών. Σημειώστε πώς δεν υπάρχουν
+κόμματα στη δήλωση μας, ή εκχώρηση της λίστας ούτε στο τυπωμένο αποτέλεσμα.
+</p>
+<p>Η σύνταξη για τον ορισμό μιας λίστας είναι:</p>
+<pre class="programlisting">'(a b c)</pre>
+<p>
+όπου <code class="varname">a</code>, <code class="varname">b</code> και <code class="varname">c</code> είναι
+κυριολεκτικά. Χρησιμοποιούμε την απόστροφο (<code class="code">'</code>) για να δείξουμε ότι αυτό που ακολουθεί
+στις παρενθέσεις είναι μια λίστα κυριολεκτικών τιμών, παρά μια συνάρτηση ή έκφραση.
+</p>
+<p>Μια άδεια λίστα μπορεί να οριστεί ως τέτοια:</p>
+<pre class="programlisting">'()</pre>
+<p>ή απλά:</p>
+<pre class="programlisting">()</pre>
+<p>Οι λίστες μπορεί να περιέχουν ατομικές τιμές καθώς και άλλες λίστες:</p>
+<pre class="programlisting">
+(let*
+(
+(x
+'("GIMP" (1 2 3) ("is" ("great" () ) ) )
+)
+)
+x
+)
+</pre>
+<p>
+Σημειώστε ότι μετά την πρώτη απόστροφο, δεν χρειάζεται πια να χρησιμοποιήσετε μια απόστροφο, όταν ορίζετε τις
+εσωτερικές λίστες. Συνεχίστε και αντιγράψτε την πρόταση στην κονσόλα Script-Fu και δείτε τι επιστρέφει.
+</p>
+<p>
+Πρέπει να σημειώσετε ότι το επιστρεφόμενο αποτέλεσμα δεν είναι λίστα μοναδικών ατομικών τιμών, αλλά μάλλον μια
+λίστα κυριολεκτικών <code class="code">("The GIMP")</code>, η λίστα <code class="code">(1 2 3)</code>, κλ.
+</p>
+</div>
+<div class="sect3" title="3.3.2. How To Think Of Lists">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3171467"></a>3.3.2. Η έννοια των λιστών</h4>
+</div>
+</div>
+</div>
+<p>
+Είναι χρήσιμο να σκεφτόσαστε τις λίστες ότι συντίθενται από ένα <span class="quote">“<span class="quote">κεφάλι</span>”</span>
+και μία <span class="quote">“<span class="quote">ουρά</span>”</span>. Το κεφάλι είναι το πρώτο στοιχείο της
+λίστας, η ουρά το υπόλοιπο της λίστας. Θα δείτε γιατί είναι σημαντικό, όταν συζητήσουμε για την προσθήκη λιστών
+και την πρόσβαση στοιχείων στη λίστα.
+</p>
+</div>
+<div class="sect3" title="3.3.3. Creating Lists Through Concatenation (The Cons Function)">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3192073"></a>3.3.3. Δημιουργία λιστών με συνένωση (Η συνάρτηση Cons)</h4>
+</div>
+</div>
+</div>
+<p>
+Μια από τις πιο κοινές συναρτήσεις που θα συναντάτε είναι η συνάρτηση cons. Παίρνει μια τιμή και την τοποθετεί
+στο δεύτερο της όρισμα, μια λίστα. Στην προηγούμενη ενότητα, προτάθηκε να θεωρείτε τη λίστα ως αποτελούμενη από
+ένα στοιχείο (το κεφάλι) και το υπόλοιπο (την ουρά). Έτσι ακριβώς λειτουργούν οι συναρτήσεις cons — προσθέτουν
+ένα στοιχείο στο κεφάλι της λίστας. Έτσι, θα μπορούσατε να δημιουργήσετε μια λίστα ως εξής:
+</p>
+<pre class="programlisting">(cons 1 '(2 3 4) )</pre>
+<p>Το αποτέλεσμα είναι η λίστα <code class="code">(1 2 3 4)</code>.</p>
+<p>Θα μπορούσατε επίσης να δημιουργήσετε μια λίστα με ένα στοιχείο:</p>
+<pre class="programlisting">(cons 1 () )</pre>
+<p>
+Μπορείτε να χρησιμοποιήσετε προηγούμενα δηλωμένες μεταβλητές στη θέση κάθε κυριολεκτικού, όπως θα περιμένατε. 
+</p>
+</div>
+<div class="sect3" title="3.3.4. Ορισμός μιας λίστας χρησιμοποιώντας τη συνάρτηση list">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3193397"></a>3.3.4. Ορισμός μιας λίστας χρησιμοποιώντας τη συνάρτηση <code class="code">list</code></h4>
+</div>
+</div>
+</div>
+<p>
+Για να ορίσετε μια λίστα αποτελούμενη από κυριολεκτικά ή προηγουμένως δηλωμένες μεταβλητές, χρησιμοποιείστε
+την συνάρτηση <code class="function">list</code>:
+</p>
+<pre class="programlisting">(list 5 4 3 a b c)</pre>
+<p>
+Αυτό θα συνθέσει και θα επιστρέψει μια λίστα που περιέχει τις τιμές των μεταβλητών
+<code class="varname">a</code>, <code class="varname">b</code> και <code class="varname">c</code>. Π.χ.:
+</p>
+<pre class="programlisting">
+(let*  (
+(a 1)
+(b 2)
+(c 3)
+)
+
+(list 5 4 3 a b c)
+)
+</pre>
+<p>
+This code creates the list <code class="code">(5 4 3 1 2 3)</code>.
+</p>
+</div>
+<div class="sect3" title="3.3.5. Πρόσβαση τιμών σε μια λίστα">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3200704"></a>3.3.5. Πρόσβαση τιμών σε μια λίστα</h4>
+</div>
+</div>
+</div>
+<p>
+Για την πρόσβαση τιμών σε μία λίστα, χρησιμοποιήστε τις συναρτήσεις <code class="function">car</code> και
+<code class="function">cdr</code>, που επιστρέφουν το πρώτο στοιχείο της λίστας και το υπόλοιπο της λίστας,
+αντίστοιχα. Αυτές οι συναρτήσεις σπάνε τη λίστα σε δομή head::tail (κεφάλι::ουρά), όπως αναφέρθηκε πιο πάνω.
+</p>
+</div>
+<div class="sect3" title="3.3.6. Η συνάρτηση car">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3225031"></a>3.3.6. Η συνάρτηση <code class="function">car</code></h4>
+</div>
+</div>
+</div>
+<p>
+Η <code class="function">car</code> επιστρέφει το πρώτο στοιχείο της λίστας (το κεφάλι της λίστας). Η λίστα
+χρειάζεται να είναι μη μηδενική. Έτσι, το παρακάτω επιστρέφει το πρώτο στοιχείο της λίστας:
+</p>
+<pre class="programlisting">(car '("first" 2 "third"))</pre>
+<p>που είναι:</p>
+<pre class="programlisting">"first"</pre>
+</div>
+<div class="sect3" title="3.3.7. Η συνάρτηση cdr">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3203517"></a>3.3.7. Η συνάρτηση <code class="function">cdr</code></h4>
+</div>
+</div>
+</div>
+<p>
+Η <code class="function">cdr</code> επιστρέφει το υπόλοιπο της λίστας μετά το πρώτο στοιχείο (την ουρά της λίστας).
+Εάν υπάρχει μόνο ένα στοιχείο στη λίστα, επιστρέφει μια άδεια λίστα.
+</p>
+<pre class="programlisting">(cdr '("first" 2 "third"))</pre>
+<p>Επιστρέφει:</p>
+<pre class="programlisting">(2 "third")</pre>
+<p>ενώ το εξής:</p>
+<pre class="programlisting">(cdr '("one and only"))</pre>
+<p>επιστρέφει:</p>
+<pre class="programlisting">()</pre>
+</div>
+<div class="sect3" title="3.3.8. Πρόσβαση άλλων στοιχείων μιας λίστας">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3216392"></a>3.3.8. Πρόσβαση άλλων στοιχείων μιας λίστας</h4>
+</div>
+</div>
+</div>
+<p>
+Εντάξει, μπορούμε να πάρουμε το πρώτο στοιχείο μιας λίστας, καθώς και το υπόλοιπο μιας λίστας, αλλά πώς
+προσπελάζουμε το δεύτερο, το τρίτο ή άλλα στοιχεία της λίστας; Υπάρχουν αρκετές κατάλληλες συναρτήσεις, π.χ.,
+το κεφάλι του κεφαλιού της ουράς της λίστας (<code class="code">caadr</code>), την ουρά της ουράς της λίστας
+(<code class="code">cddr</code>), κλ.
+</p>
+<p>
+Η βασική συμβατική ονοματολογία είναι απλή: τα a και τα d αναπαριστούν τα κεφάλια και τις ουρές, έτσι
+</p>
+<pre class="programlisting">(car (cdr (car x) ) )</pre>
+<p>θα μπορούσε να γραφεί ως:</p>
+<pre class="programlisting">(cadar x)</pre>
+<p>
+Για εξάσκηση με συναρτήσεις που προσπελάζουν λίστες, προσπαθήστε να γράψετε τα εξής (όλα σε μια γραμμή, εάν
+εάν χρησιμοποιείται κονσόλα). Χρησιμοποιείστε διάφορες παραλλαγές του <code class="function">car</code> και
+<code class="function">cdr</code> για να προσπελάσετε τα διάφορα στοιχεία της λίστας:
+</p>
+<pre class="programlisting">
+(let* (
+(x  '( (1 2 (3 4 5) 6)  7  8  (9 10) )
+)
+)
+; τοποθετήστε τον κώδικα σας car/cdr εδώ
+)
+</pre>
+<p>
+Προσπαθήστε πρόσβαση στον αριθμό 3 στη λίστα, χρησιμοποιώντας μόνο δύο κλήσεις συναρτήσεων. Εάν μπορείτε να το 
+κάνετε, είστε στο σωστό δρόμο για να γίνεται ειδικός στο Script-Fu!
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Στο Scheme, ένα semicolon (<code class="code">;</code>) (ελληνικό ερωτηματικό) δείχνει σχόλιο. Αυτό και καθετί
+που ακολουθεί στην ίδια γραμμή, αγνοούνται από τον ερμηνευτή σεναρίου, έτσι μπορείτε να το χρησιμοποιήσετε 
+για να προσθέσετε σχόλια στο για να ενισχύσετε την μνήμη σας, όταν κοιτάτε στο σενάριο αργότερα.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html">3.2. Μεταβλητές και συναρτήσεις</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html">3.4. Το πρώτο σας σενάριο Script-Fu</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

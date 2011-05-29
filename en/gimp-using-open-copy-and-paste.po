@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-open-copy-and-paste.html:6(title) en/gimp-using-open-copy-and-paste.html:21(th) en/gimp-using-open-copy-and-paste.html:31(div:title)
+msgid "3.7. Copy and Paste"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:13(link:title) en/gimp-using-open-copy-and-paste.html:25(th)
+msgid "3. Opening Files"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:14(link:title) en/gimp-using-open-copy-and-paste.html:70(a)
+msgid "3.6. Drag and Drop"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:15(link:title) en/gimp-using-open-copy-and-paste.html:76(a)
+msgid "3.8. Image Browser"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:24(img:alt) en/gimp-using-open-copy-and-paste.html:61(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:24(td) en/gimp-using-open-copy-and-paste.html:61(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-drag-and-drop.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:26(img:alt) en/gimp-using-open-copy-and-paste.html:67(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:26(td) en/gimp-using-open-copy-and-paste.html:67(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-image-browser.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:35(h3)
+msgid "<a id=\"gimp-using-open-copy-and-paste\"/>3.7. Copy and Paste"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:39(p)
+msgid "Use <span class=\"guimenu\">File</span> → <span class=\"guisubmenu\">Create</span> → <span class=\"guimenuitem\">From Clipboard</span> to create a new image from the clipboard; alternatively, you can use <span class=\"guimenu\">Edit</span> → <span class=\"guisubmenu\">Past as</span> → <span class=\"guimenuitem\">New image</span>. Many applications support copying an image to the clipboard that can then be pasted into <acronym class=\"acronym\">GIMP</acronym>. Many operating systems support copying screens to the clipboard. <span class=\"keycap\"><strong>Print Screen</strong></span> typically copies the screen to the clipboard, and <span class=\"keycap\"><strong>ALT</strong></span>+<span class=\"keycap\"><strong>Print Screen</strong></span> copies only the active window. Print screen is not universally supported, and just because your operating system can copy an image to the clipboard, does not mean that <acronym class=\"acronym\">GIMP</acronym> can use the image from the clipboard. Your best bet is to try it and see if it works."
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:64(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:70(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:73(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-open-copy-and-paste.html:76(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

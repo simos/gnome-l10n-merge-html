@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:6(title) en/gimp-using-script-fu-tutorial-extending-text-box.html:21(th) en/gimp-using-script-fu-tutorial-extending-text-box.html:31(div:title)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:13(link:title) en/gimp-using-script-fu-tutorial-extending-text-box.html:25(th)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:14(link:title) en/gimp-using-script-fu-tutorial-extending-text-box.html:267(a)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:15(link:title) en/gimp-using-script-fu-tutorial-extending-text-box.html:273(a)
+msgid "3.7. Your script and its working"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:24(img:alt) en/gimp-using-script-fu-tutorial-extending-text-box.html:258(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:24(td) en/gimp-using-script-fu-tutorial-extending-text-box.html:258(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-script.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:26(img:alt) en/gimp-using-script-fu-tutorial-extending-text-box.html:264(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:26(td) en/gimp-using-script-fu-tutorial-extending-text-box.html:264(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-result.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-extending-text-box\"/>3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:39(div:title)
+msgid "3.6.1. Handling Undo Correctly"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:43(h4)
+msgid "<a id=\"id3236467\"/>3.6.1. Handling Undo Correctly"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:47(p)
+msgid "When creating a script, you want to give your users the ability to undo their actions, should they make a mistake. This is easily accomplished by calling the functions <code class=\"function\">gimp-undo-push-group-start</code> and <code class=\"function\">gimp-undo-push-group-end</code> around the code that manipulates the image. You can think of them as matched statements that let <acronym class=\"acronym\">GIMP</acronym> know when to start and stop recording manipulations on the image, so that those manipulations can later be undone."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:58(p)
+msgid "If you are creating a new image entirely, it doesn't make sense to use these functions because you're not changing an existing image. However, when you are changing an existing image, you most surely want to use these functions."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:64(p)
+msgid "Undoing a script works nearly flawlessly when using these functions."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:68(div:title)
+msgid "3.6.2. Extending The Script A Little More"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:72(h4)
+msgid "<a id=\"id3230256\"/>3.6.2. Extending The Script A Little More"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:76(p)
+msgid "Now that we have a very handy-dandy script to create text boxes, let's add two features to it:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:83(p)
+msgid "Currently, the image is resized to fit exactly around the text — there's no room for anything, like drop shadows or special effects (even though many scripts will automatically resize the image as necessary). Let's add a buffer around the text, and even let the user specify how much buffer to add as a percentage of the size of the resultant text."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:93(p)
+msgid "This script could easily be used in other scripts that work with text. Let's extend it so that it returns the image and the layers, so other scripts can call this script and use the image and layers we create."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:103(div:title)
+msgid "3.6.3.  Modifying The Parameters And The Registration Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:107(h4)
+msgid "<a id=\"id3211419\"/>3.6.3.  Modifying The Parameters And The Registration Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:113(p)
+msgid "To let the user specify the amount of buffer, we'll add a parameter to our function and the registration function:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:117(pre)
+#, no-wrap
+msgid "\n  (define (script-fu-text-box inTest inFont inFontSize inTextColor inBufferAmount)\n  (let*\n        (\n           ; define our local variables\n           ; create a new image:\n           (theImageWidth  10)\n           (theImageHeight 10)\n           (theImage (car\n                          (gimp-image-new\n                           theImageWidth\n                           theImageHeight\n                           RGB\n                          )\n                     )\n           )\n           (theText)          ;a declaration for the text\n                              ;we create later\n\n           (theBuffer)        ;<span class=\"emphasis\"><em>added</em></span>\n\n           (theLayer\n                     (car\n                         (gimp-layer-new\n                          theImage\n                          theImageWidth\n                          theImageHeight\n                          RGB-IMAGE\n                          \"layer 1\"\n                          100\n                          NORMAL\n                         )\n                     )\n           )\n        ) ;end of our local variables\n\n   <em class=\"replaceable\"><code>[Code here]</code></em>\n )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:156(pre)
+#, no-wrap
+msgid "\n  (script-fu-register\n    \"script-fu-text-box\"                        ;func name\n    \"Text Box\"                                  ;menu label\n    \"Creates a simple text box, sized to fit\\\n      around the user's choice of text,\\\n      font, font size, and color.\"              ;description\n    \"Michael Terry\"                             ;author\n    \"copyright 1997, Michael Terry;\\\n      2009, the GIMP Documentation Team\"        ;copyright notice\n    \"October 27, 1997\"                          ;date created\n    \"\"                     ;image type that the script works on\n    SF-STRING      \"Text\"          \"Text Box\"   ;a string variable\n    SF-FONT        \"Font\"          \"Charter\"    ;a font variable\n    SF-ADJUSTMENT  \"Font size\"     '(50 1 1000 1 10 0 1)\n                                                ;a spin-button\n    SF-COLOR       \"Color\"         '(0 0 0)     ;color variable\n    SF-ADJUSTMENT  \"Buffer amount\" '(35 0 100 1 10 1 0)\n                                                ;a slider\n  )\n  (script-fu-menu-register \"script-fu-text-box\" \"&lt;Image&gt;/Font/Create/Text\")\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:179(div:title)
+msgid "3.6.4. Adding The New Code"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:183(h4)
+msgid "<a id=\"id3211572\"/>3.6.4. Adding The New Code"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:187(p)
+msgid "We're going to add code in two places: right before we resize the image, and at the end of the script (to return the new image, the layer and the text)."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:192(p)
+msgid "After we get the text's height and width, we need to resize these values based on the buffer amount specified by the user. We won't do any error checking to make sure it's in the range of 0-100% because it's not life-threatening, and because there's no reason why the user can't enter a value like <span class=\"quote\">“<span class=\"quote\">200</span>”</span> as the percent of buffer to add."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:200(pre)
+#, no-wrap
+msgid "\n        (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n\n        (set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n        (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:206(p)
+msgid "All we're doing here is setting the buffer based on the height of the text, and adding it twice to both the height and width of our new image. (We add it twice to both dimensions because the buffer needs to be added to both sides of the text.)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:212(p)
+msgid "Now that we have resized the image to allow for a buffer, we need to center the text within the image. This is done by moving it to the (x, y) coordinates of (<code class=\"varname\">theBuffer</code>, <code class=\"varname\">theBuffer</code>). I added this line after resizing the layer and the image:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:219(pre)
+#, no-wrap
+msgid "\n        (gimp-layer-set-offsets theText theBuffer theBuffer)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:222(p)
+msgid "Go ahead and save your script, and try it out after refreshing the database."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:226(p)
+msgid "All that is left to do is return our image, the layer, and the text layer. After displaying the image, we add this line:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:230(pre)
+#, no-wrap
+msgid "(list theImage theLayer theText)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:231(p)
+msgid "This is the last line of the function, making this list available to other scripts that want to use it."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:235(p)
+msgid "To use our new text box script in another script, we could write something like the following:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:239(pre)
+#, no-wrap
+msgid "\n        (set! theResult (script-fu-text-box\n                         \"Some text\"\n                         \"Charter\" \"30\"\n                         '(0 0 0)\n                         \"35\"\n                        )\n        )\n        (gimp-image-flatten (car theResult))\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:249(p)
+msgid "Congratulations, you are on your way to your Black Belt of Script-Fu!"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:261(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:267(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:270(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-extending-text-box.html:273(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

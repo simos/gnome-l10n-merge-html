@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/getting-started.html:6(title) el/getting-started.html:20(th)
+msgid "Μέρος I. Ξεκίνημα"
+msgstr ""
+
+#: el/getting-started.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/getting-started.html:12(link:title) el/getting-started.html:13(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/getting-started.html:14(link:title) el/getting-started.html:135(a)
+msgid "Πρόλογος"
+msgstr ""
+
+#: el/getting-started.html:15(link:title) el/getting-started.html:141(a)
+msgid "Κεφάλαιο 1. Εισαγωγή"
+msgstr ""
+
+#: el/getting-started.html:22(img:alt) el/getting-started.html:130(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/getting-started.html:22(td) el/getting-started.html:130(td)
+msgid "<a accesskey=\"p\" href=\"preface.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/getting-started.html:23(th) el/getting-started.html:131(td)
+msgid " "
+msgstr ""
+
+#: el/getting-started.html:24(img:alt) el/getting-started.html:132(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/getting-started.html:24(td) el/getting-started.html:132(td)
+msgid " <a accesskey=\"n\" href=\"introduction.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/getting-started.html:32(h1)
+msgid "<a id=\"getting-started\"/>Μέρος I. Ξεκίνημα"
+msgstr ""
+
+#: el/getting-started.html:36(b)
+msgid "Πίνακας περιεχομένων"
+msgstr ""
+
+#: el/getting-started.html:38(a)
+msgid "1. Εισαγωγή"
+msgstr ""
+
+#: el/getting-started.html:41(a)
+msgid "1. Καλώς ήρθατε στο GIMP"
+msgstr ""
+
+#: el/getting-started.html:44(a)
+msgid "1.1. Συγγραφείς"
+msgstr ""
+
+#: el/getting-started.html:45(a)
+msgid "1.2. Το σύστημα βοήθειας του GIMP"
+msgstr ""
+
+#: el/getting-started.html:46(a)
+msgid "1.3. Χαρακτηριστικά και δυνατότητες"
+msgstr ""
+
+#: el/getting-started.html:49(a)
+msgid "2. Τι είναι Καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/getting-started.html:52(a)
+msgid "2. Εκκίνηση του GIMP"
+msgstr ""
+
+#: el/getting-started.html:55(a)
+msgid "1. Εκτέλεση του GIMP"
+msgstr ""
+
+#: el/getting-started.html:58(a)
+msgid "1.1. Γνωστές πλατφόρμες"
+msgstr ""
+
+#: el/getting-started.html:59(a)
+msgid "1.2. Γλώσσα"
+msgstr ""
+
+#: el/getting-started.html:60(a)
+msgid "1.3. Ορίσματα γραμμής εντολών"
+msgstr ""
+
+#: el/getting-started.html:63(a)
+msgid "2. Ξεκίνημα του GIMP για πρώτη φορά"
+msgstr ""
+
+#: el/getting-started.html:66(a)
+msgid "2.1. Επιτέλους . . ."
+msgstr ""
+
+#: el/getting-started.html:71(a)
+msgid "3. Πρώτα βήματα με τον Wilber"
+msgstr ""
+
+#: el/getting-started.html:74(a)
+msgid "1. Βασικές ιδέες"
+msgstr ""
+
+#: el/getting-started.html:75(a)
+msgid "2. Κύρια παράθυρα"
+msgstr ""
+
+#: el/getting-started.html:78(a)
+msgid "2.1. Η Βασική εργαλειοθήκη"
+msgstr ""
+
+#: el/getting-started.html:79(a)
+msgid "2.2. Παράθυρο εικόνας"
+msgstr ""
+
+#: el/getting-started.html:80(a)
+msgid "2.3. Διάλογοι και αγκίστρια (docks)"
+msgstr ""
+
+#: el/getting-started.html:83(span)
+msgid "Αναίρεση"
+msgstr ""
+
+#: el/getting-started.html:83(a)
+msgid "3.<placeholder-1/>"
+msgstr ""
+
+#: el/getting-started.html:86(span)
+msgid "Πράγματα που δεν μπορούν να αναιρεθούν"
+msgstr ""
+
+#: el/getting-started.html:86(a)
+msgid "3.1.<placeholder-1/>"
+msgstr ""
+
+#: el/getting-started.html:89(a)
+msgid "4. Γρήγορο Ξεκίνημα (GIMPLite Quickies)"
+msgstr ""
+
+#: el/getting-started.html:92(a)
+msgid "4.1. Σκοπός"
+msgstr ""
+
+#: el/getting-started.html:93(a)
+msgid "4.2. Αυξομείωση του μεγέθους μιας εικόνας (κλίμακα)"
+msgstr ""
+
+#: el/getting-started.html:94(a)
+msgid "4.3. Σμίκρυνση JPEGs"
+msgstr ""
+
+#: el/getting-started.html:95(a)
+msgid "4.4. Περικοπή εικόνας"
+msgstr ""
+
+#: el/getting-started.html:96(a)
+msgid "4.5. Εύρεση πληροφοριών για την εικόνα σας"
+msgstr ""
+
+#: el/getting-started.html:97(a)
+msgid "4.6. Αλλαγή κατάστασης"
+msgstr ""
+
+#: el/getting-started.html:98(a)
+msgid "4.7. Αναστροφή εικόνας"
+msgstr ""
+
+#: el/getting-started.html:99(a)
+msgid "4.8. Περιστροφή εικόνας"
+msgstr ""
+
+#: el/getting-started.html:102(a)
+msgid "5. Ευθύγραμμη σχεδίαση"
+msgstr ""
+
+#: el/getting-started.html:105(a)
+msgid "5.1. Σκοπός"
+msgstr ""
+
+#: el/getting-started.html:106(a)
+msgid "5.2. Παραδείγματα"
+msgstr ""
+
+#: el/getting-started.html:111(a)
+msgid "4. Ξεκόλλημα"
+msgstr ""
+
+#: el/getting-started.html:114(span)
+msgid "Ξεκόλλημα"
+msgstr ""
+
+#: el/getting-started.html:114(a)
+msgid "1.<placeholder-1/>"
+msgstr ""
+
+#: el/getting-started.html:117(span)
+msgid "Κόλλημα!"
+msgstr ""
+
+#: el/getting-started.html:117(a)
+msgid "1.1.<placeholder-1/>"
+msgstr ""
+
+#: el/getting-started.html:118(span)
+msgid "Συνηθισμένα Αίτια Μη ανταπόκρισης του GIMP"
+msgstr ""
+
+#: el/getting-started.html:118(a)
+msgid "1.2.<placeholder-1/>"
+msgstr ""
+
+#: el/getting-started.html:135(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/getting-started.html:138(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/getting-started.html:141(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

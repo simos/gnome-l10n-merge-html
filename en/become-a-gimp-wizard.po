@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/become-a-gimp-wizard.html:6(title) en/become-a-gimp-wizard.html:33(div:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:12(link:title) en/become-a-gimp-wizard.html:13(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:14(link:title) en/become-a-gimp-wizard.html:786(a)
+msgid "Chapter 4. Getting Unstuck"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:15(link:title) en/become-a-gimp-wizard.html:792(a)
+msgid "Chapter 5. Getting Images into GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:22(acronym) en/become-a-gimp-wizard.html:38(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:21(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:26(img:alt) en/become-a-gimp-wizard.html:781(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:26(td) en/become-a-gimp-wizard.html:781(td)
+msgid "<a accesskey=\"p\" href=\"gimp-getting-unstuck.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:27(th) en/become-a-gimp-wizard.html:782(td)
+msgid " "
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:28(img:alt) en/become-a-gimp-wizard.html:783(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:28(td) en/become-a-gimp-wizard.html:783(td)
+msgid " <a accesskey=\"n\" href=\"gimp-images-in.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:37(h1)
+msgid "<a id=\"become-a-gimp-wizard\"/>Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:45(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:50(a)
+msgid "5. Getting Images into GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:57(a)
+msgid "1. Image Types"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:62(a)
+msgid "2. Creating new Files"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:67(a)
+msgid "3. Opening Files"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:74(a)
+msgid "3.1. Open File"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:79(a)
+msgid "3.2. Open Location"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:84(a)
+msgid "3.3. Open Recent"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:89(a)
+msgid "3.4. Using External Programs"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:94(a)
+msgid "3.5. File Manager"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:99(a)
+msgid "3.6. Drag and Drop"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:104(a)
+msgid "3.7. Copy and Paste"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:109(a)
+msgid "3.8. Image Browser"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:118(a)
+msgid "6. Getting Images out of GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:125(a)
+msgid "1. Files"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:132(a)
+msgid "1.1. Saving Images"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:137(a)
+msgid "1.2. Saving Files"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:144(a)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:151(a)
+msgid "2.1. Images with an Optimal Size/Quality Ratio"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:156(a)
+msgid "2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:161(a)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:170(a)
+msgid "7. Painting with GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:177(a)
+msgid "1. The Selection"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:184(a)
+msgid "1.1. Feathering"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:189(a)
+msgid "1.2. Making a Selection Partially Transparent"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:196(a)
+msgid "2. Creating and Using Selections"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:203(a)
+msgid "2.1. Moving a Selection"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:208(a)
+msgid "2.2. Adding or subtracting selections"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:215(a)
+msgid "3. The QuickMask"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:222(a)
+msgid "3.1. Overview"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:227(a)
+msgid "3.2. Properties"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:234(a)
+msgid "4. Using QuickMask Mode"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:241(span)
+msgid "Paths"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:239(a)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:249(a)
+msgid "5.1. Path Creation"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:254(a)
+msgid "5.2. Path Properties"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:259(a)
+msgid "5.3. Paths and Selections"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:264(a)
+msgid "5.4. Transforming Paths"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:269(a)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:274(a)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:279(acronym)
+msgid "SVG"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:279(a)
+msgid "5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:286(a)
+msgid "6. Brushes"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:291(a)
+msgid "7. Adding New Brushes"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:296(a)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:301(a)
+msgid "9. Varying brush size"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:308(a)
+msgid "9.1. How to vary the height of a brush"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:313(a)
+msgid "9.2. Creating a brush quickly"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:320(a)
+msgid "10. Gradients"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:325(a)
+msgid "11. Patterns"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:330(a)
+msgid "12. Palettes"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:337(a)
+msgid "12.1. Colormap"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:344(a)
+msgid "13. Drawing Simple Objects"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:351(a)
+msgid "13.1. Drawing a Straight Line"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:356(a)
+msgid "13.2. Creating a Basic Shape"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:365(a)
+msgid "8. Combining Images"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:372(a)
+msgid "1. Introduction to Layers"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:379(a)
+msgid "1.1. Layer Properties"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:386(a)
+msgid "2. Layer Modes"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:391(a)
+msgid "3. Creating New Layers"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:396(a)
+msgid "4. Text and Fonts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:401(a)
+msgid "5. Text"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:408(a)
+msgid "5.1. Embellishing Text"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:413(a)
+msgid "5.2. Adding Fonts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:418(a)
+msgid "5.3. Font Problems"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:427(a)
+msgid "9. Enhancing Photographs"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:434(a)
+msgid "1. Working with Digital Camera Photos"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:441(a) en/become-a-gimp-wizard.html:517(a) en/become-a-gimp-wizard.html:669(a)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:446(a)
+msgid "1.2. Improving Composition"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:451(a)
+msgid "1.3. Improving Colors"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:456(a)
+msgid "1.4. Adjusting Sharpness"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:461(a)
+msgid "1.5. Removing Unwanted Objects from an Image"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:466(a)
+msgid "1.6. Saving Your Results"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:475(a)
+msgid "10. Color Management with GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:482(a)
+msgid "1. Color Management in GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:489(a)
+msgid "1.1. Problems of a non Color Managed Workflow"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:494(a)
+msgid "1.2. Introduction to a Color Managed Workflow"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:503(a)
+msgid "11. Pimp my GIMP"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:510(a)
+msgid "1. Preferences Dialog"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:522(a)
+msgid "1.2. Environment"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:527(a)
+msgid "1.3. Interface"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:532(a)
+msgid "1.4. Theme"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:537(a)
+msgid "1.5. Help System"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:542(a)
+msgid "1.6. Tool Options"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:547(a)
+msgid "1.7. Toolbox"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:552(a)
+msgid "1.8. Default Image Preferences"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:557(a)
+msgid "1.9. Default Image Grid"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:562(a)
+msgid "1.10. Image Windows"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:567(a)
+msgid "1.11. Image Window Appearance"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:572(a)
+msgid "1.12. Image Window Title and Statusbar"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:577(a)
+msgid "1.13. Display"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:582(a)
+msgid "1.14. Color Management"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:587(a)
+msgid "1.15. Input Devices"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:592(a)
+msgid "1.16. Input Controllers"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:597(a)
+msgid "1.17. Window Management"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:602(a)
+msgid "1.18. Folders"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:607(a)
+msgid "1.19. Data Folders"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:614(a)
+msgid "2. Grids and Guides"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:621(a)
+msgid "2.1. The Image Grid"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:626(a)
+msgid "2.2. Guides"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:633(a)
+msgid "3. Rendering a Grid"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:638(a)
+msgid "4. How to Set Your Tile Cache"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:643(a)
+msgid "5. Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:648(a)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:655(a)
+msgid "12. Scripting"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:662(a)
+msgid "1. Plugins"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:674(a)
+msgid "1.2. Using Plugins"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:679(a)
+msgid "1.3. Installing New Plugins"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:684(a)
+msgid "1.4. Writing Plugins"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:691(a)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:698(a)
+msgid "2.1. Script-Fu?"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:703(a)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:708(a)
+msgid "2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:713(a)
+msgid "2.4. Different Kinds Of Script-Fus"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:718(a)
+msgid "2.5. Standalone Scripts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:723(a)
+msgid "2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:730(a)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:737(a)
+msgid "3.1. Getting Acquainted With Scheme"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:742(a)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:747(a)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:752(a)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:757(a)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:762(a)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:767(a)
+msgid "3.7. Your script and its working"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:786(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:789(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/become-a-gimp-wizard.html:792(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

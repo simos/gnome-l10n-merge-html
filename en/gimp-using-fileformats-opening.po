@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-fileformats-opening.html:6(title) en/gimp-using-fileformats-opening.html:21(th) en/gimp-using-fileformats-opening.html:31(div:title)
+msgid "3. Opening Files"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:13(link:title) en/gimp-using-fileformats-opening.html:25(th)
+msgid "Chapter 5. Getting Images into GIMP"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:14(link:title) en/gimp-using-fileformats-opening.html:183(a)
+msgid "2. Creating new Files"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:15(link:title) en/gimp-using-fileformats-opening.html:189(a)
+msgid "3.2. Open Location"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:24(img:alt) en/gimp-using-fileformats-opening.html:174(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:24(td) en/gimp-using-fileformats-opening.html:174(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-fileformats-creating.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:26(img:alt) en/gimp-using-fileformats-opening.html:180(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:26(td) en/gimp-using-fileformats-opening.html:180(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-open-location.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:35(h2)
+msgid "<a id=\"gimp-using-fileformats-opening\"/>3. Opening Files"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:40(p)
+msgid "There are several ways of opening an existing image in <acronym class=\"acronym\">GIMP</acronym>:"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:44(div:title)
+msgid "3.1. Open File"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:48(h3)
+msgid "<a id=\"gimp-using-open-file\"/>3.1. Open File"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:52(p)
+msgid "The most obvious way to open an existing image is the menu. Use <span class=\"guimenu\">File</span> → <span class=\"guimenuitem\">Open</span> to open the <span class=\"guilabel\">Open Image</span> dialog,allowing you to navigate to the file and click on its name. This method works well if you know the name and location of the file you want to open. Although the <span class=\"guilabel\">Open Image</span> dialog does have a preview pane, it is not convenient (easy) to find an image based on a thumbnail."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:63(div:title) en/gimp-using-fileformats-opening.html:69(th) en/gimp-using-fileformats-opening.html:141(div:title) en/gimp-using-fileformats-opening.html:147(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:67(img:alt) en/gimp-using-fileformats-opening.html:145(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:73(p)
+msgid "While opening a file, <acronym class=\"acronym\">GIMP</acronym> must determine the file type. Unfortunately, the file extension, such as <code class=\"filename\">.jpg</code>, is not reliable: file extensions vary from system to system; any file can be renamed to have any extension; and there are many reasons why a file name might lack an extension. <acronym class=\"acronym\">GIMP</acronym> first tries to recognize a file by examining its contents: most of the commonly used file formats have <span class=\"quote\">“<span class=\"quote\">magic headers</span>”</span> that permit them to be recognized. Only if the magic yields no result does <acronym class=\"acronym\">GIMP</acronym> resort to using the extension."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:93(span)
+msgid "Open Image"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:93(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:93(b)
+msgid "Figure 5.4. The <placeholder-1/> dialog"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:97(img:alt)
+msgid "The Open Image dialog"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:102(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> 2.2 introduced a new <span class=\"guilabel\">Open Image</span> dialog that provides several features to help you navigate quickly to a file. Perhaps the most important is the ability to create <span class=\"quote\">“<span class=\"quote\">bookmarks</span>”</span>, or <span class=\"guilabel\">Places</span>, for folders that you use often. Your list of bookmarks appears on the left side of the dialog. The ones at the top, such as <span class=\"quote\">“<span class=\"quote\">Desktop</span>”</span>, are provided automatically. Use the the <span class=\"guilabel\">Add</span> button to add the current directory to the list. Use the <span class=\"guilabel\">Remove</span> button to remove the selected bookmark. Double-click on a bookmark to navigate directly to that directory."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:117(p)
+msgid "The center of the dialog contains a listing of the contents of the selected directory. Subdirectories are shown at the top of the list, files below them. By default, all files in the directory are listed, but you can restrict the listing to image files of a specific type using the File Type selection menu that appears beneath the directory listing."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:124(p)
+msgid "When you select an image file entry in the listing, a preview appears on the right side of the dialog, along with some basic information about the image. Note that previews are cached when they are generated, and there are some things you can do that may cause a preview to be incorrect. If you suspect that this may be happening, you can force a new preview to be generated by holding down the <span class=\"keycap\"><strong>Ctrl</strong></span> key and clicking in the Preview area."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:133(p)
+msgid "By default, a <span class=\"guilabel\">Location</span> text box is present in the File Open dialog. It may be absent: the <span class=\"keycap\"><strong>Ctrl</strong></span>+<span class=\"keycap\"><strong>L</strong></span> key combination toggles this text box. Alternatively, you can click on the icon of the paper and pencil in the upper left corner to toggle the text box."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:151(p)
+msgid "If you select a file name from the list, and click the <span class=\"quote\">“<span class=\"quote\">Open</span>”</span> button in the lower right corner or the dialog, it is almost always true that <acronym class=\"acronym\">GIMP</acronym> will automatically determine the file type for you. On rare occasions, mainly if the file type is unusual and the name lacks a meaningful extension, <acronym class=\"acronym\">GIMP</acronym> may fail to correctly identify the file type. Use <span class=\"guilabel\">Select File Type</span> at the bottom of the dialog to manually specify the file type if this is required. More commonly, though, if <acronym class=\"acronym\">GIMP</acronym> fails to open an image file, it is either corrupt or not a supported format."
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:177(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:183(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:186(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-fileformats-opening.html:189(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

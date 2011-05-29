@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-concepts-patterns.html:6(title) el/gimp-concepts-patterns.html:31(div:title)
+msgid "11. Μοτίβα (προπλάσματα)"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:13(link:title) el/gimp-concepts-patterns.html:25(th)
+msgid "Κεφάλαιο 7. Βάφοντας με το GIMP"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:14(link:title) el/gimp-concepts-patterns.html:260(a)
+msgid "10. Διαβαθμίσεις"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:15(link:title) el/gimp-concepts-patterns.html:266(a)
+msgid "12. Παλέτες"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:21(th)
+msgid "11. Μοτίβα (πρoπλάσματα)"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:24(img:alt) el/gimp-concepts-patterns.html:251(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:24(td) el/gimp-concepts-patterns.html:251(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-gradients.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:26(img:alt) el/gimp-concepts-patterns.html:257(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:26(td) el/gimp-concepts-patterns.html:257(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-palettes.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:35(h2)
+msgid "<a id=\"gimp-concepts-patterns\"/>11. Μοτίβα (προπλάσματα)"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:40(p)
+msgid "Ένα <span class=\"emphasis\"><em>πρόπλασμα</em></span> είναι μια εικόνα, συνήθως μικρή, που χρησιμοποιείται για γέμισμα περιοχών με <span class=\"emphasis\"><em>παράθεση</em></span>, δηλαδή, βάζοντας αντίγραφα του προπλάσματος δίπλα-δίπλα όπως κεραμικές παραθέσεις. Ένα πρόπλασμα λέγεται ότι είναι <span class=\"emphasis\"><em>παραθέσιμο</em></span> εάν αντίγραφά του μπορούν να προσκολληθούν από αριστερά προς τα δεξιά και από πάνω προς τα κάτω χωρίς δημιουργία εμφανών ραφών. Δεν είναι όλα τα χρήσιμα προπλάσματα παραθέσιμα, αλλά τα παραθέσιμα προπλάσματα είναι ωραιότερα για πολλούς σκοπούς. (Μια <span class=\"emphasis\"><em>υφή</em></span>, είναι το ίδιο όπως το πρόπλασμα)."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:50(b)
+msgid "Εικόνα 7.27. Χρήση προπλάσματος"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:53(img:alt)
+msgid "Χρήση προπλάσματος"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:55(p)
+msgid "Τρεις τρόποι χρήσης του προπλάσματος <span class=\"quote\">“<span class=\"quote\">Leopard (λεοπάρδαλη)</span>”</span>: Γέμισμα με τον κουβά γεμίσματος μιας επιλογής, βάψιμο με το εργαλείο κλωνοποίησης και επίχριση μιας ελλειπτικής επιλογής με το πρόπλασμα."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:65(p)
+msgid "Στο GIMP υπάρχουν τρεις κύριες χρήσεις για τα μοτίβα:"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:69(p)
+msgid "Με το εργαλείο <a class=\"link\" href=\"gimp-tool-bucket-fill.html\" title=\"3.3.&#xA0;&#x3BA;&#x3BF;&#x3C5;&#x3B2;&#x3AC;&#x3C2; &#x3B3;&#x3B5;&#x3BC;&#x3AF;&#x3C3;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;\">κουβάς γεμίσματος </a>, μπορείτε να επιλέξετε να γεμίσετε μια περιοχή με ένα πρόπλασμα αντί για ένα συμπαγές χρώμα."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:75(b)
+msgid "Εικόνα 7.28. Το πλαίσιο ελέγχου για χρήση ενός προπλάσματος"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:78(img:alt)
+msgid "Το πλαίσιο ελέγχου για χρήση ενός προπλάσματος"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:80(p)
+msgid "Το πλαίσιο για γέμισμα προπλάσματος επιλέγεται και πατώντας στο πρόπλασμα εμφανίζονται όλα τα προπλάσματα σε κατάσταση πλέγματος."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:91(p)
+msgid "Με το εργαλείο <a class=\"link\" href=\"gimp-tool-clone.html\" title=\"3.10.&#xA0;&#x3BA;&#x3BB;&#x3C9;&#x3BD;&#x3BF;&#x3C0;&#x3BF;&#x3AF;&#x3B7;&#x3C3;&#x3B7;\">κλωνοποίηση</a>, μπορείτε να βάψετε χρησιμοποιώντας ένα πρόπλασμα, με μια μεγάλη ποικιλία σχημάτων πινέλων."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:97(p)
+msgid "Όταν <span class=\"emphasis\"><em>βάφετε</em></span> ένα μονοπάτι ή μια επιλογή, μπορείτε να το κάνετε με ένα πρόπλασμα αντί για ένα σταθερό χρώμα. Μπορείτε επίσης να χρησιμοποιήσετε το εργαλείο κλωνοποίησης ως επιλογή, εάν βάφετε την επιλογή χρησιμοποιώντας ένα εργαλείο χρώματος."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:105(div:title) el/gimp-concepts-patterns.html:111(th)
+msgid "Συμβουλή"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:109(img:alt)
+msgid "[Συμβουλή]"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:115(p)
+msgid "Σημείωση: Τα προπλάσματα δεν χρειάζεται να είναι αδιαφανή. Εάν γεμίσετε ή βάψετε χρησιμοποιώντας ένα πρόπλασμα με ημιδιαφανείς ή διαφανείς περιοχές, τότε τα προηγούμενα περιεχόμενα της περιοχής θα φαίνονται από πίσω του. Αυτός είναι ένας από τους πολλούς τρόπους για <span class=\"quote\">“<span class=\"quote\">επικαλύψεις</span>”</span> στο GIMP."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:124(p)
+msgid "Όταν εγκαθίσταται το GIMP, έρχεται με μερικά προεγκαταστημένα προπλάσματα που φαίνεται να έχουν επιλεγεί τυχαία. Μπορείτε επίσης να προσθέσετε νέα προπλάσματα, είτε δημιουργώντας τα, είτε κατεβάζοντας τα από έναν τεράστιο αριθμό διαθέσιμων από το διαδίκτυο."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:129(p)
+msgid "Το <span class=\"emphasis\"><em>ενεργό πρόπλασμα</em></span> του GIMP, που χρησιμοποιείται στις περισσότερες λειτουργίες που σχετίζονται με το πρόπλασμα, φαίνεται στην περιοχή πινέλο/μοτίβο/διαβάθμιση της εργαλειοθήκης. Πατώντας στο σύμβολο του προπλάσματος εμφανίζεται ο <a class=\"link\" href=\"gimp-pattern-dialog.html\" title=\"3.3.&#xA0;&#x394;&#x3B9;&#x3AC;&#x3BB;&#x3BF;&#x3B3;&#x3BF;&#x3C2; &#x3BC;&#x3BF;&#x3C4;&#x3AF;&#x3B2;&#x3BF;&#x3C5;\">Διάλογος μοτίβου</a>, που σας επιτρέπει να επιλέξετε διάφορα προπλάσματα. Μπορείτε επίσης να προσπελάσετε το διάλογο μοτίβων από το μενού ή να το αγκιστρώσετε, ώστε να είναι μονίμως παρόν."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:137(p)
+msgid "Για να προσθέσετε ένα νέο πρόπλασμα στη συλλογή, έτσι ώστε να φαίνεται στο διάλογο μοτίβων, πρέπει να το αποθηκεύσετε σε μια μορφή που μπορεί να χρησιμοποιήσει το GIMP και σε ένα φάκελο που περιλαμβάνεται στη διαδρομή αναζήτησης μοτίβων του GIMP.Υπάρχουν πολλοί τύποι αρχείων που μπορείτε να χρησιμοποιήσετε για μοτίβα:"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:145(span)
+msgid "PAT"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:148(p)
+msgid "Η μορφή <code class=\"filename\">.pat</code> χρησιμοποιείται για προπλάσματα που δημιουργήθηκαν ειδικά για το GIMP. Μπορείτε να μετατρέψετε οποιαδήποτε εικόνα σε αρχείο <code class=\"filename\">.pat</code> ανοίγοντας την στο GIMP και αποθηκεύοντας την χρησιμοποιώντας ένα όνομα αρχείου που λήγει σε <code class=\"filename\">.pat</code>."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:153(div:title) el/gimp-concepts-patterns.html:159(th)
+msgid "Προσοχή"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:157(img:alt)
+msgid "[Προσοχή]"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:163(p)
+msgid "Μην συγχέεται τα αρχεία <code class=\"filename\">.pat</code> που δημιουργήθηκαν στο GIMP με αρχεία που δημιουργήθηκαν από άλλα προγράμματα (π.χ. <span class=\"application\">Photoshop</span>). Τελικά το <code class=\"filename\">.pat</code> είναι μόνο ένα μέρος του (ελεύθερου) ονόματος αρχείου."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:168(p)
+msgid "(Το GIMP υποστηρίζει τα αρχεία <code class=\"filename\">.pat</code> του <span class=\"application\">Photoshop</span> μέχρι κάποια έκδοση.)"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:177(span)
+msgid "PNG, JPEG, BMP, GIF, TIFF"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:180(p)
+msgid "Από το GIMP 2.2 μπορείτε να χρησιμοποιήσετε τα αρχεία <code class=\"filename\">.png</code>, <code class=\"filename\">.jpg</code>, <code class=\"filename\">.bmp</code>, <code class=\"filename\">.gif</code> ή <code class=\"filename\">.tiff</code> ως προπλάσματα."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:191(p)
+msgid "Για να κάνετε ένα πρόπλασμα διαθέσιμο, το τοποθετείτε σε έναν από τους φακέλους του GIMP στη διαδρομή αναζήτησης προπλασμάτων. Από προεπιλογή, η διαδρομή αναζήτησης μοτίβων περιλαμβάνει δύο φακέλους, τον φάκελο συστήματος <code class=\"filename\">patterns</code> που δεν πρέπει να χρησιμοποιήσετε ή να αλλάξετε και το φάκελο <code class=\"filename\">patterns</code> στον προσωπικό σας κατάλογο GIMP. Μπορείτε να προσθέσετε νέους φακέλους στη διαδρομή αναζήτησης μοτίβων χρησιμοποιώντας τη σελίδα του διαλόγου επιλογών <a class=\"link\" href=\"gimp-pimping.html#gimp-prefs-folders-data\" title=\"1.19.&#xA0;&#x3A6;&#x3AC;&#x3BA;&#x3B5;&#x3BB;&#x3BF;&#x3B9; &#x3B4;&#x3B5;&#x3B4;&#x3BF;&#x3BC;&#x3AD;&#x3BD;&#x3C9;&#x3BD;\">Φάκελοι δεδομένων</a>. Οποιοδήποτε αρχείο PAT (ή, στο GIMP 2.2, οποιαδήποτε άλλη αποδεκτή μορφή) που συμπεριλαμβάνεται σε ένα φάκελο στη διαδρομή αναζήτησης μοτίβων, θα εμφανιστεί στο διάλογο μοτίβων την επόμενη φορά που θα ξεκινήσετε το GIMP."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:201(p)
+msgid "Υπάρχουν ατελείωτοι τρόποι δημιουργίας ενδιαφέροντων μοτίβων στο GIMP, χρησιμοποιώντας μια μεγάλη ποικιλία διαθέσιμων εργαλείων και φίλτρων, ειδικά στην απόδοση φίλτρων. Μπορείτε να βρείτε μαθήματα για αυτό σε πολλές τοποθεσίες, συμπεριλαμβανόμενης της αρχικής σελίδας του GIMP <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp\" title=\"GIMP - The Gnu Image Manipulation Program\">[<abbr class=\"abbrev\">GIMP</abbr>]</a>. Μερικά από τα φίλτρα έχουν επιλογές που σας επιτρέπουν να κάνετε τα αποτελέσματα τους παραθέσιμα. Δείτε επίσης <a class=\"xref\" href=\"script-fu-tile-blur.html\" title=\"2.7.&#xA0;&#x3A0;&#x3B1;&#x3C1;&#x3B1;&#x3B8;&#x3AD;&#x3C3;&#x3B9;&#x3BC;&#x3B7; &#x3B8;&#x3CC;&#x3BB;&#x3C9;&#x3C3;&#x3B7;\">Τμήμα 2.7, “Παραθέσιμη θόλωση”</a>, αυτό το φίλτρο σας επιτρέπει να αναμίξετε τα άκρα μιας εικόνας για να τα κάνετε πιο ομαλά παραθέσιμα."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:212(b)
+msgid "Εικόνα 7.29. Παραδείγματα script μοτίβων"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:215(img:alt)
+msgid "Παραδείγματα script μοτίβων"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:217(p)
+msgid "Παραδείγματα προπλασμάτων που δημιουργήθηκαν χρησιμοποιώντας έξι Script-Fu μοτίβων που περιέχονται στο GIMP. Προκαθορισμένες ρυθμίσεις χρησιμοποιήθηκαν για τα πάντα εκτός από το μέγεθος. (Από αριστερά προς τα δεξιά: 3D Truchet, Camouflage (παραλλαγή), Flatland (επίπεδη γη), Land(γη), Render Map (απόδοση χάρτη), Swirly(στροβιλισμένος))"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:227(p)
+msgid "Επίσης ενδιαφέρον είναι ένα σύνολο σεναρίων που παράγουν μοτίβα που έρχονται με το GIMP. Μπορείτε να τα βρείτε στην γραμμή μενού, πατώντας <span class=\"guimenu\">Αρχείο</span> → <span class=\"guisubmenu\">Δημιουργία</span> → <span class=\"guimenuitem\">Patterns (Μοτίβα)</span>. Καθένα από τα σενάρια δημιουργεί μια νέα εικόνα γεμάτη με έναν ειδικό τύπο μοτίβου. Ένας διάλογος εμφανίζεται που σας επιτρέπει να ορίσετε τις παραμέτρους ελέγχου των λεπτομερειών της εμφάνισης. Μερικά από αυτά τα προπλάσματα είναι πολύ χρήσιμα για αποκοπή και επικόλληση. Άλλα εξυπηρετούν καλύτερα ως <a class=\"link\" href=\"glossary.html#glossary-bumpmapping\" title=\"&#x391;&#x3BD;&#x3CE;&#x3BC;&#x3B1;&#x3BB;&#x3B5;&#x3C2; &#x3B1;&#x3C0;&#x3B5;&#x3B9;&#x3BA;&#x3BF;&#x3BD;&#x3AF;&#x3C3;&#x3B5;&#x3B9;&#x3C2;\">bumpmaps (ανώμαλες απεικονίσεις)</a>."
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:238(b)
+msgid "Εικόνα 7.30. Δημιουργία νέων μοτίβων"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:241(img:alt)
+msgid "Δημιουργία νέων μοτίβων"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:254(img:alt)
+msgid "Up"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:260(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:263(img:alt)
+msgid "Home"
+msgstr ""
+
+#: el/gimp-concepts-patterns.html:266(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

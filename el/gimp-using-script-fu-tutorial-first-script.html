@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>3.4. Το πρώτο σας σενάριο Script-Fu</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. Διδακτική ενός Script-Fu" />
+<link rel="prev" href="gimp-using-script-fu-tutorial-lists.html" title="3.3. Λίστες, λίστες και πάλι λίστες" />
+<link rel="next" href="gimp-using-script-fu-tutorial-script.html" title="3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">3.4. Το πρώτο σας σενάριο Script-Fu</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">3. Διδακτική ενός Script-Fu</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect2" title="3.4. Το πρώτο σας σενάριο Script-Fu">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-script-fu-tutorial-first-script"></a>3.4. Το πρώτο σας σενάριο Script-Fu</h3>
+</div>
+</div>
+</div>
+<p>
+Ας προχωρήσουμε με το τέταρτο μάθημα, το πρώτο σας σενάριο Script-Fu.
+</p>
+<div class="sect3" title="3.4.1. Δημιουργία ενός πλαισίου κειμένου σεναρίου">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3201075"></a>3.4.1. Δημιουργία ενός πλαισίου κειμένου σεναρίου</h4>
+</div>
+</div>
+</div>
+<p>
+Μία από τις πιο συχνές ενέργειες που εκτελώ στο GIMP είναι η δημιουργία ενός πλαισίου με κάποιο κείμενο σε αυτό
+για μια ιστοσελίδα, ένα λογότυπο ή οτιδήποτε. Όμως, δεν ξέρετε ποτέ απολύτως το μέγεθος της αρχικής εικόνας,
+όταν ξεκινάτε. Δεν ξέρετε πόσο χώρο το κείμενο θα γεμίσει με τη γραμματοσειρά και το μέγεθος της γραμματοσειράς.
+</p>
+<p>
+Ο ειδικός στο Script-Fu Master (και ο σπουδαστής) θα καταλάβουν γρήγορα ότι αυτό το πρόβλημα μπορεί εύκολα να
+λυθεί και να αυτοματοποιηθεί με το Script-Fu.
+</p>
+<p>
+Θα δημιουργήσουμε ένα σενάριο, αποκαλούμενο πλαίσιο κειμένου, που δημιουργεί μια εικόνα σε σωστό μέγεθος για να
+ταιριάσει άνετα γύρω από μια γραμμή κειμένου που εισάγει ο χρήστης. Επίσης θα αφήσουμε το χρήστη να επιλέξει
+τη γραμματοσειρά, το μέγεθος της και χρώμα κειμένου.
+</p>
+</div>
+<div class="sect3" title="3.4.2. Editing And Storing Your Scripts">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3123045"></a>3.4.2. Επεξεργασία και αποθήκευση των σεναρίων σας</h4>
+</div>
+</div>
+</div>
+<p>
+Μέχρι τώρα, δουλέψαμε στην κονσόλα Script-Fu. Τώρα, θα αλλάξουμε στην επεξεργασία αρχείων κειμένου του σεναρίου.
+</p>
+<p>
+Που βάζετε τα σενάρια σας είναι θέμα επιλογής — εάν έχετε πρόσβαση στον προεπιλεγμένο κατάλογο σεναρίων του GIMP,
+μπορείτε να βάλετε τα σενάρια σας, εκεί. Όμως, προτιμώ να κρατώ τα προσωπικά μου σενάρια στο δικό μου κατάλογο
+σεναρίων, για να τα κρατώ ξέχωρα από τα εγκατεστημένα σενάρια.
+</p>
+<p>
+Στον κατάλογο <code class="filename">.gimp-2.6</code> που το GIMP δημιούργησε στον προσωπικό σας κατάλογο, θα
+πρέπει να βρείτε έναν κατάλογο που λέγεται <code class="filename">scripts</code>. Το GIMP θα κοιτάξει
+αυτόματα στον κατάλογο σας <code class="filename">.gimp-2.6</code> για έναν κατάλογο <code class="filename">scripts</code>
+και θα προσθέσει τα σενάρια σε αυτόν τον κατάλογο στη βάση δεδομένων του Script-Fu. Θα πρέπει να βάλετε τα
+προσωπικά σας σενάρια εδώ.
+</p>
+</div>
+<div class="sect3" title="3.4.3. Τα απολύτως αναγκαία">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3216345"></a>3.4.3. Τα απολύτως αναγκαία</h4>
+</div>
+</div>
+</div>
+<p>
+Κάθε σενάριο Script-Fu ορίζει τουλάχιστον μία συνάρτηση που είναι η κύρια συνάρτηση του σεναρίου. Εκεί πρέπει
+να δουλέψετε.
+</p>
+<p>
+Κάθε σενάριο πρέπει επίσης  να καταχωρείται στη διαδικασιακή βάση δεδομένων, ώστε να μπορείτε να την προσπελάσετε
+μες το GIMP.
+</p>
+<p>Θα ορίσουμε καταρχήν την κύρια συνάρτηση πρώτα:</p>
+<pre class="programlisting">
+(define (script-fu-text-box inText inFont inFontSize inTextColor))
+</pre>
+<p>
+Εδώ, ορίσαμε μια νέα συνάρτηση που λέγεται <code class="function">script-fu-text-box</code> που δέχεται τέσσερις
+παραμέτρους που θα αντιστοιχούν αργότερα σε: κάποιο κείμενο, μια γραμματοσειρά, το μέγεθος μιας γραμματοσειράς,
+και το χρώμα του κειμένου. Η συνάρτηση είναι προς το παρόν άδεια και δεν κάνει τίποτα.
+</p>
+</div>
+<div class="sect3" title="3.4.4. Ονοματικές συμβάσεις">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3203569"></a>3.4.4. Ονοματικές συμβάσεις</h4>
+</div>
+</div>
+</div>
+<p>
+Οι ονοματικές συμβάσεις του Scheme φαίνεται να προτιμούν τα μικρά γράμματα με ενωτικές παύλες, που ακολούθησα
+στην ονομασία των συναρτήσεων. Όμως, απομακρύνθηκα από τη σύμβαση με τις παραμέτρους. Μ' αρέσουν πιο περιγραφικά
+ονόματα για τις παραμέτρους και τις μεταβλητές και έτσι προσέθεσα το πρόθεμα "in" στις παραμέτρους, για να μπορώ
+να βλέπω γρήγορα ότι είναι τιμές που πέρασαν στο σενάριο, παρά δημιουργήθηκαν μέσα σ' αυτό. Χρησιμοποίησα το
+πρόθεμα "the" για μεταβλητές οριζόμενες μέσα στο σενάριο.
+</p>
+<p>
+Είναι σύμβαση του GIMP να ονομάζει τις συναρτήσεις του σεναρίου σας <code class="function">script-fu-abc</code>,
+επειδή τότε όταν καταχωρούνται στην διαδικασιακή βάση δεδομένων, θα εμφανίζονται όλες κάτω από το script-fu,
+όταν καταχωρίζετε τις συναρτήσεις. Επίσης αυτό βοηθά στη διάκριση τους από τα πρόσθετα.
+</p>
+</div>
+<div class="sect3" title="3.4.5. Καταχώρηση της συνάρτησης">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3239053"></a>3.4.5. Καταχώρηση της συνάρτησης</h4>
+</div>
+</div>
+</div>
+<p>
+Τώρα, ας καταχωρίσουμε τη συνάρτηση με το GIMP. Αυτό γίνεται καλώντας τη συνάρτηση.<code class="function">script-fu-register</code>.
+Όταν το GIMP διαβάζει ένα σενάριο, θα εκτελεί αυτή τη συνάρτηση που καταχωρίζει το σενάριο με την διαδικασιακή
+βάση δεδομένων. Μπορείτε να καταχωρίσετε αυτήν την συναρτησιακή κλήση όπου επιθυμείτε στο σενάριο, αλλά συνήθως
+την τοποθετώ στο τέλος, μετά τον υπόλοιπο κώδικα.
+</p>
+<p>
+Να μια λίστα για καταχώρηση αυτής της συνάρτησης (θα εξηγήσω όλες τις παραμέτρους σε λίγο):
+</p>
+<pre class="programlisting">
+(script-fu-register
+"script-fu-text-box"                        ;func name
+"Text Box"                                  ;menu label
+"Creates a simple text box, sized to fit\
+around the user's choice of text,\
+font, font size, and color."              ;description
+"Michael Terry"                             ;author
+"copyright 1997, Michael Terry;\
+2009, the GIMP Documentation Team"        ;copyright notice
+"October 27, 1997"                          ;date created
+""                     ;image type that the script works on
+SF-STRING      "Text"          "Text Box"   ;a string variable
+SF-FONT        "Font"          "Charter"    ;a font variable
+SF-ADJUSTMENT  "Font size"     '(50 1 1000 1 10 0 1)
+;a spin-button
+SF-COLOR       "Color"         '(0 0 0)     ;color variable
+)
+(script-fu-menu-register "script-fu-text-box" "&lt;Image&gt;/File/Create/Text")
+</pre>
+<p>
+Εάν αποθηκεύσετε αυτές τις συναρτήσεις σε αρχείο κειμένου με την κατάληξη <code class="filename">.scm</code>
+στον κατάλογο σεναρίων σας, τότε επιλέξτε
+<span class="guimenu">Φίλτρα</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Ανανέωση σεναρίων</span>,
+αυτό το νέο σενάριο θα εμφανιστεί ως
+<span class="guimenu">Αρχείο</span> → <span class="guisubmenu">Δημιουργία</span> → <span class="guisubmenu">Text</span> → <span class="guimenuitem">Text Box</span>.
+</p>
+<p>
+Εάν καλέσετε αυτό το νέο σενάριο, δεν θα κάνει τίποτα, φυσικά, αλλά μπορείτε να δείτε τις προτροπές που δημιουργήσατε
+καταχωρίζοντας το σενάριο (περισσότερες πληροφορίες πιο κάτω).
+</p>
+<p>
+Τελικά, εάν καλέσετε τον Procedure Browser (περιηγητής διαδικασίας)(
+<span class="guimenu">Βοήθεια</span> → <span class="guimenuitem">Procedure Browser (περιηγητής διαδικασίας)</span>),
+θα σημειώσετε ότι το σενάριο μας, εμφανίζεται τώρα στη βάση δεδομένων.
+</p>
+</div>
+<div class="sect3" title="3.4.6. Βήματα για καταχώριση του σεναρίου">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3225233"></a>3.4.6. Βήματα για καταχώριση του σεναρίου</h4>
+</div>
+</div>
+</div>
+<p>
+Για καταχώριση του σεναρίου μας με το GIMP, καλούμε τη συνάρτηση <code class="function">script-fu-register</code>,
+συμπληρωμένη στις επτά απαραίτητες παραμέτρους προσθέτοντας τις δικές μας παραμέτρους του σεναρίου μαζί με μια
+περιγραφή και προεπιλεγμένες τιμές για κάθε παράμετρο.
+</p>
+<div class="itemizedlist" title="Οι απαιτούμενες παράμετροι">
+<p class="title">
+<b>Οι απαιτούμενες παράμετροι</b>
+</p>
+<ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+Το <span class="emphasis"><em>όνομα</em></span> της συνάρτησης που ορίσαμε. Αυτή είναι η καλούμενη συνάρτηση
+όταν το σενάριο μας καλείται (το σημείο εισόδου στο σενάριο μας). Αυτό είναι απαραίτητο επειδή μπορεί να ορίσουμε
+πρόσθετες συναρτήσεις μες το ίδιο αρχείο και το GIMP χρειάζεται να ξέρει ποια από αυτές τις συναρτήσεις καλούμε.
+Στο παράδειγμα μας, ορίζουμε μόνο μια συνάρτηση, text-box που καταχωρίζεται.
+</p>
+</li>
+<li class="listitem">
+<p>
+Η <span class="emphasis"><em>τοποθεσία</em></span> στο μενού, όπου θα εισαχθεί το σενάριο. Η ακριβής τοποθεσία
+του σεναρίου ορίζεται ως διαδρομή στο Unix, με τη ρίζα της διαδρομής να είναι μενού εικόνας όπως
+<code class="code">&lt;Image&gt;</code>.<sup>[<a id="id3224820" href="#ftn.id3224820" class="footnote">5</a>]</sup>
+</p>
+<p>
+Εάν το σενάριο σας δεν λειτουργεί σε μια υπάρχουσα εικόνα (και έτσι δημιουργεί μια νέα εικόνα, όπως το σενάριο
+του Text Box κάνει), θα θέλετε να το εισαγάγετε στο μενού παραθύρου της εικόνας που μπορείτε να προσπελάσετε
+μέσα από τη γραμμή μενού της εικόνας, δεξιοπατώντας το παράθυρο εικόνας, πατώντας το εικονίδιο του κουμπιού του
+μενού στην πάνω αριστερή γωνία του παραθύρου εικόνας, ή πατώντας <span class="keycap"><strong>F10</strong></span>.
+</p>
+<p>
+Εάν το σενάριο σας προορίζεται να δουλέψει σε μια επεξεργασμένη εικόνα, θα θέλετε να το εισαγάγετε στο μενού
+του εικονοπαραθύρου. Το υπόλοιπο της διαδρομής δείχνει στις λίστες μενού, στα μενού και τα υπομενού. Έτσι,
+καταχωρίσαμε το σενάριο Text Box στο μενού
+(<span class="guimenu">Αρχείο</span> → <span class="guisubmenu">Δημιουργία</span> → <span class="guisubmenu">Text</span> → <span class="guimenuitem">Text Box</span>).
+</p>
+<p>
+Εάν παρατηρήσατε, το υπομενού κειμένου στο μενού Αρχείο/Δημιουργία δεν υπήρχε όταν ξεκινήσαμε — το GIMP αυτόματα
+δημιουργεί κάθε μενού που δεν υπάρχει ήδη.
+</p>
+</li>
+<li class="listitem">
+<p>
+Μια <span class="emphasis"><em>περιγραφή</em></span> του σεναρίου που θα εμφανιστεί στο Procedure Browser (περιηγητή διαδικασίας).
+</p>
+</li>
+<li class="listitem">
+<p>
+<span class="emphasis"><em>Το όνομά σας</em></span> (Ο συγγραφέας του σεναρίου).
+</p>
+</li>
+<li class="listitem">
+<p>Πληροφορίες για το <span class="emphasis"><em>Copyright</em></span>.</p>
+</li>
+<li class="listitem">
+<p>
+Η <span class="emphasis"><em>ημερομηνία</em></span> δημιουργίας του σεναρίου, ή η τελευταία αναθεώρηση του σεναρίου.
+</p>
+</li>
+<li class="listitem">
+<p>
+Οι <span class="emphasis"><em>τύποι</em></span> των εικόνων που δουλεύει το σενάριο. Αυτό μπορεί να είναι
+οποιοδήποτε από τα παρακάτω: RGB, RGBA, GRAY, GRAYA, INDEXED, INDEXEDA. Ή μπορεί να μην είναι κανένα — στην
+περίπτωση μας δημιουργούμε μια εικόνα και έτσι δεν χρειάζεται να ορίσουμε τον τύπο της εικόνας που δουλεύουμε.
+</p>
+</li>
+</ul>
+</div>
+<div class="figure">
+<a id="id3213556"></a>
+<p class="title">
+<b>Εικόνα 12.4. Το μενού του σεναρίου μας.</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/script-fu-menu.png" alt="Το μενού του σεναρίου μας." />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</div>
+<div class="sect3" title="3.4.7. Καταχώριση των παραμέτρων του σεναρίου">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="id3226312"></a>3.4.7. Καταχώριση των παραμέτρων του σεναρίου</h4>
+</div>
+</div>
+</div>
+<p>
+Αφού καταχωρίσαμε τις απαιτούμενες παραμέτρους, χρειαζόμαστε έπειτα να καταχωρίσουμε τις παραμέτρους που
+αντιστοιχούν στις ανάγκες του σεναρίου μας. Όταν καταχωρίζουμε αυτές τις παραμέτρους, δίνουμε οδηγίες , όπως
+ποιός είναι ο τύπος τους. Αυτό είναι για το διάλογο που αναδύεται, όταν ο χρήστης επιλέγει το σενάριο μας.
+Δίνουμε επίσης μια προεπιλεγμένη τιμή.
+</p>
+<p>
+Αυτή η ενότητα της διαδικασίας καταχώρισης έχει την ακόλουθη μορφή:
+</p>
+<div class="informaltable">
+<table border="1">
+<colgroup>
+<col />
+<col />
+<col />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p>Παραμετρικός τύπος</p>
+</th>
+<th>
+<p>Περιγραφή</p>
+</th>
+<th>
+<p>Παράδειγμα</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><code class="constant">SF-IMAGE</code></p>
+</td>
+<td>
+<p>
+Εάν το σενάριο σας ενεργεί σε ανοιχτή εικόνα, αυτό θα πρέπει να είναι η πρώτη παράμετρος μετά τις απαιτούμενες
+παραμέτρους. Το GIMP θα περάσει μια αναφορά στην εικόνα σε αυτήν την παράμετρο.
+</p>
+</td>
+<td>
+<p>3</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-DRAWABLE</code></p>
+</td>
+<td>
+<p>
+Εάν το σενάριο σας δρα σε μια ανοιχτή εικόνα, αυτό θα πρέπει να είναι η δεύτερη παράμετρος μετά την παράμετρο
+<code class="constant">SF-IMAGE</code>. Αναφέρεται στην ενεργή στρώση. Το GIMP θα περάσει μια αναφορά στην
+ενεργή στρώση σε αυτή την παράμετρο.
+</p>
+</td>
+<td>
+<p>17</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-VALUE</code></p>
+</td>
+<td>
+<p>
+Αποδέχεται αριθμούς και αλφαριθμητικά. Σημειώστε ότι εισαγωγικά πρέπει να περιβάλλουν προκαθορισμένο κείμενο,
+έτσι καλύτερα χρησιμοποιήστε <code class="constant">SF-STRING</code>.
+</p>
+</td>
+<td>
+<p>42</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-STRING</code></p>
+</td>
+<td>
+<p>Αποδέχεται αλφαριθμητικά.</p>
+</td>
+<td>
+<p>"Κάποιο κείμενο"</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-COLOR</code></p>
+</td>
+<td>
+<p>
+Δείχνει ότι απαιτείται χρώμα σε αυτή την παράμετρο.
+</p>
+</td>
+<td>
+<p>'(0 102 255)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-TOGGLE</code></p>
+</td>
+<td>
+<p>
+Εμφανίζεται ένα πλαίσιο επιλογής, για εισαγωγή τιμής Boole.
+</p>
+</td>
+<td>
+<p>TRUE ή FALSE</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect3" title="3.4.8.  Η παράμετρος API του Script-Fu">
+<div class="titlepage">
+<div>
+<div>
+<h4 class="title"><a id="gimp-using-script-fu-api"></a>3.4.8. 
+Η παράμετρος API του Script-Fu<sup>[<a id="id3237391" href="#ftn.id3237391" class="footnote">7</a>]</sup>
+</h4>
+</div>
+</div>
+</div>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Πέρα από τους πιο πάνω τύπους παραμέτρων, υπάρχουν περισσότεροι τύποι για την διαδραστική κατάσταση, καθένας τους
+θα δημιουργήσει μια ζώνη διαλόγου στο διάλογο ελέγχου. Θα βρείτε μια λίστα αυτών των παραμέτρων με περιγραφές
+και παραδείγματα στο σενάριο ελέγχου <code class="filename">plug-ins/script-fu/scripts/test-sphere.scm</code>
+που ήρθαν με τον πηγαίο κώδικα του GIMP.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="informaltable">
+<table border="1">
+<colgroup>
+<col />
+<col />
+</colgroup>
+<thead>
+<tr>
+<th>
+<p>Παραμετρικός τύπος</p>
+</th>
+<th>
+<p>Περιγραφή</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><code class="constant">SF-ADJUSTMENT</code></p>
+</td>
+<td>
+<p>
+Δημιουργεί μια ζώνη διαλόγου στο παράθυρο διαλόγου του Script-fu.
+</p>
+<p>
+SF-ADJUSTMENT "label" '(value lower upper step_inc page_inc digits type)
+</p>
+<div class="segmentedlist" title="Widget arguments list"><div class="title"><strong><span class="title">Κατάλογος ορισμάτων ζώνης επιλογών</span></strong></div><table border="0"><thead><tr class="segtitle"><th>Στοιχείο</th><th>Περιγραφή</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"label"</td><td class="seg">Το τυπωμένο κείμενο πριν τη ζώνη επιλογής.</td></tr><tr class="seglistitem"><td class="seg">value</td><td class="seg">Εμφανιζόμενη τιμή στην αρχή.</td></tr><tr class="seglistitem"><td class="seg">lower / upper</td><td class="seg">Η κατώτερη/ανώτερη τιμή (εμβέλεια επιλογής).</td></tr><tr class="seglistitem"><td class="seg">step_inc</td><td class="seg">Τιμή αύξησης/μείωσης.</td></tr><tr class="seglistitem"><td class="seg">page_inc</td><td class="seg">Τιμή αύξησης/μείωσης χρησιμοποιώντας το πλήκτρο σελίδας.</td></tr><tr class="seglistitem"><td class="seg">digits</td><td class="seg">Ψηφία μετά την υποδιαστολή (δεκαδικό μέρος).</td></tr><tr class="seglistitem"><td class="seg">type</td><td class="seg">Ένα από: SF-SLIDER ή 0, SF-SPINNER ή 1</td></tr></tbody></table></div>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-COLOR</code></p>
+</td>
+<td>
+<p>Δημιουργεί ένα χρωματιστό κουμπί στο διάλογο.</p>
+<p>SF-COLOR "label" '(red green blue)</p>
+<p>ή</p>
+<p>SF-COLOR "label" "color"</p>
+<div class="segmentedlist" title="Widget arguments list"><div class="title"><strong><span class="title">Κατάλογος ορισμάτων εφαρμογών</span></strong></div><table border="0"><thead><tr class="segtitle"><th>Στοιχείο</th><th>Περιγραφή</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"label"</td><td class="seg">Εκτυπωμένο κείμενο πριν την εφαρμογή.</td></tr><tr class="seglistitem"><td class="seg">'(red green blue)</td><td class="seg">
+Κατάλογος των τριών τιμών για τα συστατικά κόκκινο, πράσινο και μπλε.
+</td></tr><tr class="seglistitem"><td class="seg">"color"</td><td class="seg">Το όνομα του χρώματος στη σημειογραφία CSS.</td></tr></tbody></table></div>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-FONT</code></p>
+</td>
+<td>
+<p>
+Δημιουργεί μια εφαρμογή επιλογής γραμματοσειράς στο διάλογο. Επιστρέφει ένα όνομα γραμματοσειράς ως αλφαριθμητικό.
+Υπάρχουν δύο νέες διαδικασίες κειμένου gimp για διευκόλυνση της χρήσης αυτής της επιστρεφόμενης παραμέτρου:
+</p>
+<p>
+(gimp-text-fontname image drawable x-pos y-pos text border
+antialias size unit font)
+</p>
+<p>
+(gimp-text-get-extents-fontname text size unit font)
+</p>
+<p>
+όπου font είναι το όνομα της γραμματοσειράς που παίρνετε. Το οριζόμενο μέγεθος στο fontname αγνοείται σιωπηρά.
+Χρησιμοποιείται μόνο στον επιλογέα γραμματοσειράς. Σας ζητιέται να ορίσετε μια χρήσιμη τιμή (24 εικονοστοιχεία
+είναι μια καλή επιλογή).
+</p>
+<p>SF-FONT "label" "fontname"</p>
+<div class="segmentedlist" title="Κατάλογος ορισμάτων των κουμπιών"><div class="title"><strong><span class="title">Κατάλογος ορισμάτων των κουμπιών</span></strong></div><table border="0"><thead><tr class="segtitle"><th>Στοιχείο</th><th>Περιγραφή</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"label"</td><td class="seg">Το τυπωμένο κείμενο πριν την ζώνη διαλόγου.</td></tr><tr class="seglistitem"><td class="seg">"fontname"</td><td class="seg">Όνομα της προκαθορισμένης γραμματοσειράς.</td></tr></tbody></table></div>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-BRUSH</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής πινέλου. Η ζώνη επιλογής αποτελείται από μια περιοχή προεπισκόπησης (που όταν
+πατιέται θα παράξει μια αναδυόμενη προεπισκόπηση) και ένα κουμπί με την ετικέτα "...". Το κουμπί θα εμφανίσει
+ένα διάλογο, όπου πινέλα μπορούν να επιλεγούν και καθένα από τα χαρακτηριστικά του πινέλου μπορεί να τροποποιηθεί.
+</p>
+<p>SF-BRUSH "Brush" '("Circle (03)" 100 44 0)</p>
+<p>
+Εδώ ο διάλογος του πινέλου θα αναδυθεί με ένα προκαθορισμένο πινέλο κύκλος (03) αδιαφάνεια 100 διάκενο 44 και κανονική κατάσταση βαφής (τιμή 0).
+</p>
+<p>
+Εάν αυτή η επιλογή δεν αλλάχτηκε η τιμή που περνά στη συνάρτηση ως παράμετρος θα ήταν '("κύκλος (03)" 100 44 0).
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-PATTERN</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου που αποτελείται από μια περιοχή προεπισκόπησης (που όταν
+πατηθεί θα παράξει μια αναδυόμενη προεπισκόπηση) και ένα κουμπί με την ετικέτα "...". Το κουμπί θα εμφανίσει
+ένα διάλογο όπου μοτίβα μπορούν να επιλεγούν.
+</p>
+<p>SF-PATTERN "Pattern" "Maple Leaves"</p>
+<p>
+Η επιστρεφόμενη τιμή, όταν καλείται το σενάριο είναι ένα αλφαριθμητικό που περιέχει το όνομα του προπλάσματος.
+Εάν η πιο πάνω επιλογή δεν μεταβλήθηκε το αλφαριθμητικό θα περιέχει "Maple Leaves".
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-GRADIENT</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει
+μια προεπισκόπηση της επιλεγμένης διαβάθμισης.
+</p>
+<p>
+Εάν το κουμπί πιεστεί ένας διάλογος επιλογής διαβάθμισης θα αναδυθεί.
+</p>
+<p>SF-GRADIENT "Gradient" "Deep Sea"</p>
+<p>
+Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα της διαβάθμισης.
+Εάν η πιο πάνω επιλογή δεν αλλάχτηκε το αλφαριθμητικό θα περιέχει "Deep Sea".
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-PALETTE</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει
+το όνομα της επιλεγμένης παλέτας.
+</p>
+<p>
+Εάν το κουμπί πιεστεί ένας διάλογος επιλογής παλέτας θα αναδυθεί.
+</p>
+<p>SF-PALETTE "Palette" "Named Colors"</p>
+<p>
+Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα της παλέτας.
+Εάν η πιο πάνω επιλογή δεν αλλάχτηκε το αλφαριθμητικό θα περιέχει "Named Colors".
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-FILENAME</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής αποτελείται από ένα κουμπί που περιέχει
+το όνομα ενός αρχείου.
+</p>
+<p>
+Εάν το κουμπί πιεστεί ένας διάλογος επιλογής αρχείου θα αναδυθεί.
+</p>
+<p>
+SF-FILENAME "label" (string-append ""
+gimp-data-directory "/scripts/beavis.jpg")
+</p>
+<p>
+Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα του αρχείου.
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-DIRNAME</code></p>
+</td>
+<td>
+<p>
+Χρήσιμο μόνο στη διαδραστική κατάσταση. Παρόμοιο με το SF-FILENAME, αλλά η δημιουργούμενη ζώνη επιλογής επιτρέπει
+να επιλεγεί ένας κατάλογος αντί για αρχείο.
+</p>
+<p>
+SF-DIRNAME "label" "/var/tmp/images"
+</p>
+<p>
+Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ένα αλφαριθμητικό που περιέχει το όνομα του φακέλου.
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-OPTION</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής είναι ένα σύνθετο πλαίσιο που δείχνει τις
+επιλογές που πέρασαν ως λίστα.
+</p>
+<p>Η πρώτη επιλογή είναι η προκαθορισμένη επιλογή.</p>
+<p>
+SF-OPTION "label" '("option1" "option2")
+</p>
+<p>
+Η επιστρεφόμενη τιμή όταν το σενάριο καλείται είναι ο αριθμός των επιλεγμένων επιλογών, όπου η πρώτη επιλογή
+ξεκινά από 0.
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><code class="constant">SF-ENUM</code></p>
+</td>
+<td>
+<p>
+Θα δημιουργήσει μια ζώνη επιλογής στο διάλογο ελέγχου. Η ζώνη επιλογής είναι ένα σύνθετο πλαίσιο που δείχνει όλες
+τις απαριθμημένες τιμές για το δοσμένο τύπο απαρίθμησης. Αυτός πρέπει να είναι το όνομα της καταχωρισμένης
+απαρίθμησης χωρίς το πρόθεμα "Gimp". Η δεύτερη παράμετρος ορίζει την προκαθορισμένη τιμή, χρησιμοποιώντας το
+παρατσούκλι της τιμής απαρίθμησης.
+</p>
+<p>
+SF-ENUM "Interpolation" '("InterpolationType" "linear")
+</p>
+<p>
+Η επιστρεφόμενη τιμή όταν καλείται το σενάριο αντιστοιχεί στη επιλεγμένη τιμή απαρίθμησης.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="footnotes">
+<br />
+<hr width="100" align="left" />
+<div class="footnote">
+<p><sup>[<a id="ftn.id3224820" href="#id3224820" class="para">5</a>] </sup>
+Πριν την έκδοση 2.6, <code class="code">&lt;Toolbox&gt;</code> μπορούσαν επίσης να χρησιμοποιηθούν, αλλά τώρα
+το μενού της εργαλειοθήκης μετακινήθηκε, έτσι μην το χρησιμοποιείται.
+</p>
+</div>
+<div class="footnote">
+<p><sup>[<a id="ftn.id3172058" href="#id3172058" class="para">6</a>] </sup>
+Το πρωτότυπο, γραμμένο από τον Mike, λέει βάλτε την είσοδο του μενού στο μενού Script-Fu του μενού
+<span class="guimenu">Xtns</span> στην εργαλειοθήκη, αλλά από την έκδοση 2.6, το μενού της εργαλειοθήκης μετακινήθηκε
+και συγχωνεύτηκε με τη γραμμή μενού του εικονοπαραθύρου.
+</p>
+</div>
+<div class="footnote">
+<p><sup>[<a id="ftn.id3237391" href="#id3237391" class="para">7</a>] </sup>
+Αυτή η ενότητα δεν είναι μέρος του αυθεντικού μαθήματος.
+</p>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html">3.3. Λίστες, λίστες και πάλι λίστες</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html">3.5. Δίνοντας στο σενάριό μας περισσότερη ψυχή</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

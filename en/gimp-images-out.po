@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-images-out.html:6(title) en/gimp-images-out.html:21(th) en/gimp-images-out.html:33(div:title)
+msgid "Chapter 6. Getting Images out of GIMP"
+msgstr ""
+
+#: en/gimp-images-out.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-images-out.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-images-out.html:13(link:title)
+msgid "Part II.  How do I Become a GIMP Wizard?"
+msgstr ""
+
+#: en/gimp-images-out.html:14(link:title) en/gimp-images-out.html:1053(a)
+msgid "3.8. Image Browser"
+msgstr ""
+
+#: en/gimp-images-out.html:15(link:title) en/gimp-images-out.html:1059(a)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/gimp-images-out.html:24(img:alt) en/gimp-images-out.html:1044(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-images-out.html:24(td) en/gimp-images-out.html:1044(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-image-browser.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-images-out.html:26(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/gimp-images-out.html:25(th)
+msgid "Part II.  How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/gimp-images-out.html:28(img:alt) en/gimp-images-out.html:1050(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-images-out.html:28(td) en/gimp-images-out.html:1050(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-web.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-images-out.html:37(h2)
+msgid "<a id=\"gimp-images-out\"/>Chapter 6. Getting Images out of GIMP"
+msgstr ""
+
+#: en/gimp-images-out.html:43(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-images-out.html:48(a)
+msgid "1. Files"
+msgstr ""
+
+#: en/gimp-images-out.html:55(a)
+msgid "1.1. Saving Images"
+msgstr ""
+
+#: en/gimp-images-out.html:60(a)
+msgid "1.2. Saving Files"
+msgstr ""
+
+#: en/gimp-images-out.html:67(a)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/gimp-images-out.html:74(a)
+msgid "2.1. Images with an Optimal Size/Quality Ratio"
+msgstr ""
+
+#: en/gimp-images-out.html:79(a)
+msgid "2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/gimp-images-out.html:84(a)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/gimp-images-out.html:91(div:title)
+msgid "1. Files"
+msgstr ""
+
+#: en/gimp-images-out.html:95(h2)
+msgid "<a id=\"gimp-using-fileformats\"/>1. Files"
+msgstr ""
+
+#: en/gimp-images-out.html:100(p)
+msgid "The <acronym class=\"acronym\">GIMP</acronym> is capable of reading and writing a large variety of graphics file formats. With the exception of <acronym class=\"acronym\">GIMP</acronym>'s native XCF file type, file handling is done by Plugins. Thus, it is relatively easy to extend <acronym class=\"acronym\">GIMP</acronym> to support new file types when the need arises."
+msgstr ""
+
+#: en/gimp-images-out.html:107(p)
+msgid "Not all file types are equally good for all purposes. This part of the documentation should help you understand the advantages and disadvantages of each type."
+msgstr ""
+
+#: en/gimp-images-out.html:112(div:title)
+msgid "1.1. Saving Images"
+msgstr ""
+
+#: en/gimp-images-out.html:116(h3)
+msgid "<a id=\"id3121827\"/>1.1. Saving Images"
+msgstr ""
+
+#: en/gimp-images-out.html:120(p)
+msgid "When you are finished working with an image, you will want to save the results. (In fact, it is often a good idea to save at intermediate stages too: <acronym class=\"acronym\">GIMP</acronym> is a pretty robust program, but we have heard rumors, possibly apocryphal, that it may have been known on rare and mysterious occasions to crash.) Most of the file formats that <acronym class=\"acronym\">GIMP</acronym> can open, can also be used for saving. There is one file format that is special, though: XCF is <acronym class=\"acronym\">GIMP</acronym>'s native format, and is useful because it stores <span class=\"emphasis\"><em>everything</em></span> about an image (well, almost everything; it does not store <span class=\"quote\">“<span class=\"quote\">undo</span>”</span> information). Thus, the XCF format is especially suitable for saving intermediate results, and for saving images to be re-opened later in <acronym class=\"acronym\">GIMP</acronym>. XCF files are not readable by most other programs that display images, so once you have finished, you will probably also want to save the image in a more widely used format, such as JPEG, PNG, TIFF, etc."
+msgstr ""
+
+#: en/gimp-images-out.html:139(div:title)
+msgid "1.2. Saving Files"
+msgstr ""
+
+#: en/gimp-images-out.html:143(h3)
+msgid "<a id=\"gimp-using-fileformats-export-dialog\"/>1.2. Saving Files"
+msgstr ""
+
+#: en/gimp-images-out.html:147(p)
+msgid "There are several commands for saving images. A list, and information on how to use them, can be found in the section covering the <a class=\"link\" href=\"gimp-file-menu.html\" title=\"2.&#xA0;The &#x201C;File&#x201D; Menu\">File Menu</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:152(p)
+msgid "<acronym class=\"acronym\">GIMP</acronym> allows you to save the images you create in a wide variety of formats. It is important to realize that the only format capable of saving <span class=\"emphasis\"><em>all</em></span> of the information in an image, including layers, transparency, etc., is GIMP's native XCF format. Every other format preserves some image properties and loses others. When you save an image, <acronym class=\"acronym\">GIMP</acronym> tries to warn you, but it is up to you to understand the capabilities of the format you choose."
+msgstr ""
+
+#: en/gimp-images-out.html:164(b)
+msgid "Figure 6.1. Example of an Export dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:168(img:alt)
+msgid "Example of an Export dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:173(p)
+msgid "As stated above, there is no file format, with the exception of GIMP's native <a class=\"link\" href=\"glossary.html#glossary-xcf\" title=\"XCF\">XCF</a> format, that is capable of storing all the information in a <acronym class=\"acronym\">GIMP</acronym> image. When you ask to save an image in a format that will lose information, <acronym class=\"acronym\">GIMP</acronym> notifies you, tells you what information will be lost, and asks you whether you would like to <span class=\"quote\">“<span class=\"quote\">export</span>”</span> the image in a form that the file type can handle. Exporting an image does not modify the image itself, so you do not lose anything by exporting. See <a class=\"link\" href=\"gimp-export-dialog.html\" title=\"5.4.&#xA0;Export File\">Export file</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:185(div:title) en/gimp-images-out.html:191(th) en/gimp-images-out.html:440(div:title) en/gimp-images-out.html:446(th) en/gimp-images-out.html:542(div:title) en/gimp-images-out.html:548(th) en/gimp-images-out.html:872(div:title) en/gimp-images-out.html:878(th) en/gimp-images-out.html:991(div:title) en/gimp-images-out.html:997(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-images-out.html:189(img:alt) en/gimp-images-out.html:444(img:alt) en/gimp-images-out.html:546(img:alt) en/gimp-images-out.html:876(img:alt) en/gimp-images-out.html:995(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-images-out.html:195(p)
+msgid "When you close an image (possibly by quitting GIMP), you are warned if the image is \"dirty\"; that is, if it has been changed without subsequently being saved. Saving an image in any file format will cause the image to be considered \"not dirty\", even if the file format does not represent all of the information from the image."
+msgstr ""
+
+#: en/gimp-images-out.html:206(div:title)
+msgid "1.2.1. Saving as GIF"
+msgstr ""
+
+#: en/gimp-images-out.html:210(h4)
+msgid "<a id=\"file-gif-save\"/>1.2.1. Saving as GIF"
+msgstr ""
+
+#: en/gimp-images-out.html:222(b)
+msgid "Figure 6.2. The GIF Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:226(img:alt)
+msgid "The GIF Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:231(div:title) en/gimp-images-out.html:237(th)
+msgid "Warning"
+msgstr ""
+
+#: en/gimp-images-out.html:235(img:alt)
+msgid "[Warning]"
+msgstr ""
+
+#: en/gimp-images-out.html:241(p)
+msgid "The GIF file format does not support some basic image properties such as <span class=\"emphasis\"><em>print resolution</em></span>. If you care for these properties, use a different file format like PNG."
+msgstr ""
+
+#: en/gimp-images-out.html:255(span)
+msgid "GIF Options"
+msgstr ""
+
+#: en/gimp-images-out.html:261(span)
+msgid "Interlace"
+msgstr ""
+
+#: en/gimp-images-out.html:264(p) en/gimp-images-out.html:766(p)
+msgid "Checking interlace allows an image on a web page to be progressively displayed as it is downloaded. Progressive image display is useful with slow connection speeds, because you can stop an image that is of no interest; interlace is of less use today with our faster connection speeds."
+msgstr ""
+
+#: en/gimp-images-out.html:274(span)
+msgid "GIF comment"
+msgstr ""
+
+#: en/gimp-images-out.html:277(p)
+msgid "GIF comments support only 7-bit ASCII characters. If you use a character outside the 7-bit ASCII set, <acronym class=\"acronym\">GIMP</acronym> will save the image without a comment, and then inform you that the comment was not saved."
+msgstr ""
+
+#: en/gimp-images-out.html:289(span)
+msgid "Animated GIF Options"
+msgstr ""
+
+#: en/gimp-images-out.html:296(span)
+msgid "Loop forever"
+msgstr ""
+
+#: en/gimp-images-out.html:299(p)
+msgid "When this option is checked, the animation will play repeatedly until you stop it."
+msgstr ""
+
+#: en/gimp-images-out.html:305(span)
+msgid "Delay between frames if unspecified"
+msgstr ""
+
+#: en/gimp-images-out.html:308(p)
+msgid "You can set the delay, in milliseconds, between frames if it has not been set before. In this case, you can modify every delay in the Layer Dialog."
+msgstr ""
+
+#: en/gimp-images-out.html:315(span)
+msgid "Frame disposal when unspecified"
+msgstr ""
+
+#: en/gimp-images-out.html:318(p)
+msgid "If this has not been set before, you can set how frames will be superimposed. You can select among three options :"
+msgstr ""
+
+#: en/gimp-images-out.html:325(p)
+msgid "<span class=\"guilabel\">I don't care</span>: you can use this option if all your layers are opaque. Layers will overwrite what is beneath."
+msgstr ""
+
+#: en/gimp-images-out.html:332(p)
+msgid "<span class=\"guilabel\">Cumulative Layers (combine)</span>: previous frames will not be deleted when a new one is displayed."
+msgstr ""
+
+#: en/gimp-images-out.html:339(p)
+msgid "<span class=\"guilabel\">One frame per layer (replace)</span>: previous frames will be deleted before displaying a new frame."
+msgstr ""
+
+#: en/gimp-images-out.html:354(div:title)
+msgid "1.2.2. Saving as JPEG"
+msgstr ""
+
+#: en/gimp-images-out.html:358(h4)
+msgid "<a id=\"file-jpeg-save\"/>1.2.2. Saving as JPEG"
+msgstr ""
+
+#: en/gimp-images-out.html:368(p)
+msgid "JPEG files usually have an extension .jpg, .JPG, or .jpeg. It is a very widely used format, because it compresses images very efficiently, while minimizing the loss of image quality. No other format comes close to achieving the same level of compression. It does not, however, support transparency or multiple layers. For this reason, saving images as JPEG often requires them to be exported from <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-images-out.html:380(b)
+msgid "Figure 6.3. The JPEG Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:384(img:alt)
+msgid "The JPEG Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:389(p)
+msgid "The JPEG algorithm is quite complex, and involves a bewildering number of options, whose meaning is beyond the scope of this documentation. Unless you are a JPEG expert, the Quality parameter is probably the only one you will need to adjust."
+msgstr ""
+
+#: en/gimp-images-out.html:397(div:title) en/gimp-images-out.html:403(th)
+msgid "Caution"
+msgstr ""
+
+#: en/gimp-images-out.html:401(img:alt)
+msgid "[Caution]"
+msgstr ""
+
+#: en/gimp-images-out.html:407(p)
+msgid "After you save an image as a JPEG file, the image is no longer considered <span class=\"quote\">“<span class=\"quote\">dirty</span>”</span> by <acronym class=\"acronym\">GIMP</acronym>, so unless you make further changes to it, you will not receive any warning if you close it. Because JPEG is lossy and does not support transparency or multiple layers, some of the information in the image might then be lost. If you want to save all of the information in an image, use <acronym class=\"acronym\">GIMP</acronym>'s native <a class=\"link\" href=\"glossary.html#glossary-xcf\" title=\"XCF\">XCF format</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:426(span)
+msgid "Quality"
+msgstr ""
+
+#: en/gimp-images-out.html:429(p)
+msgid "When you save a file in JPEG format, a dialog is displayed that allows you to set the Quality level, which ranges from 0 to 100. Values above 95 are generally not useful, though. The default quality of 85 usually produces excellent results, but in many cases it is possible to set the quality substantially lower without noticeably degrading the image. You can test the effect of different quality settings by checking <span class=\"guilabel\">Show Preview in image window</span> in the JPEG dialog."
+msgstr ""
+
+#: en/gimp-images-out.html:450(p)
+msgid "Please note, that the numbers for the JPEG quality level have a different meaning in different applications. Saving with a quality level of 80 in GIMP is not necessarily comparable with saving with a quality level of 80 in a different application."
+msgstr ""
+
+#: en/gimp-images-out.html:463(span)
+msgid "Preview in image window"
+msgstr ""
+
+#: en/gimp-images-out.html:466(p)
+msgid "Checking this option causes each change in quality (or any other JPEG parameter) to be shown in the image display. (This does not alter the image: the image reverts back to its original state when the JPEG dialog is closed.)"
+msgstr ""
+
+#: en/gimp-images-out.html:474(span)
+msgid "Advanced settings"
+msgstr ""
+
+#: en/gimp-images-out.html:477(p)
+msgid "Some information about the advanced settings:"
+msgstr ""
+
+#: en/gimp-images-out.html:483(span)
+msgid "Optimize"
+msgstr ""
+
+#: en/gimp-images-out.html:486(p)
+msgid "If you enable this option, the optimization of entropy encoding parameters will be used. The result is typically a smaller file, but it takes more time to generate."
+msgstr ""
+
+#: en/gimp-images-out.html:493(span)
+msgid "Progressive"
+msgstr ""
+
+#: en/gimp-images-out.html:496(p)
+msgid "With this option enabled, the image chunks are stored in the file in an order that allows progressive image refinement during a slow connection web download. The progressive option for JPG has the same purpose as the interlace option for GIF. Unfortunately, the progressive option produces slightly larger JPG files (than without the progressive option)."
+msgstr ""
+
+#: en/gimp-images-out.html:509(span)
+msgid "Save EXIF data"
+msgstr ""
+
+#: en/gimp-images-out.html:513(p)
+msgid "JPEG files from many digital cameras contain extra information, called EXIF data. EXIF data provides information about the image such as camera make and model, image size, image date, etc. Although GIMP uses the <span class=\"quote\">“<span class=\"quote\">libexif</span>”</span> library to read and write EXIF data, the library is not automatically packaged with GIMP. If GIMP was built with libexif support, then EXIF data is preserved if you open a JPEG file, work with the resulting image, and then save it as JPEG. The EXIF data is not altered in any way when you do this. The EXIF data may indicate things such as image creation time and file name, which may no longer be correct. If GIMP was not built with EXIF support, you can still open JPG files containing EXIF data, but the EXIF data is ignored, and will not be saved when the resulting image is later saved."
+msgstr ""
+
+#: en/gimp-images-out.html:534(span)
+msgid "Save thumbnail"
+msgstr ""
+
+#: en/gimp-images-out.html:537(p)
+msgid "This option lets you save a thumbnail with the image. Many applications use the small thumbnail image as a quickly available small preview image."
+msgstr ""
+
+#: en/gimp-images-out.html:552(p)
+msgid "This option is present only if <acronym class=\"acronym\">GIMP</acronym> was built with EXIF support."
+msgstr ""
+
+#: en/gimp-images-out.html:562(span)
+msgid "Save XMP data"
+msgstr ""
+
+#: en/gimp-images-out.html:565(p)
+msgid "XMP data is <span class=\"quote\">“<span class=\"quote\">meta</span>”</span> data about the image; it is a competing format with EXIF. If you enable this option, the meta data of the image is saved in an <acronym class=\"acronym\">XMP</acronym>-structure within the file."
+msgstr ""
+
+#: en/gimp-images-out.html:574(span)
+msgid "Use quality settings from original image"
+msgstr ""
+
+#: en/gimp-images-out.html:579(p)
+msgid "If a particular quality setting (or <span class=\"quote\">“<span class=\"quote\">quantization table</span>”</span>) was attached to the image when it was loaded, then this option allows you to use them instead of the standard ones."
+msgstr ""
+
+#: en/gimp-images-out.html:585(p)
+msgid "If you have only made a few changes to the image, then re-using the same quality setting will give you almost the same quality and file size as the original image. This will minimize the losses caused by the quantization step, compared to what would happen if you used different quality setting."
+msgstr ""
+
+#: en/gimp-images-out.html:593(p)
+msgid "If the quality setting found in the original file are not better than your default quality settings, then the option <span class=\"quote\">“<span class=\"quote\">Use quality settings from original image</span>”</span> will be available but not enabled. This ensures that you always get at least the minimum quality specified in your defaults. If you did not make major changes to the image and you want to save it using the same quality as the original, then you can do it by enabling this option."
+msgstr ""
+
+#: en/gimp-images-out.html:605(span)
+msgid "Smoothing"
+msgstr ""
+
+#: en/gimp-images-out.html:608(p)
+msgid "JPG compression creates artifacts. By using this option, you can smooth the image when saving, reducing them. But your image becomes somewhat blurred."
+msgstr ""
+
+#: en/gimp-images-out.html:615(span)
+msgid "Restart markers"
+msgstr ""
+
+#: en/gimp-images-out.html:618(p)
+msgid "The image file can include markers which allow the image to be loaded as segments. If a connection is broken while loading the image in a web page, loading can resume from the next marker."
+msgstr ""
+
+#: en/gimp-images-out.html:626(span)
+msgid "Subsampling"
+msgstr ""
+
+#: en/gimp-images-out.html:629(p)
+msgid "The human eye is not sensitive in the same way over the entire color spectrum. The compression can use this to treat slightly different colors that the eye perceives as very close, as identical colors. Three methods are available :"
+msgstr ""
+
+#: en/gimp-images-out.html:639(p)
+msgid "<span class=\"guilabel\">1x1,1x1,1x1 (best quality)</span>: Commonly referred to as (4:4:4), this produces the best quality, preserving borders and contrasting colors, but compression is less."
+msgstr ""
+
+#: en/gimp-images-out.html:648(p)
+msgid "<span class=\"guilabel\">2x1,1x1,1x1 (4:2:2)</span>: This is the standard subsampling, which usually provides a good ratio between image quality and file size. There are situations, however, in which using no subsampling (4:4:4) provides a noticeable increase in the image quality; for example, when the image contains fine details such as text over a uniform background, or images with almost-flat colors."
+msgstr ""
+
+#: en/gimp-images-out.html:660(p)
+msgid "<span class=\"guilabel\">1x2,1x1,1x1</span> This is similar to (2x1,1x1,1x1), but the chroma sampling is in the horizontal direction rather than the vertical direction; as if someone rotated an image."
+msgstr ""
+
+#: en/gimp-images-out.html:669(p)
+msgid "<span class=\"guilabel\">2x2,1x1,1x1 (smallest file)</span>: Commonly referred to as (4:1:1), this produces the smallest files. This suits images with weak borders but tends to denature colors."
+msgstr ""
+
+#: en/gimp-images-out.html:680(span)
+msgid "DCT Method"
+msgstr ""
+
+#: en/gimp-images-out.html:683(p)
+msgid "DCT is <span class=\"quote\">“<span class=\"quote\">discrete cosine transform</span>”</span>, and it is the first step in the JPEG algorithm going from the spatial to the frequency domain. The choices are <span class=\"quote\">“<span class=\"quote\">float</span>”</span>, <span class=\"quote\">“<span class=\"quote\">integer</span>”</span> (the default), and <span class=\"quote\">“<span class=\"quote\">fast integer</span>”</span>."
+msgstr ""
+
+#: en/gimp-images-out.html:693(p)
+msgid "<span class=\"guilabel\">float</span>: The float method is very slightly more accurate than the integer method, but is much slower unless your machine has very fast floating-point hardware. Also note that the results of the floating-point method may vary slightly across machines, while the integer methods should give the same results everywhere."
+msgstr ""
+
+#: en/gimp-images-out.html:704(p)
+msgid "<span class=\"guilabel\">integer</span> (the default): This method is faster than <span class=\"quote\">“<span class=\"quote\">float</span>”</span>, but not as accurate."
+msgstr ""
+
+#: en/gimp-images-out.html:711(p)
+msgid "<span class=\"guilabel\">fast integer</span>: The fast integer method is much less accurate than the other two."
+msgstr ""
+
+#: en/gimp-images-out.html:721(span)
+msgid "Image comments"
+msgstr ""
+
+#: en/gimp-images-out.html:724(p)
+msgid "In this text box, you can enter a comment which is saved with the image."
+msgstr ""
+
+#: en/gimp-images-out.html:735(div:title)
+msgid "1.2.3. Saving as PNG"
+msgstr ""
+
+#: en/gimp-images-out.html:739(h4)
+msgid "<a id=\"file-png-save\"/>1.2.3. Saving as PNG"
+msgstr ""
+
+#: en/gimp-images-out.html:751(span)
+msgid "Save as PNG"
+msgstr ""
+
+#: en/gimp-images-out.html:751(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/gimp-images-out.html:751(b)
+msgid "Figure 6.4. The <placeholder-1/> dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:755(img:alt)
+msgid "The Save as PNG dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:763(span)
+msgid "Interlacing"
+msgstr ""
+
+#: en/gimp-images-out.html:776(span)
+msgid "Save background color"
+msgstr ""
+
+#: en/gimp-images-out.html:779(p)
+msgid "If your image has many transparency levels, the Internet browsers that recognize only two levels, will use the background color of your Toolbox instead. Internet Explorer up to version 6 did not use this information."
+msgstr ""
+
+#: en/gimp-images-out.html:787(span)
+msgid "Save gamma"
+msgstr ""
+
+#: en/gimp-images-out.html:790(p)
+msgid "Gamma correction is the ability to correct for differences in how computers interpret color values. This saves gamma information in the PNG that reflects the current Gamma factor for your display. Viewers on other computers can then compensate to ensure that the image is not too dark or too bright."
+msgstr ""
+
+#: en/gimp-images-out.html:800(span)
+msgid "Save layer offset"
+msgstr ""
+
+#: en/gimp-images-out.html:803(p)
+msgid "PNG supports an offset value called the <span class=\"quote\">“<span class=\"quote\">oFFs chunk</span>”</span>, which provides position data. Unfortunately, PNG offset support in <acronym class=\"acronym\">GIMP</acronym> is broken, or at least is not compatible with other applications, and has been for a long time. Do not enable offsets, let <acronym class=\"acronym\">GIMP</acronym> flatten the layers before saving, and you will have no problems."
+msgstr ""
+
+#: en/gimp-images-out.html:815(span)
+msgid "Save Resolution"
+msgstr ""
+
+#: en/gimp-images-out.html:818(p)
+msgid "Save the image resolution, in DPI (dots per inch)."
+msgstr ""
+
+#: en/gimp-images-out.html:823(span)
+msgid "Save creation time"
+msgstr ""
+
+#: en/gimp-images-out.html:826(p)
+msgid "Date the file was saved."
+msgstr ""
+
+#: en/gimp-images-out.html:831(span)
+msgid "Save comment"
+msgstr ""
+
+#: en/gimp-images-out.html:834(p)
+msgid "You can read this comment in the <a class=\"link\" href=\"gimp-image-properties.html\" title=\"6.28.&#xA0;Image Properties\">Image Properties</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:840(span) en/gimp-images-out.html:1017(span)
+msgid "Save color values from transparent pixels"
+msgstr ""
+
+#: en/gimp-images-out.html:843(p)
+msgid "With this option is checked, the color values are saved even if the pixels are completely transparent."
+msgstr ""
+
+#: en/gimp-images-out.html:849(span)
+msgid "Compression level"
+msgstr ""
+
+#: en/gimp-images-out.html:852(p)
+msgid "Since compression is not lossy, the only reason to use a compression level less than 9, is if it takes too long to compress a file on a slow computer. Nothing to fear from decompression: it is as quick whatever the compression level."
+msgstr ""
+
+#: en/gimp-images-out.html:861(span)
+msgid "Save Defaults"
+msgstr ""
+
+#: en/gimp-images-out.html:864(p)
+msgid "Click to save the current settings. Latter, you can use <span class=\"guibutton\">Load Defaults</span> to load the saved settings."
+msgstr ""
+
+#: en/gimp-images-out.html:882(p)
+msgid "The PNG format supports indexed images. Using fewer colors, therefore, results in a smaller file; this is especially useful for creating web images; see <a class=\"xref\" href=\"gimp-image-convert-indexed.html\" title=\"6.6.&#xA0;Indexed mode\">Section 6.6, “Indexed mode”</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:888(p)
+msgid "Computers work on 8 bits blocks named <span class=\"quote\">“<span class=\"quote\">Byte</span>”</span>. A byte allows 256 colors. Reducing the number of colors below 256 is not useful: a byte will be used anyway and the file size will not be less. More, this <span class=\"quote\">“<span class=\"quote\">PNG8</span>”</span> format, like GIF, uses only one bit for transparency; only two transparency levels are possible, transparent or opaque."
+msgstr ""
+
+#: en/gimp-images-out.html:896(p)
+msgid "If you want PNG transparency to be fully displayed by Internet Explorer, you can use the AlphaImageLoader DirectX filter in the code of your Web page. See Microsoft Knowledge Base <a class=\"xref\" href=\"bibliography.html#bibliography-online-microsoft-kb294714\" title=\"Microsoft Knowledge Base Article 294714\">[<abbr class=\"abbrev\">MSKB-294714</abbr>]</a>. Please note, that this is not necessary for InternetExplorer 7 and above."
+msgstr ""
+
+#: en/gimp-images-out.html:909(div:title)
+msgid "1.2.4. Saving as TIFF"
+msgstr ""
+
+#: en/gimp-images-out.html:913(h4)
+msgid "<a id=\"file-tiff-save\"/>1.2.4. Saving as TIFF"
+msgstr ""
+
+#: en/gimp-images-out.html:920(b)
+msgid "Figure 6.5. The TIFF Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:927(img:alt)
+msgid "The TIFF Save dialog"
+msgstr ""
+
+#: en/gimp-images-out.html:935(span)
+msgid "Compression"
+msgstr ""
+
+#: en/gimp-images-out.html:938(p)
+msgid "This option allows you to specify the algorithm used to compress the image."
+msgstr ""
+
+#: en/gimp-images-out.html:945(p)
+msgid "<span class=\"guilabel\">None</span>: is fast, and lossless, but the resulting file is very large."
+msgstr ""
+
+#: en/gimp-images-out.html:951(p)
+msgid "<span class=\"guilabel\">LZW</span>: The image is compressed using the <span class=\"quote\">“<span class=\"quote\">Lempel-Ziv-Welch</span>”</span> algorithm, a lossless compression technique. This is old, but efficient and fast. More information at <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-lzw\" title=\"Wikipedia - LZW\">[<abbr class=\"abbrev\">WKPD-LZW</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:960(p)
+msgid "<span class=\"guilabel\">Pack Bits</span>: is a fast, simple compression scheme for run-length encoding of data. Apple introduced the PackBits format with the release of MacPaint on the Macintosh computer. A PackBits data stream consists of packets of one byte of header followed by data. (Source: <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-packbits\" title=\"Wikipedia - PackBits\">[<abbr class=\"abbrev\">WKPD-PACKBITS</abbr>]</a>)"
+msgstr ""
+
+#: en/gimp-images-out.html:971(p)
+msgid "<span class=\"guilabel\">Deflate</span>: is a lossless data compression algorithm that uses a combination of the LZ77 algorithm and Huffman coding. It is also used in Zip, Gzip and PNG file formats. Source: <a class=\"xref\" href=\"bibliography.html#bibliography-online-wkpd-deflate\" title=\"Wikipedia - Deflate\">[<abbr class=\"abbrev\">WKPD-DEFLATE</abbr>]</a>."
+msgstr ""
+
+#: en/gimp-images-out.html:980(p)
+msgid "<span class=\"guilabel\">JPEG</span>: is a very good compression algorithm but lossy."
+msgstr ""
+
+#: en/gimp-images-out.html:986(p)
+msgid "<span class=\"guilabel\">CCITT Group 3 fax</span>; <span class=\"guilabel\">CCITT Group 4 fax</span> is a black and white format developed to transfer images by FAX."
+msgstr ""
+
+#: en/gimp-images-out.html:1001(p)
+msgid "These options can only be selected, if the image is in indexed mode and reduced to two colors. Use <span class=\"guimenu\">Image</span> → <span class=\"guisubmenu\">Mode</span> → <span class=\"guimenuitem\">Indexed</span> to convert the image to indexed. Be certain to check <span class=\"quote\">“<span class=\"quote\">Use black and white (1-bit) palette</span>”</span>."
+msgstr ""
+
+#: en/gimp-images-out.html:1020(p)
+msgid "With this option the color values are saved even if the pixels are completely transparent."
+msgstr ""
+
+#: en/gimp-images-out.html:1026(span)
+msgid "Comment"
+msgstr ""
+
+#: en/gimp-images-out.html:1029(p)
+msgid "In this text box, you can enter a comment that is associated with the image."
+msgstr ""
+
+#: en/gimp-images-out.html:1047(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-images-out.html:1053(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-images-out.html:1056(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-images-out.html:1059(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

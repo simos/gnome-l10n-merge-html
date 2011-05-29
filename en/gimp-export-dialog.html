@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.4. Export File</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+    <link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+    <link rel="up" href="gimp-dialogs-misc.html" title="5. Misc. Dialogs" />
+    <link rel="prev" href="gimp-errors-dialog.html" title="5.3. Error Console" />
+    <link rel="next" href="gimp-sample-point-dialog.html" title="5.5. Sample Points Dialog" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.4. Export File</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left"><a accesskey="p" href="gimp-errors-dialog.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <th width="60%" align="center">5. Misc. Dialogs</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-sample-point-dialog.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2" title="5.4. Export File">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-export-dialog"></a>5.4. Export File</h3>
+          </div>
+        </div>
+      </div>
+      <a id="id3296499" class="indexterm"></a>
+      <a id="gimp-export-confirm-dialog"></a>
+      <p>
+    The <span class="quote">“<span class="quote">Export file</span>”</span> is opened when you try to save a file in
+    a format which does not support several layers or transparency.
+  </p>
+      <div class="variablelist" title="The file format does not support animation">
+        <p class="title">
+          <b>The file format does not support animation</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="term">Portable Network Graphics (PNG)</span>
+          </dt>
+          <dd>
+            <a id="id3220640" class="indexterm"></a>
+            <a id="id3183179" class="indexterm"></a>
+            <div class="figure">
+              <a id="id3245740"></a>
+              <p class="title">
+                <b>Figure 14.74. Export PNG file dialog</b>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/dialogs/export-file-png.png" alt="Export PNG file dialog" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>
+          The PNG format, a lossless format, supports transparency but
+          doesn't support animation. So, you only can <span class="guilabel">Flatten
+          image</span>, i.e merge layers into a single one,
+          according to the mode you have selected for the image.
+        </p>
+          </dd>
+          <dt>
+            <span class="term">JPEG File Interchange Format (JFIF, JPEG)</span>
+          </dt>
+          <dd>
+            <a id="id3246535" class="indexterm"></a>
+            <a id="id3235310" class="indexterm"></a>
+            <a id="id3262056" class="indexterm"></a>
+            <div class="figure">
+              <a id="id3262033"></a>
+              <p class="title">
+                <b>Figure 14.75. Export JPEG file dialog</b>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/dialogs/export-file-jpeg.png" alt="Export JPEG file dialog" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>
+          The JPEG format, a compression format with loss, doesn't support
+          animation nor transparency. The file will be flattened and
+          transparency will be replaced with the background color of Toolbox.
+        </p>
+          </dd>
+        </dl>
+      </div>
+      <div class="variablelist" title="The file format supports animation">
+        <p class="title">
+          <b>The file format supports animation</b>
+        </p>
+        <dl>
+          <dt>
+            <span class="term">Multiple-Image Network Graphics (MNG)</span>
+          </dt>
+          <dd>
+            <a id="id3263575" class="indexterm"></a>
+            <a id="id3303264" class="indexterm"></a>
+            <div class="figure">
+              <a id="id3306787"></a>
+              <p class="title">
+                <b>Figure 14.76. Export MNG File Dialog</b>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/dialogs/export-file-mng.png" alt="Export MNG File Dialog" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>
+          The MNG format is an animation format and supports 256 transparency
+          levels (which, at last, are recognized by Internet Explorer 7). The
+          dialog offers two options. Select <span class="guilabel">Save as
+          animation</span>, since <span class="guilabel">Flatten Image</span> does
+          not make sense here. Note that MNG images are not recognized by
+          <acronym class="acronym">GIMP</acronym>.
+        </p>
+          </dd>
+          <dt>
+            <span class="term">Graphics Interchange Format (GIF)</span>
+          </dt>
+          <dd>
+            <a id="id3222219" class="indexterm"></a>
+            <a id="id3294473" class="indexterm"></a>
+            <div class="figure">
+              <a id="id3308820"></a>
+              <p class="title">
+                <b>Figure 14.77. Export GIF File Dialog</b>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/dialogs/export-file-gif.png" alt="Export GIF File Dialog" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>
+          The GIF format, less sophisticated than the MNG format, supports 256
+          colors and 2 transparency levels only.
+        </p>
+            <p>
+          The dialog offers you either <span class="guilabel">Flatten Image</span>
+          or <span class="guilabel">Save as animation</span>. See the glossary
+          (<a class="xref" href="glossary.html#glossary-gif" title="GIF">
+      <span>GIF</span>
+    </a>) for more details about the GIF
+          format.
+        </p>
+            <p>
+          If you have not transformed your image into a 256 colors indexed
+          image before, this dialog will ask you choose between
+          <span class="guilabel">Convert to grayscale</span> and
+          <span class="guilabel">Convert to indexed using default settings</span>.
+          Be careful: an indexed image undergoes a severe loss of colors and
+          the added palette can give it a size bigger and a quality less than
+          if it was saved as JPEG.
+        </p>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-errors-dialog.html"><img src="images/prev.png" alt="Prev" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-dialogs-misc.html">
+              <img src="images/up.png" alt="Up" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-sample-point-dialog.html"><img src="images/next.png" alt="Next" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-errors-dialog.html">5.3. Error Console</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="Home" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-sample-point-dialog.html">5.5. Sample Points Dialog</a></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

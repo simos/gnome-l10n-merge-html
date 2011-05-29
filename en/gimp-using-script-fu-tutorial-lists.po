@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-lists.html:6(title) en/gimp-using-script-fu-tutorial-lists.html:21(th) en/gimp-using-script-fu-tutorial-lists.html:31(div:title)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:13(link:title) en/gimp-using-script-fu-tutorial-lists.html:25(th)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:14(link:title) en/gimp-using-script-fu-tutorial-lists.html:336(a)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:15(link:title) en/gimp-using-script-fu-tutorial-lists.html:342(a)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:24(img:alt) en/gimp-using-script-fu-tutorial-lists.html:327(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:24(td) en/gimp-using-script-fu-tutorial-lists.html:327(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial-identifier.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:26(img:alt) en/gimp-using-script-fu-tutorial-lists.html:333(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:26(td) en/gimp-using-script-fu-tutorial-lists.html:333(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-first-script.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-lists\"/>3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:39(p)
+msgid "We've trained you in variables and functions, and now enter the murky swamps of Scheme's lists."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:43(div:title)
+msgid "3.3.1. Defining A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:47(h4)
+msgid "<a id=\"id3228169\"/>3.3.1. Defining A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:51(p)
+msgid "Before we talk more about lists, it is necessary that you know the difference between atomic values and lists."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:55(p)
+msgid "You've already seen atomic values when we initialized variables in the previous lesson. An atomic value is a single value. So, for example, we can assign the variable <span class=\"quote\">“<span class=\"quote\"><code class=\"varname\">x</code></span>”</span> the single value of 8 in the following statement:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:62(pre)
+#, no-wrap
+msgid "(let* ( (x 8) ) x)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:63(p)
+msgid "(We added the expression <code class=\"varname\">x</code> at the end to print out the value assigned to <code class=\"varname\">x</code>—normally you won't need to do this. Notice how <code class=\"code\">let*</code> operates just like a function: The value of the last statement is the value returned.)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:69(p)
+msgid "A variable may also refer to a list of values, rather than a single value. To assign the variable <code class=\"varname\">x</code> the list of values 1, 3, 5, we'd type:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:74(pre)
+#, no-wrap
+msgid "(let* ( (x '(1 3 5))) x)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:75(p)
+msgid "Try typing both statements into the Script-Fu Console and notice how it replies. When you type the first statement in, it simply replies with the result:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:80(pre)
+#, no-wrap
+msgid "8"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:81(p)
+msgid "However, when you type in the other statement, it replies with the following result:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:85(pre)
+#, no-wrap
+msgid "(1 3 5)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:86(p)
+msgid "When it replies with the value 8 it is informing you that <code class=\"varname\">x</code> contains the atomic value 8. However, when it replies with <code class=\"computeroutput\">(1 3 5)</code>, it is then informing you that <code class=\"varname\">x</code> contains not a single value, but a list of values. Notice that there are no commas in our declaration or assignment of the list, nor in the printed result."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:95(p)
+msgid "The syntax to define a list is:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:96(pre)
+#, no-wrap
+msgid "'(a b c)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:97(p)
+msgid "where <code class=\"varname\">a</code>, <code class=\"varname\">b</code>, and <code class=\"varname\">c</code> are literals. We use the apostrophe (<code class=\"code\">'</code>) to indicate that what follows in the parentheses is a list of literal values, rather than a function or expression."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:104(p)
+msgid "An empty list can be defined as such:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:105(pre)
+#, no-wrap
+msgid "'()"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:106(p)
+msgid "or simply:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:107(pre) en/gimp-using-script-fu-tutorial-lists.html:257(pre)
+#, no-wrap
+msgid "()"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:108(p)
+msgid "Lists can contain atomic values, as well as other lists:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:109(pre)
+#, no-wrap
+msgid "\n(let*\n   (\n        (x\n           '(\"GIMP\" (1 2 3) (\"is\" (\"great\" () ) ) )\n        )\n    )\n    x\n)\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:119(p)
+msgid "Notice that after the first apostrophe, you no longer need to use an apostrophe when defining the inner lists. Go ahead and copy the statement into the Script-Fu Console and see what it returns."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:124(p)
+msgid "You should notice that the result returned is not a list of single, atomic values; rather, it is a list of a literal <code class=\"code\">(\"The GIMP\")</code>, the list <code class=\"code\">(1 2 3)</code>, etc."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:130(div:title)
+msgid "3.3.2. How To Think Of Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:134(h4)
+msgid "<a id=\"id3171467\"/>3.3.2. How To Think Of Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:138(p)
+msgid "It's useful to think of lists as composed of a <span class=\"quote\">“<span class=\"quote\">head</span>”</span> and a <span class=\"quote\">“<span class=\"quote\">tail</span>”</span>. The head is the first element of the list, the tail the rest of the list. You'll see why this is important when we discuss how to add to lists and how to access elements in the list."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:146(div:title)
+msgid "3.3.3. Creating Lists Through Concatenation (The Cons Function)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:150(h4)
+msgid "<a id=\"id3192073\"/>3.3.3. Creating Lists Through Concatenation (The Cons Function)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:154(p)
+msgid "One of the more common functions you'll encounter is the cons function. It takes a value and places it to its second argument, a list. From the previous section, I suggested that you think of a list as being composed of an element (the head) and the remainder of the list (the tail). This is exactly how cons functions — it adds an element to the head of a list. Thus, you could create a list as follows:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:163(pre)
+#, no-wrap
+msgid "(cons 1 '(2 3 4) )"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:164(p)
+msgid "The result is the list <code class=\"code\">(1 2 3 4)</code>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:165(p)
+msgid "You could also create a list with one element:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:166(pre)
+#, no-wrap
+msgid "(cons 1 () )"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:167(p)
+msgid "You can use previously declared variables in place of any literals, as you would expect."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:172(div:title)
+msgid "3.3.4. Defining A List Using The list Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:176(code)
+msgid "list"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:176(h4)
+msgid "<a id=\"id3193397\"/>3.3.4. Defining A List Using The <placeholder-1/> Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:180(p)
+msgid "To define a list composed of literals or previously declared variables, use the <code class=\"function\">list</code> function:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:184(pre)
+#, no-wrap
+msgid "(list 5 4 3 a b c)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:185(p)
+msgid "This will compose and return a list containing the values held by the variables <code class=\"varname\">a</code>, <code class=\"varname\">b</code> and <code class=\"varname\">c</code>. For example:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:190(pre)
+#, no-wrap
+msgid "\n        (let*  (\n                  (a 1)\n                  (b 2)\n                  (c 3)\n               )\n\n               (list 5 4 3 a b c)\n        )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:200(p)
+msgid "This code creates the list <code class=\"code\">(5 4 3 1 2 3)</code>."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:204(div:title)
+msgid "3.3.5. Accessing Values In A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:208(h4)
+msgid "<a id=\"id3200704\"/>3.3.5. Accessing Values In A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:212(p)
+msgid "To access the values in a list, use the functions <code class=\"function\">car</code> and <code class=\"function\">cdr</code>, which return the first element of the list and the rest of the list, respectively. These functions break the list down into the head::tail construct I mentioned earlier."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:220(div:title)
+msgid "3.3.6. The car Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:224(code)
+msgid "car"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:224(h4)
+msgid "<a id=\"id3225031\"/>3.3.6. The <placeholder-1/> Function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:228(p)
+msgid "<code class=\"function\">car</code> returns the first element of the list (the head of the list). The list needs to be non-null. Thus, the following returns the first element of the list:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:233(pre)
+#, no-wrap
+msgid "(car '(\"first\" 2 \"third\"))"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:234(p)
+msgid "which is:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:235(pre)
+#, no-wrap
+msgid "\"first\""
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:237(div:title)
+msgid "3.3.7. The cdr function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:241(code)
+msgid "cdr"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:241(h4)
+msgid "<a id=\"id3203517\"/>3.3.7. The <placeholder-1/> function"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:245(p)
+msgid "<code class=\"function\">cdr</code> returns the rest of the list after the first element (the tail of the list). If there is only one element in the list, it returns an empty list."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:251(pre)
+#, no-wrap
+msgid "(cdr '(\"first\" 2 \"third\"))"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:252(p) en/gimp-using-script-fu-tutorial-lists.html:256(p)
+msgid "returns:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:253(pre)
+#, no-wrap
+msgid "(2 \"third\")"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:254(p)
+msgid "whereas the following:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:255(pre)
+#, no-wrap
+msgid "(cdr '(\"one and only\"))"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:259(div:title)
+msgid "3.3.8. Accessing Other Elements In A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:263(h4)
+msgid "<a id=\"id3216392\"/>3.3.8. Accessing Other Elements In A List"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:267(p)
+msgid "OK, great, we can get the first element in a list, as well as the rest of the list, but how do we access the second, third or other elements of a list? There exist several \"convenience\" functions to access, for example, the head of the head of the tail of a list (<code class=\"code\">caadr</code>), the tail of the tail of a list (<code class=\"code\">cddr</code>), etc."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:275(p)
+msgid "The basic naming convention is easy: The a's and d's represent the heads and tails of lists, so"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:279(pre)
+#, no-wrap
+msgid "(car (cdr (car x) ) )"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:280(p)
+msgid "could be written as:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:281(pre)
+#, no-wrap
+msgid "(cadar x)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:282(p)
+msgid "To get some practice with list-accessing functions, try typing in the following (except all on one line if you're using the console); use different variations of <code class=\"function\">car</code> and <code class=\"function\">cdr</code> to access the different elements of the list:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:288(pre)
+#, no-wrap
+msgid "\n        (let* (\n                 (x  '( (1 2 (3 4 5) 6)  7  8  (9 10) )\n                 )\n              )\n              ; place your car/cdr code here\n        )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:296(p)
+msgid "Try accessing the number 3 in the list using only two function calls. If you can do that, you're on your way to becoming a Script-Fu Master!"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:301(div:title) en/gimp-using-script-fu-tutorial-lists.html:307(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:305(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:311(p)
+msgid "In Scheme, a semicolon (<code class=\"code\">;</code>) marks a comment. It, and anything that follows it on the same line, are ignored by the script interpreter, so you can use this to add comments to jog your memory when you look at the script later."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:330(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:336(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:339(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-lists.html:342(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

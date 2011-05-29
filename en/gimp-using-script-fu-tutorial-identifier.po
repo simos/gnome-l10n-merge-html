@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:6(title) en/gimp-using-script-fu-tutorial-identifier.html:21(th) en/gimp-using-script-fu-tutorial-identifier.html:31(div:title)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:13(link:title) en/gimp-using-script-fu-tutorial-identifier.html:14(link:title) en/gimp-using-script-fu-tutorial-identifier.html:25(th) en/gimp-using-script-fu-tutorial-identifier.html:279(a)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:15(link:title) en/gimp-using-script-fu-tutorial-identifier.html:285(a)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:24(img:alt) en/gimp-using-script-fu-tutorial-identifier.html:270(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:24(td) en/gimp-using-script-fu-tutorial-identifier.html:270(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-script-fu-tutorial.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:26(img:alt) en/gimp-using-script-fu-tutorial-identifier.html:276(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:26(td) en/gimp-using-script-fu-tutorial-identifier.html:276(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-script-fu-tutorial-lists.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:35(h3)
+msgid "<a id=\"gimp-using-script-fu-tutorial-identifier\"/>3.2. Variables And Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:39(p)
+msgid "Now that we know that every Scheme statement is enclosed in parentheses, and that the function name/operator is listed first, we need to know how to create and use variables, and how to create and use functions. We'll start with the variables."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:45(div:title)
+msgid "3.2.1. Declaring Variables"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:49(h4)
+msgid "<a id=\"id3231753\"/>3.2.1. Declaring Variables"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:53(p)
+msgid "Although there are a couple of different methods for declaring variables, the preferred method is to use the <span class=\"command\"><strong>let*</strong></span> construct. If you're familiar with other programming languages, this construct is equivalent to defining a list of local variables and a scope in which they're active. As an example, to declare two variables, a and b, initialized to 1 and 2, respectively, you'd write:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:62(pre)
+#, no-wrap
+msgid "\n        (let*\n           (\n              (a 1)\n              (b 2)\n           )\n           (+ a b)\n        )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:71(p)
+msgid "or, as one line:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:72(pre)
+#, no-wrap
+msgid "(let* ( (a 1) (b 2) ) (+ a b) )"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:73(div:title) en/gimp-using-script-fu-tutorial-identifier.html:79(th) en/gimp-using-script-fu-tutorial-identifier.html:181(div:title) en/gimp-using-script-fu-tutorial-identifier.html:187(th)
+msgid "Note"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:77(img:alt) en/gimp-using-script-fu-tutorial-identifier.html:185(img:alt)
+msgid "[Note]"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:83(p)
+msgid "You'll have to put all of this on one line if you're using the console window. In general, however, you'll want to adopt a similar practice of indentation to help make your scripts more readable. We'll talk a bit more about this in the section on White Space."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:93(p)
+msgid "This declares two local variables, a and b, initializes them, then prints the sum of the two variables."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:98(div:title)
+msgid "3.2.2. What Is A Local Variable?"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:102(h4)
+msgid "<a id=\"id3231714\"/>3.2.2. What Is A Local Variable?"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:106(p)
+msgid "You'll notice that we wrote the summation <code class=\"code\">(+ a b)</code> within the parens of the <code class=\"code\">let*</code> expression, not after it."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:110(p)
+msgid "This is because the <code class=\"code\">let*</code> statement defines an area in your script in which the declared variables are usable; if you type the <strong class=\"userinput\"><code>(+ a b)</code></strong> statement after the <strong class=\"userinput\"><code>(let* …)</code></strong> statement, you'll get an error, because the declared variables are only valid within the context of the <code class=\"code\">let*</code> statement; they are what programmers call local variables."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:120(div:title)
+msgid "3.2.3. The General Syntax Of let*"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:124(code)
+msgid "let*"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:124(h4)
+msgid "<a id=\"id3216440\"/>3.2.3. The General Syntax Of <placeholder-1/>"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:128(p)
+msgid "The general form of a <code class=\"code\">let*</code> statement is:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:129(pre)
+#, no-wrap
+msgid "\n        (let* ( <em class=\"replaceable\"><code>variables</code></em> )\n          <em class=\"replaceable\"><code>expressions</code></em> )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:133(p)
+msgid "where variables are declared within parens, e.g., <strong class=\"userinput\"><code>(a 2)</code></strong>, and expressions are any valid Scheme expressions. Remember that the variables declared here are only valid within the <code class=\"code\">let*</code> statement — they're local variables."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:141(div:title)
+msgid "3.2.4. White Space"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:145(h4)
+msgid "<a id=\"id3216411\"/>3.2.4. White Space"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:149(p)
+msgid "Previously, we mentioned the fact that you'll probably want to use indentation to help clarify and organize your scripts. This is a good policy to adopt, and is not a problem in Scheme — white space is ignored by the Scheme interpreter, and can thus be liberally applied to help clarify and organize the code within a script. However, if you're working in Script-Fu's Console window, you'll have to enter an entire expression on one line; that is, everything between the opening and closing parens of an expression must come on one line in the Script-Fu Console window."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:161(div:title)
+msgid "3.2.5. Assigning A New Value To A Variable"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:165(h4)
+msgid "<a id=\"id3139700\"/>3.2.5. Assigning A New Value To A Variable"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:169(p)
+msgid "Once you've initialized a variable, you might need to change its value later on in the script. Use the <code class=\"code\">set!</code> statement to change the variable's value:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:174(pre)
+#, no-wrap
+msgid "\n        (let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:177(p)
+msgid "Try to guess what the above statement will do, then go ahead and enter it in the Script-Fu Console window."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:191(p)
+msgid "The <span class=\"quote\">“<span class=\"quote\"><code class=\"code\">\\</code></span>”</span> indicates that there is no line break. Ignore it (don't type it in your Script-Fu console and don't hit <span class=\"keycap\"><strong>Enter</strong></span>), just continue with the next line."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:201(div:title)
+msgid "3.2.6. Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:205(h4)
+msgid "<a id=\"id3150259\"/>3.2.6. Functions"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:209(p)
+msgid "Now that you've got the hang of variables, let's get to work with some functions. You declare a function with the following syntax:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:213(pre)
+#, no-wrap
+msgid "\n        (define\n           (\n              <em class=\"replaceable\"><code>name</code></em>\n              <em class=\"replaceable\"><code>param-list</code></em>\n           )\n           <em class=\"replaceable\"><code>expressions</code></em>\n        )\n      "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:222(p)
+msgid "where <em class=\"replaceable\"><code>name</code></em> is the name assigned to this function, <em class=\"replaceable\"><code>param-list</code></em> is a space-delimited list of parameter names, and <em class=\"replaceable\"><code>expressions</code></em> is a series of expressions that the function executes when it's called. For example:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:229(pre)
+#, no-wrap
+msgid "(define (AddXY inX inY) (+ inX inY) )"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:230(p)
+msgid "<code class=\"varname\">AddXY</code> is the function's name and <code class=\"varname\">inX</code> and <code class=\"varname\">inY</code> are the variables. This function takes its two parameters and adds them together."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:236(p)
+msgid "If you've programmed in other imperative languages (like C/C++, Java, Pascal, etc.), you might notice that a couple of things are absent in this function definition when compared to other programming languages."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:244(p)
+msgid "First, notice that the parameters don't have any <span class=\"quote\">“<span class=\"quote\">types</span>”</span> (that is, we didn't declare them as strings, or integers, etc.). Scheme is a type-less language. This is handy and allows for quicker script writing."
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:253(p)
+msgid "Second, notice that we don't need to worry about how to <span class=\"quote\">“<span class=\"quote\">return</span>”</span> the result of our function — the last statement is the value <span class=\"quote\">“<span class=\"quote\">returned</span>”</span> when calling this function. Type the function into the console, then try something like:"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:260(pre)
+#, no-wrap
+msgid "(AddXY (AddXY 5 6) 4)"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:273(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:279(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:282(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-using-script-fu-tutorial-identifier.html:285(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

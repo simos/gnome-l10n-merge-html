@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-open-location.html:6(title) el/gimp-using-open-location.html:21(th) el/gimp-using-open-location.html:31(div:title)
+msgid "3.2. Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/gimp-using-open-location.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-open-location.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-open-location.html:13(link:title) el/gimp-using-open-location.html:14(link:title) el/gimp-using-open-location.html:25(th) el/gimp-using-open-location.html:75(a)
+msgid "3. Άνοιγμα αρχείων"
+msgstr ""
+
+#: el/gimp-using-open-location.html:15(link:title) el/gimp-using-open-location.html:81(a)
+msgid "3.3. Άνοιγμα πρόσφατου"
+msgstr ""
+
+#: el/gimp-using-open-location.html:24(img:alt) el/gimp-using-open-location.html:66(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-open-location.html:24(td) el/gimp-using-open-location.html:66(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-fileformats-opening.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-open-location.html:26(img:alt) el/gimp-using-open-location.html:72(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-open-location.html:26(td) el/gimp-using-open-location.html:72(td)
+msgid " <a accesskey=\"n\" href=\"gimp-using-open-recent.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-open-location.html:35(h3)
+msgid "<a id=\"gimp-using-open-location\"/>3.2. Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/gimp-using-open-location.html:39(p)
+msgid "Εάν αντί για όνομα αρχείου, έχετε μια <acronym class=\"acronym\">URI</acronym> (π.χ. διεύθυνση ιστού) για την εικόνα, μπορείτε να την ανοίξετε χρησιμοποιώντας το μενού. Πατήστε <span class=\"guimenu\">Αρχείο</span> → <span class=\"guimenuitem\">Άνοιγμα τοποθεσίας…</span> από το μενού εικόνας. Αυτό σας φέρνει ένα μικρό διάλογο που σας επιτρέπει να εισάγετε ή να επικολλήσετε το <acronym class=\"acronym\">URI</acronym>."
+msgstr ""
+
+#: el/gimp-using-open-location.html:49(span)
+msgid "Άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/gimp-using-open-location.html:49(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: el/gimp-using-open-location.html:49(b)
+msgid "Εικόνα 5.5. Ο διάλογος <placeholder-1/>"
+msgstr ""
+
+#: el/gimp-using-open-location.html:53(img:alt)
+msgid "Ο διάλογος άνοιγμα τοποθεσίας"
+msgstr ""
+
+#: el/gimp-using-open-location.html:55(p)
+msgid "Ο διάλογος <span class=\"quote\">“<span class=\"quote\">Άνοιγμα τοποθεσίας</span>”</span>."
+msgstr ""
+
+#: el/gimp-using-open-location.html:69(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-open-location.html:75(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-open-location.html:78(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-open-location.html:81(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

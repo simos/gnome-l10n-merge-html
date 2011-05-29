@@ -1,0 +1,2879 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/index.html:6(title) en/index.html:12(link:title) en/index.html:19(th) en/index.html:29(div:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/index.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/index.html:13(link:title) en/index.html:67(a) en/index.html:3897(a)
+msgid "Preface"
+msgstr ""
+
+#: en/index.html:22(td) en/index.html:23(th) en/index.html:3890(td) en/index.html:3891(td) en/index.html:3895(td) en/index.html:3896(td)
+msgid " "
+msgstr ""
+
+#: en/index.html:24(img:alt) en/index.html:3892(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/index.html:24(td) en/index.html:3892(td)
+msgid " <a accesskey=\"n\" href=\"preface.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/index.html:33(h1)
+msgid "<a id=\"gimp-main\"/>GNU Image Manipulation Program"
+msgstr ""
+
+#: en/index.html:36(h2)
+msgid "User Manual"
+msgstr ""
+
+#: en/index.html:39(p)
+msgid "Copyright © 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 The GIMP Documentation Team"
+msgstr ""
+
+#: en/index.html:42(div:title) en/index.html:45(b)
+msgid "Legal Notice"
+msgstr ""
+
+#: en/index.html:47(p)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section enphrased <a class=\"link\" href=\"legal.html\" title=\"Appendix&#xA0;C.&#xA0;GNU Free Documentation License\">GNU Free Documentation License</a>."
+msgstr ""
+
+#: en/index.html:62(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/index.html:74(a)
+msgid "1. GIMP User Manual Authors and Contributors"
+msgstr ""
+
+#: en/index.html:81(a)
+msgid "I. Getting Started"
+msgstr ""
+
+#: en/index.html:88(a) en/index.html:2781(a)
+msgid "1. Introduction"
+msgstr ""
+
+#: en/index.html:95(a)
+msgid "1. Welcome to GIMP"
+msgstr ""
+
+#: en/index.html:102(a)
+msgid "1.1. Authors"
+msgstr ""
+
+#: en/index.html:107(a)
+msgid "1.2. The GIMP Help system"
+msgstr ""
+
+#: en/index.html:112(a)
+msgid "1.3. Features and Capabilities"
+msgstr ""
+
+#: en/index.html:119(a)
+msgid "2. What's New in GIMP 2.6?"
+msgstr ""
+
+#: en/index.html:126(a)
+msgid "2. Fire up the GIMP"
+msgstr ""
+
+#: en/index.html:133(a)
+msgid "1. Running GIMP"
+msgstr ""
+
+#: en/index.html:140(a)
+msgid "1.1. Known Platforms"
+msgstr ""
+
+#: en/index.html:145(a)
+msgid "1.2. Language"
+msgstr ""
+
+#: en/index.html:150(a)
+msgid "1.3. Command Line Arguments"
+msgstr ""
+
+#: en/index.html:157(a)
+msgid "2. Starting GIMP the first time"
+msgstr ""
+
+#: en/index.html:164(a)
+msgid "2.1. Finally . . ."
+msgstr ""
+
+#: en/index.html:173(a)
+msgid "3. First Steps with Wilber"
+msgstr ""
+
+#: en/index.html:180(a)
+msgid "1. Basic Concepts"
+msgstr ""
+
+#: en/index.html:185(a)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/index.html:192(a)
+msgid "2.1. The Toolbox"
+msgstr ""
+
+#: en/index.html:197(a)
+msgid "2.2. Image Window"
+msgstr ""
+
+#: en/index.html:202(a)
+msgid "2.3. Dialogs and Docking"
+msgstr ""
+
+#: en/index.html:209(a)
+msgid "3. Undoing"
+msgstr ""
+
+#: en/index.html:216(a)
+msgid "3.1. Things That Cannot be Undone"
+msgstr ""
+
+#: en/index.html:223(a)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/index.html:230(a)
+msgid "4.1. Intention"
+msgstr ""
+
+#: en/index.html:235(a)
+msgid "4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/index.html:240(a)
+msgid "4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/index.html:245(a)
+msgid "4.4. Crop An Image"
+msgstr ""
+
+#: en/index.html:250(a)
+msgid "4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/index.html:255(a)
+msgid "4.6. Change the Mode"
+msgstr ""
+
+#: en/index.html:260(a)
+msgid "4.7. Flip An Image"
+msgstr ""
+
+#: en/index.html:265(a)
+msgid "4.8. Rotate An Image"
+msgstr ""
+
+#: en/index.html:272(a)
+msgid "5. How to Draw Straight Lines"
+msgstr ""
+
+#: en/index.html:279(a)
+msgid "5.1. Intention"
+msgstr ""
+
+#: en/index.html:284(a)
+msgid "5.2. Examples"
+msgstr ""
+
+#: en/index.html:293(a)
+msgid "4. Getting Unstuck"
+msgstr ""
+
+#: en/index.html:300(a)
+msgid "1. Getting Unstuck"
+msgstr ""
+
+#: en/index.html:307(a)
+msgid "1.1. Stuck!"
+msgstr ""
+
+#: en/index.html:312(a)
+msgid "1.2. Common Causes of GIMP Non-Responsiveness"
+msgstr ""
+
+#: en/index.html:324(acronym)
+msgid "GIMP"
+msgstr ""
+
+#: en/index.html:323(a)
+msgid "II. How do I Become a <placeholder-1/> Wizard?"
+msgstr ""
+
+#: en/index.html:332(a)
+msgid "5. Getting Images into GIMP"
+msgstr ""
+
+#: en/index.html:339(a)
+msgid "1. Image Types"
+msgstr ""
+
+#: en/index.html:344(a)
+msgid "2. Creating new Files"
+msgstr ""
+
+#: en/index.html:349(a)
+msgid "3. Opening Files"
+msgstr ""
+
+#: en/index.html:356(a)
+msgid "3.1. Open File"
+msgstr ""
+
+#: en/index.html:361(a)
+msgid "3.2. Open Location"
+msgstr ""
+
+#: en/index.html:366(a)
+msgid "3.3. Open Recent"
+msgstr ""
+
+#: en/index.html:371(a)
+msgid "3.4. Using External Programs"
+msgstr ""
+
+#: en/index.html:376(a)
+msgid "3.5. File Manager"
+msgstr ""
+
+#: en/index.html:381(a)
+msgid "3.6. Drag and Drop"
+msgstr ""
+
+#: en/index.html:386(a)
+msgid "3.7. Copy and Paste"
+msgstr ""
+
+#: en/index.html:391(a)
+msgid "3.8. Image Browser"
+msgstr ""
+
+#: en/index.html:400(a)
+msgid "6. Getting Images out of GIMP"
+msgstr ""
+
+#: en/index.html:407(a)
+msgid "1. Files"
+msgstr ""
+
+#: en/index.html:414(a)
+msgid "1.1. Saving Images"
+msgstr ""
+
+#: en/index.html:419(a)
+msgid "1.2. Saving Files"
+msgstr ""
+
+#: en/index.html:426(a)
+msgid "2. Preparing your Images for the Web"
+msgstr ""
+
+#: en/index.html:433(a)
+msgid "2.1. Images with an Optimal Size/Quality Ratio"
+msgstr ""
+
+#: en/index.html:438(a)
+msgid "2.2. Reducing the File Size Even More"
+msgstr ""
+
+#: en/index.html:443(a)
+msgid "2.3. Saving Images with Transparency"
+msgstr ""
+
+#: en/index.html:452(a)
+msgid "7. Painting with GIMP"
+msgstr ""
+
+#: en/index.html:459(a)
+msgid "1. The Selection"
+msgstr ""
+
+#: en/index.html:466(a)
+msgid "1.1. Feathering"
+msgstr ""
+
+#: en/index.html:471(a)
+msgid "1.2. Making a Selection Partially Transparent"
+msgstr ""
+
+#: en/index.html:478(a)
+msgid "2. Creating and Using Selections"
+msgstr ""
+
+#: en/index.html:485(a)
+msgid "2.1. Moving a Selection"
+msgstr ""
+
+#: en/index.html:490(a)
+msgid "2.2. Adding or subtracting selections"
+msgstr ""
+
+#: en/index.html:497(a)
+msgid "3. The QuickMask"
+msgstr ""
+
+#: en/index.html:504(a)
+msgid "3.1. Overview"
+msgstr ""
+
+#: en/index.html:509(a)
+msgid "3.2. Properties"
+msgstr ""
+
+#: en/index.html:516(a)
+msgid "4. Using QuickMask Mode"
+msgstr ""
+
+#: en/index.html:523(span)
+msgid "Paths"
+msgstr ""
+
+#: en/index.html:521(a)
+msgid "5. <placeholder-1/>"
+msgstr ""
+
+#: en/index.html:531(a)
+msgid "5.1. Path Creation"
+msgstr ""
+
+#: en/index.html:536(a)
+msgid "5.2. Path Properties"
+msgstr ""
+
+#: en/index.html:541(a)
+msgid "5.3. Paths and Selections"
+msgstr ""
+
+#: en/index.html:546(a)
+msgid "5.4. Transforming Paths"
+msgstr ""
+
+#: en/index.html:551(a)
+msgid "5.5. Stroking a Path"
+msgstr ""
+
+#: en/index.html:556(a)
+msgid "5.6. Paths and Text"
+msgstr ""
+
+#: en/index.html:561(acronym)
+msgid "SVG"
+msgstr ""
+
+#: en/index.html:561(a)
+msgid "5.7. Paths and <placeholder-1/> files"
+msgstr ""
+
+#: en/index.html:568(a)
+msgid "6. Brushes"
+msgstr ""
+
+#: en/index.html:573(a)
+msgid "7. Adding New Brushes"
+msgstr ""
+
+#: en/index.html:578(a)
+msgid "8. The GIH Dialog Box"
+msgstr ""
+
+#: en/index.html:583(a)
+msgid "9. Varying brush size"
+msgstr ""
+
+#: en/index.html:590(a)
+msgid "9.1. How to vary the height of a brush"
+msgstr ""
+
+#: en/index.html:595(a)
+msgid "9.2. Creating a brush quickly"
+msgstr ""
+
+#: en/index.html:602(a)
+msgid "10. Gradients"
+msgstr ""
+
+#: en/index.html:607(a)
+msgid "11. Patterns"
+msgstr ""
+
+#: en/index.html:612(a)
+msgid "12. Palettes"
+msgstr ""
+
+#: en/index.html:619(a)
+msgid "12.1. Colormap"
+msgstr ""
+
+#: en/index.html:626(a)
+msgid "13. Drawing Simple Objects"
+msgstr ""
+
+#: en/index.html:633(a)
+msgid "13.1. Drawing a Straight Line"
+msgstr ""
+
+#: en/index.html:638(a)
+msgid "13.2. Creating a Basic Shape"
+msgstr ""
+
+#: en/index.html:647(a)
+msgid "8. Combining Images"
+msgstr ""
+
+#: en/index.html:654(a)
+msgid "1. Introduction to Layers"
+msgstr ""
+
+#: en/index.html:661(a)
+msgid "1.1. Layer Properties"
+msgstr ""
+
+#: en/index.html:668(a)
+msgid "2. Layer Modes"
+msgstr ""
+
+#: en/index.html:673(a)
+msgid "3. Creating New Layers"
+msgstr ""
+
+#: en/index.html:678(a)
+msgid "4. Text and Fonts"
+msgstr ""
+
+#: en/index.html:683(a)
+msgid "5. Text"
+msgstr ""
+
+#: en/index.html:690(a)
+msgid "5.1. Embellishing Text"
+msgstr ""
+
+#: en/index.html:695(a)
+msgid "5.2. Adding Fonts"
+msgstr ""
+
+#: en/index.html:700(a)
+msgid "5.3. Font Problems"
+msgstr ""
+
+#: en/index.html:709(a)
+msgid "9. Enhancing Photographs"
+msgstr ""
+
+#: en/index.html:716(a)
+msgid "1. Working with Digital Camera Photos"
+msgstr ""
+
+#: en/index.html:723(a) en/index.html:799(a) en/index.html:951(a) en/index.html:1081(a)
+msgid "1.1. Introduction"
+msgstr ""
+
+#: en/index.html:728(a)
+msgid "1.2. Improving Composition"
+msgstr ""
+
+#: en/index.html:733(a)
+msgid "1.3. Improving Colors"
+msgstr ""
+
+#: en/index.html:738(a)
+msgid "1.4. Adjusting Sharpness"
+msgstr ""
+
+#: en/index.html:743(a)
+msgid "1.5. Removing Unwanted Objects from an Image"
+msgstr ""
+
+#: en/index.html:748(a)
+msgid "1.6. Saving Your Results"
+msgstr ""
+
+#: en/index.html:757(a)
+msgid "10. Color Management with GIMP"
+msgstr ""
+
+#: en/index.html:764(a)
+msgid "1. Color Management in GIMP"
+msgstr ""
+
+#: en/index.html:771(a)
+msgid "1.1. Problems of a non Color Managed Workflow"
+msgstr ""
+
+#: en/index.html:776(a)
+msgid "1.2. Introduction to a Color Managed Workflow"
+msgstr ""
+
+#: en/index.html:785(a)
+msgid "11. Pimp my GIMP"
+msgstr ""
+
+#: en/index.html:792(a)
+msgid "1. Preferences Dialog"
+msgstr ""
+
+#: en/index.html:804(a)
+msgid "1.2. Environment"
+msgstr ""
+
+#: en/index.html:809(a)
+msgid "1.3. Interface"
+msgstr ""
+
+#: en/index.html:814(a)
+msgid "1.4. Theme"
+msgstr ""
+
+#: en/index.html:819(a)
+msgid "1.5. Help System"
+msgstr ""
+
+#: en/index.html:824(a)
+msgid "1.6. Tool Options"
+msgstr ""
+
+#: en/index.html:829(a)
+msgid "1.7. Toolbox"
+msgstr ""
+
+#: en/index.html:834(a)
+msgid "1.8. Default Image Preferences"
+msgstr ""
+
+#: en/index.html:839(a)
+msgid "1.9. Default Image Grid"
+msgstr ""
+
+#: en/index.html:844(a)
+msgid "1.10. Image Windows"
+msgstr ""
+
+#: en/index.html:849(a)
+msgid "1.11. Image Window Appearance"
+msgstr ""
+
+#: en/index.html:854(a)
+msgid "1.12. Image Window Title and Statusbar"
+msgstr ""
+
+#: en/index.html:859(a)
+msgid "1.13. Display"
+msgstr ""
+
+#: en/index.html:864(a)
+msgid "1.14. Color Management"
+msgstr ""
+
+#: en/index.html:869(a)
+msgid "1.15. Input Devices"
+msgstr ""
+
+#: en/index.html:874(a)
+msgid "1.16. Input Controllers"
+msgstr ""
+
+#: en/index.html:879(a)
+msgid "1.17. Window Management"
+msgstr ""
+
+#: en/index.html:884(a)
+msgid "1.18. Folders"
+msgstr ""
+
+#: en/index.html:889(a)
+msgid "1.19. Data Folders"
+msgstr ""
+
+#: en/index.html:896(a)
+msgid "2. Grids and Guides"
+msgstr ""
+
+#: en/index.html:903(a)
+msgid "2.1. The Image Grid"
+msgstr ""
+
+#: en/index.html:908(a)
+msgid "2.2. Guides"
+msgstr ""
+
+#: en/index.html:915(a)
+msgid "3. Rendering a Grid"
+msgstr ""
+
+#: en/index.html:920(a)
+msgid "4. How to Set Your Tile Cache"
+msgstr ""
+
+#: en/index.html:925(a)
+msgid "5. Creating Shortcuts to Menu Functions"
+msgstr ""
+
+#: en/index.html:930(a)
+msgid "6. Customize Splash-Screen"
+msgstr ""
+
+#: en/index.html:937(a)
+msgid "12. Scripting"
+msgstr ""
+
+#: en/index.html:944(a)
+msgid "1. Plugins"
+msgstr ""
+
+#: en/index.html:956(a)
+msgid "1.2. Using Plugins"
+msgstr ""
+
+#: en/index.html:961(a)
+msgid "1.3. Installing New Plugins"
+msgstr ""
+
+#: en/index.html:966(a)
+msgid "1.4. Writing Plugins"
+msgstr ""
+
+#: en/index.html:973(a)
+msgid "2. Using Script-Fu Scripts"
+msgstr ""
+
+#: en/index.html:980(a)
+msgid "2.1. Script-Fu?"
+msgstr ""
+
+#: en/index.html:985(a)
+msgid "2.2. Installing Script-Fus"
+msgstr ""
+
+#: en/index.html:990(a)
+msgid "2.3. Do's and Don'ts"
+msgstr ""
+
+#: en/index.html:995(a)
+msgid "2.4. Different Kinds Of Script-Fus"
+msgstr ""
+
+#: en/index.html:1000(a)
+msgid "2.5. Standalone Scripts"
+msgstr ""
+
+#: en/index.html:1005(a)
+msgid "2.6. Image-Dependent Scripts"
+msgstr ""
+
+#: en/index.html:1012(a)
+msgid "3. A Script-Fu Tutorial"
+msgstr ""
+
+#: en/index.html:1019(a)
+msgid "3.1. Getting Acquainted With Scheme"
+msgstr ""
+
+#: en/index.html:1024(a)
+msgid "3.2. Variables And Functions"
+msgstr ""
+
+#: en/index.html:1029(a)
+msgid "3.3. Lists, Lists And More Lists"
+msgstr ""
+
+#: en/index.html:1034(a)
+msgid "3.4. Your First Script-Fu Script"
+msgstr ""
+
+#: en/index.html:1039(a)
+msgid "3.5. Giving Our Script Some Guts"
+msgstr ""
+
+#: en/index.html:1044(a)
+msgid "3.6. Extending The Text Box Script"
+msgstr ""
+
+#: en/index.html:1049(a)
+msgid "3.7. Your script and its working"
+msgstr ""
+
+#: en/index.html:1060(a)
+msgid "III. Function Reference"
+msgstr ""
+
+#: en/index.html:1067(a)
+msgid "13. Tools"
+msgstr ""
+
+#: en/index.html:1074(a)
+msgid "1. The Toolbox"
+msgstr ""
+
+#: en/index.html:1086(a)
+msgid "1.2. Tool Icons"
+msgstr ""
+
+#: en/index.html:1091(a)
+msgid "1.3. Color and Indicator Area"
+msgstr ""
+
+#: en/index.html:1096(a)
+msgid "1.4. Tool Options"
+msgstr ""
+
+#: en/index.html:1103(a)
+msgid "2. Selection Tools"
+msgstr ""
+
+#: en/index.html:1110(a)
+msgid "2.1. Common Features"
+msgstr ""
+
+#: en/index.html:1115(a)
+msgid "2.2. Rectangle Selection"
+msgstr ""
+
+#: en/index.html:1120(a)
+msgid "2.3. Ellipse Selection"
+msgstr ""
+
+#: en/index.html:1125(a)
+msgid "2.4. Free Selection (Lasso)"
+msgstr ""
+
+#: en/index.html:1130(a)
+msgid "2.5. Fuzzy selection (Magic wand)"
+msgstr ""
+
+#: en/index.html:1135(a)
+msgid "2.6. Select By Color"
+msgstr ""
+
+#: en/index.html:1140(a)
+msgid "2.7. Intelligent Scissors"
+msgstr ""
+
+#: en/index.html:1145(a)
+msgid "2.8. Foreground Select"
+msgstr ""
+
+#: en/index.html:1152(a)
+msgid "3. Paint Tools"
+msgstr ""
+
+#: en/index.html:1159(a)
+msgid "3.1. Common Features"
+msgstr ""
+
+#: en/index.html:1164(a)
+msgid "3.2. Brush Tools (Pencil, Paintbrush, Airbrush)"
+msgstr ""
+
+#: en/index.html:1169(a)
+msgid "3.3. Bucket Fill"
+msgstr ""
+
+#: en/index.html:1174(a)
+msgid "3.4. Blend"
+msgstr ""
+
+#: en/index.html:1179(a)
+msgid "3.5. Pencil"
+msgstr ""
+
+#: en/index.html:1184(a)
+msgid "3.6. Paintbrush"
+msgstr ""
+
+#: en/index.html:1189(a)
+msgid "3.7. Eraser"
+msgstr ""
+
+#: en/index.html:1194(a)
+msgid "3.8. Airbrush"
+msgstr ""
+
+#: en/index.html:1199(a)
+msgid "3.9. Ink"
+msgstr ""
+
+#: en/index.html:1204(a)
+msgid "3.10. Clone"
+msgstr ""
+
+#: en/index.html:1209(a)
+msgid "3.11. Heal"
+msgstr ""
+
+#: en/index.html:1214(a)
+msgid "3.12. Perspective Clone"
+msgstr ""
+
+#: en/index.html:1219(a)
+msgid "3.13. Blur/Sharpen"
+msgstr ""
+
+#: en/index.html:1224(a)
+msgid "3.14. Smudge"
+msgstr ""
+
+#: en/index.html:1229(a)
+msgid "3.15. Dodge/Burn"
+msgstr ""
+
+#: en/index.html:1236(a)
+msgid "4. Transform Tools"
+msgstr ""
+
+#: en/index.html:1243(a)
+msgid "4.1. Common Features"
+msgstr ""
+
+#: en/index.html:1248(a)
+msgid "4.2. Align"
+msgstr ""
+
+#: en/index.html:1253(a)
+msgid "4.3. Move"
+msgstr ""
+
+#: en/index.html:1258(a)
+msgid "4.4. Crop"
+msgstr ""
+
+#: en/index.html:1263(a)
+msgid "4.5. Rotate"
+msgstr ""
+
+#: en/index.html:1268(a)
+msgid "4.6. Scale"
+msgstr ""
+
+#: en/index.html:1273(a)
+msgid "4.7. Shear"
+msgstr ""
+
+#: en/index.html:1278(a)
+msgid "4.8. Perspective"
+msgstr ""
+
+#: en/index.html:1283(a)
+msgid "4.9. Flip"
+msgstr ""
+
+#: en/index.html:1290(a)
+msgid "5. Color Tools"
+msgstr ""
+
+#: en/index.html:1297(a)
+msgid "5.1. Overview"
+msgstr ""
+
+#: en/index.html:1302(a)
+msgid "5.2. Color Balance"
+msgstr ""
+
+#: en/index.html:1307(a)
+msgid "5.3. Hue-Saturation"
+msgstr ""
+
+#: en/index.html:1312(a)
+msgid "5.4. Colorize"
+msgstr ""
+
+#: en/index.html:1317(a)
+msgid "5.5. Brightness-Contrast"
+msgstr ""
+
+#: en/index.html:1322(a)
+msgid "5.6. Threshold"
+msgstr ""
+
+#: en/index.html:1327(a)
+msgid "5.7. Levels"
+msgstr ""
+
+#: en/index.html:1332(a)
+msgid "5.8. Curves"
+msgstr ""
+
+#: en/index.html:1337(a)
+msgid "5.9. Posterize"
+msgstr ""
+
+#: en/index.html:1342(a)
+msgid "5.10. Desaturate"
+msgstr ""
+
+#: en/index.html:1349(a)
+msgid "6. Other"
+msgstr ""
+
+#: en/index.html:1356(a) en/index.html:2024(a)
+msgid "6.1. Overview"
+msgstr ""
+
+#: en/index.html:1361(a)
+msgid "6.2. Paths"
+msgstr ""
+
+#: en/index.html:1366(a)
+msgid "6.3. Color Picker"
+msgstr ""
+
+#: en/index.html:1371(a)
+msgid "6.4. Zoom"
+msgstr ""
+
+#: en/index.html:1376(a)
+msgid "6.5. Measure"
+msgstr ""
+
+#: en/index.html:1381(a)
+msgid "6.6. Text"
+msgstr ""
+
+#: en/index.html:1386(a)
+msgid "6.7. GEGL Operation"
+msgstr ""
+
+#: en/index.html:1395(a)
+msgid "14. Dialogs"
+msgstr ""
+
+#: en/index.html:1402(a)
+msgid "1. Dialog Introduction"
+msgstr ""
+
+#: en/index.html:1407(a)
+msgid "2. Image Structure Related Dialogs"
+msgstr ""
+
+#: en/index.html:1414(a)
+msgid "2.1. Layers Dialog"
+msgstr ""
+
+#: en/index.html:1419(a)
+msgid "2.2. Channels Dialog"
+msgstr ""
+
+#: en/index.html:1424(a)
+msgid "2.3. Paths Dialog"
+msgstr ""
+
+#: en/index.html:1429(a)
+msgid "2.4. Colormap Dialog"
+msgstr ""
+
+#: en/index.html:1434(a)
+msgid "2.5. Histogram dialog"
+msgstr ""
+
+#: en/index.html:1439(a)
+msgid "2.6. Navigation Dialog"
+msgstr ""
+
+#: en/index.html:1444(a)
+msgid "2.7. Undo History Dialog"
+msgstr ""
+
+#: en/index.html:1451(a)
+msgid "3. Image-content Related Dialogs"
+msgstr ""
+
+#: en/index.html:1458(a)
+msgid "3.1. FG/BG Color Dialog"
+msgstr ""
+
+#: en/index.html:1463(a)
+msgid "3.2. Brushes Dialog"
+msgstr ""
+
+#: en/index.html:1468(a)
+msgid "3.3. Patterns Dialog"
+msgstr ""
+
+#: en/index.html:1473(a)
+msgid "3.4. Gradients Dialog"
+msgstr ""
+
+#: en/index.html:1478(a)
+msgid "3.5. Palettes Dialog"
+msgstr ""
+
+#: en/index.html:1483(a)
+msgid "3.6. Fonts Dialog"
+msgstr ""
+
+#: en/index.html:1490(a)
+msgid "4. Image Management Related Dialogs"
+msgstr ""
+
+#: en/index.html:1497(a)
+msgid "4.1. Buffers Dialog"
+msgstr ""
+
+#: en/index.html:1502(a)
+msgid "4.2. Images Dialog"
+msgstr ""
+
+#: en/index.html:1507(a)
+msgid "4.3. Document History Dialog"
+msgstr ""
+
+#: en/index.html:1512(a)
+msgid "4.4. Templates Dialog"
+msgstr ""
+
+#: en/index.html:1519(a)
+msgid "5. Misc. Dialogs"
+msgstr ""
+
+#: en/index.html:1526(a)
+msgid "5.1. Tools Dialog"
+msgstr ""
+
+#: en/index.html:1531(a)
+msgid "5.2. Device Status Dialog"
+msgstr ""
+
+#: en/index.html:1536(a)
+msgid "5.3. Error Console"
+msgstr ""
+
+#: en/index.html:1541(a)
+msgid "5.4. Export File"
+msgstr ""
+
+#: en/index.html:1546(a)
+msgid "5.5. Sample Points Dialog"
+msgstr ""
+
+#: en/index.html:1551(a)
+msgid "5.6. Pointer Dialog"
+msgstr ""
+
+#: en/index.html:1560(a)
+msgid "15. Menus"
+msgstr ""
+
+#: en/index.html:1567(a)
+msgid "1. Introduction to Menus"
+msgstr ""
+
+#: en/index.html:1574(a)
+msgid "1.1. Context Menus"
+msgstr ""
+
+#: en/index.html:1579(a)
+msgid "1.2. Tear-off menus"
+msgstr ""
+
+#: en/index.html:1584(a)
+msgid "1.3. Tab menus"
+msgstr ""
+
+#: en/index.html:1591(span) en/index.html:3665(a) en/index.html:3668(span)
+msgid "File"
+msgstr ""
+
+#: en/index.html:1591(span) en/index.html:1680(span) en/index.html:1687(span) en/index.html:1777(span) en/index.html:1799(span) en/index.html:1806(span) en/index.html:1898(span) en/index.html:1905(span) en/index.html:2017(span) en/index.html:2166(span) en/index.html:2173(span) en/index.html:2218(span) en/index.html:2263(span) en/index.html:2268(span) en/index.html:2326(span) en/index.html:2326(span) en/index.html:2377(span) en/index.html:2444(span) en/index.html:2451(span) en/index.html:2476(span) en/index.html:2511(span) en/index.html:2539(span) en/index.html:2584(span) en/index.html:2646(span) en/index.html:2653(span) en/index.html:2660(span) en/index.html:2667(span) en/index.html:2687(span) en/index.html:2692(span) en/index.html:2699(span) en/index.html:2706(span) en/index.html:2711(span) en/index.html:2716(span) en/index.html:2723(span) en/index.html:2730(span)
+msgid "“<placeholder-1/>”"
+msgstr ""
+
+#: en/index.html:1591(a)
+msgid "2. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1598(a)
+msgid "2.1. Overview"
+msgstr ""
+
+#: en/index.html:1603(a)
+msgid "2.2. New"
+msgstr ""
+
+#: en/index.html:1608(a)
+msgid "2.3. Create"
+msgstr ""
+
+#: en/index.html:1613(a)
+msgid "2.4. Open"
+msgstr ""
+
+#: en/index.html:1618(a)
+msgid "2.5. Open as Layers"
+msgstr ""
+
+#: en/index.html:1623(a)
+msgid "2.6. Open Location"
+msgstr ""
+
+#: en/index.html:1628(a)
+msgid "2.7. Open Recent"
+msgstr ""
+
+#: en/index.html:1633(a)
+msgid "2.8. Save"
+msgstr ""
+
+#: en/index.html:1638(a)
+msgid "2.9. Save as"
+msgstr ""
+
+#: en/index.html:1643(a)
+msgid "2.10. Save a Copy"
+msgstr ""
+
+#: en/index.html:1648(a)
+msgid "2.11. Save as Template"
+msgstr ""
+
+#: en/index.html:1653(a)
+msgid "2.12. Revert"
+msgstr ""
+
+#: en/index.html:1658(a)
+msgid "2.13. Print"
+msgstr ""
+
+#: en/index.html:1663(a)
+msgid "2.14. Close"
+msgstr ""
+
+#: en/index.html:1668(a)
+msgid "2.15. Close all"
+msgstr ""
+
+#: en/index.html:1673(a)
+msgid "2.16. Quit"
+msgstr ""
+
+#: en/index.html:1680(span) en/index.html:1687(span) en/index.html:3689(a) en/index.html:3692(span)
+msgid "Edit"
+msgstr ""
+
+#: en/index.html:1680(a)
+msgid "3. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1687(a)
+msgid "3.1. <placeholder-1/> Menu Entries"
+msgstr ""
+
+#: en/index.html:1692(a)
+msgid "3.2. Undo"
+msgstr ""
+
+#: en/index.html:1697(a)
+msgid "3.3. Redo"
+msgstr ""
+
+#: en/index.html:1702(a)
+msgid "3.4. Fade"
+msgstr ""
+
+#: en/index.html:1707(a)
+msgid "3.5. Undo History"
+msgstr ""
+
+#: en/index.html:1712(a)
+msgid "3.6. Cut"
+msgstr ""
+
+#: en/index.html:1717(a)
+msgid "3.7. Copy"
+msgstr ""
+
+#: en/index.html:1722(a)
+msgid "3.8. Copy Visible"
+msgstr ""
+
+#: en/index.html:1727(a)
+msgid "3.9. Paste"
+msgstr ""
+
+#: en/index.html:1732(a)
+msgid "3.10. Paste Into"
+msgstr ""
+
+#: en/index.html:1737(a)
+msgid "3.11. Paste as"
+msgstr ""
+
+#: en/index.html:1742(a)
+msgid "3.12. Buffer"
+msgstr ""
+
+#: en/index.html:1747(a)
+msgid "3.13. Clear"
+msgstr ""
+
+#: en/index.html:1752(a)
+msgid "3.14. Fill with FG Color"
+msgstr ""
+
+#: en/index.html:1757(a)
+msgid "3.15. Fill with BG Color"
+msgstr ""
+
+#: en/index.html:1762(a)
+msgid "3.16. Fill with Pattern"
+msgstr ""
+
+#: en/index.html:1767(a)
+msgid "3.17. Stroke Selection"
+msgstr ""
+
+#: en/index.html:1772(a)
+msgid "3.18. Stroke Path"
+msgstr ""
+
+#: en/index.html:1777(span)
+msgid "Preferences"
+msgstr ""
+
+#: en/index.html:1777(a)
+msgid "3.19. The <placeholder-1/> Command"
+msgstr ""
+
+#: en/index.html:1782(a)
+msgid "3.20. Keyboard Shortcuts"
+msgstr ""
+
+#: en/index.html:1787(a)
+msgid "3.21. Modules"
+msgstr ""
+
+#: en/index.html:1792(a)
+msgid "3.22. Units"
+msgstr ""
+
+#: en/index.html:1799(span) en/index.html:1806(span) en/index.html:3705(a) en/index.html:3708(span)
+msgid "Select"
+msgstr ""
+
+#: en/index.html:1799(a)
+msgid "4. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1806(a)
+msgid "4.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1811(a)
+msgid "4.2. Select All"
+msgstr ""
+
+#: en/index.html:1816(a)
+msgid "4.3. None"
+msgstr ""
+
+#: en/index.html:1821(a)
+msgid "4.4. Invert"
+msgstr ""
+
+#: en/index.html:1826(a)
+msgid "4.5. Float"
+msgstr ""
+
+#: en/index.html:1831(a)
+msgid "4.6. By Color"
+msgstr ""
+
+#: en/index.html:1836(a)
+msgid "4.7. From Path"
+msgstr ""
+
+#: en/index.html:1841(a)
+msgid "4.8. Selection Editor"
+msgstr ""
+
+#: en/index.html:1846(a)
+msgid "4.9. Feather"
+msgstr ""
+
+#: en/index.html:1851(a)
+msgid "4.10. Sharpen"
+msgstr ""
+
+#: en/index.html:1856(a)
+msgid "4.11. Shrink"
+msgstr ""
+
+#: en/index.html:1861(a)
+msgid "4.12. Grow"
+msgstr ""
+
+#: en/index.html:1866(a)
+msgid "4.13. Border"
+msgstr ""
+
+#: en/index.html:1871(a)
+msgid "4.14. Distort"
+msgstr ""
+
+#: en/index.html:1876(a)
+msgid "4.15. Rounded Rectangle"
+msgstr ""
+
+#: en/index.html:1881(a)
+msgid "4.16. Toggle QuickMask"
+msgstr ""
+
+#: en/index.html:1886(a)
+msgid "4.17. Save to Channel"
+msgstr ""
+
+#: en/index.html:1891(a)
+msgid "4.18. To Path"
+msgstr ""
+
+#: en/index.html:1898(span) en/index.html:1905(span) en/index.html:3681(a) en/index.html:3684(span)
+msgid "View"
+msgstr ""
+
+#: en/index.html:1898(a)
+msgid "5. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1905(a)
+msgid "5.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:1910(a)
+msgid "5.2. New View"
+msgstr ""
+
+#: en/index.html:1915(a)
+msgid "5.3. Dot for Dot"
+msgstr ""
+
+#: en/index.html:1920(a)
+msgid "5.4. Zoom"
+msgstr ""
+
+#: en/index.html:1925(a)
+msgid "5.5. Shrink Wrap"
+msgstr ""
+
+#: en/index.html:1930(a)
+msgid "5.6. Full Screen"
+msgstr ""
+
+#: en/index.html:1935(a)
+msgid "5.7. Navigation Window"
+msgstr ""
+
+#: en/index.html:1940(a)
+msgid "5.8. Display Filters"
+msgstr ""
+
+#: en/index.html:1945(a)
+msgid "5.9. Show Selection"
+msgstr ""
+
+#: en/index.html:1950(a)
+msgid "5.10. Show Layer Boundary"
+msgstr ""
+
+#: en/index.html:1955(a)
+msgid "5.11. Show Guides"
+msgstr ""
+
+#: en/index.html:1960(a)
+msgid "5.12. Show Grid"
+msgstr ""
+
+#: en/index.html:1965(a)
+msgid "5.13. Show Sample Points"
+msgstr ""
+
+#: en/index.html:1970(a)
+msgid "5.14. Snap to Guides"
+msgstr ""
+
+#: en/index.html:1975(a)
+msgid "5.15. Snap to Grid"
+msgstr ""
+
+#: en/index.html:1980(a)
+msgid "5.16. Snap to Canvas"
+msgstr ""
+
+#: en/index.html:1985(a)
+msgid "5.17. Snap to Active Path"
+msgstr ""
+
+#: en/index.html:1990(a)
+msgid "5.18. Padding Color"
+msgstr ""
+
+#: en/index.html:1995(a)
+msgid "5.19. Show Menubar"
+msgstr ""
+
+#: en/index.html:2000(a)
+msgid "5.20. Show Rulers"
+msgstr ""
+
+#: en/index.html:2005(a)
+msgid "5.21. Show Scrollbars"
+msgstr ""
+
+#: en/index.html:2010(a)
+msgid "5.22. Show Statusbar"
+msgstr ""
+
+#: en/index.html:2017(span)
+msgid "Image"
+msgstr ""
+
+#: en/index.html:2017(a)
+msgid "6. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2029(a)
+msgid "6.2. Duplicate"
+msgstr ""
+
+#: en/index.html:2034(a)
+msgid "6.3. Mode"
+msgstr ""
+
+#: en/index.html:2039(a)
+msgid "6.4. RGB mode"
+msgstr ""
+
+#: en/index.html:2044(a)
+msgid "6.5. Grayscale mode"
+msgstr ""
+
+#: en/index.html:2049(a)
+msgid "6.6. Indexed mode"
+msgstr ""
+
+#: en/index.html:2054(a)
+msgid "6.7. Transform"
+msgstr ""
+
+#: en/index.html:2059(a)
+msgid "6.8. Flip Horizontally; Flip Vertically"
+msgstr ""
+
+#: en/index.html:2064(a)
+msgid "6.9. Rotation"
+msgstr ""
+
+#: en/index.html:2069(a)
+msgid "6.10. Guillotine"
+msgstr ""
+
+#: en/index.html:2074(a)
+msgid "6.11. Canvas Size"
+msgstr ""
+
+#: en/index.html:2079(a)
+msgid "6.12. Fit Canvas to Layers"
+msgstr ""
+
+#: en/index.html:2084(a)
+msgid "6.13. Fit Canvas to Selection"
+msgstr ""
+
+#: en/index.html:2089(a)
+msgid "6.14. Print Size"
+msgstr ""
+
+#: en/index.html:2094(a)
+msgid "6.15. Scale Image"
+msgstr ""
+
+#: en/index.html:2099(a)
+msgid "6.16. Crop to Selection"
+msgstr ""
+
+#: en/index.html:2104(a)
+msgid "6.17. Autocrop Image"
+msgstr ""
+
+#: en/index.html:2109(a)
+msgid "6.18. Zealous Crop"
+msgstr ""
+
+#: en/index.html:2114(a)
+msgid "6.19. Merge Visible Layers"
+msgstr ""
+
+#: en/index.html:2119(a)
+msgid "6.20. Flatten Image"
+msgstr ""
+
+#: en/index.html:2124(a)
+msgid "6.21. Align Visible Layers"
+msgstr ""
+
+#: en/index.html:2129(a)
+msgid "6.22. Guides"
+msgstr ""
+
+#: en/index.html:2134(a)
+msgid "6.23. New Guide"
+msgstr ""
+
+#: en/index.html:2139(a)
+msgid "6.24. New Guide (by Percent)"
+msgstr ""
+
+#: en/index.html:2144(a)
+msgid "6.25. New Guides from Selection"
+msgstr ""
+
+#: en/index.html:2149(a)
+msgid "6.26. Remove all guides"
+msgstr ""
+
+#: en/index.html:2154(a)
+msgid "6.27. Configure Grid"
+msgstr ""
+
+#: en/index.html:2159(a)
+msgid "6.28. Image Properties"
+msgstr ""
+
+#: en/index.html:2166(span) en/index.html:2173(span) en/index.html:2326(span) en/index.html:3697(a) en/index.html:3700(span)
+msgid "Layer"
+msgstr ""
+
+#: en/index.html:2166(a)
+msgid "7. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2173(a)
+msgid "7.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2178(a)
+msgid "7.2. New Layer"
+msgstr ""
+
+#: en/index.html:2183(a)
+msgid "7.3. New From Visible"
+msgstr ""
+
+#: en/index.html:2188(a)
+msgid "7.4. Duplicate layer"
+msgstr ""
+
+#: en/index.html:2193(a)
+msgid "7.5. Anchor layer"
+msgstr ""
+
+#: en/index.html:2198(a)
+msgid "7.6. Merge Down"
+msgstr ""
+
+#: en/index.html:2203(a)
+msgid "7.7. Delete Layer"
+msgstr ""
+
+#: en/index.html:2208(a)
+msgid "7.8. The Text Commands of the Layer Menu"
+msgstr ""
+
+#: en/index.html:2213(a)
+msgid "7.9. Discard Text Information"
+msgstr ""
+
+#: en/index.html:2218(span)
+msgid "Stack"
+msgstr ""
+
+#: en/index.html:2218(a)
+msgid "7.10. <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2223(a)
+msgid "7.11. Select Previous Layer"
+msgstr ""
+
+#: en/index.html:2228(a)
+msgid "7.12. Select Next Layer"
+msgstr ""
+
+#: en/index.html:2233(a)
+msgid "7.13. Select Top Layer"
+msgstr ""
+
+#: en/index.html:2238(a)
+msgid "7.14. Select Bottom Layer"
+msgstr ""
+
+#: en/index.html:2243(a)
+msgid "7.15. Raise Layer"
+msgstr ""
+
+#: en/index.html:2248(a)
+msgid "7.16. Lower Layer"
+msgstr ""
+
+#: en/index.html:2253(a)
+msgid "7.17. Layer to Top"
+msgstr ""
+
+#: en/index.html:2258(a)
+msgid "7.18. Layer to Bottom"
+msgstr ""
+
+#: en/index.html:2263(span)
+msgid "Reverse Layer Order"
+msgstr ""
+
+#: en/index.html:2263(a)
+msgid "7.19. The <placeholder-1/> command"
+msgstr ""
+
+#: en/index.html:2268(span)
+msgid "Mask"
+msgstr ""
+
+#: en/index.html:2268(a)
+msgid "7.20. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2273(a)
+msgid "7.21. Add Layer Mask"
+msgstr ""
+
+#: en/index.html:2278(a)
+msgid "7.22. Apply Layer Mask"
+msgstr ""
+
+#: en/index.html:2285(a)
+msgid "7.23. Delete Layer Mask"
+msgstr ""
+
+#: en/index.html:2290(a)
+msgid "7.24. Show Layer Mask"
+msgstr ""
+
+#: en/index.html:2295(a)
+msgid "7.25. Edit Layer Mask"
+msgstr ""
+
+#: en/index.html:2300(a)
+msgid "7.26. Disable Layer Mask"
+msgstr ""
+
+#: en/index.html:2305(a)
+msgid "7.27. Mask to Selection"
+msgstr ""
+
+#: en/index.html:2310(a)
+msgid "7.28. Add Layer Mask to Selection"
+msgstr ""
+
+#: en/index.html:2315(a)
+msgid "7.29. Subtract Layer Mask from Selection"
+msgstr ""
+
+#: en/index.html:2320(a)
+msgid "7.30. Intersect Layer Mask with Selection"
+msgstr ""
+
+#: en/index.html:2326(span)
+msgid "Transparency"
+msgstr ""
+
+#: en/index.html:2325(a)
+msgid "7.31. The <placeholder-1/> Submenu of the <placeholder-2/> menu"
+msgstr ""
+
+#: en/index.html:2332(a)
+msgid "7.32. Add Alpha Channel"
+msgstr ""
+
+#: en/index.html:2337(a)
+msgid "7.33. Remove Alpha Channel"
+msgstr ""
+
+#: en/index.html:2342(a)
+msgid "7.34. Color to Alpha"
+msgstr ""
+
+#: en/index.html:2347(a)
+msgid "7.35. Semi-flatten"
+msgstr ""
+
+#: en/index.html:2352(a)
+msgid "7.36. Threshold Alpha"
+msgstr ""
+
+#: en/index.html:2357(a)
+msgid "7.37. Alpha to Selection"
+msgstr ""
+
+#: en/index.html:2362(a)
+msgid "7.38. Add Alpha channel to Selection"
+msgstr ""
+
+#: en/index.html:2367(a)
+msgid "7.39. Subtract from Selection"
+msgstr ""
+
+#: en/index.html:2372(a)
+msgid "7.40. Intersect Alpha channel with Selection"
+msgstr ""
+
+#: en/index.html:2377(span)
+msgid "Transform"
+msgstr ""
+
+#: en/index.html:2377(a)
+msgid "7.41. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2382(a)
+msgid "7.42. Flip Horizontally"
+msgstr ""
+
+#: en/index.html:2387(a)
+msgid "7.43. Flip Vertically"
+msgstr ""
+
+#: en/index.html:2392(a)
+msgid "7.44. Rotate 90° clockwise"
+msgstr ""
+
+#: en/index.html:2397(a)
+msgid "7.45. Rotate 90° counter-clockwise"
+msgstr ""
+
+#: en/index.html:2402(a)
+msgid "7.46. Rotate 180°"
+msgstr ""
+
+#: en/index.html:2407(a)
+msgid "7.47. Arbitrary Rotation"
+msgstr ""
+
+#: en/index.html:2412(a)
+msgid "7.48. Offset"
+msgstr ""
+
+#: en/index.html:2417(a)
+msgid "7.49. Layer Boundary Size"
+msgstr ""
+
+#: en/index.html:2422(a)
+msgid "7.50. Layer to Image Size"
+msgstr ""
+
+#: en/index.html:2427(a)
+msgid "7.51. Scale Layer"
+msgstr ""
+
+#: en/index.html:2432(a)
+msgid "7.52. Crop to Selection"
+msgstr ""
+
+#: en/index.html:2437(a)
+msgid "7.53. Autocrop Layer"
+msgstr ""
+
+#: en/index.html:2444(span) en/index.html:2451(span)
+msgid "Colors"
+msgstr ""
+
+#: en/index.html:2444(a)
+msgid "8. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2451(a)
+msgid "8.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2456(a)
+msgid "8.2. Colors Tools"
+msgstr ""
+
+#: en/index.html:2461(a)
+msgid "8.3. Invert"
+msgstr ""
+
+#: en/index.html:2466(a)
+msgid "8.4. Value Invert"
+msgstr ""
+
+#: en/index.html:2471(a)
+msgid "8.5. Use GEGL"
+msgstr ""
+
+#: en/index.html:2476(span)
+msgid "Auto"
+msgstr ""
+
+#: en/index.html:2476(a)
+msgid "8.6. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2481(a)
+msgid "8.7. Equalize"
+msgstr ""
+
+#: en/index.html:2486(a)
+msgid "8.8. White Balance"
+msgstr ""
+
+#: en/index.html:2491(a)
+msgid "8.9. Color Enhance"
+msgstr ""
+
+#: en/index.html:2496(a)
+msgid "8.10. Normalize"
+msgstr ""
+
+#: en/index.html:2501(a)
+msgid "8.11. Stretch Contrast"
+msgstr ""
+
+#: en/index.html:2506(a)
+msgid "8.12. Stretch HSV"
+msgstr ""
+
+#: en/index.html:2511(span)
+msgid "Components"
+msgstr ""
+
+#: en/index.html:2511(a)
+msgid "8.13. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2516(a)
+msgid "8.14. Channel Mixer"
+msgstr ""
+
+#: en/index.html:2521(a)
+msgid "8.15. Compose"
+msgstr ""
+
+#: en/index.html:2528(span)
+msgid "Decompose"
+msgstr ""
+
+#: en/index.html:2526(a)
+msgid "8.16. <placeholder-1/>"
+msgstr ""
+
+#: en/index.html:2534(a)
+msgid "8.17. Recompose"
+msgstr ""
+
+#: en/index.html:2539(span)
+msgid "Map"
+msgstr ""
+
+#: en/index.html:2539(a)
+msgid "8.18. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2544(a)
+msgid "8.19. Rearrange Colormap"
+msgstr ""
+
+#: en/index.html:2549(a)
+msgid "8.20. Set Colormap"
+msgstr ""
+
+#: en/index.html:2554(a)
+msgid "8.21. Alien Map"
+msgstr ""
+
+#: en/index.html:2559(a)
+msgid "8.22. Color Exchange"
+msgstr ""
+
+#: en/index.html:2564(a)
+msgid "8.23. Gradient Map"
+msgstr ""
+
+#: en/index.html:2569(a)
+msgid "8.24. Palette Map"
+msgstr ""
+
+#: en/index.html:2574(a)
+msgid "8.25. Rotate Colors"
+msgstr ""
+
+#: en/index.html:2579(a)
+msgid "8.26. Sample Colorize"
+msgstr ""
+
+#: en/index.html:2584(span)
+msgid "Info"
+msgstr ""
+
+#: en/index.html:2584(a)
+msgid "8.27. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2589(a)
+msgid "8.28. Histogram"
+msgstr ""
+
+#: en/index.html:2594(a)
+msgid "8.29. Border Average"
+msgstr ""
+
+#: en/index.html:2599(a)
+msgid "8.30. Colorcube Analysis"
+msgstr ""
+
+#: en/index.html:2604(a)
+msgid "8.31. Smooth Palette"
+msgstr ""
+
+#: en/index.html:2609(a)
+msgid "8.32. The Color Filters"
+msgstr ""
+
+#: en/index.html:2614(a)
+msgid "8.33. Colorify"
+msgstr ""
+
+#: en/index.html:2619(a)
+msgid "8.34. Color to Alpha"
+msgstr ""
+
+#: en/index.html:2624(a)
+msgid "8.35. Filter Pack"
+msgstr ""
+
+#: en/index.html:2629(a)
+msgid "8.36. Hot"
+msgstr ""
+
+#: en/index.html:2634(a)
+msgid "8.37. Max RGB"
+msgstr ""
+
+#: en/index.html:2639(a)
+msgid "8.38. Retinex"
+msgstr ""
+
+#: en/index.html:2646(span) en/index.html:2653(span) en/index.html:3657(a) en/index.html:3660(span)
+msgid "Tools"
+msgstr ""
+
+#: en/index.html:2646(a)
+msgid "9. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2653(a)
+msgid "9.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2660(span) en/index.html:2667(span) en/index.html:3713(a) en/index.html:3716(span)
+msgid "Filters"
+msgstr ""
+
+#: en/index.html:2660(a)
+msgid "10. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2667(a)
+msgid "10.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2672(a)
+msgid "10.2. Repeat Last"
+msgstr ""
+
+#: en/index.html:2677(a)
+msgid "10.3. Re-show Last"
+msgstr ""
+
+#: en/index.html:2682(a)
+msgid "10.4. Reset All Filters"
+msgstr ""
+
+#: en/index.html:2687(span)
+msgid "Python-Fu"
+msgstr ""
+
+#: en/index.html:2687(a)
+msgid "10.5. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2692(span)
+msgid "Script-Fu"
+msgstr ""
+
+#: en/index.html:2692(a)
+msgid "10.6. The <placeholder-1/> Submenu"
+msgstr ""
+
+#: en/index.html:2699(span) en/index.html:2706(span)
+msgid "Windows"
+msgstr ""
+
+#: en/index.html:2699(a)
+msgid "11. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2706(a)
+msgid "11.1. <placeholder-1/> Menu Entries"
+msgstr ""
+
+#: en/index.html:2711(span)
+msgid "Recently Closed Docks"
+msgstr ""
+
+#: en/index.html:2711(a)
+msgid "11.2. The <placeholder-1/> submenu"
+msgstr ""
+
+#: en/index.html:2716(span) en/index.html:3676(span)
+msgid "Dockable Dialogs"
+msgstr ""
+
+#: en/index.html:2716(a)
+msgid "11.3. The <placeholder-1/> submenu"
+msgstr ""
+
+#: en/index.html:2723(span) en/index.html:2730(span) en/index.html:3649(a) en/index.html:3652(span)
+msgid "Help"
+msgstr ""
+
+#: en/index.html:2723(a)
+msgid "12. The <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2730(a)
+msgid "12.1. Introduction to the <placeholder-1/> Menu"
+msgstr ""
+
+#: en/index.html:2735(a)
+msgid "12.2. Help"
+msgstr ""
+
+#: en/index.html:2740(a)
+msgid "12.3. Context Help"
+msgstr ""
+
+#: en/index.html:2745(a)
+msgid "12.4. Tip of the Day"
+msgstr ""
+
+#: en/index.html:2750(a)
+msgid "12.5. About"
+msgstr ""
+
+#: en/index.html:2755(a)
+msgid "12.6. Plug-In Browser"
+msgstr ""
+
+#: en/index.html:2760(a)
+msgid "12.7. The Procedure Browser"
+msgstr ""
+
+#: en/index.html:2765(a)
+msgid "12.8. GIMP online"
+msgstr ""
+
+#: en/index.html:2774(a)
+msgid "16. Filters"
+msgstr ""
+
+#: en/index.html:2788(a)
+msgid "1.1. Preview"
+msgstr ""
+
+#: en/index.html:2795(a)
+msgid "2. Blur Filters"
+msgstr ""
+
+#: en/index.html:2802(a)
+msgid "2.1. Introduction"
+msgstr ""
+
+#: en/index.html:2807(a)
+msgid "2.2. Blur"
+msgstr ""
+
+#: en/index.html:2812(a)
+msgid "2.3. Gaussian Blur"
+msgstr ""
+
+#: en/index.html:2817(a)
+msgid "2.4. Selective Gaussian Blur"
+msgstr ""
+
+#: en/index.html:2822(a)
+msgid "2.5. Motion Blur"
+msgstr ""
+
+#: en/index.html:2827(a)
+msgid "2.6. Pixelise"
+msgstr ""
+
+#: en/index.html:2832(a)
+msgid "2.7. Tileable Blur"
+msgstr ""
+
+#: en/index.html:2839(a)
+msgid "3. Enhance Filters"
+msgstr ""
+
+#: en/index.html:2846(a)
+msgid "3.1. Introduction"
+msgstr ""
+
+#: en/index.html:2851(a)
+msgid "3.2. Antialias"
+msgstr ""
+
+#: en/index.html:2856(a)
+msgid "3.3. Deinterlace"
+msgstr ""
+
+#: en/index.html:2861(a)
+msgid "3.4. Despeckle"
+msgstr ""
+
+#: en/index.html:2866(a)
+msgid "3.5. Destripe"
+msgstr ""
+
+#: en/index.html:2871(a)
+msgid "3.6. NL Filter"
+msgstr ""
+
+#: en/index.html:2876(a)
+msgid "3.7. Red Eye Removal"
+msgstr ""
+
+#: en/index.html:2881(a)
+msgid "3.8. Sharpen"
+msgstr ""
+
+#: en/index.html:2886(a)
+msgid "3.9. Unsharp Mask"
+msgstr ""
+
+#: en/index.html:2893(a)
+msgid "4. Distort Filters"
+msgstr ""
+
+#: en/index.html:2900(a)
+msgid "4.1. Introduction"
+msgstr ""
+
+#: en/index.html:2905(a)
+msgid "4.2. Blinds"
+msgstr ""
+
+#: en/index.html:2910(a)
+msgid "4.3. Curve Bend"
+msgstr ""
+
+#: en/index.html:2915(a)
+msgid "4.4. Emboss"
+msgstr ""
+
+#: en/index.html:2920(a)
+msgid "4.5. Engrave"
+msgstr ""
+
+#: en/index.html:2925(a)
+msgid "4.6. Erase Every Other Row"
+msgstr ""
+
+#: en/index.html:2930(a)
+msgid "4.7. IWarp"
+msgstr ""
+
+#: en/index.html:2935(a)
+msgid "4.8. Lens Distortion"
+msgstr ""
+
+#: en/index.html:2940(a)
+msgid "4.9. Mosaic"
+msgstr ""
+
+#: en/index.html:2945(a)
+msgid "4.10. Newsprint"
+msgstr ""
+
+#: en/index.html:2950(a)
+msgid "4.11. Page Curl"
+msgstr ""
+
+#: en/index.html:2955(a)
+msgid "4.12. Polar Coords"
+msgstr ""
+
+#: en/index.html:2960(a)
+msgid "4.13. Ripple"
+msgstr ""
+
+#: en/index.html:2965(a)
+msgid "4.14. Shift"
+msgstr ""
+
+#: en/index.html:2970(a)
+msgid "4.15. Value Propagate"
+msgstr ""
+
+#: en/index.html:2975(a)
+msgid "4.16. Video"
+msgstr ""
+
+#: en/index.html:2980(a)
+msgid "4.17. Waves"
+msgstr ""
+
+#: en/index.html:2985(a)
+msgid "4.18. Whirl and Pinch"
+msgstr ""
+
+#: en/index.html:2990(a)
+msgid "4.19. Wind"
+msgstr ""
+
+#: en/index.html:2997(a)
+msgid "5. Light and Shadow Filters"
+msgstr ""
+
+#: en/index.html:3004(a)
+msgid "5.1. Introduction"
+msgstr ""
+
+#: en/index.html:3009(a)
+msgid "5.2. Gradient Flare"
+msgstr ""
+
+#: en/index.html:3014(a)
+msgid "5.3. Lens Flare"
+msgstr ""
+
+#: en/index.html:3019(a)
+msgid "5.4. Lighting Effects"
+msgstr ""
+
+#: en/index.html:3024(a)
+msgid "5.5. Sparkle"
+msgstr ""
+
+#: en/index.html:3029(a)
+msgid "5.6. Supernova"
+msgstr ""
+
+#: en/index.html:3034(a)
+msgid "5.7. Drop Shadow"
+msgstr ""
+
+#: en/index.html:3039(a)
+msgid "5.8. Perspective"
+msgstr ""
+
+#: en/index.html:3044(a)
+msgid "5.9. Xach-Effect"
+msgstr ""
+
+#: en/index.html:3049(a)
+msgid "5.10. Apply Lens"
+msgstr ""
+
+#: en/index.html:3054(a)
+msgid "5.11. Glass Tile"
+msgstr ""
+
+#: en/index.html:3061(a)
+msgid "6. Noise Filters"
+msgstr ""
+
+#: en/index.html:3068(a)
+msgid "6.1. Introduction"
+msgstr ""
+
+#: en/index.html:3073(a)
+msgid "6.2. HSV Noise"
+msgstr ""
+
+#: en/index.html:3078(a)
+msgid "6.3. Hurl"
+msgstr ""
+
+#: en/index.html:3083(a)
+msgid "6.4. Pick"
+msgstr ""
+
+#: en/index.html:3088(a)
+msgid "6.5. RGB Noise"
+msgstr ""
+
+#: en/index.html:3093(a)
+msgid "6.6. Slur"
+msgstr ""
+
+#: en/index.html:3098(a)
+msgid "6.7. Spread"
+msgstr ""
+
+#: en/index.html:3105(a)
+msgid "7. Edge-Detect Filters"
+msgstr ""
+
+#: en/index.html:3112(a)
+msgid "7.1. Introduction"
+msgstr ""
+
+#: en/index.html:3117(a)
+msgid "7.2. Difference of Gaussians"
+msgstr ""
+
+#: en/index.html:3122(a)
+msgid "7.3. Edge"
+msgstr ""
+
+#: en/index.html:3127(a)
+msgid "7.4. Laplace"
+msgstr ""
+
+#: en/index.html:3132(a)
+msgid "7.5. Neon"
+msgstr ""
+
+#: en/index.html:3137(a)
+msgid "7.6. Sobel"
+msgstr ""
+
+#: en/index.html:3144(a)
+msgid "8. Generic Filters"
+msgstr ""
+
+#: en/index.html:3151(a)
+msgid "8.1. Introduction"
+msgstr ""
+
+#: en/index.html:3156(a)
+msgid "8.2. Convolution Matrix"
+msgstr ""
+
+#: en/index.html:3161(a)
+msgid "8.3. Dilate"
+msgstr ""
+
+#: en/index.html:3166(a)
+msgid "8.4. Erode"
+msgstr ""
+
+#: en/index.html:3173(a)
+msgid "9. Combine Filters"
+msgstr ""
+
+#: en/index.html:3180(a)
+msgid "9.1. Introduction"
+msgstr ""
+
+#: en/index.html:3185(a)
+msgid "9.2. Depth Merge"
+msgstr ""
+
+#: en/index.html:3190(a)
+msgid "9.3. Film"
+msgstr ""
+
+#: en/index.html:3197(a)
+msgid "10. Artistic Filters"
+msgstr ""
+
+#: en/index.html:3204(a)
+msgid "10.1. Introduction"
+msgstr ""
+
+#: en/index.html:3209(a)
+msgid "10.2. Apply Canvas"
+msgstr ""
+
+#: en/index.html:3214(a)
+msgid "10.3. Cartoon"
+msgstr ""
+
+#: en/index.html:3219(a)
+msgid "10.4. Clothify"
+msgstr ""
+
+#: en/index.html:3224(a)
+msgid "10.5. Cubism"
+msgstr ""
+
+#: en/index.html:3229(a)
+msgid "10.6. GIMPressionist"
+msgstr ""
+
+#: en/index.html:3234(a)
+msgid "10.7. Oilify"
+msgstr ""
+
+#: en/index.html:3239(a)
+msgid "10.8. Photocopy"
+msgstr ""
+
+#: en/index.html:3244(a)
+msgid "10.9. Predator"
+msgstr ""
+
+#: en/index.html:3249(a)
+msgid "10.10. Softglow"
+msgstr ""
+
+#: en/index.html:3254(a)
+msgid "10.11. Van Gogh (LIC)"
+msgstr ""
+
+#: en/index.html:3259(a)
+msgid "10.12. Weave"
+msgstr ""
+
+#: en/index.html:3266(a)
+msgid "11. Decor Filters"
+msgstr ""
+
+#: en/index.html:3273(a)
+msgid "11.1. Introduction"
+msgstr ""
+
+#: en/index.html:3278(a)
+msgid "11.2. Add Bevel"
+msgstr ""
+
+#: en/index.html:3283(a)
+msgid "11.3. Add Border"
+msgstr ""
+
+#: en/index.html:3288(a)
+msgid "11.4. Coffee Stain"
+msgstr ""
+
+#: en/index.html:3293(a)
+msgid "11.5. Fuzzy Border"
+msgstr ""
+
+#: en/index.html:3298(a)
+msgid "11.6. Old Photo"
+msgstr ""
+
+#: en/index.html:3303(a)
+msgid "11.7. Round Corners"
+msgstr ""
+
+#: en/index.html:3308(a)
+msgid "11.8. Slide"
+msgstr ""
+
+#: en/index.html:3313(a)
+msgid "11.9. Stencil Carve"
+msgstr ""
+
+#: en/index.html:3320(a)
+msgid "12. Map Filters"
+msgstr ""
+
+#: en/index.html:3327(a)
+msgid "12.1. Introduction"
+msgstr ""
+
+#: en/index.html:3332(a)
+msgid "12.2. Bump Map"
+msgstr ""
+
+#: en/index.html:3337(a)
+msgid "12.3. Displace"
+msgstr ""
+
+#: en/index.html:3342(a)
+msgid "12.4. Fractal Trace"
+msgstr ""
+
+#: en/index.html:3347(a)
+msgid "12.5. Illusion"
+msgstr ""
+
+#: en/index.html:3352(a)
+msgid "12.6. Make Seamless"
+msgstr ""
+
+#: en/index.html:3357(a)
+msgid "12.7. Map Object"
+msgstr ""
+
+#: en/index.html:3362(a)
+msgid "12.8. Paper Tile"
+msgstr ""
+
+#: en/index.html:3367(a)
+msgid "12.9. Small Tiles"
+msgstr ""
+
+#: en/index.html:3372(a)
+msgid "12.10. Tile"
+msgstr ""
+
+#: en/index.html:3377(a)
+msgid "12.11. Warp"
+msgstr ""
+
+#: en/index.html:3384(a)
+msgid "13. Rendering Filters"
+msgstr ""
+
+#: en/index.html:3391(a)
+msgid "13.1. Introduction"
+msgstr ""
+
+#: en/index.html:3396(a)
+msgid "13.2. Difference Clouds"
+msgstr ""
+
+#: en/index.html:3401(a)
+msgid "13.3. Plasma"
+msgstr ""
+
+#: en/index.html:3406(a)
+msgid "13.4. Solid Noise"
+msgstr ""
+
+#: en/index.html:3411(a)
+msgid "13.5. Flame"
+msgstr ""
+
+#: en/index.html:3416(a)
+msgid "13.6. IFS Fractal"
+msgstr ""
+
+#: en/index.html:3421(a)
+msgid "13.7. Checkerboard"
+msgstr ""
+
+#: en/index.html:3426(a)
+msgid "13.8. CML Explorer"
+msgstr ""
+
+#: en/index.html:3431(a)
+msgid "13.9. Diffraction Patterns"
+msgstr ""
+
+#: en/index.html:3436(a)
+msgid "13.10. Grid"
+msgstr ""
+
+#: en/index.html:3441(a)
+msgid "13.11. Jigsaw"
+msgstr ""
+
+#: en/index.html:3446(a)
+msgid "13.12. Maze"
+msgstr ""
+
+#: en/index.html:3451(a)
+msgid "13.13. Qbist"
+msgstr ""
+
+#: en/index.html:3456(a)
+msgid "13.14. Sinus"
+msgstr ""
+
+#: en/index.html:3461(a)
+msgid "13.15. Circuit"
+msgstr ""
+
+#: en/index.html:3466(a)
+msgid "13.16. Fractal Explorer"
+msgstr ""
+
+#: en/index.html:3471(a)
+msgid "13.17. Gfig"
+msgstr ""
+
+#: en/index.html:3476(a)
+msgid "13.18. Sphere Designer"
+msgstr ""
+
+#: en/index.html:3483(a)
+msgid "14. Web Filters"
+msgstr ""
+
+#: en/index.html:3490(a)
+msgid "14.1. Introduction"
+msgstr ""
+
+#: en/index.html:3495(a)
+msgid "14.2. ImageMap"
+msgstr ""
+
+#: en/index.html:3500(a)
+msgid "14.3. Semi-Flatten"
+msgstr ""
+
+#: en/index.html:3505(a)
+msgid "14.4. Slice"
+msgstr ""
+
+#: en/index.html:3512(a)
+msgid "15. Animation Filters"
+msgstr ""
+
+#: en/index.html:3519(a)
+msgid "15.1. Optimize"
+msgstr ""
+
+#: en/index.html:3524(a)
+msgid "15.2. Playback"
+msgstr ""
+
+#: en/index.html:3531(a)
+msgid "16. Alpha to Logo Filters"
+msgstr ""
+
+#: en/index.html:3538(a)
+msgid "16.1. Introduction"
+msgstr ""
+
+#: en/index.html:3543(a)
+msgid "16.2. 3D Outline"
+msgstr ""
+
+#: en/index.html:3548(a)
+msgid "16.3. Alien Glow"
+msgstr ""
+
+#: en/index.html:3553(a)
+msgid "16.4. Alien Neon"
+msgstr ""
+
+#: en/index.html:3558(a)
+msgid "16.5. Basic I"
+msgstr ""
+
+#: en/index.html:3563(a)
+msgid "16.6. Basic II"
+msgstr ""
+
+#: en/index.html:3568(a)
+msgid "16.7. Blended"
+msgstr ""
+
+#: en/index.html:3573(a)
+msgid "16.8. Bovination"
+msgstr ""
+
+#: en/index.html:3578(a)
+msgid "16.9. Chalk"
+msgstr ""
+
+#: en/index.html:3583(a)
+msgid "16.10. Chip Away"
+msgstr ""
+
+#: en/index.html:3588(a)
+msgid "16.11. Chrome"
+msgstr ""
+
+#: en/index.html:3593(a)
+msgid "16.12. Comic Book"
+msgstr ""
+
+#: en/index.html:3598(a)
+msgid "16.13. Cool Metal"
+msgstr ""
+
+#: en/index.html:3603(a)
+msgid "16.14. Frosty"
+msgstr ""
+
+#: en/index.html:3608(a)
+msgid "16.15. Glossy"
+msgstr ""
+
+#: en/index.html:3613(a)
+msgid "16.16. Glowing Hot"
+msgstr ""
+
+#: en/index.html:3618(a)
+msgid "16.17. Gradient Bevel"
+msgstr ""
+
+#: en/index.html:3623(a)
+msgid "16.18. Neon"
+msgstr ""
+
+#: en/index.html:3628(a)
+msgid "16.19. Particle Trace"
+msgstr ""
+
+#: en/index.html:3633(a)
+msgid "16.20. Textured"
+msgstr ""
+
+#: en/index.html:3642(a)
+msgid "I. Keys and Mouse Reference"
+msgstr ""
+
+#: en/index.html:3651(span) en/index.html:3683(span) en/index.html:3691(span) en/index.html:3699(span) en/index.html:3707(span) en/index.html:3715(span)
+msgid "— Key reference for <placeholder-1/> menu"
+msgstr ""
+
+#: en/index.html:3659(span) en/index.html:3667(span)
+msgid "— Key reference for the <placeholder-1/> menu"
+msgstr ""
+
+#: en/index.html:3673(a)
+msgid "Dialogs"
+msgstr ""
+
+#: en/index.html:3675(span)
+msgid "— Key reference for <placeholder-1/> submenu"
+msgstr ""
+
+#: en/index.html:3721(a) en/index.html:3724(span)
+msgid "Zoom tool"
+msgstr ""
+
+#: en/index.html:3723(span)
+msgid "— Key reference for the <placeholder-1/> submenu"
+msgstr ""
+
+#: en/index.html:3733(a)
+msgid "Glossary"
+msgstr ""
+
+#: en/index.html:3738(a)
+msgid "Bibliography"
+msgstr ""
+
+#: en/index.html:3743(a)
+msgid "A. GIMP History"
+msgstr ""
+
+#: en/index.html:3750(a)
+msgid "1. The Very Beginning"
+msgstr ""
+
+#: en/index.html:3755(a)
+msgid "2. The Early Days of GIMP"
+msgstr ""
+
+#: en/index.html:3760(a)
+msgid "3. The One to Change the World"
+msgstr ""
+
+#: en/index.html:3765(a)
+msgid "4. Version 2.0"
+msgstr ""
+
+#: en/index.html:3770(a)
+msgid "5. What's New in GIMP 2.2?"
+msgstr ""
+
+#: en/index.html:3775(a)
+msgid "6. What's New in GIMP 2.4?"
+msgstr ""
+
+#: en/index.html:3782(a)
+msgid "B. Reporting Bugs and Requesting Enhancements"
+msgstr ""
+
+#: en/index.html:3789(a)
+msgid "1. Making sure it's a Bug"
+msgstr ""
+
+#: en/index.html:3794(a)
+msgid "2. Reporting the Bug"
+msgstr ""
+
+#: en/index.html:3799(a)
+msgid "3. What Happens to a Bug Report after you Submit it"
+msgstr ""
+
+#: en/index.html:3806(a)
+msgid "C. GNU Free Documentation License"
+msgstr ""
+
+#: en/index.html:3813(a)
+msgid "1. PREAMBLE"
+msgstr ""
+
+#: en/index.html:3818(a)
+msgid "2. APPLICABILITY AND DEFINITIONS"
+msgstr ""
+
+#: en/index.html:3823(a)
+msgid "3. VERBATIM COPYING"
+msgstr ""
+
+#: en/index.html:3828(a)
+msgid "4. COPYING IN QUANTITY"
+msgstr ""
+
+#: en/index.html:3833(a)
+msgid "5. MODIFICATIONS"
+msgstr ""
+
+#: en/index.html:3838(a)
+msgid "6. COMBINING DOCUMENTS"
+msgstr ""
+
+#: en/index.html:3843(a)
+msgid "7. COLLECTIONS OF DOCUMENTS"
+msgstr ""
+
+#: en/index.html:3848(a)
+msgid "8. AGGREGATION WITH INDEPENDENT WORKS"
+msgstr ""
+
+#: en/index.html:3853(a)
+msgid "9. TRANSLATION"
+msgstr ""
+
+#: en/index.html:3858(a)
+msgid "10. TERMINATION"
+msgstr ""
+
+#: en/index.html:3863(a)
+msgid "11. FUTURE REVISIONS OF THIS LICENSE"
+msgstr ""
+
+#: en/index.html:3868(a)
+msgid "12. ADDENDUM: How to use this License for your documents"
+msgstr ""
+
+#: en/index.html:3875(a)
+msgid "D. Eeek! There is Missing Help"
+msgstr ""
+
+#: en/index.html:3880(a)
+msgid "Index"
+msgstr ""
+
+#: en/index.html:3897(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

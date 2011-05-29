@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2" />
+<link rel="start" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="become-a-gimp-wizard.html" title="Μέρος  II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="prev" href="become-a-gimp-wizard.html" title="Μέρος  II.  Πώς θα γίνω ένας μάγος του GIMP;" />
+<link rel="next" href="gimp-using-fileformats-creating.html" title="2. Δημιουργία νέων αρχείων" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="become-a-gimp-wizard.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Μέρος II. Πώς θα γίνω ένας μάγος του GIMP;</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-fileformats-creating.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="chapter" lang="el" xml:lang="el">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title"><a id="gimp-images-in"></a>Κεφάλαιο 5. Εισαγωγή εικόνων στο GIMP</h2>
+</div>
+</div>
+</div>
+<div class="toc">
+<p>
+<b>Πίνακας περιεχομένων</b>
+</p>
+<dl>
+<dt>
+<span class="sect1">
+<a href="gimp-images-in.html#gimp-concepts-image-types">1.
+<span>Τύποι εικόνας</span>
+</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-using-fileformats-creating.html">2. Δημιουργία νέων αρχείων</a>
+</span>
+</dt>
+<dt>
+<span class="sect1">
+<a href="gimp-using-fileformats-opening.html">3. Άνοιγμα αρχείων</a>
+</span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="sect2">
+<a href="gimp-using-fileformats-opening.html#gimp-using-open-file">3.1. Άνοιγμα αρχείου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-open-location.html">3.2. Άνοιγμα τοποθεσίας</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-open-recent.html">3.3. Άνοιγμα πρόσφατου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-external-programs.html">3.4. Χρήση εξωτερικών προγραμμάτων</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-file-manager.html">3.5. Διαχειριστής αρχείου</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-drag-and-drop.html">3.6. Σύρσιμο και απόθεση</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-open-copy-and-paste.html">3.7. Αντιγραφή και επικόλληση</a>
+</span>
+</dt>
+<dt>
+<span class="sect2">
+<a href="gimp-using-image-browser.html">3.8. Περιηγητής εικόνας</a>
+</span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<p>
+Αυτό το κεφάλαιο αναφέρεται στην εισαγωγή εικόνων στο GIMP. Εξηγεί πώς να δημιουργήσετε νέες εικόνες, πώς να
+φορτώσετε εικόνες από αρχεία, πώς να τις σαρώσετε και πώς να κάνετε στιγμιότυπα.
+</p>
+<p>
+Αλλά αρχικά θα θέλαμε να σας εισαγάγουμε στη γενική δομή των εικόνων στο GIMP.
+</p>
+<div class="sect1" lang="el" xml:lang="el">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-concepts-image-types"></a>1. <span>Τύποι εικόνας</span></h2>
+</div>
+</div>
+</div>
+<a id="id474002" class="indexterm"></a>
+<p>
+Είναι δελεαστικό να σκεφτόμαστε μια <span class="emphasis"><em>εικόνα</em></span> σαν κάτι που αντιστοιχεί σε
+μία απλή εμφάνιση παραθύρου, ή σε ένα απλό αρχείο όπως ένα αρχείο <a class="link" href="gimp-images-out.html#file-jpeg-load">JPEG</a>.
+Στην πραγματικότητα, όμως, μια εικόνα του GIMP είναι μια περίπλοκη δομή
+που περιέχει μια στοίβα στρώσεων και πολλούς άλλους τύπους αντικειμένων: μια μάσκα επιλογής, ένα σύνολο καναλιών,
+ένα σύνολο μονοπατιών, ένα ιστορικό αναιρέσεων κλ. Σ' αυτό το τμήμα θα κοιτάξουμε διεξοδικά τα συστατικά της εικόνας
+του GIMP, και τα πράγματα που μπορείτε να κάνετε με αυτά.
+</p>
+<p>
+Η πιο βασική ιδιότητα της εικόνας είναι η <span class="emphasis"><em>κατάσταση</em></span> της. Υπάρχουν τρεις
+δυνατές καταστάσεις RGB, κλίμακα του γκρι και από χρωματολόγιο. RGB σημαίνει κόκκινο-πράσινο-μπλε και δείχνει
+ότι κάθε σημείο της εικόνας αντιπροσωπεύεται από ένα “<span class="quote">κόκινο</span>” επίπεδο, ένα “<span class="quote">πράσινο</span>”
+επίπεδο, και ένα “<span class="quote">μπλε</span>” επίπεδο, αντιπροσωπεύοντας μια πλήρως χρωματιστή εικόνα. Κάθε
+κανάλι χρώματος έχει 256 δυνατά επίπεδα έντασης. Περισσότερες λεπτομέρειες στο <a class="link" href="glossary.html#glossary-colormodel" title="Χρωματικό μοντέλο">
+Χρωματικό μοντέλο</a>
+</p>
+<p>
+Στην εικόνα γκρι κλίμακας, κάθε σημείο αναπαριστάνεται από τιμές φωτεινότητας, από το 0 (μαύρο) έως  255 (λευκό),
+με τις ενδιάμεσες τιμές να ανπαριστούν διάφορα επίπεδα του γκρι.
+</p>
+<div class="figure">
+<a id="id448169"></a>
+<p class="title"><b>Εικόνα 5.1. <span>Συστατικά του RGB και CMY χρωματικού μοντέλου</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/glossary/color-model-additive.png" alt="Συστατικά του RGB και CMY χρωματικού μοντέλου" />
+<div class="caption">
+<p>
+Στο RGB χρωματικό μοντέλο, ανάμιξη κόκκινου, πράσινου και μπλε δίνουν λευκό, που είναι αυτό που συμβαίνει στην
+οθόνη σας.
+</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/glossary/color-model-subtractive.png" alt="Συστατικά του RGB και CMY χρωματικού μοντέλου" />
+<div class="caption">
+<p>
+Στο χρωματικό μοντέλο CMY(K), ανάμιξη γαλάζιου, ματζέντα και κίτρινου δίνει μαύρο, που είναι αυτό που συμβαίνει
+όταν τυπώνετε σε άσπρο χαρτί. Ο εκτυπωτής θα χρησιμοποιήσει στην πραγματικότητα το μαύρο φυσίγγιο για οικονομικούς
+λόγους και καλύτερη απόδοση χρώματος.
+</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ιδεατά, η διαφορά μεταξύ της εικόνας γκρι κλίμακας και μιας εικόνας RGB είναι τα “<span class="quote">χρωματικά κανάλια</span>”:
+: μια εικόνα γκρι κλίμακας έχει μία. Η RGB εικόνα έχει τρεις. Μία RGB εικόνα μπορεί να θεωρηθεί σαν τρεις
+επικαθήμενες εικόνες γκρι κλίμακας: μία κόκκινη, μία πράσινη και μία μπλε.
+</p>
+<p>
+Στην πραγματικότητα, οι εικόνες RGB και γκρι κλίμακας έχουν ένα επιπλέον χρωματικό κανάλι που λέγεται το κανάλι,
+<span class="emphasis"><em>άλφα (alpha)</em></span>, που αντιπροσωπεύει αδιαφάνεια. Όταν η τιμή άλφα στη συγκεκριμένη
+θέση στη δοσμένη στρώση είναι μηδέν, η στρώση είναι πλήρως διαφανής και το χρώμα σ' αυτή τη θέση προσδιορίζεται
+από ό,τι βρίσκεται από κάτω. Όταν το άλφα είναι μέγιστο (255), η στρώση είναι αδιαφανής, και το χρώμα
+προσδιορίζεται από το χρώμα της στρώσης. Ενδιάμεσες τιμές άλφα αντιστοιχούν σε διάφορους βαθμούς διαφάνειας/
+αδιαφάνειας: το χρώμα στη θέση είναι μια αναλογική ανάμιξη χρώματος από τη στρώση και του χρώματος από κάτω.
+</p>
+<div class="figure">
+<a id="id489707"></a>
+<p class="title"><b>Εικόνα 5.2. <span>Παράδειγμα μιας εικόνας σε κατάσταση RGB και γκρι κλίμακας</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/wilber-channel-rgb.png" alt="Παράδειγμα μιας εικόνας σε κατάσταση RGB και γκρι κλίμακας" />
+<div class="caption">
+<p>
+Μια εικόνα σε κατάσταση RGB, με τα αντίστοιχα κανάλια σε κόκκινο, πράσινο και μπλε.
+</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/using/wilber-channel-gray.png" alt="Παράδειγμα εικόνας σε κατάσταση RGB και γκρι κλίμακας" />
+<div class="caption">
+<p>Μια εικόνα σε κατάσταση γκρι κλίμακας με τα αντίστοιχα κανάλια φωτεινότητας.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Στο GIMP, κάθε χρωματικό κανάλι, συμπεριλαμβανόμενου του άλφα καναλιού,
+έχει δυνατές τιμές από 0 έως 255, δηλαδή στην ορολογία των υπολογιστών ένα βάθος 8 bits. Μερικές ψηφιακές
+κάμερες μπορούν να παράγουν αρχεία εικόνας με βάθος 16 bits ανά χρωματικό κανάλι. Το GIMP
+δεν μπορεί να φορτώσει τέτοια αρχεία χωρίς απώλεια ανάλυσης. Στις περισσότερες περιπτώσεις τα αποτελέσματα
+είναι πολύ λεπτά που δεν ανιχνεύονται από το ανθρώπινο μάτι. Σε μερικές, όμως, περιπτώσεις κυρίως εκεί όπου
+υπάρχουν μεγάλες περιοχές με αργά μεταβαλλόμενες διαβαθμίσεις χρώματος, η διαφορά μπορεί να είναι αντιληπτή.
+</p>
+<div class="figure">
+<a id="id450444"></a>
+<p class="title"><b>Εικόνα 5.3. <span>Παράδειγμα εικόνας με άλφα κανάλι</span></b></p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/dialogs/wilber-channels-red.png" alt="Παράδειγμα εικόνας με άλφα κανάλι" />
+<div class="caption">
+<p>Κόκκινο κανάλι</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/dialogs/wilber-channels-green.png" alt="Παράδειγμα εικόνας με άλφα κανάλι" />
+<div class="caption">
+<p>Πράσινο κανάλι</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/dialogs/wilber-channels-blue.png" alt="Παράδειγμα εικόνας με άλφα κανάλι" />
+<div class="caption">
+<p>Μπλε κανάλι</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/dialogs/wilber-channels-alpha.png" alt="Παράδειγμα εικόνας με άλφα κανάλι" />
+<div class="caption">
+<p>Το κανάλι άλφα δείχνει την περιοχή της εικόνας που είναι διαφανής.</p>
+</div>
+</div>
+<div class="mediaobject">
+<img src="images/dialogs/wilber-channels-combined.png" alt="Παράδειγμα εικόνας με άλφα κανάλι" />
+<div class="caption">
+<p>Μια χρωματιστή εικόνα σε κατάσταση RGB με ένα άλφα κανάλι.</p>
+</div>
+</div>
+</div>
+</div>
+<br class="figure-break" />
+<p>
+Ο τρίτος τύπος εικόνων  <span class="emphasis"><em>από χρωματολόγιο</em></span>,
+είναι λίγο πιο περίπλοκο για να γίνει κατανοητό. Σε εικόνα από χρωματολόγιο, μόνο ένα περιορισμένο σύνολο από
+ξεχωριστά χρώματα χρησιμοποιείται, συνήθως 256 ή πιο λίγα. Αυτά τα χρώματα από το “<span class="quote">χρωματολόγιο</span>” της εικόνας,
+όπου σε κάθε σημείο στην εικόνα αντιστοιχίζεται ένα χρώμα από το χρωματολόγιο. Οι εικόνες από χρωματολόγιο έχουν
+το πλεονέκτημα ότι μπορούν να αναπαραχθούν στον υπολογιστή με ένα τρόπο που καταναλώνει σχετικά μικρή μνήμη και
+πριν από πολλά χρόνια χρησίμευαν αρκετά. Καθώς περνά ο καιρός, χρησιμοποιούνται όλο και λιγότερο, αλλά
+εξακολουθούν να είναι ακόμα αρκετά σημαντικές, ώστε να αξίζει να υποστηρίζονται στο GIMP.
+(Επίσης, υπάρχουν κάποια σημαντικά είδη χειρισμών εικόνας, που υλοποιούνται πιο εύκολα με εικόνες από
+χρωματολόγιο, παρά με εικόνες συνεχούς χρώματος RGB.)
+</p>
+<p>
+Μερικοί τύποι αρχείων που χρησιμοποιούνται συχνά, (συμπεριλαμβανόμενων των
+<a class="link" href="gimp-images-out.html#file-gif-load">GIF</a> και
+<a class="link" href="gimp-images-out.html#file-png-load">PNG</a>) παράγουν εικόνες από χρωματολόγιο
+όταν ανοίγονται στο GIMP. Πολλά από τα εργαλεία του GIMP
+δεν δουλεύουν πολύ καλά σε εικόνες από χρωματολόγιο -και πολλά φίλτρα δεν δουλεύουν καθόλου- λόγω του περιορισμένου
+αριθμού των διαθέσιμων χρωμάτων. Λόγω αυτού, είναι συνήθως καλύτερο να μετατρέπεται μια εικόνα από χρωματολόγιο
+σε κατάσταση RGB πριν να επεξεργαστεί. Εάν είναι αναγκαίο, μπορείτε να μετατρέψετε την εικόνα πάλι στην κατάσταση
+από χρωματολόγιο όταν είστε έτοιμοι να την αποθηκεύσετε.
+</p>
+<p>
+Το GIMP κάνει εύκολα την αλλαγή εικόνας από ένα τύπο σε έναν άλλο, χρησιμοποιώντας
+την εντολή <a class="link" href="gimp-image-mode.html" title="6.3. Κατάσταση">Κατάσταση</a> στο μενού εικόνας.
+Μερικοί τύποι μετατροπών, φυσικά χάνουν πληροφορίες που δεν μπορούν να ανακτηθούν μετατρέποντας αντίστροφα προς
+την άλλη κατεύθυνση.(RGB σε κλίμακα του γκρι ή από χρωματολόγιο, για παράδειγμα)
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Εάν προσπαθείτε να χρησιμοποιήσετε ένα φίλτρο σε μια εικόνα και αυτό φαίνεται αχνό στο μενού, η συνηθισμένη
+αιτία είναι ότι η εικόνα (ή πιο ειδικά η στρώση) που δουλεύετε είναι λαθεμένος τύπος. Πολλά φίλτρα δεν μπορούν
+να χρησιμοποιηθούν σε εικόνες από χρωματολόγιο. Μερικά μπορούν να χρησιμοποιηθούν μόνο σε εικόνες RGB, ή μόνο
+σε εικόνες γκρι κλίμακας. Μερικά επίσης απαιτούν την παρουσία ή την απουσία ενός άλφα καναλιού. Συνήθως η λύση
+του προβλήματος είναι η μετατροπή της εικόνας σε διαφορετικό τύπο, κατά κανόνα σε RGB.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="become-a-gimp-wizard.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="become-a-gimp-wizard.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-fileformats-creating.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="become-a-gimp-wizard.html">Μέρος II. 
+Πώς θα γίνω ένας μάγος του <acronym class="acronym">GIMP</acronym>;
+</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-fileformats-creating.html">2. Δημιουργία νέων αρχείων</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/introduction.html:6(title) el/introduction.html:20(th)
+msgid "Κεφάλαιο 1. Εισαγωγή"
+msgstr ""
+
+#: el/introduction.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/introduction.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/introduction.html:13(link:title) el/introduction.html:14(link:title) el/introduction.html:23(th) el/introduction.html:183(a)
+msgid "Μέρος I. Ξεκίνημα"
+msgstr ""
+
+#: el/introduction.html:15(link:title)
+msgid "2. Τι είναι καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/introduction.html:22(img:alt) el/introduction.html:174(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/introduction.html:22(td) el/introduction.html:174(td)
+msgid "<a accesskey=\"p\" href=\"getting-started.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/introduction.html:24(img:alt) el/introduction.html:180(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/introduction.html:24(td) el/introduction.html:180(td)
+msgid " <a accesskey=\"n\" href=\"gimp-introduction-whats-new.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/introduction.html:32(h2)
+msgid "<a id=\"introduction\"/>Κεφάλαιο 1. Εισαγωγή"
+msgstr ""
+
+#: el/introduction.html:36(b)
+msgid "Πίνακας Περιεχομένων"
+msgstr ""
+
+#: el/introduction.html:38(a)
+msgid "1. Καλώς ήρθατε στο GIMP"
+msgstr ""
+
+#: el/introduction.html:41(a)
+msgid "1.1. Συγγραφείς"
+msgstr ""
+
+#: el/introduction.html:42(a)
+msgid "1.2. Το σύστημα βοήθειας του GIMP"
+msgstr ""
+
+#: el/introduction.html:43(a)
+msgid "1.3. Χαρακτηριστικά και δυνατότητες"
+msgstr ""
+
+#: el/introduction.html:46(a)
+msgid "2. Τι είναι καινούργιο στο GIMP 2.6;"
+msgstr ""
+
+#: el/introduction.html:53(h2)
+msgid "<a id=\"introduction-gimp\"/>1. Καλώς ήρθατε στο GIMP"
+msgstr ""
+
+#: el/introduction.html:58(p)
+msgid "Το GIMP είναι ένα εργαλείο επεξεργασίας φωτογραφίας σε πολλές πλατφόρμες. Το GIMP είναι ένα ακρωνύμιο για GNU Image Manipulation Program (Πρόγραμμα επεξεργασίας Εικόνας). Το GIMP είναι κατάλληλο για ποικίλες λειτουργίες επεξεργασίας της εικόνας, συμπεριλαμβάνοντας επεξεργασία φωτογραφίας, σύνθεση εικόνας και δημιουργία εικόνας."
+msgstr ""
+
+#: el/introduction.html:64(p)
+msgid "Το GIMP έχει πολλές δυνατότητες. Μπορεί να χρησιμοποιηθεί ως ένα απλό πρόγραμμα σχεδίου, ως ένα πρόγραμμα επεξεργασίας φωτογραφίας υψηλής ποιότητας, ως ένα άμεσο σύστημα επεξεργασίας πολλαπλών εντολών, ως ένας μαζικός παραγωγός εικόνων, ως μετατροπέας μορφής εικόνας κλ."
+msgstr ""
+
+#: el/introduction.html:69(p)
+msgid "Το GIMP είναι επεκτάσιμο. Σχεδιάστηκε να αυξάνεται με πρόσθετα και επεκτάσεις, ώστε να κάνει σχεδόν τα πάντα. Η προχωρημένη διεπαφή καταγραφής επιτρέπει οτιδήποτε -από την πιο απλή εργασία, μέχρι τις πιο περίπλοκες διαδικασίες επεξεργασίας της εικόνας- να μπορεί εύκολα να γίνει σενάριο."
+msgstr ""
+
+#: el/introduction.html:74(p)
+msgid "Μια από τις δυνατότητες του GIMP είναι η ελεύθερη διαθεσιμότητά του από πολλές πηγές για πολλά λειτουργικά συστήματα. Οι περισσότερες GNU/<span class=\"application\">Linux</span> διανομές περιλαμβάνουν το GIMP ως ενσωματωμένη εφαρμογή. Το GIMP είναι επίσης διαθέσιμο για άλλα λειτουργικά συστήματα όπως <span class=\"productname\">Microsoft Windows</span>™ ή Apple <span class=\"productname\">Mac OS X</span>™ (<span class=\"application\">Darwin</span>). Το GIMP είναι μια εφαρμογή λογισμικού που καλύπτεται από την άδεια <a class=\"xref\" href=\"bibliography.html#bibliography-online-gpl\" title=\"General Public License (GPL)\">[<abbr class=\"abbrev\">GPL</abbr>]</a>. Η GPL επιτρέπει στους χρήστες ελευθερία πρόσβασης και αλλαγής του πηγαίου κώδικα που δημιουργεί προγράμματα υπολογιστών."
+msgstr ""
+
+#: el/introduction.html:89(h3)
+msgid "<a id=\"authors\"/>1.1. Συγγραφείς"
+msgstr ""
+
+#: el/introduction.html:93(p)
+msgid "Η πρώτη έκδοση του GIMP γράφτηκε από τους Peter Mattis και Spencer Kimball. Πολλοί άλλοι προγραμματιστές συνέβαλαν πιο πρόσφατα, και χιλιάδες υποστήριξαν και έλεγξαν. Οι εκδόσεις του GIMP ενορχηστρώνονται πρόσφατα από τους Sven Neumann και Mitch Natterer και τα άλλα μέλη της ομάδας GIMP."
+msgstr ""
+
+#: el/introduction.html:103(h3)
+msgid "<a id=\"introduction-help\"/>1.2. Το σύστημα βοήθειας του GIMP"
+msgstr ""
+
+#: el/introduction.html:107(p)
+msgid "Η ομάδα τεκμηρίωσης του GIMP και άλλοι χρήστες σας δίνουν τις απαραίτητες πληροφορίες για να γίνει κατανοητή η χρήση του GIMP. Το εγχειρίδιο χρήστη είναι ένα σημαντικό τμήμα αυτής της βοήθειας. Η τρέχουσα έκδοση είναι στον ιστότοπο της ομάδας τεκμηρίωσης <a class=\"xref\" href=\"bibliography.html#bibliography-online-gimp-docs\" title=\"&#x3A3;&#x3B5;&#x3BB;&#x3AF;&#x3B4;&#x3B1; &#x3C4;&#x3BF;&#x3C5; &#x3C3;&#x3C7;&#x3B5;&#x3B4;&#x3AF;&#x3BF;&#x3C5; &#x3C4;&#x3B5;&#x3BA;&#x3BC;&#x3B7;&#x3C1;&#x3AF;&#x3C9;&#x3C3;&#x3B7;&#x3C2; GIMP\">[<abbr class=\"abbrev\">GIMP-DOCS</abbr>]</a> σε HTML μορφή. Η HTML έκδοση είναι επίσης διαθέσιμη ως συμφραζόμενη βοήθεια (εάν την εγκαταστήσατε), ενώ χρησιμοποιείτε το GIMP πιέζοντας το <span class=\"keycap\"><strong>F1 </strong></span> πλήκτρο. Βοήθεια σε ειδικά αντικείμενα μενού είναι προσβάσιμη πατώντας το <span class=\"keycap\"><strong> F1</strong></span> πλήκτρο, ενώ ο δείκτης ποντικιού εστιάζει στο αντικείμενο του μενού. Συνεχίστε το διάβασμα για το ξεκίνημα του ταξιδιού του GIMP."
+msgstr ""
+
+#: el/introduction.html:123(h3)
+msgid "<a id=\"introduction-features\"/>1.3. Χαρακτηριστικά και δυνατότητες"
+msgstr ""
+
+#: el/introduction.html:127(p)
+msgid "Ο κατάλογος που ακολουθεί είναι μια μικρή επισκόπηση μερικών από τα χαρακτηριστικά και τις δυνατότητες που σου προσφέρει το GIMP:"
+msgstr ""
+
+#: el/introduction.html:134(p)
+msgid "Μια πλήρης σειρά εργαλείων ζωγραφικής που συμπεριλαμβάνει πινέλα, μολύβια, αερογράφο, κλωνοποίηση κλ."
+msgstr ""
+
+#: el/introduction.html:137(p)
+msgid "Τμηματική διαχείριση της μνήμης, έτσι ώστε το μέγεθος της εικόνας να περιορίζεται μόνο από το διαθέσιμο χώρο του δίσκου."
+msgstr ""
+
+#: el/introduction.html:143(p)
+msgid "Δειγματοληψία υποεικονοστοιχείου για όλα τα εργαλεία ζωγραφικής, ώστε να υπάρχει υψηλής ποιότητας εξομάλυνση"
+msgstr ""
+
+#: el/introduction.html:147(p)
+msgid "Πλήρης υποστήριξη άλφα καναλιού για εργασία με διαφάνεια"
+msgstr ""
+
+#: el/introduction.html:148(p)
+msgid "Στρώσεις και κανάλια"
+msgstr ""
+
+#: el/introduction.html:150(p)
+msgid "Μια διαδικαστική βάση δεδομένων για εσωτερική κλήση συναρτήσεων του GIMP από εξωτερικά προγράμματα, όπως Script-Fu"
+msgstr ""
+
+#: el/introduction.html:154(p)
+msgid "Προχωρημένες δυνατότητες σεναρίων"
+msgstr ""
+
+#: el/introduction.html:155(p)
+msgid "Πολλαπλές αναιρέσεις/επανεκτελέσεις (περιοριζόμενες μόνο από το χώρο του δίσκου)"
+msgstr ""
+
+#: el/introduction.html:156(p)
+msgid "Εργαλεία μετασχηματισμών που περιλαμβάνουν περιστροφή, κλιμάκωση, στρέβλωση και αναστροφή"
+msgstr ""
+
+#: el/introduction.html:158(p)
+msgid "Υποστήριξη για ένα μεγάλο εύρος μορφών αρχείων, που συμπεριλαμβάνει GIF, JPEG, PNG, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP και πολλά άλλα"
+msgstr ""
+
+#: el/introduction.html:163(p)
+msgid "Εργαλεία επιλογής όπως ορθογώνια, ελλείψεις, ελεύθερα, ασαφή, bezier και έξυπνα ψαλίδια"
+msgstr ""
+
+#: el/introduction.html:164(p)
+msgid "Πρόσθετα που επιτρέπουν την εύκολη προσθήκη νέων μορφών αρχείων και φίλτρων νέων εφέ."
+msgstr ""
+
+#: el/introduction.html:177(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/introduction.html:183(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/introduction.html:186(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/introduction.html:189(a)
+msgid "2. Τι είναι καινούργιο στο 2.6?"
+msgstr ""
+
+#: el/introduction.html:189(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

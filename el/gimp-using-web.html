@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>2. Προετοιμασία εικόνων για τον ιστό</title>
+<link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+<link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+<link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2" />
+<link rel="home" href="index.html" title="GNU Image Manipulation Program" />
+<link rel="up" href="gimp-images-out.html" title="Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP" />
+<link rel="prev" href="gimp-images-out.html" title="Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP" />
+<link rel="next" href="gimp-using-web-reducing-file-size.html" title="2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου" />
+</head>
+<body>
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr>
+<th colspan="3" align="center">2. Προετοιμασία εικόνων για τον ιστό</th>
+</tr>
+<tr>
+<td width="20%" align="left"><a accesskey="p" href="gimp-images-out.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<th width="60%" align="center">Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP</th>
+<td width="20%" align="right"> <a accesskey="n" href="gimp-using-web-reducing-file-size.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+</table>
+<hr />
+</div>
+<div class="sect1" title="2. Προετοιμασία εικόνων για τον ιστό">
+<div class="titlepage">
+<div>
+<div>
+<h2 class="title" style="clear: both"><a id="gimp-using-web"></a>2. Προετοιμασία εικόνων για τον ιστό</h2>
+</div>
+</div>
+</div>
+<a id="id3159484" class="indexterm"></a>
+<p>
+Μία από τις πιο κοινές χρήσεις του <acronym class="acronym">GIMP</acronym> είναι η προετοιμασία εικόνων για
+διαδικτυακούς τόπους. Αυτό σημαίνει ότι οι εικόνες θα πρέπει να δείχνουν όσο το δυνατό πιο ωραίες, ενώ το
+μέγεθος του αρχείου όσο το δυνατό πιο μικρό. Αυτός ο οδηγός σας δείχνει πώς να δημιουργήσετε μικρά αρχεία
+με ελάχιστη απώλεια ποιότητας της εικόνας
+</p>
+<div class="sect2" title="2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας">
+<div class="titlepage">
+<div>
+<div>
+<h3 class="title"><a id="gimp-using-web-size-vs-quality"></a>2.1. Εικόνες με βέλτιστη αναλογία μεγέθους/ποιότητας</h3>
+</div>
+</div>
+</div>
+<p>
+Μία άριστη εικόνα για τον ιστό εξαρτάται από τον τύπο της εικόνας και τη μορφή αρχείου.
+Χρησιμοποιείστε <a class="link" href="gimp-images-out.html#file-jpeg-save" title="1.2.2. Αποθήκευση ως JPEG">JPEG</a>
+για φωτογραφίες, επειδή συνήθως έχουν πολλά χρώματα και πολλή λεπτομέρεια. Μια εικόνα με πιο λίγα χρώματα,
+όπως ένα κουμπί, εικονίδιο ή στιγμιότυπο ταιριάζει καλύτερα στη μορφή
+<a class="link" href="gimp-images-out.html#file-png-load">PNG</a>.
+</p>
+<div class="procedure">
+<ol class="procedure" type="1">
+<li class="step" title="Βήμα 1">
+<p>
+Αρχικά, ανοίξτε την εικόνα όπως συνήθως. Άνοιξα τον Wilber ως παράδειγμα εικόνας.
+</p>
+<div class="figure">
+<a id="id3120064"></a>
+<p class="title">
+<b>Εικόνα 6.6. Η εικόνα του Wilber ανοιγμένη σε κατάσταση RGBA</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/using/preparing_for_web1.png" alt="Η εικόνα του Wilber ανοιγμένη σε κατάσταση RGBA" />
+</div>
+</div>
+</div>
+<br class="figure-break" />
+</li>
+<li class="step" title="Βήμα 2">
+<p>
+Η εικόνα είναι τώρα σε κατάσταση RGB, με ένα πρόσθετο <a class="link" href="glossary.html#glossary-alpha" title="Άλφα">άλφα κανάλι</a>
+(RGBA). Δεν υπάρχει συνήθως ανάγκη να έχουμε ένα άλφα κανάλι για την διαδικτυακή εικόνα σας. Μπορείτε να
+αφαιρέσετε το άλφα κανάλι με <a class="link" href="gimp-image-flatten.html" title="6.20. Ισοπέδωση εικόνας">ισοπέδωση εικόνας</a>.
+</p>
+<p>
+Μια φωτογραφία έχει σπάνια ένα κανάλι άλφα, έτσι η εικόνα θα ανοίξει σε κατάσταση RGB παρά σε κατάσταση RGBA
+και δεν θα έχετε να διώξετε το άλφα κανάλι.
+</p>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Εάν η εικόνα έχει μια ομαλή μετάβαση σε περιοχές διαφάνειας, δεν πρέπει να απομακρύνετε το άλφα κανάλι, επειδή
+η χρησιμοποιούμενη πληροφορία για τη μετάβαση δεν αποθηκεύεται στο αρχείο. Για αποθήκευση μιας εικόνας με
+διαφανείς περιοχές που δεν έχουν ομαλή μετάβαση, (όμοια με το
+<a class="link" href="gimp-images-out.html#file-gif-save" title="1.2.1. Αποθήκευση ως GIF">GIF</a>),
+απομακρύνετε το άλφα κανάλι.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="step" title="Βήμα 3">
+<p>
+Αφού ισοπεδώσετε την εικόνα,
+<a class="link" href="gimp-file-save.html" title="2.8. Αποθήκευση">αποθήκευση της εικόνας</a>
+σε <a class="link" href="gimp-images-out.html#file-png-save-defaults">μορφή PNG</a> για τον ιστότοπό σας.
+</p>
+</li>
+</ol>
+</div>
+<div class="note" title="Σημείωση" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25">
+<img alt="[Σημείωση]" src="images/note.png" />
+</td>
+<th align="left">Σημείωση</th>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p>
+Μπορείτε να αποθηκεύσετε την εικόνα σας σε μορφή PNG με τις προκαθορισμένες ρυθμίσεις. Πάντοτε χρησιμοποιείτε
+μέγιστη συμπίεση, όταν δημιουργείτε την εικόνα. Η μέγιστη συμπίεση δεν έχει κανένα αποτέλεσμα στην ποιότητα της
+εικόνας ή τον απαιτούμενο χρόνο για εμφάνιση της εικόνας, αλλά χρειάζεται περισσότερος χρόνος για αποθήκευση.
+Μία εικόνα <a class="link" href="gimp-images-out.html#file-jpeg-save" title="1.2.2. Αποθήκευση ως JPEG">JPEG</a>,
+όμως, χάνει ποιότητα καθώς αυξάνεται η συμπίεση.
+Εάν η εικόνα σας είναι μια φωτογραφία με πολλά χρώματα, θα πρέπει να χρησιμοποιήσετε jpeg. Το πιο βασικό είναι
+να βρείτε το καλύτερο ισοζύγιο μεταξύ ποιότητας και συμπίεσης. Μπορείτε να βρείτε περισσότερες πληροφορίες για
+αυτό το θέμα στο <a class="xref" href="gimp-images-out.html#file-jpeg-save" title="1.2.2. Αποθήκευση ως JPEG">Ενότητα  1.2.2, “Αποθήκευση ως JPEG”</a>.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="navfooter">
+<hr />
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left"><a accesskey="p" href="gimp-images-out.html"><img src="images/prev.png" alt="Προηγούμενο" /></a> </td>
+<td width="20%" align="center">
+<a accesskey="u" href="gimp-images-out.html">
+<img src="images/up.png" alt="Επάνω" />
+</a>
+</td>
+<td width="40%" align="right"> <a accesskey="n" href="gimp-using-web-reducing-file-size.html"><img src="images/next.png" alt="Επόμενο" /></a></td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-images-out.html">Κεφάλαιο 6. Εξαγωγή εικόνων από το GIMP</a> </td>
+<td width="20%" align="center">
+<a accesskey="h" href="index.html">
+<img src="images/home.png" alt="Αρχική σελίδα" />
+</a>
+</td>
+<td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-web-reducing-file-size.html">2.2. Επιπρόσθετη μείωση του μεγέθους αρχείου</a></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

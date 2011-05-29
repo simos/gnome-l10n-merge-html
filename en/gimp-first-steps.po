@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: en/gimp-first-steps.html:6(title) en/gimp-first-steps.html:21(th) en/gimp-first-steps.html:31(div:title)
+msgid "Chapter 3. First Steps with Wilber"
+msgstr ""
+
+#: en/gimp-first-steps.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: en/gimp-first-steps.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: en/gimp-first-steps.html:13(link:title) en/gimp-first-steps.html:25(th)
+msgid "Part I. Getting Started"
+msgstr ""
+
+#: en/gimp-first-steps.html:14(link:title) en/gimp-first-steps.html:381(a)
+msgid "2. Starting GIMP the first time"
+msgstr ""
+
+#: en/gimp-first-steps.html:15(link:title) en/gimp-first-steps.html:387(a)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/gimp-first-steps.html:24(img:alt) en/gimp-first-steps.html:372(img:alt)
+msgid "Prev"
+msgstr ""
+
+#: en/gimp-first-steps.html:24(td) en/gimp-first-steps.html:372(td)
+msgid "<a accesskey=\"p\" href=\"gimp-concepts-setup.html\"><img src=\"images/prev.png\" alt=\"Prev\"/></a> "
+msgstr ""
+
+#: en/gimp-first-steps.html:26(img:alt) en/gimp-first-steps.html:378(img:alt)
+msgid "Next"
+msgstr ""
+
+#: en/gimp-first-steps.html:26(td) en/gimp-first-steps.html:378(td)
+msgid " <a accesskey=\"n\" href=\"gimp-concepts-main-windows.html\"><img src=\"images/next.png\" alt=\"Next\"/></a>"
+msgstr ""
+
+#: en/gimp-first-steps.html:35(h2)
+msgid "<a id=\"gimp-first-steps\"/>Chapter 3. First Steps with Wilber"
+msgstr ""
+
+#: en/gimp-first-steps.html:41(b)
+msgid "Table of Contents"
+msgstr ""
+
+#: en/gimp-first-steps.html:46(a)
+msgid "1. Basic Concepts"
+msgstr ""
+
+#: en/gimp-first-steps.html:51(a)
+msgid "2. Main Windows"
+msgstr ""
+
+#: en/gimp-first-steps.html:58(a)
+msgid "2.1. The Toolbox"
+msgstr ""
+
+#: en/gimp-first-steps.html:63(a)
+msgid "2.2. Image Window"
+msgstr ""
+
+#: en/gimp-first-steps.html:68(a)
+msgid "2.3. Dialogs and Docking"
+msgstr ""
+
+#: en/gimp-first-steps.html:75(a)
+msgid "3. Undoing"
+msgstr ""
+
+#: en/gimp-first-steps.html:82(a)
+msgid "3.1. Things That Cannot be Undone"
+msgstr ""
+
+#: en/gimp-first-steps.html:89(a)
+msgid "4. GIMPLite Quickies"
+msgstr ""
+
+#: en/gimp-first-steps.html:96(a)
+msgid "4.1. Intention"
+msgstr ""
+
+#: en/gimp-first-steps.html:101(a)
+msgid "4.2. Change the Size of an Image (Scale)"
+msgstr ""
+
+#: en/gimp-first-steps.html:106(a)
+msgid "4.3. Make JPEGs Smaller"
+msgstr ""
+
+#: en/gimp-first-steps.html:111(a)
+msgid "4.4. Crop An Image"
+msgstr ""
+
+#: en/gimp-first-steps.html:116(a)
+msgid "4.5. Find Info About Your Image"
+msgstr ""
+
+#: en/gimp-first-steps.html:121(a)
+msgid "4.6. Change the Mode"
+msgstr ""
+
+#: en/gimp-first-steps.html:126(a)
+msgid "4.7. Flip An Image"
+msgstr ""
+
+#: en/gimp-first-steps.html:131(a)
+msgid "4.8. Rotate An Image"
+msgstr ""
+
+#: en/gimp-first-steps.html:138(a)
+msgid "5. How to Draw Straight Lines"
+msgstr ""
+
+#: en/gimp-first-steps.html:145(a)
+msgid "5.1. Intention"
+msgstr ""
+
+#: en/gimp-first-steps.html:150(a)
+msgid "5.2. Examples"
+msgstr ""
+
+#: en/gimp-first-steps.html:157(div:title)
+msgid "1. Basic Concepts"
+msgstr ""
+
+#: en/gimp-first-steps.html:161(h2)
+msgid "<a id=\"gimp-concepts-basic\"/>1. Basic Concepts"
+msgstr ""
+
+#: en/gimp-first-steps.html:169(b)
+msgid "Figure 3.1. Wilber, the GIMP mascot"
+msgstr ""
+
+#: en/gimp-first-steps.html:173(img:alt)
+msgid "Wilber, the GIMP mascot"
+msgstr ""
+
+#: en/gimp-first-steps.html:175(p)
+msgid "The Wilber_Construction_Kit (in src/images/) allows you to give the mascot a different appearance. It is the work of Tuomas Kuosmanen (tigertATgimp.org)."
+msgstr ""
+
+#: en/gimp-first-steps.html:185(p)
+msgid "This section provides a brief introduction to the basic concepts and terminology used in <acronym class=\"acronym\">GIMP</acronym>. The concepts presented here are explained in much greater depth elsewhere. With a few exceptions, we have avoided cluttering this section with a lot of links and cross-references: everything mentioned here is so high-level that you can easily locate it in the index."
+msgstr ""
+
+#: en/gimp-first-steps.html:197(span)
+msgid "Images"
+msgstr ""
+
+#: en/gimp-first-steps.html:200(p)
+msgid "Images are the basic entities used by <acronym class=\"acronym\">GIMP</acronym>. Roughly speaking, an <span class=\"quote\">“<span class=\"quote\">image</span>”</span> corresponds to a single file, such as a TIFF or JPEG file. You can also think of an image as corresponding to a single display window, but this is not quite correct: it is possible to have multiple windows all displaying the same image. It is not possible to have a single window display more than one image, though, or for an image to have no window displaying it."
+msgstr ""
+
+#: en/gimp-first-steps.html:210(p)
+msgid "A <acronym class=\"acronym\">GIMP</acronym> image may be quite a complicated thing. Instead of thinking of it as something like a sheet of paper with a picture on it, think of it as more like a book, whose pages are called <span class=\"quote\">“<span class=\"quote\">layers</span>”</span>. In addition to a stack of layers, a <acronym class=\"acronym\">GIMP</acronym> image may contain a selection mask, a set of channels, and a set of paths. In fact, <acronym class=\"acronym\">GIMP</acronym> provides a mechanism for attaching arbitrary pieces of data, called <span class=\"quote\">“<span class=\"quote\">parasites</span>”</span>, to an image."
+msgstr ""
+
+#: en/gimp-first-steps.html:220(p)
+msgid "In <acronym class=\"acronym\">GIMP</acronym>, it is possible to have many images open at the same time. Although large images may use many megabytes of memory, <acronym class=\"acronym\">GIMP</acronym> uses a sophisticated tile-based memory management system that allows <acronym class=\"acronym\">GIMP</acronym> to handle very large images gracefully. There are limits, however, and having more memory available may improve system performance."
+msgstr ""
+
+#: en/gimp-first-steps.html:231(span)
+msgid "Layers"
+msgstr ""
+
+#: en/gimp-first-steps.html:234(p)
+msgid "If an image is like a book, then a layer is like a page within the book. The simplest images contain only a single layer, and can be treated like single sheets of paper. Sophisticated <acronym class=\"acronym\">GIMP</acronym> users often deal with images containing many layers, even dozens of them. Layers need not be opaque, and they need not cover the entire extent of an image, so when you look at an image's display, you may see more than just the top layer: you may see elements of many layers."
+msgstr ""
+
+#: en/gimp-first-steps.html:246(span)
+msgid "Channels"
+msgstr ""
+
+#: en/gimp-first-steps.html:249(p)
+msgid "In <acronym class=\"acronym\">GIMP</acronym>, Channels are the smallest units of subdivision in the stack of layers from which the image is constructed. Every Channel in a layer has exactly the same size as the layer to which it belongs, and, consequently consists of the same number of pixels. Every pixel can be regarded as a container which can be filled with a value ranging from 0 to 255.The exact meaning of this value depends on the type of channel, e.g. in the <acronym class=\"acronym\">RGB</acronym> color model the value in the <span class=\"emphasis\"><em>R</em></span>-channel means the amount of red which is added to the color of the different pixels, in the selection channel, the value denotes how strongly the pixels are selected, and in the alpha channel the values denote how transparent the corresponding pixels are."
+msgstr ""
+
+#: en/gimp-first-steps.html:266(span)
+msgid "Selections"
+msgstr ""
+
+#: en/gimp-first-steps.html:269(p)
+msgid "Often when modify an image, you only want a part of the image to be affected. The <span class=\"quote\">“<span class=\"quote\">selection</span>”</span> mechanism makes this possible. Each image has its own selection, which you normally see as a moving dashed line separating the selected parts from the unselected parts (the so-called <span class=\"quote\">“<span class=\"quote\">marching ants</span>”</span> ). Actually this is a bit misleading: selection in <acronym class=\"acronym\">GIMP</acronym> is graded, not all-or-nothing, and really the selection is represented by a full-fledged grayscale channel. The dashed line that you normally see is simply a contour line at the 50%-selected level. At any time, though, you can visualize the selection channel in all its glorious detail by toggling the <a class=\"link\" href=\"gimp-image-window-qmask-button.html\" title=\"3.&#xA0;The QuickMask\">QuickMask</a> button."
+msgstr ""
+
+#: en/gimp-first-steps.html:285(p)
+msgid "A large component of learning how to use <acronym class=\"acronym\">GIMP</acronym> effectively is acquiring the art of making good selections—selections that contain exactly what you need and nothing more. Because selection-handling is so centrally important, <acronym class=\"acronym\">GIMP</acronym> provides many tools for doing it: an assortment of selection-making tools, a menu of selection operations, and the ability to switch to Quick Mask mode, in which you can treat the selection channel as though it were a color channel, thereby <span class=\"quote\">“<span class=\"quote\">painting the selection</span>”</span>."
+msgstr ""
+
+#: en/gimp-first-steps.html:298(span)
+msgid "Undoing"
+msgstr ""
+
+#: en/gimp-first-steps.html:301(p)
+msgid "When you make mistakes, you can undo them. Nearly everything you can do to an image is undoable. In fact, you can usually undo a substantial number of the most recent things you did, if you decide that they were misguided. <acronym class=\"acronym\">GIMP</acronym> makes this possible by keeping a history of your actions. This history consumes memory, though, so undoability is not infinite. Some actions use very little undo memory, so that you can do dozens of them before the earliest ones are deleted from this history; other types of actions require massive amounts of undo memory. You can configure the amount of memory <acronym class=\"acronym\">GIMP</acronym> allows for the undo history of each image, but in any situation, you should always be able to undo at least your 2-3 most recent actions. (The most important action that is not undoable is closing an image. For this reason, <acronym class=\"acronym\">GIMP</acronym> asks you to confirm that you really want to close the image if you have made any changes to it.)"
+msgstr ""
+
+#: en/gimp-first-steps.html:320(span)
+msgid "Plug-ins"
+msgstr ""
+
+#: en/gimp-first-steps.html:323(p)
+msgid "Many, probably most, of the things that you do to an image in <acronym class=\"acronym\">GIMP</acronym> are done by the <acronym class=\"acronym\">GIMP</acronym> application itself. However, <acronym class=\"acronym\">GIMP</acronym> also makes extensive use of <span class=\"quote\">“<span class=\"quote\">plug-ins</span>”</span>, which are external programs that interact very closely with <acronym class=\"acronym\">GIMP</acronym>, and are capable of manipulating images and other <acronym class=\"acronym\">GIMP</acronym> objects in very sophisticated ways. Many important plug-ins are bundled with <acronym class=\"acronym\">GIMP</acronym>, but there are also many available by other means. In fact, writing plug-ins (and scripts) is the easiest way for people not on the <acronym class=\"acronym\">GIMP</acronym> development team to add new capabilities to <acronym class=\"acronym\">GIMP</acronym>."
+msgstr ""
+
+#: en/gimp-first-steps.html:337(p)
+msgid "All of the commands in the Filters menu, and a substantial number of commands in other menus, are actually implemented as plug-ins."
+msgstr ""
+
+#: en/gimp-first-steps.html:343(span)
+msgid "Scripts"
+msgstr ""
+
+#: en/gimp-first-steps.html:346(p)
+msgid "In addition to plug-ins, which are programs written in the C language, <acronym class=\"acronym\">GIMP</acronym> can also make use of scripts. The largest number of existing scripts are written in a language called Script-Fu, which is unique to <acronym class=\"acronym\">GIMP</acronym> (for those who care, it is a dialect of the Lisp-like language called Scheme). It is also possible to write <acronym class=\"acronym\">GIMP</acronym> scripts in Python or Perl. These languages are more flexible and powerful than Script-Fu; their disadvantage is that they depend on software that does not automatically come packaged with <acronym class=\"acronym\">GIMP</acronym>, so they are not guaranteed to work correctly in every <acronym class=\"acronym\">GIMP</acronym> installation."
+msgstr ""
+
+#: en/gimp-first-steps.html:375(img:alt)
+msgid "Up"
+msgstr ""
+
+#: en/gimp-first-steps.html:381(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: en/gimp-first-steps.html:384(img:alt)
+msgid "Home"
+msgstr ""
+
+#: en/gimp-first-steps.html:387(td)
+msgid " <placeholder-1/>"
+msgstr ""
+

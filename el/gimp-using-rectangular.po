@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-05-29 13:05+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: el/gimp-using-rectangular.html:6(title) el/gimp-using-rectangular.html:21(th) el/gimp-using-rectangular.html:31(div:title)
+msgid "13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:10(link:title)
+msgid "gimp22"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:12(link:title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:13(link:title) el/gimp-using-rectangular.html:14(link:title) el/gimp-using-rectangular.html:25(th) el/gimp-using-rectangular.html:127(a)
+msgid "13. Σχεδίαση απλών αντικειμένων"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:15(link:title) el/gimp-using-rectangular.html:133(a)
+msgid "Κεφάλαιο 8. Συνδυασμός εικόνων"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:24(img:alt) el/gimp-using-rectangular.html:118(img:alt)
+msgid "Προηγούμενο"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:24(td) el/gimp-using-rectangular.html:118(td)
+msgid "<a accesskey=\"p\" href=\"gimp-using-simpleobjects.html\"><img src=\"images/prev.png\" alt=\"&#x3A0;&#x3C1;&#x3BF;&#x3B7;&#x3B3;&#x3BF;&#x3CD;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a> "
+msgstr ""
+
+#: el/gimp-using-rectangular.html:26(img:alt) el/gimp-using-rectangular.html:124(img:alt)
+msgid "Επόμενο"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:26(td) el/gimp-using-rectangular.html:124(td)
+msgid " <a accesskey=\"n\" href=\"gimp-image-combining.html\"><img src=\"images/next.png\" alt=\"&#x395;&#x3C0;&#x3CC;&#x3BC;&#x3B5;&#x3BD;&#x3BF;\"/></a>"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:35(h3)
+msgid "<a id=\"gimp-using-rectangular\"/>13.2. Δημιουργία βασικού σχήματος"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:41(li:title)
+msgid "Βήμα 1"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:42(p)
+msgid "Η σχεδίαση σχημάτων δεν είναι ο κύριος σκοπός του GIMP. Όμως, μπορείτε να δημιουργήσετε σχήματα είτε βάφοντας τα, χρησιμοποιώντας την τεχνική που περιγράφτηκε στην <a class=\"xref\" href=\"gimp-using-simpleobjects.html#gimp-using-straightline1\" title=\"&#x395;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#xA0;7.35.&#xA0;&#x39D;&#x3AD;&#x3B1; &#x3B5;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;\"> Εικόνα 7.35. “Νέα εικόνα”</a> ή χρησιμοποιώντας τα εργαλεία επιλογής. Φυσικά, υπάρχουν πολλοί άλλοι τρόποι να βάψετε ένα σχήμα, αλλά θα επιμείνουμε εδώ στους πιο απλούς. Έτσι, δημιουργείστε μια <a class=\"link\" href=\"gimp-file-new.html\" title=\"2.2.&#xA0;&#x39D;&#x3AD;&#x3B1;\"> νέα εικόνα</a> και ελέγξτε ότι <a class=\"link\" href=\"gimp-tools.html#gimp-toolbox-color-area\" title=\"1.3.1.&#xA0;&#x3A0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C7;&#x3AE; &#x3C7;&#x3C1;&#x3CE;&#x3BC;&#x3B1;&#x3C4;&#x3BF;&#x3C2;\"> τα χρώματα προσκηνίου και παρασκηνίου</a> είναι διαφορετικά."
+msgstr ""
+
+#: el/gimp-using-rectangular.html:53(li:title)
+msgid "Βήμα 2"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:56(b)
+msgid "Εικόνα 7.39. Δημιουργία ορθογώνιας επιλογής"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:59(img:alt)
+msgid "Δημιουργία ορθογώνιας επιλογής"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:61(p)
+msgid "Το στιγμιότυπο δείχνει τη δημιουργία ορθογώνιας επιλογής. Πατήστε και κρατήστε το αριστερό πλήκτρο του ποντικιού, ενώ μετακινείται το ποντίκι στην κατεύθυνση του κόκκινου τόξου."
+msgstr ""
+
+#: el/gimp-using-rectangular.html:70(p)
+msgid "Βασικά σχήματα όπως ορθογώνια ή ελλείψεις μπορούν να δημιουργηθούν χρησιμοποιώντας τα <a class=\"link\" href=\"gimp-tools-selection.html\" title=\"2.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3B1; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;&#x3C2;\">εργαλεία επιλογής</a>. Αυτό το μάθημα χρησιμοποιεί μια ορθογώνια επιλογή ως παράδειγμα. Έτσι, επιλέξτε το <a class=\"link\" href=\"gimp-tool-rect-select.html\" title=\"2.2.&#xA0;&#x39F;&#x3C1;&#x3B8;&#x3BF;&#x3B3;&#x3CE;&#x3BD;&#x3B9;&#x3B1; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;\">εργαλείο ορθογώνιας επιλογής</a> και δημιουργήστε μια νέα επιλογή: πατήστε και κρατήστε το πλήκτρο του αριστερού ποντικιού, ενώ μετακινείτε το ποντίκι σε άλλη θέση της εικόνας (απεικονιζόμενη στην εικόνα <a class=\"xref\" href=\"gimp-using-rectangular.html#gimp-using-basicshape1\" title=\"&#x395;&#x3B9;&#x3BA;&#x3CC;&#x3BD;&#x3B1;&#xA0;7.39.&#xA0;&#x394;&#x3B7;&#x3BC;&#x3B9;&#x3BF;&#x3C5;&#x3C1;&#x3B3;&#x3AF;&#x3B1; &#x3BF;&#x3C1;&#x3B8;&#x3BF;&#x3B3;&#x3CE;&#x3BD;&#x3B9;&#x3B1;&#x3C2; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;&#x3C2;\">Εικόνα 7.39, “Δημιουργία ορθογώνιας επιλογής”</a>). Η επιλογή δημιουργείται, όταν ελευθερώνεται το πλήκτρο του ποντικιού. Για περισσότερες πληροφορίες για τα τροποποιητικά πλήκτρα δείτε <a class=\"link\" href=\"gimp-tools-selection.html\" title=\"2.&#xA0;&#x395;&#x3C1;&#x3B3;&#x3B1;&#x3BB;&#x3B5;&#x3AF;&#x3B1; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;&#x3C2;\">εργαλεία επιλογής</a>."
+msgstr ""
+
+#: el/gimp-using-rectangular.html:83(li:title)
+msgid "Βήμα 3"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:86(b)
+msgid "Εικόνα 7.40. Ορθογώνια επιλογή γεμάτη με χρώμα προσκηνίου"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:89(img:alt)
+msgid "Ορθογώνια επιλογή γεμάτη με χρώμα προσκηνίου"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:91(p)
+msgid "Αυτό το στιγμιότυπο δείχνει μια ορθογώνια επιλογή γεμάτη με το χρώμα προσκηνίου."
+msgstr ""
+
+#: el/gimp-using-rectangular.html:99(p)
+msgid "Μετά τη δημιουργία της επιλογής, μπορείτε να δημιουργήσετε ένα σχήμα είτε γεμάτο είτε περιγραμμένο με το επιθυμητό χρώμα προσκηνίου. Εάν διαλέξετε την πρώτη επιλογή, επιλέξτε <a class=\"link\" href=\"gimp-tools.html#gimp-toolbox-color-area\" title=\"1.3.1.&#xA0;&#x3A7;&#x3C1;&#x3CE;&#x3BC;&#x3B1; &#x3C0;&#x3B5;&#x3C1;&#x3B9;&#x3BF;&#x3C7;&#x3AE;&#x3C2;\">χρώμα προσκηνίου</a> και γεμίστε την επιλογή με το <a class=\"link\" href=\"gimp-tool-bucket-fill.html\" title=\"3.3.&#xA0;&#x393;&#x3AD;&#x3BC;&#x3B9;&#x3C3;&#x3BC;&#x3B1; &#x3BA;&#x3AC;&#x3B4;&#x3BF;&#x3C5;\">εργαλείο γεμίσματος κάδου</a>. Εάν επιλέξετε την δεύτερη επιλογή, δημιουργείστε ένα περίγραμμα χρησιμοποιώντας το στοιχείο μενού <a class=\"link\" href=\"gimp-selection-stroke.html\" title=\"3.17.&#xA0;&#x392;&#x3AC;&#x3C8;&#x3B9;&#x3BC;&#x3BF; &#x3B5;&#x3C0;&#x3B9;&#x3BB;&#x3BF;&#x3B3;&#x3AE;&#x3C2;\">βάψιμο επιλογής</a> από το μενού <span class=\"guimenu\">Επεξεργασία</span>. Εάν σας αρέσει το αποτέλεσμα, <a class=\"link\" href=\"gimp-selection-none.html\" title=\"4.3.&#xA0;&#x39A;&#x3B1;&#x3BC;&#x3AF;&#x3B1;\">διώξτε την επιλογή</a>."
+msgstr ""
+
+#: el/gimp-using-rectangular.html:121(img:alt)
+msgid "Επάνω"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:127(td)
+msgid "<placeholder-1/> "
+msgstr ""
+
+#: el/gimp-using-rectangular.html:130(img:alt)
+msgid "Αρχική σελίδα"
+msgstr ""
+
+#: el/gimp-using-rectangular.html:133(td)
+msgid " <placeholder-1/>"
+msgstr ""
+
